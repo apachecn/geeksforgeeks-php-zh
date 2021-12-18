@@ -8,13 +8,13 @@ DATE_ISODATE_SET()函数是 PHP 中的一个内置函数，用于设置 ISO(国�
 
 *   **process style:**
 
-    ```
+    ```php
     date_isodate_set ( $object, $year, $week, $day )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     DateTime::setISODate ( $year, $week, $day )
     ```
 
@@ -31,7 +31,7 @@ DATE_ISODATE_SET()函数是 PHP 中的一个内置函数，用于设置 ISO(国�
 
 **程序 1：**
 
-```
+```php
 <?php
 $date = date_create();
 
@@ -51,7 +51,7 @@ echo date_format($date, 'Y-m-d');
 
 **输出：**
 
-```
+```php
 2018-02-26
 2018-03-07
 2018-04-10
@@ -61,7 +61,7 @@ echo date_format($date, 'Y-m-d');
 
 **程序 2：**
 
-```
+```php
 <?php
 $date = new DateTime();
 
@@ -75,7 +75,7 @@ echo $date->format('Y-m-d') . "\n";
 
 **输出：**
 
-```
+```php
 08-08-0017
 2018-02-03
 

@@ -5,7 +5,7 @@
 PHP 中的**vprint intf()函数**是一个内置函数，用于将数组值显示为格式化字符串。 数组元素将插入到主字符串中的百分号(%)处。 根据格式将数组值显示为格式化字符串，并接受数组参数代替可变数量的参数。 函数**返回格式化字符串**。 而[vprintf()](https://www.geeksforgeeks.org/php-vprintf-function/)输出格式化字符串
 **语法：**
 
-```
+```php
  vsprintf (format, arr_arguments)
 ```
 
@@ -40,7 +40,7 @@ PHP 中的**vprint intf()函数**是一个内置函数，用于将数组值显�
 
 ## PHP
 
-```
+```php
 <?php
 $str1 = "Geeks";
 $str2 = "Geeksforgeeksarticle";
@@ -95,7 +95,7 @@ echo vsprintf("%030s", array(
 
 **Output:** 
 
-```
+```php
 Geeks
           Geeks
 Geeks                    

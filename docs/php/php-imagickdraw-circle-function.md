@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::circle( $ox, $oy, $px, $py )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // require_once('vendor/autoload.php');

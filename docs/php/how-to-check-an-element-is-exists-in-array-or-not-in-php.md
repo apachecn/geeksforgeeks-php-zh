@@ -6,7 +6,7 @@
 
 **方法 1(使用**[**in _ array()**](https://www.geeksforgeeks.org/php-in_array-function/)**方法):**可以使用 [array()](https://www.geeksforgeeks.org/php-arrays/) 方法声明一个数组。PHP 中的 **in_array()** 方法用于检查数组中是否存在元素。该方法返回*真*或*假*，这取决于该元素是否存在于数组中。
 
-```
+```php
 in_array(element , array)
 ```
 
@@ -19,7 +19,7 @@ in_array(element , array)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array object 
@@ -41,7 +41,7 @@ if(in_array($ele, $arr)){
 
 **输出:**
 
-```
+```php
 Original Array:
 ["Hello","GEEKs","User","PHP"]
 GEEKs - Element found.
@@ -53,7 +53,7 @@ GEEKs - Element found.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array object 
@@ -86,7 +86,7 @@ else{
 
 **输出:**
 
-```
+```php
 Original Array
 [1, 3, 5, 6]
 5 - Element found.

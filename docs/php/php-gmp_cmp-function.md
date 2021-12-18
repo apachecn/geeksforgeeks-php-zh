@@ -6,7 +6,7 @@ Gmp()是 PHP 中的一个内置函数，用于比较两个 GMP 数字([GNU Multi
 
 **语法：**
 
-```
+```php
 gmp_cmp($num1, $num2)
 ```
 
@@ -16,7 +16,7 @@ gmp_cmp($num1, $num2)
 
 例如：
 
-```
+```php
 Input : gmp_cmp("1234", "1236")
 Output : -1
 
@@ -29,7 +29,7 @@ Output : 0
 
 **程序 1：**当两个 GMP 编号作为数字字符串传递时，比较它们的程序。
 
-```
+```php
 <?php
 // PHP program to compare two
 // GMP numbers passed as arguments 
@@ -49,13 +49,13 @@ echo $res;
 
 产出：
 
-```
+```php
 0
 ```
 
 **程序 2：**当两个 GMP 编号作为参数传递时，比较两个 GMP 编号的程序。
 
-```
+```php
 <?php
 
 // PHP program to compare two
@@ -75,7 +75,7 @@ echo $res;
 
 产出：
 
-```
+```php
 -1
 
 ```

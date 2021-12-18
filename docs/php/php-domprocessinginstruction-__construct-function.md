@@ -5,7 +5,7 @@
 **DOMProcessingInstruction：：__Construct()函数**是 PHP 中的一个内置函数，它使用一个新的只读 DOMProcessingInstruction 对象。 要创建可写节点，请使用 DOMDocument：：createProcessingInstruction.。
 **语法：**
 
-```
+```php
 *public* DOMProcessingInstruction::__construct( *string* $name, *string* $value )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -51,7 +51,7 @@ echo $dom->saveXML();
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

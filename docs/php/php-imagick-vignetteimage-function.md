@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool Imagick::vignetteImage( $blackPoint, $whitePoint, $x, $y )
 
 ```
@@ -26,7 +26,7 @@ bool Imagick::vignetteImage( $blackPoint, $whitePoint, $x, $y )
 
 **程序：**
 
-```
+```php
 <?php 
 // require_once('path/vendor/autoload.php'); 
 

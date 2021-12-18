@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::annotateimage( $GmagickDraw, $x, $y, $angle, 
 $text )
 ```
@@ -25,7 +25,7 @@ $text )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 /* Create some objects */
@@ -62,7 +62,7 @@ echo $image;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 /* Create some objects */

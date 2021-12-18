@@ -8,7 +8,7 @@ PHP 中的 FILE_PUT_CONTENTS()函数是一个内置函数，用于将字符串�
 
 **语法：**
 
-```
+```php
 file_put_contents($file, $data, $mode, $context)
 ```
 
@@ -28,7 +28,7 @@ file_put_contents($file, $data, $mode, $context)
 
 例如：
 
-```
+```php
 Input : file_put_contents("gfg.txt", "A computer 
                      science portal for geeks!");
 Output : 36
@@ -45,7 +45,7 @@ Output : 36
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // writing content on gfg.txt
@@ -56,13 +56,13 @@ echo file_put_contents("gfg.txt", "A computer 
 
 产出：
 
-```
+```php
 36
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 $file_pointer = 'gfg.txt';
@@ -81,7 +81,7 @@ file_put_contents($file_pointer, $open);
 
 产出：
 
-```
+```php
 36
 ```
 

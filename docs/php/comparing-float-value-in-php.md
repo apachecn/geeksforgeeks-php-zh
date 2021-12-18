@@ -6,7 +6,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare valuable and initialize it
@@ -26,7 +26,7 @@ else {
 
 **Output:** 
 
-```
+```php
 False
 ```
 
@@ -39,7 +39,7 @@ False
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to compare floating values
 
@@ -62,7 +62,7 @@ else {
 
 **Output:** 
 
-```
+```php
 True
 ```
 
@@ -72,7 +72,7 @@ True
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to compare floating values
 
@@ -90,6 +90,6 @@ var_dump(round($value1, 2) == round($value2, 2));
 
 **Output:** 
 
-```
+```php
 bool(true)
 ```

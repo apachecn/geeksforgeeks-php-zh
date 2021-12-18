@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::readimage( *string* $filename )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1(从文件夹读取图像)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,7 +43,7 @@ echo $gmagick;  
 
 **程序 2(读后编辑图像)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

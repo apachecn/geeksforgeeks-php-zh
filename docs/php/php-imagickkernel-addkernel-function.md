@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* ImagickKernel::addKernel( *ImagickKernel* $ImagickKernel )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -58,7 +58,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -109,7 +109,7 @@ echo count($kernelList);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Total number of attached kernels are: 4
 ```
 

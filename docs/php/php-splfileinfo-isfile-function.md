@@ -6,7 +6,7 @@ SplFileInfo：：isFile()函数是 PHP 标准 PHP 库(SPL)的内置函数，用�
 
 **语法：**
 
-```
+```php
 *bool* SplFileInfo::isFile( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：isFile()函数是 PHP 标准 PHP 库(SPL)的内置函数，用�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -44,7 +44,7 @@ var_dump($gfg);
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // PHP program to use array to check 

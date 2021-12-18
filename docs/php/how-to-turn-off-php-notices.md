@@ -4,7 +4,7 @@
 
 在 PHP 中，**notice**是 PHP 项目中一组行或特定行上指示的未定义变量。它通常不会影响或破坏编写的代码的功能。当 PHP 注意到检测到错误时，它将显示如下:
 
-```
+```php
 PHP Notice: Use of undefined constant name - assumed 'name' in line number
 ```
 
@@ -19,7 +19,7 @@ PHP 编辑不同于它的版本。因此，关闭 PHP 通知的方法如下:
 
 **方法 2:** 要关闭通知，可以在 PHP 文件的代码开头添加一行代码。例如**gfg.php**T4】下面的代码看起来像这样
 
-```
+```php
 <?php
 
 // Open a file
@@ -46,11 +46,11 @@ fclose($file);
 
 在代码的开头添加这一行:
 
-```
+```php
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 ```
 
-```
+```php
 <?php
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE); 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* DOMDocument::loadXML( *string* $source, *int* $options = 0 )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -46,7 +46,7 @@ echo $doc->saveHTML();
 
 **输出：**
 
-```
+```php
 <user> 
     <username>Geeks123</username> 
     <name>GeeksforGeeks</name>  
@@ -60,7 +60,7 @@ echo $doc->saveHTML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new DOMDocument
@@ -100,7 +100,7 @@ echo $doc->saveHTML();
 
 **输出：**
 
-```
+```php
 <!--Starting of XML document-->
 <user> 
     <username>Geeks123</username> 

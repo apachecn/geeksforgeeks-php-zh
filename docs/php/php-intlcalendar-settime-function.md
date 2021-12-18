@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* IntlCalendar::setTime( *float* $date )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_set_time( *IntlCalendar* $cal, *float* $date )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the date timezone
@@ -58,7 +58,7 @@ echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL);
 
 **输出：**
 
-```
+```php
 Thursday, March 21, 2019 at 9:19:29 AM India Standard Time
 Sunday, September 22, 2019 at 10:30:34 AM India Standard Time
 Thursday, January 1, 1970 at 5:30:00 AM India Standard Time

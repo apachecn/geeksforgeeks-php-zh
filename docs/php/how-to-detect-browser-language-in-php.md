@@ -8,20 +8,20 @@
 
 **语法:**
 
-```
+```php
 $_SERVER['HTTP_ACCEPT_LANGUAGE']
 ```
 
 **我们可以看到如下输出:**
 
-```
+```php
 en-US, en;q=0.9, hi;q=0.8, fr;q=0.7
 ```
 
 **示例 1:**
 为了获取浏览器的当前语言，我们可以使用 PHP 内置的 [substr](https://www.geeksforgeeks.org/php-substr-function/) 函数来获取字符串的前两个字母，如-
 
-```
+```php
 <?php
 
    echo substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -31,7 +31,7 @@ en-US, en;q=0.9, hi;q=0.8, fr;q=0.7
 
 运行上述程序后，您将看到作为当前浏览器语言的输出–
 
-```
+```php
 en
 ```
 
@@ -43,7 +43,7 @@ en
 
 **示例 2:** 如果你的网站有不同语言的**不同页面**，你可以使用这个方法，以便**根据用户浏览器的语言将**重定向到该页面。
 
-```
+```php
 <?php
 
    $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -57,6 +57,6 @@ en
 
 上述程序将重定向到如下链接
 
-```
+```php
 http://www.example.com/en/index.php
 ```

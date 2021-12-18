@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Gmagick::getfilename( *void* )
 ```
 
@@ -22,7 +22,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**Gmagick：：getfilename()函数**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,13 +37,13 @@ echo $filename;  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will give empty string which is default name for all images.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -61,7 +61,7 @@ echo $filename;  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 geeksforgeeks.png
 ```
 

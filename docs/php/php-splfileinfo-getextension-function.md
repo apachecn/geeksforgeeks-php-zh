@@ -6,7 +6,7 @@ SplFileInfo：：getExtension()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **语法：**
 
-```
+```php
 *string* SplFileInfo::getExtension( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getExtension()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -34,14 +34,14 @@ echo $file->getExtension();
 
 **Output:**
 
-```
+```php
 php
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check
@@ -66,7 +66,7 @@ foreach ($GFG as &$file_name) {
 
 **Output:**
 
-```
+```php
 php
 txt
 php

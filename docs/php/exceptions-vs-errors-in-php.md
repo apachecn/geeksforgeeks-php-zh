@@ -5,13 +5,13 @@
 **错误:**错误是一个意外的程序结果，程序本身无法处理。这可以通过手动使用代码中的问题来解决。错误可能是程序本身无法处理的无限循环，因此您必须手动修复该问题。有一个处理错误的简单程序，即使用**模具()**功能。
 **语法:**
 
-```
+```php
 die("message")
 ```
 
 **程序:**
 
-```
+```php
 <?php
 
 // Open file in read mode
@@ -30,7 +30,7 @@ else {
 
 **输出:**
 
-```
+```php
 Sorry Error!! file does not exists
 
 ```
@@ -39,7 +39,7 @@ Sorry Error!! file does not exists
 
 **语法:**
 
-```
+```php
 try {
 
 }
@@ -51,7 +51,7 @@ catch {
 
 **程序:**
 
-```
+```php
 <?php
 
 function valid_division($x, $y) {
@@ -84,7 +84,7 @@ catch(Exception $e) {
 
 **输出:**
 
-```
+```php
 Error
 Why should not be equal to 0
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::commentImage( $comment )
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![](img/efa5ea8e0258291fa60ad9a32c288072.png)
 
-```
+```php
 <?php 
 // require_once('vendor/autoload.php');
 
@@ -39,7 +39,7 @@ echo $image->getImageProperty("comment");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 
@@ -47,7 +47,7 @@ GeeksforGeeks
 **Gmagick 函数创建的图像：**
 ![](img/112822c4852515d821106cc2ba5aa0b5.png)
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 
@@ -86,7 +86,7 @@ echo $im->getImageProperty("comment");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 G4G
 ```
 

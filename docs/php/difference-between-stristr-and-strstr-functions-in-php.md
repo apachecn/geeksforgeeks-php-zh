@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 strstr(string, search, before_search)
 ```
 
@@ -22,7 +22,7 @@ strstr(string, search, before_search)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $asciich = 101;
 
@@ -33,7 +33,7 @@ echo strstr("GeeksforGeeks!", $asciich);
 
 **Output**
 
-```
+```php
 eeksforGeeks!
 ```
 
@@ -41,7 +41,7 @@ eeksforGeeks!
 
 ## PHP
 
-```
+```php
 <?php
 
 $find = "GeEks";
@@ -57,7 +57,7 @@ echo strstr("Here is geeks for GeEks!", $find, true);
 
 **输出:**
 
-```
+```php
 String after the first occurrence : GeEks!
 String before the first occurrence : Here is geeks for
 ```
@@ -66,7 +66,7 @@ String before the first occurrence : Here is geeks for
 
 **语法:**
 
-```
+```php
 stristr(string, search, before_search)
 ```
 
@@ -80,7 +80,7 @@ stristr(string, search, before_search)
 
 ## PHP
 
-```
+```php
 <?php
 
 $find = "GEEKS";
@@ -96,7 +96,7 @@ echo stristr("Here is geeks for geeks!", $find, true);
 
 **输出:**
 
-```
+```php
 String after the first occurrence : geeks for geeks!
 String before the first occurrence : Here is
 ```

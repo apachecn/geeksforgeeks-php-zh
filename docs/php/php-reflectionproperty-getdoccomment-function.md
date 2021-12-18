@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionProperty::getDocComment ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的 ReflectionProperty：：getDocComment()函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -50,7 +50,7 @@ var_dump($D);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(63) "/**
      * @Below is the Size of GeeksforGeeks String
      */"
@@ -62,7 +62,7 @@ string(53) "/**
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -107,7 +107,7 @@ var_dump($F);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(52) "/**
      * @Below is the Size of HR String
      */"

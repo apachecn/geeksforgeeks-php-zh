@@ -6,7 +6,7 @@
 为了更好地理解任务，这里举几个例子。
 **例:**
 
-```
+```php
 Input :1234567
 Output :01234567
 
@@ -22,7 +22,7 @@ Output :00001234
 **使用 sprintf()函数:**sprintf()函数用于返回格式化的字符串。
 **语法:**
 
-```
+```php
 sprintf(format, $variable)
 // Returns the variable formated according to the format provided. 
 ```
@@ -31,7 +31,7 @@ sprintf(format, $variable)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $var = 1234567;
 echo sprintf('%08d', $var);
@@ -40,7 +40,7 @@ echo sprintf('%08d', $var);
 
 *   **输出:**
 
-```
+```php
 01234567
 ```
 
@@ -48,7 +48,7 @@ echo sprintf('%08d', $var);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $var1 = -10;
 $var2 = 10;
@@ -59,7 +59,7 @@ echo sprintf('%04s', $var2);
 
 *   **输出:**
 
-```
+```php
 0-10
 0010
 ```
@@ -69,7 +69,7 @@ echo sprintf('%04s', $var2);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $var1 = -10;
 $var2 = 10;
@@ -80,7 +80,7 @@ echo sprintf('%04d', $var2);
 
 *   **输出:**
 
-```
+```php
 -010
 0010
 ```
@@ -88,7 +88,7 @@ echo sprintf('%04d', $var2);
 **使用 substr()函数:**该函数用于返回字符串的一部分。
 **语法:**
 
-```
+```php
 substr( string $string , int $start, int $length )
 // Returns the portion of string that define at start and length of the parameter. 
 ```
@@ -97,7 +97,7 @@ substr( string $string , int $start, int $length )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $num = 123;
 $str_length = 4;
@@ -110,6 +110,6 @@ echo sprintf($str);
 
 **输出:**
 
-```
+```php
 0123
 ```

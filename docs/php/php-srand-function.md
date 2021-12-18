@@ -8,7 +8,7 @@ PHP 中的 srand()函数用于为随机数生成器 rand()设定种子。 函数
 
 **语法：**
 
-```
+```php
 srand($seed)
 ```
 
@@ -18,7 +18,7 @@ srand($seed)
 
 例如：
 
-```
+```php
 Input : srand(time());
 Output : 1793542495
 
@@ -31,7 +31,7 @@ Output : 3
 
 1.  When timestamp is used as the $seed value along with srand() function:
 
-    ```
+    ```php
     <?php
 
     srand(time());
@@ -43,13 +43,13 @@ Output : 3
 
     产出：
 
-    ```
+    ```php
     1793542495
     ```
 
 2.  When a user-defined seed value is passed as an argument with srand() function:
 
-    ```
+    ```php
     <?php
 
     srand(5); 
@@ -61,7 +61,7 @@ Output : 3
 
     产出：
 
-    ```
+    ```php
     3
     ```
 

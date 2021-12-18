@@ -6,7 +6,7 @@ GET_DEFINED_vars()函数是 PHP 中的一个内置函数，用于返回所有已
 
 **语法：**
 
-```
+```php
 array get_defined_vars( void )
 ```
 
@@ -18,7 +18,7 @@ array get_defined_vars( void )
 
 **程序：**
 
-```
+```php
 <?php
 
 // Declare an array and initialize it
@@ -34,7 +34,7 @@ print_r($a);
 
 **输出：**
 
-```
+```php
 Array
 (
     [_GET] => Array

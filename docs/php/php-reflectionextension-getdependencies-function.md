@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionExtension::getDependencies( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -40,7 +40,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 array(2) {
   ["libxml"]=>
   string(8) "Required"
@@ -52,7 +52,7 @@ array(2) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -69,7 +69,7 @@ var_dump($extension->getDependencies());
 
 **输出：**
 
-```
+```php
 array(1) {
   ["libxml"]=>
   string(8) "Required"

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* ReflectionClass::getConstant( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declaring a class named as Department
@@ -44,14 +44,14 @@ print_r($a);
 
 **输出：**
 
-```
+```php
 CSE
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declaring a class named as Company
@@ -81,7 +81,7 @@ print_r($A->getConstant('Third'));
 
 **输出：**
 
-```
+```php
 GeeksforGeeks
 GFG
 gfg

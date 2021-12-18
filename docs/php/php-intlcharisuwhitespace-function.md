@@ -5,7 +5,7 @@
 **IntlChar：：isUWhiteSpace()**函数是 PHP 中的内置函数，用于检查给定的输入字符是否为空白 Unicode 字符。 IntlChar 访问数字实用程序函数，并用于访问有关 Unicode 字符的信息。
 **语法：**和
 
-```
+```php
 *bool* IntlChar::isUWhiteSpace( $codepoint )
 ```
 
@@ -16,7 +16,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isUWhiteSpace()
 // function
@@ -37,7 +37,7 @@ var_dump(IntlChar::isUWhiteSpace("\u{00B0}"));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(false)
 NULL
 bool(true)
@@ -48,7 +48,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to IntlChar::isUWhiteSpace()
 // function
@@ -67,7 +67,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 NULL
 bool(true)
 bool(false)

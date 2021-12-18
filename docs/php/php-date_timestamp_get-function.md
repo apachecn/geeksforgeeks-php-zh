@@ -8,13 +8,13 @@ DATE_TIMESTAMP_GET()函数是 PHP 中的一个内置函数，用于获取 Unix �
 
 *   **process style:**
 
-    ```
+    ```php
     int date_timestamp_get( $object )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     int DateTime::getTimestamp( void )
     int DateTimeImmutable::getTimestamp( void )
     int DateTimeInterface::getTimestamp( void )
@@ -28,7 +28,7 @@ DATE_TIMESTAMP_GET()函数是 PHP 中的一个内置函数，用于获取 Unix �
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -41,14 +41,14 @@ echo date_timestamp_get($date);
 
 **输出：**
 
-```
+```php
 1537162804
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -61,7 +61,7 @@ echo $date->getTimestamp();
 
 **输出：**
 
-```
+```php
 1537162805
 
 ```

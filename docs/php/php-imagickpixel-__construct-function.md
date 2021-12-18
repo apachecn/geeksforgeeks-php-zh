@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::__construct( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object using __construct
@@ -37,13 +37,13 @@ echo print_r($imagickPixel->getColorValue(Imagick::COLOR_ALPHA));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.61
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object using __construct
@@ -57,13 +57,13 @@ echo $imagickPixel->getColorAsString();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 srgb(65, 191, 99)
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object using __construct

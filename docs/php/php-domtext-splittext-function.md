@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMText* DOMText::splitText( *int* $offset )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create the text Node
@@ -34,7 +34,7 @@ echo $splitedtext->nodeValue;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

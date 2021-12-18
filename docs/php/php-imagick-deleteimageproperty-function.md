@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::deleteImageProperty( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

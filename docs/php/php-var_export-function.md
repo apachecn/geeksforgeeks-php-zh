@@ -5,7 +5,7 @@
 Var_export()是 PHP 中的一个内置函数，用于返回作为参数传递给此函数的变量的结构化值(信息)。 此函数类似于[var_dump()函数](https://www.geeksforgeeks.org/php-var_dump-function/)。
 **语法**：
 
-```
+```php
 var_export($var, $return)
 ```
 
@@ -20,7 +20,7 @@ var_export($var, $return)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate
 // the var_export() function
@@ -36,7 +36,7 @@ echo $res;
 
 输出：0
 
-```
+```php
 '11.89'
 ```
 
@@ -44,7 +44,7 @@ echo $res;
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate
 // the var_export() function
@@ -60,7 +60,7 @@ echo $res ;
 
 输出：0
 
-```
+```php
 11.99
 ```
 

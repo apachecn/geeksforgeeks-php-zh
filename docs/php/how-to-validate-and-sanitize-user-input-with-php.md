@@ -9,7 +9,7 @@
 
 假设黑客在**【用户名】**输入框输入‘5 = 5’，然后提交数据。条件“5=5”总是正确的。因此，在按下**“提交”**按钮后将执行的 SQL 命令将是
 
-```
+```php
 SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 ```
 
@@ -22,7 +22,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
 1.  **String Sanitization – FILTER_SANITIZE_STRING:** This removes all the HTML tags from a string. This will sanitize the input string, and block any HTML tag from entering into the database.
 
-    ```
+    ```php
     <?php
     $geeks= "<h1>GeeksforGeeks Portal</h1>";
     $newgeeks = filter_var($geeks, FILTER_SANITIZE_STRING);
@@ -32,7 +32,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
     **输出:**
 
-    ```
+    ```php
     GeeksforGeeks Portal
     ```
 
@@ -41,7 +41,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
 2.  **IP Address Validation – FILTER_VALIDATE_IP:** This filter checks whether the IP address is valid or not.
 
-    ```
+    ```php
     <?php
     $ipaddr = "126.0.0.5";
 
@@ -55,7 +55,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
     **输出:**
 
-    ```
+    ```php
     Valid IP-address
     ```
 
@@ -64,7 +64,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
 3.  **Integer Sanitization – FILTER_VALIDATE_INT:** This filter checks whether a variable is an integer or not.
 
-    ```
+    ```php
     <?php
     $num = 500;
 
@@ -78,7 +78,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
     **输出:**
 
-    ```
+    ```php
     Valid
     ```
 
@@ -87,7 +87,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
 4.  **Email ID Validation – FILTER_SANITIZE_EMAIL and FILTER_VALIDATE_EMAIL:** This filter first removes all the illegal characters from the email and then checks whether the format is valid or not.
 
-    ```
+    ```php
     <?php
     $em = "career@geeksforgeeks.com";
 
@@ -105,7 +105,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
     **输出:**
 
-    ```
+    ```php
     career@geeksforgeeks.com is valid
     ```
 
@@ -114,7 +114,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
 5.  **URL Validation – FILTER_SANITIZE_URL:** Like the email filter, this filter also first removes all the illegal characters from the URL and then checks whether the format is valid or not.
 
-    ```
+    ```php
     <?php
     $url = "https://www.geeksforgeeks.com";
 
@@ -132,7 +132,7 @@ SELECT * FROM registration WHERE UserId = 105 OR 1=1;
 
     **输出:**
 
-    ```
+    ```php
     https://www.geeksforgeeks.com is valid
     ```
 

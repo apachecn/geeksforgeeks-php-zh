@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimagetype( *int* $imgType )
 ```
 
@@ -37,7 +37,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -57,7 +57,7 @@ echo $gmagick;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -77,7 +77,7 @@ echo $gmagick;
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

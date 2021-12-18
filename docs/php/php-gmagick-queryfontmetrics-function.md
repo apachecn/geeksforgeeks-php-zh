@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::queryfontmetrics( *GmagickDraw* $draw, *string* $text )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1(参见默认字体规格)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,7 +43,7 @@ print("<pre>" . print_r($fontMetrics, true) . "</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [characterWidth] => 12
@@ -58,7 +58,7 @@ Array
 
 **程序 2(参见本地字体文件规格)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -78,7 +78,7 @@ print("<pre>" . print_r($fontMetrics, true) . "</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [characterWidth] => 12

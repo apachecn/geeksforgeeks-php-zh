@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isAnonymous( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initialising an anonymous class
@@ -37,14 +37,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class Company
@@ -67,7 +67,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

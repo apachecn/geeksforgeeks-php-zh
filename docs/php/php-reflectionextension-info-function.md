@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* ReflectionExtension::info( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -39,7 +39,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 dom
 
 DOM/XML => enabled
@@ -56,7 +56,7 @@ NULL
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -71,7 +71,7 @@ var_dump($extension->info());
 
 **输出：**
 
-```
+```php
 xml
 
 XML Support => active

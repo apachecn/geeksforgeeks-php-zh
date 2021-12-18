@@ -7,13 +7,13 @@
 
 **语法：**
 
-```
+```php
 *string* money_format( *string* str, *float* num )
 ```
 
 **示例：**
 
-```
+```php
 
 money_format("you have to pay %i", $num);
 
@@ -48,7 +48,7 @@ money_format("you have to pay %i", $num);
 
 **示例 1：**此示例以其区域设置国际和国家格式打印给定的数字。
 
-```
+```php
 <?php
 
 $num = 8456.22;
@@ -66,7 +66,7 @@ echo money_format("The output in locales"
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The output in locales international format is USD 8, 456.22 
 The output in locales national format is $8, 456.22
 
@@ -74,7 +74,7 @@ The output in locales national format is $8, 456.22
 
 **示例 2：**接受负数并将其显示为货币的程序。
 
-```
+```php
 <?php
 
 $num = -8456.22;
@@ -85,6 +85,6 @@ echo money_format("output: %(n", $num);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Output: ($8, 456.22)
 ```

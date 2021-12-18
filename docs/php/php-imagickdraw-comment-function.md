@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::comment( *string* $comment )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 //Create a new Imagick object
@@ -46,13 +46,13 @@ echo $comment;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Hello ! This is my comment.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 //Create a new Imagick object

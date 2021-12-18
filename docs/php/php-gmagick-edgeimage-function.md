@@ -5,7 +5,7 @@
 **gmagick：：edgeimage()**函数是 PHP 中的一个内置函数，用于使用给定半径的卷积过滤器增强图像边缘。 半径 0 用作自动选择。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::edgeimage( $radius )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -46,7 +46,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

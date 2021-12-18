@@ -10,7 +10,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class GFG {
@@ -40,7 +40,7 @@ echo $a->get_university();
 
 **输出:**
 
-```
+```php
 Atul Sisodiya
 JECRC
 ```
@@ -49,7 +49,7 @@ JECRC
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 
 <?php
 
@@ -80,7 +80,7 @@ echo  $a->get_university();
 
 **输出:**
 
-```
+```php
 Atul Sisodiya
 JECRC
 ```

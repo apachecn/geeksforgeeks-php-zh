@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* IntlChar::getFC_NFKC_Closure( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP function to illustrate 
@@ -50,7 +50,7 @@ var_dump(IntlChar::getFC_NFKC_Closure("\u{0358}"));
 
 **输出：**
 
-```
+```php
 string(3) "tel"
 string(2) "Ã¦"
 NULL
@@ -63,7 +63,7 @@ string(0) ""
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate getFC_NFKC_Closure()
 
@@ -82,7 +82,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 string(3) "tel"
 string(2) "Ã¦"
 string(0) ""

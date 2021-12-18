@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Imagick* ImagickDraw::steganoImage( *Imagick* $watermark_wand, *int* $offset )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -58,7 +58,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

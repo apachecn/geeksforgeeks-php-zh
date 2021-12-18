@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateTimeImmutable* DateTimeImmutable::setISODate( *int* year, *int* week, *int* day) )
 
 ```
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::setISODate()
 // function
@@ -49,7 +49,7 @@ echo $a->format('Y-m-d');
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::setISODate()
 // function

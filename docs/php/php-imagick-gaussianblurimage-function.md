@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::gaussianBlurImage( $radius, $sigma, $channel = Imagick::CHANNEL_DEFAULT )
 ```
 
@@ -29,7 +29,7 @@
 
 **程序：**此程序使用 Imagick：：gaussianBlurImage()函数模糊图像。
 
-```
+```php
 <?php
 
 // Create an Imagick object

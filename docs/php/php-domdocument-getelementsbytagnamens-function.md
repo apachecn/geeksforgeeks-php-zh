@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNodeList* DOMDocument::getElementsByTagNameNS( 
             *string* $namespaceURI, *string* $localName )
 ```
@@ -24,7 +24,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // Create an XML
 $xml = <<<EOD
@@ -61,7 +61,7 @@ foreach ($dom->getElementsByTagNameNS(
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Local name: include, Prefix: xi
 Local name: fallback, Prefix: xi
 ```
@@ -70,7 +70,7 @@ Local name: fallback, Prefix: xi
 
 ## PHP
 
-```
+```php
 <?php
 // Create an XML
 $xml = <<<EOD
@@ -107,7 +107,7 @@ print_r($elements->length);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 4
 ```
 

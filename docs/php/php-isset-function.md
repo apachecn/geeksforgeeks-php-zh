@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool isset( mixed $var [, mixed $... ] )
 ```
 
@@ -21,7 +21,7 @@ bool isset( mixed $var [, mixed $... ] )
 
 **示例 1：**
 
-```
+```php
 <?php
 
 $str = "GeeksforGeeks";
@@ -49,7 +49,7 @@ else {
 
 **输出：**
 
-```
+```php
 Value of variable is set
 Array is Empty
 
@@ -59,7 +59,7 @@ Array is Empty
 
 **示例 2：**
 
-```
+```php
 <?php
 
 $num = 21;
@@ -81,7 +81,7 @@ var_dump(isset($arr["Geeks"]));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

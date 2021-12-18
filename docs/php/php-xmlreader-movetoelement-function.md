@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::moveToElement( *void* )
 ```
 
@@ -22,7 +22,7 @@
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -56,7 +56,7 @@ echo $XMLReader->name;
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::find( $value )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a Vector elements
@@ -45,7 +45,7 @@ var_dump($vector->find("Geeks"));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a Vector elements

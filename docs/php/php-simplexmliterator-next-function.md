@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SimpleXMLIterator::next( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store the xml element to variable
@@ -52,7 +52,7 @@ var_dump($xmlIt->current());
 
 **输出：**
 
-```
+```php
 object(SimpleXMLIterator)#2 (2) {
   ["email"]=>
   string(21) "abc@geeksforgeeks.org"

@@ -6,7 +6,7 @@ PHP 中的 getimagesize()函数是一个内置函数，用于获取图像的大�
 
 **语法：**
 
-```
+```php
 array getimagesize( $filename, $image_info )
 ```
 
@@ -31,7 +31,7 @@ array getimagesize( $filename, $image_info )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Calling getimagesize() function
@@ -42,7 +42,7 @@ print_r($image_info);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [0] => 667 
         [1] => 184 
         [2] => 3 
@@ -54,7 +54,7 @@ Array ( [0] => 667
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Calling getimagesize() function
@@ -73,7 +73,7 @@ echo "Image attribute :" .$attr;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Width of image : 667
 Height of image : 184
 Image type :3

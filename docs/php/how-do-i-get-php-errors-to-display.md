@@ -11,7 +11,7 @@ PHP 中有四种显示错误的方法，如下所示:
 
 **示例:**要在 PHP 中显示错误，最快最简单的方法是在代码中添加以下几行。
 
-```
+```php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -26,7 +26,7 @@ error_reporting(E_ALL);
 
 **程序 1:**
 
-```
+```php
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -38,7 +38,7 @@ include("gfg.php");
 
 **输出:**
 
-```
+```php
 A warning will be shown- No such directory or file found in (location of file)
 with the specified line of error.
 
@@ -46,14 +46,14 @@ with the specified line of error.
 
 要显示包括解析错误在内的错误，必须在 php.ini 中进行以下更改，并重新启动 php-fpm，apche2
 
-```
+```php
 display_errors = on
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php 
 
 // Display number 0 to 5

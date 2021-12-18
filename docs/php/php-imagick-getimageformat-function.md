@@ -6,7 +6,7 @@
 **语法：**和
 中特定图像的格式
 
-```
+```php
 *string* Imagick::getImageFormat( void )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // require_once('path/vendor/autoload.php');
 

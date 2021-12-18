@@ -7,7 +7,7 @@
 **方法 1:** 在该方法中，使用 foreach 循环遍历整个关联数组并显示关键元素。
 **程序:**程序循环通过关联数组和打印键。
 
-```
+```php
 <?php
 // Loop through associative array and get
 // the key of associative array
@@ -32,7 +32,7 @@ foreach($person_weight as $key => $value) { 
 
 **Output:**
 
-```
+```php
 Key: Rajnish
 Key: Sanjeev
 Key: Ravi
@@ -45,13 +45,13 @@ Key: Suraj
 
 **语法:**
 
-```
+```php
 array array_keys( $input_array, $search_value, $strict )
 ```
 
 **程序:**下面的程序说明了如何使用 array_keys()函数来访问关联数组的键。
 
-```
+```php
 <?php
 // Use array_keys() function to display
 // the key of associative array
@@ -79,7 +79,7 @@ for( $i = 0; $i < $size; $i++) {
 
 **Output:**
 
-```
+```php
 key: Geeks
 key: for
 key: geeks

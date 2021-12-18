@@ -6,7 +6,7 @@ Imagick：：__Construct()函数是 Imagick 类构造函数，它以图像路径
 
 **语法：**
 
-```
+```php
 Imagick::__construct( $files )
 ```
 
@@ -18,7 +18,7 @@ Imagick::__construct( $files )
 
 **程序：**此程序使用图像的 URL 加载图像并显示在屏幕上。
 
-```
+```php
 <?php
 
 // Create a new Imagick object

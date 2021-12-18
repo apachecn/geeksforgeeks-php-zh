@@ -6,7 +6,7 @@ PHP 中 vprintf()函数是一个内置函数，用于将数组值显示为格式
 根据格式将数组值显示为格式化字符串。它的工作方式类似于[printf()](https://www.geeksforgeeks.org/php-format-specifiers/)，但接受参数数组，而不是变量数参数。 成功时返回输出字符串的长度。
 **语法：**
 
-```
+```php
 vprintf (format, array_arguments)
 ```
 
@@ -35,7 +35,7 @@ vprintf (format, array_arguments)
 
 ## PHP
 
-```
+```php
 <?php
 $obj = new stdClass();
 $obj->val1 = 9;
@@ -103,7 +103,7 @@ vprintf('%o %o %o %o', $obj);
 
 **Output:** 
 
-```
+```php
 using %% format: % % % %
 using %b format: 1001 1010 1111 1111111111111111111111111111111111111111111111111111111111111111
 using %d format: 9 10 15 -1
@@ -119,7 +119,7 @@ using %o format: 11 12 17 1777777777777777777777
 
 ## PHP
 
-```
+```php
 <?php
 $obj = new stdClass();
 $obj->val1 = 65;
@@ -145,7 +145,7 @@ vprintf('%s %s %s %s', $obj);
 
 **Output:** 
 
-```
+```php
 using %c format: A B a b
 using %s format: 65 66 97 98
 ```
@@ -154,7 +154,7 @@ using %s format: 65 66 97 98
 
 ## PHP
 
-```
+```php
 <?php
 $obj = new stdClass();
 $obj->val1 = 999999999;
@@ -191,7 +191,7 @@ vprintf('%G %G %G %G', $obj);
 
 **Output:** 
 
-```
+```php
 using %e format: 1.000000e+9 1.459566e+8 1.111111e+8 1.000000e+8
 using %g format: 1.0e+9 1.45957e+8 1.11111e+8 1.0e+8
 using %E format: 1.000000E+9 1.459566E+8 1.111111E+8 1.000000E+8
@@ -202,7 +202,7 @@ using %G format: 1.0E+9 1.45957E+8 1.11111E+8 1.0E+8
 
 ## PHP
 
-```
+```php
 <?php
 $obj = new stdClass();
 $obj->val1 = 'gfg 1';
@@ -218,6 +218,6 @@ vprintf('%-10s %-20s %-30s %-40s', $obj);
 
 **Output:** 
 
-```
+```php
 gfg 1      gfg 2                gfg 3                          gfg 4
 ```

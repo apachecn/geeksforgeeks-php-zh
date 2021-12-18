@@ -6,7 +6,7 @@ PHP 中的**ctype_alpha()**函数，用于检查给定字符串的所有字符�
 
 **语法：**
 
-```
+```php
 ctype_alpha($text)
 ```
 
@@ -19,7 +19,7 @@ ctype_alpha($text)
 
 例如：
 
-```
+```php
 Input  : GeeksforGeeks
 Output : Yes
 
@@ -38,7 +38,7 @@ Note: Except string ,if you input anything then it will return FALSE.
 
 **程序：1**
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // all characters -alphabetic
@@ -55,14 +55,14 @@ $string = 'GeeksforGeeks';
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
 
 **程序：2**驱动代码**ctype_alpha()**函数，其中输入包含整数和特殊字符的字符串数组。
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // all characters are alphabetic
@@ -91,7 +91,7 @@ foreach ($strings as $test) {
 
 **Output:**
 
-```
+```php
 Yes
 No
 No

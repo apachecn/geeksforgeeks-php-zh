@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* openssl_pkcs12_export( *mixed* $x509, *string* &$out, 
         *mixed* $priv_key, *string* $pass [, *array* $args] )
 ```
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $dn = array(

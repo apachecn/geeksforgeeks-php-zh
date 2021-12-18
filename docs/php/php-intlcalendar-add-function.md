@@ -8,13 +8,13 @@
 
 *   面向对象的样式：
 
-```
+```php
 *bool* IntlCalendar::add( *int* $field, *int* $amount ) 
 ```
 
 *   程序风格：
 
-```
+```php
 *bool* intlcal_add( *IntlCalendar* $cal, *int* $field, *int* $amount )
 ```
 
@@ -29,7 +29,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an IntlCalendar from a DateTime object or string
@@ -52,7 +52,7 @@ echo IntlDateFormatter::formatObject($calendar);
 
 **Output:** 
 
-```
+```php
 Sep 29, 2019, 9:19:29 AM
 Oct 6, 2019, 9:19:29 AM
 ```

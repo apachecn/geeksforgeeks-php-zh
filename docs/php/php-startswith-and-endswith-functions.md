@@ -7,7 +7,7 @@
 函数的作用是：测试字符串是否以给定字符串开头。 此函数不区分大小写，它返回布尔值。 该功能可与过滤功能配合使用，实现对数据的查询。
 **语法**
 
-```
+```php
 bool startsWith( string, startString )
 ```
 
@@ -19,7 +19,7 @@ bool startsWith( string, startString )
 **返回值：**此函数成功时返回 True，失败时返回 False。
 **示例 1：**
 
-```
+```php
 <?php
 
 // Function to check string starting
@@ -40,7 +40,7 @@ else
 
 **Output:**
 
-```
+```php
 False
 
 ```

@@ -6,7 +6,7 @@ Preg_plit()函数是 PHP 中的内置函数，用于将给定的字符串转换�
 
 **语法：**
 
-```
+```php
 array preg_split( $pattern, $subject, $limit, $flag )
 ```
 
@@ -25,7 +25,7 @@ array preg_split( $pattern, $subject, $limit, $flag )
 下面的程序说明了 PHP：
 **程序 1：**中的 preg_plit()函数
 
-```
+```php
 <?php
 
 // Input string
@@ -41,7 +41,7 @@ print_r($result);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => G
@@ -62,7 +62,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program of preg_split() function
@@ -78,7 +78,7 @@ print_r($result);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => Geeks
@@ -90,7 +90,7 @@ Array
 
 **程序 3：**
 
-```
+```php
 <?php 
 
 // PHP program to implementation of
@@ -111,7 +111,7 @@ print_r($result ); 
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => Array

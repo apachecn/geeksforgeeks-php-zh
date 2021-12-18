@@ -18,7 +18,7 @@
 
 1.创建到数据库的连接
 
-```html
+```phphtml
 <?php
 $db=new mysqli(‘servername’,’username’,’password’,’databasename’);
 if ($db->connect_errno) {
@@ -31,7 +31,7 @@ Here, Servername is the localhost, username is your user default is root, passwo
 
 2.使用 fopen 函数获取 CSV 文件
 
-```html
+```phphtml
 It is used to open a file
 fopen(filename, mode, include_path, context)
 Here:
@@ -43,7 +43,7 @@ mode is to  Specify the type of access you require to the file/stream.
 
 4.数据库查询
 
-```html
+```phphtml
 Now we can write database query to insert data
 $db->query(‘INSERT INTO table VALUES (“‘ . $row[0] . ‘”, “‘ . $row[1] . ‘”, “‘ . $row[2] . ‘” . . . “‘ . $row[n] . ‘”)’);
 Query is used to take query
@@ -80,7 +80,7 @@ row[n] represents the number of rows to be taken to load
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
 // Create connection

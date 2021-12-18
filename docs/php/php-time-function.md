@@ -6,7 +6,7 @@ Time()函数是 PHP 中的一个内置函数，它返回从[Unix Epoch](https://
 
 **语法：**
 
-```
+```php
 *int* time()
 ```
 
@@ -20,7 +20,7 @@ Time()函数是 PHP 中的一个内置函数，它返回从[Unix Epoch](https://
 
 **程序 1：**下面的程序以秒为单位打印当前时间。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of current 
 // time in seconds since Unix Epoch 
@@ -37,7 +37,7 @@ echo $currentTimeinSeconds; 
 
 **程序 2：**下面的程序以日期格式打印当前时间。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of current 
 // date since Unix Epoch 

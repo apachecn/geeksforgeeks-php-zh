@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagesetbrush( *resource* $image, *resource* $brush )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Load the png image
 $image1 = imagecreatefrompng(
@@ -51,7 +51,7 @@ imagepng($image2);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Load the png image
 $image = imagecreatefrompng(

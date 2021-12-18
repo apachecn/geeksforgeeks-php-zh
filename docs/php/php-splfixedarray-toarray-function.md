@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* SplFixedArray::toArray()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -34,7 +34,7 @@ var_dump($gfg->toArray());
 
 **输出：**
 
-```
+```php
 array(3) {
   [0]=>
   int(1)
@@ -48,7 +48,7 @@ array(3) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -76,7 +76,7 @@ var_dump($gfg2->toArray());
 
 **输出：**
 
-```
+```php
 array(3) {
   [0]=>
   NULL

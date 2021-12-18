@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
    define("Hello", "Welcome to geeksforgeeks.com!");
    echo Hello;
@@ -17,7 +17,7 @@
 
 **输出:**
 
-```
+```php
 Welcome to geeksforgeeks.com!
 ```
 
@@ -27,7 +27,7 @@ Welcome to geeksforgeeks.com!
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
    $txt = "Hello from geeksforgeeks!";
    $x = 5;
@@ -42,7 +42,7 @@ Welcome to geeksforgeeks.com!
 
 ****输出:****
 
-```
+```php
 Hello from geeksforgeeks!
 5
 10.5

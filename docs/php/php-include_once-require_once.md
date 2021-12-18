@@ -12,14 +12,14 @@
 
 **语法：**
 
-```
+```php
  include_once('name of the called file with path');
 
 ```
 
 示例：
 
-```
+```php
 // name of file is header.inc.php
 
 <?php
@@ -33,7 +33,7 @@ echo "GEEKSFORGEEKS";
 
 上面的文件 header.inc.php 在下面的文件*index.php*中使用 include_once()函数包含了两次。 但是从输出中，您会发现第二个 Include 实例被忽略了，因为 include_once()函数忽略了第一个实例之后的所有相似的 Include。
 
-```
+```php
 // name of file is index.php
 
 <?php
@@ -55,14 +55,14 @@ include_once('header.inc.php');
 
 **语法：**
 
-```
+```php
  require_once('name of the called file with path');
 
 ```
 
 示例：
 
-```
+```php
 // name of file is header.inc.php
 
 <?php
@@ -76,7 +76,7 @@ echo "GEEKSFORGEEKS";
 
 上面的文件 header.inc.php 在下面的 index.php 文件中包含了两次，函数名为 Required_once()。 但是从输出中，您会发现第二个 Include 实例被忽略了，因为 RequireOnce()函数忽略了第一个实例之后的所有相似的 Include。
 
-```
+```php
 // name of file is index.php
 
 <?php

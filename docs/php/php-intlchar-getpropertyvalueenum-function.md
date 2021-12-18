@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::getPropertyValueEnum( $property, $name )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 // PHP program to implement IntlChar::getPropertyValueEnum() function
 
@@ -46,7 +46,7 @@ var_dump(IntlChar::getPropertyValueEnum(IntlChar::PROPERTY_BIDI_CLASS,
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

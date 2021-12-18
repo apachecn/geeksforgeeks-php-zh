@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```php
 fputcsv( file, fields, separator, enclosure, escape )
 ```
 
 **例 1:**
 
-```
+```php
 <?php
 
 // Create an array of elements
@@ -45,7 +45,7 @@ Microsoft Excel 中的输出
 
 ## index.html
 
-```
+```php
 <!DOCTYPE html> 
 <html>
 
@@ -80,7 +80,7 @@ Microsoft Excel 中的输出
 
 ## gfg.php
 
-```
+```php
 <?php
 
 $data = array(

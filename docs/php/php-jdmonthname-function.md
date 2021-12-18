@@ -6,7 +6,7 @@ Jdmonthname()函数是 PHP 中的一个内置函数，它返回作为参数传�
 
 **语法：**
 
-```
+```php
  jdmonthname($jd, $mode) 
 ```
 
@@ -25,7 +25,7 @@ Jdmonthname()函数是 PHP 中的一个内置函数，它返回作为参数传�
 
 例如：
 
-```
+```php
 Input : $jd = 2458236, $mode = 0 
 Output : Apr
 Explanation: In program below we have converted the 
@@ -43,7 +43,7 @@ Tevet is the month on this Julian Day integer.
 
 **程序 1：**下面的程序演示了当 mode 作为 0 传递时的 jdmonthname()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use
 // of jdmonthname() function 
@@ -60,14 +60,14 @@ echo (jdmonthname($jd, 0)), "\n"; 
 
 产出：
 
-```
+```php
 Apr
 
 ```
 
 **程序 2：**下面的程序演示了模式作为 1 传递时的 jdmonthname()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use
 // of jdmonthname() function 
@@ -84,14 +84,14 @@ echo (jdmonthname($jd, 1)), "\n"; 
 
 产出：
 
-```
+```php
 April 
 
 ```
 
 **程序 3：**下面的程序演示了模式作为 2 传递时的 jdmonthname()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdmonthname() function 
@@ -108,14 +108,14 @@ echo (jdmonthname($jd, 2)), "\n"; 
 
 产出：
 
-```
+```php
 Apr
 
 ```
 
 **程序 4：**下面的程序演示了模式作为 3 传递时的 jdmonthname()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdmonthname() function 
@@ -132,14 +132,14 @@ echo (jdmonthname($jd, 3)), "\n"; 
 
 产出：
 
-```
+```php
 April
 
 ```
 
 **程序 5：**下面的程序演示了模式作为 4 传递时的 jdmonthname()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdmonthname() function 
@@ -156,14 +156,14 @@ echo (jdmonthname($jd, 4)), "\n"; 
 
 产出：
 
-```
+```php
 Iyyar
 
 ```
 
 **程序 6：**下面的程序演示了当模式传递超出范围时的 jdmonthname()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdmonthname() function 
@@ -180,7 +180,7 @@ echo (jdmonthname($jd, 8)), "\n"; 
 
 产出：
 
-```
+```php
 Apr
 
 ```

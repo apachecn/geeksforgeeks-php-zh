@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Closure* ReflectionMethod::getClosure ( *$object* )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -46,7 +46,7 @@ var_dump($B);
 
 **Output:** 
 
-```
+```php
 object(Closure)#3 (2) {
   ["this"]=>
   object(Company)#2 (0) {
@@ -63,7 +63,7 @@ object(Closure)#3 (2) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -103,7 +103,7 @@ var_dump($C->getClosure(new Department3()));
 
 **Output:** 
 
-```
+```php
 object(Closure)#5 (2) {
   ["this"]=>
   object(Department1)#4 (0) {

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 constant(constant)
 ```
 
@@ -26,7 +26,7 @@ constant(constant)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Define a constant
@@ -38,7 +38,7 @@ echo constant("Home");
 
 **输出:**
 
-```
+```php
 Welcome to GeeksforGeeks
 ```
 
@@ -46,7 +46,7 @@ Welcome to GeeksforGeeks
 
 ## PHP
 
-```
+```php
 <?php
 
 // Define a case insensitive constant
@@ -58,7 +58,7 @@ echo constant("gfgconstant");
 
 **输出:**
 
-```
+```php
 True denotes case-insensitive
 ```
 

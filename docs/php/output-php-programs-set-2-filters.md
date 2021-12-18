@@ -5,7 +5,7 @@
 预测以下 PHP 程序的输出:
 **问题 1**
 
-```
+```php
 <?php
     $num = "123";
     if (!filter_var($num, FILTER_VALIDATE_INT))
@@ -24,7 +24,7 @@
 
 输出:
 
-```
+```php
 Welcome to GeeksforGeeks
 
 ```
@@ -33,7 +33,7 @@ Welcome to GeeksforGeeks
 
 **问题 2**
 
-```
+```php
 <?php
     $var=300;
     $int_options = array("options"=>array ("min_range"=>0, "max_range"=>256));
@@ -53,7 +53,7 @@ Welcome to GeeksforGeeks
 
 输出:
 
-```
+```php
 Hello
 
 ```
@@ -62,7 +62,7 @@ Hello
 
 **问题 3**
 
-```
+```php
 <?php
     $string = "Welcomeêê to GeêêeksfoøørGeêêeks";
     $string = filter_var($string, FILTER_SANITIZE_EMAIL);
@@ -79,7 +79,7 @@ Hello
 
 输出:
 
-```
+```php
 WelcometoGeeksforGeeks
 
 ```
@@ -88,7 +88,7 @@ WelcometoGeeksforGeeks
 
 **问题 4**
 
-```
+```php
 <?php
     $value = 'GeeksforGeeks';
     $result = filter_var($value, FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE);
@@ -104,7 +104,7 @@ WelcometoGeeksforGeeks
 
 输出:
 
-```
+```php
 No Output
 
 ```
@@ -113,7 +113,7 @@ No Output
 
 **问题 5**
 
-```
+```php
 <?php
     function GeeksforGeeks($string)
     {
@@ -133,7 +133,7 @@ No Output
 
 输出:
 
-```
+```php
 I am intern at GeeksforGeeks!
 
 ```
@@ -142,7 +142,7 @@ I am intern at GeeksforGeeks!
 
 **问题 6**
 
-```
+```php
 <?php
     $num = '123+abc-xyz*';
     $num = filter_var($num, FILTER_SANITIZE_NUMBER_INT);
@@ -159,7 +159,7 @@ I am intern at GeeksforGeeks!
 
 输出:
 
-```
+```php
 123+-
 
 ```
@@ -168,7 +168,7 @@ I am intern at GeeksforGeeks!
 
 **问题 7**
 
-```
+```php
 <?php
     $num = '123+-abc*';
     $res = filter_var($num, FILTER_SANITIZE_NUMBER_FLOAT);
@@ -185,7 +185,7 @@ I am intern at GeeksforGeeks!
 
 输出:
 
-```
+```php
 123+-
 
 ```

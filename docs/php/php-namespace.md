@@ -14,7 +14,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 namespace MyNamespaceName {
 
@@ -31,7 +31,7 @@ namespace MyNamespaceName {
 
 ## PHP
 
-```
+```php
 <?php
 namespace {
 

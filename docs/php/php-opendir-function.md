@@ -8,7 +8,7 @@ PHP 中的 opendir()函数是一个内置函数，用于打开目录句柄。 �
 
 **语法：**
 
-```
+```php
 opendir($path, $context)
 ```
 
@@ -27,7 +27,7 @@ opendir($path, $context)
 下面的程序说明了 opendir()函数：
 **程序 1：**
 
-```
+```php
 <?php
 
 // Opening a directory
@@ -51,14 +51,14 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Directory Opened Successfully.
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // opening a directory and reading its contents
@@ -84,7 +84,7 @@ echo("Directory Cannot Be Opened.");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: sample.docx
 
 ```

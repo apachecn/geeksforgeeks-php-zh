@@ -6,7 +6,7 @@ PHP 中的*fSeek()*函数是一个内置函数，用于在打开的文件中查�
 
 **语法：**
 
-```
+```php
 int fseek ( $file, $offset, $whence)
 ```
 
@@ -33,7 +33,7 @@ int fseek ( $file, $offset, $whence)
 
 > Geeksforgeek 是极客的门户！
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "w");
@@ -55,7 +55,7 @@ fclose($myfile);
 
 > Geeksforgeek 是极客的门户！
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "w");

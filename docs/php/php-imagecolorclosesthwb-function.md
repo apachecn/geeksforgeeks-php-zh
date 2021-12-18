@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorclosesthwb ( $image, $red, $green, $blue )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new image from given URL
@@ -42,7 +42,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new image from given URL

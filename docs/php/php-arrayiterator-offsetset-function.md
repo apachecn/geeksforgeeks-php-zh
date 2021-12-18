@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::offsetSet( *mixed* $index, *mixed* $newval )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -47,7 +47,7 @@ print_r($arrItr); 
 
 **输出:**
 
-```
+```php
 ArrayIterator Object
 (
     [storage:ArrayIterator:private] => Array
@@ -66,7 +66,7 @@ ArrayIterator Object
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -88,7 +88,7 @@ print_r($arrItr); 
 
 **输出:**
 
-```
+```php
 ArrayIterator Object
 (
     [storage:ArrayIterator:private] => Array

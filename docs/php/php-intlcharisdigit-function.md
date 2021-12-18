@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isdigit ( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 **返回值：**如果$codepoint 数据是数字字符，则返回 True，否则返回 False。
 示例：
 
-```
+```php
 Input : $codepoint = "X"
 Output : bool(false)
 
@@ -30,7 +30,7 @@ Output : bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate the
 // IntlChar::isdigit() function.
@@ -51,7 +51,7 @@ var_dump(IntlChar::isdigit("12e"));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true)
 NULL 
 NULL 
@@ -62,7 +62,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate the
 // IntlChar::isdigit() function.
@@ -87,7 +87,7 @@ var_dump(IntlChar::isdigit("@"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false) 
 bool(false) 
 bool(false) 
@@ -99,7 +99,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate the
 // IntlChar::isdigit() function.
@@ -112,7 +112,7 @@ var_dump(IntlChar::isdigit(' '));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true) 
 bool(false)
 ```

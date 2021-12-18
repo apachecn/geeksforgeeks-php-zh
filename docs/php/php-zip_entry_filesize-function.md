@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 int zip_entry_filesize( $zip_entry )
 ```
 
@@ -26,7 +26,7 @@ int zip_entry_filesize( $zip_entry )
 > 假设一个 zip 文件 Tistrle.zip 包含以下文件：
 > **content.xlsx**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -47,7 +47,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/content.xlsx
 Size: 9420 Bytes
 
@@ -65,7 +65,7 @@ Size: 9420 Bytes
 > gfg.pdf
 > image.jpeg**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -93,7 +93,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/content.xlsx
 Size: 9420 Bytes
 File Name: article/gfg.pdf

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setFillRule( *int* $fill_rule )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -41,13 +41,13 @@ echo $fillRule;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 // Which corresponds to imagick::FILLRULE_UNDEFINED.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

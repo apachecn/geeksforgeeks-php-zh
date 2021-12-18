@@ -12,7 +12,7 @@
 
 考虑以下示例:
 
-```
+```php
 abstract class Abstract_Parent {
 
     static function X() {

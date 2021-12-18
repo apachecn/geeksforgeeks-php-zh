@@ -6,7 +6,7 @@ PHP 中的 bcadd()函数是一个内置函数，用于添加两个任意精度�
 
 **语法:**
 
-```
+```php
 *string* bcadd ( $num_str1, $num_str2, $scaleVal)
 ```
 
@@ -20,7 +20,7 @@ PHP 中的 bcadd()函数是一个内置函数，用于添加两个任意精度�
 
 示例:
 
-```
+```php
 Input:  $num_str1 = 3, $num_str2 = 11.222
 Output: 14
 Since the parameter $scaleVal is not specified so
@@ -36,7 +36,7 @@ Output: 14.2220
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcadd() function
 
@@ -56,14 +56,14 @@ echo $res;
 
 输出:
 
-```
+```php
 14
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcadd() function
 
@@ -85,7 +85,7 @@ echo $res;
 
 输出:
 
-```
+```php
 14.2220
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 strcoll($string1, $string2)
 ```
 
@@ -23,7 +23,7 @@ strcoll($string1, $string2)
 
 **示例：**
 
-```
+```php
 Input : $string1 = "geeks for geeks" $string2="geeks for geeks"
 Output : 0 
 
@@ -36,7 +36,7 @@ Output : 1
 
 **程序 1：**下面的程序演示了传递两个相等字符串时的返回值
 
-```
+```php
 <?php
     //PHP program to compare two strings using 
     // strcoll() function (two strings are equal)
@@ -50,14 +50,14 @@ Output : 1
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0
 
 ```
 
 **程序 2：**下面的程序演示字符串 1 大于字符串 2 时的返回值
 
-```
+```php
 <?php
     //PHP program to compare two strings using 
     // strcoll() function (string1>string2)
@@ -71,14 +71,14 @@ Output : 1
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 
 ```
 
 **程序 3：**下面的程序演示字符串 2 大于字符串 1 时的返回值
 
-```
+```php
 <?php
     //PHP program to compare two strings using 
     // strcoll() function (string2>string1)
@@ -92,7 +92,7 @@ Output : 1
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 -13
 
 ```

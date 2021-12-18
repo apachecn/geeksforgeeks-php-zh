@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool zip_entry_open( $zip, $zip_entry, $mode )
 ```
 
@@ -30,7 +30,7 @@ bool zip_entry_open( $zip, $zip_entry, $mode )
 > 假设压缩文件 articles.zip 包含以下文件：
 > **geeks.txt**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -57,7 +57,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Zip file: articles/geeks open successfully 
 Zip file: articles/geeks closed successfully
 
@@ -69,7 +69,7 @@ Zip file: articles/geeks closed successfully
 > **geeks.txt
 > geeks1.txt**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -113,7 +113,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Zip file: articles/geeks open successfully
 Zip file: articles/geeks closed successfully 
 

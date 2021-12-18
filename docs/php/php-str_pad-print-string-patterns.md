@@ -5,7 +5,7 @@
 **str_pad**：
 用另一个字符串填充某个长度的字符串。
 
-```
+```php
 Syntax:- str_pad (input, pad_length, pad_string_value, pad_type)
 It returns the padded string.
 
@@ -21,7 +21,7 @@ It returns the padded string.
 在循环下使用单行代码打印如下所示的简单模式。
 **示例：** 
 
-```
+```php
 Input : 5
 Output :
     *
@@ -41,7 +41,7 @@ Output :
 
 ```
 
-```
+```php
 <?php
 // PHP program to print a pattern using only
 // one loop.
@@ -68,7 +68,7 @@ generatePattern($n);
 
 **Output:**
 
-```
+```php
      *
     **
    ***

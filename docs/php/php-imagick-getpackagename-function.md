@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::getPackageName( void )
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -35,7 +35,7 @@ echo $im->getPackageName();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 ImageMagick 
 
 ```
@@ -44,7 +44,7 @@ ImageMagick
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54.png](img/583fb2a26e2d28d4d8bbc47a02020896.png)
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -76,7 +76,7 @@ echo $im->getPackageName();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 ImageMagick 
 
 ```

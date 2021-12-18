@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```php
 Input : $str = "Hmrrb GmmksfbrGmmks";
         $from = "rbm";
         $to = "loe";
@@ -20,7 +20,7 @@ Output : I Love GeeksforGeeks
 
 **语法：**
 
-```
+```php
 string strtr ( string $string, string $from, string $to)
 
 OR
@@ -45,7 +45,7 @@ string strtr (string $string, array $from_to_pairs)
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // original string
@@ -65,14 +65,14 @@ print_r($resStr);
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 GeeksforGeeks is everything.
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // original string
@@ -91,7 +91,7 @@ print_r($resStr);
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 Be Happy
 
 ```

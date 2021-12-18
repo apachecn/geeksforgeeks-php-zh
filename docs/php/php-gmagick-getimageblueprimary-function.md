@@ -6,7 +6,7 @@ Gmagick：：getimageBluepriary()函数是 PHP 中的一个内置函数，用于
 
 **语法：**
 
-```
+```php
 *public* Gmagick::getimageblueprimary( void ) : array
 ```
 
@@ -20,7 +20,7 @@ Gmagick：：getimageBluepriary()函数是 PHP 中的一个内置函数，用于
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 // Create new Gmagick object
@@ -35,7 +35,7 @@ print_r($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 0.15000000596046 [y] => 0.059999998658895 ) 
 
 ```
@@ -44,7 +44,7 @@ Array ( [x] => 0.15000000596046 [y] => 0.059999998658895 )
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54.png](img/583fb2a26e2d28d4d8bbc47a02020896.png)
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -81,7 +81,7 @@ print_r($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 2.6 [y] => 2.9 ) 
 
 ```

@@ -6,7 +6,7 @@ Preg_filter()函数是 PHP 中的一个内置函数，用于执行正则表达�
 
 **语法：**
 
-```
+```php
 preg_filter( $pattern, $replacement, $subject, $limit, $count )
 ```
 
@@ -23,7 +23,7 @@ preg_filter( $pattern, $replacement, $subject, $limit, $count )
 下面的程序说明了 PHP：
 **程序 1：**中的 preg_filter()函数
 
-```
+```php
 <?php
 
 // PHP program to illustrate 
@@ -39,14 +39,14 @@ echo preg_filter($pattern, $replacement, $string);
 
 **Output:**
 
-```
+```php
 November 02, 2018
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate preg_filter function
@@ -62,7 +62,7 @@ print_r(preg_filter($pattern, $replace, $subject)); 
 
 **Output:**
 
-```
+```php
 Returned Array by preg_filterArray
 (
     [0] => X:Z:1

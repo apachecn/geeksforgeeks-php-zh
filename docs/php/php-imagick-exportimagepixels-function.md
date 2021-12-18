@@ -6,7 +6,7 @@ Imagick：：exportImagePixels()函数是 PHP 中的内置函数，用于以数�
 
 **语法：**
 
-```
+```php
 *array* Imagick::exportImagePixels( $x, $y, $width, $height, $map, $STORAGE )
 ```
 
@@ -23,7 +23,7 @@ Imagick：：exportImagePixels()函数是 PHP 中的内置函数，用于以数�
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

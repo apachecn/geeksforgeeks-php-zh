@@ -18,7 +18,7 @@ Zip 存档文件的默认压缩方法是放气。
 
 **语法：**
 
-```
+```php
 string zip_entry_compressionmethod( $zip_entry )
 ```
 
@@ -39,7 +39,7 @@ string zip_entry_compressionmethod( $zip_entry )
 > 假设一个 zip 文件 Tistrle.zip 包含以下文件：
 > **content.xlsx**
 
-```
+```php
 <?php
 
 // Opening a zip archive
@@ -60,7 +60,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/content.xlsx => deflated
 
 ```
@@ -73,7 +73,7 @@ File Name: article/content.xlsx => deflated
 > gfg.pdf
 > image.jpeg**
 
-```
+```php
 <?php
 
 // Opening a zip archive
@@ -103,7 +103,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/art.zip => stored
 File Name: article/content.xlsx => deflated
 File Name: article/gfg.pdf => deflated

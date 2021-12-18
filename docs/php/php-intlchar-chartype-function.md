@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::charType ( $codepoint )
 ```
 
@@ -45,7 +45,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate IntlChar::charType()
@@ -79,7 +79,7 @@ var_dump(IntlChar::charType("\n") === 
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)
@@ -91,7 +91,7 @@ bool(true)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate IntlChar::charType()
@@ -119,7 +119,7 @@ var_dump(IntlChar::charType("\n"));
 
 **输出：**
 
-```
+```php
 int(1)
 int(23)
 int(15)

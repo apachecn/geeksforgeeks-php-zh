@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::spliceImage( $width, $height, $x, $y )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

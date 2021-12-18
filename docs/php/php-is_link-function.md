@@ -6,7 +6,7 @@ PHP 中的 is_link()函数用于检查指定的文件是否为[符号链接](htt
 
 **语法：**
 
-```
+```php
 is_link(file)
 ```
 
@@ -25,7 +25,7 @@ PHP 中的 is_link()函数只接受一个参数。
 
 **示例：**
 
-```
+```php
 Input : $mylink = "gfg";
         if(is_link($mylink))
         {
@@ -59,7 +59,7 @@ Output : gfg is a symbolic link!
 
 **程序 1**
 
-```
+```php
 <?php
 
 $myfile = "gfg";
@@ -76,14 +76,14 @@ if (is_link($mylink)) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg is a symbolic link!
 
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 
 $myfile = "gfg";
@@ -109,7 +109,7 @@ else {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg is a symbolic link!
 Reading the link :
 A portal for geeks!

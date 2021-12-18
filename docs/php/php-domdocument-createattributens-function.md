@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMAttr* DOMDocument::createAttributeNS( *string* $namespaceURI, *string* $qualifiedName )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store the XML document to the source
@@ -59,7 +59,7 @@ print $domDocument->saveXML() . "\n";
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns:info="{namespace}">
     <contact>

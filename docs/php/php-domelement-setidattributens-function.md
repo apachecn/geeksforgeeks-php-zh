@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DOMElement::setIdAttributeNS( *string* $namespaceURI, 
 *string* $localName, *bool* $isId )
 ```
@@ -25,7 +25,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -56,7 +56,7 @@ echo $dom->saveXML();
 
 **示例 2：**
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();
@@ -87,7 +87,7 @@ echo $value;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 

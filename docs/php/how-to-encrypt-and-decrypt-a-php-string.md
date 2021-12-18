@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 *string* openssl_encrypt( *string* $data, *string* $method, *string* $key,
                         $options = 0, *string* $iv, *string* $tag= NULL,
                         *string* $aad, *int* $tag_length = 16  )
@@ -32,7 +32,7 @@
 
 **语法:**
 
-```
+```php
 *string* openssl_decrypt( *string* $data, *string* $method, *string* $key,
              *int* $options = 0, *string* $iv, *string* $tag, *string* $aad)
 
@@ -54,7 +54,7 @@
 
 **例 1:** 这个例子说明了字符串的加密和解密。
 
-```
+```php
 <?php
 
 // Store a string into the variable which
@@ -102,7 +102,7 @@ echo "Decrypted String: " . $decryption;
 
 **输出:**
 
-```
+```php
 Original String: Welcome to GeeksforGeeks
 Encrypted String: hwB1K5NkfcIzkLTWQeQfHLNg5FlyX3PNUA==
 Decrypted String: Welcome to GeeksforGeeks
@@ -111,7 +111,7 @@ Decrypted String: Welcome to GeeksforGeeks
 
 **示例 2:** 下面的示例说明了字符串的加密和解密。这里要加密的字符串和解密的字符串将是相同的，但加密的字符串是随机变化的。
 
-```
+```php
 <?php
 
 // Store a string into the variable which
@@ -163,7 +163,7 @@ echo "Decrypted String: " . $decryption;
 
 **输出:**
 
-```
+```php
 Original String: Welcome to GeeksforGeeks
 Encrypted String: hwB1K5NkfcIzkLTWQeQfHLNg5FlyX3PNUA==
 Decrypted String: Welcome to GeeksforGeeks

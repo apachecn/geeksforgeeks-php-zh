@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to illustrate working
@@ -26,7 +26,7 @@ call_user_func('someFunction');
 
 **Output:**
 
-```
+```php
 Geeksforgeeks
 
 ```
@@ -35,7 +35,7 @@ Geeksforgeeks
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to illustrate working
@@ -70,7 +70,7 @@ call_user_func(array('Article', 'parent::someFunction'));
 
 **Output:**
 
-```
+```php
 Geeksforgeeks Article
 Geeksforgeeks Article
 Parent Geeksforgeeks
@@ -81,7 +81,7 @@ Parent Geeksforgeeks
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to illustrate working
@@ -115,7 +115,7 @@ call_user_func($obj);
 
 **Output:**
 
-```
+```php
 Geeksforgeeks
 invoke Geeksforgeeks
 
@@ -125,7 +125,7 @@ invoke Geeksforgeeks
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to illustrate working
@@ -147,7 +147,7 @@ array_map($print_function, $string_array);
 
 **Output:**
 
-```
+```php
 Geeksforgeeks
 GFG
 Article

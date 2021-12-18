@@ -8,7 +8,7 @@ PHP 中的 filesize()函数是一个内置函数，用于返回指定文件的�
 
 **语法：**
 
-```
+```php
 filesize($filename)
 ```
 
@@ -24,7 +24,7 @@ filesize($filename)
 
 **示例：**
 
-```
+```php
 
 Input : echo filesize("gfg.txt");
 Output : 256
@@ -39,7 +39,7 @@ Output : gfg.txt : 256 bytes
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // displaying file size using
@@ -51,13 +51,13 @@ echo filesize("gfg.txt");
 
 产出：
 
-```
+```php
 256
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // displaying file size using
@@ -71,7 +71,7 @@ echo $myfile . ': ' . filesize($myfile) . ' bytes';
 
 产出：
 
-```
+```php
 gfg.txt : 256 bytes
 ```
 

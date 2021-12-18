@@ -6,7 +6,7 @@ PHP 中的 ftruncate()函数是一个内置函数，用于将打开的文件截�
 
 **语法：**
 
-```
+```php
 ftruncate(file, size)
 ```
 
@@ -27,7 +27,7 @@ ftruncate(file, size)
 
 **程序 1**：
 
-```
+```php
 <?php
 // checking filesize before truncating
 echo filesize("gfg.txt");
@@ -54,7 +54,7 @@ fclose($myfile);
 
 **程序 2**：
 
-```
+```php
 <?php
 $myfile = 'gfg.txt';
 

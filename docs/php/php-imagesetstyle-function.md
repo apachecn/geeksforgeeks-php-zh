@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagesetstyle( *resource* $image, *array* $style )
 ```
 
@@ -20,7 +20,7 @@
 下面给出的程序说明了 PHP 中的**imagesetstyle()函数**：
 **程序 1(在图像上绘制)：**
 
-```
+```php
 <?php
 // Load the png image
 $image = imagecreatefrompng(
@@ -46,7 +46,7 @@ imagepng($image);
 
 **程序 2(在空白图纸上绘图)：**
 
-```
+```php
 <?php
 //Create a blank image
 $image = imagecreatetruecolor(700, 200);

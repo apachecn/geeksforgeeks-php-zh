@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SimpleXMLIterator::valid( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Store the xml element to variable
@@ -56,7 +56,7 @@ var_dump($xmlIt->valid());
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 
@@ -64,7 +64,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Store the xml element to variable
@@ -93,7 +93,7 @@ for( $xmlIt->rewind(); $xmlIt->valid(); $xmlIt->next() ) {
 
 **输出：**
 
-```
+```php
 string(4) "name"
 string(7) "address"
 string(7) "contact"

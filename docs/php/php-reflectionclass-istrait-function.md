@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass isTrait()
 ```
 
@@ -18,7 +18,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Defining a trait class
@@ -41,7 +41,7 @@ var_dump($A);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 ```
 
@@ -49,7 +49,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Defining a user-defined class Department
@@ -70,7 +70,7 @@ var_dump($Result);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 ```
 

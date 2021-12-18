@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::copy ( void ) : Ds\Deque
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare deque
@@ -44,7 +44,7 @@ var_dump($deck_copy);
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 object(Ds\Deque)#1 (6) {
   [0]=>
@@ -81,7 +81,7 @@ object(Ds\Deque)#2 (6) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare deque
@@ -106,7 +106,7 @@ print_r($deck_copy);
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (

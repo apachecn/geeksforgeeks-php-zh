@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickPixel* GmagickPixel::setcolor( *string* $color )
 ```
 
@@ -19,7 +19,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**GmagickPixel：：setcolor()函数**
 
-```
+```php
 <?php 
 // Create a new gmagickPixel object 
 $gmagickPixel = new GmagickPixel(); 
@@ -35,13 +35,13 @@ print("<pre>".print_r($color, true)."</pre>"); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(16962, 34181, 21588)
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png

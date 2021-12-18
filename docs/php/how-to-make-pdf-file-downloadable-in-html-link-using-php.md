@@ -8,25 +8,25 @@
 
 *   **下载任何应用的 http 响应头**
 
-    ```
+    ```php
     header("Content-Type: application/octet-stream");
     ```
 
     *   **http 响应头设置组成和文件下载**
 
-    ```
+    ```php
     header('Content-Disposition: attachment; filename="downloaded.pdf"');
     ```
 
     *   **请求文件的长度需要下载**
 
-    ```
+    ```php
     header("Content-Length: " . filesize("download.pdf"));
     ```
 
     *   **Reads a file and writes it to the output buffer.**
 
-    ```
+    ```php
     readfile('original.pdf');
 
     ```
@@ -41,7 +41,7 @@
     *   这里下载的文件似乎是 PDF 格式，但没有任何内容，显示在任何应用程序打开错误
     *   **HTML 代码:**
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
 
@@ -62,7 +62,7 @@
 
     *   **PHP 代码:**
 
-        ```
+        ```php
         <?php
 
         $file = $_GET["file"] .".pdf";
@@ -90,7 +90,7 @@
 
     *   **HTML 代码:**
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
 
@@ -112,7 +112,7 @@
 
     *   **PHP 代码:**
 
-        ```
+        ```php
         <?php
 
         header("Content-Type: application/octet-stream");

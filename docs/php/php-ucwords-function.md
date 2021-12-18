@@ -6,7 +6,7 @@ Ucwords()函数是 PHP 中的一个内置函数，用于将字符串中每个单
 
 **语法**：
 
-```
+```php
 *string* ucwords ( $string, $separator )
 
 ```
@@ -20,7 +20,7 @@ Ucwords()函数是 PHP 中的一个内置函数，用于将字符串中每个单
 
 例如：
 
-```
+```php
 Input : $str  = "Geeks for geeks"
         ucwords($str)
 Output: Geeks For Geeks
@@ -35,7 +35,7 @@ Output: Going BACK He SAW THIS
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // original string
@@ -52,14 +52,14 @@ print_r($resStr);
 
 产出：
 
-```
+```php
 Geeks For Geeks
 
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // original string
@@ -78,7 +78,7 @@ print_r($resStr);
 
 产出：
 
-```
+```php
 Geeks#For#Geeks #PHP #Tutorials
 
 ```

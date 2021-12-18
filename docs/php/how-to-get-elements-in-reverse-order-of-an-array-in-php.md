@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```php
 array_push($array, $element)
 ```
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     // Declaring an array
     $arr = array(1, 2, 3, 4, 5);
@@ -34,7 +34,7 @@ array_push($array, $element)
 
 **Output**
 
-```
+```php
 Original Array : Array
 (
     [0] => 1
@@ -57,13 +57,13 @@ Modified Array : Array
 
 **语法:**
 
-```
+```php
 array_reverse($array)
 ```
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     // Declaring an array
     $arr = array(1, 2, 3, 4, 5);
@@ -79,7 +79,7 @@ array_reverse($array)
 
 **Output**
 
-```
+```php
 Original Array : Array
 (
     [0] => 1

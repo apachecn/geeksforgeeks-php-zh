@@ -6,7 +6,7 @@
 
 **语法**：
 
-```
+```php
 *bool* is_array($variable_name)
 ```
 
@@ -18,7 +18,7 @@
 下面的示例演示了 PHP 中的**is_array()**函数。
 **示例 1：**
 
-```
+```php
 <?php
 // PHP code to demonstrate working of is_array()
 $variable_name1=67.099;
@@ -54,7 +54,7 @@ else
 
 **Output:**
 
-```
+```php
 array('A', 'B', 'C') is an array . 
 67.099 is not a array value. 
 32 is not a array value. 

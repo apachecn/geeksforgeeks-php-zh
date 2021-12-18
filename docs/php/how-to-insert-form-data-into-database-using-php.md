@@ -17,7 +17,7 @@ HTML 表单中使用的元素有复选框、输入框、单选按钮、提交按
 
 **语法:**
 
-```html
+```phphtml
 <form> Form Elements... </form>
 ```
 
@@ -25,7 +25,7 @@ HTML 表单中使用的元素有复选框、输入框、单选按钮、提交按
 
 要将值传递到下一页，我们使用具有以下语法的页面名称。我们可以使用 GET 或 POST 方法将数据发送到服务器。
 
-```html
+```phphtml
 <form action=other_page.php  method= POST/GET>
     Form Elements...
 </form>
@@ -37,7 +37,7 @@ HTML 表单中使用的元素有复选框、输入框、单选按钮、提交按
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
 $servername = "localhost";
@@ -71,7 +71,7 @@ if ($conn->query($sql) === TRUE) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -128,7 +128,7 @@ $conn->close();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -179,7 +179,7 @@ $conn->close();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 

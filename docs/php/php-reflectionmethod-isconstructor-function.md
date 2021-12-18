@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionMethod::isConstructor( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -41,14 +41,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -82,7 +82,7 @@ var_dump($C->isConstructor());
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

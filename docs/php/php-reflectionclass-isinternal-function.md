@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isInternal( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Departments
@@ -40,14 +40,14 @@ var_dump($instance);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass internally
@@ -61,7 +61,7 @@ var_dump($InternalClass->isInternal());
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```

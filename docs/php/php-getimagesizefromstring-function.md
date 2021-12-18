@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* getimagesizefromstring( $imagedata, &$imageinfo )
 ```
 
@@ -24,7 +24,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 $img = 
@@ -43,7 +43,7 @@ var_dump($info);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(6) { 
     [0]=> int(667) 
     [1]=> int(184) 
@@ -57,7 +57,7 @@ array(6) {
 
 **示例 2：**
 
-```
+```php
 <?php
 $img = 
 'https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-25.png';
@@ -81,7 +81,7 @@ echo "Image attribute: " . $attr; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Width of image: 667
 Height of image: 184
 Image type: 3

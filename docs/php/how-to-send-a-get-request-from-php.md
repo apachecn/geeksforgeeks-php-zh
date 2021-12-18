@@ -10,7 +10,7 @@
 **Get 方法:**Get 方法发送附加到页面请求的编码用户信息。页面和编码信息用“？”分隔性格。
 例如:
 
-```
+```php
 https://www.google.com/search?q=hello
 ```
 
@@ -19,7 +19,7 @@ https://www.google.com/search?q=hello
 *   **main . PHP:**t0]
 *   **welcome.php:**
 
-```
+```php
 <html>
 
 <body>

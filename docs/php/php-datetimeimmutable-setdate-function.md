@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateTimeImmutable* DateTimeImmutable::setDate( *int* $year, *int* $month, *int* $day )
 
 ```
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate DateTimeImmutable::setDate()
@@ -48,14 +48,14 @@ echo $a->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-10-03
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate DateTimeImmutable::setDate()
@@ -77,7 +77,7 @@ echo $a->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-10-03
 
 ```

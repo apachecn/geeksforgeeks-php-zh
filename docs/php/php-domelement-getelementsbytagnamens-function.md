@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNodeList* DOMElement::getElementsByTagNameNS( 
           *string* $namespaceURI, *string* $localName )
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();
@@ -67,7 +67,7 @@ foreach ($nodeList as $node) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 color:red;
 color:green;
 color:blue;
@@ -75,7 +75,7 @@ color:blue;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -108,7 +108,7 @@ foreach ($nodeList as $node) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GEEKS
 FOR
 GEEKS

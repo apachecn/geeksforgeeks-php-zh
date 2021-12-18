@@ -13,7 +13,7 @@ Nl2br()是 PHP 中的一个内置函数，用于在字符串中所有新行的�
 
 **语法：**
 
-```
+```php
 nl2br($str, $isXHTML)
 
 ```
@@ -27,7 +27,7 @@ nl2br($str, $isXHTML)
 
 以下程序说明了 nl2br()在 PHP 中的工作方式：
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working of nl2br()

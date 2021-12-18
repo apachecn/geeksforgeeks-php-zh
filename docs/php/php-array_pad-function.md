@@ -6,7 +6,7 @@ array_pad()是 PHP 中的内置函数，用于将一个值固定次数地填充�
 
 **语法:**
 
-```
+```php
 *array* array_pad($input_array, $input_size, $values)
 ```
 
@@ -22,7 +22,7 @@ array_pad()是 PHP 中的内置函数，用于将一个值固定次数地填充�
 
 示例:
 
-```
+```php
 Input : array = ("one", "two", "three", "four", "five")
         $total_size  = 7 , $value = "six"
 Output : 
@@ -57,7 +57,7 @@ Array
 
 1.  Padding elements at end of the array when the $total_size is positive:
 
-    ```
+    ```php
     <?php
     // PHP function to illustrate the use of array_pad()
     function Padding($array, $string)
@@ -74,7 +74,7 @@ Array
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [0] => one
@@ -90,7 +90,7 @@ Array
 
 2.  Padding elements at start of the array when the $total_size is negative:
 
-    ```
+    ```php
     <?php
     // PHP function to illustrate the use of array_pad()
     function Padding($array, $string)
@@ -107,7 +107,7 @@ Array
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [0] => six

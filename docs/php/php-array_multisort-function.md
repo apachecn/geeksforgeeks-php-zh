@@ -7,7 +7,7 @@ array _ multi sort()是 PHP 中的一个内置函数，用于一次对多个数�
 
 **语法:**
 
-```
+```php
 *bool* array_multisort($array1, sorting_order, sorting_type, $array2..)
 ```
 
@@ -33,7 +33,7 @@ array _ multi sort()是 PHP 中的一个内置函数，用于一次对多个数�
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Input array
@@ -51,7 +51,7 @@ print_r($animals);
 
 输出:
 
-```
+```php
 Array
 (
     [0] => Bear
@@ -66,7 +66,7 @@ Array
 
 **程序 2:**
 
-```
+```php
 <?php
 
 // Input arrays
@@ -86,7 +86,7 @@ print_r($array2);
 
 输出:
 
-```
+```php
 Array
 (
     [0] => Cat
@@ -102,7 +102,7 @@ Array
 
 **程序 3:**
 
-```
+```php
 <?php
 
 // Input arrays
@@ -121,7 +121,7 @@ print_r($array2);
 
 输出:
 
-```
+```php
 Array
 (
     [0] => Cat

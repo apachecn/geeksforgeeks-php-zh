@@ -5,7 +5,7 @@
 **Imagick：：aint tOpaqueImage()函数**是 PHP 中的一个内置函数，用于更改与特定颜色匹配的任何像素。
 **语法：**
 
-```
+```php
 *bool* Imagick::paintOpaqueImage
 ($target, $fill, $fuzz, $channel = Imagick::CHANNEL_DEFAULT)
 ```
@@ -24,7 +24,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

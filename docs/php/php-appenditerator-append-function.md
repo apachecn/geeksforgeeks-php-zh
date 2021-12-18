@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* AppendIterator::append( *Iterator* $iterator )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -42,14 +42,14 @@ foreach ($itr as $val) {
 
 **输出:**
 
-```
+```php
 GeeksforGeeks
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -71,7 +71,7 @@ foreach ($itr as $val) {
 
 **输出:**
 
-```
+```php
 GeeksforGeeksComputerSciencePortal
 
 ```

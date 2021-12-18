@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* xml_parse_into_struct( *resource* $xml_parser, *string* $data,
                                         *array* $values, *array* $index )
 ```
@@ -29,7 +29,7 @@
 
 ## 可扩展标记语言
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -43,7 +43,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an xml parser
@@ -75,7 +75,7 @@ fclose($filePointer);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => Array
@@ -154,7 +154,7 @@ Array
 
 ## 可扩展标记语言
 
-```
+```php
 <?xml version="1.0"?>
 <atoms>
     <atom>
@@ -184,7 +184,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 
 class Atom {
@@ -259,7 +259,7 @@ print_r($db);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Database of atoms objects:
 Array
 (

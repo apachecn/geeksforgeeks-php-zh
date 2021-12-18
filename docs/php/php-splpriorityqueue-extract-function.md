@@ -6,7 +6,7 @@ SplPriorityQueue：：Extract()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 mixed SplPriorityQueue::extract()
 ```
 
@@ -18,7 +18,7 @@ mixed SplPriorityQueue::extract()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -50,7 +50,7 @@ var_dump($obj->extract());
 
 **OUTPUT**
 
-```
+```php
 string(1) "G"
 ```
 

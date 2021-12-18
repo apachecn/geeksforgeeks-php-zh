@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```php
 <?php
 
 "Welcome to GeeksforGeeks!"
@@ -23,7 +23,7 @@
 
 输出:
 
-```
+```php
 Nothing
 
 ```
@@ -32,7 +32,7 @@ Nothing
 
 **问题 2**
 
-```
+```php
 <?php
 
 print_r "I am intern at GeeksforGeeks."
@@ -49,7 +49,7 @@ print_r "I am intern at GeeksforGeeks."
 
 输出:
 
-```
+```php
 Error
 
 ```
@@ -58,7 +58,7 @@ Error
 
 **问题 3**
 
-```
+```php
 <?php
 
 echo 'GeeksforGeeks';
@@ -80,7 +80,7 @@ GeeksforGeeks
 
 输出:
 
-```
+```php
 Syntax Error
 
 ```
@@ -89,7 +89,7 @@ Syntax Error
 
 **问题 4**
 
-```
+```php
 <?php
 
 Echo "GeeksforGeeks1";
@@ -110,7 +110,7 @@ ECHO " GeeksforGeeks3";
 
 输出:
 
-```
+```php
 GeeksforGeeks1 GeeksforGeeks2 GeeksforGeeks3
 
 ```
@@ -119,7 +119,7 @@ GeeksforGeeks1 GeeksforGeeks2 GeeksforGeeks3
 
 **问题 5**
 
-```
+```php
 <?php
 
 $color = "green";
@@ -139,7 +139,7 @@ echo "$Color";
 
 输出:
 
-```
+```php
 green
 
 ```
@@ -148,7 +148,7 @@ green
 
 **问题 6**
 
-```
+```php
 <?php # echo "GeeksforGeeks";
 
 echo "# GeeksforGeeks"; 
@@ -165,14 +165,14 @@ echo "# GeeksforGeeks"; 
 
 输出:
 
-```
+```php
 # GeeksforGeeks
 
 ```
 
 **问题 7**
 
-```
+```php
 <?php
 
 echo "echo "GeeksforGeeks"";
@@ -189,7 +189,7 @@ echo "echo "GeeksforGeeks"";
 
 输出:
 
-```
+```php
 Error
 
 ```

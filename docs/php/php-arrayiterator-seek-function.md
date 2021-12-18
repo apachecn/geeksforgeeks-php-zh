@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::seek( *int* $position )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -44,14 +44,14 @@ echo $arrItr->current();
 
 **输出:**
 
-```
+```php
 9
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -81,7 +81,7 @@ if($arrItr->valid()) {
 
 **输出:**
 
-```
+```php
 Geeks
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickDraw* ImagickDraw::clone( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -61,7 +61,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

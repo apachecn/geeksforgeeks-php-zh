@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *int* AppendIterator::getIteratorIndex( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -41,7 +41,7 @@ foreach ($itr as $key => $val) {
 
 **输出:**
 
-```
+```php
 Iterator Index: 0  Key : 0  Value: Geeks
 Iterator Index: 0  Key : 1  Value: for
 Iterator Index: 0  Key : 2  Value: Geeks
@@ -53,7 +53,7 @@ Iterator Index: 1  Key : 2  Value: Portal
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -89,7 +89,7 @@ foreach ($itr as $key => $val) {
 
 **输出:**
 
-```
+```php
 Iterator Index: 0  Key : a  Value: Geeks
 Iterator Index: 0  Key : b  Value: for
 Iterator Index: 0  Key : c  Value: Geeks

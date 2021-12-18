@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 date('d-m-y h:i:s');
 ```
 
@@ -23,7 +23,7 @@ date('d-m-y h:i:s');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 // PHP program to get the 
 // current date and time 
@@ -42,7 +42,7 @@ echo $myDate; 
 
 **输出:**
 
-```
+```php
 Current date and time is :03-01-21 04:49:52
 ```
 
@@ -50,7 +50,7 @@ Current date and time is :03-01-21 04:49:52
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>

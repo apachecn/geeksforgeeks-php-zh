@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```php
 addslashes($string)
 
 ```
@@ -26,7 +26,7 @@ addslashes($string)
 
 示例:
 
-```
+```php
 Input : $string = "Geek's"
 Output : Geek\'s
 
@@ -39,7 +39,7 @@ Output : twinkle loves \"coding\"
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // working of addslashes() function 
@@ -54,14 +54,14 @@ echo($str); 
 
 **输出:**
 
-```
+```php
 twinkle loves \"coding\"
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php 
 // PHP program to demonstrate the
 // working of addslashes() function 
@@ -76,7 +76,7 @@ echo($str); 
 
 **输出:**
 
-```
+```php
 Geek\'s
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplFixedArray::offsetGet( $index )
 ```
 
@@ -18,7 +18,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -35,6 +35,6 @@ var_dump($gfg->offsetGet(2));
 
 **Output:** 
 
-```
+```php
 int(10)
 ```

@@ -8,7 +8,7 @@ PHP 中的 *atan()* 函数用于查找传递给它的参数的反正切，该参
 
 **语法:**
 
-```
+```php
 *float* atan($value)
 ```
 
@@ -18,7 +18,7 @@ PHP 中的 *atan()* 函数用于查找传递给它的参数的反正切，该参
 
 示例:
 
-```
+```php
 Input : atan(0.50)  
 Output : 0.46364760900081
 
@@ -37,7 +37,7 @@ Output : 1.5607966601082
 
 *   Passing 0.50 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan(0.50));
@@ -47,13 +47,13 @@ Output : 1.5607966601082
 
     输出:
 
-    ```
+    ```php
     0.46364760900081
     ```
 
 *   Passing -0.50 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan(-0.50));
@@ -63,13 +63,13 @@ Output : 1.5607966601082
 
     输出:
 
-    ```
+    ```php
     -0.46364760900081
     ```
 
 *   Passing 5 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan(5));
@@ -79,13 +79,13 @@ Output : 1.5607966601082
 
     输出:
 
-    ```
+    ```php
     1.373400766945
     ```
 
 *   Passing 100 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan(100));
@@ -95,7 +95,7 @@ Output : 1.5607966601082
 
     输出:
 
-    ```
+    ```php
     1.5607966601082
     ```
 

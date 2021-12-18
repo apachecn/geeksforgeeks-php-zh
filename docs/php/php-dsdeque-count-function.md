@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::count( void ) : int
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -39,7 +39,7 @@ print_r($deck->count());
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (
@@ -57,7 +57,7 @@ Number of elements in the Deque: 6
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -77,7 +77,7 @@ print_r($deck->count());
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (

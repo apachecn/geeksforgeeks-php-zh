@@ -8,7 +8,7 @@ Foreach 构造提供了迭代数组元素的最简单方法。 它对数组和�
 
 **语法：**
 
-```
+```php
 foreach( $array as $element ) {
     // PHP Code to be executed
 }
@@ -16,7 +16,7 @@ foreach( $array as $element ) {
 
 或者 / 还是 / 即 / 否则
 
-```
+```php
 foreach( $array as $key => $element) {
     // PHP Code to be executed
 }
@@ -26,7 +26,7 @@ foreach( $array as $key => $element) {
 
 **程序 1：**使用 foreach 循环打印数组元素的 PHP 程序。
 
-```
+```php
 <?php
 
 // Declare an array
@@ -42,14 +42,14 @@ foreach ($arr as $element) {
 
 **Output:**
 
-```
+```php
 green blue pink white
 
 ```
 
 **程序 2：**使用 foreach 循环打印关联数组元素的 PHP 程序。
 
-```
+```php
 <?php 
 $employee = array( 
     "name" => "Robert", 
@@ -69,7 +69,7 @@ foreach($employee as $key => $element) { 
 
 **Output:**
 
-```
+```php
 name: Robert
 email: robert112233@mail.com
 age: 18

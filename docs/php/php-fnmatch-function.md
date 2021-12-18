@@ -7,7 +7,7 @@ fnMatch()函数现在可用于 PHP 5.3.0 版本上的 Windows 平台。
 
 **语法：**
 
-```
+```php
 fnmatch(pattern, string, flags)
 ```
 
@@ -35,7 +35,7 @@ PHP 中的 fnMatch()函数接受三个参数。
 
 **程序 1**假设有一个名为“gfg.txt”的文件
 
-```
+```php
 <?php
 $check = "gfg.txt";
 
@@ -54,13 +54,13 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 
 $check = "GeeksforGeeks";
@@ -76,14 +76,14 @@ else
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
 
 **程序 3**
 
-```
+```php
 <?php
 $check = 'GFG A computer science portal';
 
@@ -99,14 +99,14 @@ else
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
 
 **程序 4**
 
-```
+```php
 <?php
 
 $check = "There is a back slash \ in this sentence";
@@ -121,7 +121,7 @@ if (fnmatch("*[\]*", $check, FNM_NOESCAPE))
 
 **Output:**
 
-```
+```php
 back slash  (\)  in the sentence
 
 ```

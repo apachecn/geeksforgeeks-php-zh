@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to explain function
 // overloading in PHP
@@ -52,7 +52,7 @@ echo ($s->area(4, 2));
 
 **Output:** 
 
-```
+```php
 6.28
 8
 ```
@@ -62,7 +62,7 @@ echo ($s->area(4, 2));
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to implement
 // function overriding
@@ -101,7 +101,7 @@ $c->geeks();
 
 **Output:** 
 
-```
+```php
 Parent
 Child
 ```

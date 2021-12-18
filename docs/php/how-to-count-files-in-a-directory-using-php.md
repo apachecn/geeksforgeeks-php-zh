@@ -8,7 +8,7 @@ PHP 包含许多函数，如 count()、iterator_count()、glob()、openddir()、
 
 **语法:**
 
-```
+```php
 *int* count( mixed $array_or_countable, int $mode = COUNT_NORMAL )
 ```
 
@@ -16,13 +16,13 @@ PHP 包含许多函数，如 count()、iterator_count()、glob()、openddir()、
 
 **语法:**
 
-```
+```php
 glob( string $pattern, int $flags = 0 )
 ```
 
 **程序 1:** 该程序使用 glob()和 count()函数对目录内的所有文件进行计数。
 
-```
+```php
 <?php
 
 // Set the current working directory
@@ -44,7 +44,7 @@ echo $filecount . "files ";
 
 **输出:**
 
-```
+```php
 20 files
 ```
 
@@ -52,7 +52,7 @@ echo $filecount . "files ";
 
 **语法:**
 
-```
+```php
 opendir( string $path, resource $context )
 ```
 
@@ -60,13 +60,13 @@ opendir( string $path, resource $context )
 
 **语法:**
 
-```
+```php
 readdir( resource $dir_handle )
 ```
 
 **程序 2:** 该程序使用 openddir()和 readdir()函数对目录内的所有文件进行计数。
 
-```
+```php
 <?php
 
 // Set the current working directory
@@ -91,7 +91,7 @@ echo "$i files";
 
 **输出:**
 
-```
+```php
 20 files
 ```
 
@@ -99,13 +99,13 @@ echo "$i files";
 
 **语法:**
 
-```
+```php
 scandir( string $directory, int $sorting_order = SCANDIR_SORT_ASCENDING, resource $context )
 ```
 
 **程序 3:** 该程序使用 scandir()和 count()函数对目录内的所有文件进行计数。
 
-```
+```php
 <?php
 
 // Set the current working directory
@@ -124,7 +124,7 @@ echo $num_files . " files";
 
 **输出:**
 
-```
+```php
 20 files
 ```
 
@@ -132,7 +132,7 @@ echo $num_files . " files";
 
 **语法:**
 
-```
+```php
 FilesystemIterator::__construct( string $path, 
       int $flags = FilesystemIterator::KEY_AS_PATHNAME 
       | FilesystemIterator::CURRENT_AS_FILEINFO 
@@ -144,13 +144,13 @@ FilesystemIterator::__construct( string $path,
 
 **语法:**
 
-```
+```php
 int iterator_count( $iterator )
 ```
 
 **程序 4:** 该程序使用 FilesystemIterator()和 iterator_count()函数对目录内的所有文件进行计数。
 
-```
+```php
 <?php
 
 $fi = new FilesystemIterator(__DIR__, FilesystemIterator::SKIP_DOTS);
@@ -162,6 +162,6 @@ printf("%d files", iterator_count($fi));
 
 **输出:**
 
-```
+```php
 20 files
 ```

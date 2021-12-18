@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::getImageSignature( void )
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 // PHP program to illustrate getImageSignature function
@@ -36,7 +36,7 @@ print($pixels);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 f64054f5bcb4cfb82c6126eff6d3d4e6be7d0e72d5620033442cecb4b9feabbd
 
 ```
@@ -45,7 +45,7 @@ f64054f5bcb4cfb82c6126eff6d3d4e6be7d0e72d5620033442cecb4b9feabbd
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54.png](img/583fb2a26e2d28d4d8bbc47a02020896.png)
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -78,7 +78,7 @@ print($pixels);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 ed79035e13153385c344d19586e98941dd336165a3ca486200097c0bd2f4188c
 
 ```

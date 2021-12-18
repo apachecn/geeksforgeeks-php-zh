@@ -6,7 +6,7 @@ array_column()是 PHP 中的一个内置函数，用于返回输入数组中单�
 
 **语法:**
 
-```
+```php
 *array* array_column($input_array, $column_number, $index_key);
 ```
 
@@ -21,7 +21,7 @@ array_column()是 PHP 中的一个内置函数，用于返回输入数组中单�
 
 示例:
 
-```
+```php
 Input : 
       array(
         array(
@@ -59,7 +59,7 @@ Output :
 
 ## C++
 
-```
+```php
 <?php
 // PHP code to illustrate the working of array_column
 function Column($details){
@@ -101,7 +101,7 @@ print_r(Column($details));
 
 输出:
 
-```
+```php
 Array
 (
     [5] => Akash
@@ -116,7 +116,7 @@ Array
 
 ## C++
 
-```
+```php
 <?php
 // PHP code to illustrate the working of array_column
 function Column($details){
@@ -158,7 +158,7 @@ print_r(Column($details));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => Cricket

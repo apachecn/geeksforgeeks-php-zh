@@ -6,7 +6,7 @@
 
 **例:**是 IP 地址的一个例子。
 
-```
+```php
 506.457.14.512
 ```
 
@@ -23,7 +23,7 @@
 
 *   **Program:** Here, we first get the name of the local machine as a string, and then by using the string, we will get the corresponding address of the name.
 
-    ```
+    ```php
     <?php
 
     // Declaring a variable to hold the IP

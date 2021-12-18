@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::pathLineToHorizontalRelative( *float* $x )
 ```
 
@@ -19,7 +19,7 @@
 下面给定的程序说明了 PHP：
 **程序 1：**中的**ImagickDraw：：pathLineToHorizontalRelative()函数**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -58,7 +58,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

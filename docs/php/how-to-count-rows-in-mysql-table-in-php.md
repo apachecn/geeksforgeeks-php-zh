@@ -24,7 +24,7 @@
 
 **为了计算*构建*表中的行数，使用了以下代码片段。**
 
-```
+```php
 $sql = "SELECT * from building";
 
 if ($result = mysqli_query($con, $sql)) {
@@ -39,7 +39,7 @@ if ($result = mysqli_query($con, $sql)) {
 
 ****输出:**预期结果如下。**
 
-```
+```php
 Total rows in this table : 5
 ```
 
@@ -71,7 +71,7 @@ XAMPP 服务器**
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 // localhost is localhost
@@ -101,7 +101,7 @@ mysqli_close($con);
 
 ****输出:**在 localhost 中运行上述 PHP 文件后，得到如下结果。**
 
-```
+```php
 Total rows in this table : 5
 ```
 
@@ -119,7 +119,7 @@ Total rows in this table : 5
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 // Servername
@@ -158,6 +158,6 @@ $conn->close();
 
 ****输出:****
 
-```
+```php
 Total Rows is 8
 ```

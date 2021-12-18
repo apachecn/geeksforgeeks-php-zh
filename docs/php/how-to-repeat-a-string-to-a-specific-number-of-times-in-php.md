@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring string variable 
@@ -36,14 +36,14 @@ echo($final_str . "</br>");
 
 **Output**
 
-```
+```php
 Original string : Hi!GFG User.
 Final string : Hi!GFG User.Hi!GFG User.Hi!GFG User.
 ```
 
 **方法二:使用 str_repeat 方法:**PHP 中内置的 str_repeat()方法可以将指定的字符串重复指定的次数。内容可以存储在单独的变量名中。该方法具有以下语法:
 
-```
+```php
 str_repeat( str, n)
 ```
 
@@ -54,7 +54,7 @@ str_repeat( str, n)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring string variable 
@@ -75,7 +75,7 @@ echo($final_str . "</br>");
 
 **Output**
 
-```
+```php
 Original string : Hi!GFG User.
 Final string : Hi!GFG User.Hi!GFG User.Hi!GFG User.
 ```

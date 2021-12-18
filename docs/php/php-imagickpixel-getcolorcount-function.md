@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ImagickPixel::getColorCount( *void* ) : int
 ```
 
@@ -19,7 +19,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickPixel：：getColorCount()函数**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -42,13 +42,13 @@ echo $lastColor->getColorCount();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 18
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -68,13 +68,13 @@ echo $lastColor->getColorCount();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -97,13 +97,13 @@ echo $firstColor->getColorCount();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 20
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -126,7 +126,7 @@ foreach ($histogramElements as $pixel) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 R G B Hue :Count
 0 22 35 1 :1
 0 25 37 1 :1

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 move_uploaded_file ( string $Sourcefilename, string $destination ) : bool
 rename ( string $oldname, string $newname [, resource $context ] ) : bool
 
@@ -20,7 +20,7 @@ rename ( string $oldname, string $newname [, resource $context ] ) : bool
 
 **Upload.html**
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -48,7 +48,7 @@ rename ( string $oldname, string $newname [, resource $context ] ) : bool
 
 **更新文件.php**
 
-```
+```php
 <?php
 
 // The target directory of uploading is uploads

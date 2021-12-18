@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::getimageredprimary( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,13 +37,13 @@ print_r($res); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 0.63999998569489 [y] => 0.33000001311302 )
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -60,7 +60,7 @@ print_r($res); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 4 [y] => 8 )
 ```
 

@@ -6,7 +6,7 @@ Doubleval()是 PHP 中的一个内置函数，用于获取变量的浮点值。 
 
 **语法：**
 
-```
+```php
 doubleval ( $variable_name )
 ```
 
@@ -17,7 +17,7 @@ doubleval ( $variable_name )
 以下程序说明了在 PHP：
 **程序 1：**中使用 doubleval()函数的方法
 
-```
+```php
 <?php
 
 // PHP program to illustrate 
@@ -30,7 +30,7 @@ echo $double_value;
 
 **Output:**
 
-```
+```php
 41681.27
 
 ```

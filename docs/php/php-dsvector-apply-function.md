@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Vector::apply( $callback )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare the callback function
@@ -42,7 +42,7 @@ print_r($vector);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare the callback function

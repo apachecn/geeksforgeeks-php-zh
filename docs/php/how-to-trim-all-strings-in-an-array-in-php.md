@@ -5,7 +5,7 @@
 给定一个带有空格的字符串数组，任务是从数组的每个对象中移除所有空格。
 **例:**
 
-```
+```php
 Input: arr = ["Geeks  ", "   for", "  Geeks  "]
 Output:
 Geeks
@@ -18,14 +18,14 @@ Geeks
 *   **trim()函数:**trim()函数是一个内置函数，它从字符串的左右两边删除空格和预定义的字符。
     **语法:**
 
-```
+```php
 trim( $string, $charlist )
 ```
 
 *   **array_walk()函数:**array _ walk()函数是 PHP 中的一个内置函数，它遍历整个数组而不考虑指针位置，并对数组的每个元素应用回调函数或用户定义函数。数组元素的键和值是回调函数中的参数。
     **语法:**
 
-```
+```php
 boolean array_walk( $array, myFunction, $extraParam )
 ```
 
@@ -33,7 +33,7 @@ boolean array_walk( $array, myFunction, $extraParam )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Create an array with whitespace
@@ -60,7 +60,7 @@ foreach($arr as $key => $value)
 
 **Output:** 
 
-```
+```php
 Original Array:
 Geeks  
   for
@@ -77,7 +77,7 @@ Geeks
 *   array_map()函数是 PHP 中的一个内置函数，它有助于根据用户定义的条件以简单的方式修改一个或多个数组中的所有元素。基本上，它将数组的每个元素发送给用户定义的函数，并返回一个带有该函数修改后的新值的数组。
     **语法:**
 
-```
+```php
 array_map(functionName, arr1, arr2...)
 ```
 
@@ -85,7 +85,7 @@ array_map(functionName, arr1, arr2...)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Create an array with whitespace
@@ -111,7 +111,7 @@ foreach($arr as $key => $value)
 
 **Output:** 
 
-```
+```php
 Original Array:
 Geeks  
   for
@@ -128,7 +128,7 @@ Geeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Create an array with whitespace
@@ -157,7 +157,7 @@ foreach($arr as $key => $value) {
 
 **Output:** 
 
-```
+```php
 Original Array:
 Geeks  
   for

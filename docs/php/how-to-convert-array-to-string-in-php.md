@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 *string* implode($separator, $array)
 ```
 
@@ -16,7 +16,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php  
 
 // Declare an array 
@@ -32,14 +32,14 @@ echo implode(" ",$arr);
 
 **输出:**
 
-```
+```php
 Welcome to GeeksforGeeks A Computer Science Portal
 ```
 
 **方法二:** [**使用 json_encode()函数:**](https://www.geeksforgeeks.org/php-json_encode-function/)****json _ encode()函数**是 PHP 中的一个内置函数，用于将 PHP 数组或对象转换为 JSON 表示。
 **语法:****
 
-```
+```php
 *string* json_encode( $value, $option, $depth )
 ```
 
@@ -47,7 +47,7 @@ Welcome to GeeksforGeeks A Computer Science Portal
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php 
 
 // Declare multi-dimensional array 
@@ -70,7 +70,7 @@ echo($json); 
 
 ****输出:****
 
-```
+```php
 {"name":"GFG","0":{"email":"abc@gfg.com","mobile":"XXXXXXXXXX"}}
 ```
 

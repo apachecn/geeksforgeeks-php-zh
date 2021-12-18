@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::moveToAttributeNs( *string* $localName,
                           *string* $namespaceURI )
 ```
@@ -22,7 +22,7 @@
 
 加入：清华 2007 年 1 月 25 日下午 3：33 岗位：287 岗位：338 岗位：338 岗位：321загрузкаиспользованияпрограмметсяпрограмметсяпрограмма
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns:z="my_namespace">
     <z:h1 z:attrib="value"> Foo Bar </z:h1>
@@ -31,7 +31,7 @@
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -58,13 +58,13 @@ echo $XMLReader->value;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 // Empty string because there is no namespace called "wrong_namespace"
 ```
 
 加入：清华 2007 年 1 月 25 日下午 3：33 岗位：287 岗位：338 岗位：338 岗位：321загрузкаиспользованияпрограмметсяпрограмметсяпрограмма
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns:z="my_namespace">
     <z:h1 z:attrib="value"> Foo Bar </z:h1>
@@ -73,7 +73,7 @@ echo $XMLReader->value;
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -100,7 +100,7 @@ echo $XMLReader->value;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 value
 ```
 

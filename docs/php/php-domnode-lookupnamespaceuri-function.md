@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMNode::lookupNamespaceUri( *string* $prefix )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -45,7 +45,7 @@ echo $uri;
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

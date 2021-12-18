@@ -8,7 +8,7 @@ Gmp_hamdist()是 PHP 中的一个内置函数，用于查找两个 GMP 数字之
 
 **语法：**
 
-```
+```php
 gmp_hamdist ( $num1, $num2)
 ```
 
@@ -18,7 +18,7 @@ gmp_hamdist ( $num1, $num2)
 
 例如：
 
-```
+```php
 Input:  $a = "3", $b = "11"
 Output: 1
 Explanation: Binary representation of 3 is 0011
@@ -34,7 +34,7 @@ Output: 0
 
 **程序 1：**当作为 GMP 编号的数字串作为参数传递时，计算汉明距离的程序。
 
-```
+```php
 <?php
 // PHP program to calculate hamming distance
 
@@ -56,7 +56,7 @@ echo $hamDist."\n";
 
 产出：
 
-```
+```php
 4
 12
 
@@ -64,7 +64,7 @@ echo $hamDist."\n";
 
 **程序 2：**当 GMP 编号作为参数传递时计算汉明距离的程序。
 
-```
+```php
 <?php
 // PHP program to calculate hamming distance
 
@@ -87,7 +87,7 @@ echo $hamDist."\n";
 
 产出：
 
-```
+```php
 1
 0
 

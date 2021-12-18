@@ -7,7 +7,7 @@
 **self 运算符:** self 运算符代表当前类，因此用于访问类变量或静态变量，因为这些成员属于某个类，而不是该类的对象。
 **语法:**
 
-```
+```php
 self::$static_member
 ```
 
@@ -15,7 +15,7 @@ self::$static_member
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class GFG {
@@ -33,7 +33,7 @@ new GFG();
 
 **输出:**
 
-```
+```php
 GeeksForGeeks
 ```
 
@@ -41,7 +41,7 @@ GeeksForGeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class GFG {
@@ -67,7 +67,7 @@ $parent->bar();
 
 **输出:**
 
-```
+```php
 Parent Class:
 ```
 
@@ -75,7 +75,7 @@ Parent Class:
 **$本符:**$本，为' {content} '号；暗号暗示，是一个物体。$这表示类的当前对象。它用于访问类的非静态成员。
 **语法:**
 
-```
+```php
 $that->$non_static_member;
 ```
 
@@ -83,7 +83,7 @@ $that->$non_static_member;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 class GFG {
     private $non_static_member = "GeeksForGeeks";
@@ -100,7 +100,7 @@ new GFG();
 
 **输出:**
 
-```
+```php
 GeeksForGeeks
 ```
 
@@ -108,7 +108,7 @@ GeeksForGeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class GFG {
@@ -134,7 +134,7 @@ $parent->bar();
 
 **输出:**
 
-```
+```php
 Child Class
 ```
 

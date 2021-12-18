@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 checkdate ( $month, $day, $year )
 ```
 
@@ -19,7 +19,7 @@ checkdate ( $month, $day, $year )
 **返回值:**函数返回一个布尔值。如果传递的日期是有效日期，则返回 true。如果传递的日期无效，则返回 false。
 **例:**
 
-```
+```php
 Input : $month = 12 $day = 31 $year = 2017
 Output : true
 
@@ -35,7 +35,7 @@ Output : false
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to demonstrate the checkdate() function
 
@@ -51,7 +51,7 @@ var_dump(checkdate($month, $day, $year));
 
 **输出:**
 
-```
+```php
 bool(true)
 ```
 
@@ -59,7 +59,7 @@ bool(true)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to demonstrate the checkdate() function
 // in case of leap year
@@ -85,7 +85,7 @@ var_dump(checkdate($month, $day, $year));
 
 **输出:**
 
-```
+```php
 bool(true)
 bool(false)
 ```

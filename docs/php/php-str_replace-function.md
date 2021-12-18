@@ -8,7 +8,7 @@
 
 **语法**：↔
 
-```
+```php
 str_replace ( $searchVal, $replaceVal, $subjectVal, $count )
 ```
 
@@ -25,7 +25,7 @@ str_replace ( $searchVal, $replaceVal, $subjectVal, $count )
 
 请考虑以下示例：
 
-```
+```php
 Input:  $subjectVal  = "It was nice meeting you. May you shine brightly."
         str_replace('you', 'him', $subjectVal)
 Output: It was nice meeting him. May him shine brightly.
@@ -45,7 +45,7 @@ the corresponding element from the second argument.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Input string
@@ -63,7 +63,7 @@ the corresponding element from the second argument.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Input string

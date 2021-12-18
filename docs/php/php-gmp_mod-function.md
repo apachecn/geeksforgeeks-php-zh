@@ -6,7 +6,7 @@ Gmp_mod()是 PHP 中的一个内置函数，用于查找 GMP 编号([GNU Multipl
 
 **语法：**
 
-```
+```php
 gmp_mod ( $num, $d )
 ```
 
@@ -16,7 +16,7 @@ gmp_mod ( $num, $d )
 
 例如：
 
-```
+```php
 Input : $num="8" $d="3" 
 Output :  2
 
@@ -29,7 +29,7 @@ Output :  2
 
 **程序 1：**下面的程序演示了将数字字符串作为参数传递时 gmp_mod()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_mod() function
 
@@ -43,13 +43,13 @@ echo gmp_strval($mod) . "\n";  
 
 产出：
 
-```
+```php
 2
 ```
 
 **程序 2：**下面的程序演示了当 GMP 编号作为参数传递时 gmp_mod()的工作方式。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_mod function
 
@@ -69,7 +69,7 @@ echo gmp_strval($mod) . "\n";  
 
 产出：
 
-```
+```php
 2
 ```
 

@@ -6,7 +6,7 @@
 
 **语法**：
 
-```
+```php
 *string* strtolower( $string )
 
 ```
@@ -17,7 +17,7 @@
 
 例如：
 
-```
+```php
 Input : $str  = "GeeksForGeeks"
         strtolower($str)
 Output: geeksforgeeks
@@ -32,7 +32,7 @@ Output: going back he saw this 123$#%
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // original string
@@ -48,14 +48,14 @@ print_r($resStr);
 
 产出：
 
-```
+```php
 geeksforgeeks
 
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // original string
@@ -71,7 +71,7 @@ print_r($resStr);
 
 产出：
 
-```
+```php
 going back he saw this 123$#%
 
 ```

@@ -10,7 +10,7 @@ PHP 允许我们使用各种内置方法以各种格式显示文本。
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $string = "GeeksforGeeks!!";
@@ -25,7 +25,7 @@ echo $string;
 
 **输出**
 
-```
+```php
 Printing the string: GeeksforGeeks!!
 ```
 
@@ -33,7 +33,7 @@ Printing the string: GeeksforGeeks!!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array
@@ -48,7 +48,7 @@ echo(json_encode($arr));
 
 **输出**
 
-```
+```php
 Array : [1, 2, 3, 4, 5]
 ```
 
@@ -57,7 +57,7 @@ T3】例 1:
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $string = "GeeksforGeeks!!";
@@ -72,7 +72,7 @@ print $string;
 
 **输出**
 
-```
+```php
 Printing the string: GeeksforGeeks!!
 ```
 
@@ -80,7 +80,7 @@ Printing the string: GeeksforGeeks!!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array
@@ -94,6 +94,6 @@ print_r($arr);
 
 **输出**
 
-```
+```php
 Array : Array ( [0] => 1 [1] => 2 [2] => 3 [3] => 4 [4] => 5 )
 ```

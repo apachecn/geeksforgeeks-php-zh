@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::previousImage( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -47,14 +47,14 @@ echo 'After: ' . $index2 . '<br>';
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before: 1
 After: 0
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -5,7 +5,7 @@
 **imagegif()**函数是 PHP 中的一个内置函数，用于从给定的图像创建 GIF 图像文件。 如果图像已经通过 imagecolor 透明()函数转换为透明的，则将生成 GIF89a 图像格式，否则将生成 GIF87a 图像格式。
 **语法：**
 
-```
+```php
 *bool* imagegif( $image, $to )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new image of given size
 $image = imagecreatetruecolor(500, 300);
@@ -52,7 +52,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Load the PNG image file

@@ -32,7 +32,7 @@ OPCache 用于提高 PHP 的性能，因为它存储了预编译的字节码，�
 
 *   在 php.ini 文件中进行以下更改，以优化性能。
 
-    ```
+    ```php
     opcache.memory_consumption=128
     opcache.interned_strings_buffer=8
     opcache.max_accelerated_files=4000
@@ -49,7 +49,7 @@ OPcache 支持的[配置指令](https://www.php.net/manual/en/opcache.configurat
 
     **语法:**
 
-    ```
+    ```php
     *bool* opcache_compile_file( $file ) 
     ```
 
@@ -61,7 +61,7 @@ OPcache 支持的[配置指令](https://www.php.net/manual/en/opcache.configurat
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
 
     // Intentional file error

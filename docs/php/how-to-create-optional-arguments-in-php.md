@@ -13,7 +13,7 @@ T3】
 
 **例 1:**
 
-```
+```php
 <?php
 function travel($place = "Sweden")
 {
@@ -27,7 +27,7 @@ echo travel("Tokyo");
 
 **输出:**
 
-```
+```php
 Travelling to Sweden. 
 Traveling to Australia. 
 Traveling to Tokyo.
@@ -35,7 +35,7 @@ Traveling to Tokyo.
 
 **示例 2:** 在本示例中，它确认定时器已设置。
 
-```
+```php
 <?php
 function timer($hour=00, $min=00, $sec=00)
 { 
@@ -50,7 +50,7 @@ echo timer(00, 20, 40);
 
 **输出:**
 
-```
+```php
 Timer set for 0 : 0 : 0\. 
 Timer set for 10 : 30 : 0\. 
 Timer set for 0 : 20 : 40.

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* DOMDocument::__construct( *string* $version, *string* $encoding )
 ```
 
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new DOMDocument
@@ -33,14 +33,14 @@ echo $dom->saveXML();
 
 **Output:**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new DOMDocument
@@ -57,7 +57,7 @@ echo $dom->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
 
 ```

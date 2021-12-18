@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* utf8_decode( *string* $string )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // String to decode
@@ -37,7 +37,7 @@ echo utf8_decode($string_to_decode);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 c
 c
 ```
@@ -46,7 +46,7 @@ c
 
 ## PHP
 
-```
+```php
 <?php
 
 // Creating an array of 256 elements
@@ -74,7 +74,7 @@ foreach( $text as $index ) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Encoded elements:
   ! " # $ % & ' ( ) * + , - . / 0 1 
 Decoded elements:

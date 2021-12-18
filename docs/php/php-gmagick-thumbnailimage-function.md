@@ -6,7 +6,7 @@ Gmagick：：thhumnailImage()函数是 PHP 中的一个内置函数，用于将�
 
 **语法：**
 
-```
+```php
 *public* Gmagick::thumbnailimage( $width, $height, $fit = FALSE ] )
 ```
 
@@ -28,7 +28,7 @@ Gmagick：：thhumnailImage()函数是 PHP 中的一个内置函数，用于将�
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -53,7 +53,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

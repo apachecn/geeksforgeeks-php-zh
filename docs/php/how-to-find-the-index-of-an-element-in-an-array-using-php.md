@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 array_search('element', $array)
 ```
 
@@ -23,7 +23,7 @@ array_search('element', $array)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Create an indexed array with 5 subjects
@@ -47,7 +47,7 @@ echo "\n";
 
 **Output**
 
-```
+```php
 0
 1
 4
@@ -58,7 +58,7 @@ echo "\n";
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Create an associative array
@@ -88,7 +88,7 @@ echo "\n";
 
 **Output**
 
-```
+```php
 0
 1
 4

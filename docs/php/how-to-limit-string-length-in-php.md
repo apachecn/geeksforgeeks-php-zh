@@ -6,7 +6,7 @@
 
 **方法 1(用于循环):**str _ split()函数可用于将指定的字符串转换为数组对象。数组元素是存储在单个索引中的单个字符。
 
-```
+```php
 str_split($string)
 ```
 
@@ -18,7 +18,7 @@ str_split($string)
 
 ## PHP
 
-```
+```php
 <?php
     $string = "Geeks for geeks is fun";
     echo("Original String : ");
@@ -36,7 +36,7 @@ str_split($string)
 
 **输出**
 
-```
+```php
 Original String : Geeks for geeks is fun
 Modified String : Geeks for 
 ```

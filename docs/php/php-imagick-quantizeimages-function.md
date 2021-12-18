@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::quantizeImages(*int* $numberColors, *int* $colorspace,
  *int* $treedepth, *bool* $dither, *bool* $measureError)
 ```
@@ -27,7 +27,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -49,7 +49,7 @@ echo $imagick->getImagesBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::unserialize( *string* $serialized )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -43,7 +43,7 @@ var_dump($unserialize);
 
 **输出:**
 
-```
+```php
 string(107) "C:13:"ArrayIterator":81:{x:i:0;a:5:{i:0;s:1:"G";i:1;
 s:1:"e";i:2;s:1:"e";i:3;s:1:"k";i:4;s:1:"s";};m:a:0:{}}"
 object(ArrayIterator)#2 (1) {
@@ -66,7 +66,7 @@ object(ArrayIterator)#2 (1) {
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -100,7 +100,7 @@ var_dump($unserialize);
 
 **输出:**
 
-```
+```php
 string(160) "C:13:"ArrayIterator":133:{x:i:0;a:6:{s:1:"a";s:5:"Geeks";
 s:1:"b";s:3:"for";s:1:"c";s:5:"Geeks";i:0;s:8:"Computer";i:1;
 s:7:"Science";i:2;s:6:"Portal";};m:a:0:{}}"

@@ -6,7 +6,7 @@ Strspn()函数是 PHP 中的一个内置函数，它查找字符串的起始段�
 
 **语法：**
 
-```
+```php
 strspn( $string, $charlist, $start, $length)
 
 ```
@@ -26,7 +26,7 @@ strspn( $string, $charlist, $start, $length)
 
 例如：
 
-```
+```php
 Input : $string = "abcdefghijk", $charlist = "abcjkl"
 Output : 3
 
@@ -39,7 +39,7 @@ Output : 15
 
 **程序 1：**
 
-```
+```php
 <?php
 // Output is 15 because whole input string
 // contains all characters from given char list
@@ -50,13 +50,13 @@ echo strspn("Geeks for Geeks", "Geeksfor ");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 15
 ```
 
 **程序 2：**此程序说明 strspn()函数区分大小写。
 
-```
+```php
 <?php
 // Output is 0 because there is no substring
 // which contains all characters of given char
@@ -67,13 +67,13 @@ echo strspn("Geeks for Geeks", "geeks");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0
 ```
 
 **程序 3：**此程序说明如何使用带有$start 和$length 参数的 strspn()函数。
 
-```
+```php
 <?php
 // Searches substring starting from index 5 
 // and length 9 with all characters in char 
@@ -84,13 +84,13 @@ echo strspn("Geeks for Geeks", " for", 5, 9);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 5
 ```
 
 **程序 4：**此程序说明了带负$length 参数的 strspn()函数的用法。
 
-```
+```php
 <?php
 // Searches from index 5 till 5-th position from
 // end.
@@ -100,13 +100,13 @@ echo strspn("Geeks for Geeks", " for", 5, -5);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 5
 ```
 
 **程序 5：**此程序说明了带负$start 参数的 strspn()函数的用法。
 
-```
+```php
 <?php
 // Searches from 5-th index from end
 echo strspn("Geeks for Geeks", "for", -5);
@@ -115,7 +115,7 @@ echo strspn("Geeks for Geeks", "for", -5);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0
 ```
 

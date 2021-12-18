@@ -6,7 +6,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $connection = mysqli_connect(
@@ -44,7 +44,7 @@ else {
 
 ## PHP
 
-```
+```php
 <?php
 
 $connection = mysqli_connect(
@@ -82,6 +82,6 @@ if (mysqli_query($connection, $sql)) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1 row inserted. 
 ```

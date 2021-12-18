@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass hasProperty( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Using ReflectionClass
@@ -38,6 +38,6 @@ var_dump($Property);
 
 **Output:** 
 
-```
+```php
 bool(true)
 ```

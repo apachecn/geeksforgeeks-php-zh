@@ -6,7 +6,7 @@ PHP 中的 ctype_digit()函数，用于检查文本的每个字符是否为数�
 
 **语法：**
 
-```
+```php
 ctype_digit(string text)
 
 ```
@@ -26,7 +26,7 @@ PHP 中的 ctype_digit()函数只接受一个参数。
 
 例如：
 
-```
+```php
 Input  :789495001
 Output : Yes
 Explanation : All digits, return True
@@ -42,7 +42,7 @@ return false.
 
 **程序：1**检查 ctype_digit()函数以查找包含所有数字的单个字符串。
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // control character
@@ -66,7 +66,7 @@ $string = '123456789';
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
@@ -74,7 +74,7 @@ Yes
 **程序：2**
 驱动代码 ctype_digit()函数，其中输入将是包含特殊字符、整数、字符串的字符串数组。
 
-```
+```php
 <?php
 // PHP program to check is given string
 // contains all digits using ctype_digit
@@ -106,7 +106,7 @@ foreach ($strings as $testcase) {
 
 **Output:**
 
-```
+```php
 No
 No
 No
@@ -118,7 +118,7 @@ No
 **ctype_digit()vs is_int()**
 ctype_digit()基本上用于字符串类型，is_int()用于整数类型。 Ctype_digit()遍历所有字符并检查每个字符是否都是数字。 例如,
 
-```
+```php
 <?php
 // PHP code to demonstrate difference between
 // ctype_digit() and is_int().
@@ -138,7 +138,7 @@ else 
 
 **Output:**
 
-```
+```php
 No
 Yes
 

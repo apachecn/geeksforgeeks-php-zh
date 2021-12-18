@@ -6,7 +6,7 @@ Filter_list()函数是 PHP 中的一个内置函数，用于返回所有支持�
 
 **语法：**
 
-```
+```php
 *array* filter_list( void )
 ```
 
@@ -20,7 +20,7 @@ Filter_list()函数是 PHP 中的一个内置函数，用于返回所有支持�
 
 **示例 1：**
 
-```
+```php
 <?php
 print_r(filter_list());
 ?>
@@ -28,7 +28,7 @@ print_r(filter_list());
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => int
@@ -58,7 +58,7 @@ Array
 
 **示例 2：**它在单个列表中显示所有筛选器的关联 ID。
 
-```
+```php
 <?php
 
 // Array filter function assign to a variable
@@ -74,7 +74,7 @@ echo "$key -> $val : ( ".filter_id($val). " ) <br>";
 
 **Output:**
 
-```
+```php
 0 -> int : ( 257 ) 
 1 -> boolean : ( 258 ) 
 2 -> float : ( 259 ) 

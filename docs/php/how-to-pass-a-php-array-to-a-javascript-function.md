@@ -10,7 +10,7 @@
 
 *   在 PHP 中创建数组:
 
-    ```
+    ```php
     <?php
     $sampleArray = array(
             0 => "Geeks", 
@@ -23,13 +23,13 @@
 
 *   使用 json_encode()函数检索数组元素
 
-    ```
+    ```php
     var passedArray = <?php echo json_encode($sampleArray); ?>
     ```
 
 **示例:**
 
-```
+```php
 <?php
 
 // Create an array
@@ -55,21 +55,21 @@ for(var i = 0; i < passedArray.length; i++){
 
 **输出:**
 
-```
+```php
 GeeksforGeeks
 ```
 
 **方法二:使用 PHP 内爆()函数:**内爆()用于连接数组的元素。内爆()函数是 join()函数的别名，其工作原理与 join()函数完全相同。
 内爆()函数用于构建一个字符串，该字符串在 JavaScript 中成为数组文字。因此，如果我们在 PHP 中有一个数组，我们可以将它传递给 JavaScript，如下所示:
 
-```
+```php
 var passedArray = <?php echo '["' . implode('", "', $sampleArray) . '"]' ?>;
 
 ```
 
 **示例:**
 
-```
+```php
 <?php
 
 // Creating a PHP Array
@@ -91,7 +91,7 @@ document.write(passedArray);
 
 **输出:**
 
-```
+```php
 Car, Bike, Boat
 ```
 

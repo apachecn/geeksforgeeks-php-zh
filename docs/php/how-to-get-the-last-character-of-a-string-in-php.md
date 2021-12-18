@@ -13,7 +13,7 @@
 
 ****语法:****
 
-```
+```php
 strlen($string)
 ```
 
@@ -21,7 +21,7 @@ strlen($string)
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
  $txt = "Geeksforgeeks";
  echo "Last Character of string is : " 
@@ -31,7 +31,7 @@ strlen($string)
 
 ****输出:****
 
-```
+```php
 Last Character of string is : s
 ```
 
@@ -39,7 +39,7 @@ Last Character of string is : s
 
 ****语法:****
 
-```
+```php
 substr(string_name, start_position, string_length_to_cut)
 ```
 
@@ -47,7 +47,7 @@ substr(string_name, start_position, string_length_to_cut)
 
  **## PHP
 
-```
+```php
 <?php
 $txt = "Akshit Loves GeeksForGeeks";
 echo "Last character of String is : "
@@ -57,7 +57,7 @@ echo "Last character of String is : "
 
 ****输出:**从最后看，“s”排在第 1 位。我们可以显示从(-1)**
 
-```
+```php
 Last character of String is : s
 ```
 
@@ -69,7 +69,7 @@ Last character of String is : s
 
 ## PHP
 
-```
+```php
 <?php
 $txt = "Akshit Loves GeeksForGeeks";
 echo "Last character of String is: ".substr($txt, -1);
@@ -78,7 +78,7 @@ echo "Last character of String is: ".substr($txt, -1);
 
 **输出**
 
-```
+```php
 Last character of String is: s
 ```
 

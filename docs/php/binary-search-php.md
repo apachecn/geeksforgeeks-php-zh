@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : 1 2 3 4 5
         5 
 Output : 5 Exists
@@ -26,7 +26,7 @@ Output : 0 Doesnt Exist
 2)如果我们要搜索的元素大于右侧的中间元素搜索，则计算中间元素，否则在左侧搜索。
 3)如果找到元素，返回真。
 
-```
+```php
 <?php
 
 function binarySearch(Array $arr, $x)
@@ -74,7 +74,7 @@ else {
 
 输出:
 
-```
+```php
 5 Exists
 
 ```
@@ -83,7 +83,7 @@ else {
 递归是一种我们重复调用同一个函数，直到一个基本条件匹配结束递归的方法。
 继续方法 1 中的步骤，我们使用相同的思想，只是以递归方式改变函数的参数，并分解问题。
 
-```
+```php
 function binarySearch(Array $arr, $start, $end, $x){
     if ($end < $start)
         return false;
@@ -117,7 +117,7 @@ else {
 
 输出:
 
-```
+```php
 5 Exists
 
 ```

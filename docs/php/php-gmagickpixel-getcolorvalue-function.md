@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *float* GmagickPixel::getcolorvalue( *int* $color )
 ```
 
@@ -32,7 +32,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a new gmagickPixel object 
@@ -46,7 +46,7 @@ echo $colorValue; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.67843137254902
 ```
 
@@ -55,7 +55,7 @@ echo $colorValue; 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -76,7 +76,7 @@ echo $colorValue; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.29803921568627
 ```
 

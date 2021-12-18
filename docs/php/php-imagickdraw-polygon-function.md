@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::polygon( $coordinates )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('vendor/autoload.php');

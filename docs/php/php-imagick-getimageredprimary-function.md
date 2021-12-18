@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageRedPrimary( void )
 ```
 
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -34,13 +34,13 @@ print_r($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 0.64 [y] => 0.33 )
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -58,7 +58,7 @@ print_r($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 0.5 [y] => 0.8 )
 ```
 

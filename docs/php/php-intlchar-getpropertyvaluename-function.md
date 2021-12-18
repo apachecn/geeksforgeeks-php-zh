@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* IntlChar::getPropertyValueName( $property, $value, 
 $nameChoice = IntlChar::LONG_PROPERTY_NAME )
 ```
@@ -23,7 +23,7 @@ $nameChoice = IntlChar::LONG_PROPERTY_NAME )
 
 **程序：**
 
-```
+```php
 <?php
 
 // PHP program to uses IntlChar::getPropertyValueName()

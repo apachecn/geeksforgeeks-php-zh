@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::pushClipPath( *string* $clip_mask_id )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -69,7 +69,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

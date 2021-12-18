@@ -5,7 +5,7 @@
 **Gmagick：：enhanceimage()**函数是 PHP 中的一个内置函数，用于改善噪声图像的质量。 此功能应用数字滤波器来提高质量。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::enhanceimage( void )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

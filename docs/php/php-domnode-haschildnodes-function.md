@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMNode::hasChildNodes( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();
@@ -40,7 +40,7 @@ if ($dom->hasChildNodes()) {
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new DOMDocument instance and keep it empty
 $dom = new DOMDocument();

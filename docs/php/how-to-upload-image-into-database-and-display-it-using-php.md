@@ -19,7 +19,7 @@ Id 应该在**自动递增(AI)** 中。创建的数据库图像如下所示:
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@ Id 应该在**自动递增(AI)** 中。创建的数据库图像如下所示:
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```phphtml
 #content{
     width: 50%;
     margin: 20px auto;
@@ -96,7 +96,7 @@ img{
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 error_reporting(0);
 ?>
@@ -148,7 +148,7 @@ error_reporting(0);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 error_reporting(0);
 ?>
@@ -219,14 +219,14 @@ while($data = mysqli_fetch_array($result))
 *   打开 PHP 版本文件夹(PHP 5.6.31 文件夹)(请注意，如果您有另一个版本的 PHP，您也应该打开它)
 *   然后搜索 **php.ini** 。打开它，然后搜索两个变量并随之改变。变量有:
 
-```html
+```phphtml
  upload_max_size = 100M
 post_max_filesize = 100M
 ```
 
 *   保存此更改，然后打开
 
-```html
+```phphtml
 C:\wamp64\bin\apache\apache2.4.27\bin
 ```
 

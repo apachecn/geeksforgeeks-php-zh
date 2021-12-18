@@ -6,7 +6,7 @@ Is_scalar()函数是 PHP 中的内置函数，用于检查变量是否为标量�
 
 **语法：**
 
-```
+```php
 *bool* is_scalar ( $var )
 ```
 
@@ -24,7 +24,7 @@ Is_scalar()函数是 PHP 中的内置函数，用于检查变量是否为标量�
 
 下面的程序演示了 PHP 中的 is_scalar()函数：
 
-```
+```php
 <?php
 
 // PHP code to demonstrate the working of
@@ -55,7 +55,7 @@ var_dump(is_scalar($var7));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

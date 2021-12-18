@@ -12,7 +12,7 @@
 
     **语法：**
 
-    ```
+    ```php
     *string* Imagick::identifyFormat( $embedText )
     ```
 
@@ -24,7 +24,7 @@
 
     **程序：**此程序使用 Imagick：：IdentifyFormat()函数查找给定图像的格式。
 
-    ```
+    ```php
     <?php
 
     // Declare new Imagick object
@@ -46,7 +46,7 @@
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     Output of 'Trim box: %@ number of unique colors: %k' is:
     Trim box: 656x144+5+15 number of unique colors: 2955
     ```

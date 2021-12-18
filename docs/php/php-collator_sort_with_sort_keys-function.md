@@ -8,13 +8,13 @@ collator_sort_with_sort_keys()函数是 PHP 中的一个内置函数，用于使
 
 *   **Program style:**
 
-    ```
+    ```php
     *bool* collator_sort_with_sort_keys( $coll, $arr )
     ```
 
 *   **Object-oriented style:**
 
-    ```
+    ```php
     *bool* Collator::sortWithSortKeys( $arr )
     ```
 
@@ -29,7 +29,7 @@ collator_sort_with_sort_keys()函数是 PHP 中的一个内置函数，用于使
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an array which need to sort
@@ -45,7 +45,7 @@ var_export( $arr );
 
 **输出:**
 
-```
+```php
 array (
   0 => 'g4g',
   1 => 'geek',
@@ -57,7 +57,7 @@ array (
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an array which need to sort
@@ -75,7 +75,7 @@ var_export( $arr );
 
 **输出:**
 
-```
+```php
 array (
   0 => 'Geeks',
   1 => 'Geeks123',

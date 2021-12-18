@@ -8,28 +8,28 @@
 
 *   面向对象样式：
 
-    ```
+    ```php
     *DateInterval* DateTime::diff( *DateTimeInterface* $datetime2,
                                       *bool* $absolute = FALSE )
     ```
 
     或
 
-    ```
+    ```php
     *DateInterval* DateTimeImmutable::diff( *DateTimeInterface* $datetime2,
                                       *bool* $absolute = FALSE )
     ```
 
     或
 
-    ```
+    ```php
     *DateInterval* DateTimeInterface::diff( *DateTimeInterface* $datetime2,
                                       *bool* $absolute = FALSE )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *DateInterval* date_diff( *DateTimeInterface* $datetime1,
                       *DateTimeInterface* $datetime2, *bool* $absolute = FALSE )
     ```
@@ -45,7 +45,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initialising the two datetime objects
@@ -64,14 +64,14 @@ echo $difference->format('%R%a days');
 
 **输出：**
 
-```
+```php
 +5 days
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initialising the two datetime objects
@@ -90,7 +90,7 @@ echo $difference->format('%R%a days');
 
 **输出：**
 
-```
+```php
 +31 days
 
 ```

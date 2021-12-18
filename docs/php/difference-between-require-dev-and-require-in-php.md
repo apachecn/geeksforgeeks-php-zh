@@ -15,7 +15,7 @@ Composer 是 php 中的依赖/参数管理器。它可以用来安装跟踪和�
 composer . JSON 中的 *require* 键指定项目依赖于哪个包的 composer require 获取一个映射包名的对象
 **示例:**
 
-```
+```php
 {
     "require": {
 

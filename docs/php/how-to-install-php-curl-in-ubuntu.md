@@ -10,7 +10,7 @@
 
 *   **Step 1:** Install PHP libraries for the server by running the following command:
 
-    ```
+    ```php
     $ sudo add-apt-repository ppa:ondrej/php
     ```
 
@@ -18,7 +18,7 @@
 
 *   **Step 2:** Then, update the server:
 
-    ```
+    ```php
     $ sudo apt update
     ```
 
@@ -26,7 +26,7 @@
 
 *   **Step 3:** Now, install CURL.
 
-    ```
+    ```php
     $ sudo apt install curl
     ```
 
@@ -34,7 +34,7 @@
 
 *   **Step 4:** You can check the version of curl installed by the command:
 
-    ```
+    ```php
     $ dpkg -l curl
     ```
 
@@ -44,25 +44,25 @@
 
     如果您使用的是 Apache 服务器，请使用以下任一命令重新启动服务器:
 
-    ```
+    ```php
     $ sudo service apache2 restart
     ```
 
     或者
 
-    ```
+    ```php
     $ sudo /etc/init.d/apache2 restart
     ```
 
     同样，如果您使用的是 Nginx 服务器，请使用以下任一命令:
 
-    ```
+    ```php
     $ sudo systemctl restart nginx
     ```
 
     或者
 
-    ```
+    ```php
     $ sudo /etc/init.d/nginx restart
     ```
 

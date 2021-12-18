@@ -5,7 +5,7 @@
 **IntlChar：：totitle()**函数是 PHP 中的一个内置函数，用于检查输入码位是否为 Unicode 字符标题大小写。
 **语法：**和
 
-```
+```php
 *mixed* IntlChar::totitle( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::totitle()
@@ -61,7 +61,7 @@ var_dump(IntlChar::totitle(ord("@")));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 string(1) "G" 
 string(1) "G" 
 string(1) "A" 
@@ -80,7 +80,7 @@ int(64)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::totitle()
@@ -107,7 +107,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 string(1) "X"
 string(1) "X"
 string(1) "*"

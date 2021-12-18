@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMNode::hasAttributes( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -48,7 +48,7 @@ foreach ($nodeList as $node) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

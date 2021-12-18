@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```php
 Input : str = 00006665555
 Output : 6665555
 
@@ -19,13 +19,13 @@ Output : 775505
 
 **语法:**
 
-```
+```php
 ltrim( "string", "character which to be remove from the left side of string");
 ```
 
 **程序:**
 
-```
+```php
 <?php
 
 // Store the number string with
@@ -46,7 +46,7 @@ echo $str;
 
 **Output:**
 
-```
+```php
 775505
 
 ```
@@ -55,7 +55,7 @@ echo $str;
 
 **程序:**
 
-```
+```php
 <?php
 
 // Store the number string with
@@ -74,7 +74,7 @@ echo $str;
 
 **输出:**
 
-```
+```php
 775505
 
 ```

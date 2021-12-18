@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionExtension::getFunctions( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 _1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -39,7 +39,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 array(1) {
   ["dom_import_simplexml"]=>
   object(ReflectionFunction)#2 (1) {
@@ -52,7 +52,7 @@ array(1) {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -68,7 +68,7 @@ var_dump($extension->getFunctions());
 
 **输出：**
 
-```
+```php
 array(24) {
   ["xml_parser_create"]=>
   object(ReflectionFunction)#2 (1) {

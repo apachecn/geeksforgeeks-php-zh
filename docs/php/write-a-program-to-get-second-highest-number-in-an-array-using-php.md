@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input: arr[] = {13, 14, 15, 16, 17, 18}
 Output: The second largest element is 17.
 Explanation: The largest element of the array
@@ -29,7 +29,7 @@ is 10 there is no second largest element
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 function bubbleSort(&$arr) {
     $n = sizeof($arr);
@@ -78,7 +78,7 @@ else {
 
  **Output**
 
-```
+```php
 Second Largest element is 64
 ```
 
@@ -96,7 +96,7 @@ Second Largest element is 64
 
 下面是完成此操作的完整算法:
 
-```
+```php
 1) Initialize the first as 0 (i.e, index of arr[0] element)
 2) Start traversing the array from array[1],
   a) If the current element in array say arr[i] is greater
@@ -111,7 +111,7 @@ Second Largest element is 64
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to find second largest
@@ -166,6 +166,6 @@ print2largest($arr, $n);
 
 **Output**
 
-```
+```php
 The second largest element is 34
 ```

@@ -6,7 +6,7 @@ array_count_values()是 PHP 中的一个内置函数，用于对数组中的所�
 
 **语法:**
 
-```
+```php
 *array* array_count_values( $array )
 
 ```
@@ -19,7 +19,7 @@ array_count_values()是 PHP 中的一个内置函数，用于对数组中的所�
 
 **例:**
 
-```
+```php
 Input : array = ("Geeks", "for", "Geeks", "Geeks", "Welcome", "for")
 Output : 
         Array
@@ -44,7 +44,7 @@ Output :
 
 下面的程序说明了 PHP 中 array_count_values()函数的工作方式:
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working
@@ -62,7 +62,7 @@ print_r(Counting($array));
 
 **输出:**
 
-```
+```php
 Array
 (
     [Geeks] => 3

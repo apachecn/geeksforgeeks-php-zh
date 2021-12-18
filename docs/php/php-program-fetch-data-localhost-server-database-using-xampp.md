@@ -8,7 +8,7 @@
 
 例如，数据库名为*server*，表名为*user_info*，列名为*ID*，*First Name*，*UserName*和*Password*，我们必须获取存储在那里的数据。 因此，下面是任务是获取数据的 PHP 程序。
 
-```
+```php
 <?php
 // this php script is for connecting with database
 // data have to fetched from local server
@@ -40,14 +40,14 @@ else
 
 产出：
 
-```
+```php
 Connection Success
 
 ```
 
 让上面的脚本以名称*database ase.php*保存在 XAMPP 安装的 htdocs 文件夹中。
 
-```
+```php
 <?php
 // going to use above code
 require 'database.php';

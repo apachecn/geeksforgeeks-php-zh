@@ -7,7 +7,7 @@
 
 **语法：**
 
-```
+```php
 Imagick::fxImage ( string $expression [, int $channel = Imagick::CHANNEL_DEFAULT ] )
 
 ```
@@ -27,7 +27,7 @@ Imagick::fxImage ( string $expression [, int $channel = Imagick::CHANNEL_DEFAULT
     **示例 1：**
     说明使用**Imagick：：fxImage()**函数通过 fx 表达式进行的图像操作。
 
-    ```
+    ```php
     <?php
     // Imagick-fxImage
     $imagick = new \Imagick();
@@ -50,7 +50,7 @@ Imagick::fxImage ( string $expression [, int $channel = Imagick::CHANNEL_DEFAULT
     **示例 2：**
     说明使用**Imagick：：fxImage()**函数通过 fx 表达式进行的图像操作。
 
-    ```
+    ```php
     <?php
     // Imagick-fxImage
     $imagick = new \Imagick();

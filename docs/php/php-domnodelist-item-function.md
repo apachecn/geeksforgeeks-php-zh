@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNodeList::item( *int* $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -49,7 +49,7 @@ echo $elements->item(0)->textContent;
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

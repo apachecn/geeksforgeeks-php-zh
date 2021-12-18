@@ -6,7 +6,7 @@ PHP 的这个内置函数用于反转包括嵌套数组在内的数组元素。�
 
 **语法**:
 
-```
+```php
 *array* array_reverse($array, $key_preserve)
 ```
 
@@ -20,7 +20,7 @@ PHP 的这个内置函数用于反转包括嵌套数组在内的数组元素。�
 
 示例:
 
-```
+```php
 Input : $array = (2, 4, 5, 10, 100)
 Output : 
 Array
@@ -55,7 +55,7 @@ Array
 
 1.  This program reverses an array taking the $key_preserve as FALSE by default. This don’t presere the keys.
 
-    ```
+    ```php
     <?php
 
     // PHP function to illustrate the use of array_reverse()
@@ -77,7 +77,7 @@ Array
 
     输出:
 
-    ```
+    ```php
     Before:
     Array
     (
@@ -99,7 +99,7 @@ Array
 
 2.  Let’s see what happens when we pass the key_preserve parameter as TRUE. This preserve the keys.
 
-    ```
+    ```php
     <?php
 
     // PHP function to illustrate the use of array_reverse()
@@ -121,7 +121,7 @@ Array
 
     输出:
 
-    ```
+    ```php
     Before:
     Array
     (

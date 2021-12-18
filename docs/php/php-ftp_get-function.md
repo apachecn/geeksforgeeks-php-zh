@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_get( $ftp_connection, $local_file_path, $server_file_path,
                              $mode_of_file_transfer, $starting_position );
 ```
@@ -35,7 +35,7 @@ ftp_get( $ftp_connection, $local_file_path, $server_file_path,
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -110,7 +110,7 @@ if( $ftp_connection ) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

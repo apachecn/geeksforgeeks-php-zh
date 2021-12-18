@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::offsetSet($obj, $val)
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -38,14 +38,14 @@ var_dump($str->offsetGet($obj)); 
 
 **输出：**
 
-```
+```php
 string(13) "GeeksforGeeks"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Empty SplObjectStorage
@@ -73,7 +73,7 @@ var_dump($str->offsetGet($obj3)); 
 
 **输出：**
 
-```
+```php
 string(12) "GeksforGeeks"
 string(3) "GFG"
 string(9) "Hello GFG"

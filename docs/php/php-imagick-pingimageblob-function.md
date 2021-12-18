@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::pingImageBlob( $image )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**此程序将显示图像的高度和宽度，而不会将其实际加载到屏幕上。
 
-```
+```php
 <?php
 
 // Read a file in form of string

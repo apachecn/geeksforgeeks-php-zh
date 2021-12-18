@@ -12,7 +12,7 @@ Pasinfo()是一个内置函数，用于使用关联数组或字符串返回有�
 路径和选项作为参数发送给 pasinfo()函数，如果没有传递**Options 参数**，它将返回一个包含以下元素目录名、基名和扩展名的关联数组。
 **语法：**
 
-```
+```php
 pathinfo(path, options)
 ```
 
@@ -36,7 +36,7 @@ PHP 中的 pasinfo()函数接受两个参数。
 
 例如：
 
-```
+```php
 Input : print_r(pathinfo("/documents/gfg.txt"));
 Output : Array
          (
@@ -61,7 +61,7 @@ Output : gfg.txt
 
 ## PHP
 
-```
+```php
 <?php
 // returning information about
 // the path using pathinfo() function
@@ -71,7 +71,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 **输出：**
 
-```
+```php
  Array
          (
           [dirname] => /documents
@@ -84,7 +84,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 ## PHP
 
-```
+```php
 <?php
   // returning information about
   // the directoryname path using pathinfo() function
@@ -94,7 +94,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 **输出：**
 
-```
+```php
  /documents 
 ```
 
@@ -102,7 +102,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 ## PHP
 
-```
+```php
 <?php
 
   // returning information about
@@ -113,7 +113,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 **输出：**
 
-```
+```php
  txt 
 ```
 
@@ -121,7 +121,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 ## PHP
 
-```
+```php
 <?php
   // returning information about
   // the basename of path using pathinfo() function
@@ -131,7 +131,7 @@ print_r(pathinfo("/documents/gfg.txt"));
 
 **输出：**
 
-```
+```php
  gfg.txt 
 ```
 

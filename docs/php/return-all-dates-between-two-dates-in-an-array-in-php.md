@@ -6,7 +6,7 @@
 
 **示例 1:** 在此示例中，使用日期间隔类，该类以 DateTime 的格式存储固定时间量(以年、月、日、小时等为单位)或相对时间字符串。
 
-```
+```php
 <?php
 
 // Function to get all the dates in given range
@@ -43,7 +43,7 @@ var_dump($Date);
 
 **Output:**
 
-```
+```php
 array(5) {
   [0]=>
   string(10) "2010-10-01"
@@ -61,7 +61,7 @@ array(5) {
 
 **示例 2:** 本示例使用 [strtotime()函数](https://www.geeksforgeeks.org/php-strtotime-function/)，该函数用于将英文文本日期时间描述转换为 UNIX 时间戳。成功时返回时间戳，否则返回 False。
 
-```
+```php
 <?php
 
 // Declare two dates
@@ -91,7 +91,7 @@ print_r($array);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => 2010-10-01

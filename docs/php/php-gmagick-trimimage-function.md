@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::trimimage( *float* $fuzz )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序-1(裁切图像)：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png
@@ -40,7 +40,7 @@ echo $gmagick;  
 
 **程序-2(修剪图纸)：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png

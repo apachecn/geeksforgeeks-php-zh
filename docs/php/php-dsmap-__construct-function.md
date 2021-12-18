@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 public Ds\Map::__construct( $values )
 ```
 
@@ -16,7 +16,7 @@ public Ds\Map::__construct( $values )
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the __construct() 
 // function of Ds\map 
@@ -42,7 +42,7 @@ print_r($map); 
 
 **Output:**
 
-```
+```php
 Ds\Map Object
 (
 )
@@ -72,7 +72,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the __construct() 
 // function of Ds\map 
@@ -96,7 +96,7 @@ print_r($map); 
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object

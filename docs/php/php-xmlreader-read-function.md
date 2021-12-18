@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::read( *void* )
 ```
 
@@ -22,7 +22,7 @@
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -53,7 +53,7 @@ echo "The text inside is: "
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance

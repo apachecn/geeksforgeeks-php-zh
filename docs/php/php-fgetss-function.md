@@ -9,7 +9,7 @@ Fegtss()函数在指定长度、文件末尾(EOF)或新行(以先出现者为准
 
 **语法：**
 
-```
+```php
 fgetss(file, length, tags)
 ```
 
@@ -39,7 +39,7 @@ PHP 中的 fgetss()函数接受三个参数。
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate the fgetss() function
 
@@ -57,7 +57,7 @@ fclose($my_file);
 
 **输出：**
 
-```
+```php
 This is the first line.
 ```
 
@@ -65,7 +65,7 @@ This is the first line.
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate the fgetss() function
 

@@ -14,7 +14,7 @@
 要在项目中使用 Ghostscript，请从安装开始。如果您在 windows 上，请从其下载页面下载可执行文件。
 Linux 用户可以通过自己默认的包管理器直接安装 Ghostscript
 
-```
+```php
 # RPM based distros, Fedora 26/27/28
 $ sudo dnf install ghostscript
 ```
@@ -22,13 +22,13 @@ $ sudo dnf install ghostscript
 通过此命令
 验证安装
 
-```
+```php
 $ gs --version
 ```
 
 安装后，移动到包含 PDF 文件的目录，并运行以下命令。
 
-```
+```php
 $ gs -dSAFER -dBATCH -sDEVICE=jpeg \
 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 \ 
 -dFirstPage=1 -dLastPage=1 -r300 \
@@ -48,7 +48,7 @@ $ gs -dSAFER -dBATCH -sDEVICE=jpeg \
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 exec( "ls -l", $output_str, $return_val );
@@ -65,7 +65,7 @@ foreach ( $output_str as $line ) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 function is_pdf ( $file ) {
@@ -128,7 +128,7 @@ __main__();
 执行从 __main__()开始，它在命令行获取 PDF 文件。它检查输入文件是否是有效的 PDF。如果有效，它将在输入文件上执行 *ghostscript* 命令。
 **输出:**
 
-```
+```php
 $ php pdf_preview.php input.pdf
 Executing command...
 GPL Ghostscript 9.22 (2017-10-04)
@@ -143,26 +143,26 @@ Preview created successfully!!
 
 像往常一样，我们将从在系统中安装 ImageMagick 二进制文件开始。从依赖项开始；
 
-```
+```php
 $ sudo dnf install gcc php-devel php-pear
 ```
 
 之后，安装 ImageMagick
 
-```
+```php
 $ sudo dnf install ImageMagick ImageMagick-devel
 ```
 
 然后安装 PHP 包装类；
 
-```
+```php
 $ sudo pecl install imagick
 $ sudo bash -c "echo "extension=imagick.so" > /etc/php.d/imagick.ini"
 ```
 
 如果你打算在 LAMP 架构上使用它，可以考虑重启 Apache Web 服务器；
 
-```
+```php
 $ sudo service httpd restart
 ```
 
@@ -170,7 +170,7 @@ $ sudo service httpd restart
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 function create_preview ( $file ) {
     $output_format = "jpeg";
     $preview_page = "1";
@@ -189,7 +189,7 @@ function create_preview ( $file ) {
 
 代码是不言自明的。我们正在定义一个 Imagick 类型的实例，并设置各种参数，如分辨率、文件格式等。您要渲染的 PDF 页面作为数组索引出现在文件名之后。例如:
 
-```
+```php
 First page: input.pdf[0]
 Second page: input.pdf[1]
 .
@@ -200,7 +200,7 @@ Nth page: input.pdf[N - 1]
 
 **输出:**
 
-```
+```php
 $ php pdf_preview.php input.pdf
 Fetching preview...
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *bool* AppendIterator::valid( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -40,14 +40,14 @@ while($itr->valid()) {
 
 **输出:**
 
-```
+```php
 Geeks
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -75,7 +75,7 @@ while($itr->valid()) { 
 
 **输出:**
 
-```
+```php
 string(5) "Geeks"
 string(3) "for"
 string(5) "Geeks"

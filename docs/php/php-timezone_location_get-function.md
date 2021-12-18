@@ -6,7 +6,7 @@ TIMEZONE_LOCATION_GET()函数是 PHP 中的一个内置函数，用于返回给�
 
 **语法：**
 
-```
+```php
 timezone_location_get( $object )
 ```
 
@@ -20,7 +20,7 @@ timezone_location_get( $object )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Opening a timezone
@@ -35,7 +35,7 @@ print_r(timezone_location_get($timeZone));
 
 **输出：**
 
-```
+```php
 Location Details of the Specified Timezone: 
 Array
 (
@@ -49,7 +49,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declaring a timezone
@@ -64,7 +64,7 @@ print_r($timeZone->getLocation());
 
 **输出：**
 
-```
+```php
 Location Details of the Specified Timezone:
 Array
 (

@@ -8,7 +8,7 @@ cal_days_in_month()函数接受三个参数，即日历、月和年，并根据�
 
 **语法:**
 
-```
+```php
 cal_days_in_month($calendar, $month, $year)
 ```
 
@@ -27,7 +27,7 @@ cal_days_in_month($calendar, $month, $year)
 
 **示例:**
 
-```
+```php
 Input: cal_days_in_month(CAL_JEWISH, 2, 1966);
 Output: 29
 Explanation: February 1966 had 29 days.
@@ -42,7 +42,7 @@ Explanation: February 2004 had 29 days
 
 **程序 1** :
 
-```
+```php
 <?php
 
 // Using cal_days_in_month() function to
@@ -56,13 +56,13 @@ echo "February 1966 had $days days.<br>";
 
 输出:
 
-```
+```php
 February 1966 had 29 days.
 ```
 
 **程序 2** :
 
-```
+```php
 <?php
 
 // Using cal_days_in_month() function to
@@ -76,7 +76,7 @@ echo "February 2004 had $days days";
 
 输出:
 
-```
+```php
 February 2004 had 29 days
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMElement::removeAttributeNode( *DOMAttr* $oldnode )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -69,7 +69,7 @@ echo $attribute_value;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

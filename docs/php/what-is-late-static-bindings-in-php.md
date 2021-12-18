@@ -12,7 +12,7 @@
 
 *   **程序:**在这个程序中我们不会使用静态绑定我们会使用老派的自我，那么你就会得到后期静态绑定的想法。
 
-    ```
+    ```php
     <?php
 
     // Car function
@@ -48,14 +48,14 @@
 
 *   **输出:**
 
-    ```
+    ```php
     The car name is : Tesla
     The car name is : Tesla
     ```
 
 *   **程序 2:** 我们可以做的一件事是把 getOwner()函数从 Car 类复制到 **newCar** 类，但是对于小程序来说可以。如果你的程序包含 100 到 1000 个函数呢。为了解决这个问题，可以使用 static 关键字来代替 self。 **newCar** 类不包含 **getOwner()函数**，但仍然继承了 **newCar** 的 **getCar()函数**。之所以会出现这种情况，是因为 **getOwner()** 是在运行时调用 **getCar()** 而不是编译时。Car 类中 **getOwner()函数**的运行时访问，而不是编译或早期访问。这样我们就可以在 **newCar()** 类中得到 **getOwner()** 函数，而不需要创建对象。
 
-    ```
+    ```php
     <?php
 
     // Car function
@@ -91,7 +91,7 @@
 
 *   **输出:**
 
-    ```
+    ```php
     The car name is : Tesla
     The car name is : Tesla and owner is Anshu.
     ```
@@ -100,7 +100,7 @@
 
 *   **程序:**
 
-    ```
+    ```php
     <?php
     class One
     {
@@ -135,7 +135,7 @@
 
 *   **输出:**
 
-    ```
+    ```php
     no 
     yes
     ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::getimageresolution( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an Gmagick image object
@@ -38,7 +38,7 @@ echo "Y = ".$res['y'] ." </br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 X = 37.8
 Y = 37.8
 
@@ -49,7 +49,7 @@ Y = 37.8
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -84,7 +84,7 @@ echo "Y = ".$res['y'] ." </br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 X = 50
 Y = 50 
 

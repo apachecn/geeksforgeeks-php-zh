@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* FilesystemIterator::current( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new file system iterator
@@ -39,7 +39,7 @@ foreach($fileItr as $it) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new file system iterator

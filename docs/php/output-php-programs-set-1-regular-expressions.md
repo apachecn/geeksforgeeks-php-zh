@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```php
 <?php
     echo str_pad("Welcome", 5)." to GeeksforGeeks.";
 ?>
@@ -21,7 +21,7 @@
 
 输出:
 
-```
+```php
 Welcome to GeeksforGeeks.
 
 ```
@@ -30,7 +30,7 @@ Welcome to GeeksforGeeks.
 
 **问题 2**
 
-```
+```php
 <?php
     $author = "GeeksforGeeks";
     $author = str_replace("e","i",$author);
@@ -47,7 +47,7 @@ Welcome to GeeksforGeeks.
 
 输出:
 
-```
+```php
 I am intern at GiiksforGiiks.
 
 ```
@@ -56,7 +56,7 @@ I am intern at GiiksforGiiks.
 
 **问题 3**
 
-```
+```php
 <?php
     $GfG = "GeeksforGeeks";
     echo ltrim(strstr($GfG, "f"),"f");
@@ -69,7 +69,7 @@ I am intern at GiiksforGiiks.
 
 输出:
 
-```
+```php
 orGeeks
 
 ```
@@ -78,7 +78,7 @@ orGeeks
 
 **问题 4**
 
-```
+```php
 <?php
     $username = "sagarshUkla785";
     if (ereg("([^a-z])",$username))
@@ -97,7 +97,7 @@ orGeeks
 
 输出:
 
-```
+```php
 Not a valid username!
 
 ```
@@ -106,7 +106,7 @@ Not a valid username!
 
 **第五题**
 
-```
+```php
 <?php
     $GfG = "Hello\tWelcome to\nGeeksforGeeks.";
     print_r(split("[\n\t]",$GfG));
@@ -121,7 +121,7 @@ Not a valid username!
 
 输出:
 
-```
+```php
 [0] => Hello [1] => Welcome to [2] => GeeksforGeeks.
 
 ```
@@ -130,7 +130,7 @@ Not a valid username!
 
 **第 6 题**
 
-```
+```php
 <?php
     $languages = array("C++", "JAVA", "PYTHON", "SCALA");
     $language = preg_grep("/^S/", $languages);
@@ -146,7 +146,7 @@ Not a valid username!
 
 输出:
 
-```
+```php
 Array ( [3] => SCALA )
 
 ```
@@ -155,7 +155,7 @@ Array ( [3] => SCALA )
 
 **问题 7**
 
-```
+```php
 <?php
     $title = "i'm intern at geeksforGeeks.";
     echo ucwords($title);
@@ -171,7 +171,7 @@ Array ( [3] => SCALA )
 
 输出:
 
-```
+```php
 I'm Intern At GeeksforGeeks.
 
 ```

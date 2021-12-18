@@ -54,13 +54,13 @@ c\xampp\php
 
 **运行 PHP 文件:**打开命令提示符，转到保存代码的目录。
 
-```
+```php
 cd C:\xampp\htdocs
 ```
 
 使用这个命令运行 php 代码
 
-```
+```php
 php file_name.php
 ```
 

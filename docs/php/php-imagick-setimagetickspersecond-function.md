@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageTicksPerSecond( *int* $ticks_per_second )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -41,7 +41,7 @@ echo $imagickAnimation->getImagesBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

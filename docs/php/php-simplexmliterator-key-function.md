@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SimpleXMLIterator::key( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store the xml element to variable
@@ -47,7 +47,7 @@ for( $xmlIt->rewind(); $xmlIt->valid(); $xmlIt->next() ) {
 
 **输出：**
 
-```
+```php
 string(4) "name"
 string(7) "address"
 string(7) "contact"

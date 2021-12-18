@@ -13,7 +13,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Store datetime in variable today
@@ -31,7 +31,7 @@ if ($today) { 
 
 **输出:**
 
-```
+```php
 07/05/2021 17:57:38
 
 ```
@@ -43,7 +43,7 @@ if ($today) { 
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?PHP
 
 // Using list method to display the datetime
@@ -59,6 +59,6 @@ echo $month . '/' . $day . '/' . $year . ' '
 
 **输出:**
 
-```
+```php
 05/07/2021 05:58:48
 ```

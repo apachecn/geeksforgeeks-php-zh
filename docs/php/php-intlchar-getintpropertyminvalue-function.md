@@ -6,7 +6,7 @@ IntlChar：：getIntPropertyMinValue()函数是 PHP 中的内置函数，用于�
 
 **语法：**
 
-```
+```php
 *int* IntlChar::getIntPropertyMinValue( $property )
 ```
 
@@ -18,7 +18,7 @@ IntlChar：：getIntPropertyMinValue()函数是 PHP 中的内置函数，用于�
 
 **程序：**
 
-```
+```php
 <?php
 
 // PHP program to uses IntlChar::getIntPropertyMinValue()
@@ -50,7 +50,7 @@ var_dump(IntlChar::getIntPropertyMinValue(49)); 
 
 **输出：**
 
-```
+```php
 int(0)
 int(0)
 int(0)

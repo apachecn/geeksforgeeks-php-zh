@@ -6,7 +6,7 @@ SplFileInfo：：OpenFile()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **语法：**
 
-```
+```php
 *bool* SplFileInfo::openFile( $mode, $path, $context)
 ```
 
@@ -24,7 +24,7 @@ SplFileInfo：：OpenFile()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **程序：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 

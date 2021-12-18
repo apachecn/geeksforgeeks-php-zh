@@ -5,7 +5,7 @@
 **imagecolorsforindex()**函数是 PHP 中的一个内置函数，用于获取给定索引处的颜色。 此函数返回包含指定颜色值的红、绿、蓝和 Alpha 键值的数组。
 **语法：**和
 
-```
+```php
 *array* imagecolorsforindex ( $image, $index )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // store the image in variable.
@@ -39,7 +39,7 @@ var_dump($colors);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 array(4) { 
     ["red"]=> int(34) 
     ["green"]=> int(170) 
@@ -52,7 +52,7 @@ array(4) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // store the image in variable.
@@ -75,7 +75,7 @@ var_dump($colors);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 array(4) { 
     ["red"]=> int(97) 
     ["green"]=> int(57) 

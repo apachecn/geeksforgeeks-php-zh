@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```php
 Input : array(2, 5, 6, 3, 0)
 Output : Odd array: 5 , 3
          Even array: 2, 6, 0
@@ -26,7 +26,7 @@ Output : Odd array: 1, 3, 5
 
 **算法：**
 
-```
+```php
 1.  过滤器元素：
     *   通过 array_filter()过滤奇数元素。
     *   根据 ARRAY_FILTER()过滤偶数元素。
@@ -39,7 +39,7 @@ Output : Odd array: 1, 3, 5
 
 以下是上述算法的 PHP 实现：
 
-```
+```php
 <?php
 
 // PHP program to separate odd-even indexed
@@ -85,7 +85,7 @@ print_r($even);
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 Odd array :
 Array
 (

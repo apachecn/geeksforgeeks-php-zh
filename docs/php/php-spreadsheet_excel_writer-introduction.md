@@ -12,13 +12,13 @@
 
 **安装(Composer)：**
 
-```
+```php
 composer require pear/spreadsheet_excel_writer
 ```
 
 **用法：**
 
-```
+```php
 <?php
 
 // require_once 'Spreadsheet/Excel/Writer.php';

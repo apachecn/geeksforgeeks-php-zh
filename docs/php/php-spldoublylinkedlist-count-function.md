@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* SplDoublyLinkedList::count( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -41,14 +41,14 @@ print_r($list->count());
 
 **输出：**
 
-```
+```php
 5
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -71,7 +71,7 @@ print_r($list->count());
 
 **输出：**
 
-```
+```php
 5
 
 ```

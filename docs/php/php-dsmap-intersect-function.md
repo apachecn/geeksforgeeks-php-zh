@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Map* public Ds\Map::intersect( Ds\Map $map )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the intersect()
 // function of Ds\map 
@@ -39,7 +39,7 @@ print_r($map1 -> intersect($map2));
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object
@@ -54,7 +54,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the intersect() 
 // function of Ds\map 
@@ -79,7 +79,7 @@ print_r($map1 -> intersect($map2));
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object

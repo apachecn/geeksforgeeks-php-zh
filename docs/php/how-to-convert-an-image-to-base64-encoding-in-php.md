@@ -14,7 +14,7 @@ base64_encode()函数是 PHP 中的一个内置函数，用于将任何数据转
 
 **程序:**
 
-```
+```php
 <?php 
 
 // Get the image and convert into string
@@ -31,7 +31,7 @@ echo $data;
 
 **输出:**
 
-```
+```php
 iVBORw0KGgoAAAANSUhEUgAAApsAAAC4CAYAAACsNSfVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJ
 cEhZcwAADsQAAA7EAZUrDhsAAAAZdEVYdFNvZnR3YXJdhfdsglgklAEFkb2JlIEltYWdlUmVhZHlxyWqwrwtwefd
 ...

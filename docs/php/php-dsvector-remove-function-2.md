@@ -6,7 +6,7 @@ Ds\Vector：：Remove()函数是 PHP 中的一个内置函数，用于从索引�
 
 **语法：**
 
-```
+```php
 *public* Ds\Vector::remove( $index ) : mixed
 
 ```
@@ -21,7 +21,7 @@ Ds\Vector：：Remove()函数是 PHP 中的一个内置函数，用于从索引�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare new vector
@@ -46,7 +46,7 @@ var_dump($vect->remove(3));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare new vector

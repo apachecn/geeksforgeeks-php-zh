@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::shaveImage( $columns, $rows )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an imagick object

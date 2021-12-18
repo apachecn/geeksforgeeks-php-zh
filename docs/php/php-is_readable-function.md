@@ -8,7 +8,7 @@ is_readable()函数还可以用于 PHP 5.0.0 中的一些 URL 包装，如 file�
 
 **语法：**
 
-```
+```php
 is_readable($file)
 ```
 
@@ -29,7 +29,7 @@ PHP 中的 is_readable()函数只接受一个参数。
 
 **程序 1**
 
-```
+```php
 <?php 
 $myfile = "gfg.txt";
 
@@ -47,14 +47,14 @@ else 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg.txt is readable
 
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 $myfile = "gfg.txt";
 
@@ -76,7 +76,7 @@ else 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg.txt is readable
 Contents of the file are :
 Portal for geeks!
@@ -85,7 +85,7 @@ Portal for geeks!
 
 **程序 3**
 
-```
+```php
 <?php 
 
 $permissions = fileperms("gfg.txt");
@@ -112,7 +112,7 @@ clearstatcache();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File is Readable and File Permissions are : 0644
 
 ```

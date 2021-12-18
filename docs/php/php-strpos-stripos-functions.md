@@ -10,7 +10,7 @@ PHP 中的 strpos()和 stripos()函数都是**二进制安全的**，这意味�
 
 **语法：**
 
-```
+```php
 strpos(original_str, search_str, start_pos);
 ```
 
@@ -26,7 +26,7 @@ strpos(original_str, search_str, start_pos);
 
 ## PHP
 
-```
+```php
 <?php
 
     // PHP code to search for a specific string's position
@@ -53,7 +53,7 @@ strpos(original_str, search_str, start_pos);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Found at position 11
 ```
 
@@ -61,7 +61,7 @@ Found at position 11
 
 **语法：**
 
-```
+```php
 stripos(original_str, search_str, start_pos);
 ```
 
@@ -77,7 +77,7 @@ stripos(original_str, search_str, start_pos);
 
 ## PHP
 
-```
+```php
 <?php
 
     // PHP code to search for a specific string
@@ -104,6 +104,6 @@ stripos(original_str, search_str, start_pos);
 
 **输出：**
 
-```
+```php
 Found at position 11
 ```

@@ -6,7 +6,7 @@ Timezone_open()函数是 PHP 中的一个内置函数，用于创建新的 DateT
 
 **语法：**
 
-```
+```php
 timezone_open( $timezone )
 ```
 
@@ -20,7 +20,7 @@ timezone_open( $timezone )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Creating a new DateTimeZone object
@@ -33,14 +33,14 @@ echo ("The new DateTimeZone object created is " 
 
 **Output:**
 
-```
+```php
 The new DateTimeZone object created is America/Chicago
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Array of timezones
@@ -56,7 +56,7 @@ foreach ($timezones as $tz) {
 
 **Output:**
 
-```
+```php
 The new DateTimeZone object created is Europe/London
 The new DateTimeZone object created is Asia/Kolkata
 

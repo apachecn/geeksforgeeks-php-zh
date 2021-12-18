@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::resetImagePage( *string* $page )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -40,7 +40,7 @@ print("<pre>".print_r($page, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

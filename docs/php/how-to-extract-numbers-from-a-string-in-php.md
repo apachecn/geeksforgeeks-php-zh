@@ -15,7 +15,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     $string = '$ 90,000,000.0098';
     echo preg_replace("/[^0-9]/", '', $string);
@@ -28,7 +28,7 @@
 
 **Output**
 
-```
+```php
 900000000098
 90000000.0098
 ```
@@ -37,7 +37,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     $string = '$ 90,000,000.0098';
     echo preg_replace("/[^0-9]/", '', $string);
@@ -55,7 +55,7 @@
 
 **Output**
 
-```
+```php
 900000000098
 90000000.0098
 1014

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *string* chunk_split($string, $length, $end)
 
 ```
@@ -21,7 +21,7 @@
 
 **示例:**
 
-```
+```php
 Input : string = "geeksforgeeks" 
         length = 4
         end = "."
@@ -40,7 +40,7 @@ Output: Tw*in*kl*e *ba*ja*j*
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // chunk_split function
@@ -53,7 +53,7 @@ echo chunk_split($str, 2, "*");
 
 **输出:**
 
-```
+```php
 Tw*in*kl*e *ba*ja*j* 
 
 ```
@@ -62,7 +62,7 @@ Tw*in*kl*e *ba*ja*j*
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // chunk_split function
@@ -77,7 +77,7 @@ echo chunk_split($str, 4, ".");
 
 **输出:**
 
-```
+```php
 geek.sfor.geek.s. 
 
 ```
@@ -86,7 +86,7 @@ geek.sfor.geek.s.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // chunk_split function
@@ -98,7 +98,7 @@ echo chunk_split($str, 4, "@@");
 
 **输出:**
 
-```
+```php
 abcd@@
 
 ```
@@ -107,7 +107,7 @@ abcd@@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // chunk_split function
@@ -122,7 +122,7 @@ echo chunk_split($str, 10, "@@");
 
 **输出:**
 
-```
+```php
 abcd@@
 
 ```

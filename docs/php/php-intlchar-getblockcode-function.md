@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::getBlockCode ( $codepoint )
 
 ```
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP function to illustrate
@@ -55,7 +55,7 @@ var_dump(IntlChar::getBlockCode("@") ===
 
 **Output:** 
 
-```
+```php
 bool(true)
 bool(false)
 bool(false)
@@ -68,7 +68,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::getBlockCode()
 
@@ -86,7 +86,7 @@ foreach ($arr as $val){
 
 **Output:** 
 
-```
+```php
 int(1)
 NULL
 int(1)

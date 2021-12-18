@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorexact ( $image, $red, $green, $blue )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Set the image into variable
@@ -49,7 +49,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Set the image into variable

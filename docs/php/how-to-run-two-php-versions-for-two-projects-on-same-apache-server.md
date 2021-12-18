@@ -85,7 +85,7 @@
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
         phpinfo();
     ?>
@@ -103,7 +103,7 @@
 
     现在，打开浏览器，然后键入命令。
 
-    ```
+    ```php
     localhost/phpinfo.php
     ```
 
@@ -115,7 +115,7 @@
 
     现在对于第二个版本，键入命令。
 
-    ```
+    ```php
     localhost:8080/phpinfo.php
     ```
 

@@ -19,7 +19,7 @@ Laravel 使用了一个强大的模板引擎 **Blade** 。这里使用的文件�
 
 *   **Syntax:**
 
-    ```
+    ```php
     View::exists('gfg');
     ```
 
@@ -28,7 +28,7 @@ Laravel 使用了一个强大的模板引擎 **Blade** 。这里使用的文件�
 *   **示例:**
     *   在“**资源/视图**”目录中创建一个名为“**gfg.balde.php**的视图。把下面的代码写进去。
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -43,7 +43,7 @@ Laravel 使用了一个强大的模板引擎 **Blade** 。这里使用的文件�
     *   使用以下命令“**PHP artisan make:controller gfg controller**创建一个名为 **GfGController** 的控制器，并在其中写入以下代码。
         **注:**视图立面**使用照明\支撑\立面\视图；**应在控制器文件中定义。
 
-```
+```php
 <?php
 
 namespace App\Http\Controllers;
@@ -67,7 +67,7 @@ class GfGController extends Controller
 
 *   Write the code below in ‘**web.php**’ file in ‘route’ directory.
 
-    ```
+    ```php
     Route::get('/', 'GfGController@index');
     ```
 
@@ -83,11 +83,11 @@ class GfGController extends Controller
 
     *   **语法:**
 
-        ```
+        ```php
         view()->first(['main', 'gfg', 'article']);
         ```
 
-    *   ```
+    *   ```php
         View::first(['main', 'gfg', 'article']);
         ```
 
@@ -96,7 +96,7 @@ class GfGController extends Controller
     *   **示例:**
         *   在**资源中创建一个视图。把下面的代码写进去。
 
-            ```
+            ```php
             <!DOCTYPE html>
             <html>
             <head>
@@ -110,7 +110,7 @@ class GfGController extends Controller
         *   使用以下命令**PHP artisan make:controller gfgccontroller**创建一个名为**gfgccontroller**的控制器，并在其中写入以下代码。
             **注意:**视图立面**使用照明\支撑\立面\视图；**应在控制器文件中定义。
 
-            ```
+            ```php
             <?php
 
             namespace App\Http\Controllers;
@@ -130,7 +130,7 @@ class GfGController extends Controller
         *   将下面的代码写在**web.php**文件的**路线**目录中。
             **注意:**注释或删除任何先前定义的路线。
 
-            ```
+            ```php
             Route::get('/', 'GfGController@index');
             ```
 
@@ -141,7 +141,7 @@ class GfGController extends Controller
 
 *   **Syntax:**
 
-    ```
+    ```php
     My name is {{ $name }} and my age is {{ $age }}
     ```
 
@@ -149,14 +149,14 @@ class GfGController extends Controller
 
 *   **语法:**
 
-    ```
+    ```php
     My name is {!! $name !!} and my age is {!! $age !!}
     ```
 
 *   **示例:**
     *   将下面的代码写在**web.php**文件的**航线**目录中。
 
-        ```
+        ```php
         Route::get('/', function () {
           return view('gfg')->with('name' => 'Aakash')->with('age' => '21');
         }
@@ -165,7 +165,7 @@ class GfGController extends Controller
 
     *   现在，让我们在**资源/视图**目录中创建一个名为**gfg.blade.php**的视图文件，并在其中写入下面的代码。
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -184,7 +184,7 @@ class GfGController extends Controller
 
 *   **Syntax:**
 
-    ```
+    ```php
     View::share(‘data’, ‘This is Shared Data’);
     ```
 
@@ -195,7 +195,7 @@ class GfGController extends Controller
         **注意:***@ include*是一个 Laravel 指令，用于在视图中包含另一个视图。
     *   **gfg . blade . PHP**
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -210,7 +210,7 @@ class GfGController extends Controller
 
     *   **main.blade.php**T3
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -226,7 +226,7 @@ class GfGController extends Controller
         T4】
     *   **篇. blade.php**
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -241,13 +241,13 @@ class GfGController extends Controller
 
 *   现在，创建另一个名为**shared.blade.php**的视图，并编写下面的代码。
 
-    ```
+    ```php
     <h2>Welcome, {{ $data }}</h2>
     ```
 
 *   Now, open the file **AppServiceProvider.php** in the **app/Providers** directory. And in the boot function, write the below code.
 
-    ```
+    ```php
     <?php
 
     namespace App\Providers;
@@ -276,7 +276,7 @@ class GfGController extends Controller
 
 *   现在，在位于**路线**目录中的**web.php**文件中为前面步骤中创建的所有视图指定路线。
 
-    ```
+    ```php
     Route::get('/', function () {
         return view('gfg');
     });
@@ -300,7 +300,7 @@ class GfGController extends Controller
 
 *   **Syntax:**
 
-    ```
+    ```php
     View::composer('shared', function($view) {
       //
     });
@@ -310,7 +310,7 @@ class GfGController extends Controller
 
 *   **Syntax:**
 
-    ```
+    ```php
     View::composer(['shared', 'sharedNew'], function($view) {
     $view->with('data', 'This is Shared Data');
     });
@@ -320,7 +320,7 @@ class GfGController extends Controller
 
 *   **语法:**
 
-    ```
+    ```php
     View::composer(*, function($view) {
       $view->with('data', 'This is Shared Data');
     });
@@ -331,7 +331,7 @@ class GfGController extends Controller
         **注意:***@ include*是一个 Laravel 指令，用于在视图中包含另一个视图。
     *   **gfg . blade . PHP**
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -346,7 +346,7 @@ class GfGController extends Controller
 
     *   **main.blade.php**T3
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -362,7 +362,7 @@ class GfGController extends Controller
         T4】
     *   **篇. blade.php**
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>
@@ -377,13 +377,13 @@ class GfGController extends Controller
 
 *   现在，创建另一个名为“**shared.blade.php**的视图，并编写下面的代码。
 
-    ```
+    ```php
     <h2>Welcome, {{ $data }}</h2>
     ```
 
 *   Now, open the file ‘**AppServiceProvider.php**’ in the ‘**app/Providers**’ directory. And in the boot function, write the below code.
 
-    ```
+    ```php
     <?php
 
     namespace App\Providers;
@@ -409,7 +409,7 @@ class GfGController extends Controller
 
 *   现在，在“**web.php**”文件中为前面步骤中创建的所有视图指定路线，该文件位于“**路线**目录中。
 
-    ```
+    ```php
     Route::get('/', function () {
         return view('gfg');
     });
@@ -430,7 +430,7 @@ class GfGController extends Controller
 
     *   **语法:**
 
-        ```
+        ```php
         View::creator('shared', function($view) {
           $view->with('data', 'This is Shared Data');
         });

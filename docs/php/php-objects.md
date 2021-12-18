@@ -7,7 +7,7 @@
 **创建对象：**
 下面是如何使用**new**运算符创建对象的示例。
 
-```
+```php
 class Books {
    // Members of class Books
 }
@@ -24,7 +24,7 @@ $chemistry = new Books;
 
 示例：
 
-```
+```php
 $physics->setTitle( "Physics for High School" );
 $chemistry->setTitle( "Advanced Chemistry" );
 $maths->setTitle( "Algebra" );
@@ -38,7 +38,7 @@ $maths->setPrice( 7 );
 
 示例：
 
-```
+```php
 <?php
    class Books {
 
@@ -84,7 +84,7 @@ $maths->setPrice( 7 );
 以下是实现构造函数的示例代码：
 **构造函数程序：**
 
-```
+```php
 <?php
 class GeeksforGeeks
 {    
@@ -107,6 +107,6 @@ echo $Geek->Geek_name;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```

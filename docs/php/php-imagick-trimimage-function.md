@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::trimImage( $fuzz )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序：**
 
-```
+```php
 ?php
 
 // Create an Imagick object

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 string htmlentities( $string, $flags, $encoding, $double_encode )
 ```
 
@@ -25,7 +25,7 @@ string htmlentities( $string, $flags, $encoding, $double_encode )
 
 ## PHP
 
-```
+```php
 <?php
 
   // String convertable to htmlentities
@@ -38,7 +38,7 @@ string htmlentities( $string, $flags, $encoding, $double_encode )
 
 **输出:**
 
-```
+```php
 <a href="https://www.geeksforgeeks.org">GeeksforGeeks</a>
 ```
 
@@ -46,7 +46,7 @@ string htmlentities( $string, $flags, $encoding, $double_encode )
 
 **语法:**
 
-```
+```php
 string htmlspecialchars( $string, $flags, $encoding, $double_encode )
 ```
 
@@ -63,7 +63,7 @@ string htmlspecialchars( $string, $flags, $encoding, $double_encode )
 
 ## PHP
 
-```
+```php
 <?php
 
   // String to be converted
@@ -76,7 +76,7 @@ string htmlspecialchars( $string, $flags, $encoding, $double_encode )
 
 **输出:**
 
-```
+```php
 "geeksforgeeks.org" Go to GeeksforGeeks
 ```
 

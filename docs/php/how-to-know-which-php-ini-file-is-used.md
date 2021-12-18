@@ -10,7 +10,7 @@
 
     ## 服务器端编程语言(专业超文本预处理器的缩写)
 
-    ```
+    ```php
     <?php
     $php_inipath = php_ini_loaded_file();
 
@@ -26,7 +26,7 @@
 
     ## 服务器端编程语言(专业超文本预处理器的缩写)
 
-    ```
+    ```php
     <?php
     if ($list_of_files = php_ini_scanned_files()) {
         if (strlen($list_of_files) > 0) {
@@ -42,7 +42,7 @@
 
 **2。在 CLI(命令行界面)中查看 php.ini:**要了解 PHP . ini，只需在 CLI 上运行即可。
 
-```
+```php
 php --ini
 ```
 
@@ -55,7 +55,7 @@ php --ini
 *   php -i|grep 'php.ini'
 *   只需在 web 根目录下创建“information.php”文件并添加代码(如下)，然后在浏览器中运行它。
 
-    ```
+    ```php
     <?php 
     phpinfo(); 
     ?>

@@ -6,7 +6,7 @@ SplFixedArray：：__Construct()函数是 PHP 中的内置函数，用于构造�
 
 **语法：**
 
-```
+```php
 *void* SplFixedArray::__construct( $size )
 ```
 
@@ -18,7 +18,7 @@ SplFixedArray：：__Construct()函数是 PHP 中的内置函数，用于构造�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new fixed array of size 2
@@ -35,7 +35,7 @@ var_dump($gfg[1]);
 
 **输出：**
 
-```
+```php
 NULL
 string(13) "GeeksforGeeks"
 
@@ -43,7 +43,7 @@ string(13) "GeeksforGeeks"
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new fixed array of size 8
@@ -63,7 +63,7 @@ foreach( $gfg as $i ) {
 
 **输出：**
 
-```
+```php
 NULL
 NULL
 int(5)

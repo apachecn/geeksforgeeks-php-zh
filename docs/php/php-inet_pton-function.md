@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* inet_pton( *string* $ip_address )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Use inet_pton() function on IP
@@ -42,7 +42,7 @@ echo $addr;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 echo inet_pton("".gethostbyname("www.google.com"))."<br>";

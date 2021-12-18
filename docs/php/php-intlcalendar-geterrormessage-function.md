@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *string* IntlCalendar::getErrorMessage( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *string* intlcal_get_error_message( *IntlCalendar* $calendar )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -52,7 +52,7 @@ var_dump($calendar->getErrorMessage());
 
 **输出：**
 
-```
+```php
 PHP Warning:  IntlCalendar::fieldDifference(): intlcal_field_difference: Call to ICU method has
 failed in /home/22bd84b151f5397224d747dadc65338e.php on line 16
 string(12) "U_ZERO_ERROR"

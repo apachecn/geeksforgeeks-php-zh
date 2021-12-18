@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Vector::set( $index, $value )
 
 ```
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Vector
@@ -49,7 +49,7 @@ print_r($vect);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Vector

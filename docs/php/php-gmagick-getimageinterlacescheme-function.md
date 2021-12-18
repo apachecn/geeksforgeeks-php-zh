@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimageinterlacescheme( *void* )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -42,7 +42,7 @@ echo $interlaceScheme; 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

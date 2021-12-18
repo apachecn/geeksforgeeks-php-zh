@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimageunits( void )
 ```
 
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate getimageunits function
@@ -40,7 +40,7 @@ print_r($unit);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Units = 2
 ```
 
@@ -52,7 +52,7 @@ Units = 2
 
 ## PHP
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 
@@ -87,7 +87,7 @@ print_r($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Units = 0
 ```
 

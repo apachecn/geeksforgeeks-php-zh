@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* substr_compare($str1, $str2, $startpos, $len, $caseInsensitive)
 
 ```
@@ -28,7 +28,7 @@
 
 下面的程序演示了 PHP 中的 substr_Compare()函数：
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -46,7 +46,7 @@ echo substr_compare("GeeksforGeeks", "geeksforgeeks",
 
 产出：
 
-```
+```php
 -2
 -2
 0

@@ -5,7 +5,7 @@
 **SplFileObject：：fgetss()**函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于从文件中获取行并去除 HTML 标记。
 **语法：**
 
-```
+```php
 string SplFileObject::fgetss( $tags)
 ```
 
@@ -16,7 +16,7 @@ string SplFileObject::fgetss( $tags)
 
 ## PHP
 
-```
+```php
 <?php
 $gfg = <<<EOD
 <html><body>
@@ -37,7 +37,7 @@ while (!$file->eof()) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Welcome To GeeksforGeeks! Text out of the HTML block.
 ```
 
@@ -45,7 +45,7 @@ Welcome To GeeksforGeeks! Text out of the HTML block.
 
 ## PHP
 
-```
+```php
 <?php
 $gfg = <<<EOD
 <html><body>
@@ -67,7 +67,7 @@ while (!$file->eof()) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Welcome To GeeksforGeeks! Text out of the HTML block.
 ```
 

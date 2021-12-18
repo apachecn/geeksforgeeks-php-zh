@@ -6,7 +6,7 @@ Lcg_value()函数是 PHP 中的一个内置函数，用于生成(0，1)范围内
 
 **语法：**
 
-```
+```php
 lcg_value()
 ```
 
@@ -20,7 +20,7 @@ lcg_value()
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate 
 // lcg_value() function
@@ -33,14 +33,14 @@ echo lcg_value();
 
 **输出：**
 
-```
+```php
 0.13542664978974
 
 ```
 
 **程序 2：**函数每次打印不同的值，并返回值的类型。
 
-```
+```php
 <?php
 echo lcg_value(). "\n";
 echo lcg_value(). "\n";
@@ -60,7 +60,7 @@ echo gettype($x);
 
 **输出：**
 
-```
+```php
 0.07786871705105
 0.70944065438839
 0.91109571202142

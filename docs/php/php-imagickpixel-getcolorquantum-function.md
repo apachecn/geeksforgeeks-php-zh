@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickPixel::getColorQuantum( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagickPixel object
@@ -36,7 +36,7 @@ print("<pre>".print_r($colorQuantum, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagickPixel object

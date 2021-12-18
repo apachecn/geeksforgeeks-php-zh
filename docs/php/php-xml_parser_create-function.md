@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* xml_parser_create( *string* $encoding )
 ```
 
@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -42,7 +42,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an XML parser
@@ -87,7 +87,7 @@ function char_print($parser, $data) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 user123 
 firstname lastname 
 +91-9876543210 
@@ -98,7 +98,7 @@ I am John Doe. Live in Kolkata, India.
 
 ## 可扩展标记语言
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -112,7 +112,7 @@ I am John Doe. Live in Kolkata, India.
 
 ## PHP
 
-```
+```php
 <?php
 
 // Creating an XML parser
@@ -188,7 +188,7 @@ fclose($fp);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 USER DATA
 Username: user123
 Name: firstname lastname

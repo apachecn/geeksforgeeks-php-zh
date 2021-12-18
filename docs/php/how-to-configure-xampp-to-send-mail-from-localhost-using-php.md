@@ -9,7 +9,7 @@
 
 *   **Go to C:\xampp\sendmail:** open sendmail.ini file in notepad or any text editor and make the changes as follows.
 
-    ```
+    ```php
     change smtp_server=mail.yourdomain.com to smtp_server=smtp.gmail.com
     change smtp_port to smtp_port=587
     change smtp_ssl=auto to smtp_ssl=tls
@@ -17,7 +17,7 @@
 
     ![](img/cbc3b0615468c64e39b5012fd514ef80.png)
 
-    ```
+    ```php
     uncomment ;error_logfile=error.log to error_logfile=error.log
     uncomment ;debug_logfile=debug.log to debug_logfile=debug.log
     write your gmail id in auth_username: auth_username=*****@gmail.com
@@ -26,7 +26,7 @@
 
     ![](img/cbc3b0615468c64e39b5012fd514ef80.png)
 
-    ```
+    ```php
     write your gmail id in force_sender: *****@gmail.com
     change hostname to hostname=localhost
     ```
@@ -37,7 +37,7 @@
 
 *   **Go to C:\xampp\php:** open php.ini file in notepad or any text editor goto [mail function] part and make the changes as follows.
 
-    ```
+    ```php
     comment SMTP=localhost by putting semicolon infront=>;SMTP=localhost
     comment smtp_port=25 by putting semicolon infront=>;smtp_port=25
     comment sendmail_from= by putting semicolon infront=>;sendmail_from=specify path of

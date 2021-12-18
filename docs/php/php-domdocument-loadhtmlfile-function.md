@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::loadHTMLFile( *string* $filename, *int* $options = 0 )
 ```
 
@@ -21,7 +21,7 @@
 
 **gfg.html**
 
-```
+```php
 <html>
 <head>
     <title>PHP function</title>
@@ -36,7 +36,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -55,7 +55,7 @@ echo $doc->saveHTML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

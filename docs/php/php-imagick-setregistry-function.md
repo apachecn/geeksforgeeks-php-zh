@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setRegistry( *string* $key, *string* $value )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

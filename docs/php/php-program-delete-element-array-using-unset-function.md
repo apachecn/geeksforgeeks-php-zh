@@ -8,7 +8,7 @@
 
 示例：
 
-```
+```php
 Input : $arr = array("Harsh", "Nishant", "Bikash", "Barun");
         unset($arr[3]);
 Output : Array
@@ -39,7 +39,7 @@ Output : Array
 
 **程序 1：**
 
-```
+```php
 <?php
 
     $a = array("Harsh", "Bikash", "Nishant", "Barun", "Deep");
@@ -58,7 +58,7 @@ Output : Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
     $a = array(1, 8, 9, 7, 3, 5, 4, );

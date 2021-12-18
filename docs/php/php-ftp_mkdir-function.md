@@ -5,7 +5,7 @@
 Ftp_mkdir()函数是 PHP 中的内置函数，用于在 ftp 服务器上创建新目录。 目录一旦创建，就不能再创建。 创建已存在的目录将产生错误。
 **语法：**
 
-```
+```php
 *string* ftp_mkdir( $ftp_connection, $directory_name )
 ```
 
@@ -25,7 +25,7 @@ Ftp_mkdir()函数是 PHP 中的内置函数，用于在 ftp 服务器上创建�
 
 ## PHP
 
-```
+```php
 <?php
 // Connecting to ftp server
 

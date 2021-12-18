@@ -10,7 +10,7 @@
 
 *   **HTML 代码:**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html lang="en">
 
@@ -42,7 +42,7 @@
 
 *   **PHP code:**
 
-    ```
+    ```php
     <?php
 
     // In case the File is in the API directory 
@@ -65,7 +65,7 @@
 
     *   **PHP 代码:**如果你已经在谷歌搜索引擎上搜索过任何东西，这个代码可以工作。
 
-        ```
+        ```php
         <?php
 
         include('simple_html_dom.php');
@@ -82,7 +82,7 @@
 
     *   **输出:**
 
-        ```
+        ```php
         GeeksforGeeks is a very fast-growing community among programmers
         and have a reach of around 10 million+ readers globally. Writing will
         surely enhance your knowledge of the subject as before writing any

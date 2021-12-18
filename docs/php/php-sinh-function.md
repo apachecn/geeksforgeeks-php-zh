@@ -11,7 +11,7 @@
 
 **语法：**
 
-```
+```php
 *float* sinh($value)
 ```
 
@@ -21,7 +21,7 @@
 
 例如：
 
-```
+```php
 Input : sinh(3) 
 Output : 10.01787492741
 
@@ -40,7 +40,7 @@ Output : 0
 
 *   Passing 3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (sinh(3));
@@ -50,13 +50,13 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     10.01787492741
     ```
 
 *   Passing -3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (sinh(-3));
@@ -66,13 +66,13 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     -10.01787492741
     ```
 
 *   When (M_PI) is passed as a parameter, M_PI is a constant in PHP whose value is 3.1415926535898:
 
-    ```
+    ```php
     <?php
 
     echo (sinh(M_PI));
@@ -82,13 +82,13 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     11.548739357258
     ```
 
 *   Passing 0 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (sinh(0));
@@ -98,7 +98,7 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     0
     ```
 

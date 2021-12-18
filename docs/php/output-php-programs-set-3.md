@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```php
 <?php
     $number = array(0, 1, one, two, three, 5);
     $num = preg_grep("/[0-5]/", $number);
@@ -23,7 +23,7 @@
 
 输出:
 
-```
+```php
 Array([0]=>0 [1]=>1 [5]=>5)
 
 ```
@@ -32,7 +32,7 @@ Array([0]=>0 [1]=>1 [5]=>5)
 
 **问题 2**
 
-```
+```php
 <?php
     $number = array(0, 1, one, two, three, 5);
     $num = preg_grep("/[0-5]/", $number, PREG_GREP_INVERT);
@@ -49,7 +49,7 @@ Array([0]=>0 [1]=>1 [5]=>5)
 
 输出:
 
-```
+```php
 Array([2]=>one [3]=>two [4]=>three)
 
 ```
@@ -58,7 +58,7 @@ Array([2]=>one [3]=>two [4]=>three)
 
 **问题 3**
 
-```
+```php
 <?php
     $name = "I am intern at GeeksforGeeks.";
     if (preg_match("/at/",$name))
@@ -77,7 +77,7 @@ Array([2]=>one [3]=>two [4]=>three)
 
 输出:
 
-```
+```php
 My name is Sagar Shukla
 
 ```
@@ -86,7 +86,7 @@ My name is Sagar Shukla
 
 **问题 4**
 
-```
+```php
 <?php
     $name = "I am intern at GeeksforGeeks.";
     if (preg_match("/was/",$name))
@@ -105,7 +105,7 @@ My name is Sagar Shukla
 
 输出:
 
-```
+```php
 My name is not Sagar Shukla
 
 ```
@@ -114,7 +114,7 @@ My name is not Sagar Shukla
 
 **问题 5**
 
-```
+```php
 <?php
     $str = "I am intern at GeeksforGeeks";
     $find = array('/am/');
@@ -133,7 +133,7 @@ My name is not Sagar Shukla
 
 输出:
 
-```
+```php
 I was intern at GeeksforGeeks
 
 ```
@@ -142,7 +142,7 @@ I was intern at GeeksforGeeks
 
 **问题 6**
 
-```
+```php
 <?php
     $str = "I am intern at GeeksforGeeks";
     $find = array('/geeksforgeeks/');
@@ -160,7 +160,7 @@ I was intern at GeeksforGeeks
 
 输出:
 
-```
+```php
 I am intern at GeeksforGeeks
 
 ```
@@ -169,7 +169,7 @@ I am intern at GeeksforGeeks
 
 **问题 7**
 
-```
+```php
 <?php
     $line = "Hello. Welcome to GeeksforGeeks!";
     $sen = preg_split('/\./', $line);
@@ -186,7 +186,7 @@ I am intern at GeeksforGeeks
 
     输出:
 
-    ```
+    ```php
     Array([0]=> Hello [1]=> Welcome to GeeksforGeeks! )
 
     ```

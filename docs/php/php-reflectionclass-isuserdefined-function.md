@@ -5,7 +5,7 @@
 **ReflectionClass：：isUserDefined()函数**是 PHP 中的一个内置函数，用于检查是否有用户定义的类可用。
 **语法：**和
 
-```
+```php
 *bool* ReflectionClass::isUserDefined()
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Defining user-defined class Company
@@ -40,7 +40,7 @@ var_dump($A);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true)
 ```
 
@@ -48,7 +48,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Using a internal class 'ReflectionClass'
@@ -64,7 +64,7 @@ var_dump($A);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(false)
 ```
 

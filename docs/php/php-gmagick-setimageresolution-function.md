@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setImageResolution($x_resolution, $y_resolution)
 ```
 
@@ -23,7 +23,7 @@
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 $gmagick = new Gmagick(
@@ -50,7 +50,7 @@ echo "Y = " . $res['y'] . "</br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 X = 37.8
 Y = 37.8
 After Set Resolution:
@@ -63,7 +63,7 @@ Y = 50
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54.png](img/583fb2a26e2d28d4d8bbc47a02020896.png)
 
-```
+```php
 <?php 
 $string = "Computer Science portal for Geeks!"; 
 
@@ -108,7 +108,7 @@ echo "Y = ".$res['y'] ." </br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before:
 X = 0
 Y = 0

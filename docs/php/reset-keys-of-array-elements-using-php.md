@@ -21,7 +21,7 @@
 
 **程序:** PHP 程序重置数组中数组元素的键。
 
-```
+```php
 <?php
 // PHP program to reset the keys of array elements
 
@@ -72,7 +72,7 @@ print_r($arr);
 
 **Output:**
 
-```
+```php
 The Sample array: Array
 (
     [zero] => 1

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::flopImage( void )
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -42,7 +42,7 @@ echo $imagick->getImageBlob();
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/gfg_flopimage_before.png](img/6288b04bc479c274abd2b4fc53382521.png)
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 

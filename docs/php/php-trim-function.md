@@ -11,7 +11,7 @@ PHP 中的**trim()**函数是一个内置函数，可以删除字符串左右两
 
 **语法：**
 
-```
+```php
 trim($string, $charlist)
 
 ```
@@ -33,7 +33,7 @@ trim($string, $charlist)
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of trim() 
 // function when second parameter is present
@@ -49,7 +49,7 @@ echo trim($str, "Hell!");
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of trim() 
 // function when second parameter is absent

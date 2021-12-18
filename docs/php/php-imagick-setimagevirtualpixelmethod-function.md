@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageVirtualPixelMethod( *int* $method )
 ```
 
@@ -31,7 +31,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -51,7 +51,7 @@ echo $virtualPixelMethod;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

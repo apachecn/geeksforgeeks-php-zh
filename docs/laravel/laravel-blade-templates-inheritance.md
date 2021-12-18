@@ -8,7 +8,7 @@
 
 *   **Defining a layout:** Let’s do that with an example and create a file called **layout.blade.php** in **resources/views** directory as shown below:
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -26,7 +26,7 @@
 
 *   **Extending a layout:** Let’s do that too now and create a page at **resources/views** directory called *mypage.blade.php* as given below:
 
-    ```
+    ```php
     @extends('layout')
 
     @section('title')
@@ -40,7 +40,7 @@
 
     在这段代码中，我们首先使用 **@extends** 指令，该指令告诉我们从哪个刀片页面继承这个页面。在我们的例子中，它将是布局，因为我们将从我们之前创建的**layout.blade.php**继承这个页面。此外，我们使用**@节**指令来扩展父刀片文件的每个 **@yield** 指令。我们必须告诉每个 **@yield** 指令的名称，我们将在**@部分**指令中进行扩展，就像我们在上面的代码中所做的那样。确保在编写完代码后，您以 *@endsection* 结束指令。所有 **@yield** 部分将被替换为子刀片页面中的相应代码。完成这项工作的最后一件事是在您的 **routes/web.php** 中添加如下所示的路由。
 
-    ```
+    ```php
     Route::get('/mypage', function() {
         return view('mypage');
     });

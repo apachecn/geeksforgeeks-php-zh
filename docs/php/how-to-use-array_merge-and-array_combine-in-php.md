@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 array_merge( array1, array2, ..., array n )
 ```
 
@@ -20,7 +20,7 @@ array_merge( array1, array2, ..., array n )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Define array1 with keys and values
@@ -46,7 +46,7 @@ print_r($final);
 
 **Output**
 
-```
+```php
 Array
 (
     [subject1] => Python
@@ -61,7 +61,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Define array1 with keys and values
@@ -100,7 +100,7 @@ print_r($final);
 
 **Output**
 
-```
+```php
 Array
 (
     [subject1] => Python
@@ -119,7 +119,7 @@ Array
 
 **语法:**
 
-```
+```php
 array_combine(array1, array2)
 ```
 
@@ -134,7 +134,7 @@ array_combine(array1, array2)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Define array1 with keys 
@@ -154,7 +154,7 @@ print_r($final);
 
 **Output**
 
-```
+```php
 Array
 (
     [subject1] => c/c++
@@ -167,7 +167,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Define array1 with keys 
@@ -188,7 +188,7 @@ print_r($final);
 
 **Output**
 
-```
+```php
 Array
 (
     [subject1] => c/c++

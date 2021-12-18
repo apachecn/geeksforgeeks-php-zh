@@ -6,7 +6,7 @@
 
 **示例：**
 
-```
+```php
 <?php
 
 // PHP program to set a date time value in excel sheet

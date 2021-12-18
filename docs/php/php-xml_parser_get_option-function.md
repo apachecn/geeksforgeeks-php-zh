@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* xml_parser_get_option( *resource* $parser, *int* $specified_option )
 ```
 
@@ -32,7 +32,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Creating an XML parser
@@ -51,7 +51,7 @@ xml_parser_free($parser);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This example show how xml_parser_get_option() function works
 XML_OPTION_CASE_FOLDING: 1
 
@@ -59,7 +59,7 @@ XML_OPTION_CASE_FOLDING: 1
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an XML parser
@@ -86,7 +86,7 @@ xml_parser_free($parser);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 option = XML_OPTION_CASE_FOLDING: 1
 option = XML_OPTION_TARGET_ENCODING: UTF-8
 option = XML_OPTION_SKIP_TAGSTART: 0

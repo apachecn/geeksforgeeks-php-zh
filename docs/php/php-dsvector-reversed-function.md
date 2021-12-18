@@ -6,7 +6,7 @@ Ds\Vector：：Reverse()函数是 PHP 中的一个内置函数，用于在将原
 
 **语法：**
 
-```
+```php
 *public* Ds\Vector::reversed( void ) : Ds\Vector
 
 ```
@@ -19,7 +19,7 @@ Ds\Vector：：Reverse()函数是 PHP 中的一个内置函数，用于在将原
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Vector
@@ -41,7 +41,7 @@ var_dump($arr->reversed());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Vector

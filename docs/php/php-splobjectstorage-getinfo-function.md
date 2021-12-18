@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplObjectStorage::getinfo()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create New Empty Storage Class
@@ -44,7 +44,7 @@ var_dump($data);
 
 **输出：**
 
-```
+```php
 object(stdClass)#2 (0) {
 }
 string(12) "GeksforGeeks"
@@ -53,7 +53,7 @@ string(12) "GeksforGeeks"
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create an Empty SplObjectStorage
 $str = new SplObjectStorage();
@@ -85,7 +85,7 @@ while($str->valid()) {
 
 **输出：**
 
-```
+```php
 object(stdClass)#2 (0) {
 }
 string(12) "GeksforGeeks"

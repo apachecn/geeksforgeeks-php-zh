@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool imagecopymergegray ( $dst_image, $src_image, $dst_x, $dst_y, $src_x, $src_y, 
 $src_w, $src_h, $pct )
 ```
@@ -29,7 +29,7 @@ $src_w, $src_h, $pct )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create image instances
@@ -56,7 +56,7 @@ imagedestroy($src);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create image instances
 $dest = imagecreatefrompng(

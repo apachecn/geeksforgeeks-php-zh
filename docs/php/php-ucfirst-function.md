@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ucfirst($string)
 ```
 
@@ -16,7 +16,7 @@ ucfirst($string)
 
 例如：
 
-```
+```php
 Input : "geeks for geeks"
 Output : Geeks for geeks
 
@@ -29,7 +29,7 @@ Output : Chetna Agarwal
 
 **程序 1：**下面的程序演示了 ucfirst()函数的用法。
 
-```
+```php
 <?php
     // PHP program that demonstrates the 
     // use of ucfirst() function 
@@ -44,14 +44,14 @@ Output : Chetna Agarwal
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Geeks for geeks
 
 ```
 
 **程序 2：**下面的程序演示了起始字符为大写时 ucfirst()函数的用法。
 
-```
+```php
 <?php
     // PHP program that demonstrates the 
     // use of ucfirst() function when 
@@ -67,7 +67,7 @@ Geeks for geeks
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Chetna Agarwal
 
 ```

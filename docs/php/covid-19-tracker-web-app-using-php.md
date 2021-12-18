@@ -23,7 +23,7 @@ JSON 文件的输出*****
 
 *****下面是实现这一点的 PHP 代码片段。*****
 
-```html
+```phphtml
 ***$data=file_get_contents('https://api.covid19india.org/data.json');
 
 $coronalive =json_decode($data,true);***
@@ -35,7 +35,7 @@ $coronalive =json_decode($data,true);***
 
 ## *****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）*****
 
-```html
+```phphtml
 ***<!DOCTYPE html>
 <html>
 

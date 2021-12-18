@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -56,7 +56,7 @@
 
 ## data.php
 
-```html
+```phphtml
 <html>
 <body>
    <?php echo '<h1>Welcome to GfG</h1>'; ?>  

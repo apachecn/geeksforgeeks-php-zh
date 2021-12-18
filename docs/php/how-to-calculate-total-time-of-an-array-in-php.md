@@ -11,13 +11,13 @@
 
 **语法**
 
-```
+```php
 strtotime( string )
 ```
 
 **示例 1:** 本示例从数组中读取值，并将其转换为时间格式。
 
-```
+```php
 <?php
 
 // Array containing time in string format
@@ -64,7 +64,7 @@ echo ("$h:$m:$s");
 
 **输出:**
 
-```
+```php
 23:17:39
 
 ```

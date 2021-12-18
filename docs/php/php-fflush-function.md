@@ -6,7 +6,7 @@ PHP 中的 fflush()函数是一个内置函数，用于将所有缓冲的输出�
 
 **语法：**
 
-```
+```php
 fflush($file)
 ```
 
@@ -23,7 +23,7 @@ fflush($file)
 
 **程序 1**：在下面的程序中，名为*singleline.txt*的文件包含一行信息，即“该文件由一行组成”。
 
-```
+```php
 <?php
 
 // The file is opened using fopen() function
@@ -43,7 +43,7 @@ fclose($check);
 
 产出：
 
-```
+```php
 This file consists of a single line.
 
 ```
@@ -54,7 +54,7 @@ This file consists of a single line.
 > 这是第二行。
 > 这是第三行。
 
-```
+```php
 <?php
 
 // The file is opened using fopen() function
@@ -74,7 +74,7 @@ fclose($check);
 
 产出：
 
-```
+```php
 This is the first line.
 This is the second line.
 This is the third line.

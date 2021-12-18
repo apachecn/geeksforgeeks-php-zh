@@ -5,7 +5,7 @@
 Gmp_intval()是 PHP 中的一个内置函数，用于将 GMP 数字转换为整数。 这里，GMP 指的是[GNU Multiple Precision](https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library)，它代表大数。
 **语法：**
 
-```
+```php
 int gmp_intval ( $num )
 ```
 
@@ -13,7 +13,7 @@ int gmp_intval ( $num )
 **返回值：**此函数返回给定 GMP 编号的整数值*$Num*
 示例：
 
-```
+```php
 Input : $num = "2147483647"
 Output :  2147483647
 
@@ -26,7 +26,7 @@ Output :  12
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_intval()
 // function when argument is passed
@@ -42,7 +42,7 @@ echo gmp_strval($x) . "\n";
 
 输出：0
 
-```
+```php
 2147
 ```
 
@@ -50,7 +50,7 @@ echo gmp_strval($x) . "\n";
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_intval() function
 // when GMP number is passed as an argument
@@ -70,7 +70,7 @@ echo gmp_strval($x) . "\n";
 
 输出：0
 
-```
+```php
 7
 ```
 

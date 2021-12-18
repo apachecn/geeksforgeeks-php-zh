@@ -6,7 +6,7 @@
 **控制字符：**不代表可打印字符但用于启动特定操作的字符。 例如，‘\n’是一个控制字符，它不能打印，但执行操作“Next Line”。
 **语法：**和
 
-```
+```php
 ctype_cntrl( $text )
 ```
 
@@ -14,7 +14,7 @@ ctype_cntrl( $text )
 **返回值：**如果字符串的所有字符都是控制字符，则此函数返回 TRUE，否则返回 FALSE。
 **示例**：
 
-```
+```php
 Input  : "\t"
 Output : Yes
 
@@ -27,7 +27,7 @@ Output : No
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to check given string has all
 // characters as control character
@@ -46,7 +46,7 @@ else
 
 **Output:** 
 
-```
+```php
 Yes
 ```
 
@@ -54,7 +54,7 @@ Yes
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate the ctype_cntrl() function
 
@@ -74,7 +74,7 @@ foreach ($strings as $test) {
 
 **Output:** 
 
-```
+```php
 No
 Yes
 Yes

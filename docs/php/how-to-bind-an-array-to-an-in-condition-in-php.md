@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 SELECT <column_name(s)>
 FROM <table_name>
 WHERE <column_name> IN( value1, value2, ...);
@@ -18,7 +18,7 @@ WHERE <column_name> IN( value1, value2, ...);
 
 **语法:**
 
-```
+```php
 *string* implode(separator, array)
 ```
 
@@ -44,7 +44,7 @@ WHERE <column_name> IN( value1, value2, ...);
 
 **程序 1:** 下面的代码从 **GFG 表**中获取 PHP 数组的 id，并将其传递给 IN()运算符来检索名称，与给定的 id 相对应。
 
-```
+```php
 <?php  
 
 // Connecting to the server
@@ -85,7 +85,7 @@ $conn->close();
 
 **输出:**
 
-```
+```php
 MEGAN
 GINA
 DARVY
@@ -95,7 +95,7 @@ MICHEL
 
 **程序 2:** 下面的代码使用相同的信息表，但是检索与数组中给出的名称相对应的 ID。
 
-```
+```php
 <?php
 
 // Connecting to server
@@ -144,7 +144,7 @@ $conn->close();
 
 **输出:**
 
-```
+```php
 1
 10
 ```

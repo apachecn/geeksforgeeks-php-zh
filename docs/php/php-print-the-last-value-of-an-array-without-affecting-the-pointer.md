@@ -6,7 +6,7 @@
 
 示例：
 
-```
+```php
 Input : $arr = array('c1' => 'Red', 'c2' => 'Green', 
                           'c3' => 'Blue', 'c4' => 'Black')
 Output : Black
@@ -25,7 +25,7 @@ Output : France
 
 以下是上述方法的实现：
 
-```
+```php
 <?php
 
     // Input Array

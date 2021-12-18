@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* abstract public Ds\Sequence::get ( int $index )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -48,7 +48,7 @@ var_dump($seq->get(7));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

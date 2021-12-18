@@ -7,7 +7,7 @@ Salt 是用于生成密钥的随机数据片段。 要检查钥匙，你还必�
 
 **语法：**
 
-```
+```php
 
 *string* mhash_keygen_s2k(*int* $hash, *string* $password, 
                 *string* $salt, *int* $bytes)
@@ -28,7 +28,7 @@ Salt 是用于生成密钥的随机数据片段。 要检查钥匙，你还必�
 
 ## PHP
 
-```
+```php
 <?php
 
 $inputString  = "p4ssw0rd" ;
@@ -47,6 +47,6 @@ print_r(bin2hex(mhash_keygen_s2k(
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 e2dfb845290aae21
 ```

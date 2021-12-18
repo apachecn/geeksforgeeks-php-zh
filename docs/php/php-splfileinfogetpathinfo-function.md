@@ -5,7 +5,7 @@
 SplFileInfo：：getPathInfo()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于获取路径的 SplFileInfo 对象。
 **语法：**和
 
-```
+```php
 SplFileInfo::getPathInfo( $class )
 ```
 
@@ -16,7 +16,7 @@ SplFileInfo::getPathInfo( $class )
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP Program to illustrate
@@ -32,7 +32,7 @@ print_r($info);
 
 **Output:** 
 
-```
+```php
 SplFileInfo Object
 (
     [pathName:SplFileInfo:private] => /var/www/html
@@ -44,7 +44,7 @@ SplFileInfo Object
 
 ## PHP
 
-```
+```php
 <?php
 
 // Use array to check multiple
@@ -72,7 +72,7 @@ foreach ($GFG as &$file_name) {
 
 **Output:** 
 
-```
+```php
 SplFileInfo Object
 (
     [pathName:SplFileInfo:private] => /home/rajvir/Desktop/GeeksforGeeks

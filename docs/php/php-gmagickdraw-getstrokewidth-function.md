@@ -6,7 +6,7 @@ Gmagick：：getstrokewidth()函数是 PHP 中的一个内置函数，用于返�
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::getstrokewidth( void )
 ```
 
@@ -21,7 +21,7 @@ Gmagick：：getstrokewidth()函数是 PHP 中的一个内置函数，用于返�
 
 **程序：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -58,7 +58,7 @@ print_r($draw->getstrokewidth());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 7
 ```
 

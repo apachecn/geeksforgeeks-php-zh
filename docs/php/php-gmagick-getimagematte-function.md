@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimagematte( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Gmagick object
@@ -39,7 +39,7 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 
 ```
@@ -49,7 +49,7 @@ echo $res;
 
 **程序 2：**
 
-```
+```php
 <?php 
 $string = "Computer Science portal for Geeks!"; 
 
@@ -81,7 +81,7 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
  *boolean*  is_float($variable_name)
 ```
 
@@ -21,7 +21,7 @@
 
 **示例 1：**：
 
-```
+```php
 <?php
 
 // php code demonstrate working of is_float()
@@ -58,7 +58,7 @@ else
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 67.099 is a float value. 
 32 is not a float value. 
 abc is not a float value. 
@@ -68,7 +68,7 @@ FALSE is not a float value.
 
 **示例 2**：
 
-```
+```php
 <?php
 // PHP code demonstrate working of is_float()
 
@@ -87,7 +87,7 @@ echo square(56.30) ."\n";  // outputs '1'
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1
 
 1

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplQueue::enqueue( $val )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new empty queue
@@ -38,7 +38,7 @@ echo $gfg[2] .  "\n";
 
 **输出：**
 
-```
+```php
 10
 20
 
@@ -46,7 +46,7 @@ echo $gfg[2] .  "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -73,7 +73,7 @@ foreach ($gfg as $elem)  {
 
 **输出：**
 
-```
+```php
 1
 5
 1

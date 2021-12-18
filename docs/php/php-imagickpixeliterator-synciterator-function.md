@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixelIterator::syncIterator( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick();
@@ -69,7 +69,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(

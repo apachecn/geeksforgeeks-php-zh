@@ -27,7 +27,7 @@ PHP 为我们提供了两种主要类型的函数：
 
 **语法**：↔
 
-```
+```php
 function function_name(){
     executable code;
 }
@@ -37,7 +37,7 @@ function function_name(){
 
 ## PHP
 
-```
+```php
 <?php
 
 function funcGeek()
@@ -53,7 +53,7 @@ funcGeek();
 
 输出：0
 
-```
+```php
 This is Geeks for Geeks
 ```
 
@@ -62,7 +62,7 @@ This is Geeks for Geeks
 函数括号内的信息或变量称为参数。 它们用于保存运行时可执行的值。 用户可以随心所欲地接受任意数量的参数，并用逗号(，)操作符分隔。 这些参数用于在运行时接受输入。 当像在函数调用期间那样传递值时，它们被称为参数。 参数是传递给函数的值，参数用于保存这些参数。 通常，参数和实参的含义是相同的。 我们需要记住，对于每个参数，我们都需要传递其相应的参数。
 **语法**：
 
-```
+```php
 function function_name($first_parameter, $second_parameter) {
     executable code;
 }
@@ -72,7 +72,7 @@ function function_name($first_parameter, $second_parameter) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // function along with three parameters
@@ -91,7 +91,7 @@ proGeek(2, 3, 5);
 
 输出：0
 
-```
+```php
 The product is 30
 ```
 
@@ -101,7 +101,7 @@ PHP 允许我们为函数参数设置默认参数值。 如果我们没有为具
 
 ## PHP
 
-```
+```php
 <?php
 
 // function with default parameter
@@ -122,7 +122,7 @@ defGeek("Adam");
 
 输出：0
 
-```
+```php
 Ram is 15 years old 
 Adam is 12 years old
 ```
@@ -136,7 +136,7 @@ Adam is 12 years old
 
 ## PHP
 
-```
+```php
 <?php
 
 // function along with three parameters
@@ -156,7 +156,7 @@ echo "The product is $retValue";
 
 输出：0
 
-```
+```php
 The product is 30
 ```
 
@@ -171,7 +171,7 @@ PHP 允许我们通过两种方式将参数传递给函数：
 
 ## PHP
 
-```
+```php
 <?php
 
 // pass by value
@@ -199,7 +199,7 @@ echo "The original value changes to $n";
 
 输出：0
 
-```
+```php
 The original value is still 10 
 The original value changes to 20
 ```

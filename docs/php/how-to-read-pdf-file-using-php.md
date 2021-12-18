@@ -16,7 +16,7 @@
 
 ## index.php
 
-```
+```php
 <?php
 
 require('class.pdf2text.php');

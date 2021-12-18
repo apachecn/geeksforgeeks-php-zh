@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* CachingIterator::next( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -40,14 +40,14 @@ foreach($cachIt as $element) {
 
 **输出:**
 
-```
+```php
 G e s
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -76,7 +76,7 @@ foreach($cachIt as $key => $value) {
 
 **输出:**
 
-```
+```php
 a => Geeks
 c => Geeks
 e => Science

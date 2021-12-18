@@ -8,7 +8,7 @@
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to print PHP call stack
 
@@ -35,7 +35,7 @@ child_func();
 
 **Output:**
 
-```
+```php
 #0  grandparent_func() called at [/home/905a3b4d90f10b30521fedcb56c99fba.php:12]
 #1  parent_func() called at [/home/905a3b4d90f10b30521fedcb56c99fba.php:7]
 #2  child_func() called at [/home/905a3b4d90f10b30521fedcb56c99fba.php:21]
@@ -45,7 +45,7 @@ child_func();
 **方法 2：**使用[debug_backtrace()](http://php.net/manual/en/function.debug-backtrace.php)函数打印调用堆栈。
 **示例：**
 
-```
+```php
 <?php
 // PHP program to print PHP call stack
 
@@ -72,7 +72,7 @@ child_func();
 
 **Output:**
 
-```
+```php
 array(3) {
   [0]=>
   array(4) {
@@ -118,7 +118,7 @@ array(3) {
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to print PHP call stack
 
@@ -146,7 +146,7 @@ child_func();
 
 **Output:**
 
-```
+```php
 string(207) "#0 /home/8d8303d43667a4915d43dab7d63de26d.php(12): grandparent_func()
 #1 /home/8d8303d43667a4915d43dab7d63de26d.php(7): parent_func()
 #2 /home/8d8303d43667a4915d43dab7d63de26d.php(22): child_func()

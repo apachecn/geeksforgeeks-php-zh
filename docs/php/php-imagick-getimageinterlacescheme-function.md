@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageInterlaceScheme( *void* )
 ```
 
@@ -30,7 +30,7 @@
 下面给定的程序说明了 PHP：
 **程序 1：**中的**Imagick：：getImageInterlaceScheme()函数**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -44,13 +44,13 @@ echo $interlaceScheme;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -67,7 +67,7 @@ echo $interlaceScheme;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 7
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool is_real( mixed $var )
 ```
 
@@ -18,7 +18,7 @@ bool is_real( mixed $var )
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP code to demonstrate
 // the is_real() function
@@ -37,7 +37,7 @@ var_dump(square(56.30));
 
 **Output:**
 
-```
+```php
 bool(true)
 bool(false)
 bool(false)
@@ -47,7 +47,7 @@ bool(true)
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to demonstrate the
 // is_real() function
@@ -85,7 +85,7 @@ else
 
 **输出：**
 
-```
+```php
 67.099 is a real value. 
 32 is not a real value. 
 abc is not a real value. 

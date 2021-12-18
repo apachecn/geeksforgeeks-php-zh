@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::cycleColormapImage( $displace )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Declare an Imagick object

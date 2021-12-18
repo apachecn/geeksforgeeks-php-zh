@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::averageImages( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // Store the path of an image into variable

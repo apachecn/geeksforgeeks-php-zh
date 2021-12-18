@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefrompng( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1(查看加载的 PNG 图像)：**
 
-```
+```php
 <?php
 
 // Load an image from PNG URL
@@ -37,7 +37,7 @@ imagedestroy($im);
 
 **程序 2(处理加载的 PNG 图像)：**
 
-```
+```php
 <?php
 
 // Load an image from PNG URL

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* dns_get_mx( $host, $mxhosts, $weight );
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $domain = "geeksforgeeks.org";
@@ -41,7 +41,7 @@ if(dns_get_mx($domain, $mx_details)) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $domain = "yahoo.com";

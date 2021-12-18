@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input:  abgADKL123
 Output: abgADKL123
 
@@ -22,7 +22,7 @@ Output:    egksegsfroeke
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Function to generate password from 
@@ -75,7 +75,7 @@ echo get_password($str) . "\n<br/>";
 
 **输出:**
 
-```
+```php
 skGse
 iWwf9jWZZE9ZL7O
 GhRQ8zK4wpX93srUj1LhjsBEeBwBwo4Bh43RyZeSFZbwjVoonkKBgfXiBrEpY
@@ -87,7 +87,7 @@ GhRQ8zK4wpX93srUj1LhjsBEeBwBwo4Bh43RyZeSFZbwjVoonkKBgfXiBrEpY
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 // Function to generate password from
@@ -137,7 +137,7 @@ echo get_password($str) . "\n<br/>";
 
 ****输出:****
 
-```
+```php
 oeFssGkeGrkee
 rxIhAjCi47wgW1z
 r4LZQqlOFGU36i7gEAtzwsnduNXhHKD92ajpxBJc1MRvVmbyeokPIWfCTSY85

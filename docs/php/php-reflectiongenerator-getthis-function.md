@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *object* ReflectionGenerator::getThis ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **Program_1：**中的 ReflectionGenerator：：getThis()函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -48,7 +48,7 @@ var_dump($C);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(Company)#1 (0) {
 }
 
@@ -56,7 +56,7 @@ object(Company)#1 (0) {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Departments
@@ -101,7 +101,7 @@ var_dump($F->getThis());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(Departments)#1 (0) {
 }
 

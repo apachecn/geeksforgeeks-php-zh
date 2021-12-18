@@ -18,7 +18,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 //Use of filter_var()
@@ -33,7 +33,7 @@ echo $newstr;
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks
 
 ```
@@ -43,7 +43,7 @@ GeeksforGeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $email = "geeksforgeeks@gmail.co<m>";
@@ -59,7 +59,7 @@ echo $nemail;
 
 **Output:** 
 
-```
+```php
 geeksforgeeks@gmail.com
 
 ```
@@ -69,7 +69,7 @@ geeksforgeeks@gmail.com
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $url = "www.geeksforgeeks.or°g";
@@ -85,7 +85,7 @@ echo $nurl;
 
 **Output:** 
 
-```
+```php
 www.geeksforgeeks.org
 
 ```

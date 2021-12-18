@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::sorted ([ callable $comparator ])
 
 ```
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate sorted() function 
 
@@ -37,7 +37,7 @@ print_r($set->sorted()); 
 
 **输出：**
 
-```
+```php
 Ds\Set Object
 (
     [0] => 10
@@ -49,7 +49,7 @@ Ds\Set Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -66,7 +66,7 @@ print_r($sorted);
 
 **输出：**
 
-```
+```php
 Ds\Set Object
 (
     [0] => 7

@@ -11,7 +11,7 @@ SplHeap：：Insert()函数是 PHP 中的一个内置函数，用于通过向上
 
 **语法：**
 
-```
+```php
 void SplHeap::insert( mixed $value )
 ```
 
@@ -25,7 +25,7 @@ void SplHeap::insert( mixed $value )
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Min Heap 
@@ -53,7 +53,7 @@ for ($heap->top(); $heap->valid(); $heap->next()) {
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 

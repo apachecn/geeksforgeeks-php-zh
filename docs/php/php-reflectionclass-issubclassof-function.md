@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isSubclassOf( $class )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionClass：：isSubclassOf()**函数
 
-```
+```php
 <?php
 
 // Initialising a user-defined superclass Company
@@ -43,13 +43,13 @@ var_dump($Result);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initialising a user-defined class Departments
@@ -71,7 +71,7 @@ var_dump($Result);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 ```
 

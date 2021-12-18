@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 rtrim( $string, $charlist )
 ```
 
@@ -19,7 +19,7 @@ rtrim( $string, $charlist )
 
 **示例:**本示例使用 **rtrim()** 函数移除“.”从最后开始。
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -34,7 +34,7 @@ echo rtrim($string, ".");
 
 **Output:**
 
-```
+```php
 GeeksforGeeks is a best platform
 
 ```
@@ -43,7 +43,7 @@ GeeksforGeeks is a best platform
 
 **语法:**
 
-```
+```php
 preg_replace( $patt, $replace, $string, $limit, $count )
 ```
 
@@ -57,7 +57,7 @@ preg_replace( $patt, $replace, $string, $limit, $count )
 
 **示例 2:** 本示例使用 **preg_replace()** 功能移除“.”从最后开始。
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -75,7 +75,7 @@ echo preg_replace($regex, "", $string);
 
 **Output:**
 
-```
+```php
 GeeksforGeeks is a best platform
 
 ```

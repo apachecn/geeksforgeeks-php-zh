@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Reflection::getModifiers( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declaring a class Testing
@@ -45,14 +45,14 @@ echo implode(' ', Reflection::getModifierNames(
 
 **输出：**
 
-```
+```php
 public static
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declaring a class Departments
@@ -90,7 +90,7 @@ echo implode(' ', Reflection::getModifierNames(
 
 **输出：**
 
-```
+```php
 public
 final public
 private

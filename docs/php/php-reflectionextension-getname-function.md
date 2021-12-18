@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionExtension::getName( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 _1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -39,14 +39,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 string(3) "dom"
 
 ```
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -61,7 +61,7 @@ var_dump($extension->getName());
 
 **输出：**
 
-```
+```php
 string(3) "xml"
 
 ```

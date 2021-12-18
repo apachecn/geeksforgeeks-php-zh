@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::implodeImage( $radius )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

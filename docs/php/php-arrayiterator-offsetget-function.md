@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *mixed* ArrayIterator::offsetGet( *mixed* $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -47,14 +47,14 @@ echo ($arrItr->offsetGet("f")); 
 
 **输出:**
 
-```
+```php
 4 8 9
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -79,7 +79,7 @@ echo $arrItr->offsetGet(3); 
 
 **输出:**
 
-```
+```php
 Geeks
 for
 Geeks

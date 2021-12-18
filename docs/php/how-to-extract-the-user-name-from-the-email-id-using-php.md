@@ -4,7 +4,7 @@
 
 给定一个字符串电子邮件地址，提取用户名。
 
-```
+```php
 Input: ‘priyank@geeks.com’
 Output: priyank
 
@@ -19,19 +19,19 @@ Output: princepriyank
 
 *   **第 1 步:**定义一个变量，并在其中存储电子邮件地址的值。
 
-    ```
+    ```php
     $email= 'priyank@geeks.com';
     ```
 
 *   **第 2 步:**通过使用这一行对字符串进行切分直到第一次出现“@”来获取用户名
 
-    ```
+    ```php
     $username=strstr($email,'@',true);
     ```
 
 *   **第 3 步:**使用 [*回显*](https://www.geeksforgeeks.org/php-echo-print/) 语句显示用户名。
 
-    ```
+    ```php
     echo $username."\n";
     ```
 
@@ -39,7 +39,7 @@ Output: princepriyank
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   // Define Email Address
   $email  = 'priyank@geeks.com';
@@ -54,7 +54,7 @@ Output: princepriyank
 
 **Output**
 
-```
+```php
 priyank
 ```
 
@@ -64,20 +64,20 @@ priyank
 
 *   **第一步:**定义一个变量*邮箱*并在里面存储邮箱地址的值。
 
-    ```
+    ```php
     $email= 'princepriyank@geeks.com';
     ```
 
 *   **第 2 步:**通过使用“@”作为分隔符分解(分割)字符串来获取用户名，并将第一部分存储在变量*用户名中。*
 
-    ```
+    ```php
     $parts = explode("@",$email);
     $username = $parts[0];
     ```
 
 *   **第 3 步:**使用该代码显示用户名。
 
-    ```
+    ```php
     echo $username."\n";
     ```
 
@@ -85,7 +85,7 @@ priyank
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // Define Email Address
 $email  = 'princepriyank@geeks.com';
@@ -101,6 +101,6 @@ echo $username."\n";
 
 **Output**
 
-```
+```php
 princepriyank
 ```

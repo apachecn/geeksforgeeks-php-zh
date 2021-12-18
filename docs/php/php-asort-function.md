@@ -6,7 +6,7 @@ asort()函数是 PHP 中的一个内置函数，用于根据值对数组进行�
 
 **语法:**
 
-```
+```php
 bool asort( $array, $sorting_type )
 ```
 
@@ -24,7 +24,7 @@ bool asort( $array, $sorting_type )
 下面的程序说明了 PHP 中的 asort()函数。
 **节目一:**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // asort() function
@@ -59,7 +59,7 @@ foreach ($arr as $key => $val) {
 
 **Output:**
 
-```
+```php
 [6] = Article
 [3] = Computer Graphics
 [10] = Copy
@@ -78,7 +78,7 @@ foreach ($arr as $key => $val) {
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // asort() function
@@ -112,7 +112,7 @@ foreach ($arr as $key => $val) {
 
 **Output:**
 
-```
+```php
 [q] = -11
 [z] = 1
 [s] = 2

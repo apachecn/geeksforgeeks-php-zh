@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -60,7 +60,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Storing the elements of the webpage into an array

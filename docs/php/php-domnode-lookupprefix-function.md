@@ -5,7 +5,7 @@
 **DOMNode：：lookupPrefix()函数**是 PHP 中的一个内置函数，用于根据名称空间 URI 获取节点的名称空间前缀。
 **语法：**和
 
-```
+```php
 *string* DOMNode::lookupPrefix( *string* $namespaceURI )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -39,7 +39,7 @@ echo $prefix;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 // Empty string as there is no such namespace
 ```
 
@@ -47,7 +47,7 @@ echo $prefix;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -71,7 +71,7 @@ echo $prefix;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 x
 ```
 

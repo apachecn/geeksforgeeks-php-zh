@@ -9,7 +9,7 @@
 **更改文件上传大小限制:**
 编辑 *php.ini* 文件更改服务器上的上传文件大小。为了确保文件上传正常工作，post_max_size 指令应该比 upload_max_filesize 稍大一些。例如，以下设置演示了如何将文件上载限制设置为 100 兆字节:
 
-```
+```php
 upload_max_filesize = 100M
 post_max_size = 101M
 

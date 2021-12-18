@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::get( $index ) : mixed
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -40,7 +40,7 @@ var_dump($deck->get(2));
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (
@@ -58,7 +58,7 @@ Element at index 2 in the deque: int(3)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -79,7 +79,7 @@ var_dump($deck->get(2));
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (

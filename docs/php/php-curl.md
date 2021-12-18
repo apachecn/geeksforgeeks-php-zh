@@ -12,7 +12,7 @@ PHP 模块，使 PHP 程序能够访问 PHP 中的 curl 函数。 PHP 中启用�
 
 ## PHP
 
-```
+```php
 <?php
 
 phpinfo();
@@ -35,7 +35,7 @@ phpinfo();
 
 ## PHP
 
-```
+```php
 <?php
 
 // From URL to get webpage contents.

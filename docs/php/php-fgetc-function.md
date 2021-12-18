@@ -8,7 +8,7 @@ PHP 中的 fgetc()函数是一个内置函数，用于从打开的文件返回�
 
 **语法：**
 
-```
+```php
 fgetc($file)
 ```
 
@@ -30,7 +30,7 @@ fgetc($file)
 > 这是第二行。
 > 这是第三行。
 
-```
+```php
 <?php
 
 // file is opened using fopen() function
@@ -48,7 +48,7 @@ fclose($my_file);
 
 产出：
 
-```
+```php
 T
 ```
 
@@ -58,7 +58,7 @@ T
 > 这是第二行。
 > 这是第三行。
 
-```
+```php
 <?php
 
 // file is opened using fopen() function
@@ -78,7 +78,7 @@ fclose($my_file);
 
 产出：
 
-```
+```php
 This is the first line.
 This is the second line.
 This is the third line.

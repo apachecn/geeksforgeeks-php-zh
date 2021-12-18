@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```php
 file_exists( $path )
 ```
 
@@ -23,7 +23,7 @@ file_exists( $path )
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 $filename = "file1.php";
@@ -39,6 +39,6 @@ if (file_exists($filename)) {
 
 ****输出****
 
-```
+```php
 File exist.
 ```

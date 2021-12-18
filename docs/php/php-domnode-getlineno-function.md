@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNode::getLineNo( *void* )
 ```
 
@@ -17,7 +17,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**DOMNode：：getLineNo()函数**
 
-```
+```php
 <?php
 // Create a XML variable
 $xml = <<<XML
@@ -40,13 +40,13 @@ echo 'The <node> tag is defined on line ' . $dom->getElementsByTagName('h1')->it
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The tag is defined on line 3
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a XML variable
 $xml = <<<XML
@@ -74,7 +74,7 @@ for ($i = 0; $i < 3; $i++) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0) The h1 tag is defined on line 3
 1) The h1 tag is defined on line 4
 2) The h1 tag is defined on line 5

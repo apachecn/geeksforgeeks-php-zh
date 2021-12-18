@@ -6,7 +6,7 @@ Gmp_powerm()是 PHP 中的一个内置函数，用于计算两个 GMP 数的幂�
 
 **语法：**
 
-```
+```php
 gmp_pow( $base, $exp, $mod)
 ```
 
@@ -22,7 +22,7 @@ gmp_pow( $base, $exp, $mod)
 
 例如：
 
-```
+```php
 Input : $base = "2" $exp = "2" $mod = 3
 Output : 1
 
@@ -35,7 +35,7 @@ Output : 6
 
 **程序 1：**下面的程序演示了当 GMP 编号作为参数传递时，gmp_powerm()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to calculate power raised 
 // to a number mdoulo mod
@@ -57,13 +57,13 @@ echo gmp_strval($powm, 2);
 
 产出：
 
-```
+```php
 110
 ```
 
 **程序 2：**下面的程序演示了将数字字符串作为参数传递时 gmp_powerm()的工作方式。
 
-```
+```php
 <?php
 // PHP program to calculate power raised 
 // to a number modulo m
@@ -83,7 +83,7 @@ echo $powm;
 
 产出：
 
-```
+```php
 6
 ```
 

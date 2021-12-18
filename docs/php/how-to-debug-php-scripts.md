@@ -10,7 +10,7 @@
 *   Using “=” instead of “==” (Assignment operator and Equal operator)
     **Example:**
 
-    ```
+    ```php
     if($a = $b) {
         // Statement
     }
@@ -21,7 +21,7 @@
 *   像“”和“”这样的 SQL 查询中缺少引号。这是 PHP 编程时非常常见和频繁出现的错误。要调试这种错误，请始终使用带有 echo 的 **mysqli_error($con)** 命令，查看您在 SQL 语句中出现了什么错误，其中**$ con】**是您正在使用的连接变量。
     **例:**
 
-    ```
+    ```php
     if (!mysqli_query($conn, $sql)) {
         echo "Error: " . $sql . "
     " . mysqli_error($con);
@@ -34,7 +34,7 @@
 *   “Misunderstanding isset() behavior” – Despite its name, isset() not only returns false if an item does not exist but also returns false for null values. This behavior is more problematic than it might appear at first and is a common source of problems.
     **Example:**
 
-    ```
+    ```php
     $data = fetchRecordFromStorage($storage, $identifier);
     if (!isset($data['keyShouldBeSet']) {
         // do something here if 'keyShouldBeSet' is not set
@@ -60,7 +60,7 @@
     *   现在当你有了正确的版本，把它放在 PHP/ext 目录下。
     *   Next, you need to configure PHP to use the extension and allow remote debugging. Add the following configuration to the php.ini file that’s listed in PHP Info:
 
-        ```
+        ```php
         ; set the extension path
         zend_extension="C:/Program Files 
         (x86)/PHP/v7.0/ext/php_xdebug-2.6.1-7.0-vc14-nts.dll"
@@ -84,7 +84,7 @@
     *   重新加载 PHP 服务器。我们必须安装另一个名为“PHP 服务器”的扩展，这样做就很简单了。使用上下文菜单(右键单击)控制 PHP 服务器。
     *   它将集成开发环境置于一种可以连接到 Xdebug 的状态。与调试器的通信通过调试服务器上的 TCP 端口进行。默认情况下，Xdebug 通过端口 9000 使用 DBGp 协议。*   **Attaching a debugger:** The PHP Debug extension for VS Code generated a launch.json file. That file goes into a .vscode directory in the root of the project.
 
-    ```
+    ```php
     {
         // Use IntelliSense to learn about possible attributes.
         // Hover to view descriptions of existing attributes.

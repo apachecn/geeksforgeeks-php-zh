@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *bool* xml_parser_set_option( *resource* $parser,
            *int* $specified_option, *mixed* $option_value)
 ```
@@ -32,7 +32,7 @@
 
     **程序 1：**
 
-    ```
+    ```php
     <?php
 
     // Creating XML parser
@@ -74,7 +74,7 @@
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     option XML_OPTION_CASE_FOLDING has successfully been set!
     option XML_OPTION_TARGET_ENCODING has successfully been set!
 
@@ -82,7 +82,7 @@
 
     **程序 2：**本程序显示错误值的结果。
 
-    ```
+    ```php
     <?php
 
     // Creating an XML parser
@@ -111,7 +111,7 @@
     **注意：**本例将出现运行时错误，因为该值对于该选项无效。
     **输出：**
 
-    ```
+    ```php
     error while setting option XML_OPTION_TARGET_ENCODING!
 
     ```

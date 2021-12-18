@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```php
 <?php
 // PHP program to convert timestamp
 // to time ago
@@ -130,7 +130,7 @@ echo time_Ago($time_ago);
 
 **Output:**
 
-```
+```php
 6 years ago
 5 days ago
 
@@ -138,7 +138,7 @@ echo time_Ago($time_ago);
 
 **例 2:**
 
-```
+```php
 <?php
 // PHP program to convert timestamp
 // to time ago
@@ -184,7 +184,7 @@ echo to_time_ago( time() - 5);
 
 **Output:**
 
-```
+```php
 5 seconds ago
 
 ```

@@ -17,7 +17,7 @@ $x(单美元)是名为 **x** 的普通变量，它存储任何值，如字符串
 
 **示例:**
 
-```
+```php
 Input : $x = "Geeks";  
         $x = for Geeks;  
         echo "$x ";  
@@ -38,7 +38,7 @@ Output : Rajnish lives in Noida
 
 **示例-1:**
 
-```
+```php
 <?php 
 
 // Declare variable and initialize it
@@ -61,7 +61,7 @@ echo "$Geeks";
 
 **Output:**
 
-```
+```php
 Geeks
 GeeksforGeeks
 GeeksforGeeks
@@ -70,7 +70,7 @@ GeeksforGeeks
 
 **示例-2:**
 
-```
+```php
 <?php 
 
 // Declare variable and initialize it
@@ -95,7 +95,7 @@ echo ${${$var}}. "\n"; 
 
 **Output:**
 
-```
+```php
 Geeks
 GeeksforGeeks
 computer science

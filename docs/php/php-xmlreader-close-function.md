@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::close( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <root>
         <p> Hello world </p>
@@ -29,7 +29,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -54,7 +54,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     // Blank because we closed the input of the XMLReader before reading XML
     ```
 
@@ -62,7 +62,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <body>
         <h1> GeeksforGeeks </h1>
@@ -71,7 +71,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -96,7 +96,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     GeeksforGeeks
     ```
 

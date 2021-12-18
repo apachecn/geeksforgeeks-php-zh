@@ -6,7 +6,7 @@ Gettype()函数是 PHP 中的一个内置函数，用于获取变量的类型。
 
 **语法：**
 
-```
+```php
 string gettype ( $var )
 
 ```
@@ -29,7 +29,7 @@ string gettype ( $var )
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate gettype() function
 
@@ -56,7 +56,7 @@ echo gettype($var8)."\n";
 
 **输出：**
 
-```
+```php
 boolean
 integer
 double
@@ -70,7 +70,7 @@ resource
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate gettype() function
@@ -91,7 +91,7 @@ echo gettype($var5);
 
 **输出：**
 
-```
+```php
 string
 integer
 integer

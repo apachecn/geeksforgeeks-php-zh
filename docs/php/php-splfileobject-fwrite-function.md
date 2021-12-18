@@ -6,7 +6,7 @@ Fwrite()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于写入文件
 
 **语法：**
 
-```
+```php
 *int* SplFileObject::fwrite( $str, $length )
 ```
 
@@ -21,7 +21,7 @@ Fwrite()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于写入文件
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a file named "gfg.txt" if not exist
@@ -44,7 +44,7 @@ while (!$gfg->eof()) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Array

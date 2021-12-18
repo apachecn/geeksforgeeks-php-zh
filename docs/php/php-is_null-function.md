@@ -6,7 +6,7 @@ Is_null()函数是 PHP 中的一个内置函数，用于确定变量是否为空
 
 **语法：**
 
-```
+```php
  boolean is_null ( $var )
 ```
 
@@ -22,7 +22,7 @@ Is_null()函数是 PHP 中的一个内置函数，用于确定变量是否为空
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to demonstrate the working of is_null() function
 $var1 = NULL;
@@ -48,7 +48,7 @@ is_null($var4) ? print_r("True\n") : print_r("False\n");
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 True
 False
 False
@@ -59,7 +59,7 @@ False
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to demonstrate the working of
 // is_null() function
@@ -86,7 +86,7 @@ echo check_null(false) . "\n";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 True
 True
 True

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* IntlChar::charAge( $codepoint )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::charAge()
 // function
@@ -46,7 +46,7 @@ echo "<br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(4) { [0]=> int(1) [1]=> int(1) [2]=> int(0) [3]=> int(0) } 
 array(4) { [0]=> int(7) [1]=> int(0) [2]=> int(0) [3]=> int(0) } 
 NULL 
@@ -57,7 +57,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::charAge()
 
@@ -76,7 +76,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(4) { [0]=> int(1) [1]=> int(1) [2]=> int(0) [3]=> int(0) } 
 NULL 
 array(4) { [0]=> int(1) [1]=> int(1) [2]=> int(0) [3]=> int(0) } 

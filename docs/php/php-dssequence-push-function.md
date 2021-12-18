@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* abstract public Ds\Sequence::push( $values )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -48,7 +48,7 @@ var_dump($seq);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

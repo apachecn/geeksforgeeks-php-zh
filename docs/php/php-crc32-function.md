@@ -7,7 +7,7 @@ Crc32()函数帮助我们计算字符串的 32 位[CRC](https://en.wikipedia.org
 
 **语法**：
 
-```
+```php
 crc32($string)
 
 ```
@@ -20,7 +20,7 @@ crc32($string)
 
 例如：
 
-```
+```php
 Input : Hello world.
 Output : 2335835140
 
@@ -33,7 +33,7 @@ Output : 2551101144
 
 **程序 1：**此程序帮助我们计算字符串“Hello World”的 32 位 CRC，包括带%u 和不带%u。
 
-```
+```php
 <?php
 // PHP program illustrate the 
 // crc32() function
@@ -52,7 +52,7 @@ printf("%u\n", $str1);
 
 产出：
 
-```
+```php
 Without %u: 2335835140
 With %u: 2335835140
 
@@ -60,7 +60,7 @@ With %u: 2335835140
 
 **程序 2：**此程序帮助我们计算字符串“GeeksforGeeks.”的 32 位 CRC，包括带%u 和不带%u。
 
-```
+```php
 <?php
 $str2 = crc32("GeeksforGeeks.");
 
@@ -76,7 +76,7 @@ printf("%u\n", $str2);
 
 产出：
 
-```
+```php
 Without %u: 3055367324
 With %u: 3055367324
 
@@ -84,7 +84,7 @@ With %u: 3055367324
 
 **程序 3：**此程序帮助我们计算字符串“Computer Science.”的 32 位 CRC，包括带%u 和不带%u。
 
-```
+```php
 <?php
 $str3 = crc32("Computer Science.");
 
@@ -100,7 +100,7 @@ printf("%u\n", $str3);
 
 产出：
 
-```
+```php
 Without %u: 3212073516
 With %u: 3212073516
 

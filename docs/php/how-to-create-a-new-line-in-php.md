@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```php
 </br>
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 echo "Akshit ". "<br>". "Loves GeeksForGeeks";
 ?>
@@ -27,7 +27,7 @@ echo "Akshit ". "<br>". "Loves GeeksForGeeks";
 
 **输出**
 
-```
+```php
 Akshit 
 Loves GeeksForGeeks
 ```

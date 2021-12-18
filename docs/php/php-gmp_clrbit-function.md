@@ -6,7 +6,7 @@ Gmp_clrbit()函数是 PHP 中的一个内置函数，它清除一点 GMP 编号[
 
 **语法：**
 
-```
+```php
 gmp_clrbit( $num, $index )
 ```
 
@@ -19,7 +19,7 @@ gmp_clrbit( $num, $index )
 
 **示例：**
 
-```
+```php
 Input : $num = 255, $index = 0
 Output : 254
 
@@ -32,7 +32,7 @@ Output : 0
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate
 // gmp_clrbit() function
@@ -48,7 +48,7 @@ echo gmp_strval($num);
 
 **程序 2**：
 
-```
+```php
 <?php
 // PHP program to illustrate
 // gmp_clrbit() function

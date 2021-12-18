@@ -11,7 +11,7 @@
 
 **语法：**
 
-```
+```php
 *float* rad2deg($value)
 
 ```
@@ -22,7 +22,7 @@
 
 例如：
 
-```
+```php
 Input :  $value = M_PI_4;
 Output : 45
 
@@ -36,7 +36,7 @@ Output : 180
 
 下面的程序演示了 rad2deg()在 PHP 中的工作方式：
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working of rad2deg()
@@ -57,7 +57,7 @@ for(;$k<=8;$k*=2, $rad/=2)
 
 产出：
 
-```
+```php
 pi = 180
 pi/2 = 90
 pi/4 = 45

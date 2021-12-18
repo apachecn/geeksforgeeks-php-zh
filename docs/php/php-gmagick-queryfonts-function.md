@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::queryfonts( *string* $pattern )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1(获取所有可用字体)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -38,7 +38,7 @@ foreach ($fonts as $font) {
 
 **程序 2(获取特定字体)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

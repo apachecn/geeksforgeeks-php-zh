@@ -9,7 +9,7 @@ PHP 程序的一个重要方面是执行一个脚本的最长时间是 30 秒。
 **必需的先决条件:**
 您已经在应用程序中设置了自定义的 *php.ini* 文件，或者必须向维护该文件的所有者提出请求。如果一些 PHP 脚本需要更长的时间，那么服务器就会停止并抛出一个错误:
 
-```
+```php
 Fatal error: Maximum execution time of..seconds exceeded in this_file.php on line...
 
 ```
@@ -18,7 +18,7 @@ Fatal error: Maximum execution time of..seconds exceeded in this_file.php on lin
 
 *   Search for *max_execution_time* directive in the *php.ini* file and edit the value of it, as required by the PHP script.
 
-    ```
+    ```php
     ; Maximum execution time of each script, in seconds
     ; http://php.net/max-execution-time
     ; Note: This directive is hardcoded to 0 for the CLI SAPI
@@ -37,7 +37,7 @@ Fatal error: Maximum execution time of..seconds exceeded in this_file.php on lin
 
 *   Use PHP inbuilt function *ini_set(option, value)* where the paramaters are the given configuration option and the value to be set.
 
-    ```
+    ```php
     // The program is executed for 3mns.
     <?php
     ini_set('max_execution_time', 180);
@@ -48,7 +48,7 @@ Fatal error: Maximum execution time of..seconds exceeded in this_file.php on lin
 
     **注意:**当*安全模式*关闭时，使用 *init_set()* 功能。
 
-    ```
+    ```php
     <?php
     // Sets to unlimited period of time
     ini_set('max_execution_time', 0);
@@ -59,7 +59,7 @@ Fatal error: Maximum execution time of..seconds exceeded in this_file.php on lin
 
 *   为了允许永远运行脚本并忽略用户中止，设置 PHP 内置函数 *ignore_user_abort(true)。*默认情况下，它设置为 False，这将在客户端中止停止脚本时引发致命错误。
 
-    ```
+    ```php
     <?php
     ignore_user_abort();
     ?>
@@ -68,13 +68,13 @@ Fatal error: Maximum execution time of..seconds exceeded in this_file.php on lin
 *   Use *php_value* command to change the settings in Apache configuration files and *.htaccess* files.
     **Syntax:**
 
-    ```
+    ```php
     php_value name value
     ```
 
     这将为指定的特定指令设置值。
 
-    ```
+    ```php
     php_value max_execution_time 200
     ```
 

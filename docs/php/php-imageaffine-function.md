@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imageaffine( *resource* $image, *array* $affine, *array* $clip )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a image from url
@@ -45,7 +45,7 @@ imagepng($newimage);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a image from url

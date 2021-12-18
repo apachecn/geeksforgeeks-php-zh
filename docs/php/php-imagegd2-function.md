@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagegd2( *resource* $image, *float* $to, 
              *int* $chunk_size, *int* $type )
 ```
@@ -26,7 +26,7 @@
 
 **示例 1：**查看 GD2 文件。
 
-```
+```php
 <?php
 
 // Create a blank image and add text
@@ -43,7 +43,7 @@ imagegd2($im);
 
 **示例 2：**将图像转换为 GD2。
 
-```
+```php
 <?php
 
 // Create a image from png

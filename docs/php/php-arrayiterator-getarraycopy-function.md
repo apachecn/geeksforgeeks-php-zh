@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *array* ArrayIterator::getArrayCopy( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -37,7 +37,7 @@ var_dump($copyArr);
 
 **输出:**
 
-```
+```php
 array(8) {
   [0]=>
   string(1) "G"
@@ -61,7 +61,7 @@ array(8) {
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -85,7 +85,7 @@ var_dump($copyArr);
 
 **输出:**
 
-```
+```php
 array(6) {
   [0]=>
   string(5) "Geeks"

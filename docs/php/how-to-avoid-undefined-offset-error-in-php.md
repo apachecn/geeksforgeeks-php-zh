@@ -7,7 +7,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // Declare and initialize an array
@@ -43,7 +43,7 @@ echo $students[key];
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // Declare and initialize an array
@@ -66,7 +66,7 @@ else {
 
 **Output:**
 
-```
+```php
 Index not present
 ```
 
@@ -74,7 +74,7 @@ Index not present
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // Declare and initialize an array
@@ -97,7 +97,7 @@ else {
 
 **Output:**
 
-```
+```php
 Index not present
 ```
 
@@ -106,7 +106,7 @@ Index not present
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php 
     // PHP program to illustrate the use 
     // of array_key_exists() function
@@ -134,7 +134,7 @@ Index not present
 
     **Output:**
 
-    ```
+    ```php
     Key Found
     ```
 

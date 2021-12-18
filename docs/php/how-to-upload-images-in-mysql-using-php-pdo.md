@@ -20,11 +20,11 @@
 
 **1。表结构:**以下是 MySQL 查询创建数据库并创建一个表，其中数据库名为*“gfg”*，表名为*“images”。*
 
-```
+```php
 CREATE DATABASE gfg;
 ```
 
-```
+```php
 CREATE TABLE images 
 (`id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT, 
  `name` varchar(80) NOT NULL, `image` varchar(80) NOT NULL) ;
@@ -38,7 +38,7 @@ CREATE TABLE images
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $server = "localhost";
@@ -70,7 +70,7 @@ catch(PDOException $e) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 include "database_connection.php";
 
@@ -150,7 +150,7 @@ if(isset($_POST['submit'])) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 include "database_connection.php";
 ?>

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::cyclecolormapimage( *int* $displace )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,7 +43,7 @@ echo $gmagick;  
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

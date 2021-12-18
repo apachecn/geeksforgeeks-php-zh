@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::offsetUnset( *mixed* $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -56,7 +56,7 @@ var_dump($arrItr->offsetUnset("f"));
 
 **输出:**
 
-```
+```php
 int(4)
 NULL
 int(8)
@@ -68,7 +68,7 @@ NULL
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -102,7 +102,7 @@ var_dump($arrItr->offsetUnset(3));
 
 **输出:**
 
-```
+```php
 Geeks
 NULL
 for

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromxpm( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**转换为 PNG 后查看 XPM。
 
-```
+```php
 <?php
 
 // Load an XPM image from local folder
@@ -38,7 +38,7 @@ imagedestroy($im);
 
 **示例 2：**编辑 XPM 图像。
 
-```
+```php
 <?php
 
 // Load an XPM image from local folder

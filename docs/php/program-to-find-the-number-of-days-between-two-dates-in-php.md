@@ -11,7 +11,7 @@
 
 **考虑以下示例：**
 
-```
+```php
 Input : date1 = "2-05-2017"
         date2 = "25-12-2017"
 Output: Difference between two dates: 237 Days
@@ -28,7 +28,7 @@ Explanation: Calculating the total number of days between the start & end date.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Function to find the difference 
@@ -60,7 +60,7 @@ Explanation: Calculating the total number of days between the start & end date.
 
 **输出：**和
 
-```
+```php
 Difference between two dates: 14 Days
 ```
 
@@ -74,7 +74,7 @@ Date_diff()函数是 PHP 中的一个内置函数，用于计算两个日期之�
 
 ## PHP
 
-```
+```php
 <?php
 
   // Creates DateTime objects
@@ -91,7 +91,7 @@ Date_diff()函数是 PHP 中的一个内置函数，用于计算两个日期之�
 
 **输出：**和
 
-```
+```php
 Difference between two dates: +8 days
 ```
 

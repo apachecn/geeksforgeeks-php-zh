@@ -27,7 +27,7 @@
 
     **PHP 代码:**创建“connection.php”文件。这是 PHP 中的连接代码，用来连接数据库和你的任何 PHP DOM 页面。
 
-    ```
+    ```php
     <?php
 
     $conn = "";
@@ -55,7 +55,7 @@
 
     在 PHP DOM 页面中包含“connection.php”文件。
 
-    ```
+    ```php
     <?php
     include_once('connection.php');
     ?>

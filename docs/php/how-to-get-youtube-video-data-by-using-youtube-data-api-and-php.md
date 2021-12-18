@@ -55,7 +55,7 @@
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -92,7 +92,7 @@
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <?php
     error_reporting (E_ALL ^ E_NOTICE); 
 
@@ -196,7 +196,7 @@ https://www.youtube.com/embed/<?php echo $youtubeId; ?>?autoplay=1">
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```phphtml
 body{
     font-family: Sans-serif,Arial;
     width: 600px;

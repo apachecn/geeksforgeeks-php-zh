@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionGenerator::getExecutingFile( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -48,14 +48,14 @@ echo $C;
 
 **输出：**
 
-```
+```php
 /home/3ce672c0079010c54e57cdedc34d0188.php
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Departments
@@ -97,7 +97,7 @@ echo "File: {$F->getExecutingFile()}";
 
 **输出：**
 
-```
+```php
 File: /home/f12a7584188452b12381b38e3985f9d3.php
 File: /home/f12a7584188452b12381b38e3985f9d3.php
 File: /home/f12a7584188452b12381b38e3985f9d3.php

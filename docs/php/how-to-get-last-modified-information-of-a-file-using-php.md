@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```php
 filemtime( filepath );
 ```
 
@@ -20,7 +20,7 @@ filemtime( filepath );
 
 ## PHP
 
-```
+```php
 <?php
 
 // Checking the contents of a
@@ -30,7 +30,7 @@ echo filemtime("gfg.txt");
 ?>
 ```
 
-```
+```php
 Output: 1540211782
 ```
 
@@ -38,7 +38,7 @@ Output: 1540211782
 
 ## PHP
 
-```
+```php
 <?php
 
 // A file's last modification time as a
@@ -49,6 +49,6 @@ echo "Last time of file change: " . 
 ?>
 ```
 
-```
+```php
 Output: Last time of file change: September 11 2020 09:55:51
 ```

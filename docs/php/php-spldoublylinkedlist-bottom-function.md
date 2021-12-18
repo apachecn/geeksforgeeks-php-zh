@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplDoublyLinkedList::bottom( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -43,14 +43,14 @@ print_r($val); 
 
 **输出：**
 
-```
+```php
 1
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -75,7 +75,7 @@ print_r($val); 
 
 **输出：**
 
-```
+```php
 30
 
 ```

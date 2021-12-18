@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
  bool zip_entry_close ( $zip_entry )
 ```
 
@@ -27,7 +27,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Opening a zip archive
@@ -52,7 +52,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Zip Entry Archive: article/content.xlsx has been closed successfully.
 
 ```
@@ -64,7 +64,7 @@ Zip Entry Archive: article/content.xlsx has been closed successfully.
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Opening a zip archive
@@ -108,7 +108,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Zip Entry Archive: article/content.xlsx has been opened successfully.
 Zip Entry Archive: article/content.xlsx has been closed successfully.
 Zip Entry Archive: article/gfg.pdf has been opened successfully.

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::intersect ( Ds\Set $set )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -38,7 +38,7 @@ print_r($a->intersect($b));
 
 **输出：**
 
-```
+```php
 Intersection of both set is: 
 Ds\Set Object
 (
@@ -50,7 +50,7 @@ Ds\Set Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -69,7 +69,7 @@ var_dump($a->intersect($b));
 
 **输出：**
 
-```
+```php
 Intersection of both set is: 
 object(Ds\Set)#3 (3) {
   [0]=>

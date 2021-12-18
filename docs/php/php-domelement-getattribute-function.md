@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMElement::getAttribute( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -43,7 +43,7 @@ echo $value;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

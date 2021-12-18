@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 str_shuffle($string) 
 ```
 
@@ -16,7 +16,7 @@ str_shuffle($string)
 
 例如：
 
-```
+```php
 Input : $string = "raj" 
 Output : jar 
 
@@ -34,7 +34,7 @@ Note: The output will be different on every execution.
 
 **程序 1：**传递字符串时演示 str_ashffle()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the str_shuffle()
 // function when a string is passed
@@ -47,13 +47,13 @@ echo str_shuffle($string);
 
 产出：
 
-```
+```php
 keegs
 ```
 
 **程序 2：**在传递数字时演示 str_ashffle()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the str_shuffle()
 // function when a number is passed
@@ -66,7 +66,7 @@ echo str_shuffle($string);
 
 产出：
 
-```
+```php
 124
 ```
 

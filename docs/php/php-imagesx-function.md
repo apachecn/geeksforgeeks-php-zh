@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagesx( $image )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // store the image in variable.
@@ -34,7 +34,7 @@ echo imagesx($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create the size of image or blank image.

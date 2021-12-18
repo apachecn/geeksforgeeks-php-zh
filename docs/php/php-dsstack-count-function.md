@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Ds\Stack::count( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare new stack 
@@ -37,7 +37,7 @@ print_r($stack->count()); 
 
 **输出：**
 
-```
+```php
 object(Ds\Stack)#1 (3) {
   [0]=>
   int(21)
@@ -52,7 +52,7 @@ Number of elements present in the stack: 3
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare new stack 
@@ -71,7 +71,7 @@ var_dump($stack->count()); 
 
 **输出：**
 
-```
+```php
 Ds\Stack Object
 (
     [0] => Keegs

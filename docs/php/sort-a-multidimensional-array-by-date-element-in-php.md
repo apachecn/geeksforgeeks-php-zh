@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 boolean usort( $array, "function_name")
 ```
 
@@ -21,7 +21,7 @@ boolean usort( $array, "function_name")
 
 **程序:**
 
-```
+```php
 <?php
 
 // Declare a multidimensional array
@@ -59,7 +59,7 @@ print_r($array)
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => Array

@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *int* IntlDateFormatter::getErrorCode( *void* )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *int* datefmt_get_error_code( *IntlDateFormatter* $fmt )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a date formatter
@@ -69,7 +69,7 @@ if (!$str) {
 
 **错误：**
 
-```
+```php
 PHP Warning:  datefmt_format() expects exactly 2 parameters, 1 given
 in /home/700d8660f05cec95beb6e1ab21252ab1.php on line 14
 ```

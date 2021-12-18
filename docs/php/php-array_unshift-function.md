@@ -5,7 +5,7 @@
 PHP 的这个内置函数用于向数组中添加一个或多个元素，这些元素在数组的开头添加。我们添加到数组中的所有元素都以相同的顺序插入，就像它们已经被传递一样。它们从第 0 个位置开始进行数字索引。如果有字符串键，则它们保持不变。
 **语法** :
 
-```
+```php
 *int* array_unshift($array, $val1, $val2, $val3....)
 ```
 
@@ -18,7 +18,7 @@ PHP 的这个内置函数用于向数组中添加一个或多个元素，这些�
 **返回值:**该函数返回插入元素后新修改数组的元素总数。
 示例:
 
-```
+```php
 Input : $array = ("ram", "krishna", "aakash")
         $val1 = "rohan", $val2 = "rajeeb", $val3 = "saniya"
 Output :
@@ -52,7 +52,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -77,7 +77,7 @@ print_r($array);
 
 *   输出:
 
-```
+```php
 Array
 (
     [0] => rohan
@@ -93,7 +93,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -118,7 +118,7 @@ print_r($array);
 
 *   输出:
 
-```
+```php
 Array
 (
     [0] => rohan

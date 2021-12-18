@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::startAttribute( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -52,14 +52,14 @@ $writer->endDocument();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <div attrib="value"/>
 ```
 
 **示例 2：**在此示例中，我们将向元素添加样式
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance

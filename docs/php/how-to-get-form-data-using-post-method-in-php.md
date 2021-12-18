@@ -7,7 +7,7 @@ php 提供了一种使用 **php://** 读取 HTML 表单原始 POST 数据的方�
 我们将创建一个基本的 HTML 表单页面，在这里我们可以一次一个地使用所有可能的方法。
 **HTML 代码:**
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,13 +52,13 @@ php 提供了一种使用 **php://** 读取 HTML 表单原始 POST 数据的方�
 
 *   **语法:**
 
-    ```
+    ```php
     file_get_contents('php://input');
     ```
 
 *   **PHP 代码:**
 
-    ```
+    ```php
     <?php 
         if (isset($_POST["submit-btn"])) {
             $post_data = file_get_contents('php://input');
@@ -74,13 +74,13 @@ php 提供了一种使用 **php://** 读取 HTML 表单原始 POST 数据的方�
 
 *   **语法:**
 
-    ```
+    ```php
     print_r($_POST);
     ```
 
 *   **PHP 代码:**
 
-    ```
+    ```php
     <?php 
         if (isset($_POST["submit-btn"])) {
             echo "<div> POST BODY <br>";
@@ -97,13 +97,13 @@ php 提供了一种使用 **php://** 读取 HTML 表单原始 POST 数据的方�
 
 *   **语法:**
 
-    ```
+    ```php
     var_dump($_POST);
     ```
 
 *   **PHP 代码:**
 
-    ```
+    ```php
     <?php 
         if (isset($_POST["submit-btn"])) {
             echo "<div> POST BODY <br>";

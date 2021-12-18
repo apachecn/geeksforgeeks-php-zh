@@ -11,7 +11,7 @@
 
 **示例 1:** 本示例在不使用 cURL 方法的情况下测试 URL 是否有 404 错误。
 
-```
+```php
 <?php
 
 // Creating a variable with an URL
@@ -38,13 +38,13 @@ else {
 
 **输出:**
 
-```
+```php
 Specified URL exists
 ```
 
 **示例 2:** 本示例使用 cURL 方法测试一个 URL 的 404 错误。
 
-```
+```php
 <?php
 
 // Initializing new session
@@ -74,6 +74,6 @@ curl_close($ch);
 
 **输出:**
 
-```
+```php
 Specified URL exists
 ```

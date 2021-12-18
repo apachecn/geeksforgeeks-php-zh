@@ -6,7 +6,7 @@ PHP 中的**var**关键字用于声明默认为**PUBLIC**的类的属性或变�
 **注意：**从 5.0.0 版到 5.1.2 版不建议使用 var 关键字。 从 PHP 5.1.3 开始，它又被添加了一次。
 **语法：**和
 
-```
+```php
 class className {
    var $variable = "GeeksforGeeks";
    // Other statements
@@ -18,7 +18,7 @@ class className {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring a class
@@ -46,7 +46,7 @@ echo $obj->var1 . "\n";;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Public
 ```
 
@@ -54,7 +54,7 @@ Public
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring a class
@@ -84,7 +84,7 @@ echo $obj->var2 . "\n";;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Var Public
 Public
 ```
@@ -93,7 +93,7 @@ Public
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring a class
@@ -124,13 +124,13 @@ echo $obj->var2 . "\n";;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Var Public
 ```
 
 **错误：**和
 
-```
+```php
 PHP Fatal error:  Uncaught Error: Cannot access private property 
 Geeks::$var2 in /home/46488c166fd1197d687867f62e03b8b8.php:24
 Stack trace:

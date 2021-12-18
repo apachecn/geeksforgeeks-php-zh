@@ -5,7 +5,7 @@
 **ArrayIterator::setFlags()函数**是 PHP 中的一个内置函数，用于设置标志的行为。
 **语法:**
 
-```
+```php
 *void* ArrayIterator::setFlags( *string* $flags )
 ```
 
@@ -16,7 +16,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -35,7 +35,7 @@ var_dump($arrItr->getFlags());
 
 **Output:** 
 
-```
+```php
 int(1)
 ```
 
@@ -43,7 +43,7 @@ int(1)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -71,7 +71,7 @@ var_dump($arrItr->getFlags());
 
 **Output:** 
 
-```
+```php
 int(2)
 ```
 

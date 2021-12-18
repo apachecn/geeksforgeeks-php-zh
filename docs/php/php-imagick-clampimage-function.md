@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::clampImage( *int* $channel = Imagick::CHANNEL_DEFAULT )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

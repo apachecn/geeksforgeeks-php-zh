@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 {content}lt;variable_name> = fopen(<file source path>,<access mode>)
 ```
 
@@ -23,7 +23,7 @@ PHP 中的 fopen 模式 r+、rw+和 w+的区别
 
 因此**“r+”****“w+”**打开文件和放置文件指针的方式是有区别的。**“r+”****“rw+”**相同。PHP 只关心字符串以**“r”**开头，有一个**“+”**。**“w”**在**“rw+”**中忽略。因此，它们的工作原理是一样的。
 
-```
+```php
 PHPAPI int php_stream_parse_fopen_modes(const char *mode, int *open_flags)
 {
     int flags;

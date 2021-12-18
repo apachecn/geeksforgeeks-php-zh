@@ -6,7 +6,7 @@ Krort()函数是 PHP 中的一个内置函数，用于根据数组的索引值�
 
 **语法：**
 
-```
+```php
 bool krsort( $array, $sorting_type )
 ```
 
@@ -24,7 +24,7 @@ bool krsort( $array, $sorting_type )
 下面的程序演示了 PHP 中的 krort()函数。
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // krsort()function
@@ -57,7 +57,7 @@ foreach ($arr as $key => $val) {
 
 **Output:**
 
-```
+```php
 [10] = Copy
 [9] = Reset
 [8] = Contribute
@@ -74,7 +74,7 @@ foreach ($arr as $key => $val) {
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // krsort function
@@ -107,7 +107,7 @@ foreach ($arr as $key => $val) {
 
 **Output:**
 
-```
+```php
 [z] = 1
 [u] = 1000
 [t] = 3

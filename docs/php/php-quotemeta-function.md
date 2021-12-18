@@ -18,7 +18,7 @@
 
 **语法：**
 
-```
+```php
  quotemeta($string)
 ```
 
@@ -28,7 +28,7 @@
 
 例如：
 
-```
+```php
 Input:  $str = "geek$ for geeks?"
 Output: geek\$ for geeks\?
 
@@ -41,7 +41,7 @@ Output: \+geek\* for geeks\.
 
 **程序 1：**当字符串有‘？’ 和‘{Content}#x2019；预定义字符
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // working of quotemeta() function 
@@ -57,13 +57,13 @@ echo(quotemeta($str));
 
 产出：
 
-```
+```php
 geek\$ for geeks\?
 ```
 
 **程序 2：**当字符串有‘*’，‘.’ 和‘+’预定义字符
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // working of quotemeta() function 
@@ -78,13 +78,13 @@ echo(quotemeta($str));
 
 产出：
 
-```
+```php
 \+geek\* for geeks\.
 ```
 
 **程序 3：**当字符串以方括号和圆括号作为预定义字符时。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // working of quotemeta() function 
@@ -100,13 +100,13 @@ echo(quotemeta($str));
 
 产出：
 
-```
+```php
 \[\]geek for geeks\(\)
 ```
 
 **程序 4：**当字符串将脱字符(^)作为预定义字符时。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // working of quotemeta() function 
@@ -122,7 +122,7 @@ echo(quotemeta($str));
 
 产出：
 
-```
+```php
 2 \^ 2 = 4
 ```
 

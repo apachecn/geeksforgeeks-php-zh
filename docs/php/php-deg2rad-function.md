@@ -11,7 +11,7 @@
 
 **语法：**
 
-```
+```php
 *float* deg2rad ($value)
 
 ```
@@ -22,7 +22,7 @@
 
 例如：
 
-```
+```php
 Input :  $deg = 45;
 Output : 0.78539816339745
 
@@ -36,7 +36,7 @@ Output : 3.1415926535898
 
 下面的程序演示了 des 2rad()在 PHP 中的工作方式：
 
-```
+```php
 <?php
 // PHP code to illustrate the working of deg2rad()
 $deg = 22.5;
@@ -54,7 +54,7 @@ for(;$k>=1;$k/=2, $deg*=2)
 
 产出：
 
-```
+```php
 pi/8 = 0.39269908169872
 pi/4 = 0.78539816339745
 pi/2 = 1.5707963267949

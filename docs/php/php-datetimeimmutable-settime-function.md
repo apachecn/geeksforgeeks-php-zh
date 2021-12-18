@@ -5,7 +5,7 @@
 **DateTimeImmutable：：setTime()函数**是 PHP 中的一个内置函数，用于通过重置创建的 DateTimeImmutable 对象的当前时间来设置所需的时间。
 **语法：**和
 
-```
+```php
 *DateTimeImmutable* DateTimeImmutable::setTime( *int* $hour, *int* $minute,
                                               *int* $second, *int* $microseconds )
 ```
@@ -24,7 +24,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate DateTimeImmutable::setTime()
@@ -49,7 +49,7 @@ echo $a->format('Y-m-d H:i:s');
 
 **Output:** 
 
-```
+```php
 2019-10-04 04:10:40
 ```
 
@@ -57,7 +57,7 @@ echo $a->format('Y-m-d H:i:s');
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate DateTimeImmutable::setTime()
@@ -79,7 +79,7 @@ echo $a->format('Y-m-d H:i:s');
 
 **Output:** 
 
-```
+```php
 2019-10-04 10:33:39
 ```
 

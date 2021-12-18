@@ -6,7 +6,7 @@ PHP 中的 chown()函数是一个内置函数，用于更改指定文件的所�
 
 **语法:**
 
-```
+```php
 bool chown ( $filename, $user )
 ```
 
@@ -24,7 +24,7 @@ bool chown ( $filename, $user )
 
 示例:
 
-```
+```php
 Input : chown("gfg.txt", "shubrodeep")
 Output : true
 
@@ -39,7 +39,7 @@ Output : true
 
 **程序 1** :
 
-```
+```php
 <?php
 
 // Sets shubrodeep as owner
@@ -50,13 +50,13 @@ chown("gfg.txt", "shubrodeep");
 
 输出:
 
-```
+```php
 true
 ```
 
 **程序 2** :
 
-```
+```php
 <?php
 
 // Sets root as owner of the file "gfg.php"
@@ -69,7 +69,7 @@ chown($path, $user_name); 
 
 输出:
 
-```
+```php
 true
 ```
 

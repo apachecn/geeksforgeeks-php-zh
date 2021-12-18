@@ -12,7 +12,7 @@
 
 **XML 的结构:**
 
-```
+```php
 <root> 
   <child>
     <subchild> ... </subchild>
@@ -23,7 +23,7 @@
 
 **示例:**我们正在考虑学生 XML 数据，并将其转换为 JSON 格式。
 
-```
+```php
 <student>
     <details>
         <address>
@@ -64,7 +64,7 @@ JSON 代表 JavaScript 对象符号，它是类似数组结构的格式。
 
 **JSON 的结构:**
 
-```
+```php
 { 
     "data1": "value1",
     "data2": "value2",
@@ -75,7 +75,7 @@ JSON 代表 JavaScript 对象符号，它是类似数组结构的格式。
 
 **示例:**
 
-```
+```php
 {"details":
 [{ 
     "address": { 
@@ -142,7 +142,7 @@ JSON 代表 JavaScript 对象符号，它是类似数组结构的格式。
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // student details xml data taken as an String
@@ -193,7 +193,7 @@ print_r($jsondata);
 
 **输出:**在浏览器中输入 *localhost/base.php* 。
 
-```
+```php
 {
     "details": [
         { 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool is_string( mixed $var )
 ```
 
@@ -18,7 +18,7 @@ bool is_string( mixed $var )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $str = "GeeksforGeeks";
@@ -47,7 +47,7 @@ foreach ($arr as $index) {
 
 **Output:**
 
-```
+```php
 String
 Not String
 Not String
@@ -59,7 +59,7 @@ String
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $num = 21;
@@ -80,7 +80,7 @@ var_dump(is_string($arr["c"]));
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

@@ -10,14 +10,14 @@
 
 *   在本例中，语句检查提供给 ereg()函数的主题是否为字符串。因为给定的比较值([a-zA-Z]，从 A 到 Z 和 A 到 Z)是一个范围。ereg()函数匹配范围中提供的大写和小写字母。这些符号有它们自己的含义。
 
-```
+```php
 Input: echo ereg("[a-zA-Z]","jack"); 
 Output: 1
 ```
 
 *   本示例检查主题是否以“j”开头。符号'^'用于检查主题是否以必需的字符串开头。
 
-```
+```php
 Input: echo ereg("^j","jack");
 Output: 1
 ```
@@ -28,7 +28,7 @@ Output: 1
 
 *   与 ereg()函数相同，只是使用 preg 函数而不是 ereg。
 
-```
+```php
 Input:  
 $regex='/[a-zA-Z]/';
 echo preg_match($regex,'jack');
@@ -37,7 +37,7 @@ Output:1
 
 *   此示例也与第二个仅使用 preg 而不是 ereg 函数的 ereg 示例相同。
 
-```
+```php
 Input: 
 $regex='/^[j]/';
 echo preg_match($regex,"jack");
@@ -56,7 +56,7 @@ Output: 1
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 function pregcheck($num) {
     $regex='/[0-9]/';
@@ -78,7 +78,7 @@ echo eregcheck($abc);
 
 **输出:**
 
-```
+```php
 pregcheck at work : 1 eregcheck at work : 1 
 ```
 

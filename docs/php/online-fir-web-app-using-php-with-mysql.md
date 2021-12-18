@@ -29,7 +29,7 @@
 
 ## ***服务器端编程语言（Professional Hypertext Preprocessor 的缩写）***
 
-```html
+```phphtml
 *<?php
   $conn=mysqli_connect("localhost","root","");
   $db=mysqli_select_db($conn,"fir_info");
@@ -42,7 +42,7 @@
 
 ## ***index.php***
 
-```html
+```phphtml
 *<html>
 
 <head>
@@ -351,7 +351,7 @@
 
 ## *****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）*****
 
-```html
+```phphtml
 *****<?php
 
     include("connect.php");  // Connect to database
@@ -524,7 +524,7 @@
 *   *****在 *fir_info* 数据库中，点击 SQL。*****
 *   *****编写以下查询来创建注册表。*****
 
-```html
+```phphtml
 *****CREATE TABLE register(
     uid int(10) AUTO_INCREMENT PRIMARY KEY,
     firstname varchar(255),
@@ -553,7 +553,7 @@
 
 ## *****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）*****
 
-```html
+```phphtml
 *****<?php
      session_start();   // Session start
 
@@ -740,7 +740,7 @@
 *   *****在*fir_info* 数据库中，点击 SQL*****
 *   *****编写以下查询来创建登录表*****
 
-```html
+```phphtml
 *****CREATE TABLE login
 (
     uid int(10) AUTO_INCREMENT PRIMARY KEY,
@@ -765,7 +765,7 @@
 
 ## *****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）*****
 
-```html
+```phphtml
 *****<?php
 
       include("connect.php");  // connect to database
@@ -922,7 +922,7 @@
 *   *****在 ***fir_info*** 数据库中，点击 SQL*****
 *   *****编写以下查询来创建 *fir* 表*****
 
-```html
+```phphtml
 *****CREATE TABLE fir(
     s_no int(10) AUTO_INCREMENT PRIMARY KEY,
     name varchar(255),
@@ -958,7 +958,7 @@
 
 ## *****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）*****
 
-```html
+```phphtml
 *****<?php
     include("connect.php");
     if(isset($_REQUEST['b1']) && !empty($_GET['q'])) {

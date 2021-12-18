@@ -5,7 +5,7 @@
 Ftp_put()函数是 PHP 中的内置函数，用于将文件上传到 FTP 服务器。
 **语法：**和
 
-```
+```php
 ftp_put( $ftp_connection, $remote_file_path, $local_file_path, $mode, $start_position );
 ```
 
@@ -28,7 +28,7 @@ ftp_put( $ftp_connection, $remote_file_path, $local_file_path, $mode, $start_pos
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

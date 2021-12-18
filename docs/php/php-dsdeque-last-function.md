@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::last( void ) : mixed
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a Deque
@@ -42,7 +42,7 @@ var_dump($deck->last());
 
 **输出：**
 
-```
+```php
 Elements in the deque
 object(Ds\Deque)#1 (6) {
   [0]=>
@@ -65,7 +65,7 @@ Last element in the deque: int(6)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a Deque
@@ -87,7 +87,7 @@ print_r($deck->last());
 
 **输出：**
 
-```
+```php
 Elements in the deque
 Ds\Deque Object
 (

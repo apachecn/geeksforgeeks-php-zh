@@ -8,7 +8,7 @@
 
 **程序 1:** 这个程序使用赋值运算符将变量和数据从 PHP 传递给 JavaScript。
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -48,7 +48,7 @@
 
 **程序 2:** 这个程序使用 Cookies 将变量和数据从 PHP 传递给 JavaScript。
 
-```
+```php
 <!DOCTYPE html>
 <html>
 

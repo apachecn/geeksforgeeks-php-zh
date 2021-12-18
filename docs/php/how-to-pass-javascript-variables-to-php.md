@@ -6,7 +6,7 @@ JavaScript 是客户端，PHP 是服务器端脚本语言。将 JavaScript 变�
 
 **方法 1:** 本例使用表单元素和 GET/POST 方法将 JavaScript 变量传递给 PHP。内容的形式可以通过 PHP 中的 GET 和 POST 操作来访问。当提交表单时，客户端以 URL 的形式发送表单数据，例如:
 
-```
+```php
 https://example.com?name=value
 ```
 
@@ -14,7 +14,7 @@ https://example.com?name=value
 
 **客户端:**
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -42,7 +42,7 @@ https://example.com?name=value
 
 **服务器端(PHP):** 在服务器端 PHP 页面，我们请求表单提交的数据并显示结果。
 
-```
+```php
 <?php
 $result = $_GET['data'];
 echo $result;
@@ -55,7 +55,7 @@ echo $result;
 **方法二:使用 Cookie 存储信息:**
 **客户端:**使用 Cookie 存储信息，然后在 PHP 页面中请求。在下面的代码中创建了一个名为 *gfg* 的 cookie，并存储了值*geeks forgeks*。创建 cookie 时，还应指定过期时间，在这种情况下为 *10* 天。
 
-```
+```php
 <script>
 
 // Creating a cookie after the document is ready
@@ -85,7 +85,7 @@ function createCookie(name, value, days) {
 
 **服务器端(PHP):** 在服务器端，我们通过指定名称 *gfg* 来请求 cookie，并提取数据显示在屏幕上。
 
-```
+```php
 <?php
     echo $_COOKIE["gfg"];
 ?>

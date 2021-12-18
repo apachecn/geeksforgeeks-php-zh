@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *private* IntlCalendar::__construct( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an IntlCalendar from a DateTime object or string
@@ -47,7 +47,7 @@ echo IntlDateFormatter::formatObject($calendar);
 
 **输出：**
 
-```
+```php
 Aug 29, 2024, 9:19:29 AM
 Aug 29, 2034, 9:19:29 AM
 Aug 29, 2034, 7:19:29 PM

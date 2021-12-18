@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* DOMNamedNodeMap::count( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**在此示例中，我们将计算元素的属性。
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -49,7 +49,7 @@ echo 'No of attributes => ' . $attributeCount;
 
 **示例 2：**在本例中，我们将检查 COUNT 函数是否通过更改属性数来获取最新的属性数。
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

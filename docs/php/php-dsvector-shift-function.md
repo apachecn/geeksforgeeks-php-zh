@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::shift( void )
 
 ```
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an Vector
@@ -40,7 +40,7 @@ var_dump($vect->shift());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an Vector

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionMethod* ReflectionMethod::getPrototype( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的 ReflectionMethod：：getPrototype()函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Department1
@@ -60,7 +60,7 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(ReflectionMethod)#2 (2) {
   ["name"]=>
   string(13) "Marketing_Dpt"
@@ -72,7 +72,7 @@ object(ReflectionMethod)#2 (2) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -97,7 +97,7 @@ var_dump($B);
 
 **输出：**方法没有任何会给您带来错误的原型。
 
-```
+```php
 PHP Fatal error: Uncaught ReflectionException: Method Company::
 GeeksforGeeks does not have a prototype in 
 /home/9d8367b263ee4d7ec6941876b0eae792.php:15

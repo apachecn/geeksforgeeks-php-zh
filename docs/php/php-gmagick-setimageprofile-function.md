@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimageprofile( *string* $name, *string* $profile )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,13 +43,13 @@ echo $profile;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 profile_value
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

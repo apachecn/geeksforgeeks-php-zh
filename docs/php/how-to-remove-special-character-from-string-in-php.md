@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```php
 str_replace( $searchVal, $replaceVal, $subjectVal, $count )
 ```
 
@@ -16,7 +16,7 @@ str_replace( $searchVal, $replaceVal, $subjectVal, $count )
 
 ## PHP
 
-```
+```php
 <?php
   // PHP program to Remove 
   // Special Character From String
@@ -46,7 +46,7 @@ str_replace( $searchVal, $replaceVal, $subjectVal, $count )
 
 **输出:**
 
-```
+```php
 Example to remove the Special Char
 ```
 
@@ -54,7 +54,7 @@ Example to remove the Special Char
 
 **语法** :
 
-```
+```php
 str_ireplace( $searchVal, $replaceVal, $subjectVal, $count )
 ```
 
@@ -62,7 +62,7 @@ str_ireplace( $searchVal, $replaceVal, $subjectVal, $count )
 
 ## PHP
 
-```
+```php
 <?php
   // PHP program to Remove 
   // Special Character From String
@@ -92,7 +92,7 @@ str_ireplace( $searchVal, $replaceVal, $subjectVal, $count )
 
 **输出:**
 
-```
+```php
 Example to remove the Special Char
 ```
 
@@ -100,7 +100,7 @@ Example to remove the Special Char
 
 **语法** :
 
-```
+```php
 preg_replace( $pattern, $replacement, $subject, $limit, $count )
 ```
 
@@ -108,7 +108,7 @@ preg_replace( $pattern, $replacement, $subject, $limit, $count )
 
 ## PHP
 
-```
+```php
 <?php
   // PHP program to Remove 
   // Special Character From String
@@ -137,7 +137,7 @@ preg_replace( $pattern, $replacement, $subject, $limit, $count )
 
 **输出:**
 
-```
+```php
 Example to remove the Special Char
 ```
 

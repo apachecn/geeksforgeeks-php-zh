@@ -6,7 +6,7 @@ Gmp_com()是 PHP 中的一个内置函数，用于计算 GMP 数字的**个一�
 
 **语法：**
 
-```
+```php
 gmp_com($num)
 ```
 
@@ -16,7 +16,7 @@ gmp_com($num)
 
 例如：
 
-```
+```php
 Input : gmp_com("1235")
 Output : -1236
 
@@ -29,7 +29,7 @@ Output : -1235
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，计算 GMP 编号的补码的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the one's complement
 // of a GMP number passed as arguments 
@@ -47,14 +47,14 @@ echo $res;
 
 产出：
 
-```
+```php
 -1346
 
 ```
 
 **程序 2：**当 GMP 编号作为参数传递时，计算 GMP 编号的补码的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the one's complement
 // of a GMP number passed as arguments 
@@ -72,7 +72,7 @@ echo $res;
 
 产出：
 
-```
+```php
 -133
 
 ```

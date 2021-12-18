@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input : num = 12345
 Output: 54321
 
@@ -20,7 +20,7 @@ Output: 678
 
 **算法:**
 
-```
+```php
 Input:  num
 (1) Initialize rev_num = 0
 (2) Loop while num > 0
@@ -48,7 +48,7 @@ Input:  num
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Iterative function to
@@ -72,7 +72,7 @@ echo "Reverse of no. is ", reversDigits($num);
 
 **Output**
 
-```
+```php
 Original number is :456213
 Reverse of no. is 312654
 ```
@@ -85,7 +85,7 @@ Reverse of no. is 312654
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to reverse
@@ -119,7 +119,7 @@ echo "Reverse of no. is ",
 
 **Output**
 
-```
+```php
 Original number is :456213
 Reverse of no. is 312654
 ```

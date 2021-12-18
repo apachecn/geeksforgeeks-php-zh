@@ -8,7 +8,7 @@ PHP SimpleXML 是在 PHP5.0 中引入的。 PHP 中的 simplexml_load_string()�
 
 **语法**：
 
-```
+```php
 simplexml_load_string($data, $classname, $options, $ns, $is_prefix);
 
 ```
@@ -51,7 +51,7 @@ simplexml_load_string($data, $classname, $options, $ns, $is_prefix);
 
 **程序 1**：
 
-```
+```php
 <?php
 $note=<<<XML
 <note>
@@ -72,7 +72,7 @@ echo $xml->body;
 
 产出：
 
-```
+```php
 User 1
 User 2
 Reminder
@@ -82,7 +82,7 @@ Don't forget me this weekend!
 
 **程序 2**：
 
-```
+```php
 <?php
 $note=<<<XML
 <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -105,7 +105,7 @@ foreach($xml->children() as $child){
 
 产出：
 
-```
+```php
 book
 name : PHP
 name : Java

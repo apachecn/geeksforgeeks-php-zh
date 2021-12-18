@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_ssl_connect($host, $port, $timeout);
 ```
 
@@ -30,7 +30,7 @@ ftp_ssl_connect($host, $port, $timeout);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Use ftp_ssl_connect() function to
@@ -45,7 +45,7 @@ echo "Connection established successfully";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Connection established successfully
 ```
 
@@ -53,7 +53,7 @@ Connection established successfully
 
 ## PHP
 
-```
+```php
 <?php
 
 // Setting up basic SSL connection
@@ -89,7 +89,7 @@ ftp_close($ftp_conn);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Successfully logged in with 8.8.8.8
 ```
 

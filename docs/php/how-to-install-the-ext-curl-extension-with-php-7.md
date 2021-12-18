@@ -8,7 +8,7 @@
 
 **1。更新扩展**
 
-```
+```php
 sudo apt-get update
 ```
 
@@ -16,7 +16,7 @@ sudo apt-get update
 
 **2。安装 PHP-curl**
 
-```
+```php
 sudo apt-get install php-curl
              OR
 sudo apt-get install php7.0-curl
@@ -28,7 +28,7 @@ sudo apt-get install php7.0-curl
 
 **3。通过分机**重启分机，避免以后出现任何问题
 
-```
+```php
 sudo service apache2 restart
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageGravity( *int* $gravity )
 ```
 
@@ -29,7 +29,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -47,13 +47,13 @@ echo $gravity;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 7
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -71,7 +71,7 @@ echo $gravity;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3
 ```
 

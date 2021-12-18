@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 array_product($array)
 ```
 
@@ -20,7 +20,7 @@ array_product($array)
 
 示例:
 
-```
+```php
 Input : $array = [1, 2, 3, 4]
 Output : 24 
 
@@ -33,7 +33,7 @@ Output : 0
 
 **程序 1:** 演示 array_product()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate 
 // the array_product() function
@@ -45,13 +45,13 @@ echo(array_product($a1));
 
 **输出:**
 
-```
+```php
 24
 ```
 
 **程序 2:** 当数组至少包含一个非数字数据时，演示 array_product()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the array_product() 
 // function when the array contains at least
@@ -65,13 +65,13 @@ echo(array_product($a1));
 
 **输出:**
 
-```
+```php
 0
 ```
 
 **程序 3:** 程序演示数组为空时的 array_product()函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the array_product() function
 // when the array is empty
@@ -84,7 +84,7 @@ echo(array_product($a1));
 
 **输出:**
 
-```
+```php
 1
 ```
 

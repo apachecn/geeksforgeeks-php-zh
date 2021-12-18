@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::readImages( *array* $filenames )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -46,7 +46,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -76,7 +76,7 @@ echo $imagick->getImageBlob();
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -101,7 +101,7 @@ echo $imagick->getImageBlob();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 It will show filename2.png on the screen.
 ```
 

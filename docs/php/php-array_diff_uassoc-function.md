@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 array_diff_uassoc($array1, $array2, $array3, ..., $arrayn, user_function)
 ```
 
@@ -21,7 +21,7 @@ array_diff_uassoc($array1, $array2, $array3, ..., $arrayn, user_function)
 
 示例:
 
-```
+```php
 Input : $a1=array(10=>"striver", 20=>"raj", 30=>"geek")
         $a2=array(20=>"striver", 10=>"raj", 30=>"geek")
         function user_function($a, $b)
@@ -49,7 +49,7 @@ So, the elements with unequal keys are in the output array.
 
 **程序 1** :
 
-```
+```php
 <?php
 // PHP program to illustrate the  
 // array_diff_uassoc() function 
@@ -79,7 +79,7 @@ print_r($result);
 
 **输出:**
 
-```
+```php
 Array
 (
     [10] => striver
@@ -90,7 +90,7 @@ Array
 
 **程序 2** :
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // array_diff_uassoc() function 
@@ -120,7 +120,7 @@ print_r($result);
 :
 **输出:**
 
-```
+```php
 Array
 (
     [20] => raj

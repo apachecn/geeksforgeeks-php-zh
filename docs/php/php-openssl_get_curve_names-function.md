@@ -31,7 +31,7 @@
 
 **语法：**
 
-```
+```php
 
   openssl_get_curve_names ( void ): array
 
@@ -47,7 +47,7 @@
 
 ## PHP
 
-```
+```php
 <?php {
     //available curve names for ECC
     $curve_names = openssl_get_curve_names();

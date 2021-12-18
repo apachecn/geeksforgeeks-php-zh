@@ -8,14 +8,14 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *DateTime* DateTime::createFromFormat( *string* $format, 
                                         *string* $time, *DateTimeZone* $timezone )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *DateTime* date_create_from_format( *string* $format, 
                                         *string* $time, *DateTimeZone* $timezone )
     ```
@@ -65,7 +65,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Calling the DateTime:createFromFormat() function
@@ -79,14 +79,14 @@ echo $datetime->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-09-30
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Calling the DateTime:createFromFormat() function
@@ -100,7 +100,7 @@ echo $datetime->format('d-m-Y H:i:s');
 
 **输出：**
 
-```
+```php
 01-10-2019 11:10:06
 
 ```

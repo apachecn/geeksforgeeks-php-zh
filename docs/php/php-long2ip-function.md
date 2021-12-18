@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* long2ip( *int* $ip_in_long )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Use long2ip() function to converts
@@ -36,7 +36,7 @@ echo(long2ip(344294967296));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Store the long integer address in an array

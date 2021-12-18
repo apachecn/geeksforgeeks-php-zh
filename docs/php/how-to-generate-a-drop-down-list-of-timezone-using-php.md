@@ -10,13 +10,13 @@ time zone _ identifier _ list()函数使用其时区常数和国家来独立显�
 
 **语法:**
 
-```
+```php
 *array* timezone_identifiers_list( *int* $datetimezone, *string* $country )
 ```
 
 **示例 1:** 此示例说明了如何使用时区标识符选择下拉列表中列出的时区。
 
-```
+```php
 <?php
 
 function select_Timezone($selected = '') {
@@ -48,7 +48,7 @@ echo select_Timezone() . '<br>';
 
 **示例 2:** 此示例说明了如何使用时区标识符选择下拉列表中列出的时区。
 
-```
+```php
 <?php
 
 // Create a timezone identifiers
@@ -79,7 +79,7 @@ echo "</select>";
 
 **示例 3:** 本示例使用 DateTizone::list identifier(DateTizone::ALL)和 range()函数说明了带有时区列表的下拉列表。
 
-```
+```php
 <?php
 
 $timezone_identifiers = 

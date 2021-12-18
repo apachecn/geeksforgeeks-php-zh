@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Vector* public Ds\Vector::merge( $values )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create new vector
@@ -42,7 +42,7 @@ print_r($arr1->merge($arr2));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Original vector elements
 Ds\Vector Object
 (
@@ -72,7 +72,7 @@ Ds\Vector Object
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create new vector
@@ -95,7 +95,7 @@ print_r($arr1->merge($arr2));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Original vector elements
 Ds\Vector Object
 (

@@ -6,7 +6,7 @@ Gmmktime()函数是 PHP 中的一个内置函数，用于返回 GMT 日期的 Un
 
 **语法：**
 
-```
+```php
 int gmmktime( $hour, $minute, $second, $month, $day, $year, $is_dst)
 ```
 
@@ -28,7 +28,7 @@ int gmmktime( $hour, $minute, $second, $month, $day, $year, $is_dst)
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Using gmmktime() function to know the day
@@ -39,14 +39,14 @@ echo "August 30, 2018 was on "
 
 **Output:**
 
-```
+```php
 August 30, 2018 was on Thursday
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Using gmmktime() function to know
 // the complete date
@@ -61,7 +61,7 @@ echo date("M-d-Y", gmmktime(0, 0, 0, 12, 20, 2017));
 
 **Output:**
 
-```
+```php
 Dec-01-2012
 Dec-20-2017
 

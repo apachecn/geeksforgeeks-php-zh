@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 phpinfo();
 
 ```
@@ -17,7 +17,7 @@ phpinfo();
 
 1.  在“ **c:/xampp/htdocs** ”目录下创建一个“**check.php**”文件，并在该文件中写入以下代码并保存。
 
-    ```
+    ```php
     <?php
       phpinfo();
     ?>

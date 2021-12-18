@@ -20,7 +20,7 @@ array_udiff_assoc()是 PHP 中的一个内置函数，用于区分两个或多�
 
 **例 1 :**
 
-```
+```php
 Input :
  $arr1 = array(
     "a" => "Geeks",
@@ -45,7 +45,7 @@ arr2.
 
 **例 2 :**
 
-```
+```php
 Input:
 $arr1 = array(
     "a" => "C",
@@ -80,7 +80,7 @@ but both have different key.
 
 **程序 1:** 取两个数组(array1 和 array2)并使用用户自定义的键比较函数(arr _ udiffassocFun)。
 
-```
+```php
 <?php
 <?php
 // PHP code for array_udiff_assoc function.
@@ -115,7 +115,7 @@ print_r($result);
 
 **输出:**
 
-```
+```php
 Array
 (
     [b] => Ram
@@ -128,7 +128,7 @@ Array
 
 **程序:2** 取四个数组(array1、array2、array3 和 array4)并使用用户自定义的键比较函数 array_udiff_assoc()。
 
-```
+```php
 <?php
 // PHP code for array_udiff_assoc function
 // This function is used to decide which elements
@@ -172,7 +172,7 @@ print_r($result);
 
 **输出:**
 
-```
+```php
 Array
 (
     [b] => Page

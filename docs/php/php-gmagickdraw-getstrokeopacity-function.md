@@ -6,7 +6,7 @@ Gmagick：：getstrokeopacity()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::getstrokeopacity( void )
 ```
 
@@ -21,7 +21,7 @@ Gmagick：：getstrokeopacity()函数是 PHP 中的一个内置函数，用于�
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -54,13 +54,13 @@ print_r($draw->getstrokeopacity());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -103,7 +103,7 @@ echo $draw->getstrokeopacity();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.49999237048905
 ```
 

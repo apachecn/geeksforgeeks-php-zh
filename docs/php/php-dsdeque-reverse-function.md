@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::reverse( void ) : void
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -42,7 +42,7 @@ var_dump($deck);
 
 **输出：**
 
-```
+```php
 Elements of Deque
 object(Ds\Deque)#1 (6) {
   [0]=>
@@ -79,7 +79,7 @@ object(Ds\Deque)#1 (6) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -103,7 +103,7 @@ print_r($deck);
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (

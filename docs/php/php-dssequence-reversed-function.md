@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Sequence* abstract public Ds\Sequence::reversed ( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new Sequence 
@@ -39,7 +39,7 @@ print_r($seq->reversed()); 
 
 **输出：**
 
-```
+```php
 Ds\Vector Object
 (
     [0] => 1
@@ -62,7 +62,7 @@ Ds\Vector Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new Vector 
@@ -83,7 +83,7 @@ print_r($seq->reversed());
 
 **输出：**
 
-```
+```php
 Ds\Vector Object
 (
     [0] => Geeks

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *bool* ZipArchive::extractTo( *string* $destination, *mixed* $entries )
 ```
 
@@ -17,7 +17,7 @@
 
 **示例 1:** 本示例从特定文件夹中解压缩所有文件。
 
-```
+```php
 <?php
 
 $zip = new ZipArchive;
@@ -41,7 +41,7 @@ if ($zip->open('GeeksforGeeks.zip') === TRUE) {
 
 **示例 2:** 本示例从文件夹中解压缩特定文件。
 
-```
+```php
 <?php
 
 $zip = new ZipArchive;

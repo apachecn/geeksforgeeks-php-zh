@@ -6,7 +6,7 @@ ImagickDraw：：getStrokeWidth()函数是 PHP 的内置函数，用于返回用
 
 **语法：**
 
-```
+```php
 *float* ImagickDraw::getStrokeWidth( void )
 ```
 
@@ -20,7 +20,7 @@ ImagickDraw：：getStrokeWidth()函数是 PHP 的内置函数，用于返回用
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object
@@ -48,7 +48,7 @@ echo $draw->getStrokeWidth();
 
 **输出：**
 
-```
+```php
 7
 ```
 

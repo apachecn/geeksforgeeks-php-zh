@@ -13,7 +13,7 @@ cURL 是 PHP 中的一个模块，用它我们可以使用 libcurl。libcurl 是
 
 **示例:**这些是使用 cURL 发出的请求。
 
-```
+```php
 <?php>
 
 // Get cURL resource
@@ -46,7 +46,7 @@ Guzzle 是一个微框架(抽象层)，它是一个 PHP HTTP 客户端，因此 
 
 **示例:**这些是使用 Guzzle 发出的请求。
 
-```
+```php
 <?php
 
 use GuzzleHTTP\Client;

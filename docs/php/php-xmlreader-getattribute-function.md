@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* XMLReader::getAttribute( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 加入时间：清华大学 2007 年 01 月 25 日下午 3：33
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <body>
     <h1> Hello </h1>
@@ -29,7 +29,7 @@
 
 **index.php**
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -53,14 +53,14 @@ while ($XMLReader->read()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 // Empty string because there is no attributes with name id
 ```
 
 **程序 2：**
 **data.xml**
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <body>
     <h1 id="geeksforgeeks"> Hello </h1>
@@ -70,7 +70,7 @@ while ($XMLReader->read()) {
 
 **index.php**
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -95,7 +95,7 @@ while ($XMLReader->read()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 geeksforgeeks
 my_id
 ```

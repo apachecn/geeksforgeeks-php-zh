@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* imagepalettecopy( *resource* $destination, *resource* $source )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create two palette images
 $palette1 = imagecreate(700, 200);
@@ -47,7 +47,7 @@ imagepng($palette2);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create two palette images
 $palette1 = imagecreate(700, 200);
@@ -73,7 +73,7 @@ echo "Number of colors at image 2 is " . $color2;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Number of colors at image 1 is 1
 Number of colors at image 2 is 1
 ```

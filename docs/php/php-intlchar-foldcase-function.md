@@ -5,7 +5,7 @@
 **IntlChar：：foldCase()函数**是 PHP 中的一个内置函数，用于在代码点上执行案例折叠。 大小写折叠意味着给定的字符被映射到其等效的小写字符。
 **语法：**和
 
-```
+```php
 *mixed* IntlChar::foldCase( $codepoint, $options = 
 IntlChar::FOLD_CASE_DEFAULT )
 ```
@@ -22,7 +22,7 @@ IntlChar::FOLD_CASE_DEFAULT )
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate the IntlChar::foldCase() function
 
@@ -47,7 +47,7 @@ var_dump(IntlChar::foldCase('1', IntlChar::FOLD_CASE_DEFAULT));
 
 **Output:** 
 
-```
+```php
 NULL
 string(1) "@"
 string(1) "&"

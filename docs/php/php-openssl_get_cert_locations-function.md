@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* openssl_get_cert_locations( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 var_dump(openssl_get_cert_locations());

@@ -6,7 +6,7 @@ Rtrim()函数是 PHP 中的一个内置函数，用于从字符串右侧删除�
 
 **语法：**
 
-```
+```php
 rtrim( $string, $charlist )
 ```
 
@@ -25,7 +25,7 @@ rtrim( $string, $charlist )
 
 例如：
 
-```
+```php
 Input : $string = "Geeks for Geeks    "
 Output : Geeks for Geeks
 
@@ -38,7 +38,7 @@ Output : Geeks for
 
 **程序 1：**此程序显示了 rtrim()函数的使用，但没有任何指定的要删除的字符列表。
 
-```
+```php
 <?php
 
 $string = "Geeks for    ";
@@ -49,13 +49,13 @@ echo rtrim($string)." Geeks";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Geeks for Geeks
 ```
 
 **程序 2：**此程序显示如何使用 rtrim()函数以及指定的要删除的字符列表。
 
-```
+```php
 <?php
 
 $string = "Geeks for !!! (( !!))";
@@ -69,7 +69,7 @@ echo rtrim($string, "! ()")." Geeks";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Geeks for Geeks
 ```
 

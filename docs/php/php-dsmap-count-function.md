@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* public Ds\Map::count()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the count() 
 // function of Ds\map 
@@ -41,7 +41,7 @@ print_r($map->count());
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object
@@ -69,7 +69,7 @@ Number of elements present in map: 3
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the count() 
 // function of Ds\map 
@@ -101,7 +101,7 @@ print_r($map->count());
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object

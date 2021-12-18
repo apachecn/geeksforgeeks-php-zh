@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *int* IntlCalendar::get( *int* $field )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *int* intlcal_get( *IntlCalendar* $cal, *int* $field )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -63,7 +63,7 @@ foreach ($arr as $constVal => $constName) {
 
 **输出：**
 
-```
+```php
 string(25) "Sep 23, 2019, 11:03:29 AM"
 Constant Name: WALLTIME_LAST
 Constant Value: 1

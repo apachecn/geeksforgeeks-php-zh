@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imageistruecolor( *resource* $image )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create an image instance with a truecolor image
 $im = imagecreatefrompng(
@@ -38,7 +38,7 @@ if($istruecolor) {
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create an image instance with a grayscale image
 $im = imagecreatefrompng(

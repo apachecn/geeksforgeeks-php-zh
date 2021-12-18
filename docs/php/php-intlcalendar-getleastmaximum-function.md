@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *int* IntlCalendar::getLeastMaximum( *int* $field )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *int* intlcal_get_least_maximum( *IntlCalendar* $cal, *int* $field )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the date timezone
@@ -52,7 +52,7 @@ var_dump(
 
 **输出：**
 
-```
+```php
 int(28)
 int(31)
 int(31)

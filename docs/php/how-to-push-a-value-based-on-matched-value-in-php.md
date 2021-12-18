@@ -8,7 +8,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php 
 
 // Creating an associative array
@@ -53,7 +53,7 @@ print_r($array2);
 
 **Output:**
 
-```
+```php
 Array
 (
     [1] => Array
@@ -81,7 +81,7 @@ Array
 在上面的程序中，该值被推入一个现有的数组中。如果你想在一个全新的数组中推送值，那么请看下面的程序。
 **节目 2:**
 
-```
+```php
 <?php 
 
 // Creating an associative array
@@ -128,7 +128,7 @@ print_r($array3);
 
 **Output:**
 
-```
+```php
 Array
 (
     [1] => Array
@@ -154,7 +154,7 @@ Array
 
 **程序 3:**
 
-```
+```php
 <?php 
 
 // Create an associative array
@@ -193,7 +193,7 @@ print_r($student);
 
 **Output:**
 
-```
+```php
 Array
 (
     [IT] => Array

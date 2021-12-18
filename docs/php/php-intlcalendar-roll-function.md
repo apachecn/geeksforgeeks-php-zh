@@ -7,13 +7,13 @@
 
 *   面向对象的样式：
 
-```
+```php
 *bool* IntlCalendar::roll( *int* $field, *mixed* $amountOrUpOrDown )
 ```
 
 *   程序风格：
 
-```
+```php
 *bool* intlcal_roll( *IntlCalendar* $cal, *int* $field, *mixed* $amountOrUpOrDown )
 ```
 
@@ -29,7 +29,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -55,7 +55,7 @@ var_dump(IntlDateFormatter::formatObject($calendar));
 
 **Output:** 
 
-```
+```php
 string(24) "Sep 24, 2019, 8:29:48 AM"
 string(24) "Sep 23, 2019, 8:29:48 AM"
 ```

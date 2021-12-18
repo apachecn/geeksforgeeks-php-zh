@@ -6,7 +6,7 @@ array_chunk()函数是 PHP 中的一个内置函数，用于根据传递给函�
 
 **语法:**
 
-```
+```php
 *array* array_chunk( $array, $size, $preserve_keys )
 
 ```
@@ -21,7 +21,7 @@ array_chunk()函数是 PHP 中的一个内置函数，用于根据传递给函�
 
 示例:
 
-```
+```php
 Input : $input_array = array('a', 'b', 'c', 'd', 'e');
         array_chunk($input_array, 2);
 Output : Array(
@@ -69,7 +69,7 @@ Output :    Array
 
 **节目 1:**
 
-```
+```php
 <?php
 
 $input_array = array('a', 'b', 'c', 'd', 'e');
@@ -81,7 +81,7 @@ print_r(array_chunk($input_array, 2));
 
 **输出:**
 
-```
+```php
 Array
 (
     [0] => Array
@@ -103,7 +103,7 @@ Array
 
 **节目 2:**
 
-```
+```php
 <?php
 
 $input_array = array('a', 'b', 'c', 'd', 'e');
@@ -115,7 +115,7 @@ print_r(array_chunk($input_array, 2, true));
 
 **输出:**
 
-```
+```php
 Array
 (
     [0] => Array

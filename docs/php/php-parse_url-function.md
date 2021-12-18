@@ -6,7 +6,7 @@ Parse_url()函数是 PHP 中的一个内置函数，用于通过解析返回 URL
 
 **语法：**
 
-```
+```php
 parse_url( $url, $component = -1 )
 ```
 
@@ -25,7 +25,7 @@ parse_url( $url, $component = -1 )
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it with URL
@@ -40,7 +40,7 @@ var_dump(parse_url($url, PHP_URL_SCHEME));
 
 **输出：**
 
-```
+```php
 array(4) {
   ["scheme"]=>
   string(4) "http"
@@ -57,7 +57,7 @@ string(4) "http"
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it with URL
@@ -72,7 +72,7 @@ var_dump(parse_url($url));
 
 **输出：**
 
-```
+```php
 array(3) {
   ["host"]=>
   string(21) "www.geeksforgeeks.org"

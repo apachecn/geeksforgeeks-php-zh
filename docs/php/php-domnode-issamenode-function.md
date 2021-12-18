@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMNode::isSameNode( *DOMNode* $node )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -45,7 +45,7 @@ if($isSameNode) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

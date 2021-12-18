@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::writeImage( *string* $filename = NULL )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -42,7 +42,7 @@ $imagick->writeImage();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

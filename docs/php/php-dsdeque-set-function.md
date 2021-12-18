@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::set( $index, $value ) : void
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -45,7 +45,7 @@ print_r($deck);
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (
@@ -67,7 +67,7 @@ Ds\Deque Object
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -91,7 +91,7 @@ print_r($deck);
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (

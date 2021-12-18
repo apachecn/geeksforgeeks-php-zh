@@ -18,7 +18,7 @@ Php 中的 pi()函数用于返回π的值。 此外，M_Pi 是一个命名常量
 
 **语法：**
 
-```
+```php
 *float* pi()
 ```
 
@@ -28,7 +28,7 @@ Php 中的 pi()函数用于返回π的值。 此外，M_Pi 是一个命名常量
 
 例如：
 
-```
+```php
 Input : echo(pi())
 Output : 3.1415926535898
 
@@ -41,7 +41,7 @@ Output : 3.1415926535898
 
 1.  When pi() function is used:
 
-    ```
+    ```php
     <?php
 
     echo(pi());
@@ -51,13 +51,13 @@ Output : 3.1415926535898
 
     产出：
 
-    ```
+    ```php
     3.1415926535898
     ```
 
 2.  When M_PI is used for finding the value of PI:
 
-    ```
+    ```php
     <?php
 
     echo M_PI;
@@ -67,7 +67,7 @@ Output : 3.1415926535898
 
     产出：
 
-    ```
+    ```php
     3.1415926535898
     ```
 

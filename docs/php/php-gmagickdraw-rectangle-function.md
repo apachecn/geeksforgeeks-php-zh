@@ -6,7 +6,7 @@ GmagickDraw：：Rectangle()函数是 PHP 中的一个内置函数，用于绘�
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::rectangle( $x1, $y1, $x2, $y2 )
 ```
 
@@ -26,7 +26,7 @@ GmagickDraw：：Rectangle()函数是 PHP 中的一个内置函数，用于绘�
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -60,7 +60,7 @@ echo $gmagick->getImageBlob(); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 

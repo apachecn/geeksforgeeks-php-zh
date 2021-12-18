@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::sum( void ) : number
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -40,7 +40,7 @@ var_dump($deck->sum());
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (
@@ -57,7 +57,7 @@ Sum of all Deque elements: int(24)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -79,7 +79,7 @@ var_dump($deck->sum());
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (

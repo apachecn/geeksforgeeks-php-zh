@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```php
 ltrim($string, $charlist)
 
 ```
@@ -17,7 +17,7 @@ ltrim($string, $charlist)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to remove white space
 // from beginning of a string 
@@ -41,7 +41,7 @@ echo $len;
 
 **输出**
 
-```
+```php
 Geeks  for  Geeks   
 Length of String: 20
 ```

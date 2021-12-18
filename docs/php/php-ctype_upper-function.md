@@ -6,7 +6,7 @@ PHP 中用于检查给定字符串的每个字符是否为大写的 ctypeupper()
 
 **语法：**
 
-```
+```php
 ctype_upper (string text)
 
 ```
@@ -20,7 +20,7 @@ ctype_upper (string text)
 
 例如：
 
-```
+```php
 Input  : GEEKSFORGEEKS
 Output : Yes
 Explanation: All characters of  "GEEKSFORGEEKS" 
@@ -38,7 +38,7 @@ Explanation : In String "GFG INDIA" a special character [space]
 
 ```
 
-```
+```php
 Note: Except string, if we input anything then it will return FALSE.
 ```
 
@@ -46,7 +46,7 @@ Note: Except string, if we input anything then it will return FALSE.
 
 **程序：1**
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // all characters -Uppercase characters
@@ -67,14 +67,14 @@ $string1 = 'GEEKSFORGEEKS';
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
 
 **程序：2**将字符串数组作为文本传递，并打印单个值的结果。
 
-```
+```php
 <?php
 
 // PHP program to check given string is 
@@ -102,7 +102,7 @@ foreach ($strings as $test) {
 
 **Output:**
 
-```
+```php
 Yes
 No
 No
@@ -112,7 +112,7 @@ Yes
 
 **程序：3**驱动代码**CTYPE_UPPER()**函数，其中输入将是空格，特殊符号，返回 FALSE。
 
-```
+```php
 
 <?php
 // PHP program to check given string is 
@@ -139,7 +139,7 @@ foreach ($strings as $test) {
 
 **Output:**
 
-```
+```php
 No
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 strcasecmp($string1, $string2)
 ```
 
@@ -23,7 +23,7 @@ strcasecmp($string1, $string2)
 
 **示例：**
 
-```
+```php
 Input : $str1 = "Geeks for Geeks "
         $str2 = "Geeks for Geeks "
 Output : 0
@@ -38,7 +38,7 @@ Output : -1
 
 **程序 1：**当两个字符串相同时：
 
-```
+```php
 <?php
 // PHP program to demonstrate the use
 // of strcasecmp() function
@@ -56,13 +56,13 @@ echo "$test"; 
 
 产出：
 
-```
+```php
 0
 ```
 
 **程序 2：**当两个字符串不相同时：
 
-```
+```php
 <?php
 // PHP program to demonstrate the use
 // of strcasecmp() function
@@ -82,13 +82,13 @@ echo "$test"; 
 
 产出：
 
-```
+```php
 -1
 ```
 
 **程序 3：**当两个字符串不相同时：
 
-```
+```php
 <?php
 // PHP program to demonstrate the use
 // of strcasecmp() function
@@ -106,7 +106,7 @@ echo "$test"; 
 
 产出：
 
-```
+```php
 1
 ```
 

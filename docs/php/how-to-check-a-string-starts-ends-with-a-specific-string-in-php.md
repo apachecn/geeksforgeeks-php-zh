@@ -6,7 +6,7 @@
 
 我们需要使用 [XAMPP](https://www.apachefriends.org/download.html) 、[网豆](https://netbeans-ide.informer.com/8.2/)来运行这段代码。
 
-```html
+```phphtml
 Input: "Geeks For Geeks"
 Starting with: "G"
 Output: "Geeks For Geeks Starts with String G"
@@ -25,7 +25,7 @@ Output: "Geeks For Geeks Starts with String G"
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <!DOCTYPE html>
 <?php
 $msg = "";
@@ -100,7 +100,7 @@ if (isset($_POST['submit'])) {
 
 **输入:**
 
-```html
+```phphtml
 Input: Geeks For Geeks
 String To be Checked: Geek
 Type: Starts With

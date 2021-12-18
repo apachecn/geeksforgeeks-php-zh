@@ -18,7 +18,7 @@
 
 ## 结构化查询语言
 
-```html
+```phphtml
 CREATE TABLE `users` (
     `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `username` varchar(100) NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <?php  if (count($errors) > 0) : ?>
     <div class="error">
         <?php foreach ($errors as $error) : ?>
@@ -56,7 +56,7 @@ T3】server.php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
 // Starting the session, necessary
@@ -182,7 +182,7 @@ T21login.php
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
@@ -237,7 +237,7 @@ T3【register.php】T4
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
@@ -300,7 +300,7 @@ T3【index.php】T4
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <?php
 
 // Starting the session, to use and

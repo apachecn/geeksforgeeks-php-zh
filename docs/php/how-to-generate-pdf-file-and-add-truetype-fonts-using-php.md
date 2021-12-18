@@ -8,19 +8,19 @@
 
 *   **第一步:**你需要[从](http://www.fpdf.org/en/download.php) [FPDF 网站](http://www.fpdf.org/)下载 FPDF 类，并将其包含在你的 PHP 脚本中。
 
-    ```
+    ```php
     require('fpdf/fpdf.php');
     ```
 
 *   **第二步:**将以下文件添加到您使用 TrueType 或 Type1 字体的代码中，这样您就不局限于标准字体。
 
-    ```
+    ```php
     define('FPDF_FONTPATH','./');
     ```
 
 *   **步骤 3:** 根据需要实例化并使用 FPDF 类，如下例所示。
 
-    ```
+    ```php
     $pdf=new FPDF();
     ```
 
@@ -30,7 +30,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   define('FPDF_FONTPATH','./');
 

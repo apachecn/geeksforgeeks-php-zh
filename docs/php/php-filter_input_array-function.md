@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* filter_input_array( $type_of_data, $definition, $add_empty_parameter )
 ```
 
@@ -27,7 +27,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $filters = array(
@@ -59,7 +59,7 @@ print_r(filter_input_array(INPUT_GET, $filters));
 **程序 2：**
 **数据来自 POST 方法：**
 
-```
+```php
 $_POST = array(
     'product_id' => '234<A>',
     'component'  => array('10'),
@@ -70,7 +70,7 @@ $_POST = array(
 
 ```
 
-```
+```php
 <?php
 // PHP program to uses filter_input_array() Function
 

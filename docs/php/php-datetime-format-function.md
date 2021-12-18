@@ -8,25 +8,25 @@
 
 *   面向对象样式
 
-    ```
+    ```php
     *string* DateTime::format( *string* $format )
     ```
 
     或
 
-    ```
+    ```php
     *string* DateTimeImmutable::format( *string* $format )
     ```
 
     或
 
-    ```
+    ```php
     *string* DateTimeInterface::format( *string* $format )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *string* date_format( *DateTimeInterface* $object, *string* $format )
     ```
 
@@ -41,7 +41,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initialising the DateTime() object with a date
@@ -56,14 +56,14 @@ echo $datetime->format('d-m-Y');
 
 **输出：**
 
-```
+```php
 30-09-2019
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initialising the DateTime() object with a date
@@ -78,7 +78,7 @@ echo $datetime->format('d-m-Y H:i:s');
 
 **输出：**
 
-```
+```php
 30-09-2019 00:00:00
 
 ```

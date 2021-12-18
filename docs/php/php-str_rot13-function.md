@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 str_rot13 ( $string )
 ```
 
@@ -18,7 +18,7 @@ str_rot13 ( $string )
 
 例如：
 
-```
+```php
 Input : $string = "Geeks for Geeks"
 Output : Trrxf sbe Trrxf
 
@@ -29,7 +29,7 @@ Output : Geeks for Geeks
 
 下面的程序演示了 PHP 中的 str_rot13()函数：
 
-```
+```php
 <?php
 
 echo str_rot13("Geeks for Geeks");
@@ -41,7 +41,7 @@ echo str_rot13("Trrxf sbe Trrxf");
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Trrxf sbe Trrxf
 Geeks for Geeks
 ```

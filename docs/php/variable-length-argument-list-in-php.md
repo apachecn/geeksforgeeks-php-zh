@@ -16,7 +16,7 @@
 
 *   **例:**
 
-    ```
+    ```php
     <?php
     function sum(...$numbers) {
       $res = 0;
@@ -33,7 +33,7 @@
 
 *   **输出:**
 
-    ```
+    ```php
     10 
     12
     ```
@@ -42,7 +42,7 @@
 
 *   **例:**
 
-    ```
+    ```php
     <?php
     function add($a,$b) {
       return $a + $b ;
@@ -56,7 +56,7 @@
 
 *   **输出:**
 
-    ```
+    ```php
     3
     3
 
@@ -66,7 +66,7 @@
 
 *   **例:**
 
-    ```
+    ```php
     <?php
     function total_intervals($unit, DateInterval ...$intervals) {
         $time = 0;
@@ -85,6 +85,6 @@
 
 *   **输出:**
 
-    ```
+    ```php
      3 days
     ```

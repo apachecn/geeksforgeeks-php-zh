@@ -20,7 +20,7 @@ Filetype()函数的七个可能返回值为：
 
 **语法：**
 
-```
+```php
 filetype( $filename )
 ```
 
@@ -37,7 +37,7 @@ filetype( $filename )
 
 例如：
 
-```
+```php
 Input : filetype("gfg.txt");
 Output : file
 
@@ -50,7 +50,7 @@ Output : dir
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // displaying file type using
@@ -62,13 +62,13 @@ echo filetype("gfg.txt");
 
 产出：
 
-```
+```php
 file
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // displaying file type using
@@ -82,7 +82,7 @@ echo $myfile . ': ' . filetype($myfile);
 
 产出：
 
-```
+```php
 documents : dir
 ```
 

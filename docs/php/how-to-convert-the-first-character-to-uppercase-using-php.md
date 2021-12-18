@@ -18,7 +18,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   //declaring string
   $str = "how!to?code? in geeksforgeeks";
@@ -35,7 +35,7 @@
 
 **Output**
 
-```
+```php
 Original String : how!to?code? in geeksforgeeks
 Modified String : How!to?code? in geeksforgeeks
 ```
@@ -44,7 +44,7 @@ Modified String : How!to?code? in geeksforgeeks
 
 **ucfirst()** 方法接受一个输入字符串，并将其第一个字符转换为大写，如果它是小写字母字符的话。输出必须保存在变量中以保留更改。
 
-```
+```php
 ucfirst ( str )
 ```
 
@@ -52,7 +52,7 @@ ucfirst ( str )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   $str = "how!to?code? in geeksforgeeks";
@@ -64,7 +64,7 @@ ucfirst ( str )
 
 **Output**
 
-```
+```php
 Original String : how!to?code? in geeksforgeeks
 Modified String : How!to?code? in geeksforgeeks
 ```
@@ -81,7 +81,7 @@ Modified String : How!to?code? in geeksforgeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   //declaring string
   $str = "how!to?code? in geeksforgeeks";
@@ -98,7 +98,7 @@ Modified String : How!to?code? in geeksforgeeks
 
 **Output**
 
-```
+```php
 Original String : how!to?code? in geeksforgeeks
 Modified String : How!to?code? in geeksforgeeks
 ```

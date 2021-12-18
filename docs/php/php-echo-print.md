@@ -12,7 +12,7 @@
 
 ## PHP
 
-```
+```php
 <?php
     echo "Hello,This is a display string example!";
 ?>
@@ -20,7 +20,7 @@
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Hello,This is a display string example!
 ```
 
@@ -28,7 +28,7 @@ Hello,This is a display string example!
 
 ## PHP
 
-```
+```php
 <?php
     echo "Multiple ","argument ","string!";
 ?>
@@ -36,7 +36,7 @@ Hello,This is a display string example!
 
 **输出：**
 
-```
+```php
 Multiple argument string!
 ```
 
@@ -44,7 +44,7 @@ Multiple argument string!
 
 ## PHP
 
-```
+```php
 <?php
   // Defining the variables
   $text = "Hello, World!";
@@ -60,7 +60,7 @@ Multiple argument string!
 
 **输出：**
 
-```
+```php
 Hello, World!
 10+20=30
 ```
@@ -75,7 +75,7 @@ Hello, World!
 
 ## PHP
 
-```
+```php
 <?php
     print "Hello, world!";
 ?>
@@ -83,7 +83,7 @@ Hello, World!
 
 **输出：**
 
-```
+```php
 Hello, world!
 ```
 
@@ -91,7 +91,7 @@ Hello, world!
 
 ## PHP
 
-```
+```php
 <?php
 
   // Defining the variables
@@ -108,7 +108,7 @@ Hello, world!
 
 **输出：**
 
-```
+```php
 Hello, World!
 10+20=30
 ```

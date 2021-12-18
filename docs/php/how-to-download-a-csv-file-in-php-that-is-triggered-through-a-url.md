@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```php
 file_get_contents($path, $include_path, 
         $context, $start, $max_length)
 ```
@@ -30,7 +30,7 @@ file_get_contents($path, $include_path,
 
 **示例 1:** 这个简单的示例演示了如何使用 **file_get_contents()** 函数在服务器端下载 CSV 文件。
 
-```
+```php
 <?php
 
 // Initialize a file URL to the variable 
@@ -74,7 +74,7 @@ else echo "Sorry, that's not a CSV file";
 
 **语法:**
 
-```
+```php
 readfile($filename, $include_path, $context)
 ```
 
@@ -88,7 +88,7 @@ readfile($filename, $include_path, $context)
 
 **例 2:** 下面简单的程序演示了使用 **readfile()** 功能在客户端机器上下载 csv 文件。
 
-```
+```php
 <?php
 
 $url = "Sample-Spreadsheet-10-rows.csv";

@@ -7,7 +7,7 @@
 
 解决上述问题的一种方法是使用以下方法，我们只需要在 HTML 中设置图像标签的宽度和高度属性。
 
-```
+```php
 <img src="check.jpg" height="100" width="100" alt="Image resize">
 ```
 
@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```php
 *bool* imagecopyresampled( *resource* $dst_image, *resource* $src_image,
                   *int* $dst_x, *int* $dst_y, *int* $src_x, *int* $src_y,
                   *int* $dst_w, *int* $dst_h, *int* $src_w, *int* $src_h )
@@ -29,7 +29,7 @@
 
 **示例:**本示例使用 imagecopyresampled()函数调整图像大小。
 
-```
+```php
 <?php
 
 // The file concerned

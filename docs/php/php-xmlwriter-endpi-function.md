@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::endPi( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -49,7 +49,7 @@ $writer->endDocument();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -83,7 +83,7 @@ $writer->endDocument();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 

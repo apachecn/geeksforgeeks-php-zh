@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::getIntPropertyMaxValue( $property ) 
 
 ```
@@ -19,7 +19,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // PHP program to uses IntlChar::getIntPropertyMaxValue()
@@ -45,7 +45,7 @@ var_dump(IntlChar::getIntPropertyMaxValue(69)); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 int(1)
 int(1)
 int(12)

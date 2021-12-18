@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isInstantiable( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined Class Departments
@@ -40,14 +40,14 @@ var_dump($instance);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing a interface named as TestFunction
@@ -68,7 +68,7 @@ var_dump($class->isInstantiable());
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

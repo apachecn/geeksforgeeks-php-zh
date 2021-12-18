@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* sort($array, sorting_type)
 ```
 
@@ -25,7 +25,7 @@
 
 例如：
 
-```
+```php
 Input : $array = [3, 4, 1, 2] 
 Output : 
 Array
@@ -52,7 +52,7 @@ Array
 
 **程序 1：**演示排序()函数用法的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of sort() function
 
@@ -68,7 +68,7 @@ print_r($array);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 1
@@ -81,7 +81,7 @@ Array
 
 **程序 2：**演示如何使用 Sort()函数对字符串进行区分大小写排序的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of sort() function
 // sorts the string case-sensitively 
@@ -97,7 +97,7 @@ print_r($array);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => RAj
@@ -111,7 +111,7 @@ Array
 
 **程序 3：**演示如何使用 Sort()函数对字符串进行不区分大小写的排序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the use
 // of sort() function sorts the string 
@@ -129,7 +129,7 @@ print_r($array);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => coding

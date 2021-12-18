@@ -8,7 +8,7 @@ SimpleXMLElement：：count()函数是 PHP 中内置函数，用于计算 Simple
 
 **语法：**
 
-```
+```php
 *int* SimpleXMLElement::count()
 ```
 
@@ -20,7 +20,7 @@ SimpleXMLElement：：count()函数是 PHP 中内置函数，用于计算 Simple
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -48,7 +48,7 @@ echo $xml->count();
 
 **示例 2：**对 XML 文档的子元素的子元素进行计数。
 
-```
+```php
 <?php
 
 // Loading XML document to $user

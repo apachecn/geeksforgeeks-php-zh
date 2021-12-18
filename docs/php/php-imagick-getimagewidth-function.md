@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageWidth( void )
 ```
 
@@ -19,7 +19,7 @@
 下面的程序说明了 PHP：
 **程序：**中的**Imagick：：getImageWidth()**函数
 
-```
+```php
 <?php 
 // require_once('path/vendor/autoload.php');
 
@@ -37,7 +37,7 @@ print_r($width);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 667
 ```
 

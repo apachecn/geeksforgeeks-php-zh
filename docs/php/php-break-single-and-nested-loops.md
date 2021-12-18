@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```php
 Input : array1 = array( 1, 2, 3, 4, 5, 6, 7 )
 Output : 1 2 3 4
          Loop Terminated
@@ -22,7 +22,7 @@ Output : 10 2
 
 **程序:**
 
-```
+```php
 <?php
 // PHP program to break the loop
 
@@ -43,7 +43,7 @@ echo "Loop Terminated";
 
 **Output:**
 
-```
+```php
 1 2 3 4 
 Loop Terminated
 
@@ -54,7 +54,7 @@ Loop Terminated
 
 **示例:**
 
-```
+```php
 Input : arr1 = array( 'A', 'B', 'C' );
         arr2 = array( 'C', 'A', 'B', 'D' );
 Output : A C 
@@ -68,7 +68,7 @@ Output :10 1 2
 
 ```
 
-```
+```php
 <?php
 // PHP program to break the loop
 
@@ -96,7 +96,7 @@ echo "\nLoop Terminated";
 
 **Output:**
 
-```
+```php
 A C 
 Loop Terminated
 

@@ -5,7 +5,7 @@
 函数**imagewebp()**是 PHP 的内置函数，用于将图像显示到浏览器或文件。 此功能的主要用途是在浏览器中查看图像、将任何其他图像类型转换为 WebP 以及更改图像质量。
 **语法：**
 
-```
+```php
 *bool* imagewebp( *resource* $image, *int* $to, *int* $quality)
 
 ```
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load an image from local webp file
@@ -47,7 +47,7 @@ imagedestroy($im);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load an image from local webp file
@@ -65,7 +65,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the WEBP version of image in the same folder where your PHP script is.
 
 ```
@@ -74,7 +74,7 @@ This will save the WEBP version of image in the same folder where your PHP scrip
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load an image from local webp file

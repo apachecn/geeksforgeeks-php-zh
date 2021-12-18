@@ -6,7 +6,7 @@ PHP 中的集合对象由一个长度参数来表征，以指示其中包含的�
 
 [**sizeof()方法**](https://www.geeksforgeeks.org/php-sizeof-function/)**:**sizeof()方法用于计算数组或任何其他可数对象中存在的所有元素。它既可用于一维阵列，也可用于多维阵列。
 
-```
+```php
 sizeof(arr, mode)
 ```
 
@@ -19,7 +19,7 @@ sizeof(arr, mode)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arr = array(
        "Java" => array(
@@ -47,7 +47,7 @@ echo "All elements of an array: "
 
 **输出:**
 
-```
+```php
 Array ( 
     [Java] => Array ( 
         [0] => SpringBoot 
@@ -66,7 +66,7 @@ All elements of an array: 7
 
 [**count()方法**](https://www.geeksforgeeks.org/php-count-function/)**:**count()方法用于计算数组或任何其他可数对象中的所有元素。它既可用于一维阵列，也可用于多维阵列。
 
-```
+```php
 count(arr, mode)
 ```
 
@@ -79,7 +79,7 @@ count(arr, mode)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arr = array(
        "Java" => array(
@@ -107,7 +107,7 @@ echo "All elements of an array: "
 
 **输出**
 
-```
+```php
 Array ( 
     [Java] => Array ( 
         [0] => SpringBoot 

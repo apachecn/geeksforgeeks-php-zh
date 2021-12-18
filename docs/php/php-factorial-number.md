@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```php
 Input : 5
 Output : 120
 
@@ -18,7 +18,7 @@ Output : 3628800
 **方法 1：迭代方式**
 在此方法中，我们简单地使用 for 循环迭代数字序列以获得阶乘。
 
-```
+```php
 <?php
 // PHP code to get the factorial of a number
 // function to get factorial in iterative way
@@ -39,7 +39,7 @@ echo "Factorial = $fact";
 
 产出：
 
-```
+```php
 3628800
 
 ```
@@ -47,7 +47,7 @@ echo "Factorial = $fact";
 **方法 2：使用递归**
 在此方法中，我们调用相同的方法来获得阶乘的序列。
 
-```
+```php
 <?php
 // PHP code to get the factorial of a number
 // function to get factorial in iterative way
@@ -69,7 +69,7 @@ echo "Factorial = $fact";
 
 产出：
 
-```
+```php
 3628800
 
 ```

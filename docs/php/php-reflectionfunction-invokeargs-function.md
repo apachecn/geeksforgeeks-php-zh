@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* ReflectionFunction::invokeArgs( *array* $args )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined function
@@ -42,14 +42,14 @@ echo $A;
 
 **输出：**
 
-```
+```php
 GeeksforGeeks is a Computer Science Portal.
 
 ```
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined functions
@@ -75,7 +75,7 @@ echo $function->invokeArgs(array('a*a', '= a^2'));
 
 **输出：**
 
-```
+```php
 a+a = 2a
 a*a = a^2
 

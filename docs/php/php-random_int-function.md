@@ -11,7 +11,7 @@
 
 **语法：**
 
-```
+```php
 int random_int ( $min, $max )
 
 ```
@@ -25,7 +25,7 @@ int random_int ( $min, $max )
 
 例如：
 
-```
+```php
 Input : min= 10, max=10000
 Output : int(5183)
 
@@ -37,7 +37,7 @@ Output : int(-60209)
 下面的程序演示了 PHP 中的 Random_int()函数。
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to demonstrate
 // the random_int() function 
@@ -52,7 +52,7 @@ var_dump(random_int(9, 10));
 
 输出
 
-```
+```php
 int(835427)
 int(86695)
 int(10)
@@ -64,7 +64,7 @@ int(10)
 **程序 2：**
 当写入无效范围时，则会出现运行时错误。
 
-```
+```php
 <?php
 // PHP program to demonstrate
 // the random_int() function 
@@ -80,7 +80,7 @@ echo "(int)", $t;
 
 输出
 
-```
+```php
 Runtime Error
 
 ```

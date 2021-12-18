@@ -5,7 +5,7 @@
 **gmagick：：embossimage()**函数是 PHP 中的一个内置函数，用于返回具有三维效果的灰度图像。 该函数使用给定半径和标准差的高斯算子对图像进行过滤。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::embossimage( $radius, $sigma )
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

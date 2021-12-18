@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* imagefttext( *resource* $image, *float* $size, *float* $angle,
               *int* $x, *int* $y, *int* $color, *string* $fontfile,
               *string* $text, *array* $extrainfo )
@@ -30,7 +30,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create an empty image
@@ -48,7 +48,7 @@ print("<pre>".print_r($dataArr, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 8
@@ -64,7 +64,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an empty image

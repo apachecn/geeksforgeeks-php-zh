@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickPixel::getColor( *int* $normalized )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagickPixel object
@@ -38,7 +38,7 @@ print("<pre>".print_r($color, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagickPixel object
@@ -57,7 +57,7 @@ print("<pre>".print_r($color, true)."</pre>");
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagickPixel object

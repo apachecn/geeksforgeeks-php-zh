@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *IntlTimeZone* IntlCalendar::getTimeZone( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *IntlTimeZone* intlcal_get_time_zone( *IntlCalendar* $cal )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the date timezone
@@ -62,7 +62,7 @@ print_r($calendar->getTimeZone());
 
 **输出：**
 
-```
+```php
 IntlTimeZone Object
 (
     [valid] => 1

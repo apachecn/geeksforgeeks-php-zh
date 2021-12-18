@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageColorspace( void )
 ```
 
@@ -19,7 +19,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 // require_once('path/vendor/autoload.php'); 
 
@@ -37,7 +37,7 @@ print_r($size);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 13
 ```
 

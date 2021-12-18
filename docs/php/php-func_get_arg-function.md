@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* func_get_arg( *int* $arg )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Function definition
@@ -37,7 +37,7 @@ geeks('hello', 'php', 'geeks');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Print second argument: php
 ```
 
@@ -47,7 +47,7 @@ Print second argument: php
 *   如果参数偏移量的值大于作为函数参数传递的参数的实际值。
 *   如果此函数不是从用户定义函数内部调用的。
 
-```
+```php
 <?php
 
 // Function definition
@@ -67,7 +67,7 @@ geeks('hello', 'php', 'geeks');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Warning:  func_get_arg():  Argument 5 not passed to function in 
     [...][...] on line 4
 
@@ -75,7 +75,7 @@ Warning:  func_get_arg():  Argument 5 not passed to function in
 
 **示例：**
 
-```
+```php
 <?php
 
 // Function definition
@@ -97,7 +97,7 @@ echo "Printing the sixth argument: "
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHP Warning:  func_get_arg():  Called from the global scope - 
 no function context in /home/main.php on line 9       
 
@@ -107,7 +107,7 @@ no function context in /home/main.php on line 9
 
 **示例：**
 
-```
+```php
 <?php
 function geeks() {
     include './testing.inc';
@@ -119,7 +119,7 @@ geeks('Welcome', 'PHP', 'Geeks');
 
 **测试.inc：**
 
-```
+```php
 <?php
 
 $parameter = func_get_arg(1);
@@ -130,7 +130,7 @@ var_export($parameter);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 'PHP' warnings
 
 ```

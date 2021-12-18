@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 preg_replace( $pattern,  $replacement, $subject);
 ```
 
@@ -19,7 +19,7 @@ preg_replace( $pattern,  $replacement, $subject);
 我们创建了一个名为**水果. txt**
 **水果. txt** 的文本文件
 
-```
+```php
 mango
 apple
 papaya
@@ -32,7 +32,7 @@ apple
 
 **程序 1:** 该程序从给定文件中删除所有字符串。
 
-```
+```php
 <?php
 
 $a = 'fruits.txt';
@@ -50,7 +50,7 @@ file_put_contents($a, $c);
 
 **输出:**
 
-```
+```php
 File contents before using preg_replace() function
 mango apple papaya guava apple grapes mango apple
 
@@ -59,7 +59,7 @@ File contents after using preg_replace() function
 
 **程序 2:** 该程序使用 preg_replace()函数从文件中删除特定内容。
 
-```
+```php
 <?php
 
 $a = 'fruits.txt';
@@ -82,7 +82,7 @@ file_put_contents($a, $c); 
 
 **输出:**
 
-```
+```php
 File contents before using preg_replace() function
 mango apple papaya guava apple grapes mango apple
 
@@ -92,7 +92,7 @@ mngo pple ppy guv pple grpes mngo pple
 
 **程序 3:** 该程序从文件中删除整个单词。
 
-```
+```php
 <?php
 
 $a = 'fruits.txt';
@@ -115,7 +115,7 @@ file_put_contents($a, $c); 
 
 **输出:**
 
-```
+```php
 File contents before using preg_replace() function
 mango apple papaya guava apple grapes mango apple
 

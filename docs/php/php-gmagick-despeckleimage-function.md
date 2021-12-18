@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::despeckleimage( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,7 +43,7 @@ echo $gmagicknew;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -68,7 +68,7 @@ echo $pixels[99]->getcolor();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Color of 100th pixel before removing noise: rgb(0, 6682, 8995)
 Color of 100th pixel after removing noise: rgb(3084, 5397, 7967)
 ```

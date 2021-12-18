@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMAttr* DOMElement::getAttributeNode( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -50,7 +50,7 @@ echo $name . " => " . $value . "<br>";
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

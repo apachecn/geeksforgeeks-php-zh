@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* getprotobyname( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**此程序获取协议名“TCP”的协议号。
 
-```
+```php
 <?php
 
 // Use getprotobyname() function to 
@@ -37,7 +37,7 @@ echo $protocolnum;
 
 **程序 2：**该程序检查许多协议名称。
 
-```
+```php
 <?php
 
 $protocols = array("tcp", "udp", "hmp", "ipv6");

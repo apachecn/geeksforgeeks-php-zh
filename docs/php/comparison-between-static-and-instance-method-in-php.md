@@ -8,7 +8,7 @@ The static method in PHP is same as other OOP languages. Static method should be
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP code for static method 
@@ -28,7 +28,7 @@ echo (College::getCollegeName());
 
 **Output:**
 
-```
+```php
 MNNIT Allahabad
 
 ```
@@ -39,7 +39,7 @@ Instance method is used when there is no chance to call the method without exist
 
 **示例:**
 
-```
+```php
 <?php
 // Program for instance methods
 
@@ -73,7 +73,7 @@ echo ($obj -> getName());
 
 **Output:**
 
-```
+```php
 Geeks
 
 ```
@@ -85,7 +85,7 @@ Geeks
 
 **示例:**
 
-```
+```php
 <?php
 
 // Program to compare execution time 
@@ -159,7 +159,7 @@ echo "\nTotal execution time for instance method is: '$time_instance'";
 
 **Output:**
 
-```
+```php
 Current PHP version: 7.0.32-0ubuntu0.16.04.1
 Total execution time is for static method is: '0.0056149959564209'
 Total execution time for instance method is: '0.004885196685791'

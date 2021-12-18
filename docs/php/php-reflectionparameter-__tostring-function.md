@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionParameter::__toString ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionParameter：：__toString()**函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -45,14 +45,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(40) "Parameter #0 [ <required> $Parameter_1 ]"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -85,7 +85,7 @@ var_dump($C->__toString());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(38) "Parameter #0 [ <required> $Full_Name ]"
 string(49) "Parameter #1 [ <optional> $Par3 = 'Parameter_3' ]"
 string(42) "Parameter #1 [ <optional> ...$Parameter5 ]"

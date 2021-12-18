@@ -8,7 +8,7 @@
 
 *   首先，创建一个 PHP 多维数组，用于将该数组转换为 XML 文件格式。
 
-    ```
+    ```php
     $array = array (
         'company' => 'Gfg',
         'employe' => array (
@@ -34,7 +34,7 @@
 
 *   现在，您需要创建一个用户定义的函数 generatXML()。
 
-    ```
+    ```php
     function generateXML($data) {
 
         $title = $data['company'];
@@ -82,13 +82,13 @@
 
 *   然后使用 **generateXML()** 函数，在其中传递数组数据，将数组转换成 PHP 中的 XML。
 
-    ```
+    ```php
     generateXML($array);
     ```
 
 *   **输出:**
 
-    ```
+    ```php
     <geeks>
         <title>Gfg</title>
         <totalRows>4</totalRows>

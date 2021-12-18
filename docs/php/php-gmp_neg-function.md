@@ -6,7 +6,7 @@ gmp_neg()函数是 PHP 中的一个内置函数，它返回 GMP 编号[(GNU 倍�
 
 **语法：**
 
-```
+```php
 gmp_neg( $num  )
 ```
 
@@ -16,7 +16,7 @@ gmp_neg( $num  )
 
 **示例：**
 
-```
+```php
 Input : $num = 255 
 Output : -255
 
@@ -29,7 +29,7 @@ Output : -128
 
 **程序 1**：
 
-```
+```php
 <?php
 //PHP program to illustrate
 //gmp_neg() function
@@ -44,13 +44,13 @@ echo gmp_strval($num1);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 -255
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 //PHP program to illustrate
 //gmp_neg() function
@@ -65,7 +65,7 @@ echo gmp_strval($num1);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 -314567128
 ```
 

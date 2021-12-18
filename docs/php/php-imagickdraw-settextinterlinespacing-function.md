@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setTextInterlineSpacing( *float* $spacing )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -35,13 +35,13 @@ echo $textInterlineSpacing;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 15
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -23,14 +23,14 @@
 
 ## PHP
 
-```
+```php
 // Printing Hello GeeksforGeeks in PHP
 echo 'Hello GeeksForGeeks';   
 ```
 
 ## Node.js
 
-```
+```php
 console.log('Hello GeeksForGeeks');
 ```
 
@@ -74,7 +74,7 @@ console.log('Hello GeeksForGeeks');
 
 **示例：**Laravel 框架
 
-```
+```php
 // requires Composer installed on your system
 // run following command on terminal.
 // This installs laravel on your system
@@ -88,7 +88,7 @@ laravel new GeeksForGeeks
 
 **示例：**Express Framework Web 服务器：
 
-```
+```php
 // Below command installs ExpressJS 
 // in your project folder
 npm install express --save
@@ -124,7 +124,7 @@ console.log(' GeeksForGeeks demo server
 
 **示例：**启动 PHP 服务器
 
-```
+```php
 // starting php server
 $ php -S localhost:8000
 
@@ -138,7 +138,7 @@ $ php -S localhost:8000
 
 **示例：**启动 Node.js 服务器
 
-```
+```php
 // starting Node.js server
 $ node app.js
 

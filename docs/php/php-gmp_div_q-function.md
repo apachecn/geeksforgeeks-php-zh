@@ -6,7 +6,7 @@ Gmp_div_q()是 PHP 中的一个内置函数，用于执行 GMP 编号的除法([
 
 **语法：**
 
-```
+```php
 gmp_div_q($num1, $num2)
 ```
 
@@ -16,7 +16,7 @@ gmp_div_q($num1, $num2)
 
 例如：
 
-```
+```php
 Input : gmp_div_q("256", "16")
 Output : 16
 
@@ -29,7 +29,7 @@ Output : 47
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，执行 GMP 编号除法的程序。
 
-```
+```php
 <?php
 // PHP program to perform division of
 // GMP numbers passed as arguments 
@@ -48,14 +48,14 @@ echo $quo;
 
 产出：
 
-```
+```php
 -3
 
 ```
 
 **程序 2：**当 GMP 编号作为参数传递时执行 GMP 编号除法的程序。
 
-```
+```php
 <?php
 // PHP program to perform the division of
 // GMP numbers
@@ -74,14 +74,14 @@ echo $quo;
 
 产出：
 
-```
+```php
 17
 
 ```
 
 **程序 3：**当 GMP 编号作为参数传递时执行 GMP 编号除法的程序。
 
-```
+```php
 <?php
 // PHP program to perform the division of
 // GMP numbers
@@ -100,7 +100,7 @@ echo $quo;
 
 产出：
 
-```
+```php
 0
 ```
 

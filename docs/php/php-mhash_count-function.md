@@ -6,7 +6,7 @@ Mhash_count()函数是 PHP 中的一个内置函数，用于获取 SHA1、MD%等
 
 语法：
 
-```
+```php
 *int* mhash_count( *void* )
 ```
 
@@ -20,7 +20,7 @@ Mhash_count()函数是 PHP 中的一个内置函数，用于获取 SHA1、MD%等
 
 ## PHP
 
-```
+```php
 <?php
 
 $nr = mhash_count();

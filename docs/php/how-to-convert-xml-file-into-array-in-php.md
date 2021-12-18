@@ -12,7 +12,7 @@
 **第一步:创建一个 XML 文件(可选):**创建一个需要转换成数组的 XML 文件。
 T3
 
-```
+```php
 <?xml version='1.0'?>  
 <firstnamedb>  
     <firstname name='Akshat'>  
@@ -40,7 +40,7 @@ T3
 
 **示例:**
 
-```
+```php
 <?php
 
 // xml file path

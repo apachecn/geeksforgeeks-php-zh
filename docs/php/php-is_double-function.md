@@ -6,7 +6,7 @@ Is_double()函数是 PHP 中的一个内置函数，用于确定给定值是否�
 
 **语法：**
 
-```
+```php
 bool is_double( $variable_name )
 ```
 
@@ -20,7 +20,7 @@ bool is_double( $variable_name )
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP code to implement is_double() 
 // function
@@ -40,7 +40,7 @@ echo square(56.30) ."\n"; // outputs '1' 
 
 **输出：**
 
-```
+```php
 1
 
 1
@@ -49,7 +49,7 @@ echo square(56.30) ."\n"; // outputs '1' 
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP code to implement is_double()
 // function
@@ -87,7 +87,7 @@ else
 
 **输出：**
 
-```
+```php
 67.099 is a double value. 
 32 is not a double value. 
 abc is not a double value. 

@@ -5,7 +5,7 @@
 **Imagick：：setImageResolution()**函数是 PHP 中的内置函数，用于设置图像对象的分辨率。
 **语法：**和
 
-```
+```php
 *bool* Imagick::setImageResolution($x_resolution, $y_resolution)
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $imagick = new Imagick(
@@ -52,7 +52,7 @@ echo "Y = " . $res['y'] . "</br>";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 X = 37.8
 Y = 37.8
 After Set Resolution:
@@ -68,7 +68,7 @@ Y = 50
 
 ## PHP
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 
@@ -113,7 +113,7 @@ echo "Y = ".$res['y'] ." </br>";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Before:
 X = 0
 Y = 0

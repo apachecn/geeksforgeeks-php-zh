@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageChannelKurtosis( *int* $channel )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create two new imagick object
@@ -38,7 +38,7 @@ print_r($kurtosis);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new imagick object

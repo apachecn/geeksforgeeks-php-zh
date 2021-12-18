@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::getversion( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a Gmagick object 
@@ -35,7 +35,7 @@ print_r($gmagick->getversion());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( 
     [versionNumber] => 2168833 
     [versionString] => 
@@ -47,7 +47,7 @@ Array (
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -82,7 +82,7 @@ print_r($gmagick->getversion());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( 
     [versionNumber] => 2168833 
     [versionString] => 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::commentImage( $comment )
 ```
 
@@ -20,7 +20,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**Imagick：：CommentImage()**函数
 
-```
+```php
 <?php 
 // require_once('vendor/autoload.php');
 
@@ -39,7 +39,7 @@ echo $image->getImageProperty("comment");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 
@@ -47,7 +47,7 @@ GeeksforGeeks
 **Imagick 函数创建的图像：**
 ![](img/112822c4852515d821106cc2ba5aa0b5.png)
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 
@@ -86,7 +86,7 @@ echo $im->getImageProperty("comment");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 G4G
 ```
 

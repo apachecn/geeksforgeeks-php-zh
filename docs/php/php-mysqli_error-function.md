@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 mysqli_error("database_name")
 
 ```
@@ -17,7 +17,7 @@ mysqli_error("database_name")
 
 **程序 1：**
 
-```
+```php
 <?php
 $conn = mysqli_connect(
     "localhost", "root", "", "Persons"); 
@@ -42,14 +42,14 @@ mysqli_close($conn);
 
 **输出将为：**
 
-```
+```php
 Error message: Unknown system variable 'Age'
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $conn = mysqli_connect(
     "localhost", "root", "", "Persons"); 
@@ -70,7 +70,7 @@ mysqli_close($conn);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Error message: mysqli_error() expects exactly 1 parameter, 0 given
 
 ```

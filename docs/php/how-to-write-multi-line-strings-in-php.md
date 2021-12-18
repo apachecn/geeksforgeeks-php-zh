@@ -10,7 +10,7 @@
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
           //declaring multiple lines using the new line escape sequence
         $var="Geeks\nFor\nGeeks";
@@ -20,7 +20,7 @@
 
     **输出:**
 
-    ```
+    ```php
     Geeks
     For
     Geeks
@@ -32,7 +32,7 @@
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
         $s1="Geeks". PHP_EOL;//PHP_EOL marks end of line so that
         $s2="For". PHP_EOL;//next string get concatenated as new line
@@ -44,7 +44,7 @@
 
     **输出:**
 
-    ```
+    ```php
     Geeks
     For
     Geeks
@@ -58,7 +58,7 @@
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
         // code
       //Heredoc variable
@@ -81,7 +81,7 @@
 
     **输出:**
 
-    ```
+    ```php
      Geeks
           For
       Geeks

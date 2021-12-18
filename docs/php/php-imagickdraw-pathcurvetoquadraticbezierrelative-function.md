@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::pathCurveToQuadraticBezierRelative( *float* $x1,
                          *float* $y1, *float* $x, *float* $y )
 ```
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -67,7 +67,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

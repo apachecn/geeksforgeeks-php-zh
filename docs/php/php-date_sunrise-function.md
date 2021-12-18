@@ -6,7 +6,7 @@ Date_sunise()是 PHP 中的一个内置函数，用于查找指定日期和地�
 
 **语法：**
 
-```
+```php
 date_sunrise ( $timestamp, $format, $latitude, $longitude, $zenith, $gmtoffset )
 ```
 
@@ -30,7 +30,7 @@ date_sunrise ( $timestamp, $format, $latitude, $longitude, $zenith, $gmtoffset )
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to show sunrise time 
 // of New delhi india for current day
@@ -49,7 +49,7 @@ echo(date_sunrise(time(), SUNFUNCS_RET_STRING,
 
 **输出：**
 
-```
+```php
 Tue Jun 26 2018
 sunrise time: 05:16
 
@@ -57,7 +57,7 @@ sunrise time: 05:16
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to show sunrise time 
 // of GFG Noida for a Current day
@@ -76,7 +76,7 @@ echo(date_sunrise(time(), SUNFUNCS_RET_STRING,
 
 **输出：**
 
-```
+```php
 Tue Jun 26 2018
 sunrise time: 05:15
 

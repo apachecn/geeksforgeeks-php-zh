@@ -6,7 +6,7 @@ JavaScript 是客户端脚本语言，PHP 是服务器端脚本语言。JavaScri
 
 **示例 1:** 在 PHP 代码中编写 JavaScript 代码
 
-```
+```php
 <?php 
 echo '<script type="text/JavaScript"> 
      prompt("GeeksForGeeks");
@@ -20,7 +20,7 @@ echo '<script type="text/JavaScript"> 
 
 **示例 2:** 在 PHP 代码之外编写 JavaScript 代码(在同一个 PHP 文件中)
 
-```
+```php
 <?php
     // some php stuff
 ?>
@@ -34,7 +34,7 @@ echo '<script type="text/JavaScript"> 
 
 **示例 3:** JavaScript 函数–DOM 操作(在同一个 PHP 文件中)
 
-```
+```php
 <?php
     echo "<div id='demo'></div>";
 ?>
@@ -54,7 +54,7 @@ function myFunction(a, b) {
 
 **输出:**
 
-```
+```php
 110
 ```
 

@@ -6,7 +6,7 @@ Gmdate()是 PHP 中的一个内置函数，用于格式化 GMT/UTC 日期和时�
 
 **语法：**
 
-```
+```php
 string gmdate ( $format, $timestamp )
 ```
 
@@ -21,7 +21,7 @@ string gmdate ( $format, $timestamp )
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate gmdate function
 
@@ -43,7 +43,7 @@ echo gmdate(DATE_ISO8601,
 
 **输出：**
 
-```
+```php
 Jun 25 2018 23:21:50
 2018-06-25T23:21:50+00:00
 2018-06-25T23:21:50+0000
@@ -52,7 +52,7 @@ Jun 25 2018 23:21:50
 
 **程序 2：**传递一个参数，则返回当前本地时间(time())。
 
-```
+```php
 <?php
 // PHP program to illustrate gmdate function
 
@@ -71,7 +71,7 @@ echo gmdate(DATE_ISO8601). "\n";
 
 **输出：**
 
-```
+```php
 Jun 29 2018 06:32:34
 2018-06-29T06:32:34+00:00
 2018-06-29T06:32:34+0000

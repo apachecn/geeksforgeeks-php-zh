@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *mixed* ArrayIterator::current( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -37,14 +37,14 @@ while($arrItr->valid()) {
 
 **输出:**
 
-```
+```php
 Geeksfor
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -62,7 +62,7 @@ foreach($arrItr as $element) {
 
 **输出:**
 
-```
+```php
 Geeks
 for
 Geeks

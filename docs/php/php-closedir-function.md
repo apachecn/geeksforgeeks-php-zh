@@ -6,7 +6,7 @@ PHP 中的 closedir()函数是一个内置函数，用于关闭目录句柄。�
 
 **语法:**
 
-```
+```php
 closedir($dir_handle)
 
 ```
@@ -26,7 +26,7 @@ closedir($dir_handle)
 
 **节目 1:**
 
-```
+```php
 <?php
 
 // Opening a directory
@@ -49,14 +49,14 @@ else
 
 **输出:**
 
-```
+```php
 Directory Opened Successfully.
 
 ```
 
 **节目 2** :
 
-```
+```php
 <?php
 
 // opening a directory and reading its contents
@@ -83,7 +83,7 @@ else
 
 **输出:**
 
-```
+```php
 File Name: sample.docx
 
 ```

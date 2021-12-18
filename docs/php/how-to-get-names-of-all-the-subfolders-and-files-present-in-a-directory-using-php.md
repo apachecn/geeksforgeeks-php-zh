@@ -14,7 +14,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $gfg_folderpath = "GeeksForGeeks/";
 // CHECKING WHETHER PATH IS A DIRECTORY OR NOT

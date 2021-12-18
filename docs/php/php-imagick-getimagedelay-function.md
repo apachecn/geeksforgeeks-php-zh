@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageDelay( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -39,7 +39,7 @@ foreach ($imagickAnimation as $frame) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

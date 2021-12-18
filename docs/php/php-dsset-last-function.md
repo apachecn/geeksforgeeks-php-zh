@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Set::last( void ) 
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -42,7 +42,7 @@ print_r($set->last());
 
 **Output:** 
 
-```
+```php
 GfG
 ```
 
@@ -50,7 +50,7 @@ GfG
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -72,7 +72,7 @@ print_r($set->last());
 
 **Output:** 
 
-```
+```php
 30
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* ReflectionClass::getStaticPropertyValue( *string* $name, *mixed* &$def_value )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -41,14 +41,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 string(2) "EE"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -75,7 +75,7 @@ var_dump($C);
 
 **输出：**
 
-```
+```php
 string(3) "CSE"
 string(3) "ECE"
 string(2) "EE"

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* zip_entry_name( $zip_entry )
 ```
 
@@ -27,7 +27,7 @@
 > 假设一个 zip 文件 Tistrle.zip 包含以下文件：
 > **content.xlsx**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -47,7 +47,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/content.xlsx
 
 ```
@@ -64,7 +64,7 @@ File Name: article/content.xlsx
 > gfg.pdf
 > image.jpeg**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -91,7 +91,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/content.xlsx
 File Name: article/gfg.pdf
 File Name: article/image.jpeg

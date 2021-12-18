@@ -6,7 +6,7 @@ SplPriorityQueue：：count()函数是 PHP 中的一个内置函数，用于计�
 
 **语法：**
 
-```
+```php
 int SplPriorityQueue::count()
 ```
 
@@ -18,7 +18,7 @@ int SplPriorityQueue::count()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -50,7 +50,7 @@ print_r($obj->count());
 
 **OUTPUT**
 
-```
+```php
 4
 ```
 

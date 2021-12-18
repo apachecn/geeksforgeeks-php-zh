@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 EA070
 aBX32gTf
 
@@ -23,7 +23,7 @@ aBX32gTf
 
 **程序:**
 
-```
+```php
 <?php
 $n=10;
 function getName($n) {
@@ -44,14 +44,14 @@ echo getName($n);
 
 产出 1:
 
-```
+```php
 3HDrSOvRIs
 
 ```
 
 产出 2:
 
-```
+```php
 lipHh
 
 ```
@@ -68,7 +68,7 @@ PHP 有几个函数，像 md5()，sha1()和 hash()，可以用来基于某些算
 
 **程序 1:**
 
-```
+```php
 <?php
 $str=rand();
 $result = md5($str);
@@ -78,21 +78,21 @@ echo $result;
 
 产出 1:
 
-```
+```php
 2e437510c181dd2ae100fc1661a445d4
 
 ```
 
 产出 2:
 
-```
+```php
 256394010059991a71ea05e5d859d2be
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 $str=rand();
 $result = sha1($str);
@@ -102,21 +102,21 @@ echo $result;
 
 产出 1:
 
-```
+```php
 6eadd9b2c4389d9b109b3b869f66aab5d8f9420a
 
 ```
 
 产出 2:
 
-```
+```php
 ca2d3c0993ab87e842d0a7a01f319aca6c587a87
 
 ```
 
 **程序 3:**
 
-```
+```php
 <?php
 $str = rand();
 $result = hash("sha256", $str);
@@ -126,14 +126,14 @@ echo $result;
 
 产出 1:
 
-```
+```php
 2a41cbc8cc11f8c8d0eb54210fe524748b4def1c5b04fcf18c2d5972e24d11c2
 
 ```
 
 产出 2:
 
-```
+```php
 291144c1cbba4de0bf199d37ee265ac95cc2e44e80fd2642b22a6e8ef2f42a39
 
 ```
@@ -145,7 +145,7 @@ PHP 中的 [uniqid( )](https://www.geeksforgeeks.org/php-uniqid-function/) 函�
 
 **程序:**
 
-```
+```php
 <?php 
 $result = uniqid();  
 echo $result;
@@ -154,14 +154,14 @@ echo $result;
 
 输出 1:
 
-```
+```php
 5bdd0b74e9a6c 
 
 ```
 
 输出 2:
 
-```
+```php
 5bdd0bbc200c4   
 
 ```
@@ -173,7 +173,7 @@ echo $result;
 
 **程序:**
 
-```
+```php
 <?php 
 $n = 20;
 $result = bin2hex(random_bytes($n));
@@ -183,14 +183,14 @@ echo $result;
 
 输出 1:
 
-```
+```php
 235aed08a01468f90fa726bd56319fb893967da8 
 
 ```
 
 输出 2:
 
-```
+```php
 508b84494cdf31bec01566d12a924c75d4baed39 
 
 ```

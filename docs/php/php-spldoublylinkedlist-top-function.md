@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplDoublyLinkedList::top( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -40,14 +40,14 @@ var_dump($list->top());
 
 **输出：**
 
-```
+```php
 string(1) "G"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -69,7 +69,7 @@ var_dump($list->top());
 
 **输出：**
 
-```
+```php
 int(5)
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::isPixelSimilarQuantum( *string* $color, *string* $fuzz )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagickPixel = new ImagickPixel('green');
@@ -43,7 +43,7 @@ if ($isSimilar) {
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ReflectionParameter::getPosition( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -45,14 +45,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 int(0)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -85,7 +85,7 @@ var_dump($C->getPosition());
 
 **输出：**
 
-```
+```php
 int(0)
 int(1)
 int(2)

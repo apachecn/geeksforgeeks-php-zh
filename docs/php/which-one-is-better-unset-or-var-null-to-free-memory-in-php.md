@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 unset($variable)
 ```
 
@@ -18,7 +18,7 @@ unset($variable)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
     // Declare a variable and set
@@ -37,7 +37,7 @@ unset($variable)
 
 **输出:**
 
-```
+```php
 Before unset : hello geeks
 After unset :
 ```
@@ -46,7 +46,7 @@ After unset :
 
 **语法:**
 
-```
+```php
 $variable = null;
 ```
 
@@ -54,7 +54,7 @@ $variable = null;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
     // Declare a variable and
@@ -73,7 +73,7 @@ $variable = null;
 
 **输出:**
 
-```
+```php
 Before null : Hello geeks
 After null :
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isgraph ( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate the 
@@ -43,7 +43,7 @@ var_dump(IntlChar::isgraph("\t"));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)
@@ -54,7 +54,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar isgraph()
 
@@ -72,7 +72,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 bool(true)
 NULL
 bool(true)

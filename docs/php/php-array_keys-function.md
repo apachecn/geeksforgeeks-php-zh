@@ -6,7 +6,7 @@ array_keys()是 PHP 中的内置函数，用于返回和数组的所有键或键
 
 **语法:**
 
-```
+```php
 *array* array_keys($input_array, $search_value, $strict)
 ```
 
@@ -20,7 +20,7 @@ array_keys()是 PHP 中的内置函数，用于返回和数组的所有键或键
 
 示例:
 
-```
+```php
 Input :  $input_array = ("one" => "shyam", 2 => "rishav", 
                                           "three" => "gaurav")         
 Output :
@@ -47,7 +47,7 @@ Array
 
 在下面的程序中，我们将一个简单的关联数组传递给函数 array_keys()，以打印它的所有键:
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of array_keys()
@@ -66,7 +66,7 @@ print_r(get_Key($array));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => one
@@ -78,7 +78,7 @@ Array
 
 在下面的程序中，除了数组，我们还传递了一个只返回键位的值。
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of array_keys()
@@ -98,7 +98,7 @@ print_r(get_Key($array, $search_value));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => 0

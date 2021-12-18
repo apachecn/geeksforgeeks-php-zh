@@ -21,7 +21,7 @@ base name()函数是一个内置函数，如果文件的路径是作为 basename
 
 **语法:**
 
-```
+```php
 $filename = basename(path, suffix);
 ```
 
@@ -31,7 +31,7 @@ $filename = basename(path, suffix);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   $path = "/testweb/var/www/mywebsite/htdocs/home.php";
 
@@ -48,7 +48,7 @@ $filename = basename(path, suffix);
 
 **输出:**
 
-```
+```php
 home.php
 home
 ```
@@ -59,7 +59,7 @@ pathinfo()是一个内置函数，用于使用关联数组或字符串返回路�
 
 **语法:**
 
-```
+```php
 $filename = pathinfo(path);
 ```
 
@@ -67,7 +67,7 @@ $filename = pathinfo(path);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   // Path of the file stored under pathinfo
   $myFile = pathinfo('/usr/admin/config/test.php');
@@ -79,6 +79,6 @@ $filename = pathinfo(path);
 
 **输出:**
 
-```
+```php
 test.php
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public string* ReflectionProperty::__toString ( *void* ) : string
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的 ReflectionProperty：：__toString()函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -43,7 +43,7 @@ var_dump($D);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(52) "Property [ <default> private $SizeOfGeeksforGeeks ]
 "
 string(42) "Property [ <default> private $SizeOfGFG ]
@@ -53,7 +53,7 @@ string(42) "Property [ <default> private $SizeOfGFG ]
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -85,7 +85,7 @@ var_dump($C->__toString());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(43) "Property [ <default> protected $SizeOfHR ]
 "
 string(44) "Property [ <default> public $SizeOfCoding ]

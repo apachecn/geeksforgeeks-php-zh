@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionExtension* ReflectionClass::getExtension( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class named as Departments
@@ -41,14 +41,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 NULL
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass
@@ -64,7 +64,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 object(ReflectionExtension)#2 (1) {
   ["name"]=>
   string(10) "Reflection"

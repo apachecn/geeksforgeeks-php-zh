@@ -8,7 +8,7 @@ PHP 中的 ctype_part()函数用于检查给定字符串的所有字符是否都
 
 **语法：**
 
-```
+```php
 ctype_punct( $text )
 ```
 
@@ -18,7 +18,7 @@ ctype_punct( $text )
 
 **示例**：
 
-```
+```php
 Input  : @#$.&*()_+;><?~
 Output : Yes
 
@@ -32,7 +32,7 @@ Note: The string should not contain a letter, blank-space  or digit.
 下面的程序说明了 ctype_point()函数：
 **程序：1**
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // punctuation character or not
@@ -49,14 +49,14 @@ $string = 'GeeksforGeeks';
 
 **Output:**
 
-```
+```php
 No
 
 ```
 
 **程序：2**
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // punctuation character or not
@@ -82,7 +82,7 @@ foreach ($strings as $test) {
 
 **Output:**
 
-```
+```php
 No 
 Yes 
 No 

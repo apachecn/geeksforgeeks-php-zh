@@ -24,7 +24,7 @@ PHP 中的 lstat()函数用于返回有关文件或符号链接的信息。 它�
 
 **语法：**↔
 
-```
+```php
 lstat(file)
 ```
 
@@ -43,7 +43,7 @@ PHP 中的 lstat()函数接受一个参数。
 
 **示例：1**和
 
-```
+```php
 Input : print_r(lstat("gfg.txt"));
 
 Output :
@@ -80,7 +80,7 @@ Array
 
 **示例：2**和
 
-```
+```php
 Input : symlink('gfg.php', 'gfg');
         array_diff(stat('gfg'), lstat('gfg'));
 Output :
@@ -103,7 +103,7 @@ Explanation: Difference of the results of stat() and lstat() function
 
 ## PHP
 
-```
+```php
 <?php
 // displaying information using lstat() function
 print_r(lstat("gfg.txt"));
@@ -112,7 +112,7 @@ print_r(lstat("gfg.txt"));
 
 **输出：**
 
-```
+```php
 Array
 (
 [0] => 0
@@ -148,7 +148,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 
 // creating a symbolic link
@@ -162,7 +162,7 @@ array_diff(stat('gfg'), lstat('gfg'));
 
 **输出：**
 
-```
+```php
 Array
 (
     [ino] => 97236376
@@ -179,7 +179,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 // displaying information of
 // zip file using lstat() function
@@ -190,7 +190,7 @@ echo($myfile);
 
 **输出：**
 
-```
+```php
 Array (
 [0] => 2161 
 [1] => 18351063 

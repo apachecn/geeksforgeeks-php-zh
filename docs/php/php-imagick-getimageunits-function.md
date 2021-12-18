@@ -5,7 +5,7 @@
 **Imagick：：getImageUnits()**函数是 PHP 中的内置函数，用于获取特定图像的分辨率单位。
 **语法：**和
 
-```
+```php
 *int* Imagick::getImageUnits( void )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate getimageunits function

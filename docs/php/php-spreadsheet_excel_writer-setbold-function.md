@@ -6,7 +6,7 @@ SetBold()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于设�
 
 **语法：**
 
-```
+```php
 *void* Format::setBold( $weight = 1 )
 ```
 
@@ -18,7 +18,7 @@ SetBold()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于设�
 
 ## PHP
 
-```
+```php
 <?php
 require_once 'Spreadsheet/Excel/Writer.php';
 
@@ -59,7 +59,7 @@ $workbook->close();
 
 ## PHP
 
-```
+```php
 <?php
 require_once 'Spreadsheet/Excel/Writer.php';
 

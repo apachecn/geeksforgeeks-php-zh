@@ -6,7 +6,7 @@ GmagickDraw：：setfontstyle()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
  *public* GmagickDraw::setfontstyle( $style ) : GmagickDraw
 ```
 
@@ -25,7 +25,7 @@ GmagickDraw：：setfontstyle()函数是 PHP 中的一个内置函数，用于�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an GmagickDraw object
@@ -75,7 +75,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an GmagickDraw object

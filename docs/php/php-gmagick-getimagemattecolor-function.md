@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickPixel* Gmagick::getimagemattecolor( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,13 +37,13 @@ echo $colorPixel->getcolor();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(48573, 48573, 48573)
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -60,7 +60,7 @@ echo $colorPixel->getcolor();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(0, 32896, 0)
 ```
 

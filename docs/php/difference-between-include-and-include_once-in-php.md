@@ -10,7 +10,7 @@ PHP 中的 [**include()**](https://www.geeksforgeeks.org/php-inclusion/) 函数�
 
 ## includegfg.php
 
-```
+```php
 <?php
    echo "
 <p>Visit Again; " . date("Y") . " Geeks for geeks.com</p>
@@ -22,7 +22,7 @@ PHP 中的 [**include()**](https://www.geeksforgeeks.org/php-inclusion/) 函数�
 
 ## demo.php
 
-```
+```php
 <html>
 <body>
   <h1>Welcome to geeks for geeks!</h1>
@@ -50,7 +50,7 @@ PHP 中的[**include _ once()**](https://www.geeksforgeeks.org/php-include_once-
 
 ## **demo.php**
 
-```
+```php
 <?php
    echo "Hello from Geeks for Geeks";
 ?>
@@ -60,7 +60,7 @@ PHP 中的[**include _ once()**](https://www.geeksforgeeks.org/php-include_once-
 
 ## **require_once_demo.php**
 
-```
+```php
 <?php
    include_once('demo.php');
    include_once('demo.php');

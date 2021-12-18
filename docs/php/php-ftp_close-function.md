@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_close( $ftp_connection );
 ```
 
@@ -23,7 +23,7 @@ ftp_close( $ftp_connection );
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -48,7 +48,7 @@ if($ftp_connection) {
 
 **示例 2：**使用端口 21 连接到 ftp 服务器。
 
-```
+```php
 <?php
 
 // Connect to FTP server

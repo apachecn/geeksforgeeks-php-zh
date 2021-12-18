@@ -6,7 +6,7 @@ SplPriorityQueue：：Compare()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 int SplPriorityQueue::compare( 
     mixed $priority1 , mixed $priority2 )
 ```
@@ -22,7 +22,7 @@ int SplPriorityQueue::compare(
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -53,7 +53,7 @@ var_dump($obj);
 
 **OUTPUT**
 
-```
+```php
 object(priorityQueue)#1 (3) {
   ["flags":"SplPriorityQueue":private]=>
   int(1)

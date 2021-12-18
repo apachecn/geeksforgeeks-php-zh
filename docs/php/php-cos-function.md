@@ -7,7 +7,7 @@ cos()函数返回一个介于-1 和 1 之间的浮点值，代表角度的余弦
 
 **语法:**
 
-```
+```php
 *float* cos($value)
 ```
 
@@ -17,7 +17,7 @@ cos()函数返回一个介于-1 和 1 之间的浮点值，代表角度的余弦
 
 示例:
 
-```
+```php
 Input : cos(3) 
 Output : -0.98999249660045
 
@@ -36,7 +36,7 @@ Output : 1
 
 *   Passing 3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (cos(3));
@@ -46,13 +46,13 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     -0.98999249660045
     ```
 
 *   Passing -3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (cos(-3));
@@ -62,13 +62,13 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     -0.98999249660045
     ```
 
 *   When (2*M_PI) is passed as a parameter, M_PI is a constant in PHP whose value is 3.1415926535898:
 
-    ```
+    ```php
     <?php
 
     echo (cos(2*M_PI));
@@ -78,13 +78,13 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     1
     ```
 
 *   Passing 0 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (cos(0));
@@ -94,7 +94,7 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     1
     ```
 

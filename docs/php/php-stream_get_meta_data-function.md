@@ -5,7 +5,7 @@
 Stream_get_meta_data()函数是 PHP 中的一个内置函数，用于从流/文件指针获取头数据或元数据。
 **语法：**和
 
-```
+```php
 *array* stream_get_meta_data( $stream )
 ```
 
@@ -29,7 +29,7 @@ Stream_get_meta_data()函数是 PHP 中的一个内置函数，用于从流/文�
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -49,7 +49,7 @@ fclose($file);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [timed_out] => 
@@ -84,7 +84,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -110,7 +110,7 @@ fclose($fp);
 
 **Output:** 
 
-```
+```php
 10
 ```
 

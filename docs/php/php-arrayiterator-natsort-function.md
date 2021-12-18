@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::natsort( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -46,14 +46,14 @@ while($arrItr->valid()) {
 
 **输出:**
 
-```
+```php
 E G S e k
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -71,7 +71,7 @@ var_dump($arrItr);
 
 **输出:**
 
-```
+```php
 object(ArrayIterator)#1 (1) {
   ["storage":"ArrayIterator":private]=>
   array(4) {

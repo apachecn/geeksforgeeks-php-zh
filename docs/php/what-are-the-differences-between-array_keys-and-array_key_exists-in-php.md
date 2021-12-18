@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 array_keys(array, value, strict)
 ```
 
@@ -22,7 +22,7 @@ array_keys(array, value, strict)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arr = array(
     "Java" => "SpringBoot",
@@ -46,7 +46,7 @@ print_r($key2);
 
 **输出:**
 
-```
+```php
 Keys for CodeIgniter : Array ( [0] => PHP 4.0 [1] => PHP 3.0 )
 Keys for WordPress : Array ( )
 ```
@@ -55,7 +55,7 @@ Keys for WordPress : Array ( )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   $arr = array(1, 2, 3, 4, 5);
 
@@ -76,7 +76,7 @@ Keys for WordPress : Array ( )
 
 **输出:**
 
-```
+```php
 Keys for '5' : Array ( )
 Keys for '5' : Array ( [0] => 4 )
 ```
@@ -85,7 +85,7 @@ Keys for '5' : Array ( [0] => 4 )
 
 **语法:**
 
-```
+```php
 array_key_exists(key, array)
 ```
 
@@ -98,7 +98,7 @@ array_key_exists(key, array)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   $arr = array(1, 2, 3, 4, 5);
 
@@ -114,7 +114,7 @@ array_key_exists(key, array)
 
 **输出:**
 
-```
+```php
 key exists
 ```
 

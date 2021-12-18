@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::smushImages(*bool* $stack, *int* $offset)
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -51,7 +51,7 @@ echo $smushed->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new Imagick object
 $imagick1 = new Imagick(

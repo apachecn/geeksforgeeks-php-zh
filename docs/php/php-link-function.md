@@ -5,7 +5,7 @@
 Link()为指定目标创建[硬链接](https://www.geeksforgeeks.org/soft-hard-links-unixlinux/)。 目标和链接作为参数传递给 link()函数，成功时返回 TRUE，失败时返回 FALSE。
 **语法：**
 
-```
+```php
 link(target, link)
 ```
 
@@ -26,7 +26,7 @@ link(target, link)
 
 **示例：**
 
-```
+```php
 Input : $targetfile = 'gfg.txt.'; 
         $linkname = 'gfglink';
         link($targetfile, $linkname);
@@ -51,7 +51,7 @@ Output : Link has been created!
 
 ## PHP
 
-```
+```php
 <?php
 // target file
 $targetfile = 'gfg.txt';
@@ -66,7 +66,7 @@ link($targetfile, $linkname);
 
 **输出：**
 
-```
+```php
 1
 ```
 
@@ -74,7 +74,7 @@ link($targetfile, $linkname);
 
 ## PHP
 
-```
+```php
 <?php
 
 // target file
@@ -97,7 +97,7 @@ else
 
 **输出：**
 
-```
+```php
 Link has been created!
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isUAlphabetic( $codepoint )
 
 ```
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate
 // IntlChar::isUAlphabetic() function
@@ -49,7 +49,7 @@ var_dump(IntlChar::isUAlphabetic("10.99"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 NULL
 NULL
@@ -63,7 +63,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isUAlphabetic()
 
@@ -81,7 +81,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 NULL
 bool(false)

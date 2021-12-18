@@ -12,28 +12,28 @@
 
 *   **符号说明符**可用于强制显示要在数字上使用的符号(-或+)。 默认情况下，只有-号显示在负数上。 使用此说明符，正数将与前面的+一起显示。 这可以使用+符号来实现，并且只能在数值上实现。 示例，
 
-    ```
+    ```php
     %+d    // Specify the integer along with it's sign (+ or -).
 
     ```
 
 *   **填充说明符**可用于指定将使用哪个字符将结果填充到任何定义的字符串大小。 默认情况下，空格用作填充。 可以通过单引号或‘作为前缀来指定备用填充字符。 示例，
 
-    ```
+    ```php
     %'0d    // Pad with 0s to achieve the right length. 
 
     ```
 
 *   **对齐说明符**可用于指定结果的对齐方式，即左对齐还是右对齐。 默认情况下，它是右对齐的。 使用-字符使其左对齐。 示例，
 
-    ```
+    ```php
     %-s    // Specifies the alignment as left-justified.
 
     ```
 
 *   **宽度说明符**可用于指定结果本身中出现的最小字符数。 它可以使用表示最小宽度的任何数字来指定。 它最常与填充说明符一起使用。 示例，
 
-    ```
+    ```php
              // Specifies there should be at least 5 digits,
     %'05d    // if less, then 0s are filled to get the desired result.  
 
@@ -43,7 +43,7 @@
     在字符串上使用此说明符时，它指定字符串的最大字符限制。
     例如，
 
-```
+```php
 %.5f    // Defines Real Number Precision.
 %.2s    // Maximum Character to be allowed in a string.  
 
@@ -67,7 +67,7 @@
 
 下面的代码说明了不同格式说明符的工作方式：
 
-```
+```php
 <?php
 
 // PHP program to illustrate Working 
@@ -112,7 +112,7 @@ printf("Scientific Representation:%e\n",$numValue+100); 
 
 产出：
 
-```
+```php
 Signed Number: +5
 Padding and Width
 005

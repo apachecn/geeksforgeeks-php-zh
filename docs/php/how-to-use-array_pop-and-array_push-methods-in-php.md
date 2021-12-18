@@ -6,7 +6,7 @@ PHP 中的 [array_push()](https://www.geeksforgeeks.org/php-array_push-function/
 
 **使用** [**array_push()方法**](https://www.geeksforgeeks.org/php-array_push-function/)**:**array _ push()方法用于推送数组集合对象中的多个元素。在每个 array_push()方法之后，数组对象的大小会增加方法调用中指定的元素数量。
 
-```
+```php
 array_push($array, $elements)
 ```
 
@@ -17,7 +17,7 @@ array_push($array, $elements)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array
@@ -40,7 +40,7 @@ print_r($arr);
 
 **Output**
 
-```
+```php
 Array after first addition </br>Array
 (
     [0] => 1
@@ -54,13 +54,13 @@ Array after first addition </br>Array
 
 array_push()方法用于同时推送数组中的多个元素。元素按照它们在方法调用中指定的顺序插入。以下代码片段指示了该过程:
 
-```
+```php
 array_push($array, $ele1, $ele2, ...)
 ```
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array
@@ -77,7 +77,7 @@ print_r($arr);
 
 **Output**
 
-```
+```php
 Array after multiple insertions </br>Array
 (
     [0] => 1
@@ -90,7 +90,7 @@ Array after multiple insertions </br>Array
 
 **使用 array_pop()方法:**array _ pop()方法用于从数组中弹出元素。每次调用此方法时，都会从末尾逐个移除元素。
 
-```
+```php
 array_pop($array)
 ```
 
@@ -98,7 +98,7 @@ array_pop($array)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring an array
@@ -120,7 +120,7 @@ print_r($arr);
 
 **Output**
 
-```
+```php
 Array after multiple insertions </br>Array
 (
     [0] => 1

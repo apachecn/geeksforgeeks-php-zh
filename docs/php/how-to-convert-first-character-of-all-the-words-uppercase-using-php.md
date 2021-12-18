@@ -10,7 +10,7 @@
 
 ## PHP
 
-```
+```php
 <?php
   echo ucwords("welcome to geeks for geeks");
 ?>
@@ -18,7 +18,7 @@
 
 **输出**
 
-```
+```php
 Welcome To Geeks For Geeks
 ```
 
@@ -28,7 +28,7 @@ Welcome To Geeks For Geeks
 
 ## PHP
 
-```
+```php
 <?php
     // code
   echo ucwords("hey!let's get started","!")
@@ -37,7 +37,7 @@ Welcome To Geeks For Geeks
 
 **输出**
 
-```
+```php
 Hey!Let's get started
 ```
 
@@ -47,7 +47,7 @@ Hey!Let's get started
 
 ## PHP
 
-```
+```php
 <?php
     // code
   $str = 'php is fun learning';
@@ -58,7 +58,7 @@ Hey!Let's get started
 
 **输出**
 
-```
+```php
 Php Is Fun Learning
 ```
 

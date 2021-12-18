@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```php
 error_get_last();
 ```
 
 **返回值:**
 
-```
+```php
  (associative array | NULL)
 ```
 
@@ -27,7 +27,7 @@ error_get_last();
 
 ## 【PHP】
 
-```
+```php
 <?php
   echo $var; // This line will throw error
 
@@ -47,7 +47,7 @@ error_get_last();
 
 **输出:**
 
-```
+```php
 Array ( 
     [type] => 8 
     [message] => Undefined variable: var 

@@ -6,7 +6,7 @@ Stream_get_transports()函数是 PHP 中的一个内置函数，用于获取已�
 
 **语法：**
 
-```
+```php
 *array* stream_get_transports( void )
 ```
 
@@ -18,7 +18,7 @@ Stream_get_transports()函数是 PHP 中的一个内置函数，用于获取已�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -30,7 +30,7 @@ print_r(stream_get_transports());
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => tcp
@@ -48,7 +48,7 @@ Array
 
 **程序 2：**检查运输工具是否可用的程序。
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -76,7 +76,7 @@ foreach ($wrapper as &$gfg) {
 
 **输出：**
 
-```
+```php
 tcp: Enabled
 unix: Enabled
 file: Not Enabled

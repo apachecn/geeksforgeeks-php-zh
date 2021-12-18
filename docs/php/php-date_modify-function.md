@@ -6,7 +6,7 @@ DATE_MODIFY()函数是 PHP 中的内置函数。 通过此函数，我们可以�
 
 **语法：**
 
-```
+```php
 date_modify(DateTime $object, string $modify);
 
 ```
@@ -24,7 +24,7 @@ date_modify(DateTime $object, string $modify);
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate date_modify()
 // function
@@ -43,14 +43,14 @@ echo date_format($date, "Y-m-d");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2018-04-13
 
 ```
 
 **计划 2**：此计划将增加一个月
 
-```
+```php
 <?php
 // PHP program to illustrate date_modify()
 // function
@@ -69,7 +69,7 @@ echo date_format($date, 'Y-m-d');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2000-11-14
 
 ```

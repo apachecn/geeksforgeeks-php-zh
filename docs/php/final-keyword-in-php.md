@@ -8,7 +8,7 @@ PHP 中的 Final 关键字在不同的上下文中使用。final 关键字仅用
 
 **示例:**
 
-```
+```php
 <?php
 
 // Program to understand use of 
@@ -46,7 +46,7 @@ $obj->nonfinal();
 
 **Output:**
 
-```
+```php
 Base class final printdata function
  Derived class non final function
 
@@ -56,7 +56,7 @@ Base class final printdata function
 
 **示例:**
 
-```
+```php
 <?php
 
 // Program to understand final classes
@@ -89,7 +89,7 @@ class Derived extends Base {
 
 **Output:**
 
-```
+```php
 final base class final method
 non final method of final base class
 

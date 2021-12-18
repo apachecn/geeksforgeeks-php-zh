@@ -6,7 +6,7 @@ AssertIsResource()函数是 PHPUnit 中的内置函数，用于断言给定变�
 
 **语法：**
 
-```
+```php
 assertIsResource($actual[, $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertIsResource($actual[, $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -50,7 +50,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

@@ -7,7 +7,7 @@ substr()和 strpos()函数用于删除字符串中特定字符之后的部分。
 
 **语法:**
 
-```
+```php
 strpos( original_string, search_string, start_pos )
 ```
 
@@ -17,7 +17,7 @@ strpos( original_string, search_string, start_pos )
 
 **语法:**
 
-```
+```php
 substr( string_name, start_position, string_length_to_cut )
 ```
 
@@ -28,7 +28,7 @@ substr( string_name, start_position, string_length_to_cut )
 
 **例 1:**
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -50,7 +50,7 @@ echo $variable;
 
 **Output:**
 
-```
+```php
 GeeksForGeeks is the best platform.
 GeeksForGeeks
 
@@ -58,7 +58,7 @@ GeeksForGeeks
 
 **例 2:**
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -78,7 +78,7 @@ echo substr($variable, 0, strpos($variable, "for"));
 
 **Output:**
 
-```
+```php
 computer science portal for geeks
 computer science portal
 

@@ -17,7 +17,7 @@ PHP 支持四种类型的循环技术；
 
     **语法**：
 
-    ```
+    ```php
     for (initialization expression; test condition; update expression) {
         // code to be executed
     }
@@ -32,7 +32,7 @@ PHP 支持四种类型的循环技术；
 
     示例：
 
-    ```
+    ```php
     <?php 
 
     // code to illustrate for loop
@@ -45,7 +45,7 @@ PHP 支持四种类型的循环技术；
 
     产出：
 
-    ```
+    ```php
     1
     3
     5
@@ -62,7 +62,7 @@ PHP 支持四种类型的循环技术；
 
     **语法**：
 
-    ```
+    ```php
     while (if the condition is true) {
         // code is executed
     }
@@ -71,7 +71,7 @@ PHP 支持四种类型的循环技术；
 
     示例：
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate while loops
@@ -87,7 +87,7 @@ PHP 支持四种类型的循环技术；
 
     产出：
 
-    ```
+    ```php
     4
     6
     8
@@ -104,7 +104,7 @@ PHP 支持四种类型的循环技术；
 
     **语法**：
 
-    ```
+    ```php
     do {
 
         //code is executed
@@ -115,7 +115,7 @@ PHP 支持四种类型的循环技术；
 
     示例：
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate do...while loops
@@ -130,7 +130,7 @@ PHP 支持四种类型的循环技术；
 
     产出：
 
-    ```
+    ```php
     4
     6
     8
@@ -141,7 +141,7 @@ PHP 支持四种类型的循环技术；
 
     此代码将显示 While 和 Do…之间的区别。 While 循环。
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate the difference of two loops
@@ -167,7 +167,7 @@ PHP 支持四种类型的循环技术；
 
     产出：
 
-    ```
+    ```php
     The code is executed at least once 
 
     ```
@@ -179,7 +179,7 @@ PHP 支持四种类型的循环技术；
 4.  **foreach loop**: This loop is used to iterate over arrays. For every counter of loop, an array element is assigned and the next counter is shifted to the next element.
     **Syntax**:
 
-    ```
+    ```php
     foreach (array_element as value) {
        //code to be executed
     }
@@ -188,7 +188,7 @@ PHP 支持四种类型的循环技术；
 
     示例：
 
-    ```
+    ```php
     <?php
 
         $arr = array (10, 20, 30, 40, 50, 60);
@@ -206,7 +206,7 @@ PHP 支持四种类型的循环技术；
 
     产出：
 
-    ```
+    ```php
     10 
     20 
     30 

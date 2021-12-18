@@ -6,7 +6,7 @@ PHP 中的 base name()函数是一个内置函数，如果文件的路径是作�
 
 **语法:**
 
-```
+```php
 *string* basename ( $path , $suffix )
 ```
 
@@ -25,7 +25,7 @@ PHP 中的 base name()函数是一个内置函数，如果文件的路径是作�
 
 **示例:**
 
-```
+```php
 Input : $path = "user01/home/documents/geeksforgeeks.php",
 Output : geeksforgeeks.php
 
@@ -39,7 +39,7 @@ Output : geeksforgeeks
 
 **程序 1** :
 
-```
+```php
 <?php
 
 $path = "user01/home/documents/geeksforgeeks.php";
@@ -53,13 +53,13 @@ echo basename($path);
 
 输出:
 
-```
+```php
 geeksforgeeks.php
 ```
 
 **程序 2** :
 
-```
+```php
 <?php
 
 $path = "user01/home/documents/geeksforgeeks.php";
@@ -73,7 +73,7 @@ echo basename($path, ".php");
 
 输出:
 
-```
+```php
 geeksforgeeks
 ```
 

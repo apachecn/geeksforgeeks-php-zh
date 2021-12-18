@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNodeList* DOMDocument::getElementsByTagName( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store the XML document to the variable
@@ -52,7 +52,7 @@ foreach ($org as $contact) {
 
 **输出：**
 
-```
+```php
 abc@geeksforgeeks.org
 +91-987654321
 

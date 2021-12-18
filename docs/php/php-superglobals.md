@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 $x = 300;
 $y = 200;
@@ -41,7 +41,7 @@ echo $z;
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 60000
 ```
 
@@ -52,7 +52,7 @@ echo $z;
 
 ## PHP
 
-```
+```php
 <?php
 echo $_SERVER['PHP_SELF'];
 echo "<br>";
@@ -78,7 +78,7 @@ echo "<br>"
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -145,7 +145,7 @@ echo "<strong>".$nm." is $age years old.</strong>";
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <head>

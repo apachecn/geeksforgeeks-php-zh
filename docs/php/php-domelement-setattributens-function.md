@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DOMElement::setAttributeNS( *string* $namespaceURI, 
 *string* $qualifiedName, *string* $value )
 ```
@@ -25,7 +25,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -50,7 +50,7 @@ echo $dom->saveXML();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -82,7 +82,7 @@ echo 'No of attributes => ' . $attributeCount;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before the addition of attributes:
 No of attributes => 0
 After the addition of attributes:

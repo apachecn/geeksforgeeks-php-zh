@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 rand();
 ```
 
@@ -14,7 +14,7 @@ rand();
 
 **语法：**
 
-```
+```php
 rand(min,max);
 ```
 
@@ -31,7 +31,7 @@ rand(min,max);
 
 ## PHP
 
-```
+```php
 <?php
       // Generating a random number
       $randomNumber = rand();

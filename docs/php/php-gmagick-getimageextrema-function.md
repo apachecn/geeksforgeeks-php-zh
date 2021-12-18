@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::getimageextrema( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1(多色图像)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,7 +37,7 @@ print("<pre>".print_r($extrema, true)."</pre>");
 
 **程序 2(单色图像)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

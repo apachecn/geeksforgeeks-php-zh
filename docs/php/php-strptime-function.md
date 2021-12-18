@@ -18,7 +18,7 @@ Strptime()函数是 PHP 中的内置函数，用于解析由 strftime()函数生
 
 **语法：**
 
-```
+```php
 array strptime( $date, $format )
 ```
 
@@ -33,7 +33,7 @@ array strptime( $date, $format )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declaring the format of date/time
@@ -48,7 +48,7 @@ print_r(strptime( $dt, $format ));
 
 **输出：**
 
-```
+```php
 22/08/2018 11:46:57Array
 (
     [tm_sec] => 57
@@ -66,7 +66,7 @@ print_r(strptime( $dt, $format ));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Ddeclaring a different format of date/time
@@ -81,7 +81,7 @@ print_r(strptime( $dt, $format ));
 
 **输出：**
 
-```
+```php
 22/08/18 11:46:59Array
 (
     [tm_sec] => 59

@@ -6,7 +6,7 @@ compact()函数是 PHP 中的内置函数，用于使用变量创建数组。该
 
 **语法**:
 
-```
+```php
 *array* compact("variable 1", "variable 2"...)
 
 ```
@@ -19,7 +19,7 @@ compact()函数是 PHP 中的内置函数，用于使用变量创建数组。该
 
 示例:
 
-```
+```php
 Input : $AS="ASSAM", $OR="ORISSA", $KR="KERELA"
         compact("AS", "OR", "KR");
 Output :
@@ -36,7 +36,7 @@ Array
 
 **示例-1** :
 
-```
+```php
 <?php
 // PHP program to illustrate compact() 
 // Function
@@ -54,7 +54,7 @@ print_r($states);
 
 输出:
 
-```
+```php
 Array
 (
     [AS] => ASSAM
@@ -66,7 +66,7 @@ Array
 
 **示例-2** :
 
-```
+```php
 <?php
 // PHP program to illustrate compact() 
 // function when an array is passed as
@@ -87,7 +87,7 @@ print_r($result);
 
 输出:
 
-```
+```php
 Array
 (
     [username] => max

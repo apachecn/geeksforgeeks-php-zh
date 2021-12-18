@@ -6,7 +6,7 @@ Gmp_nextPrime()是 PHP 中的一个内置函数，用于计算略大于给定 GM
 
 **语法：**
 
-```
+```php
 gmp_nextprime($num)
 ```
 
@@ -16,7 +16,7 @@ gmp_nextprime($num)
 
 例如：
 
-```
+```php
 Input : gmp_nextprime("15")
 Output : 17
 
@@ -29,7 +29,7 @@ Output : 23
 
 **程序 1：**当将数字字符串作为 GMP 编号作为参数传递时，计算刚好大于 GMP 编号的质数的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the prime number greater 
 // than that of a GMP number passed as arguments 
@@ -48,14 +48,14 @@ echo $res;
 
 产出：
 
-```
+```php
 137
 
 ```
 
 **程序 2：**当 GMP 编号作为参数传递时，计算大于 GMP 编号的质数的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the prime  
 // number greater than that of a GMP number
@@ -74,7 +74,7 @@ echo $res;
 
 产出：
 
-```
+```php
 1009
 
 ```

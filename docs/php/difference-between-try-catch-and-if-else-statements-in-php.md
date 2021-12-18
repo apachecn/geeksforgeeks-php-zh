@@ -13,7 +13,7 @@ PHP 中使用 **try** 和 **catch** 来处理异常，就像 C++、Java 等其�
 *   ****如果:**它检查任何条件是否为“真”，如果为真，则它执行 *if* 块内的代码。**
 *   ****否则:**如果条件为“假”，则由 *if* 块检查，然后 *else* 块执行其中的其他代码。**
 
-```
+```php
 if(condition)
 {......}
 else
@@ -22,7 +22,7 @@ else
 
 **或者**
 
-```
+```php
 if(condition)
 {......}
 else if(condition)
@@ -36,7 +36,7 @@ else
 *   ******try:** 这是一个定义代码块的部分，用于测试代码在执行时是否产生意外结果。****
 *   ******catch:** 它是定义另一个代码块的部分，如果在 try 块中产生任何意外结果，就会执行该代码块。实际上，这段代码处理异常。**** 
 
-```
+```php
 **try
 {...condition...;
  ...condition..;
@@ -52,7 +52,7 @@ catch (Exception)
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 $g = "GeeksforGeeks";
@@ -71,7 +71,7 @@ else {
 
 ******输出:******
 
-```
+```php
 **GeeksforGeeks**
 ```
 
@@ -79,7 +79,7 @@ else {
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 // Exception handling function
@@ -109,7 +109,7 @@ tryCatchException(6, 0);
 
 ******输出:****** 
 
-```
+```php
 **Runtime Errors : 
 PHP Warning:  Division by zero in 
 /home/1027ff9c161eb6503f545005908318fc.php on line 8
@@ -121,7 +121,7 @@ Exception: denominator is 0**
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 function rngeLaptop($a) {
@@ -158,7 +158,7 @@ rngeLaptop("Graphics works");
 
 ****输出:****
 
-```
+```php
 Range stated from 50000rs
 Range stated from 25000rs
 Not listed
@@ -170,7 +170,7 @@ Range stated from 55000rs
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 // Exception handling function
@@ -208,7 +208,7 @@ tryCatchException(15, 3);
 
 ****输出:****
 
-```
+```php
 Exception: denominator is a string
 Exception: denominator is 0
 Division is 5 

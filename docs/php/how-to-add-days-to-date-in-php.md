@@ -6,7 +6,7 @@
 **方法 1:** [**使用 strtotime()函数:**](https://www.geeksforgeeks.org/php-strtotime-function/)strtotime()函数用于将英文文本日期时间描述转换为 UNIX 时间戳。
 **语法:**
 
-```
+```php
 strtotime( $EnglishDateTime, $time_now )
 ```
 
@@ -19,7 +19,7 @@ strtotime( $EnglishDateTime, $time_now )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to add days to $Date
 
@@ -34,14 +34,14 @@ echo date('Y-m-d', strtotime($Date. ' + 10 days'));
 
 **Output:** 
 
-```
+```php
 2019-05-20
 ```
 
 **方法二:** [**使用 date_add()函数:**](https://www.geeksforgeeks.org/php-date_create-date_format-add_date-functions/)date _ add()函数用于添加日、月、年、时、分、秒。
 **语法:**
 
-```
+```php
 date_add(object, interval);
 ```
 
@@ -54,7 +54,7 @@ date_add(object, interval);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to add 10 days in date
 
@@ -72,6 +72,6 @@ echo date_format($date, "Y-m-d");
 
 **Output:** 
 
-```
+```php
 2019-05-20
 ```

@@ -6,7 +6,7 @@ Hash_hmac()函数是 PHP 中的一个内置函数，用于使用 HMAC 方法生�
 
 **语法：**
 
-```
+```php
 *string* hash_hmac( $algo, $msg, $key, $raw_opt )
 ```
 
@@ -22,7 +22,7 @@ Hash_hmac()函数是 PHP 中的一个内置函数，用于使用 HMAC 方法生�
 以下程序说明 PHP：
 **程序 1：**中的 hash_hmac()函数
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -35,14 +35,14 @@ echo hash_hmac('md5', 
 
 **Output:**
 
-```
+```php
 65f3fc3c9085077f44ade6ce2d21eba4
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -58,7 +58,7 @@ echo hash_hmac('md5', 
 
 **Output:**
 
-```
+```php
 65f3fc3c9085077f44ade6ce2d21eba4
 eóüd­æî-!ë¤ < pre>?d­æî-!ë¤>
 ```

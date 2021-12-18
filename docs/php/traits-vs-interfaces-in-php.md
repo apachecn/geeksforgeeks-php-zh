@@ -10,7 +10,7 @@ PHP 中的 traits 和 Interfaces 的主要区别在于 Traits 定义了每个类
 
 **语法:**
 
-```
+```php
 <?php
 // A sample trait in PHP
 trait namethis {
@@ -23,7 +23,7 @@ trait namethis {
 
 **示例:**
 
-```
+```php
 <?php
 // PHP program to demonstrate working
 // of trait.
@@ -47,7 +47,7 @@ $obj->geeks();
 
 **输出:**
 
-```
+```php
 Hello Geeks!
 ```
 
@@ -58,7 +58,7 @@ Hello Geeks!
 
 **语法:**
 
-```
+```php
 <?php
 // A sample interface in PHP
 interface MyInterface
@@ -71,7 +71,7 @@ interface MyInterface
 
 **示例:**
 
-```
+```php
 <?php 
 // PHP program to demonstrate working
 // of interface.
@@ -102,7 +102,7 @@ $ob->examplemethod2(); 
 
 **输出:**
 
-```
+```php
 ExampleMethod1 Called
 ExampleMethod2 Called
 

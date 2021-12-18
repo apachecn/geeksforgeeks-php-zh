@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::first( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create vector elements
@@ -38,7 +38,7 @@ var_dump($vector->first());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create vector elements

@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *float* exp($power)
 
 ```
@@ -19,7 +19,7 @@
 
 例如：
 
-```
+```php
 Input :  $power = 0;
 Output : 1
 
@@ -30,7 +30,7 @@ Output : 2.718281828459
 
 下面的程序演示了 exp()在 PHP 中的工作方式：
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working of exp() Function 
@@ -42,7 +42,7 @@ for($i=-2;$i<=2;$i++)
 
 产出：
 
-```
+```php
 e^-2 = 0.13533528323661
 e^-1 = 0.36787944117144
 e^0 = 1

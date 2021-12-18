@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```php
 *string* preg_quote( *string* $str, *string* $delimiter = NULL )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Create a string which need to be escaped
@@ -41,7 +41,7 @@ echo "After Processing - " . $processedStr;
 
 **Output:**
 
-```
+```php
 Before Processing - Welcome to GfG! (+ The course fee. $400) /
 After Processing - Welcome to GfG\! \(\+ The course fee\. \$400\) /
 
@@ -51,7 +51,7 @@ After Processing - Welcome to GfG\! \(\+ The course fee\. \$400\) /
 
 **程序 2**
 
-```
+```php
 <?php
 
 // Create a string which need to be escaped
@@ -70,7 +70,7 @@ echo "After Processing - " . $processedString;
 
 **Output:**
 
-```
+```php
 Before Processing - Welcome to GfG! (+ The course fee. $400) /
 After Processing - Welcome to GfG\! \(\+ The course fee\. \$400\) \/
 
@@ -80,7 +80,7 @@ After Processing - Welcome to GfG\! \(\+ The course fee\. \$400\) \/
 
 **程序 3:**
 
-```
+```php
 <?php
 
 // PHP Program emphasize the word within * * and 
@@ -119,7 +119,7 @@ echo "BOTH COMBINED - " . $bothReplacementsCombined;
 
 **Output:**
 
-```
+```php
 BOLD ONLY - The *article* was written by [GFG]
 ITALIC ONLY - The *article* was written by *[GFG]*
 BOTH COMBINED - The *article* was written by *[GFG]*

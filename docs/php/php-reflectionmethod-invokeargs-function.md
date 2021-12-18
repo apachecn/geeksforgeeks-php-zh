@@ -5,7 +5,7 @@
 **ReflectionMethod：：InvokeArgs()函数**是 PHP 中的内置函数，用于调用指定的反射方法并返回该方法的结果。
 **语法：**和
 
-```
+```php
 *mixed* ReflectionMethod::invokeArgs ( *$object*, *$parameter* )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -46,7 +46,7 @@ echo $B;
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks is a Computer Science Portal.
 ```
 
@@ -54,7 +54,7 @@ GeeksforGeeks is a Computer Science Portal.
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -97,7 +97,7 @@ echo $C->invokeArgs(new Department3(),
 
 **Output:** 
 
-```
+```php
 HR is a Department.
 Coding is also a Department.
 Marketing too.

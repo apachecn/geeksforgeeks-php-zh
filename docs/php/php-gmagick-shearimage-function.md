@@ -5,7 +5,7 @@
 **Gmagick：：shearimage()**函数是 PHP 中的一个内置函数，用于沿 X 或 Y 轴滑动图像的一条边以创建平行四边形。 X 方向的剪切沿 X 轴滑动边，而 Y 方向的剪切沿 Y 轴滑动边。 剪切角度用于设置图像的剪切。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::shearimage( $color, $xShear, $yShear )
 ```
 
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -51,7 +51,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

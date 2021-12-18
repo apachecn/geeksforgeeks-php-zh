@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionMethod::export ( *$class, $name, $return* )
 ```
 
@@ -21,7 +21,7 @@
 以下程序说明 PHP：
 **Program_1：**中的**ReflectionMethod：：Export()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -47,7 +47,7 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(171) "Method [ <user> protected method GeeksforGeeks ] {
   @@ /home/cd1a603457d3beda20350155354b4363.php 6 - 8
 
@@ -60,7 +60,7 @@ string(171) "Method [ <user> protected method GeeksforGeeks ] {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -100,7 +100,7 @@ var_dump($C->export( 'Department3', 'Marketing', $return = FALSE ));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(160) "Method [ <user> protected method HR ] {
   @@ /home/b1fa43e2f382f32d60abd4370db4a4f6.php 6 - 8
 

@@ -8,7 +8,7 @@ Imagick：：cropThumbnailImage()函数是 PHP 中的内置函数，用于创建
 
 **语法：**
 
-```
+```php
 *bool* Imagick::cropThumbnailImage( $width, $height, $legacy = FALSE )
 ```
 
@@ -28,7 +28,7 @@ Imagick：：cropThumbnailImage()函数是 PHP 中的内置函数，用于创建
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new object

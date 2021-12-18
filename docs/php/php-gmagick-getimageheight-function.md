@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimageheight( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,13 +37,13 @@ echo $height;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 184
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -60,7 +60,7 @@ echo $height;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 200
 ```
 

@@ -10,7 +10,7 @@
 
 ## HTML
 
-```html
+```phphtml
 <!-- HTML Code -->
 <!DOCTYPE html>
 <html lang="en">

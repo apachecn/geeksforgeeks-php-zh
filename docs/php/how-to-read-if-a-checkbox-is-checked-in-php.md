@@ -8,7 +8,7 @@ isset()函数是 PHP 中的一个内置函数，它检查变量是否被设置�
 
 **语法:**
 
-```
+```php
 *bool* isset( $var, mixed )
 ```
 
@@ -16,7 +16,7 @@ isset()函数是 PHP 中的一个内置函数，它检查变量是否被设置�
 
 **程序:**
 
-```
+```php
 <?php 
 
 if(isset($_GET['submit'])) {
@@ -71,7 +71,7 @@ empty()函数是 PHP 中的一个内置函数，用于检查变量是否为空�
 
 **语法:**
 
-```
+```php
 *bool* empty( $var )
 ```
 
@@ -79,7 +79,7 @@ empty()函数是 PHP 中的一个内置函数，用于检查变量是否为空�
 
 **示例:**
 
-```
+```php
 <?php
 if(!empty($_GET['submit'])) {
     $var = $_GET['option1'];

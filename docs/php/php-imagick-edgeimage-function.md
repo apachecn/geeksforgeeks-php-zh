@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::edgeImage( $radius )
 ```
 
@@ -20,7 +20,7 @@
 下面的程序说明了 PHP：
 **程序：**中的**Imagick：：edgeImage()**函数
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php'); 

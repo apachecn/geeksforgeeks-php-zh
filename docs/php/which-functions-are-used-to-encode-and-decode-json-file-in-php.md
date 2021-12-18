@@ -12,7 +12,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     $student_data = '{"Ram":96,"Prashant":76,"Varun":65,"Mark":34}';
 
@@ -34,7 +34,7 @@
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
     // PHP associative array
@@ -55,7 +55,7 @@
 
 ****输出:****
 
-```
+```php
 {"Ram":96,"Prashant":76,"Varun":65,"Mark":34} 
 ```
 
@@ -63,7 +63,7 @@
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
    // PHP associative array
@@ -79,6 +79,6 @@
 
 ****输出:****
 
-```
+```php
 ["Ram","Prashant","Varun","Mark"]
 ```

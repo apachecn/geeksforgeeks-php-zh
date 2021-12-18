@@ -6,7 +6,7 @@ PHP 中的 gmp_mul()函数是一个内置函数，用于将两个 GMP 数字相�
 
 **语法：**
 
-```
+```php
 GMP gmp_mul ( GMP $num1, GMP $num2 )
 ```
 
@@ -16,7 +16,7 @@ GMP gmp_mul ( GMP $num1, GMP $num2 )
 
 例如：
 
-```
+```php
 Input : num1 = "123456789"
         num2 = "987654321"
 Output: 121932631112635269
@@ -31,7 +31,7 @@ Output: 999989900001
 
 **程序 1：**
 
-```
+```php
 <?php
 $mul = gmp_mul("562817", "713645");
 echo gmp_strval($mul);
@@ -40,13 +40,13 @@ echo gmp_strval($mul);
 
 产出：
 
-```
+```php
 401651537965
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $mul = gmp_mul("123456789", "987654321");
 echo gmp_strval($mul); 
@@ -60,7 +60,7 @@ echo gmp_strval($mul); 
 *   [PHP|gmp_clrbit()函数](https://www.geeksforgeeks.org/php-gmp_clrbit-function/)
 *   [PHP|GMP 标签函数](https://www.geeksforgeeks.org/tag/php-gmp/)
 
-```
+```php
 121932631112635269
 ```
 

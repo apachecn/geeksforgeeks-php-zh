@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromgd( *string* $filename )
 ```
 
@@ -17,7 +17,7 @@
 下面给出的程序说明了 PHP 中的**imagecreatefrom mgd()函数**：
 **程序 1(在浏览器中查看 gd 文件)：**
 
-```
+```php
 <?php
 // Load the GD image from localfile
 $im = imagecreatefromgd('geeksforgeeks.gd');
@@ -30,13 +30,13 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will load gd image in text form as it is not supported by browser.
 ```
 
 **节目 2(将 GD 转换为 PNG 并在浏览器中查看)：**
 
-```
+```php
 <?php
 // As GD isn't supported in browser, it can be
 // converted into PNG to be viewed in browser
@@ -55,7 +55,7 @@ imagedestroy($im);
 
 **程序 3(将 gd 转换为 jpg)：**
 
-```
+```php
 <?php
 // Load the GD image
 $im = imagecreatefromgd('geeksforgeeks.gd');
@@ -68,7 +68,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will convert GD image into JPEG and save in local folder.
 ```
 

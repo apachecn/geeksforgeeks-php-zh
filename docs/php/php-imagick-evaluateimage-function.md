@@ -6,7 +6,7 @@ Imagick：：valuateImage()函数是 PHP 中的内置函数，用于将表达式
 
 **语法：**
 
-```
+```php
 *bool* Imagick::evaluateImage( $evaluation_op, $constant, $channel = Imagick::CHANNEL_DEFAULT )
 ```
 
@@ -22,7 +22,7 @@ Imagick：：valuateImage()函数是 PHP 中的内置函数，用于将表达式
 
 **程序 1：**
 
-```
+```php
 <?php  
 
 // Create an Imagick object  
@@ -50,7 +50,7 @@ echo $imagick->getImageBlob();  
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Creating new Imagick object
@@ -80,7 +80,7 @@ $image->writeImage(__DIR__ . '\sample_with_33perc_opacity.png');
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Function definition

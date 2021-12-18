@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionExtension::export( *string* $name,
  *string* $return )
 ```
@@ -22,7 +22,7 @@
 
 **程序 _1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -77,7 +77,7 @@ var_dump($B);
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 

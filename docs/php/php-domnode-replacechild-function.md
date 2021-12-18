@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNode::replaceChild( *DOMNode* $newnode, *DOMNode* $oldnode )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -52,7 +52,7 @@ echo $document->saveXML();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

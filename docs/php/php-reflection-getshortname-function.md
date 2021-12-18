@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Reflection::getShortName( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a namespace and class GFG
@@ -39,14 +39,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass inbuilt function
@@ -62,7 +62,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 string(15) "ReflectionClass"
 
 ```

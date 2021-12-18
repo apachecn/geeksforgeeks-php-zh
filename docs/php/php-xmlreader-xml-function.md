@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::XML( *string* $source, 
 *string* $encoding, *int* $options )
 ```
@@ -25,7 +25,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -54,7 +54,7 @@ while ($XMLReader->read()) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance

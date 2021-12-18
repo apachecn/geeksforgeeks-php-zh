@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::line( $sx, $sy, $ex, $ey )
 ```
 
@@ -23,7 +23,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an Imagick object

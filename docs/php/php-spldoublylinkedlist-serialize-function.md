@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* SplDoublyLinkedList::serialize( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -41,14 +41,14 @@ echo $serialize;
 
 **输出：**
 
-```
+```php
 C:19:"SplDoublyLinkedList":29:{i:0;:i:1;:i:2;:i:3;:i:8;:i:5;}
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -73,7 +73,7 @@ echo $serialize;
 
 **输出：**
 
-```
+```php
 C:19:"SplDoublyLinkedList":105:{i:0;:s:7:"Welcome";:s:2:
 "to";:s:13:"GeeksforGeeks";:s:1:"A";:s:8:"Computer";
 :s:7:"Science";:s:6:"Portal";}

@@ -8,13 +8,13 @@ PHP 提供了 **[json_encode()函数](https://www.geeksforgeeks.org/php-json_enc
 
 **语法:**
 
-```
+```php
 json_encode( $my_array );
 ```
 
 **示例 1:** 本示例使用 json_encode()函数将 PHP 数组转换为 JavaScript JSON 对象。
 
-```
+```php
 <?php  // Array in php
 $myArr = array('Geeks', 'GeeksforGeeks@geeks.com');
 ?>
@@ -30,14 +30,14 @@ document.write(arr[1]);
 
 **输出:**
 
-```
+```php
 GeeksforGeeks@geeks.com
 
 ```
 
 **示例 2:** 这里你会看到使用**JSON _ encode($ myar)**将一维 PHP 数组转换成 javaScript 数组。传递 php 数组，然后使用 json_encode，我们将其转换为 javascript 数组。
 
-```
+```php
 <?php  ?>
 <script type='text/javascript'>
 <?php
@@ -53,13 +53,13 @@ document.write(javascript_array[0]);
 
 **输出:**
 
-```
+```php
 geeks
 ```
 
 **例 3:** 这里你会看到使用**JSON _ encode($ myar)**将多维 PHP 数组转换成 javaScript 数组。传递 php 数组，然后使用 json_encode，我们将其转换为 javascript 数组。
 
-```
+```php
 <?php  ?>
 
 <script type='text/javascript'>
@@ -81,7 +81,7 @@ document.write(javascript_array[0][1]);
 
 **输出:**
 
-```
+```php
 for@example.com
 ```
 

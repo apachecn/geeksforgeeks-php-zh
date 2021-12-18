@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool imageconvolution ( $image, $matrix, $div, $offset )
 ```
 
@@ -23,7 +23,7 @@ bool imageconvolution ( $image, $matrix, $div, $offset )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a gif image 
@@ -51,7 +51,7 @@ imagepng($image, null, 9);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a gif image 

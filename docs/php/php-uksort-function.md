@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *boolean* uksort($array, myFunction);
 
 ```
@@ -22,7 +22,7 @@
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // user-defined comparison function
@@ -51,7 +51,7 @@ print_r ($names);
 
 产出：
 
-```
+```php
 Array
 (
     [60] => vbscript
@@ -64,7 +64,7 @@ Array
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // user-defined comparison function
@@ -93,7 +93,7 @@ print_r ($names);
 
 产出：
 
-```
+```php
 Array
 (
     [10] => javascript

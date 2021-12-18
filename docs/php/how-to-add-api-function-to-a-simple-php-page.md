@@ -14,7 +14,7 @@
 
 **程序:**
 
-```
+```php
 <?php
 
 $url = 'RequiredLink';
@@ -85,7 +85,7 @@ function APIcall($method, $url, $data) {
 
 **。htaccess** 文件用于将请求 URI 映射到 REST API 服务。
 
-```
+```php
 <?php
 require_once("MobileRestHandler.php");
 

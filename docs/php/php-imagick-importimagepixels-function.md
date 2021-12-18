@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::importImagePixels( *int* $x, *int* $y, *int* $width, *int* $height, *string* $map, 
                         *int* $storage, *array* $pixels )
 ```
@@ -39,7 +39,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -67,7 +67,7 @@ echo $imagick;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

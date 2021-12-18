@@ -10,14 +10,14 @@
 
 *   **语法:**写路由如下:
 
-    ```
+    ```php
     // Syntax of a route
     Route::request_type('/url', 'function()');
     ```
 
 *   **程序:**
 
-    ```
+    ```php
     // Creating a new route
     Route::get('/sayhello', function() {
         return 'Hey ! Hello';
@@ -33,7 +33,7 @@
 
 *   **节目 1:**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html lang="en">
     <body>
@@ -44,7 +44,7 @@
 
 *   **程序 2:** 现在给你的*web.php*添加以下代码。
 
-    ```
+    ```php
     // Creating a new route
     Route::get('/viewhello', function() {
         return view('index');
@@ -60,7 +60,7 @@
 
 *   **程序 1:** 下面写的代码是一个基本的控制器代码，我们只是使用控制器名称空间来增加使用它的能力，就像导入库一样。现在添加功能:
 
-    ```
+    ```php
     <?php
 
     namespace App\Http\Controllers;
@@ -75,7 +75,7 @@
 
 *   **程序 2:** 这里我们创建了一个名为 *index()* 的函数，在里面我们使用 *view* 方法为*index2.blade.php*服务。现在让我们在*资源/视图*中创建这样的文件，并向其中添加以下代码:
 
-    ```
+    ```php
     <?php
 
     namespace App\Http\Controllers;
@@ -91,7 +91,7 @@
 
 *   **程序 3:** 我们写了前端文件，写了控制器，现在最后一件事就是注册路线。
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html lang="en">
     <body>
@@ -102,7 +102,7 @@
 
 *   **Syntax:** For registering the routes
 
-    ```
+    ```php
     Route::request_type('/url', 'ControllerName@functionName');
     ```
 
@@ -110,7 +110,7 @@
 
 *   **程序 4:** 在这里你可以看到我已经写了*我的控制器*作为我的控制器和*索引*作为要附加到这个 url 的函数的名称。现在让我们访问/viewindex2 并查看输出。
 
-    ```
+    ```php
     Route::get('/viewindex2', 'mycontroller@index');
     ```
 

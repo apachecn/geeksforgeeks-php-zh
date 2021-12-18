@@ -6,7 +6,7 @@ Geoip_db_avail()函数是 PHP 中的一个内置函数，用于检查 GeoIP 数�
 
 **语法：**
 
-```
+```php
 bool geoip_db_avail( $database )
 ```
 
@@ -18,7 +18,7 @@ bool geoip_db_avail( $database )
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP code implementing geoip_db_avail() function
 
@@ -32,7 +32,7 @@ if (geoip_db_avail(GEOIP_COUNTRY_EDITION))
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code implementing geoip_db_avail() function
 

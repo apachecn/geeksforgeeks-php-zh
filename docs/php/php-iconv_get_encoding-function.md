@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* iconv_get_encoding( $type = "all" )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Use iconv_set_encoding() function
@@ -39,7 +39,7 @@ var_dump(iconv_get_encoding('all'));
 
 **输出：**
 
-```
+```php
 array(3) {
   ["input_encoding"]=>
   string(5) "UTF-8"

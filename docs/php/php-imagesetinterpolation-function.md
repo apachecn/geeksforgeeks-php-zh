@@ -5,7 +5,7 @@
 **imagesetinterpolation()函数**是 PHP 中内置的函数，用于设置插值方法，设置插值方法会影响各种函数的渲染，如*imagerotate()*函数。
 **语法：**和
 
-```
+```php
 *bool* imagesetinterpolation( *resource* $image, *int* $method )
 ```
 
@@ -42,7 +42,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load the png image
@@ -70,7 +70,7 @@ imagepng($rotated);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load the png image

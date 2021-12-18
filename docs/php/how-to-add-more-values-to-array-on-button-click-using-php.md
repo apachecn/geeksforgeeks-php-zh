@@ -14,7 +14,7 @@ PHP 是一种服务器端语言，它只响应请求(GET、POST、PUT、PATCH �
 
 ## index.html
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -56,7 +56,7 @@ PHP 是一种服务器端语言，它只响应请求(GET、POST、PUT、PATCH �
 
 ## data.php
 
-```html
+```phphtml
 <?php
 
 if(isset($_POST['data'])) {

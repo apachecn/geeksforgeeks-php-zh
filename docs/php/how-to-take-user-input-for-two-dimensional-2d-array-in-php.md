@@ -16,7 +16,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 echo "Enter n for nxn : <br>";
@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // fopen() using standard input

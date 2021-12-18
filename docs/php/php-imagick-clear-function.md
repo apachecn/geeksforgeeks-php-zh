@@ -6,7 +6,7 @@ Imagick：：Clear()函数是 PHP 中的一个内置函数，用于清除分配�
 
 **语法：**
 
-```
+```php
 *bool* Imagick::clear( void )
 ```
 
@@ -16,7 +16,7 @@ Imagick：：Clear()函数是 PHP 中的一个内置函数，用于清除分配�
 
 **程序 1：**此程序不使用 Imagick：：Clear()函数显示图像内容。
 
-```
+```php
 <?php
 
 // Store the image into variable
@@ -48,7 +48,7 @@ echo $imagick->getImageBlob(); 
 
 **程序 2：**此程序使用 Imagick：：Clear()函数清除与 Imagick 对象关联的所有资源。
 
-```
+```php
 <?php
 
 // Store the image into variable

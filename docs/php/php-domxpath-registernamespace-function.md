@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMXPath::registerNamespace( *string* $prefix,
                     *string* $namespaceURI )
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -63,7 +63,7 @@ echo count($entries) . "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

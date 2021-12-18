@@ -6,7 +6,7 @@ Gmstrftime()函数是 PHP 中的内置函数，用于根据本地设置格式化
 
 **语法：**
 
-```
+```php
 string gmstrftime( $format, $timestamp )
 ```
 
@@ -26,7 +26,7 @@ string gmstrftime( $format, $timestamp )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Using gmstrftime() function to return the GMT time
@@ -36,14 +36,14 @@ echo(gmstrftime("%B %d %Y, %X %Z", mktime(14, 0, 0, 8, 31, 18)));
 
 **输出：**
 
-```
+```php
 August 31 2018, 14:00:00 GMT
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using gmstrftime() function to return the GMT time
@@ -54,7 +54,7 @@ echo(gmstrftime("%B %d %Y, %X %Z"));
 
 **输出：**
 
-```
+```php
 August 31 2018, 09:55:21 GMT
 
 ```

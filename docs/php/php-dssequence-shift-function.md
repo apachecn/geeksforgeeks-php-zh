@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* abstract public Ds\Sequence::shift ( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -42,7 +42,7 @@ var_dump($seq->shift());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

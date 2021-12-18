@@ -6,7 +6,7 @@
 
 **方法 1:使用** [**substr()方法**](https://www.geeksforgeeks.org/php-substr-function/)**:**substr()方法用于检索原始字符串的子字符串。它将开始和结束索引作为索引，并提取位于索引之间的字符串部分。为了从开头检索子字符串，起始索引被选择为 0。
 
-```
+```php
 substr(string, startIndex, lengthStr)
 ```
 
@@ -18,7 +18,7 @@ substr(string, startIndex, lengthStr)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring a string variable
@@ -35,14 +35,14 @@ echo($final_str);
 
 **Output**
 
-```
+```php
 Original String : Hi! This is geeksforgeeks
 Modified String : This is
 ```
 
 **方法 2:使用 for 循环和** [**str_split()方法**](https://www.geeksforgeeks.org/php-str_split-function/)**:**str _ split()方法用于将指定的字符串拆分成数组，在数组中元素被映射到它们对应的索引。数组的索引从 0 开始。
 
-```
+```php
 array_split( string )
 ```
 
@@ -50,7 +50,7 @@ array_split( string )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring a string variable
@@ -77,7 +77,7 @@ for($i = 0; $i < sizeof($arr); $i++) {
 
 **Output**
 
-```
+```php
 Original String : Hi! This is geeksforgeeks
 Modified String : his 
 ```

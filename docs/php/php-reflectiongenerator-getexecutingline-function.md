@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ReflectionGenerator::getExecutingLine( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -48,14 +48,14 @@ echo $C;
 
 **输出：**
 
-```
+```php
 8
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Departments
@@ -97,7 +97,7 @@ echo $F->getExecutingLine();
 
 **输出：**
 
-```
+```php
 8
 12
 16

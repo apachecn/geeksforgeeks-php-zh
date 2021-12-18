@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imageflip( $image, $mode )
 ```
 
@@ -27,7 +27,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Assign image file in variable.
@@ -52,7 +52,7 @@ imagejpeg($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Assign image file to variable
@@ -77,7 +77,7 @@ imagejpeg($image);
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Assign image file to variable

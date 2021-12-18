@@ -13,7 +13,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // single-quote strings
@@ -27,7 +27,7 @@ echo $site;
 
 **输出：**
 
-```
+```php
 Welcome to GeeksforGeeks
 ```
 
@@ -36,7 +36,7 @@ Welcome to GeeksforGeeks
 
 ## PHP
 
-```
+```php
 <?php
 
 // single-quote strings
@@ -50,7 +50,7 @@ echo 'Welcome to $site';
 
 **输出：**
 
-```
+```php
 Welcome to $site
 ```
 
@@ -60,7 +60,7 @@ Welcome to $site
 
 ## PHP
 
-```
+```php
 <?php
 
 // double-quote strings
@@ -76,7 +76,7 @@ echo "Welcome to $site";
 
 **输出：**
 
-```
+```php
 Welcome to GeeksforGeeks
 Welcome to GeeksforGeeks
 ```
@@ -92,7 +92,7 @@ PHP 将双引号(“”)中的所有内容都视为字符串。
 
 ## PHP
 
-```
+```php
 <?php
 
 $name = "Krishna";
@@ -104,7 +104,7 @@ echo 'The name of the geek is $name';
 
 **输出：**
 
-```
+```php
 The name of the geek is Krishna 
 The name of the geek is $name
 ```
@@ -131,7 +131,7 @@ The name of the geek is $name
 
 ## PHP
 
-```
+```php
 <?php
 
  $input  = <<<testHeredoc
@@ -149,7 +149,7 @@ echo $input;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Welcome to GeeksforGeeks.
 Started content writing in GeeksforGeeks!.
 I am enjoying this.
@@ -163,7 +163,7 @@ I am enjoying this.
 
 ## PHP
 
-```
+```php
 <?php
 
 $input = <<<'testNowdoc'
@@ -188,7 +188,7 @@ Nowdoc;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Welcome to GeeksforGeeks.
 Started content writing in GeeksforGeeks!.
 
@@ -206,7 +206,7 @@ PHP 中的内置函数是一些现有的库函数，可以直接在我们的程�
 
 ## PHP
 
-```
+```php
 <?php
 
 echo strlen("Hello GeeksforGeeks!");
@@ -216,7 +216,7 @@ echo strlen("Hello GeeksforGeeks!");
 
 **输出：**
 
-```
+```php
 20
 ```
 
@@ -226,7 +226,7 @@ echo strlen("Hello GeeksforGeeks!");
 
 ## PHP
 
-```
+```php
 <?php
 
 echo strrev("Hello GeeksforGeeks!");
@@ -236,7 +236,7 @@ echo strrev("Hello GeeksforGeeks!");
 
 **输出：**
 
-```
+```php
 !skeeGrofskeeG olleH
 ```
 
@@ -246,7 +246,7 @@ echo strrev("Hello GeeksforGeeks!");
 
 ## PHP
 
-```
+```php
 <?php
 
 echo str_replace("Geeks", "World", "Hello GeeksforGeeks!"), "\n";
@@ -257,7 +257,7 @@ echo str_replace("for", "World", "Hello GeeksforGeeks!"), "\n";
 
 **输出：**
 
-```
+```php
 Hello WorldforWorld!
 Hello GeeksWorldGeeks!
 ```
@@ -270,7 +270,7 @@ Hello GeeksWorldGeeks!
 
 ## PHP
 
-```
+```php
 <?php
 
 echo strpos("Hello GeeksforGeeks!", "Geeks"), "\n";
@@ -284,7 +284,7 @@ var_dump(strpos("Hello GeeksforGeeks!", "Peek"));
 
 **输出：**
 
-```
+```php
 6
 11
 bool(false)
@@ -298,7 +298,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 
 echo trim("Hello World!", "Hed!");
@@ -308,7 +308,7 @@ echo trim("Hello World!", "Hed!");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 llo Worl
 ```
 
@@ -318,7 +318,7 @@ llo Worl
 
 ## PHP
 
-```
+```php
 <?php
 
 $input  = "Welcome to geeksforgeeks";
@@ -330,7 +330,7 @@ print_r(explode(" ",$input));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [0] => Welcome [1] => to [2] => geeksforgeeks )
 ```
 
@@ -340,7 +340,7 @@ Array ( [0] => Welcome [1] => to [2] => geeksforgeeks )
 
 ## PHP
 
-```
+```php
 <?php
 
 $input  = "WELCOME TO GEEKSFORGEEKS";
@@ -352,7 +352,7 @@ echo strtolower($input);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 welcome to geeksforgeeks
 ```
 
@@ -362,7 +362,7 @@ welcome to geeksforgeeks
 
 ## PHP
 
-```
+```php
 <?php
 
 $input  = "Welcome to geeksforgeeks";
@@ -374,7 +374,7 @@ echo strtoupper($input);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 WELCOME TO GEEKSFORGEEKS
 ```
 
@@ -384,7 +384,7 @@ WELCOME TO GEEKSFORGEEKS
 
 ## PHP
 
-```
+```php
 <?php
 
 $input  = "Welcome to GeeksforGeeks";
@@ -396,7 +396,7 @@ echo str_word_count($input);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3
 ```
 
@@ -406,7 +406,7 @@ echo str_word_count($input);
 
 ## PHP
 
-```
+```php
 <?php
 
 $input  = "Welcome to geeksforgeeks";
@@ -418,7 +418,7 @@ echo(substr($input,3));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 come to geeksforgeeks
 ```
 

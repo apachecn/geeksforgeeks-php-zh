@@ -6,7 +6,7 @@ Header_List()函数是 PHP 中的一个内置函数，它以数组的形式返�
 
 **语法：**
 
-```
+```php
 array headers_list( void )
 ```
 
@@ -17,7 +17,7 @@ array headers_list( void )
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Use setcookie() function to add
@@ -38,7 +38,7 @@ print_r(headers_list());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (   
     [0] => Set-Cookie: cookie1=value_of_cookie1
@@ -50,7 +50,7 @@ Array
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Use setcookie() function to add 
@@ -72,7 +72,7 @@ var_dump(headers_list());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(3) {
   [0]=>string(24) "Set-Cookie: uid=user4059"
   [1]=>string(23) "custom-res-header: cstm"

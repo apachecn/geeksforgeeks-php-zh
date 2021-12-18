@@ -10,13 +10,13 @@ PHP 中的**stroupper()函数**
 
 **语法**：
 
-```
+```php
 strtoupper($string)
 ```
 
 用于说明 stroupper()函数用法的程序：
 
-```
+```php
 <?php
 # PHP code to convert to Upper Case
 function toUpper($string){
@@ -31,7 +31,7 @@ echo (toUpper($string));
 
 产出：
 
-```
+```php
 GEEKSFORGEEKS
 ```
 
@@ -41,13 +41,13 @@ PHP 中的**strtolower()函数**
 
 **语法**：
 
-```
+```php
 strtolower($string)
 ```
 
 演示 strtolower()函数用法的程序：
 
-```
+```php
 <?php
 # PHP code to convert to Lower Case
 function toLower($string){
@@ -62,7 +62,7 @@ echo (toLower($string));
 
 产出：
 
-```
+```php
 geeksforgeeks
 ```
 
@@ -72,13 +72,13 @@ geeksforgeeks
 
 **语法**：
 
-```
+```php
 ucfirst($string)
 ```
 
 说明 ucfirst()函数用法的程序：
 
-```
+```php
 <?php
 # PHP code to convert the first letter to Upper Case
 function firstUpper($string){
@@ -93,7 +93,7 @@ echo (firstUpper($string));
 
 产出：
 
-```
+```php
 Welcome to GeeksforGeeks
 ```
 
@@ -103,13 +103,13 @@ Welcome to GeeksforGeeks
 
 **语法**：
 
-```
+```php
 lcfirst($string)
 ```
 
 演示 lcfirst()函数用法的程序：
 
-```
+```php
 <?php
 # PHP code to convert the first letter to Lower Case
 function firstLower($string){
@@ -124,7 +124,7 @@ echo (firstLower($string));
 
 产出：
 
-```
+```php
 wELCOME to GeeksforGeeks
 ```
 
@@ -134,13 +134,13 @@ wELCOME to GeeksforGeeks
 
 **语法**：
 
-```
+```php
 ucwords($string)
 ```
 
 说明 ucword()函数用法的程序：
 
-```
+```php
 <?php
 # PHP code to convert the first letter 
 # of each word to Upper Case
@@ -156,7 +156,7 @@ echo (firstUpper($string));
 
 产出：
 
-```
+```php
 Welcome To GeeksforGeeks
 ```
 
@@ -166,13 +166,13 @@ PHP 中的**strlen()函数**
 
 **语法**：
 
-```
+```php
 strlen($string)
 ```
 
 演示 strlen()函数用法的程序：
 
-```
+```php
 <?php
 # PHP code to get the length of any string
 function Length($string){
@@ -187,6 +187,6 @@ echo (Length($string));
 
 产出：
 
-```
+```php
 24
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* DOMCharacterData::appendData( *string* $data )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -38,7 +38,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <div>
     <![CDATA[Hey this is my DOMC This is appended text]]>
@@ -50,7 +50,7 @@ echo $dom->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -73,7 +73,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <div><![CDATA[ This is appended text]]></div>
 ```

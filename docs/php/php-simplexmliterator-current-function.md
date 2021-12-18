@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SimpleXMLIterator::current( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new SimpleXMLIterator object
@@ -44,7 +44,7 @@ var_dump($xmlIt->current());
 
 **输出：**
 
-```
+```php
 NULL
 object(SimpleXMLIterator)#2 (1) {
   [0]=>
@@ -55,7 +55,7 @@ object(SimpleXMLIterator)#2 (1) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new SimpleXMLIterator object
@@ -82,7 +82,7 @@ var_dump($xmlIt->current());
 
 **输出：**
 
-```
+```php
 object(SimpleXMLIterator)#2 (1) {
   [0]=>
   string(11) "Noida India"

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* hrtime( *bool* $is_num_return );
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**此程序将**$IS_NUM_RETURN**设置为 TRUE。
 
-```
+```php
 <?php
 print_r(hrtime(TRUE));
 ?>
@@ -32,7 +32,7 @@ print_r(hrtime(TRUE));
 
 **程序 2：**此程序不设置**$IS_NUM_RETURN**值。 这意味着它采用默认值。
 
-```
+```php
 <?php
 print_r(hrtime());
 ?>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *int* ArrayObject::count( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::count() function 
@@ -41,14 +41,14 @@ print_r($count); 
 
 **输出:**
 
-```
+```php
 3
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::count() function 
@@ -75,7 +75,7 @@ print_r($count); 
 
 **输出:**
 
-```
+```php
 3
 
 ```

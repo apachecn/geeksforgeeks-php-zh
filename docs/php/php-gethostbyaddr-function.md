@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 gethostbyaddr($ip_address);
 ```
 
@@ -24,7 +24,7 @@ gethostbyaddr($ip_address);
 
 **示例**
 
-```
+```php
 <?php
 $host = gethostbyaddr("52.25.109.230");
 echo $host;

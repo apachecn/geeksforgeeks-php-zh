@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::radialBlurImage( $angle, $channel )
 ```
 
@@ -22,7 +22,7 @@
 下面的程序说明了 PHP：
 **程序 1：**中的**Imagick RadialBlurImage()**函数
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php');
@@ -47,7 +47,7 @@ echo $image;
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php');

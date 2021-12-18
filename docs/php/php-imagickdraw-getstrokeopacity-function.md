@@ -6,7 +6,7 @@ ImagickDraw：：getStrokeOpacity()函数是 PHP 中的一个内置函数，用�
 
 **语法：**
 
-```
+```php
 *float* ImagickDraw::getStrokeOpacity( void )
 ```
 
@@ -20,7 +20,7 @@ ImagickDraw：：getStrokeOpacity()函数是 PHP 中的一个内置函数，用�
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object
@@ -48,7 +48,7 @@ echo $draw->getStrokeOpacity();
 
 **输出：**
 
-```
+```php
 0.49999237048905
 ```
 

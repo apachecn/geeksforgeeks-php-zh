@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMImplementation::hasFeature( *string* $feature, *string* $version )
 ```
 
@@ -23,7 +23,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Write the feature name
@@ -52,7 +52,7 @@ if ($hasFeature2) {
 
 **示例 2：**
 
-```
+```php
 <?php
 // Write the feature name
 $featureName1 = "Events";

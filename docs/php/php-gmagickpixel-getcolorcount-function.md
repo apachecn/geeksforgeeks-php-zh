@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* GmagickPixel::getcolorcount( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -46,13 +46,13 @@ echo $lastColor->getcolorcount(); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 100064
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -72,13 +72,13 @@ echo $firstColor->getcolorcount(); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -101,7 +101,7 @@ foreach ($histogramElements as $pixel) { 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 R G B Hue :Count
 0 22 35 :1
 0 24 37 :1

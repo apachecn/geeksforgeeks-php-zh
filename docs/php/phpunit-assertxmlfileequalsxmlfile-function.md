@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertXmlFileEqualsXmlFile(string $expectedFile, 
 string $actualFile[, string $message = ''])
 
@@ -24,7 +24,7 @@ string $actualFile[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -54,7 +54,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -79,7 +79,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 **示例：**
 
-```
+```php
 PHPUnit 8.5.8 by Sebastian Bergmann and contributors.
 
 .                                                 1 / 1 (100%)

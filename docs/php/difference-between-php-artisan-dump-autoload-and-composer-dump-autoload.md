@@ -8,13 +8,13 @@
 
 *   默认情况下，它将主机名作为本地主机。
 
-    ```
+    ```php
     php artisan serve
     ```
 
 *   如果您想更改主机名和端口号，可以使用以下命令。
 
-    ```
+    ```php
     php artisan serve --host=hostname.app --port=8080
     ```
 
@@ -22,33 +22,33 @@
 
 *   **创建模型:**该命令将生成模型**username.php**到预先存在的模型文件夹中，或者如果文件夹不存在，它将创建一个。您可以在此位置找到模型**app/Models/model name . PHP**
 
-    ```
+    ```php
     php artisan make:model
     ```
 
 *   **清除缓存:**当更多用户注册您的网站时，可能会导致认证系统失败， **[和](https://www.geeksforgeeks.org/laravel/)** 中的缓存可以使用这些命令清除。您也可以手动从存储中删除所有缓存文件和会话文件。
     *   刷新应用程序缓存
 
-        ```
+        ```php
         php artisan cache:clear
         ```
 
     *   删除配置缓存文件
 
-        ```
+        ```php
         php artisan config:clear
         ```
 
     *   清除所有已编译的视图文件
 
-        ```
+        ```php
         php artisan view:clear 
         ```
 
 *   **创建控制器:**以下命令用于创建控制器。
     在控制器文件夹内生成测试控制器
 
-    ```
+    ```php
     php artisan make:controller TestController
     ```
 
@@ -59,7 +59,7 @@
 *   **Composer.json:** 要开始使用 Composer，您只需要一个 **composer.json** 文件。该文件包括您创建的项目的所有依赖项以及元数据。
     **作曲家**
 
-    ```
+    ```php
     "autoload":{
         "classmap":["database"],
         "files":["name1.php", "name2.php"]
@@ -70,7 +70,7 @@
 *   **作曲家更新:****作曲家更新**命令可用于安装以及更新依赖项。该命令可用于添加或删除依赖项，但首先，手动添加到 **composer.json** 文件。
 *   **Composer remove:** 此命令可用于移除未使用的依赖项。您可以使用下面的命令卸载这些依赖项。
 
-    ```
+    ```php
     composer remove packageauthor/packagename
     ```
 

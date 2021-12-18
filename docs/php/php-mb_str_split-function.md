@@ -6,7 +6,7 @@ Mb_str_plit()函数是在 PHP 版本 7.4.0 中引入的，只有等于或高于 
 
 **语法：**
 
-```
+```php
 *array* mb_str_split(*string* $string, *int* $length, *string* $encoding)
 ```
 
@@ -25,7 +25,7 @@ Mb_str_plit()函数是在 PHP 版本 7.4.0 中引入的，只有等于或高于 
 
 ## PHP
 
-```
+```php
 <?php
 
 print_r(mb_str_split("Awesome"));
@@ -38,7 +38,7 @@ print_r(mb_str_split("Awesome"));
 
 ## PHP
 
-```
+```php
 <?php
 
 $sentence = "GeeksforGeeks is Awesome";

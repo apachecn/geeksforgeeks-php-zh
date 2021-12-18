@@ -6,7 +6,7 @@ JddayofWeek()函数是 PHP 中的一个内置函数，它返回传入参数的�
 
 **语法：**
 
-```
+```php
 jddayofweek($jd, $mode)
 ```
 
@@ -21,7 +21,7 @@ jddayofweek($jd, $mode)
 **返回值：**该函数根据如上所述在参数中传递的模式的值返回星期几。
 示例：
 
-```
+```php
 Input : $jd = 4/27/2018 ,  mode=0 
 Output : 5
 
@@ -34,7 +34,7 @@ Output : Friday
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jddayofweek() function
@@ -50,7 +50,7 @@ echo jddayofweek($jd);
 
 **输出：**
 
-```
+```php
 5
 ```
 
@@ -58,7 +58,7 @@ echo jddayofweek($jd);
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jddayofweek() function
@@ -74,7 +74,7 @@ echo jddayofweek($jd, 1);
 
 **输出：**
 
-```
+```php
 Friday
 ```
 
@@ -82,7 +82,7 @@ Friday
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jddayofweek() function
@@ -98,7 +98,7 @@ echo jddayofweek($jd, 2);
 
 **输出：**
 
-```
+```php
 Fri
 ```
 
@@ -106,7 +106,7 @@ Fri
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jddayofweek() function
@@ -122,7 +122,7 @@ echo jddayofweek($jd, 4);
 
 **输出：**
 
-```
+```php
 5
 ```
 

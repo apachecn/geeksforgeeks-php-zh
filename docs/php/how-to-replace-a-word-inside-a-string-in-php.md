@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```php
 str_replace( $searchVal, $replaceVal, $subjectVal, $count )
 
 ```
@@ -17,7 +17,7 @@ str_replace( $searchVal, $replaceVal, $subjectVal, $count )
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to replace all occurence
 // of a word inside a string
@@ -42,6 +42,6 @@ echo $str; 
 
 **输出**
 
-```
+```php
 GEEKS for Geeks
 ```

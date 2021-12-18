@@ -6,7 +6,7 @@ TIMEZONE_NAME_GET()函数是 PHP 中的一个内置函数，用于返回时区�
 
 **语法：**
 
-```
+```php
 string timezone_name_get( $object )
 ```
 
@@ -20,7 +20,7 @@ string timezone_name_get( $object )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Opening the timezone of America/Chicago
@@ -33,14 +33,14 @@ echo ("The name of the timezone is " . timezone_name_get($timezone));
 
 **输出：**
 
-```
+```php
 The name of the timezone is America/Chicago
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Opening the default timezone
@@ -60,7 +60,7 @@ if( date_default_timezone_set( $new_timezone) )
 
 **输出：**
 
-```
+```php
 Default time zone is UTC
 New time zone is America/Chicago
 

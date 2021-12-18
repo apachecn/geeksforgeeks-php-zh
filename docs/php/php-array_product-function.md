@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 array_product($array)
 ```
 
@@ -16,7 +16,7 @@ array_product($array)
 
 **示例:**
 
-```
+```php
 Input : array = (5, 8, 9, 2, 1, 3, 6)
 Output : 12960
 
@@ -29,7 +29,7 @@ Output : 694.7426304
 
 *   When the array passed to the array_product() function contains only integral values then the array_product() function returns an integer value equals to the product of all the elements of the array passed to it.
 
-    ```
+    ```php
     <?php
 
     // PHP function to illustrate the use 
@@ -49,14 +49,14 @@ Output : 694.7426304
 
     输出:
 
-    ```
+    ```php
     12960
 
     ```
 
 *   When the array passed to the array_product() function contains both integral and float values then the array_product() function returns a floating point value equals to the product of all the elements of the array passed to it.
 
-    ```
+    ```php
     <?php
     // PHP function to illustrate the use of
     // array_product()
@@ -73,7 +73,7 @@ Output : 694.7426304
 
     输出:
 
-    ```
+    ```php
     694.7426304
 
     ```

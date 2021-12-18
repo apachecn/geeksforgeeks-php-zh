@@ -6,7 +6,7 @@ Strcspn()函数是 PHP 中的一个内置函数，它返回在找到要搜索的
 
 **语法：**
 
-```
+```php
 strcspn( $string, $charlist, $start, $length)
 
 ```
@@ -26,7 +26,7 @@ strcspn( $string, $charlist, $start, $length)
 
 例如：
 
-```
+```php
 Input : $string = "Geeks for Geeks", $charlist = "mnopqr"
 Output : 7
 
@@ -41,7 +41,7 @@ Output : 6
 
 ## PHP
 
-```
+```php
 <?php
 
 // Output is 6 because the input string
@@ -55,7 +55,7 @@ echo strcspn("Geeks for Geeks", "for");
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 6
 
 ```
@@ -64,7 +64,7 @@ echo strcspn("Geeks for Geeks", "for");
 
 ## PHP
 
-```
+```php
 <?php
 
 // Output is 7 because the input string
@@ -78,7 +78,7 @@ echo strcspn("Geeks for Geeks", "For");
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 7
 
 ```
@@ -87,7 +87,7 @@ echo strcspn("Geeks for Geeks", "For");
 
 ## PHP
 
-```
+```php
 <?php
 
 // Searches from index 5 till
@@ -99,7 +99,7 @@ echo strcspn("Geeks for Geeks", "G", 5);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 5
 
 ```
@@ -108,7 +108,7 @@ echo strcspn("Geeks for Geeks", "G", 5);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Searches from index 5 till 5-th position
@@ -122,7 +122,7 @@ echo strcspn("Geeks for Geeks", " for", 5, -5);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 0
 
 ```
@@ -131,7 +131,7 @@ echo strcspn("Geeks for Geeks", " for", 5, -5);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Searches from 5th index from the end of the string
@@ -145,7 +145,7 @@ echo strcspn("Geeks for Geeks", "Geek", -5);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 0
 
 ```

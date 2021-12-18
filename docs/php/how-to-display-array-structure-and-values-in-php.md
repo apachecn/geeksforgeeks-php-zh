@@ -15,7 +15,7 @@
 
 ******语法:******
 
-```
+```php
 **var_dump( $array_name )**
 ```
 
@@ -27,7 +27,7 @@
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 // Array with subjects
@@ -45,7 +45,7 @@ var_dump($array1);
 
 ******Output**
 
-```
+```php
 array(3) {
   [0]=>
   string(6) "Python"
@@ -68,7 +68,7 @@ array(3) {
 
 ******语法:******
 
-```
+```php
 **print_r( $variable, $isStore )**
 ```
 
@@ -83,7 +83,7 @@ array(3) {
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 // Array with subjects
@@ -101,7 +101,7 @@ print_r($array1);
 
 ******Output**
 
-```
+```php
 Array
 (
     [0] => Python

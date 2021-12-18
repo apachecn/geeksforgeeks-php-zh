@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* http_build_query( $query_data, $numeric_prefix, $arg_separator, $enc_type = PHP_QUERY_RFC1738 )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 $info = array(
     'sudo' => 'placement',
@@ -41,14 +41,14 @@ echo http_build_query($info, '', '&');
 
 **输出：**
 
-```
+```php
 sudo=placement&CPP=course&FORK=C#sudo=placement&CPP=course&FORK=C
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $info = array('geeks', 'gfg' => 'sudo', 'placement' => 'hypertext processor');
 
@@ -59,7 +59,7 @@ echo http_build_query($info, 'myvar_');
 
 **输出：**
 
-```
+```php
 0=geeks&gfg=sudo&placement=hypertext+processor$myvar_0=geeks&gfg=sudo&placement=hypertext+processor
 
 ```

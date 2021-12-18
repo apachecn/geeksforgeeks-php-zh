@@ -6,7 +6,7 @@ Rawurldecode()函数是 PHP 中的内置函数，用于解码编码的字符串�
 
 **语法：**
 
-```
+```php
 string rawurldecode( $str )
 ```
 
@@ -18,7 +18,7 @@ string rawurldecode( $str )
 
 **程序 1：**
 
-```
+```php
 <?php
     echo rawurldecode("A%20computer%20science%20portal%20for%20geek");
 ?>
@@ -26,14 +26,14 @@ string rawurldecode( $str )
 
 **Output:**
 
-```
+```php
 A computer science portal for geek
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?PHP
 $str = 'GeeksforGeeks A computer science portal for geek'; 
 
@@ -49,7 +49,7 @@ echo "Decodec string: " . $decode_str;
 
 **Output:**
 
-```
+```php
 Encoded string: GeeksforGeeks%20A%20computer%20science%20portal%20for%20geek
 Decodec string: GeeksforGeeks A computer science portal for geek
 

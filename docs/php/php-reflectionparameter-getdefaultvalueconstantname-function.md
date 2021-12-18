@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
  *string* ReflectionParameter::getDefaultValueConstantName ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 下面的程序说明了 php 中的**ReflectionParameter：：getDefaultValueConstantName()函数**：
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -45,14 +45,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(13) "GeeksforGeeks"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -85,7 +85,7 @@ var_dump($C->getDefaultValueConstantName());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(14) "Human_Resource"
 string(10) "Parameter3"
 string(17) "Digital_Marketing"

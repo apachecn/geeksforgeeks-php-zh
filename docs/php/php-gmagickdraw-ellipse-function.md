@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::ellipse( *float* $ox, 
 *float* $oy, *float* $rx, *float* $ry, 
 *float* $start, *float* $end )
@@ -28,7 +28,7 @@
 下面给出的程序说明了 PHP 中的**GmagickDraw：：Ellipse()函数**：
 **程序 1(简单省略号)：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png
@@ -66,7 +66,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2(划线省略号)：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png

@@ -8,7 +8,7 @@ PHP 在第 8 版的发布中引入了[开关盒](https://www.geeksforgeeks.org/h
 
 **语法:**
 
-```
+```php
 $variable = match() {
     somecase => 'match_value' ,
     anothercase => 'match_value',
@@ -18,7 +18,7 @@ $variable = match() {
 
 **示例:**
 
-```
+```php
 $value = match(1){
     1 => 'Hii..',
     2 => 'Hello..',
@@ -43,7 +43,7 @@ $value = match(1){
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $day = 7;
@@ -73,7 +73,7 @@ echo $message;
 
 **Output**
 
-```
+```php
 Sunday
 ```
 
@@ -81,7 +81,7 @@ Sunday
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $day = 7;
@@ -104,6 +104,6 @@ echo $message;
 
 **输出:**
 
-```
+```php
 Sunday
 ```

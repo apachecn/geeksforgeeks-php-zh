@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 string timezone_name_from_abbr( $abbr, $gmtoffset, $isdst )
 ```
 
@@ -24,7 +24,7 @@ string timezone_name_from_abbr( $abbr, $gmtoffset, $isdst )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Displaying the name of timezone using the abbreviation
@@ -35,14 +35,14 @@ echo ("PST stands for " . $abbr);
 
 **输出：**
 
-```
+```php
 PST stands for America/Los_Angeles
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Displaying the name of timezone using the abbreviation
@@ -53,7 +53,7 @@ echo ("The given parameter stands for " . $abbr);
 
 **输出：**
 
-```
+```php
 The given parameter stands for Europe/Helsinki
 
 ```

@@ -9,7 +9,7 @@ PHP 编程中的单引号或双引号用于定义字符串。但是，这两者�
 下面的程序说明了**单引号字符串:**
 **程序 1:**
 
-```
+```php
 <?php
 
 // A simple string
@@ -38,7 +38,7 @@ echo 'This is a portal for \n geeks. ';
 
 输出:
 
-```
+```php
 I am a geek. 
 It'll be interesting to know about the string. 
 A \ is named as backslash. 
@@ -51,7 +51,7 @@ This is a portal for \n geeks.
 下面的程序说明了**双引号字符串:**
 **程序 2:**
 
-```
+```php
 <?php
 
 // A simple string.
@@ -78,7 +78,7 @@ echo "The word is $string.";
 
 输出:
 
-```
+```php
 I am a geek.
 It'll be interesting to know about the string.
 This is a simple string.

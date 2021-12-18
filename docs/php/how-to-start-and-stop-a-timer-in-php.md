@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 microtime( $get_as_float )
 ```
 
@@ -19,7 +19,7 @@ microtime( $get_as_float )
 
 ## PHP
 
-```
+```php
 <?php
 
   // Displaying the micro time as a string
@@ -30,6 +30,6 @@ microtime( $get_as_float )
 
 **输出**
 
-```
+```php
 Displaying the micro time as a string :0.62248800 1620222618
 ```

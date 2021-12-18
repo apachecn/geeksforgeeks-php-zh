@@ -6,7 +6,7 @@ PHP 的这个内置函数用于交换数组中的元素，即交换数组中所�
 
 **示例:**
 
-```
+```php
 Input : array = ("aakash" => 20, "rishav" => 40, "gaurav" => 60)
 Output:
         Array
@@ -31,7 +31,7 @@ Output:
 
 **语法:**
 
-```
+```php
 *array* array_flip($array)
 ```
 
@@ -42,7 +42,7 @@ Output:
 下面的程序说明了 **array_flip()函数**在 PHP 中的工作:
 **例 1:**
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of array_flip()
@@ -61,7 +61,7 @@ print_r(Flip($array));
 
 **输出:**
 
-```
+```php
 Array
 (
     [rani] => laxman
@@ -75,7 +75,7 @@ Array
 
 **例 2:**
 
-```
+```php
 <?php
 // PHP program to array_flip() with multiple similar values
 
@@ -97,7 +97,7 @@ print_r(Flip($array)); 
 
 **输出:**
 
-```
+```php
 Array
 (
     [1] => b

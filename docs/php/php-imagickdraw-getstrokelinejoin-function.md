@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ImagickDraw::getStrokeLineJoin( *void* )
 ```
 
@@ -27,7 +27,7 @@ LINEJOIN 常量列表如下：
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -41,13 +41,13 @@ echo $lineJoin;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1 // Which corresponds to imagick::LINEJOIN_MITER
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -64,13 +64,13 @@ echo $lineJoin;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3 // Which corresponds to imagick::LINEJOIN_BEVEL
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object

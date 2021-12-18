@@ -6,7 +6,7 @@ SetFontFamily()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用�
 
 **语法：**
 
-```
+```php
 *void* Format::setFontFamily( $font_family )
 ```
 
@@ -17,7 +17,7 @@ SetFontFamily()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用�
 
 ## PHP
 
-```
+```php
 <?php
 
 require_once 'Spreadsheet/Excel/Writer.php';

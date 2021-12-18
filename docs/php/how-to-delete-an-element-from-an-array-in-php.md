@@ -18,7 +18,7 @@
 
 ## **PHP**
 
-```
+```php
 <?php
 
   // Declaring associated array
@@ -43,7 +43,7 @@
 
 ****输出****
 
-```
+```php
 Array
 (
     [a] => Geeks

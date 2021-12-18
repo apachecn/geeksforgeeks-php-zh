@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 count($array, mode)
 
 ```
@@ -17,7 +17,7 @@ count($array, mode)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to count all elements
 // or values in an array
@@ -41,7 +41,7 @@ echo "Normal count: " . count($array, 0); 
 
 **输出**
 
-```
+```php
 Count first array elements: 6
 Recursive count: 8
 Normal count: 2 

@@ -13,7 +13,7 @@ SplHeap：：Current()函数是 PHP 中的一个内置函数，用于获取迭�
 
 **语法：**
 
-```
+```php
 *mixed* SplMaxHeap::current()
 ```
 
@@ -25,7 +25,7 @@ SplHeap：：Current()函数是 PHP 中的一个内置函数，用于获取迭�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new empty Max Heap
@@ -46,14 +46,14 @@ echo $heap->current() . "\n";
 
 **输出：**
 
-```
+```php
 C
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new empty Max Heap
@@ -80,7 +80,7 @@ while($heap->valid()) {
 
 **输出：**
 
-```
+```php
 gfg
 GEEKS
 DSA

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* GmagickDraw::getfont( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a new GmagickDraw object 
@@ -34,7 +34,7 @@ echo $font; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Empty string which is the default font.
 ```
 
@@ -43,7 +43,7 @@ Empty string which is the default font.
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

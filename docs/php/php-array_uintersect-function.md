@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 array_uintersect($array1, $array2, $array3, ..... $arrayn, user_function
 ```
 
@@ -19,7 +19,7 @@ array_uintersect($array1, $array2, $array3, ..... $arrayn, user_function
 
 示例:
 
-```
+```php
 Input : $a1=array("a"=>"striver", "b"=>"geeks", "d"=>"raj")
         $a2=array("d"=>"articles", "e"=>"raj", "f"=>"coding")
 
@@ -45,7 +45,7 @@ Array
 
 **程序 1:** 演示 array _ uiintersection()函数工作原理的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the working of 
 // array_uintersect() function  
@@ -71,7 +71,7 @@ print_r($result);
 
 **输出:**
 
-```
+```php
 Array
 (
     [d] => raj
@@ -80,7 +80,7 @@ Array
 
 **程序二:**用三个数组演示 array _ uiintersection()函数工作的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the working of 
 // array_uintersect() function with 3 arrays 
@@ -109,7 +109,7 @@ print_r($result);
 
 **输出:**
 
-```
+```php
 Array
 (
     [1] => geeks

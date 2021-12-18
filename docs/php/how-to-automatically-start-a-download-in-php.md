@@ -6,7 +6,7 @@
 
 **创建下载按钮:**
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +50,7 @@
 
 要重定向到要下载文件的某个文件，请创建一个如下所示的 HTML 表单。
 
-```html
+```phphtml
 <form action="downloadFile.php" method="post">
  <input type="submit" name="submit" value="Download" />
 </form>
@@ -61,7 +61,7 @@
 
 **要下载的 PHP 代码:**当用户点击上述按钮时，代码将被重定向到“downloadFile.php”文件。现在，使用文件的网址和 PHP **file_get_contents()** 函数下载文件。
 
-```html
+```phphtml
 <?php 
 
 // Initialize a file URL to 

@@ -14,7 +14,7 @@ PHP 7 的速度和性能变得更好了 PHP codebase 使用了更少的内存，
 
 *   **常量数组使用 define():** PHP 数组常量可以通过使用 define()函数来定义。在 PHP 5.6 中，它由 const 关键字定义。
 
-    ```
+    ```php
     <?php
 
     // Use define() function
@@ -29,7 +29,7 @@ PHP 7 的速度和性能变得更好了 PHP codebase 使用了更少的内存，
 
     **输出:**
 
-```
+```php
 Geeks
 
 ```

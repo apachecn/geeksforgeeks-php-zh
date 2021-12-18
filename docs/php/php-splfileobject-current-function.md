@@ -5,7 +5,7 @@
 **SplFileObject：：Current()**函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于获取当前文件行。
 **语法：**
 
-```
+```php
 string SplFileObject::current( void )
 ```
 
@@ -17,7 +17,7 @@ string SplFileObject::current( void )
 
 **注意：**程序 1 使用了包含以下数据的 gfg.txt 文件。
 
-```
+```php
 GeeksforGeeks
 A Computer Science 
 Portal for Geeks
@@ -25,7 +25,7 @@ Portal for Geeks
 
 **Program 1:** Print All lines of file one by one.
 
-```
+```php
 <?php
 
 // Creating SplFile Object
@@ -40,7 +40,7 @@ foreach ($file as $gfg => $line) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1 Line:  GeeksforGeeks
 2 Line:  A Computer Science 
 3 Line:  Portal for Geeks
@@ -49,7 +49,7 @@ foreach ($file as $gfg => $line) {
 
 **程序 2：**打印当前文件的所有行。
 
-```
+```php
 <?php
 
 // Create SplFileObject object
@@ -66,7 +66,7 @@ while (false !== ($gfg = $file->fgetc()))
 
 **Output:**
 
-```
+```php
 
 1 Line:<?php
 2 Line: 

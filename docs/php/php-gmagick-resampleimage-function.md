@@ -5,7 +5,7 @@
 **Gmagick：：resampleimage()**函数是 PHP 中的一个内置函数，用于将图像重新采样到所需的分辨率。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::resampleimage( $xResolution, $yResolution, 
 $filter, $blur )
 ```
@@ -28,7 +28,7 @@ $filter, $blur )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -53,7 +53,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

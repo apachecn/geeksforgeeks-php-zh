@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 list($variable1, $variable2....)
 ```
 
@@ -18,7 +18,7 @@ list($variable1, $variable2....)
 
 **程序 1：**演示 list()函数用法的程序。
 
-```
+```php
 <?php
 
 // PHP program to demonstrate the 
@@ -42,7 +42,7 @@ echo "a*b*c =", ($a*$b*$c); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
  a =1
  b =2
  c =3
@@ -51,7 +51,7 @@ a*b*c =6
 
 **程序 2：**演示 list()函数运行时错误的程序。
 
-```
+```php
 <?php
 
 // PHP program to demonstrate the 
@@ -66,7 +66,7 @@ list($a, $b, $c, $d, $e) = $array; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHP Notice:  Undefined offset: 4 in 
 /home/619f1441636b952bbd400f1e9e8e3d0c.php on line 6
 
@@ -74,7 +74,7 @@ PHP Notice:  Undefined offset: 4 in
 
 **程序 3：**演示将数组中的特定索引值赋给变量的程序。
 
-```
+```php
 <?php
 
 // PHP program to demonstrate assignment of 
@@ -93,7 +93,7 @@ echo " a = ", ($a), "\n";  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 a = 3
 
 ```

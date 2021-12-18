@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimagebordercolor( *GmagickPixel* $color )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -40,13 +40,13 @@ print("<pre>" . print_r($color->getcolor(), true) . "</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(47802, 22873, 22873)
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* GmagickDraw::gettextdecoration( *void* )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new GmagickDraw object 
@@ -40,13 +40,13 @@ echo $textDecoration; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 // Which is the default value
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new GmagickDraw object 
@@ -63,7 +63,7 @@ echo $textDecoration; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3
 ```
 
@@ -72,7 +72,7 @@ echo $textDecoration; 
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

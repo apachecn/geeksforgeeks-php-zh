@@ -6,25 +6,25 @@
 
 *   我们需要做的第一件事是从数据库中获取数据。为此，我们需要编写一个选择查询，从表中获取所有细节。
 
-```
+```php
 $result=mysqli_query($con, "Select * from Table_name"); 
 ```
 
 *   现在我们需要使用 DOMDocument 创建一个 XML 文件，我们将在其中指定版本。DOMDocument 表示整个 HTML 或 XML 文档，充当文档树的根。
 
-```
+```php
 $xml = new DOMDocument("1.0");
 ```
 
 *   现在，我们将创建 XML 文档的元素。它将使用 createElement()函数创建新的元素节点。它创建了一个新的类 DOMElement 的实例。此节点不会显示在文档中，除非插入了(例如) **DOMNode::appendChild()** 。
 
-```
+```php
 $fitness=$xml->createElement("users");
 ```
 
 *   到目前为止，我们已经创建了一个 XML 文件。为了显示这一点，我们将使用一个 echo 标记，它以 XML 格式显示文件中的数据。要保存 XML 文件，我们将使用 save 命令。
 
-```
+```php
 echo "".$xml->saveXML()."";
 ```
 
@@ -41,7 +41,7 @@ echo "".$xml->saveXML()."";
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $con=mysqli_connect("localhost", "root", "", "fitness");
 

@@ -5,7 +5,7 @@
 **SplFileObject：：fgetc()**函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于从文件中获取字符。
 **语法：**
 
-```
+```php
 string SplFileObject::fgetc( void )
 ```
 
@@ -17,13 +17,13 @@ string SplFileObject::fgetc( void )
 
 **注意：**程序 1 使用了包含以下数据的 gfg.txt 文件。
 
-```
+```php
 GeeksforGeeks
 ```
 
 **程序 1：**用一个空格分隔打印文件的所有字符。
 
-```
+```php
 <?php
 
 // Create SplFileObject object
@@ -40,14 +40,14 @@ while (false !== ($gfg = $file->fgetc()))
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 G e e k s f o r G e e k s
 
 ```
 
 **程序 2：**打印当前文件的所有字符。
 
-```
+```php
 <?php
 
 // Create SplFileObject object
@@ -64,7 +64,7 @@ while (false !== ($gfg = $file->fgetc()))
 
 **Output:**
 
-```
+```php
 <?php
 
 // Create SplFileObject object

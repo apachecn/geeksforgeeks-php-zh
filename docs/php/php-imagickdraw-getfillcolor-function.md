@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickPixel* ImagickDraw::getFillColor( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new ImagickDraw object
 $draw = new ImagickDraw();
@@ -36,13 +36,13 @@ echo $color;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 srgb(0, 0, 0) // which is black the default color.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new ImagickDraw object
 $draw = new ImagickDraw();
@@ -61,13 +61,13 @@ echo $color;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 srgb(128, 0, 128)
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -6,7 +6,7 @@ Print_r()函数是 PHP 中的内置函数，用于打印或显示存储在变量
 
 **语法**：
 
-```
+```php
 print_r( $variable, $isStore )
 ```
 
@@ -21,7 +21,7 @@ print_r( $variable, $isStore )
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -48,7 +48,7 @@ print_r($arr);
 
 产出：
 
-```
+```php
 Welcome to GeeksforGeeks
 101
 Array
@@ -62,7 +62,7 @@ Array
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // PHP program to illustrate the print_r()
@@ -83,7 +83,7 @@ echo $results;
 
 产出：
 
-```
+```php
 Array
 (
     [0] => Welcome

@@ -7,7 +7,7 @@ HTML 输出缩小对于通过减少页面加载时间和减少整体页面大小
 
 **示例:**这是没有缩小代码的 HTML 文件。
 
-```
+```php
 <html>
 
 <head>
@@ -41,19 +41,19 @@ HTML 输出缩小对于通过减少页面加载时间和减少整体页面大小
 
 1.  打开 Apache 配置文件
 
-    ```
+    ```php
     vim /etc/httpd/conf/httpd.conf 
     ```
 
 2.  检查配置文件中的以下行。
 
-    ```
+    ```php
     LoadModule deflate_module modules/mod_deflate.so
     ```
 
 3.  在配置文件的末尾添加以下几行。
 
-    ```
+    ```php
     AddOutputFilterByType DEFLATE text/plain
     AddOutputFilterByType DEFLATE text/html
     AddOutputFilterByType DEFLATE text/xml
@@ -68,13 +68,13 @@ HTML 输出缩小对于通过减少页面加载时间和减少整体页面大小
 
 4.  重启阿帕奇服务器
 
-    ```
+    ```php
     sudo service httpd restart
     ```
 
 **方法 2:** HTML 代码可以用带有回调的 ob_start()函数来缩小。
 
-```
+```php
 <?php
 ob_start("minifier");
 function minifier($code) {
@@ -136,7 +136,7 @@ ob_end_flush();
 1.  从*https://www.terresquall.com/download/HTMLMinifier.php*下载 HTMLMinifier 文件
 2.  将以下代码包含到 php 文件
 
-    ```
+    ```php
     <?php
 
     // Import the HTMLMinifier

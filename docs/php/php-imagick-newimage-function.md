@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::newImage( $cols, $rows, $background, $format )
 ```
 
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an Imagick object

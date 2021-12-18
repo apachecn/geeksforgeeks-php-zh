@@ -6,7 +6,7 @@ Natort()函数是 PHP 中的一个内置函数，用于使用“自然顺序”�
 
 **语法：**
 
-```
+```php
 *bool* natsort(array)
 ```
 
@@ -18,7 +18,7 @@ Natort()函数是 PHP 中的一个内置函数，用于使用“自然顺序”�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // input array
@@ -44,7 +44,7 @@ print_r($arr2);
 
 产出：
 
-```
+```php
 Standard sorting
 Array
 (
@@ -67,7 +67,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // input array
@@ -86,7 +86,7 @@ print_r($arr);
 
 产出：
 
-```
+```php
 Natural order sorting
 Array
 (

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Map::reduce( $callback, $initial )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -46,7 +46,7 @@ var_dump($map->reduce(function($carry, $key, $element) { 
 
 **输出：**
 
-```
+```php
 Map Elements
 Ds\Map Object
 (
@@ -77,7 +77,7 @@ int(15)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare new Map elements
@@ -102,7 +102,7 @@ var_dump($map->reduce($func_gfg, 10)); 
 
 **输出：**
 
-```
+```php
 Original map elements
 Ds\Map Object
 (

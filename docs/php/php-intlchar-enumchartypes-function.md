@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* IntlChar::enumCharTypes( $callback )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // PHP program to uses IntlChar::enumCharTypes()

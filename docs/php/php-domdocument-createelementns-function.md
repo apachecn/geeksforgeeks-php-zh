@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMElement* DOMDocument::createElementNS( *string* $namespaceURI, 
                              *string* $qualifiedName, *string* $value )
 ```
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -45,7 +45,7 @@ echo $dom->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <php:function xmlns:php="https://www.geeksforgeeks.org/php">
     Welcome to GeeksforGeeks
@@ -55,7 +55,7 @@ echo $dom->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -85,7 +85,7 @@ echo $dom->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <organization:GeeksforGeeks xmlns:organization
         ="https://www.geeksforgeeks.org/php">

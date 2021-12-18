@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *int* connection_status( *void* )
 ```
 
@@ -25,7 +25,7 @@
 
 **节目 1:**
 
-```
+```php
 <?php
 
 switch (connection_status()) {
@@ -51,13 +51,13 @@ switch (connection_status()) {
 
 **输出:**
 
-```
+```php
 Connection is in a normal state
 ```
 
 **程序 2:** 在浏览器中断或关闭的情况下，一些输出将被发送到浏览器以供 **connection_status()** 工作。
 
-```
+```php
 <?php
 
 // This will work even if browser breaks or closed
@@ -85,7 +85,7 @@ switch (connection_status()) {
 
 **输出:**
 
-```
+```php
 Connection is in a normal state
 
 ```

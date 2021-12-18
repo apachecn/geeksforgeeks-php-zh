@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::fullEndElement( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -46,7 +46,7 @@ $writer->endDocument();
 
 **示例 2：**在本程序中，我们将比较*endElement(*)和*fullEndElement()*函数
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance

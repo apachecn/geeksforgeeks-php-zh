@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::diff ( Ds\Set $set )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -38,7 +38,7 @@ print_r($a->diff($b));
 
 **输出：**
 
-```
+```php
 Difference of set1 and set2: 
 Ds\Set Object
 (
@@ -49,7 +49,7 @@ Ds\Set Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -68,7 +68,7 @@ var_dump($a->diff($b));
 
 **输出：**
 
-```
+```php
 Difference of set1 and set2: 
 object(Ds\Set)#3 (2) {
   [0]=>

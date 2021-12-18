@@ -6,7 +6,7 @@
 
 **语法：**↔
 
-```
+```php
 *GmagickDraw* GmagickDraw::arc( *float* $sx, *float* $sy,
               *float* $ex, *float* $ey, *float* $sd, *float* $ed )
 ```
@@ -32,7 +32,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -76,7 +76,7 @@ echo $gmagick->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

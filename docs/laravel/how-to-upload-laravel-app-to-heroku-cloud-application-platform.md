@@ -12,7 +12,7 @@
 
 **创建 laravel 应用程序:**为了创建 Laravel 应用程序，请转到您的命令行并编写以下命令。
 
-```
+```php
 $ composer create-project laravel/laravel HerokuApp --prefer-dist
 ```
 
@@ -23,13 +23,13 @@ $ composer create-project laravel/laravel HerokuApp --prefer-dist
 
 **初始化 git 存储库:** Heroku 要求应用程序是 Git 存储库。转到应用程序的根目录，输入以下命令
 
-```
+```php
 $ git init
 ```
 
 初始化后，将文件添加到存储库中，并将更改提交为
 
-```
+```php
 $ git add .
 $ git commit -m 'Initial commit'
 ```
@@ -40,7 +40,7 @@ $ git commit -m 'Initial commit'
 **创建过程文件:**根据文档，默认情况下，Heroku 从根目录提供文件。因此，为了告诉 Heroku 从**公共/** 目录中提供文件，您需要创建一个 Procfile。创建一个过程文件(*没有与此文件关联的扩展名)*)。
 在文件中添加以下内容:
 
-```
+```php
 web: vendor/bin/heroku-php-apache2 public/
 ```
 
@@ -49,7 +49,7 @@ web: vendor/bin/heroku-php-apache2 public/
 
 现在，将此文件添加到存储库中，并将更改提交为:
 
-```
+```php
 $ git add .
 $ git commit -m 'Added Procfile'
 
@@ -59,7 +59,7 @@ $ git commit -m 'Added Procfile'
 
 **部署到 Heroku:** 现在你的应用已经准备好了，你现在可以在 Heroku 上创建一个新的应用，并将更改推送到服务器。键入以下命令，从命令行创建一个新应用程序。
 
-```
+```php
 $ heroku create
 ```
 
@@ -69,7 +69,7 @@ $ heroku create
 
 现在**通过以下命令将**本地更改推送到服务器:
 
-```
+```php
 $ git push heroku master
 ```
 
@@ -78,7 +78,7 @@ $ git push heroku master
 
 自从你**之后还有一件事。env** 文件尚未上传到服务器，因此，您需要为 Heroku 应用程序设置一个**环境变量**。您可以通过以下命令来实现:
 
-```
+```php
 $ heroku config:set APP_KEY={your-app-key}
 ```
 
@@ -87,7 +87,7 @@ $ heroku config:set APP_KEY={your-app-key}
 
 您可以通过此命令或仪表板设置更多配置(环境)变量。现在，你可以去你的[仪表盘](https://dashboard.heroku.com/apps)看看你的网站。您也可以通过以下命令打开您的网站:
 
-```
+```php
 $ heroku open
 ```
 

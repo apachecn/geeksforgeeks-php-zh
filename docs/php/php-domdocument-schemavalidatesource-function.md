@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::schemaValidateSource( *string* $source, *int* $flags = 0 )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -59,7 +59,7 @@ if ($doc->schemaValidateSource($XSD)) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

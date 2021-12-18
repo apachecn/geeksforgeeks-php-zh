@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 foreach( $array as $element ) {
     // PHP Code to be executed
 }
@@ -19,7 +19,7 @@ foreach( $array as $element ) {
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to print all 
 // the values of an array
@@ -38,7 +38,7 @@ foreach($array as $item){
 
 **输出**
 
-```
+```php
 Geek1
 Geek2
 Geek3

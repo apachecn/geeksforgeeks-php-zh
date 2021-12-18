@@ -8,7 +8,7 @@ Each()函数是 PHP 中的一个内置函数，用于获取内部指针当前指
 
 **语法**：
 
-```
+```php
 each($array)
 
 ```
@@ -19,7 +19,7 @@ each($array)
 
 示例：
 
-```
+```php
 Input : each(array('Ram', 'Shita', 'Geeta'))
 Output :
 Array
@@ -39,7 +39,7 @@ its key and value pair.
 
 **程序 1**：
 
-```
+```php
 <?php
 
 $arr = array('maya', 'Sham', 'Geet');
@@ -53,7 +53,7 @@ print_r (each($arr));
 
 **程序 2**：
 
-```
+```php
 <?php
 
 $arr = array('a' => 'anny', 'b' => 'bunny', 

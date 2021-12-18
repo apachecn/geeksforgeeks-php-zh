@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *scalar* AppendIterator::key( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -43,7 +43,7 @@ while ($itr->valid()) {
 
 **输出:**
 
-```
+```php
 ArrayIterator Key: 0  ArrayIterator Value: G
 ArrayIterator Key: 1  ArrayIterator Value: e
 ArrayIterator Key: 2  ArrayIterator Value: e
@@ -54,7 +54,7 @@ ArrayIterator Key: 4  ArrayIterator Value: s
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -94,7 +94,7 @@ while ($itr->valid()) {
 
 **输出:**
 
-```
+```php
 ArrayIterator Key: a  ArrayIterator Value: Geeks
 ArrayIterator Key: b  ArrayIterator Value: for
 ArrayIterator Key: c  ArrayIterator Value: Geeks

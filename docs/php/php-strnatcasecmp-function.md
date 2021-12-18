@@ -6,7 +6,7 @@ Strnatcasecmp()函数是 PHP 中的一个内置函数，它使用“自然顺序
 
 **语法：**
 
-```
+```php
 strnatcasecmp( $string1, $string2 )
 ```
 
@@ -23,7 +23,7 @@ strnatcasecmp( $string1, $string2 )
 
 例如：
 
-```
+```php
 Input : $string = "Geek", $string2 = "GEEK"
 Output : 0
 
@@ -36,7 +36,7 @@ Output : 1
 
 **程序 1：**此程序说明了 strnatcasecmp()函数的简单用法。
 
-```
+```php
 <?php
 
 echo strnatcasecmp("Geeks", "Geek");
@@ -48,7 +48,7 @@ echo strnatcasecmp("Geeks", "Geek");
 
 **程序 2：**此程序说明 strnatcasecmp()函数不区分大小写。
 
-```
+```php
 <?php
 
 // Case-insensitive strnatcasecmp() function

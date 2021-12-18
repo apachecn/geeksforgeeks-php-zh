@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 for( initialization; condition; increment/decrement ) {
     // Set of Code to be iterated and executed
 }
@@ -22,7 +22,7 @@ for 循环的每个参数都有独特的功能，为了更好地理解，下面�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Loop starts from here
@@ -35,7 +35,7 @@ for($j = 1; $j <= 5; $j++) {
 
 **Output:** 
 
-```
+```php
 1 GeeksforGeeks 
 2 GeeksforGeeks 
 3 GeeksforGeeks 

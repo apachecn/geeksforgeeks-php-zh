@@ -6,7 +6,7 @@ Fread()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于从文件中�
 
 **语法：**
 
-```
+```php
 *string* SplFileObject::fread( $length )
 ```
 
@@ -20,7 +20,7 @@ Fread()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于从文件中�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an Object 
@@ -38,7 +38,7 @@ echo ($gfg);
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // PHP program to use array to check 

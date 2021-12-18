@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Vector* public Ds\Vector::map( $callback )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Vector
@@ -38,7 +38,7 @@ print_r($vector->map(function($value) { 
 
 **程序 2：**此程序显示*MAP*()函数的实现，该函数为满足回调条件的每个元素在向量中设置 1。
 
-```
+```php
 <?php
 
 // Create new Vector

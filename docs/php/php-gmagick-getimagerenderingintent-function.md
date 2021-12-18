@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getImageRenderingIntent( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Gmagick object
@@ -38,7 +38,7 @@ echo($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2
 
 ```
@@ -48,7 +48,7 @@ echo($res);
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -90,7 +90,7 @@ echo "After " . $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before: 2
 After 8 
 

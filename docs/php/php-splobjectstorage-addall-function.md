@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::addAll( $value )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an empty std class
@@ -39,14 +39,14 @@ echo $gfg1[$obj] . "\n";
 
 **输出：**
 
-```
+```php
 GeeksforGeeks
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty std class
@@ -68,7 +68,7 @@ print_r($gfg1);
 
 **输出：**
 
-```
+```php
 SplObjectStorage Object
 (
     [storage:SplObjectStorage:private] => Array

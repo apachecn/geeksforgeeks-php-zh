@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* inet_ntop( *string* $ip_address )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Store the address into variable
@@ -41,14 +41,14 @@ echo $exp;
 
 **Output:**
 
-```
+```php
 127.0.1.1
 
 ```
 
 **程序 2：**此程序直接在参数中使用大小为 4 的 ASCII 字符字符串。
 
-```
+```php
 <?php
 
 // Use inet_ntop() function to convert
@@ -65,7 +65,7 @@ echo inet_ntop("2c#!");
 
 **Output:**
 
-```
+```php
 91.93.91.93
 52.53.48.57
 42.94.98.64

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Vector::push( $values )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new vector
@@ -42,7 +42,7 @@ print_r($arr1);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector

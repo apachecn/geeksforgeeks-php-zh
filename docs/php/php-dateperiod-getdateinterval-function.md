@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateInterval* DatePeriod::getDateInterval( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DatePeriod object
@@ -35,14 +35,14 @@ echo $dateInterval->format('%d days');
 
 **输出：**
 
-```
+```php
 5 days
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare the start date
@@ -68,7 +68,7 @@ echo $dateInterval->format('%d days');
 
 **输出：**
 
-```
+```php
 5 days
 
 ```

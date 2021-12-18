@@ -6,7 +6,7 @@ Fell()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于返回指定�
 
 **语法：**
 
-```
+```php
 *int* SplFileObject::ftell( void )
 ```
 
@@ -18,7 +18,7 @@ Fell()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于返回指定�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an Spl Object
@@ -36,7 +36,7 @@ echo $file->ftell();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Array

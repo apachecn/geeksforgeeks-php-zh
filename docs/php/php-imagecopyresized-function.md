@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagecopyresized( *resource* $dst_image, 
 *resource* $src_image, *int* $dst_x, *int* $dst_y,
  *int* $src_x, *int* $src_y, *int* $dst_w, 
@@ -31,7 +31,7 @@
 下面给出的程序说明了 PHP 中的**imagecopyresize()函数**：
 **程序 1(将图像大小调整为其宽度和高度的 1.5 倍)：**
 
-```
+```php
 <?php
 // The percentage to be used
 $percent = 1.5;  // make image 1.5 times bigger
@@ -59,7 +59,7 @@ imagejpeg($thumb);
 
 **程序 2(调整固定宽度和高度的图像大小)：**
 
-```
+```php
 <?php
 // Set a  fixed height and width
 $width = 150;

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::oilpaintimage( $radius )
 ```
 
@@ -23,7 +23,7 @@
 **输入图像：**
 ![](img/88e955c2701e97341d552eba1b5adceb.png)
 
-```
+```php
 <?php 
 
 // Create a Gmagick object 
@@ -45,7 +45,7 @@ echo $gmagick; 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 

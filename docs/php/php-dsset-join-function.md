@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* public Ds\Set::join ([ string $glue ] )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new set
@@ -35,14 +35,14 @@ var_dump($set->join()); 
 
 **输出：**
 
-```
+```php
 string(8) "GEKS1234"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new set
@@ -65,7 +65,7 @@ var_dump($set->join("|")); 
 
 **输出：**
 
-```
+```php
 string(22) "G, E, K, S, 1, 2, 3, 4"
 string(9) "1|2|3|g|e"
 

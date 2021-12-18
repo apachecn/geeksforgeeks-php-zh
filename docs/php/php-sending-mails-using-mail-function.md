@@ -8,7 +8,7 @@ PHP 是一种服务器端脚本语言，丰富了所需的各种实用程序。 
 
 **语法：**
 
-```
+```php
 bool mail(to , subject , message , additional_headers , additional_parameters)
 
 ```
@@ -27,7 +27,7 @@ bool mail(to , subject , message , additional_headers , additional_parameters)
 
 1.  Sending a Simple Mail in PHP
 
-    ```
+    ```php
     <?php
       $to = "recipient@example.com";
       $sub = "Generic Mail";
@@ -41,14 +41,14 @@ bool mail(to , subject , message , additional_headers , additional_parameters)
 
     发帖主题：Re：Kolibrios
 
-    ```
+    ```php
     Your Mail is sent successfully.
 
     ```
 
 2.  Sending a Mail with Additional Options
 
-    ```
+    ```php
     <?php
       $to = "recipient@example.com";
       $sub = "Generic Mail";
@@ -63,7 +63,7 @@ bool mail(to , subject , message , additional_headers , additional_parameters)
 
     发帖主题：Re：Kolibrios
 
-    ```
+    ```php
     Your Mail is sent successfully.
 
     ```

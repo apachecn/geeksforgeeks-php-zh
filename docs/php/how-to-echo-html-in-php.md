@@ -8,7 +8,7 @@
 
     **示例 1:** 本示例使用 PHP echo 显示结果。
 
-    ```
+    ```php
     <?php 
         $name = "GeeksforGeeks";
         echo "<h1>Hello User, </h1> <p>Welcome to {$name}</p>";
@@ -20,7 +20,7 @@
 
     **示例 2:** 本示例使用 PHP 打印显示结果。
 
-    ```
+    ```php
     <?php 
         $name = "GeeksforGeeks";
         print "<h1>Hello User, </h1> <p>Welcome to {$name}</p>";
@@ -34,7 +34,7 @@
 
     **示例 1:** 本示例使用 PHP 回声速记来显示结果。
 
-    ```
+    ```php
     <?php 
         $name = "GeeksforGeeks";
     ?>
@@ -48,7 +48,7 @@
 
     **例 2:** 从 PHP 中分离 HTML
 
-    ```
+    ```php
     <?php
         $num = 2;
         for ($i = 1; $i <= 10; $i++) { 
@@ -69,7 +69,7 @@
 
     **语法:**
 
-    ```
+    ```php
     <<<GFG
     // HTML Markup
     GFG;
@@ -80,7 +80,7 @@
 
     **示例:**
 
-    ```
+    ```php
     <?php
 
     echo <<<GFG

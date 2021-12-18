@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```php
 php -ln filename
 ```
 
 我们可以用**-语法检查**代替 **-ln，**可读性更强。
 
-```
+```php
 php --syntax-check filename
 ```
 
@@ -26,7 +26,7 @@ php --syntax-check filename
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
     // First number
@@ -46,14 +46,14 @@ php --syntax-check filename
 
 ****Output**
 
-```
+```php
 
 Sum is: 30
 ```** 
 
 ****语法检查命令:****
 
-```
+```php
 php -ln /home/rich/Documents/geeks/geek.php
 ```
 
@@ -67,7 +67,7 @@ php -ln /home/rich/Documents/geeks/geek.php
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?PHP
 
     // First number
@@ -87,7 +87,7 @@ php -ln /home/rich/Documents/geeks/geek.php
 
 ****进行语法检查的命令:****
 
-```
+```php
 php -ln /home/rich/Documents/geeks/geek.php
 ```
 

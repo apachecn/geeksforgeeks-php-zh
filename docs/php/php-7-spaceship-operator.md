@@ -12,7 +12,7 @@
 
 **例**:
 
-```
+```php
  // Comparing Integers
 
 echo 1 <=> 1; // outputs 0
@@ -27,7 +27,7 @@ echo "y" <=> "c"; // outputs 1
 =>=>=>=>=>=>
 ```
 
-```
+```php
 <?php
 echo"Integers \n";
 echo 7 <=> 7 ;
@@ -66,7 +66,7 @@ echo"\n";
 
 **输出**:
 
-```
+```php
 Integers 
 0
 1

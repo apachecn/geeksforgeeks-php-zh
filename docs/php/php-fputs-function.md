@@ -9,7 +9,7 @@ fput()函数是 fwrite()函数的别名。
 
 **语法：**
 
-```
+```php
 fputs(file, string, length)
 ```
 
@@ -30,7 +30,7 @@ PHP 中的 fput()函数接受三个参数。
 
 **示例：**
 
-```
+```php
 Input : $myfile = fopen("gfg.txt", "w");
         echo fputs($myfile, "Geeksforgeeks is a portal of geeks!");
         fclose($myfile);
@@ -50,7 +50,7 @@ Output : Geeksforgeeks
 
 **程序 1**
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "w");
@@ -65,14 +65,14 @@ fclose($myfile);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 35
 
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "w");
@@ -94,7 +94,7 @@ fclose($myfile);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Geeksforgeeks
 
 ```

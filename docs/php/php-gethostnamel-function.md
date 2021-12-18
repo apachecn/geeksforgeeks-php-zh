@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 gethostbynamel( *string* $hostname )
 ```
 
@@ -20,7 +20,7 @@ gethostbynamel( *string* $hostname )
 
 **程序：**
 
-```
+```php
 <?php
 $hostlist = gethostbynamel("geeksforgeeks.org");
 print_r($hostlist);

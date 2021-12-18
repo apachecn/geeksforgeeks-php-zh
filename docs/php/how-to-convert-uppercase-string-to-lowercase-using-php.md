@@ -6,7 +6,7 @@
 
 ****语法:****
 
-```
+```php
 string strtolower( $string )
 ```
 
@@ -16,7 +16,7 @@ string strtolower( $string )
 
 ## **PHP**
 
-```
+```php
 <?php
   echo strtolower("GeeksForGeeks")
 ?>
@@ -24,6 +24,6 @@ string strtolower( $string )
 
 ****输出:****
 
-```
+```php
 geeksforgeeks
 ```

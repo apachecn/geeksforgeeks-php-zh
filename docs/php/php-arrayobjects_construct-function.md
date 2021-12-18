@@ -6,7 +6,7 @@ ArrayObjects 类允许对象作为数组工作。ArrayObjects::_construct()是�
 
 **语法:**
 
-```
+```php
 public ArrayObject::__construct ($input = array(), int $flags = 0, 
 string $iterator_class = "ArrayIterator")
 
@@ -29,7 +29,7 @@ string $iterator_class = "ArrayIterator")
 
 **程序 1:**
 
-```
+```php
 <?php
 $array = array('1' => 'one',
                '2' => 'two',
@@ -43,7 +43,7 @@ var_dump($arrayobject);
 
 **输出:**
 
-```
+```php
 object(ArrayObject)#1 (1) {
   ["storage":"ArrayObject":private]=>
   array(3) {
@@ -60,7 +60,7 @@ object(ArrayObject)#1 (1) {
 
 **程序 2:**
 
-```
+```php
 <?php
 $array = array('1' => 'Geeks',
                '2' => 'for',
@@ -74,7 +74,7 @@ var_dump($arrayobject);
 
 **输出:**
 
-```
+```php
 object(ArrayObject)#1 (1) {
   ["storage":"ArrayObject":private]=>
   array(3) {

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::hasBinaryProperty( $codepoint, $property )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of 
@@ -43,7 +43,7 @@ var_dump(IntlChar::hasBinaryProperty("%", IntlChar::PROPERTY_BIDI_MIRRORED));
 
 **输出：**
 
-```
+```php
 bool(true)
 NULL
 bool(true)
@@ -53,7 +53,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of 
@@ -75,7 +75,7 @@ foreach ($arr as $val){ 
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

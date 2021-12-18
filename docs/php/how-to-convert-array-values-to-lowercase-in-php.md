@@ -12,7 +12,7 @@ T3】程序:T5】
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an array
@@ -39,7 +39,7 @@ foreach( $arr as $element )
 
 **Output:** 
 
-```
+```php
 gfg
 geek
 geeks
@@ -49,7 +49,7 @@ geeksforgeeks
 **使用 array_map()函数:**在这种方法中，array_map()函数用于接受两个参数回调和一个数组。
 **语法:**
 
-```
+```php
 *array* array_map( *callable* callback, *array* array )
 ```
 
@@ -58,7 +58,7 @@ geeksforgeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an array
@@ -76,7 +76,7 @@ foreach( $arr as $element )
 
 **Output:** 
 
-```
+```php
 gfg
 geek
 geeks

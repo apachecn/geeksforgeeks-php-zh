@@ -6,7 +6,7 @@ Gmp_Perfect_Square()是 PHP 中的一个内置函数，用于检查给定的 GMP
 
 **语法：**
 
-```
+```php
 gmp_perfect_square($num)
 ```
 
@@ -16,7 +16,7 @@ gmp_perfect_square($num)
 
 例如：
 
-```
+```php
 Input : $num=25 
 Output :  true
 
@@ -29,7 +29,7 @@ Output :  false
 
 **程序 1：**下面的程序演示了当 GMP 编号作为参数传递时，gmp_Perfect_Square()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to check the if the 
 // number is perfect square or not
@@ -51,7 +51,7 @@ var_dump(gmp_perfect_square($num));  
 
 产出：
 
-```
+```php
 bool(true) 
 bool(true)
 bool(false)
@@ -59,7 +59,7 @@ bool(false)
 
 **程序 2：**下面的程序演示了将数字字符串作为参数传递时 gmp_Perfect_Square()的工作原理。
 
-```
+```php
 <?php
 // PHP program to check the if the 
 // number is perfect square or not
@@ -81,7 +81,7 @@ var_dump(gmp_perfect_square($num));  
 
 产出：
 
-```
+```php
 bool(true) 
 bool(true)
 bool(false)

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* openssl_pkey_export( *mixed* $key, *string* $out [, *string* $passphrase [, *array* $configargs ]])
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create the keypair

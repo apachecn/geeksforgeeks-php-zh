@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 gmp_random_range ( GMP $min, GMP $max )
 ```
 
@@ -16,7 +16,7 @@ gmp_random_range ( GMP $min, GMP $max )
 
 例如：
 
-```
+```php
 Input : lower bound=0, upper bound =100
 Output :  25
 
@@ -31,7 +31,7 @@ Note:Output will vary every time on execution
 
 **程序 1：**下面的程序演示了将数字字符串作为参数传递时 gmp_Random_range()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_random_range() function 
 
@@ -47,13 +47,13 @@ echo $rand;
 
 产出：
 
-```
+```php
 -165
 ```
 
 **程序 2：**下面的程序演示了将 GMP 编号作为参数传递时 GMP_RANDOM_RANGE()的工作方式。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_random_range() function 
 
@@ -71,7 +71,7 @@ echo gmp_strval($rand) . "\n";
 
 产出：
 
-```
+```php
 30
 ```
 

@@ -8,13 +8,13 @@ DATE_TIME_SET()函数是 PHP 中的一个内置函数，用于设置时间。 �
 
 *   **process style:**
 
-    ```
+    ```php
     date_time_set( $object, $hour, $minute, $second, $microseconds )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     DateTime::setTime( $hour, $minute, $second, $microseconds )
     ```
 
@@ -32,7 +32,7 @@ DATE_TIME_SET()函数是 PHP 中的一个内置函数，用于设置时间。 �
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an DateTime object
@@ -54,7 +54,7 @@ echo date_format($date, 'Y-m-d H:i:s') . "\n";
 
 **输出：**
 
-```
+```php
 15-09-2018 08:30:00
 2018-09-15 12:40:30
 
@@ -62,7 +62,7 @@ echo date_format($date, 'Y-m-d H:i:s') . "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -84,7 +84,7 @@ echo $date->format('Y-m-d H:i:s');
 
 **输出：**
 
-```
+```php
 15-09-2018 12:30:00
 2018-09-15 12:30:20
 

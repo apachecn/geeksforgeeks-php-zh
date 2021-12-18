@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setsize( *int* $columns, *int* $rows )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,13 +43,13 @@ print_r($size);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [columns] => 200 [rows] => 200 )
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

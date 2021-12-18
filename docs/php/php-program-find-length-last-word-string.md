@@ -9,7 +9,7 @@
 
 例如：
 
-```
+```php
 Input : "php exercises" 
 Output : 9
 
@@ -26,7 +26,7 @@ Output : 5
 
 使用上面提到的内置函数解决这个问题的想法是，首先使用 strpos()函数查找字符串中最后出现的空格的位置。 在获得最后出现的空格的位置之后，我们可以使用 substr()函数轻松地获得字符串中的最后一个单词，并将其存储在一个新的字符串变量中。 最后，我们可以使用 strlen()函数来查找字符串中最后一个单词的长度。
 
-```
+```php
 <?php
 // PHP code to find the length of last word
 // in a string
@@ -64,7 +64,7 @@ Output : 5
 
 产出：
 
-```
+```php
 13
 6
 

@@ -11,7 +11,7 @@ Current()函数是 PHP 中的内置函数。
 
 **语法：**
 
-```
+```php
 current($rray)
 ```
 
@@ -21,7 +21,7 @@ current($rray)
 
 **示例：**
 
-```
+```php
 Input : current(array("John", "b", "c", "d"))
 Output : John
 Explanation : Here as we see that input array contains 
@@ -40,7 +40,7 @@ Output: abc
 
 ## PHP
 
-```
+```php
 <?php
 
 // input array
@@ -55,7 +55,7 @@ echo current($a);
 
 **输出：**
 
-```
+```php
 Ram
 ```
 
@@ -63,7 +63,7 @@ Ram
 
 ## PHP
 
-```
+```php
 <?php
 
 $arr = array('Sham', 'Mac', 'Jhon', 'Adwin');
@@ -96,7 +96,7 @@ echo current($arr)."\n";
 
 **输出：**
 
-```
+```php
 Sham
 Mac
 Mac

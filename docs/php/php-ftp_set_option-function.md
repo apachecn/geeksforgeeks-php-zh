@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_set_option( $ftp_connection, $option, $value )
 ```
 
@@ -33,7 +33,7 @@ ftp_set_option( $ftp_connection, $option, $value )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -85,7 +85,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 successfully connected to the ftp server!
 logged in successfully!
 1

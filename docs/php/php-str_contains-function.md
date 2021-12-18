@@ -14,7 +14,7 @@
 
 #### 语法：
 
-```
+```php
 (str_contains('String', 'Substring')) ;
 ```
 
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $sentence = 'GFG is Awesome';
@@ -43,7 +43,7 @@ echo "The word {$word} {$result} present in the sentence \"{$sentence}\" ";
 
 #### 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The word GFG is present in the sentence "GFG is Awesome"
 ```
 

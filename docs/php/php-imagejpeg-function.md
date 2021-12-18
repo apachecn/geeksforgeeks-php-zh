@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagejpeg( *resource* $image, *int* $to, *int* $quality )
 ```
 
@@ -22,7 +22,7 @@
 
 **示例 1：**在此示例中，我们将在浏览器中查看图像。
 
-```
+```php
 <?php
 
 // Load an image from jpeg URL
@@ -41,7 +41,7 @@ imagedestroy($im);
 
 **示例 2：**在本例中，我们将 PNG 转换为 JPEG。
 
-```
+```php
 <?php
 
 // Load an image from PNG URL
@@ -56,7 +56,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the JPEG version of image
 in the same folder where your PHP script is.
 
@@ -64,7 +64,7 @@ in the same folder where your PHP script is.
 
 **示例 3：**在此示例中，我们将更改图像质量。
 
-```
+```php
 <?php
 
 // Load an image from jpeg URL

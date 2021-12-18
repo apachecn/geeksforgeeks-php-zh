@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 operand1 == operand2
 ```
 
@@ -16,7 +16,7 @@ operand1 == operand2
 
 **语法:**
 
-```
+```php
 operand1 === operand2
 ```
 
@@ -26,7 +26,7 @@ operand1 === operand2
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $a = 34;
@@ -59,7 +59,7 @@ else{
 
 **输出:**
 
-```
+```php
 Equal
 Equal
 ```
@@ -68,7 +68,7 @@ Equal
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $a = 34;
@@ -101,7 +101,7 @@ else{
 
 **输出:**
 
-```
+```php
 Equal
 not Equal
 ```

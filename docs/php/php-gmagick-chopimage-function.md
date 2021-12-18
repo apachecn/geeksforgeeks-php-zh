@@ -5,7 +5,7 @@
 **gmagick：：choimage()**函数是 PHP 中的一个内置函数，用于删除图像区域并对其进行修剪。 此函数接受图像的尺寸，并对要裁剪图像的区域和尺寸进行裁切。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::chopimage( $width, $height, $x, $y )
 ```
 
@@ -29,7 +29,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -54,7 +54,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

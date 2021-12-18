@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* CachingIterator::rewind( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php 
 
 // Declare an ArrayIterator 
@@ -56,7 +56,7 @@ echo $cachIt->current(); 
 
 **输出:**
 
-```
+```php
 NULL
 4
 
@@ -64,7 +64,7 @@ NULL
 
 **程序二:**
 
-```
+```php
 <?php 
 
 // Declare an ArrayIterator 
@@ -101,7 +101,7 @@ echo $cachIt->current(); 
 
 **输出:**
 
-```
+```php
 for
 
 ```

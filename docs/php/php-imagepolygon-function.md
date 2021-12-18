@@ -5,7 +5,7 @@
 **imagepolygon()**函数是 PHP 中的内置函数，用于绘制多边形。 此函数成功时返回 TRUE，否则返回 FALSE。
 **语法：**
 
-```
+```php
 *bool* imagepolygon( $image, $points, $num_points, $color )
 ```
 
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the vertices of polygon
@@ -62,7 +62,7 @@ imagepng($image);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the vertices of polygon

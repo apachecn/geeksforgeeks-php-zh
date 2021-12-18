@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 string SplFileObject::fgets( void )
 ```
 
@@ -18,7 +18,7 @@ string SplFileObject::fgets( void )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Creating SplFile Object
@@ -33,7 +33,7 @@ while (!$gfg->eof()) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Creating SplFile Object
@@ -46,7 +46,7 @@ while (!$gfg->eof()) {
 
 **输出：**
 
-```
+```php
 <?php
 
 // Creating SplFile Object

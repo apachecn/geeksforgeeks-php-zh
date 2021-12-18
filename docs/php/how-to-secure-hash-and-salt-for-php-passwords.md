@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 *string* password_hash( *string* $pass, *int* $algo, *array* $options )
 ```
 
@@ -24,7 +24,7 @@
 
 **示例:**这个示例演示了如何显示 password_hash()，制作 hash 并进行比较。
 
-```
+```php
 <?php
 
 // Store the string into variable
@@ -54,7 +54,7 @@ echo password_verify('Password123',
 
 **输出:**
 
-```
+```php
 1
 1
 0

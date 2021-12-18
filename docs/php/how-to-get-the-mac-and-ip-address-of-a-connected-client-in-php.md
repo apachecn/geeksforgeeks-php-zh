@@ -12,7 +12,7 @@ MAC 是“媒体访问控制”的缩写，是与每台网络设备相关联的 
 
 **示例 1:** 此示例说明了如何使用$_SERVER['REMOTE_ADDR']获取客户端的 IP 地址。
 
-```
+```php
 <?php
 
 // PHP program to get IP address of client
@@ -27,7 +27,7 @@ echo "Client's IP address is: $IP";
 
 **输出:**
 
-```
+```php
 Client's IP address is: ::1
 
 ```
@@ -38,7 +38,7 @@ Client's IP address is: ::1
 
 **示例 2:** 本示例使用 exec()函数获取 MAC 地址。
 
-```
+```php
 <?php
 
 // PHP code to get the MAC address of Client
@@ -58,7 +58,7 @@ echo "MAC address of client is: $MAC";
 
 **输出:**
 
-```
+```php
 MAC address of client is: 00-20-10-2A-03-0A
 
 ```

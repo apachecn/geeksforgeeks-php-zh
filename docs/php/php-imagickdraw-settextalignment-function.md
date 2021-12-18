@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setTextAlignment( $alignment )
 ```
 
@@ -25,7 +25,7 @@ ALIGN_CONTAINT 列表如下所示：
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object

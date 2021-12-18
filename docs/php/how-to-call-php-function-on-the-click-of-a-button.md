@@ -8,7 +8,7 @@
 
 **程序 1:**
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@
 
 **程序二:**这个程序使用 isset()函数调用 PHP 函数。
 
-```
+```php
 <!DOCTYPE html>
 <html>
 

@@ -7,13 +7,13 @@
 
 **语法：**
 
-```
+```php
 is_nan(value);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo is_nan(234) . "\n";
 echo is_nan(asin(1.1)) ;
@@ -22,7 +22,7 @@ echo is_nan(asin(1.1)) ;
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1
 
 ```
@@ -33,13 +33,13 @@ echo is_nan(asin(1.1)) ;
 此函数将 base 和指数作为参数，并返回 base 的指数幂。
 **语法：**
 
-```
+```php
 pow(base,exponent);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo(pow(2,4) . "\n");
 echo(pow(-2,-4));
@@ -48,7 +48,7 @@ echo(pow(-2,-4));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 16
 0.0625
 
@@ -58,13 +58,13 @@ echo(pow(-2,-4));
 此函数以数值为参数，返回值的平方根。
 **语法：**
 
-```
+```php
 sqrt(number);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo(sqrt(9) . "\n");
 echo(sqrt(0.64));
@@ -73,7 +73,7 @@ echo(sqrt(0.64));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 3
 0.8
 
@@ -83,13 +83,13 @@ echo(sqrt(0.64));
 该函数返回 e 的 x 次方。‘e’是自然对数系统的底(大约 2.718282)，x 是传递给它的数。
 **语法：**
 
-```
+```php
 exp(x);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 # PHP code to calculate exponent of e.
 function exponent($number){
@@ -104,7 +104,7 @@ echo (exponent($number));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1
 
 ```
@@ -114,7 +114,7 @@ echo (exponent($number));
 
 **语法：**
 
-```
+```php
 log(number, base);
 ```
 
@@ -123,7 +123,7 @@ log(number, base);
 
 **示例：**
 
-```
+```php
 <?php
 echo(log(5.987) . "\n");
 echo(log(1));
@@ -132,7 +132,7 @@ echo(log(1));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1.7895904519432
 0
 
@@ -143,7 +143,7 @@ echo(log(1));
 
 **语法：**
 
-```
+```php
 log10(number);
 ```
 
@@ -151,7 +151,7 @@ log10(number);
 
 **示例：**
 
-```
+```php
 <?php
 echo(log10(5.987) . "\n");
 echo(log10(0));
@@ -160,7 +160,7 @@ echo(log10(0));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 0.77720925814568
 -INF
 
@@ -171,7 +171,7 @@ echo(log10(0));
 
 **语法：**
 
-```
+```php
 log1p(number);
 ```
 
@@ -179,7 +179,7 @@ log1p(number);
 
 **示例：**
 
-```
+```php
 <?php
 echo(log1p(5.987) . "\n");
 echo(log1p(0));
@@ -188,7 +188,7 @@ echo(log1p(0));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1.9440512795703
 0
 
@@ -199,7 +199,7 @@ echo(log1p(0));
 
 **语法：**
 
-```
+```php
 max(array_values);
 or
 max(value1,value2,...);
@@ -207,7 +207,7 @@ max(value1,value2,...);
 
 **示例：**
 
-```
+```php
 <?php
 echo(max(3,4,6,12,10) . "\n");
 echo(max(array(48,76,83,22)));
@@ -216,7 +216,7 @@ echo(max(array(48,76,83,22)));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 12
 83
 
@@ -227,7 +227,7 @@ echo(max(array(48,76,83,22)));
 
 **语法：**
 
-```
+```php
 min(array_values);
 or
 min(value1,value2,...);
@@ -235,7 +235,7 @@ min(value1,value2,...);
 
 **示例：**
 
-```
+```php
 <?php
 echo(min(3,4,6,12,10) . "\n");
 echo(min(array(48,76,83,22)));
@@ -244,7 +244,7 @@ echo(min(array(48,76,83,22)));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 3
 22
 
@@ -255,13 +255,13 @@ echo(min(array(48,76,83,22)));
 
 **语法：**
 
-```
+```php
 getrandmax();
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo(getrandmax()); 
 ?>
@@ -269,7 +269,7 @@ echo(getrandmax()); 
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 2147483647
 
 ```
@@ -279,7 +279,7 @@ echo(getrandmax()); 
 
 **语法：**
 
-```
+```php
 rand();
 or
 rand(min,max);
@@ -289,7 +289,7 @@ rand(min,max);
 这里，**min**指定要返回的最小数字(默认值为 0)。
 **max**指定要返回的最大数字(默认值为 getrandmax())
 
-```
+```php
 <?php
 echo(rand() . "\n");
 echo(rand(12,100));
@@ -298,7 +298,7 @@ echo(rand(12,100));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1135079733
 76
 
@@ -312,7 +312,7 @@ echo(rand(12,100));
 
 **语法：**
 
-```
+```php
 mt_rand();
 or
 mt_rand(min,max);
@@ -322,7 +322,7 @@ mt_rand(min,max);
 这里，**min**指定要返回的最小数字(默认值为 0)。
 **max**指定要返回的最大数字(默认值为 getrandmax())
 
-```
+```php
 <?php
 echo(mt_rand() . "\n");
 echo(mt_rand(12,100));
@@ -331,7 +331,7 @@ echo(mt_rand(12,100));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 952458556
 87
 

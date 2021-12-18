@@ -37,7 +37,7 @@ T3】
 
 **5.1。index.php:** 这里 **foreach** 构造提供了一种迭代数组的简单方法。foreach 仅适用于数组和对象，当您试图在具有不同数据类型的变量或未初始化的变量上使用它时，它会发出错误。有两种语法:
 
-```html
+```phphtml
 foreach (array_expression as $value)
     statement
 
@@ -47,13 +47,13 @@ foreach (array_expression as $key => $value)
 
 下面的 SQL 查询用于从表中获取所有数据。
 
-```html
+```phphtml
 SELECT * FROM studentrecord;
 ```
 
 **示例:**
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -138,7 +138,7 @@ SELECT * FROM studentrecord;
 
 **5.2。connection.php:**
 
-```html
+```phphtml
 <?php
 
 $conn = "";

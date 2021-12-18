@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ip2long( *string* $ip_address )
 ```
 
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Store host name into variable
@@ -49,7 +49,7 @@ echo $out;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 These three URLs are equivalent:
 1\. https://geeksforgeeks.org/
 2\. https://52.25.109.230/
@@ -60,7 +60,7 @@ These three URLs are equivalent:
 
 ## PHP
 
-```
+```php
 <?php
 
 // Store the list of hostname in an array
@@ -90,7 +90,7 @@ echo $out;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Equivalent Contents:
 https://geeksforgeeks.org/ https://52.25.109.230/ https://874081766/
 https://www.google.com/ https://172.217.167.196/ https://2899945412/

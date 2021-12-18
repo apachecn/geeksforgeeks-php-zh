@@ -12,7 +12,7 @@ SplHeap：：Count()函数是 PHP 中的一个内置函数，用于对堆中的�
 
 **语法：**
 
-```
+```php
 *int* SplMaxHeap::count()
 ```
 
@@ -24,7 +24,7 @@ SplHeap：：Count()函数是 PHP 中的一个内置函数，用于对堆中的�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new empty Max Heap
@@ -41,14 +41,14 @@ echo $heap->count();
 
 **Output:**
 
-```
+```php
 2
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new empty Max Heap
@@ -71,7 +71,7 @@ echo $heap->count();
 
 **Output:**
 
-```
+```php
 0
 5
 

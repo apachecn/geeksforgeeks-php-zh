@@ -6,7 +6,7 @@ Imagick：：Current()函数是 PHP 中的内置函数，用于返回当前 Imag
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::current( void )
 ```
 
@@ -16,7 +16,7 @@ Imagick：：Current()函数是 PHP 中的内置函数，用于返回当前 Imag
 
 **程序 1：**这个程序是关于 current()方法的简单功能。 它将创建一个具有指向同一实例的新名称的变量，并在新实例的帮助下显示旧变量的内容。
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -41,7 +41,7 @@ echo $im1;
 
 **程序 2：**它使用第二个变量对图像执行模糊操作，更改将反映在第一个变量上，因为这两个变量都指向同一实例。
 
-```
+```php
 <?php
 
 // Create new Imagick object

@@ -5,7 +5,7 @@
 **Gmagick：：minifyimage()**函数是 PHP 中的一个内置函数，用于按比例将图像缩放到原始大小的一半。 此函数用于将图像大小调整为原始大小的一半。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::minifyimage( void )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 require_once('File name with file path');
 ```
 
@@ -20,7 +20,7 @@ require_once('File name with file path');
 
 **程序:**
 
-```
+```php
 <?php 
 
 // Content of the PHP file
@@ -32,7 +32,7 @@ echo "Welcome To GeeksforGeeks"; 
 
 **文件名:index.php**
 
-```
+```php
 
 <?php 
 
@@ -46,7 +46,7 @@ require_once('my_file.inc.php'); 
 
 **输出:**
 
-```
+```php
 Welcome To GeeksforGeeks
 ```
 
@@ -58,7 +58,7 @@ Welcome To GeeksforGeeks
 **文件名:my_file.php**
 **示例:**
 
-```
+```php
 
 <?php 
 
@@ -70,7 +70,7 @@ $var = 'GFG'; 
 
 **文件名:check.php**
 
-```
+```php
 <?php
 
 function func() {
@@ -87,7 +87,7 @@ for($i = 1; $i <= 3; $i++) {
 
 **输出:**
 
-```
+```php
 GFG
 ```
 
@@ -95,7 +95,7 @@ GFG
 
 **文件名:check2.php**
 
-```
+```php
 <?php
 
 function func() {
@@ -112,7 +112,7 @@ for($i = 1; $i <= 3; $i++) {
 
 **输出:**
 
-```
+```php
 GFG
 GFG
 GFG

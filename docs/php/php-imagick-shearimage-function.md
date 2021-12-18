@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::shearImage( $background, $x_shear, $y_shear )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

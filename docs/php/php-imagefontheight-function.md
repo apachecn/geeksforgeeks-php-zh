@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagefontheight( *int* $font )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Get the font height
@@ -43,7 +43,7 @@ echo 'Font height for font value 5 is '
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Get the font from local folder

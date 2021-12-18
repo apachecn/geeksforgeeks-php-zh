@@ -6,7 +6,7 @@ Gmp_scan0()是一个内置函数，用于从给定索引开始扫描 GMP 编号�
 
 **语法：**
 
-```
+```php
 gmp_scan0($num, $index)
 ```
 
@@ -19,7 +19,7 @@ gmp_scan0($num, $index)
 
 例如：
 
-```
+```php
 Input : gmp_scan0("101111101", 6)
 Output : 7
 
@@ -32,7 +32,7 @@ Output : 4
 
 **程序 1：**当作为 GMP 编号的数字串作为参数传递时，查找 GMP 编号中“0”位的位置的程序。
 
-```
+```php
 <?php
 
 // PHP program to find position of "0" bit in GMP
@@ -49,14 +49,14 @@ echo gmp_scan0($num, $pos) . "\n";
 
 产出：
 
-```
+```php
 6
 
 ```
 
 **程序 2**：当 GMP 编号作为参数传递时，查找 GMP 编号中“0”位的位置的程序。
 
-```
+```php
 <?php
 // PHP program to find position of "0" bit in GMP
 // number
@@ -72,7 +72,7 @@ echo gmp_scan0($num, $pos) . "\n";
 
 产出：
 
-```
+```php
 7
 
 ```

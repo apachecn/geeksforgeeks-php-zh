@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionClass* ReflectionProperty::getDeclaringClass ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionProperty：：getDeclaringClass()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -42,7 +42,7 @@ var_dump($D);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(ReflectionClass)#3 (1) {
   ["name"]=>
   string(7) "Company"
@@ -56,7 +56,7 @@ object(ReflectionClass)#4 (1) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -92,7 +92,7 @@ var_dump($F);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(ReflectionClass)#4 (1) {
   ["name"]=>
   string(11) "Department1"

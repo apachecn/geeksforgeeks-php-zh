@@ -18,11 +18,11 @@
 
 以下函数按升序对数值数组的元素进行排序:
 
-```
+```php
 INPUT :
 ```
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -42,7 +42,7 @@ for($x = 0; $x < $arrlength; $x++) {
 </html>
 ```
 
-```
+```php
 OUTPUT :
 ```
 
@@ -55,11 +55,11 @@ OUTPUT :
 **按降序排列数组–rsort()**
 以下函数按降序排列数值数组的元素:
 
-```
+```php
 INPUT :
 ```
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -79,7 +79,7 @@ for($x = 0; $x < $arrlength; $x++) {
 </html>
 ```
 
-```
+```php
 OUTPUT :
 ```
 
@@ -92,11 +92,11 @@ OUTPUT :
 **按值升序排列数组–asort()**
 以下函数按值升序排列关联数组:
 
-```
+```php
 INPUT :
 ```
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -115,7 +115,7 @@ foreach($age as $x => $x_value) {
 </html>
 ```
 
-```
+```php
 OUTPUT :
 ```
 
@@ -126,11 +126,11 @@ Key=Shankar，Value=47
 **按键升序排列数组–ksort()**
 以下函数按键升序排列关联数组:
 
-```
+```php
 INPUT :
 ```
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -149,7 +149,7 @@ foreach($age as $x => $x_value) {
 </html>
 ```
 
-```
+```php
 OUTPUT :
 ```
 
@@ -160,11 +160,11 @@ Key=Shankar，Value=47
 **按值降序排列数组–arsort()**
 以下函数根据值降序排列关联数组。
 
-```
+```php
 INPUT :
 ```
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -183,7 +183,7 @@ foreach($age as $x => $x_value) {
 </html>
 ```
 
-```
+```php
 OUTPUT :
 ```
 
@@ -194,11 +194,11 @@ Key=Ayush，Value=23
 **按键降序排列数组–krsort()**
 以下函数按键降序排列关联数组。
 
-```
+```php
 INPUT :
 ```
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -217,7 +217,7 @@ foreach($age as $x => $x_value) {
 </html>
 ```
 
-```
+```php
 OUTPUT :
 ```
 

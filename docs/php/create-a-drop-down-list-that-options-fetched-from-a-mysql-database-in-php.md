@@ -47,7 +47,7 @@
 
 **MySQL 查询:**
 
-```html
+```phphtml
 -- Table structure for table `category`
 CREATE TABLE `category` (
 
@@ -119,7 +119,7 @@ ALTER TABLE `product`
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
     // Connect to database 

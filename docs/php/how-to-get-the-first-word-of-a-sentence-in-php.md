@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```php
 string strtok( $string, $delimiters )
 ```
 
 **程序:**
 
-```
+```php
 <?php
 // PHP program to get the first word of
 // a sentence using strtok() function
@@ -32,7 +32,7 @@ echo "The first word of string is: "
 
 **输出:**
 
-```
+```php
 The first word of string is: Welcome
 
 ```

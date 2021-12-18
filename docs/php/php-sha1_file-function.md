@@ -6,7 +6,7 @@ Sha1_file()函数是 PHP 中的一个内置函数，用于生成文本文件的 
 
 **语法：**
 
-```
+```php
 sha1_file ( $file, $raw )
 ```
 
@@ -30,7 +30,7 @@ sha1_file ( $file, $raw )
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP  program to illustrate 
 // sha1_file() function
@@ -44,14 +44,14 @@ echo $gfg;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 989aa47ec7ea68605dca25b499c8414e283e8354
 
 ```
 
 **程序 2：**，可选参数$RAW，值 TRUE 和 FALSE 不同。
 
-```
+```php
 <?php
 // PHP  program to illustrate 
 // sha1_file() function
@@ -72,7 +72,7 @@ echo sha1_file("gfg.txt", TRUE) . "\n";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 989aa47ec7ea68605dca25b499c8414e283e8354
 989aa47ec7ea68605dca25b499c8414e283e8354
 ???~??h`]?%???AN(>?T

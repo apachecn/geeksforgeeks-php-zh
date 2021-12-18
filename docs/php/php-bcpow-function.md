@@ -6,7 +6,7 @@ PHP 中的 bcpow()函数是一个内置函数，用于计算提升到另一个�
 
 **语法:**
 
-```
+```php
 *string* bcpow ( $base, $exponent, $scaleVal )
 ```
 
@@ -20,7 +20,7 @@ PHP 中的 bcpow()函数是一个内置函数，用于计算提升到另一个�
 
 示例:
 
-```
+```php
 Input:  $base = 2, $exponent = 3 
 Output: 8
 Since the parameter $scaleVal is not specified so
@@ -38,7 +38,7 @@ This is an exception in bc math functions.
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcpow() function
 
@@ -58,14 +58,14 @@ echo $res;
 
 输出:
 
-```
+```php
 2
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcpow() function
 
@@ -87,7 +87,7 @@ echo $res;
 
 输出:
 
-```
+```php
 2
 
 ```

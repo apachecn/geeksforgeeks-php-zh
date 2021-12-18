@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorclosestalpha ( $image, $red, $green, $blue, $alpha )
 ```
 
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Convert an image into a palette-based image
@@ -49,7 +49,7 @@ imagedestroy($image);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Closest match: (100, 58, 108, 0)
 ```
 
@@ -57,7 +57,7 @@ Closest match: (100, 58, 108, 0)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Convert an image into a palette-based image
@@ -94,7 +94,7 @@ imagedestroy($image);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Given color: (155, 40, 200, 50) => Closest match: (100, 58, 108, 0) 
 Given color: (235, 205, 188, 127) => Closest match: (100, 58, 108, 0) 
 Given color: (135, 0, 132, 0) => Closest match: (100, 58, 108, 0) 

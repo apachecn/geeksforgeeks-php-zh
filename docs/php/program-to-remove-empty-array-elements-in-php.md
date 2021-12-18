@@ -10,7 +10,7 @@
 
 **示例：**
 
-```
+```php
 <?php
 
 // Declare array and stored array value
@@ -28,7 +28,7 @@ var_dump($filtered_array);
 
 **Output:**
 
-```
+```php
 array(6) {
   [0]=>
   string(5) "geeks"
@@ -50,7 +50,7 @@ array(6) {
 
 **示例：**
 
-```
+```php
 <?php
 
 // Declare array and stored array value
@@ -71,7 +71,7 @@ foreach($array as $key => $value)         
 
 **Output:**
 
-```
+```php
 geeks
 11
 12

@@ -6,7 +6,7 @@ Stream_get_wrappers()函数是 PHP 中的一个内置函数，用于获取正在
 
 **语法：**
 
-```
+```php
 *array* stream_get_wrappers( void )
 ```
 
@@ -18,7 +18,7 @@ Stream_get_wrappers()函数是 PHP 中的一个内置函数，用于获取正在
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -30,7 +30,7 @@ print_r(stream_get_wrappers());
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => https
@@ -49,7 +49,7 @@ Array
 
 **程序 2：**检查给定流是否可用的程序。
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -77,7 +77,7 @@ foreach ($wrapper as &$gfg) {
 
 **输出：**
 
-```
+```php
 https: Enabled
 http: Enabled
 file: Enabled

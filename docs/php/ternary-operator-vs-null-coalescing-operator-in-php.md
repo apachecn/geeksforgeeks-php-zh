@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 (Condition) ? (Statement1) : (Statement2);
 ```
 
@@ -16,7 +16,7 @@
 
 **条件运算的替代方法:**
 
-```
+```php
 if (Condition) {
     return Statement1;
 } else {
@@ -26,7 +26,7 @@ if (Condition) {
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to check number is even
@@ -42,7 +42,7 @@ print ($num % 2 == 0) ? "Even Number" : "Odd Number";
 
 **Output:**
 
-```
+```php
 Odd Number
 
 ```
@@ -53,13 +53,13 @@ Odd Number
 
 **语法:**
 
-```
+```php
 (Condition) ? (Statement1) ? (Statement2);
 ```
 
 **条件运算的替代方法:**
 
-```
+```php
 // The isset() function is used to take
 // care that the condition is not NULL
 if ( isset(Condition) ) {   
@@ -71,7 +71,7 @@ if ( isset(Condition) ) {
 
 **示例:**
 
-```
+```php
 <?PHP
 
 // PHP program to use Null 
@@ -89,7 +89,7 @@ print ($num) ?? "NULL";
 
 **Output:**
 
-```
+```php
 10
 
 ```

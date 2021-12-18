@@ -6,7 +6,7 @@ PHP 中的 bcmod()函数是一个内置函数，用于计算任意精度数字�
 
 **语法:**
 
-```
+```php
 *string* bcadd ( $dividend, $modulus)
 ```
 
@@ -19,7 +19,7 @@ PHP 中的 bcmod()函数是一个内置函数，用于计算任意精度数字�
 
 示例:
 
-```
+```php
 Input:  $dividend = 11, $modulus = 3
 Output: 2
 
@@ -32,7 +32,7 @@ Output: 3
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcmod() function
 
@@ -50,14 +50,14 @@ echo $res;
 
 输出:
 
-```
+```php
 2
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcmod() function
 
@@ -75,7 +75,7 @@ echo $res;
 
 输出:
 
-```
+```php
 3
 
 ```

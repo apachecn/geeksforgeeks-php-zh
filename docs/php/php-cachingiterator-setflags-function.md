@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* CachingIterator::setFlags( *int* $flags )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -43,14 +43,14 @@ var_dump($flag);
 
 **输出:**
 
-```
+```php
 int(128)
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -83,7 +83,7 @@ var_dump($flag);
 
 **输出:**
 
-```
+```php
 int(512)
 
 ```

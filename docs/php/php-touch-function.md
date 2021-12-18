@@ -7,7 +7,7 @@ PHP 中的 touch()函数是一个内置函数，用于设置指定文件的访�
 
 **语法：**
 
-```
+```php
 touch(filename, time, atime)
 ```
 
@@ -29,7 +29,7 @@ PHP 中的 touch()函数接受三个参数。
 
 **示例：**
 
-```
+```php
 Input : $file_pointer = "gfg.txt";
         if (touch($file_pointer)) 
         {
@@ -62,7 +62,7 @@ Output : gfg.txt modification time has been changed to 5 hours in the past.
 
 **程序 1**
 
-```
+```php
 <?php
 $file_pointer = "gfg.txt";
 // using touch() function to change the modification 
@@ -81,13 +81,13 @@ else 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg.txt modification time has been set to current system time.
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 $file_pointer = "gfg.txt";
 
@@ -110,7 +110,7 @@ else 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg.txt modification time has been changed to 5 hours in the past.
 ```
 

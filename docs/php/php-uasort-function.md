@@ -6,7 +6,7 @@ Uasort()函数是 PHP 中的一个内置函数，用于对数组进行排序，�
 
 **语法：**
 
-```
+```php
 *boolean* uasort(array_name, user_defined_function);
 
 ```
@@ -23,7 +23,7 @@ Uasort()函数是 PHP 中的一个内置函数，用于对数组进行排序，�
 
 **例如：**
 
-```
+```php
 Input: array
        (
             "a" => 4,
@@ -48,7 +48,7 @@ Output: Array
 
 *   ****Sorting in ascending order**: To sort the input array in ascending order, in the comparator function we will return 1 when a>b or -1 when a<b. Below program illustrates this:
 
-    ```
+    ```php
     <?php
     // PHP program to sort in ascending
     // order using uasort() function
@@ -73,7 +73,7 @@ Output: Array
 
     产出：
 
-    ```
+    ```php
     Array
     (
         [e] => 1
@@ -87,7 +87,7 @@ Output: Array
     ```** 
 *   ****Sorting in descending order**: To sort the input array in descending order, in the comparator function we will return -1 when a>b or 1 when a<b. Below program illustrates this:
 
-    ```
+    ```php
     <?php
     // PHP program to sort in descending
     // order using uasort() function
@@ -112,7 +112,7 @@ Output: Array
 
     产出：
 
-    ```
+    ```php
     Array
     (
         [f] => Z

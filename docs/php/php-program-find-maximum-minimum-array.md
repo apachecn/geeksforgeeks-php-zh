@@ -7,7 +7,7 @@
 给定一个整数数组，找出其中的最大值和最小值。
 示例：
 
-```
+```php
 Input : arr[] = {2, 3, 1, 6, 7}
 Output : Maximum integer of the given array:7
          Minimum integer of the given array:1
@@ -21,7 +21,7 @@ Output : Maximum integer of the given array : 5
 
 ## PHP
 
-```
+```php
 <?php
 // Returns maximum in array
 function getMax($array)
@@ -55,7 +55,7 @@ echo(getMin($array));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 5
 1
 ```
@@ -68,7 +68,7 @@ echo(getMin($array));
 
 ## PHP
 
-```
+```php
 <?php
 $array = array(1, 2, 3, 4, 5);
 echo(max($array));
@@ -79,7 +79,7 @@ echo(min($array));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 5
 1
 ```

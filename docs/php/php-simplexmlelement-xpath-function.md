@@ -8,7 +8,7 @@ SimpleXMLElement：：XPath()函数是 PHP 中的一个内置函数，它在 XML
 
 **语法：**
 
-```
+```php
 SimpleXMLElement::xpath( $path )
 ```
 
@@ -20,7 +20,7 @@ SimpleXMLElement::xpath( $path )
 
 **示例：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -50,7 +50,7 @@ print_r($result);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => SimpleXMLElement Object
@@ -64,7 +64,7 @@ Array
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -111,7 +111,7 @@ foreach ($result as $id) {
 
 **Output:**
 
-```
+```php
 12345
 15980
 
@@ -119,7 +119,7 @@ foreach ($result as $id) {
 
 **示例 3：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -184,7 +184,7 @@ foreach ($result_l_name as $l_name) {
 
 **Output:**
 
-```
+```php
 12345
 57833
 98944

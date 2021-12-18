@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* AppendIterator::next( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -45,7 +45,7 @@ var_dump($itr->current());
 
 **输出:**
 
-```
+```php
 string(1) "G"
 string(1) "e"
 
@@ -53,7 +53,7 @@ string(1) "e"
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -92,7 +92,7 @@ while ($itr->valid()) {
 
 **输出:**
 
-```
+```php
 ArrayIterator Key: a  ArrayIterator Value: Geeks
 ArrayIterator Key: b  ArrayIterator Value: for
 ArrayIterator Key: c  ArrayIterator Value: Geeks

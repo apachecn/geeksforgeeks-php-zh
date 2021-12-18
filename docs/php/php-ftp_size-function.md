@@ -5,7 +5,7 @@
 Ftp_size()函数是 PHP 中的一个内置函数，用于获取 FTP 服务器上给定文件的大小。
 **语法：**
 
-```
+```php
 ftp_size( $ftp_connection, $file_name );
 ```
 
@@ -26,7 +26,7 @@ ftp_size( $ftp_connection, $file_name );
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

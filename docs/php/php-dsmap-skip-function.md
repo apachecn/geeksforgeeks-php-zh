@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Pair* public Ds\Map::skip ( int $position )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -38,7 +38,7 @@ print_r($map->skip(2));
 
 **输出：**
 
-```
+```php
 Ds\Pair Object
 (
     [key] => b
@@ -54,7 +54,7 @@ Ds\Pair Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -73,7 +73,7 @@ print_r($map->skip(1));
 
 **输出：**
 
-```
+```php
 Ds\Pair Object
 (
     [key] => Geeks1

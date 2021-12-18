@@ -6,7 +6,7 @@ Ob_get_lean()函数是一个内置的 PHP 函数，用于清除或删除当前�
 
 **语法：**
 
-```
+```php
 *string|false* ob_get_clean();
 ```
 
@@ -18,7 +18,7 @@ Ob_get_lean()函数是一个内置的 PHP 函数，用于清除或删除当前�
 
 ## PHP
 
-```
+```php
 <?php
 
  // Create an output buffer
@@ -39,7 +39,7 @@ var_dump($out);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class 

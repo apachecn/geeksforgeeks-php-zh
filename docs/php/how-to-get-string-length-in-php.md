@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 strlen($string)
 ```
 
@@ -16,7 +16,7 @@ strlen($string)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to count all
 // characters in a string
@@ -33,7 +33,7 @@ echo $len;
 
 **输出:**
 
-```
+```php
 18
 ```
 
@@ -41,7 +41,7 @@ echo $len;
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to find the length of
 // a given string which has special
@@ -55,6 +55,6 @@ echo strlen($str);
 
 **输出:**
 
-```
+```php
 14
 ```

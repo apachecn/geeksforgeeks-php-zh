@@ -8,7 +8,7 @@
 
 示例：
 
-```
+```php
 Input: 5
 Output: eR3Ds
 
@@ -21,7 +21,7 @@ Output: MPRCyBgdcn
 
 **以下是使用上述方法生成随机字符串的程序：**
 
-```
+```php
 <?php
 
 // PHP function to print a 
@@ -64,7 +64,7 @@ echo "Random String of length " . $n 
 
 **输出：**
 
-```
+```php
 Random String of length 5 = EEEto
 
 ```

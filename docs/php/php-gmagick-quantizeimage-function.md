@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::quantizeimage( *int* $numColors, *int* $colorspace,
           *int* $treeDepth, *bool* $dither, *bool* $measureError )
 ```
@@ -30,7 +30,7 @@
 
 []T0−程序 1(量化图像)：ΔT1*
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;  
 
 **程序 2(量化图形)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

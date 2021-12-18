@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMNode::C14N( *bool* $exclusive, 
 *bool* $with_comments, *array* $xpath, *array* $ns_prefixes )
 ```
@@ -24,7 +24,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a DOMDocument
@@ -48,13 +48,13 @@ echo $stringdata;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <html><h1></h1></html>
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 // Create a DOMDocument
 $doc = new DOMDocument();
@@ -82,7 +82,7 @@ echo htmlentities($stringdata);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 With Comments: 
 <html><!-- This is a comment --><h1></h1></html>
 Without Comments: 

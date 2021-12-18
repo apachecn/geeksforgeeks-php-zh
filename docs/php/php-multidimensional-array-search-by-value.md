@@ -11,7 +11,7 @@
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to carry out multidimensional array search
 
@@ -80,7 +80,7 @@ print($search_path);
 
 **Output:**
 
-```
+```php
 $ --> 1 --> subject
 
 ```
@@ -90,7 +90,7 @@ $ --> 1 --> subject
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to carry out multidimensional array search
 
@@ -163,7 +163,7 @@ print($search_path);
 
 **Output:**
 
-```
+```php
 $ --> school3 --> data --> name
 
 ```
@@ -173,7 +173,7 @@ $ --> school3 --> data --> name
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to carry out multidimensional array search
 
@@ -204,7 +204,7 @@ echo $id;
 
 **Output:**
 
-```
+```php
 1
 
 ```

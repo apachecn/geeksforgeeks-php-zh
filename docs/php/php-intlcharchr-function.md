@@ -5,7 +5,7 @@
 **IntlChar：：Chr()**函数是 PHP 中的一个内置函数，用于检查给定的输入字符是否为 Unicode 代码点值。 它按代码点值返回 Unicode 字符。
 **语法：**和
 
-```
+```php
 *string* IntlChar::chr( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate
 // the use of IntlChar::chr()
@@ -48,7 +48,7 @@ var_dump(IntlChar::chr("@"));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 string(1) " " 
 string(1) "e" 
 string(1) "G" 
@@ -62,7 +62,7 @@ string(1) "@"
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::chr
@@ -90,7 +90,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 string(1) "D" 
 string(1) "E" 
 string(1) "M"  

@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *DateTime* DateTime::setDate( *int* $year, *int* $month, *int* $day )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *DateTime* date_date_set( *DateTime* $object, *int* $year, *int* $month, *int* $day )
     ```
 
@@ -30,7 +30,7 @@
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate
 // DateTime::setDate() function
@@ -54,14 +54,14 @@ echo $datetime->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-09-30
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // DateTime::setDate() function
@@ -82,7 +82,7 @@ echo $datetime->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-10-01
 
 ```

@@ -7,7 +7,7 @@ Rewindir()函数是 PHP 中的一个内置函数，用于倒带目录句柄。 �
 
 **语法：**
 
-```
+```php
 rewinddir ( $dir_handle )
 ```
 
@@ -23,7 +23,7 @@ rewinddir ( $dir_handle )
 以下程序说明了 PHP 中的 rewindir()函数：
 **程序 1：**
 
-```
+```php
 <?php
 
 // Open a directory
@@ -50,7 +50,7 @@ closedir($dir_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: .
 File Name: ..
 File Name: content.xlsx
@@ -66,7 +66,7 @@ File Name: image.jpeg
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Directory path
@@ -99,7 +99,7 @@ if (is_dir($dir_name)) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 filename:.
 filename:..
 filename:content.xlsx

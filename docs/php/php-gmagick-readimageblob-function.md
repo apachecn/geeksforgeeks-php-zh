@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::readimageblob( *string* $imageContents, *string* $filename )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1(从字符串读取图像(BLOB))：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -52,7 +52,7 @@ echo $gmagickNew;
 
 **程序 2(读后进一步编辑图像)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

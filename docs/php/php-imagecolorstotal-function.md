@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorstotal ( $image )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // store the image in variable.
@@ -36,7 +36,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // store the image in variable.

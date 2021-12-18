@@ -7,7 +7,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 interface man {
 
@@ -21,7 +21,7 @@ interface man {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 interface IMyInterface {
@@ -38,7 +38,7 @@ interface IMyInterface {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 // Function to Implements more than one
 // interface by single class.
 
@@ -64,7 +64,7 @@ class MyClass implements IMyInterface {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 interface Foo {
 
 }
@@ -81,7 +81,7 @@ interface Bass extends Foo, Bar {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to Implement interface.
@@ -139,7 +139,7 @@ print $triangle->describe();
 
 **输出:**
 
-```
+```php
 GeeksforGeeks green Triangle
 ```
 

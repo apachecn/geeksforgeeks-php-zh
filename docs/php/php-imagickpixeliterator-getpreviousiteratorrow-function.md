@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickPixelIterator::getPreviousIteratorRow( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -41,13 +41,13 @@ echo "Current row is " . $pixelIterator->getIteratorRow();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Current row is 49
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

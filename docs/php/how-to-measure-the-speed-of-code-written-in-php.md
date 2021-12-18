@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 microtime( $get_as_float )
 ```
 
@@ -18,7 +18,7 @@ microtime( $get_as_float )
 
 **示例 1:** 本示例使用 microtime()函数来测量代码的速度。
 
-```
+```php
 <?php
 
 // Use microtime() function to measure
@@ -46,14 +46,14 @@ echo $time;
 
 **Output:**
 
-```
+```php
 4.1413249969482
 
 ```
 
 **例 2:** 该方法使用的是以秒为单位返回时间的 [time()](https://www.geeksforgeeks.org/php-time-function/) 函数，无法测出多少精确的执行时间。
 
-```
+```php
 <?php
 
 // Use time() function to measure
@@ -80,7 +80,7 @@ echo $time;
 
 **Output:**
 
-```
+```php
 4
 
 ```

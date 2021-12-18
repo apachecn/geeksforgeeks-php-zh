@@ -6,7 +6,7 @@ Json_decode()函数是 PHP 中的内置函数，用于解码 JSON 字符串。 �
 
 **语法：**
 
-```
+```php
 json_decode( $json, $assoc = FALSE, $depth = 512, $options = 0 )
 ```
 
@@ -22,7 +22,7 @@ json_decode( $json, $assoc = FALSE, $depth = 512, $options = 0 )
 以下示例说明了 PHP 中 json_decode()函数的用法：
 **示例 1：**
 
-```
+```php
 <?php
 
 // Declare a json string
@@ -39,7 +39,7 @@ var_dump(json_decode($json, true));
 
 **Output:**
 
-```
+```php
 object(stdClass)#1 (4) {
   ["g"]=>
   int(7)
@@ -65,7 +65,7 @@ array(4) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Declare a json string
@@ -83,7 +83,7 @@ print $obj->{'geeks'};
 
 **Output:**
 
-```
+```php
 7551119
 
 ```

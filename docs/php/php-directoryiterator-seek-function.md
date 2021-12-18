@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DirectoryIterator::seek( *int* $position )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator
@@ -41,7 +41,7 @@ if($directory->valid()) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator

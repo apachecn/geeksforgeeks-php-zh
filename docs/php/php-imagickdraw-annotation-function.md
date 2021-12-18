@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::annotation( $x, $y, $text )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw Object
@@ -57,7 +57,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw Object
@@ -118,7 +118,7 @@ echo $image->getImageBlob();
 
 **程序 3：**
 
-```
+```php
 <?php
 //Create a new Imagick object
 $imagick = new Imagick();

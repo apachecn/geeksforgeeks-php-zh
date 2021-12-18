@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isJavaIDStart( $codepoint )
 
 ```
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::isJavaIDStart()
@@ -55,7 +55,7 @@ var_dump(IntlChar::isJavaIDStart(" $ "));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 bool(true)
 bool(false)
@@ -71,7 +71,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::isJavaIDStart()
@@ -98,7 +98,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 bool(false)
 bool(false)

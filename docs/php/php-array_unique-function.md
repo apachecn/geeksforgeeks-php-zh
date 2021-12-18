@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```php
 *array* array_unique($array , $sort_flags)
 
 ```
@@ -30,7 +30,7 @@
 
 **示例-1** :
 
-```
+```php
 <?php
 
 // Input Array
@@ -44,7 +44,7 @@ print_r(array_unique($a));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => red
@@ -55,7 +55,7 @@ Array
 
 **示例-2** :
 
-```
+```php
 <?php
 
 // Input array
@@ -69,7 +69,7 @@ print_r(array_unique($arr));
 
 输出:
 
-```
+```php
 Array
 (
     [a] => MH

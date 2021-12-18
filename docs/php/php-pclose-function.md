@@ -7,7 +7,7 @@ popen()函数指定的管道作为参数发送给 plose()函数，它返回正�
 
 **语法：**
 
-```
+```php
 pclose(pipe)
 ```
 
@@ -26,7 +26,7 @@ PHP 中的 plose()函数只接受一个参数。
 
 **示例：**
 
-```
+```php
 Input : $my_file = popen("/bin/ls", "r");
         pclose($my_file);
 Output : 1
@@ -45,7 +45,7 @@ Output : 1
 
 **程序 1**
 
-```
+```php
 <?php
 // opening a pipe 
 $my_file = popen("/bin/ls", "r");
@@ -57,13 +57,13 @@ pclose($my_file);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 // opening a pipe
 $my_file = popen('/executable/gfg.exe', 'r');
@@ -82,7 +82,7 @@ pclose($my_file);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 

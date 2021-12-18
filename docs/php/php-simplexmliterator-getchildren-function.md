@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *SimpleXMLIterator* SimpleXMLIterator::getChildren( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store the xml element to variable
@@ -49,7 +49,7 @@ for( $xmlIt->rewind(); $xmlIt->valid(); $xmlIt->next() ) {
 
 **输出：**
 
-```
+```php
 The content of 'email' element is 'abc@geeksforgeeks.org'
 The content of 'mobile' element is '+91-987654321'
 

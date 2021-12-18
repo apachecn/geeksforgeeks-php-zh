@@ -6,7 +6,7 @@ Gmp_and()是 PHP 中的一个内置函数，用于计算两个 GMP 数字的位*
 
 **语法：**
 
-```
+```php
 gmp_and($num1, $num2)
 ```
 
@@ -16,7 +16,7 @@ gmp_and($num1, $num2)
 
 例如：
 
-```
+```php
 Input : gmp_and("4", "2")
 Output : 0
 
@@ -29,7 +29,7 @@ Output : 8
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，计算 GMP 编号的位与运算的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the bitwise AND
 // GMP numbers passed as arguments 
@@ -48,13 +48,13 @@ echo $res;
 
 产出：
 
-```
+```php
 8
 ```
 
 **程序 2：**当 GMP 编号作为参数传递时，计算 GMP 编号的位与运算的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the bitwise AND
 // GMP numbers passed as arguments 
@@ -72,7 +72,7 @@ echo $res;
 
 产出：
 
-```
+```php
 0
 
 ```

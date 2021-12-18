@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* openssl_pkcs12_read( *string* $pkcs12, *array* &$certs, *string* $pass )
 ```
 
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $dn = array(
@@ -77,7 +77,7 @@ var_dump($readableOutput);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(2) {
  ["cert"]=>
   string(1444) "-----BEGIN CERTIFICATE-----

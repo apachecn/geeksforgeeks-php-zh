@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimagedepth( $depth )
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![](img/efa5ea8e0258291fa60ad9a32c288072.png)
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php');
@@ -45,7 +45,7 @@ echo "</br>After Set the Depth: " . $res; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Previous Depth: 8
 After Set the Depth: 16
 
@@ -54,7 +54,7 @@ After Set the Depth: 16
 **程序 2：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54-1.png](img/966bc3ab7c1f4bfcbccb58f1729053cf.png)
 
-```
+```php
 <?php 
 $string = "Computer Science portal for Geeks!"; 
 
@@ -94,7 +94,7 @@ print("</br>Depth After Set  = " . $dpthnew);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Previous Depth = 8
 Depth After Set = 32
 

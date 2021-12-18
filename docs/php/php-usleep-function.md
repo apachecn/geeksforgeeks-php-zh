@@ -6,7 +6,7 @@ PHP 中的 usleep()函数是一个内置函数，用于将当前脚本的执行�
 
 **语法：**
 
-```
+```php
 usleep(microseconds)
 ```
 
@@ -21,7 +21,7 @@ usleep(microseconds)
 
 **示例：**
 
-```
+```php
 Input : echo date('h:i:s');
         usleep(2000000);
         echo date('h:i:s');
@@ -42,7 +42,7 @@ Output : 06:53:48
 
 **程序 1**：
 
-```
+```php
 <?php
 // displaying time
 echo date('h:i:s') ;
@@ -59,7 +59,7 @@ echo date('h:i:s');
 
 **程序 2**：
 
-```
+```php
 <?php
 // displaying time
 echo date('h:i:s') ;

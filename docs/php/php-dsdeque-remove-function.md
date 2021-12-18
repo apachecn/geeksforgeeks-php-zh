@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::remove( $index ) : mixed
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -40,7 +40,7 @@ print_r($deck->remove(2));
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (
@@ -58,7 +58,7 @@ Element at index 2: 30
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -80,7 +80,7 @@ print_r($deck->remove(1));
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (

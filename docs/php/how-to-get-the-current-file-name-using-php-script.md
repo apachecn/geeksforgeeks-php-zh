@@ -4,7 +4,7 @@
 
 在本文中，我们将学习如何使用 PHP 获取当前文件名。
 
-```
+```php
 Input : c:/xampp/htdocs/project/home.php
 Output : project/home.php
 
@@ -20,13 +20,13 @@ Output : project/abc.txt
 
 ***   Get the current file name. We use
 
-    ```
+    ```php
     $currentPage= $_SERVER['SCRIPT_NAME'];
     ```
 
     *   To display the current file name. We use
 
-    ```
+    ```php
     echo $currentPage;
     ```** 
 
@@ -34,7 +34,7 @@ Output : project/abc.txt
 
  **## PHP
 
-```
+```php
 <?php 
 
 // To Get the Current Filename.
@@ -52,7 +52,7 @@ echo $currentPage; 
 
 ****输出:****
 
-```
+```php
  project/home.php
 ```
 

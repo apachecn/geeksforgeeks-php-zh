@@ -6,7 +6,7 @@ SplFileObject：：setMaxLineLen()函数是 PHP 中标准 PHP 库(SPL)的内置�
 
 **语法：**
 
-```
+```php
 *void* SplFileObject::setMaxLineLen( $len )
 ```
 
@@ -18,7 +18,7 @@ SplFileObject：：setMaxLineLen()函数是 PHP 中标准 PHP 库(SPL)的内置�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an SplFile Object
@@ -38,7 +38,7 @@ var_dump($gfg->getMaxLineLen());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Array
@@ -70,7 +70,7 @@ foreach ($GFG as &$arr) 
 
 **输出：**
 
-```
+```php
 int(0) After = int(50) 
 int(0) After = int(50) 
 int(0) After = int(50) 

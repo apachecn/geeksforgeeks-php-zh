@@ -6,7 +6,7 @@ array _ uintersect _ uassoc()函数是 PHP 中的一个内置函数，用于计�
 
 **语法:**
 
-```
+```php
 array array_uintersect_uassoc( $array1, $array2, $array3..., $function_key, $function_value )
 ```
 
@@ -24,7 +24,7 @@ array array_uintersect_uassoc( $array1, $array2, $array3..., $function_key, $fun
 
 **节目 1:**
 
-```
+```php
 <?php
 $arr1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
 $arr2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
@@ -35,7 +35,7 @@ print_r(array_uintersect_uassoc($arr1, $arr2, "strcasecmp", "strcasecmp"));
 
 **输出:**
 
-```
+```php
 Array
 (
     [a] => green
@@ -46,7 +46,7 @@ Array
 
 **节目 2:**
 
-```
+```php
 <?php
 function function_key($a, $b)
 {
@@ -75,7 +75,7 @@ print_r($res);
 
 **输出:**
 
-```
+```php
 Array 
 ( 
     [1] => Geeks 

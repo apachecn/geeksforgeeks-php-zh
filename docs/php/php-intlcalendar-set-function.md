@@ -8,26 +8,26 @@
 
 *   面向对象样式
 
-    ```
+    ```php
     *bool* IntlCalendar::set( *int* $field, *int* $value )
     ```
 
     或
 
-    ```
+    ```php
     *bool* IntlCalendar::set( *int* $year, *int* $month, *int* $dayOfMonth = NULL,
                    *int* $hour = NULL, *int* $minute = NULL, *int* $second = NULL )
     ```
 
 *   过程化样式
 
-    ```
+    ```php
     *bool* intlcal_set( *IntlCalendar* $cal, *int* $field, *int* $value )
     ```
 
     或
 
-    ```
+    ```php
     *bool* intlcal_set( *IntlCalendar* $cal, *int* $year, *int* $month, *int* $dayOfMonth = NULL,
                   *int* $hour = NULL, *int* $minute = NULL, *int* $second = NULL )
     ```
@@ -50,7 +50,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -80,7 +80,7 @@ var_dump(IntlDateFormatter::formatObject($calendar));
 
 **输出：**
 
-```
+```php
 string(24) "Sep 24, 2019, 8:23:53 AM"
 string(25) "Sep 24, 2018, 12:00:00 AM"
 

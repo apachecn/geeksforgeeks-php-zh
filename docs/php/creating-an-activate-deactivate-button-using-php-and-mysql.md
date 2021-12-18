@@ -28,7 +28,7 @@
 
 为了达到预期的结果，让我们创建一个名为“课程”的数据库，并使用下面的 SQL 代码设置几门课程。
 
-```html
+```phphtml
 Table structure for table `courses`
 Course_name String and status boolean fields
 
@@ -55,7 +55,7 @@ ALTER TABLE `courses` ADD `id` INT NOT NULL AUTO_INCREMENT
 
 ## course-page.php
 
-```html
+```phphtml
 <?php
 
     // Connect to database 
@@ -173,7 +173,7 @@ ALTER TABLE `courses` ADD `id` INT NOT NULL AUTO_INCREMENT
 
 ## activate.php
 
-```html
+```phphtml
 <?php
 
     // Connect to database 
@@ -203,7 +203,7 @@ ALTER TABLE `courses` ADD `id` INT NOT NULL AUTO_INCREMENT
 
 ## deactivate.php
 
-```html
+```phphtml
 <?php
 
     // Connect to database 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isCloneable( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a Cloneable class
@@ -42,14 +42,14 @@ var_dump($C);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a NotCloneable class
@@ -75,7 +75,7 @@ var_dump($C);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

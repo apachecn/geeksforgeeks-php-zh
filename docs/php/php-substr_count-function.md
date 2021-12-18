@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 substr_count($string, $substring, $start, $length)
 ```
 
@@ -25,7 +25,7 @@ substr_count($string, $substring, $start, $length)
 
 **示例：**
 
-```
+```php
 Input: string= "geeks for geeks" substring="geeks" 
 Output: 2
 Explanation: "geeks" occurs two times in the given string 
@@ -42,7 +42,7 @@ the substring is searched in "for geeks".
 
 **程序 1：**当两个可选参数均未传递时。
 
-```
+```php
 <?php
 // PHP program to demonstrate the substr_count() function
 
@@ -55,13 +55,13 @@ echo substr_count($str, "geeks");  // displays the count
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2
 ```
 
 **程序 2：**传递参数$start 时。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // substr_count() function
@@ -76,13 +76,13 @@ echo substr_count($str, "geeks", 6);  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 3：**同时传递$start 和$length 时。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // substr_count() function 
@@ -96,13 +96,13 @@ echo substr_count($str, "geeks", 6, 2);  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0
 ```
 
 **程序 4：**当($START+$LENGTH)超过$STRING 长度时演示警告消息的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // substr_count() function 
@@ -117,14 +117,14 @@ echo substr_count($str, "geeks", 6, 14); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHP Warning:  substr_count(): Length value 14 exceeds string length
 
 ```
 
 **程序 5：**当 substr_count()不计算重叠的子字符串时，该程序演示 substr_count()。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // substr_count() function 
@@ -138,6 +138,6 @@ echo substr_count($str, "abcab");  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```

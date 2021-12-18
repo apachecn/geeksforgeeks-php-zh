@@ -9,7 +9,7 @@ PHP 中的 Formpt()函数用于返回相当于十进制数的八进制数。
 
 **语法：**
 
-```
+```php
 *string* decoct(value)
 ```
 
@@ -19,7 +19,7 @@ PHP 中的 Formpt()函数用于返回相当于十进制数的八进制数。
 
 例如：
 
-```
+```php
 Input : decoct("35")
 Output : 45
 
@@ -33,7 +33,7 @@ Output : 37777777777
 
 下面的程序演示了 PHP 中 Unifft()的工作原理：
 
-```
+```php
 <?php
 
 echo decoct("35") . "\n";
@@ -45,7 +45,7 @@ echo decoct("4294967295") . "\n";
 
 产出：
 
-```
+```php
 43
 103
 37777777777

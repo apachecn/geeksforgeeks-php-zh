@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 get_browser(user_agent, return_array)
 ```
 
@@ -29,7 +29,7 @@ get_browser(user_agent, return_array)
 
 ## PHP
 
-```
+```php
 <?php
   echo $_SERVER['HTTP_USER_AGENT'];
 
@@ -46,7 +46,7 @@ get_browser(user_agent, return_array)
 
 ## PHP
 
-```
+```php
 <?php
     echo $_SERVER['HTTP_USER_AGENT'];
 

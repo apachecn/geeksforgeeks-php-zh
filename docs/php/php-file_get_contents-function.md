@@ -8,7 +8,7 @@ PHP 中的**FILE_GET_CONTENTS()**函数是一个内置函数，用于将文件�
 
 **语法：**
 
-```
+```php
 file_get_contents($path, $include_path, $context, 
                               $start, $max_length)
 ```
@@ -33,7 +33,7 @@ file_get_contents($path, $include_path, $context,
 
 请考虑以下示例。
 
-```
+```php
 Input:  file_get_contents('https://www.geeksforgeeks.org/');
 Output: A computer science portal for geeks
 
@@ -45,7 +45,7 @@ Output: A computer science portal for geeks
 
 ## PHP
 
-```
+```php
 <!DOCTYPE html>
 
 <body>
@@ -68,7 +68,7 @@ Output: A computer science portal for geeks
 
 ## PHP
 
-```
+```php
 <!DOCTYPE html>
 <body>
     <?php
@@ -83,7 +83,7 @@ Output: A computer science portal for geeks
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 A computer science portal for geeks
 ```
 

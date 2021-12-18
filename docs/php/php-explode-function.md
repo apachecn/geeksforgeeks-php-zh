@@ -5,7 +5,7 @@
 EXPLIDE()是 PHP 中的一个内置函数，用于将一个字符串拆分成不同的字符串。 函数的作用是：根据字符串分隔符拆分字符串，即在出现分隔符的任何位置拆分字符串。 此函数返回一个数组，其中包含通过拆分原始字符串形成的字符串。
 **语法：**和
 
-```
+```php
 *array* explode(separator, OriginalString, NoOfElements)
 ```
 
@@ -21,7 +21,7 @@ EXPLIDE()是 PHP 中的一个内置函数，用于将一个字符串拆分成不
 **返回类型**：EXPLODE()函数的返回类型为字符串数组。
 示例：
 
-```
+```php
 Input : explode(" ","Geeks for Geeks")
 Output : Array
         (
@@ -35,7 +35,7 @@ Output : Array
 
 ## PHP
 
-```
+```php
 <?php
 
     // original string
@@ -53,7 +53,7 @@ Output : Array
 
 输出：0
 
-```
+```php
 Array
 (
     [0] => Hello,

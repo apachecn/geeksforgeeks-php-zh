@@ -6,7 +6,7 @@ PHP 中的 eval()函数是一个内置函数，它将字符串作为 PHP 代码�
 
 **语法：**
 
-```
+```php
 eval( $string )
 ```
 
@@ -20,7 +20,7 @@ eval( $string )
 
 **示例：**
 
-```
+```php
 Input : $age = 20; $str = "I am $age years old"
         eval("\$str = \"$str\";");
 Output : I am 20 years old
@@ -35,7 +35,7 @@ Output : Geeks for Geeks
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $age = 20;
@@ -49,7 +49,7 @@ echo $str. "\n";
 
 **输出：**
 
-```
+```php
 My age is $age
 My age is 20
 
@@ -57,7 +57,7 @@ My age is 20
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $str = 'echo "Geeks for Geeks";';
@@ -67,7 +67,7 @@ echo eval($str). "\n";
 
 **输出：**
 
-```
+```php
 Geeks for Geeks
 
 ```

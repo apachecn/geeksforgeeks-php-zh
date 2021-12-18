@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```php
 unset( $variable )
 ```
 
@@ -25,7 +25,7 @@ unset( $variable )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arr1 = array(
     'geeks',  
@@ -46,7 +46,7 @@ var_dump($arr1);
 
 **输出:**
 
-```
+```php
 array(3) {
   [0]=>
   string(5) "geeks"
@@ -65,7 +65,7 @@ NULL
 
 **语法:**
 
-```
+```php
 array_diff($array1, $array2, ..., $arrayn)
 ```
 
@@ -75,7 +75,7 @@ array_diff($array1, $array2, ..., $arrayn)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $array = array("Ankesh","Saurabh","Ashish","Ashu", "Anuj", "Ajinkya");
@@ -94,7 +94,7 @@ print_r ($array);
 
 **Output**
 
-```
+```php
 Array
 (
     [0] => Ankesh

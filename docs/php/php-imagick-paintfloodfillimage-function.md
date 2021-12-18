@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::paintFloodFillImage( $fill, $fuzz, $bordercolor, 
                                    $x, $y, $channel = Imagick::CHANNEL_DEFAULT )
 
@@ -30,7 +30,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // Creating an imagick object

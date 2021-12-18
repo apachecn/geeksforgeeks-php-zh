@@ -9,7 +9,7 @@ exit()函数是 die()函数的别名。
 
 **语法：**
 
-```
+```php
 exit(message)
 ```
 
@@ -18,7 +18,7 @@ PHP 中的 exit()函数接受一个参数。
 
 1.  Message：这是一个必选参数，用于指定退出脚本之前要写入的消息或状态号。
 
-```
+```php
 Return Value:
 It does not return any value.
 ```
@@ -33,7 +33,7 @@ It does not return any value.
 
 **程序 1：**
 
-```
+```php
 <?php
 $link = "https://www.geeksforgeeks.org";
 
@@ -47,14 +47,14 @@ or exit("Unable to establish a connection to $link");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Unable to establish a connection to https://www.geeksforgeeks.org
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 //declaring variables
 $a=5;
@@ -75,7 +75,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 variables are equal
 
 ```

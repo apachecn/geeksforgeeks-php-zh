@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // Function used for assigning new
@@ -28,7 +28,7 @@ print($string);
 
 **Output:**
 
-```
+```php
 Function geeksforgeeks
 Global geeksforgeeks
 
@@ -38,7 +38,7 @@ Global geeksforgeeks
 
 **示例:**
 
-```
+```php
 <?php
 
 // Function used for assigning new value to 
@@ -60,7 +60,7 @@ print( $string );
 
 **Output:**
 
-```
+```php
 Function geeksforgeeks 
 Function geeksforgeeks
 

@@ -6,7 +6,7 @@
 
 1.  **For Controller:** The following command will create a controller:
 
-    ```
+    ```php
     php artisan make:controller ArticleController
 
     ```
@@ -16,7 +16,7 @@
 
     下面的命令是一起创建一个控制器和一个模型:
 
-    ```
+    ```php
     php artisan make:controller ArticleController -m Article
 
     ```
@@ -26,7 +26,7 @@
 
 2.  **对于雄辩模型:**以下命令将创建雄辩模型:
 
-```
+```php
 php artisan make:model Article
 
 ```
@@ -36,7 +36,7 @@ php artisan make:model Article
 
 7.  **For Front-end Scaffolding:** The following command will create a front-end scaffolding for the for Bootstrap:
 
-    ```
+    ```php
     php artisan ui bootstrap
 
     ```
@@ -46,7 +46,7 @@ php artisan make:model Article
 
     以下命令将为 for Vue 创建前端支架:
 
-    ```
+    ```php
     php artisan ui vue
 
     ```
@@ -56,7 +56,7 @@ php artisan make:model Article
 
     以下命令将为“反应”创建前端支架:
 
-    ```
+    ```php
     php artisan ui react
 
     ```
@@ -66,7 +66,7 @@ php artisan make:model Article
 
     要拆除脚手架，请使用以下命令:
 
-    ```
+    ```php
     php artisan preset none
 
     ```
@@ -78,7 +78,7 @@ php artisan make:model Article
 
 8.  **For Authentication Configuration:** The following command will create a full authentication system:
 
-    ```
+    ```php
     php artisan ui vue --auth
 
     ```
@@ -88,7 +88,7 @@ php artisan make:model Article
 
 9.  **For Migration:** The following command will create a migration:
 
-    ```
+    ```php
     php artisan make:migration create_articles_table
 
     ```
@@ -98,7 +98,7 @@ php artisan make:model Article
 
     要对所有表进行数据库迁移，请运行以下命令:
 
-    ```
+    ```php
     php artisan migrate
 
     ```
@@ -108,7 +108,7 @@ php artisan make:model Article
 
 10.  **For Route:** The following command will display list of all the routes:
 
-    ```
+    ```php
     php artisan route:list
 
     ```
@@ -118,7 +118,7 @@ php artisan make:model Article
 
 11.  **For Tinker:** The following command will start tinker:
 
-    ```
+    ```php
     php artisan tinker
 
     ```
@@ -128,7 +128,7 @@ php artisan make:model Article
 
 12.  **For Starting Development Server:** The following command will start the Laravel development server and provide a URL to visit the running Laravel application:
 
-    ```
+    ```php
     php artisan serve
 
     ```
@@ -140,7 +140,7 @@ php artisan make:model Article
 
     **维护中:**
 
-    ```
+    ```php
     php artisan down
 
     ```
@@ -150,7 +150,7 @@ php artisan make:model Article
 
     **退出维护:**
 
-    ```
+    ```php
     php artisan up
 
     ```
@@ -160,7 +160,7 @@ php artisan make:model Article
 
 14.  **For Listing Commands:** The following command will display a list of all the command that are available:
 
-    ```
+    ```php
     php artisan list
 
     ```

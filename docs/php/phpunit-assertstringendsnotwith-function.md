@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertStringEndsNotWith(string $suffix, string $string
 [, string $message = ''])
 
@@ -24,7 +24,7 @@ assertStringEndsNotWith(string $suffix, string $string
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -51,7 +51,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHPUnit 8.5.8 by Sebastian Bergmann and contributors.
 
 F                                                          1 / 1 (100%)
@@ -75,7 +75,7 @@ Tests: 1, Assertions: 1, Failures: 1.
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -102,7 +102,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHPUnit 8.5.8 by Sebastian Bergmann and contributors.
 
 .                                                  1 / 1 (100%)

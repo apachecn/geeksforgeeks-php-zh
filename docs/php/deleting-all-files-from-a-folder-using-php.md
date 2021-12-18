@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 // PHP program to delete all
 // file from a folder
@@ -44,7 +44,7 @@ foreach($files as $file) {
 ![](img/f468f5b028c366438cfa83cd95f0af90.png)
 **注意:**通过添加以下代码，隐藏文件可以包含在文件移除操作中:
 
-```
+```php
 $hidden_files = glob($folder_path.'/{, .}*', GLOB_BRACE);
 ```
 
@@ -56,7 +56,7 @@ $hidden_files = glob($folder_path.'/{, .}*', GLOB_BRACE);
 
 **示例:**
 
-```
+```php
 <?php
 // PHP program to delete all files from a folder
 
@@ -76,7 +76,7 @@ array_map('unlink', array_filter(
 
 **示例:**
 
-```
+```php
 <?php
 // PHP program to delete all files
 // from a folder
@@ -103,7 +103,7 @@ foreach ($dir as $fileinfo) {
 
 *   使用*递归目录生成器*
 
-    ```
+    ```php
     $dir = new RecursiveDirectoryIterator($dir, FilesystemIterator::SKIP_DOTS);
     $dir = new RecursiveIteratorIterator($dir, RecursiveIteratorIterator::CHILD_FIRST);
     ```
@@ -115,7 +115,7 @@ foreach ($dir as $fileinfo) {
 
 **示例:**
 
-```
+```php
 <?php
 // PHP program to delete all FilesystemIterator
 // from a folder

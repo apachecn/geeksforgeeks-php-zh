@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```php
 Input : $sides = array('Up', 'Down', 'Left', 'Right')
         $directions = array('North', 'South', 'West', 'East')
 
@@ -22,7 +22,7 @@ Right => East
 
 **示例 1:** 本示例使用 foreach 循环显示关联数组的元素。
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -45,7 +45,7 @@ foreach($aso_arr as $side=>$direc) {
 
 **输出:**
 
-```
+```php
 Up => North
 Down => South
 Left => West

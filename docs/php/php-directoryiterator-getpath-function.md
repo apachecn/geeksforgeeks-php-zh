@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DirectoryIterator::getPath( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator
@@ -33,7 +33,7 @@ echo $directory->getPath();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator

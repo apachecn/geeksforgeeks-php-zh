@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setProgressMonitor( *callable* $callback )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -56,7 +56,7 @@ try {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

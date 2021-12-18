@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *bool* ArrayIterator::offsetExists( *mixed* $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -50,7 +50,7 @@ var_dump($arrItr->offsetExists("a"));
 
 **输出:**
 
-```
+```php
 int(4)
 bool(true)
 NULL
@@ -60,7 +60,7 @@ bool(false)
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -100,7 +100,7 @@ var_dump($arrItr->offsetExists(0));
 
 **输出:**
 
-```
+```php
 Geeks
 bool(true)
 NULL

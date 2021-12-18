@@ -5,7 +5,7 @@
 在本文中，我们将学习如何在 PHP 中检查数字和字符串是否为回文。 如果数字或字符串在分别颠倒数字或字母后仍保持不变，则称其为回文。
 回文编号示例：
 
-```
+```php
 Input : 1441
 Output : Palindrome
 Explanation: Reversing 1441 will also get 1441
@@ -21,7 +21,7 @@ Explanation remains same
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to check for Palindrome number in PHP
 // Function to check for Palindrome
@@ -55,7 +55,7 @@ echo "Not a Palindrome"; 
 
 输出：0
 
-```
+```php
 Palindrome
 ```
 
@@ -63,7 +63,7 @@ Palindrome
 
 回文字符串的示例：
 
-```
+```php
 Input : "MALAYALAM"
 Output : Palindrome
 Explanation: Reversing "MALAYALAM" will also get "MALAYALAM"
@@ -79,7 +79,7 @@ Explanation remains same
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to check for Palindrome string in PHP
 // Using strrev()
@@ -105,7 +105,7 @@ echo "Not a Palindrome"; 
 
 输出：0
 
-```
+```php
 Palindrome
 ```
 
@@ -114,7 +114,7 @@ Palindrome
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to check for Palindrome string in PHP
 // Recursive way using substr()
@@ -145,7 +145,7 @@ Palindrome($string);
 
 输出：0
 
-```
+```php
 Palindrome
 ```
 

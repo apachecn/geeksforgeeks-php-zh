@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickPixel* ImagickDraw::getStrokeColor( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -32,13 +32,13 @@ echo $strokeColor;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 srgba(255, 255, 255, 0)
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -55,13 +55,13 @@ echo $strokeColor;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 srgb(190, 190, 190)
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

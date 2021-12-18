@@ -6,7 +6,7 @@ Strval()函数是 PHP 中的内置函数，用于将任何标量值(字符串、
 
 **语法**：
 
-```
+```php
 strval( $variable ) 
 ```
 
@@ -18,7 +18,7 @@ strval( $variable )
 
 **程序 1**：
 
-```
+```php
 <?php
 
 $var_name = 32.360;
@@ -32,14 +32,14 @@ echo strval($var_name);
 
 产出：
 
-```
+```php
 32.36
 
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 class geeksforgeeks
@@ -60,14 +60,14 @@ echo strval(new geeksforgeeks);
 
 产出：
 
-```
+```php
 geeksforgeeks
 
 ```
 
 **程序 3**：
 
-```
+```php
 <?php
 // Program to illustrate the strval() function
 // when an array is passed as parameter

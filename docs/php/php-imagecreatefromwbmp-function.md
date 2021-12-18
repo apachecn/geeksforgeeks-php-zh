@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromwbmp( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Load an WBMP image from local folder
@@ -34,14 +34,14 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will load the content into browser in the form 
 of unsupported text as browsers don't support WBMP.
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Load an WBMP image from local folder

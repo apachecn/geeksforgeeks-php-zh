@@ -5,7 +5,7 @@
 **ReflectionClass__toString()函数**是 PHP 中的内置函数，用于返回指定 ReflectionClass 对象的字符串表示形式。
 **语法：**和
 
-```
+```php
 *string* ReflectionClass__toString( *void* )
 ```
 
@@ -16,7 +16,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Creating a user-defined function
@@ -45,7 +45,7 @@ var_dump($A);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Using ReflectionClass()

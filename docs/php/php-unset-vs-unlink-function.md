@@ -6,7 +6,7 @@
 **Unlink()函数：**Unlink()函数是 PHP 中内置的函数，用于删除文件。 必须删除的文件的文件名作为参数发送，函数成功时返回 True，失败时返回 False。 PHP 中的 unlink()函数接受两个参数。
 **语法：**和
 
-```
+```php
 unlink( filename, context )
 ```
 
@@ -21,7 +21,7 @@ unlink( filename, context )
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to delete a file named gfg.txt
@@ -41,7 +41,7 @@ unlink('gfg.txt');
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1
 ```
 
@@ -49,7 +49,7 @@ unlink('gfg.txt');
 **unset()函数：**unset()函数是 PHP 中的一个内置函数，用于通过清空文件来删除文件中的内容。 这意味着该功能会清除文件的内容，而不是删除它。 函数的作用是：不仅清除文件内容，还用于取消变量的设置，从而使其为空。
 **语法：**和
 
-```
+```php
 unset( $variable )
 ```
 
@@ -59,7 +59,7 @@ unset( $variable )
 
 ## PHP
 
-```
+```php
 <?php
 
 $var = "hello";
@@ -76,7 +76,7 @@ echo $var;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 No output
 ```
 

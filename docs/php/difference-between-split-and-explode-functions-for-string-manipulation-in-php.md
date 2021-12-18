@@ -6,7 +6,7 @@
 
 **split()函数:**PHP 中的 split()函数用于将输入字符串分隔成不同的元素。元素根据字符串中模式的出现情况进行划分。可选参数描述了划分数组的元素数量。它从字符串的左边到右边开始。方法返回一个数组。
 
-```
+```php
 array split (string pattern, string string [, int limit])
 ```
 
@@ -17,7 +17,7 @@ array split (string pattern, string string [, int limit])
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $str = "Geeks_for_geeks_is_fun!";
 $arr = split("\_", $str);
@@ -28,7 +28,7 @@ print_r($arr);
 
 **输出**
 
-```
+```php
 String components : Array ( 
     [0] => Geeks 
     [1] => for 
@@ -40,7 +40,7 @@ String components : Array (
 
 [**【explode()】函数**](https://www.geeksforgeeks.org/php-explode-function/)**:**PHP 中的 explode()函数用于根据指定的分隔符将字符串划分为数组组件。limit 参数指示要将数组分成的部分的数量。此方法返回一个索引数组，其索引映射到数组元素。
 
-```
+```php
 explode(separator, string, limit)
 ```
 
@@ -55,7 +55,7 @@ explode(separator, string, limit)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $str = "Geeks for geeks is fun!";
 $arr = explode(" ", $str);
@@ -67,7 +67,7 @@ print_r($arr);
 
 **Output**
 
-```
+```php
 String components : Array
 (
     [0] => Geeks
@@ -83,7 +83,7 @@ String components : Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $str = "Geeks for geeks is fun!";
 $arr = explode(" ", $str, 0);
@@ -94,7 +94,7 @@ print_r($arr);
 
 **Output**
 
-```
+```php
 String components : Array
 (
     [0] => Geeks for geeks is fun!
@@ -106,7 +106,7 @@ String components : Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $str = "Geeks for geeks is fun!";
 $arr = explode(" ", $str, -1);
@@ -117,7 +117,7 @@ print_r($arr);
 
 **Output**
 
-```
+```php
 String components : Array
 (
     [0] => Geeks

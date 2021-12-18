@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::isValid( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 加入：清华 2007 年 1 月 25 日下午 3：33 岗位：287 岗位：338 岗位：338 岗位：321загрузкаиспользованияпрограмметсяпрограмметсяпрограмма
 
-```
+```php
 <?xml version="1.0"?>
 <!-- DTD rules to be followed by XML-->
 <!DOCTYPE html [
@@ -40,7 +40,7 @@
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -69,7 +69,7 @@ while ($XMLReader->read()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 YES ! this node is validated
 YES ! this node is validated
 YES ! this node is validated
@@ -79,7 +79,7 @@ YES ! this node is validated
 
 加入：清华 2007 年 1 月 25 日下午 3：33 岗位：287 岗位：338 岗位：338 岗位：321загрузкаиспользованияпрограмметсяпрограмметсяпрограмма
 
-```
+```php
 <?xml version="1.0"?>
 <!-- DTD rules to be followed by XML-->
 <!DOCTYPE html [
@@ -95,7 +95,7 @@ YES ! this node is validated
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -124,7 +124,7 @@ while ($XMLReader->read()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 No ! this node is not validated
 No ! this node is not validated
 ```

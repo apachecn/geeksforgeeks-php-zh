@@ -8,7 +8,7 @@ PHP 中的 disk_free_space()函数是一个内置函数，用于返回指定目�
 
 **语法：**
 
-```
+```php
 float disk_free_space ( $directory )
 ```
 
@@ -23,7 +23,7 @@ float disk_free_space ( $directory )
 
 **示例：**
 
-```
+```php
 Input : disk_free_space("D:");
 Output : 10969328844
 
@@ -36,7 +36,7 @@ Output : 10969327231
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // specifying directory to check for free space
@@ -47,13 +47,13 @@ echo disk_free_space("D:");
 
 产出：
 
-```
+```php
 10969328844
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // specifying directory to check for free space
@@ -64,7 +64,7 @@ echo disk_free_space("C:");
 
 产出：
 
-```
+```php
 10969327231
 ```
 

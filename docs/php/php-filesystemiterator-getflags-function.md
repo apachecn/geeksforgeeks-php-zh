@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* FilesystemIterator::getFlags( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new file system iterator
@@ -36,14 +36,14 @@ var_dump($flag); 
 
 **输出：**
 
-```
+```php
 int(4128)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new file system iterator
@@ -64,7 +64,7 @@ var_dump($flag); 
 
 **输出：**
 
-```
+```php
 int(256)
 
 ```

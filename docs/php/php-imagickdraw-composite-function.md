@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::compose( *int* $compose, *float* $x, *float* $y,
            *float* $width, *float* $height, *Imagick* $compositeWand )
 ```
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -64,7 +64,7 @@ echo $imagick2->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

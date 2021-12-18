@@ -5,7 +5,7 @@
 base64_decode()是 PHP 中的一个内置函数，用于解码以 MIME base64 编码的数据。
 **语法:**
 
-```
+```php
 *string* base64_decode( $data, $strict )
 ```
 
@@ -20,7 +20,7 @@ base64_decode()是 PHP 中的一个内置函数，用于解码以 MIME base64 �
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Program to illustrate base64_decode()
@@ -33,7 +33,7 @@ echo base64_decode($str);
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks
 ```
 
@@ -41,7 +41,7 @@ GeeksforGeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Program to illustrate base64_decode()
@@ -56,7 +56,7 @@ echo base64_decode($str). "\n";
 
 **Output:** 
 
-```
+```php
 GFG, A computer Science Portal For Geeks
 1
 ```

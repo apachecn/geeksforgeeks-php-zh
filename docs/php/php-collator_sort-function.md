@@ -8,13 +8,13 @@ collator_sort()函数是 PHP 中的一个内置函数，用于使用指定的排
 
 *   **Program style:**
 
-    ```
+    ```php
     bool collator_sort( $coll, $arr, $sort_flag )
     ```
 
 *   **Object-oriented style:**
 
-    ```
+    ```php
     bool Collator::sort( $arr, $sort_flag )
     ```
 
@@ -33,7 +33,7 @@ collator_sort()函数是 PHP 中的一个内置函数，用于使用指定的排
 
 **程序 1:**
 
-```
+```php
 <?php
 $coll = collator_create( 'en_US' );
 
@@ -50,7 +50,7 @@ var_export( $arr );
 
 **输出:**
 
-```
+```php
 array (
   0 => 'geek',
   1 => 'geeK',
@@ -62,7 +62,7 @@ array (
 
 **程序二:**
 
-```
+```php
 <?php
 $coll = collator_create( 'en_US' );
 
@@ -79,7 +79,7 @@ var_export( $arr );
 
 **输出:**
 
-```
+```php
 array (
   0 => 1,
   1 => 12,

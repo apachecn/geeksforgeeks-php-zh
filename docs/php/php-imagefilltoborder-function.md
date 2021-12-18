@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagefilltoborder( *resource* $image, *int* $x, *int* $y, *int* $border, *int* $color )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1(向图像添加填充颜色)：**
 
-```
+```php
 <?php
 
 // Load the png image
@@ -51,7 +51,7 @@ imagepng($im);
 
 **程序 2(向图形添加填充颜色)：**
 
-```
+```php
 <?php
 
 // Create the image handle, set the background to white

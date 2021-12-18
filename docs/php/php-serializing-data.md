@@ -10,7 +10,7 @@
 
 我们可以使用 Serialize()函数序列化 PHP 中的任何数据。 Serialize()函数接受单个参数，即我们想要序列化的数据，并返回序列化的字符串。 下面的程序说明了这一点：
 
-```
+```php
 <?php
 
 // a complex array
@@ -32,7 +32,7 @@ echo $string;
 
 产出：
 
-```
+```php
 a:4:{i:0;s:5:"hello";i:1;i:42;i:2;a:2:{i:
 0;i:1;i:1;s:3:"two";}i:3;s:5:"apple";}
 
@@ -42,7 +42,7 @@ a:4:{i:0;s:5:"hello";i:1;i:42;i:2;a:2:{i:
 
 下面的程序演示了 Serialize()和 UnSerialize()函数：
 
-```
+```php
 <?php
 
 // a complex array
@@ -67,7 +67,7 @@ print_r($newvar);
 
 产出：
 
-```
+```php
 Array
 (
     [0] => hello
@@ -89,7 +89,7 @@ Array
 
 让我们看看如何在 PHP 中使用**json_encode()**：
 
-```
+```php
 <?php
 
 // a complex array
@@ -111,14 +111,14 @@ echo $string;
 
 产出：
 
-```
+```php
 ["hello",42,[1,"two"],"apple"]
 
 ```
 
 我们可以使用 json_decode()函数对上面程序中编码的数据进行解码，以获得原始的复数组。 下面的程序说明了这一点：
 
-```
+```php
 <?php
 
 // a complex array
@@ -143,7 +143,7 @@ print_r($newvar);
 
 产出：
 
-```
+```php
 Array
 (
     [0] => hello

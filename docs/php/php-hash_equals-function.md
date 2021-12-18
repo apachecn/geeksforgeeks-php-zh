@@ -5,7 +5,7 @@
 Hash_equals 函数()是 PHP 中的一个内置函数，用于使用相同的时间比较两个字符串，无论它们是否相等。
 **语法：**和
 
-```
+```php
 hash_equals( $known_str, $usr_str )
 ```
 
@@ -20,7 +20,7 @@ hash_equals( $known_str, $usr_str )
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -38,7 +38,7 @@ var_dump($res);
 
 **Output:** 
 
-```
+```php
 bool(true)
 ```
 
@@ -46,7 +46,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -64,7 +64,7 @@ var_dump($res);
 
 **Output:** 
 
-```
+```php
 bool(false)
 ```
 

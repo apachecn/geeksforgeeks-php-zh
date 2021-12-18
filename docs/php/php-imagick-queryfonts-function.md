@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::queryFonts( $pattern = "*" )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 $output = '';
@@ -40,7 +40,7 @@ echo $output; 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

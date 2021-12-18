@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagebmp( *resource* $image, *mixed* $to, *bool* $compressed )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1(从头开始创建 BMP 图像)：**
 
-```
+```php
 <?php
 
 // Create a blank image
@@ -45,7 +45,7 @@ imagebmp($im);
 
 **程序 2(将图像转换为 BMP)：**
 
-```
+```php
 <?php
 
 // Create a image from URL

@@ -6,7 +6,7 @@
 **array_merge()函数:**array _ merge()合并一个或多个作为输入提供的数组，并提供一个新数组作为输出。在这个合并过程中，数组的值被附加到前一个数组的末尾，以生成结果数组。
 **语法:**
 
-```
+```php
 array array_merge( $arr1, $arr2, $arr3... )
 ```
 
@@ -15,7 +15,7 @@ array array_merge( $arr1, $arr2, $arr3... )
 **数组并集(+)运算符:**合并两个数组的另一种方法是数组并集(+)运算符。这是一个二进制运算符，意味着它一次合并两个数组。union 运算符将右手数组追加到左手数组的末尾。
 **语法:**
 
-```
+```php
 $arr3 = $arr1 + $arr2
 ```
 
@@ -25,7 +25,7 @@ $arr3 = $arr1 + $arr2
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Merge two arrays where one key ('one') is same
@@ -68,7 +68,7 @@ print_r($arr4);
 
 **Output**
 
-```
+```php
 Result of array_merge() function
 Array
 (

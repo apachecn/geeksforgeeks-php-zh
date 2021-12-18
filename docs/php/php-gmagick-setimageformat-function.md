@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimageformat( *string* $imageFormat )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -40,13 +40,13 @@ echo $format;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 jpeg
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -63,7 +63,7 @@ echo 'Image saved in same folder successfully';
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will change the format to jpeg from png and save image in same folder.
 ```
 

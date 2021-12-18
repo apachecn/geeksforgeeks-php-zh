@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMElement* DOMDocument::getElementById( *string* $elementId )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**在本程序中，我们将获得具有特定 id 的元素的标记名。
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -48,7 +48,7 @@ echo $tagname;
 
 **程序 2：**在本程序中，我们将获取具有一定 id 的元素的内容。
 
-```
+```php
 <?php
 
 // Create a new DOM Document

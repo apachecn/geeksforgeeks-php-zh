@@ -6,7 +6,7 @@ PHP 中的 chgrp()函数是一个内置函数，用于更改指定文件的用�
 
 **语法:**
 
-```
+```php
 bool chgrp ( $filename, $group )
 ```
 
@@ -23,7 +23,7 @@ bool chgrp ( $filename, $group )
 
 **例:**
 
-```
+```php
 Input : chgrp("gfg.txt", "administrator")
 Output :true
 
@@ -36,7 +36,7 @@ Output :true
 以下程序说明了 chgrp()功能:
 **程序 1** :
 
-```
+```php
 <?php
 
 // changes the file group to administrator
@@ -47,13 +47,13 @@ chgrp("gfg.txt", "administrator")
 
 输出:
 
-```
+```php
 true
 ```
 
 **节目 2** :
 
-```
+```php
 <?php
 
 // Changes the file group to guest
@@ -68,7 +68,7 @@ chown($path, $user_name); 
 
 输出:
 
-```
+```php
 true
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ImagickPixel::getIndex( *void* )
 ```
 
@@ -19,7 +19,7 @@
 下面给定的程序说明了 PHP：
 **程序 1(获取单个像素的索引)中的**ImagickPixel：：getIndex()函数**：**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixel = new ImagickPixel();
@@ -32,13 +32,13 @@ echo $index;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 // which is the default index for a pixel.
 ```
 
 **程序 2(获取图像所有像素的索引)：**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixel = new ImagickPixel();
@@ -54,13 +54,13 @@ echo $index;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 5
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -86,7 +86,7 @@ foreach ($imageIterator as $row => $pixels) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0
 0
 0

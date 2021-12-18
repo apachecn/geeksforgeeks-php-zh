@@ -5,7 +5,7 @@
 **Gmagick：：MagagifyImage()**函数是 PHP 中的一个内置函数，用于将图像按比例缩放到 2 倍。 此函数用于将图像缩放为其原始大小的两倍。
 **语法：**和
 
-```
+```php
 *public* Gmagick::magnifyimage( void )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

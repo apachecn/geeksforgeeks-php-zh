@@ -7,7 +7,7 @@ Dechex()是 PHP 中的一个内置函数，用于将给定的十进制数转换�
 
 **语法：**
 
-```
+```php
 *string* dechex($value)
 ```
 
@@ -17,7 +17,7 @@ Dechex()是 PHP 中的一个内置函数，用于将给定的十进制数转换�
 
 例如：
 
-```
+```php
 Input : dechex(10)
 Output : a
 
@@ -33,7 +33,7 @@ Output : ffffffff
 
 *   Passing 10 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo dechex(10);
@@ -43,13 +43,13 @@ Output : ffffffff
 
     产出：
 
-    ```
+    ```php
     a
     ```
 
 *   Passing 47 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo dechex(47);
@@ -59,13 +59,13 @@ Output : ffffffff
 
     产出：
 
-    ```
+    ```php
     2f
     ```
 
 *   When the largest possible decimal number is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo dechex(4294967295);
@@ -75,7 +75,7 @@ Output : ffffffff
 
     产出：
 
-    ```
+    ```php
     ffffffff
     ```
 

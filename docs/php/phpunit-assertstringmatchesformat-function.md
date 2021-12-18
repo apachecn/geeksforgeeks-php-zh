@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertStringMatchesFormat(string $format, string $string[, string $message = ''])
 
 ```
@@ -23,7 +23,7 @@ assertStringMatchesFormat(string $format, string $string[, string $message = '']
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -54,7 +54,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

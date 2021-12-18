@@ -14,7 +14,7 @@ PHP 中的数组是一种数据结构，它允许我们在一个变量下存储�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an array
@@ -43,7 +43,7 @@ print_r($mergeArr);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [0] => GeeksforGeeks
@@ -59,7 +59,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an array
@@ -84,7 +84,7 @@ print_r($array);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [0] => Welcome
@@ -99,7 +99,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -124,7 +124,7 @@ print_r($array);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [0] => Welcome

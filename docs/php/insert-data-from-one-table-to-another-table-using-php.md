@@ -14,7 +14,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，用于 web 应用
 
 *   插入查询语法:
 
-    ```
+    ```php
     insert table_2 select * from table_1.
     ```
 
@@ -47,7 +47,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，用于 web 应用
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php 
     // creating a connection by passing server name, 
     // username, password and database name

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::montageImage( *ImagickDraw* $draw, *string* $tile_geometry, 
                       *string* $thumbnail_geometry, *int* $mode, string *$frame* )
 ```
@@ -33,7 +33,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -57,7 +57,7 @@ echo $result->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

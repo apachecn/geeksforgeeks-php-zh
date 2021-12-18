@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : !@GeeksforGeeks2018?
 Output : GeeksforGeeks2018
 
@@ -17,7 +17,7 @@ Output : GeeksForGeeks
 
 **语法:**
 
-```
+```php
 *int* preg_match( $pattern, $replacement_string, $original_string )
 ```
 
@@ -34,7 +34,7 @@ Output : GeeksForGeeks
 
 **方法 1:** 正则表达式*/[\ W]/'*匹配所有非字母数字字符，并用' '(空字符串)替换。
 
-```
+```php
 $str = preg_replace( '/[\W]/', '', $str);
 ```
 
@@ -42,7 +42,7 @@ $str = preg_replace( '/[\W]/', '', $str);
 
 **示例:**
 
-```
+```php
 <?php 
 
 // string containing non-alphanumeric characters
@@ -59,14 +59,14 @@ echo($str);
 
 **Output:**
 
-```
+```php
 GeeksforGeeks2018
 
 ```
 
 **方法 2:** 正则表达式*'/[^a-z0-9/I '*匹配所有非字母数字字符，并用' '(空字符串)替换它们。
 
-```
+```php
 $str = preg_replace( '/[^a-z0-9 ]/i', '', $str);
 ```
 
@@ -78,7 +78,7 @@ $str = preg_replace( '/[^a-z0-9 ]/i', '', $str);
 
 **示例:**
 
-```
+```php
 <?php 
 
 // string containing non-alphanumeric characters
@@ -95,7 +95,7 @@ echo($str);
 
 **Output:**
 
-```
+```php
 GeeksforGeeks2018
 
 ```

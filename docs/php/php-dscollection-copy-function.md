@@ -6,7 +6,7 @@ Ds\Collection：：copy()函数是 PHP 中的一个内置函数，用于返回�
 
 **语法：**
 
-```
+```php
 Ds\Collection::copy ( void ) : Ds\Collection
 ```
 
@@ -18,7 +18,7 @@ Ds\Collection::copy ( void ) : Ds\Collection
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a collection
@@ -40,7 +40,7 @@ print_r($collection);
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a collection

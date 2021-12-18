@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_nlist( $ftp_connection, $directory );
 ```
 
@@ -29,7 +29,7 @@ ftp_nlist( $ftp_connection, $directory );
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -97,7 +97,7 @@ if($ftp_connection) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

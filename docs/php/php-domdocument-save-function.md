@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* DOMDocument::save( *string* $filename, *int* $options = 0 )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -48,14 +48,14 @@ echo "File saved successfully";
 
 **保存文件 abcd.xml 的内容：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <organization>GeeksforGeeks</organization>
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -85,7 +85,7 @@ echo "File saved successfully";
 
 **保存文件 g4g.xml 的内容：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <organization>
     <name>GeeksforGeeks</name>

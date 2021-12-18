@@ -21,7 +21,7 @@
 
 **例:**
 
-```
+```php
 <?php
 
 $url = 
@@ -37,7 +37,7 @@ echo "File downloaded!"
 ?>
 ```
 
-```
+```php
 File downloaded!
 ```
 
@@ -68,7 +68,7 @@ cURL 允许用 PHP 进行 HTTP 请求。首先初始化它的一个实例，并�
 
 **例:**
 
-```
+```php
 <?php
 
 function file_get_contents_curl($url) {
@@ -97,7 +97,7 @@ echo "File downloaded!"
 
 **输出:**
 
-```
+```php
 File downloaded!
 ```
 

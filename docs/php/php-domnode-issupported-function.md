@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMNode::isSupported( *string* $feature, *string* $version )
 ```
 
@@ -21,7 +21,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Write the feature name
@@ -49,7 +49,7 @@ if ($isSupported2) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Write the feature name

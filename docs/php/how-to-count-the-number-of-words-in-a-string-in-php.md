@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```php
 str_word_count(string, return, char)
 
 ```
@@ -17,7 +17,7 @@ str_word_count(string, return, char)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to count number of
 // words in a string 
@@ -35,6 +35,6 @@ echo $len; 
 
 **输出**
 
-```
+```php
 3
 ```

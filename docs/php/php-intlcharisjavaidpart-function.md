@@ -5,7 +5,7 @@
 **IntlChar：：isJavaIDPart()**函数是 PHP 中的一个内置函数，用于检查 Java 标识符中是否允许输入代码点。 要确定码位是否为 Java 标识符的指定码位。 添加了[isIDPart()](https://www.geeksforgeeks.org/php-intlcharisidpart-function/)函数的一般类别“SC”(货币符号)为 True。
 **语法：**和
 
-```
+```php
 *bool* IntlChar::isJavaIDPart( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::isJavaIDPart()
@@ -50,7 +50,7 @@ var_dump(IntlChar::isJavaIDPart(" $ "));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(false)
 NULL
 NULL
@@ -65,7 +65,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::isJavaIDPart()
@@ -93,7 +93,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

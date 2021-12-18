@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMDocument::saveHTML( *DOMNode* $node = NULL )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

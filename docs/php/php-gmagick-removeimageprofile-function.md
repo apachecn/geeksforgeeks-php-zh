@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Gmagick::removeimageprofile( *string* $name )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -61,7 +61,7 @@ function testProfile($gmagick, $name) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before removing:
 Profile is available with name *profile_name* and value *profile_value*
 After removing:
@@ -70,7 +70,7 @@ Profile is not available.
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

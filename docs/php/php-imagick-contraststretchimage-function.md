@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::contrastStretchImage( *float* $black_point,
          *float* $white_point, *int* $channel = Imagick::CHANNEL_DEFAULT)
 ```
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -45,7 +45,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -67,7 +67,7 @@ echo $imagick->getImageBlob();
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

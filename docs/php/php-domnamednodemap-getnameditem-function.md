@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNamedNodeMap::getNamedItem( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**在此示例中，我们将获取元素的属性值。
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -50,7 +50,7 @@ echo $attribute;
 
 **示例 2：**在此示例中，我们将通过更改属性的值来检查函数是否获取最新属性值。
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

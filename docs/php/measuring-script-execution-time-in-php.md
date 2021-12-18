@@ -6,7 +6,7 @@ PHP 中的脚本执行时间是执行 PHP 脚本所需的时间。要计算脚�
 
 **示例:**样本脚本
 
-```
+```php
 <?php
 for($i = 1; $i <=1000; $i++)
 {
@@ -19,7 +19,7 @@ for($i = 1; $i <=1000; $i++)
 
 **例:**
 
-```
+```php
 <?php
 
 // Starting clock time in seconds
@@ -44,7 +44,7 @@ echo " Execution time of script = ".$execution_time." sec";
 
 **输出:**
 
-```
+```php
 Execution time of script = 1.6927719116211E-5 sec
 
 ```

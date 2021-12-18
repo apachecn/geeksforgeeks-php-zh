@@ -18,7 +18,7 @@ Memcached 是一种高速缓存，它是一种高性能的分布式内存对象�
 
 **在 ubuntu 上安装：**要在 ubuntu 上安装 memcached，请转到终端并键入以下命令−
 
-```
+```php
 $sudo apt-get update
 $sudo apt-get install memcached
 ```
@@ -27,7 +27,7 @@ $sudo apt-get install memcached
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "<pre>";

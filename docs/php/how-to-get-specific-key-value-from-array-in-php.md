@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $mixedArr = [
@@ -31,7 +31,7 @@ echo "An item by key 'hello': {$stringItem}\n";
 
 **Output**
 
-```
+```php
 An item by index 0: 10
 An item by key 'hello': world
 ```
@@ -40,7 +40,7 @@ An item by key 'hello': world
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $arr = [1, 2, 3];
@@ -62,7 +62,7 @@ echo "A value under the index 10: {$value}\n";
 
 **Output**
 
-```
+```php
 There are no value under the index 10
 A value under the index 10: unknown
 ```

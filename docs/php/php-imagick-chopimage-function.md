@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::chopImage( $width, $height, $x, $y )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 // require_once('path/vendor/autoload.php'); 
 

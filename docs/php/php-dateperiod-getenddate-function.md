@@ -5,7 +5,7 @@
 **DatePeriod：：getEndDate()函数**是 PHP 中的内置函数，用于返回结束日期。 如果给定的日期期间没有任何结束日期，则返回 NULL。
 **语法：**和
 
-```
+```php
 *DateTimeInterface* DatePeriod::getEndDate( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initialising a startDate with time
@@ -44,6 +44,6 @@ echo $endDate->format(DateTime::ISO8601);
 
 **Output:** 
 
-```
+```php
 2019-10-02T00:00:00+0000
 ```

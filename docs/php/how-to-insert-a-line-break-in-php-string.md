@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 nl2br("string \n");
 ```
 
@@ -16,7 +16,7 @@ nl2br("string \n");
 
 ## PHP
 
-```
+```php
 <?php
 
 // Insert a new line break
@@ -27,7 +27,7 @@ echo nl2br("This is first line \n This is second line");
 
 **输出**
 
-```
+```php
 This is first line <br />
  This is second line
 ```
@@ -36,7 +36,7 @@ This is first line <br />
 
 ## PHP
 
-```
+```php
 <?php
 
 // Insert a line break with new line
@@ -48,7 +48,7 @@ echo nl2br("This is first line \n This is second "
 
 **输出**
 
-```
+```php
 This is first line <br />
  This is second line <br />
  This is third line <br />

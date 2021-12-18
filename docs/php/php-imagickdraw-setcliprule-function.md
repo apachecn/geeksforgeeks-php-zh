@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setClipRule( *int* $fill_rule )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -42,13 +42,13 @@ echo $draw->getClipRule();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2 // which corresponds to imagick::FILLRULE_NONZERO.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

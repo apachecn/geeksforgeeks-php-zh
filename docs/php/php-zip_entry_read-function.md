@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 string zip_entry_read( $zip_entry, $length )
 ```
 
@@ -29,7 +29,7 @@ string zip_entry_read( $zip_entry, $length )
 > 假设一个 zip 文件 Tistrle.zip 包含以下文件：
 > **geeks.txt**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -63,7 +63,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File: articles/geeks successfully opened. 
 File content: Welcome to GeeksforGeeks. It is a computer science portal
 where you can learn programming.
@@ -76,7 +76,7 @@ where you can learn programming.
 >  **geeks.txt
 > geeks1.txt**
 
-```
+```php
 <?php
 
 // Opening a zip file
@@ -110,7 +110,7 @@ zip_close($zip_handle);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: articles/geeks is opened Successfully. 
 Welcome to GeeksforGeeks. It is a computer science portal where you
 can learn programming.

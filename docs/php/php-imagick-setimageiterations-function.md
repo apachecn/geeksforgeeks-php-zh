@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageIterations( *int* $iterations )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -48,7 +48,7 @@ echo $imagickAnimation->getImagesBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

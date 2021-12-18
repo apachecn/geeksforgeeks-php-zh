@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DOMElement::setIdAttributeNode( *DOMAttr* $attr, *bool* $isId )
 ```
 
@@ -23,7 +23,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -54,7 +54,7 @@ echo $dom->saveXML();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -86,7 +86,7 @@ echo $value;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Hey ! This is my content.
 ```
 

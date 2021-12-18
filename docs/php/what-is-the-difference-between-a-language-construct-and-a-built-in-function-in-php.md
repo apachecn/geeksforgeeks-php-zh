@@ -5,7 +5,7 @@
 在编程中，语言构造和内置函数经常被误解，因为两者或多或少都有相似的行为。但是它们在 PHP 解释器的解释方式上有所不同。每种编程语言都由各自语言解析器能够识别的标记和结构组成。因此，每当一个文件被解析时，解析器理解它们的用法，并且知道如何处理它们，而不需要进一步检查它们。这些标记和结构被称为**语言结构**。它们基本上是作为编程语言一部分的关键字。换句话说，它们构成了语言的句法。
 以下是一些语言结构的例子:
 
-```
+```php
 echo()
 include()
 require()
@@ -20,7 +20,7 @@ die()
 以下示例说明了 PHP 中语言构造的使用:
 **示例 1:**
 
-```
+```php
 <?php
 
  print('Monday ');
@@ -33,14 +33,14 @@ die()
 
 **Output:**
 
-```
+```php
 Monday Tuesday Wednesday
 
 ```
 
 **例 2:**
 
-```
+```php
 <?php
 /* PHP program to use unset
 function */
@@ -64,7 +64,7 @@ print_r($arr);
 
 **Output:**
 
-```
+```php
 Array
 (
     [1] => Amit
@@ -77,7 +77,7 @@ Array
 另一方面，**内置函数**是以这样一种方式记录下来的代码块，它们可以在执行特定任务时一次又一次地被重用。它们已经存在于 PHP 安装包中。正是由于这些内置函数，PHP 才是一种高效的脚本语言。
 PHP 中常用的一些内置函数有:
 
-```
+```php
 json_encode()
 mail()
 explode()
@@ -91,7 +91,7 @@ curl_init()
 以下示例说明了内置函数在 PHP 中的使用:
 **示例 1:**
 
-```
+```php
 <?php
 /* Date functions in PHP */
 
@@ -103,14 +103,14 @@ curl_init()
 
 **Output:**
 
-```
+```php
 Date and time is - 26 February 2019, 12.22.pm
 
 ```
 
 **例 2:**
 
-```
+```php
 <?php
 /* String functions in PHP */
 
@@ -124,7 +124,7 @@ Date and time is - 26 February 2019, 12.22.pm
 
 **Output:**
 
-```
+```php
 For
 GeeksForGeeks
 CodeForCode

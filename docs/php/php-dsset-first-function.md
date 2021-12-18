@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Set::first( void )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -42,7 +42,7 @@ print_r($set->first());
 
 **Output:** 
 
-```
+```php
 Welcome
 ```
 
@@ -50,7 +50,7 @@ Welcome
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -72,7 +72,7 @@ print_r($set->first());
 
 **Output:** 
 
-```
+```php
 10
 ```
 

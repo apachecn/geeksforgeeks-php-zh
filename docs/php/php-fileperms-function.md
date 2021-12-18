@@ -8,7 +8,7 @@ PHP 中的 fileperms()函数是一个内置函数，用于返回授予文件或�
 
 **语法：**
 
-```
+```php
 fileperms($filename)
 ```
 
@@ -24,7 +24,7 @@ fileperms($filename)
 
 **示例：**
 
-```
+```php
 Input : fileperms("gfg.txt");
 Output : 33206
 
@@ -37,7 +37,7 @@ Output : 0644
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // file permissions are displayed
@@ -49,13 +49,13 @@ echo fileperms("gfg.txt");
 
 产出：
 
-```
+```php
 33206
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // file permissions are displayed in
@@ -67,7 +67,7 @@ echo substr(sprintf("%o", fileperms("gfg.txt")), -4);
 
 产出：
 
-```
+```php
 0644
 ```
 

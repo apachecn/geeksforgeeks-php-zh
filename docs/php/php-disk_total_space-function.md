@@ -8,7 +8,7 @@ PHP 中的 DISK_TOTAL_SPACE()函数是一个内置函数，用于返回指定目
 
 **语法：**
 
-```
+```php
 *float* disk_total_space ( string $directory )
 ```
 
@@ -23,7 +23,7 @@ PHP 中的 DISK_TOTAL_SPACE()函数是一个内置函数，用于返回指定目
 
 **示例：**
 
-```
+```php
 Input : disk_total_space("D:");
 Output : 10969328844798729
 
@@ -36,7 +36,7 @@ Output : 104379834795739795
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // specifying directory to check for total space
@@ -47,13 +47,13 @@ echo disk_total_space("D:");
 
 产出：
 
-```
+```php
 10969328844798729
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // specifying directory to
@@ -68,7 +68,7 @@ echo "C: drive has a total capacity
 
 产出：
 
-```
+```php
 C: drive has a total capacity of 104379834795739795 bytes.
 
 ```

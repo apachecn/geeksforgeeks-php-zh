@@ -5,7 +5,7 @@
 **Imagick：：cropImage()**函数是 PHP 中的一个内置函数，用于提取图像的区域。
 **语法：**和
 
-```
+```php
 *int* Imagick::cropImage( $width, $height, $x, $y )
 ```
 
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -58,7 +58,7 @@ echo $image->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 

@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```php
 *float* cosh($value)
 ```
 
@@ -21,7 +21,7 @@
 
 示例:
 
-```
+```php
 Input : cosh(3) 
 Output : 10.067661995778
 
@@ -40,7 +40,7 @@ Output : 1
 
 *   Passing 3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (cosh(3));
@@ -50,13 +50,13 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     10.067661995778
     ```
 
 *   Passing -3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (cosh(-3));
@@ -66,13 +66,13 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     10.067661995778
     ```
 
 *   When (2*M_PI) is passed as a parameter, M_PI is a constant in PHP whose value is 3.1415926535898:
 
-    ```
+    ```php
     <?php
 
     echo (cosh(2*M_PI));
@@ -82,13 +82,13 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     267.74676148375
     ```
 
 *   Passing 0 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (cosh(0));
@@ -98,7 +98,7 @@ Output : 1
 
     输出:
 
-    ```
+    ```php
     1
     ```
 

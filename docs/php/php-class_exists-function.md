@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 bool class_exists( string $class_name, bool $autoload = TRUE )
 ```
 
@@ -21,7 +21,7 @@ bool class_exists( string $class_name, bool $autoload = TRUE )
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Create a class
@@ -42,14 +42,14 @@ else {
 
 **输出:**
 
-```
+```php
 Class name exists
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Creating class 
@@ -81,7 +81,7 @@ else {
 
 **输出:**
 
-```
+```php
 Geeks  
 for  
 Geeks

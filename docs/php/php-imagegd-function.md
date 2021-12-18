@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagegd( *resource* $image, *float* $to)
 ```
 
@@ -22,7 +22,7 @@
 下面给出的程序说明了 PHP 中的**imagegd()函数**：
 **程序 1(查看 GD 文件)：**
 
-```
+```php
 <?php
 // Create a blank image and add text
 $im = imagecreatetruecolor(100, 100);
@@ -36,13 +36,13 @@ imagegd($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will output the image in the form of string as gd isn't supported in browser.
 ```
 
 **程序 2(将图像转换为 gd)：**
 
-```
+```php
 <?php
 // Create a image from png
 $image = imagecreatefrompng('https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png');
@@ -54,7 +54,7 @@ imagegd($image, 'geeksforgeeks.gd');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save a image with name geeksforgeeks.gd in the same folder.
 ```
 

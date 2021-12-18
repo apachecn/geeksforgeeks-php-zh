@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* DOMNodeList::count( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -49,7 +49,7 @@ echo $elements->count();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

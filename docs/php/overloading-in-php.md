@@ -39,7 +39,7 @@ PHP 中的函数重载用于动态创建属性和方法。这些动态实体由�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // 
@@ -120,7 +120,7 @@ echo $obj->hidden . "\n";
 
 **Output:**
 
-```
+```php
 Setting 'a' to '1'
 Getting 'a: 1
 Is 'a' set?
@@ -147,7 +147,7 @@ Getting 'hidden:
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 class GFG {
 
@@ -176,7 +176,7 @@ GFG::runTest('in static context'); 
 
 **Output:**
 
-```
+```php
 Calling object method 'runTest' in object context
 Calling static method 'runTest' in static context
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagegammacorrect( *resource* $image, *float* $inputgamma, *float* $outputgamma )
 ```
 
@@ -23,7 +23,7 @@
 下面给出的程序说明了 PHP 中的**imagegammacorrect()函数**：
 **程序 1：**
 
-```
+```php
 <?php
 // Create an image
 $im = imagecreatefrompng('https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png');
@@ -43,7 +43,7 @@ imagedestroy($im);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create an empty image
 $im = imagecreatetruecolor(800, 250);

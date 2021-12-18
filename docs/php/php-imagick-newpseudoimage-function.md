@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::newPseudoImage( $columns, $rows, $pseudoString )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

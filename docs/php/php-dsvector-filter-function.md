@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Vector* public Ds\Vector::filter( $callback )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new vector element
@@ -43,7 +43,7 @@ var_dump($vector->filter(function($value) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector element

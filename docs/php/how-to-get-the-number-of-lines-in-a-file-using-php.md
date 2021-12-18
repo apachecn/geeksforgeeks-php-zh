@@ -6,7 +6,7 @@
 
 **test.txt:** 该文件用于测试以下所有 PHP 代码
 
-```
+```php
 Geeks
 For
 Geeks
@@ -18,7 +18,7 @@ Geeks
 
 ## PHP
 
-```
+```php
 <?php
     $filePath = "test.txt";
     $lines = count(file($filePath));
@@ -28,7 +28,7 @@ Geeks
 
 **输出:**
 
-```
+```php
 3
 ```
 
@@ -40,7 +40,7 @@ Geeks
 
 ## ****PHP****
 
-```
+```php
 **<?php
     $filePath="test.txt";
     $linecount = 0;
@@ -58,7 +58,7 @@ Geeks
 
 ******输出:******
 
-```
+```php
 **3**
 ```
 
@@ -70,7 +70,7 @@ Geeks
 
 ## ****PHP****
 
-```
+```php
 **<?php
     $filePath="test.txt";
     $linecount = 0;
@@ -93,7 +93,7 @@ Geeks
 
 ******输出:******
 
-```
+```php
 **3**
 ```
 

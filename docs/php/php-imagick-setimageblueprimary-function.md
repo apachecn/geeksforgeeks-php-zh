@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageBluePrimary( *float* $x, *float* $y )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -42,13 +42,13 @@ print_r($result);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 10 [y] => 10 )
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

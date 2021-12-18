@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     int IntlCalendar::getActualMaximum( int $field )
     ```
 
 *   Process style
 
-    ```
+    ```php
     int intlcal_get_actual_maximum( IntlCalendar $cal, int $field )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime object
@@ -58,7 +58,7 @@ var_dump($calendar->getActualMaximum(IntlCalendar::FIELD_WEEK_OF_MONTH));
 
 **输出：**
 
-```
+```php
 int(30)
 int(5)
 int(11)

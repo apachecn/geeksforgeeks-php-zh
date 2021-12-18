@@ -19,7 +19,7 @@
 
 **语法：**
 
-```
+```php
 *array* debug_backtrace(*int* $options, *int* $limit);
 ```
 
@@ -29,7 +29,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 function sum($a, $b) {
@@ -45,7 +45,7 @@ sum(10,2);
 
 **OUTPUT**
 
-```
+```php
 12
 
 array(1) {

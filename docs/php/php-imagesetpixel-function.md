@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagesetpixel( *resource* $image, *int* $x, *int* $y, *int* $color )
 
 ```
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load the png image
@@ -53,7 +53,7 @@ imagepng($image);
 
 ## PHP
 
-```
+```php
 <?php
 
   // Create a blank image 700x200

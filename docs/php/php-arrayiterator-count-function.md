@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *int* ArrayIterator::count( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -34,14 +34,14 @@ echo $arrItr->count();
 
 **输出:**
 
-```
+```php
 5
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -58,7 +58,7 @@ echo $arrItr->count();
 
 **输出:**
 
-```
+```php
 3
 
 ```

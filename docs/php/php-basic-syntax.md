@@ -16,7 +16,7 @@ PHP 脚本在服务器上执行，HTML 结果被发送到浏览器。它通常�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 # Here echo command is used to print
 echo "Hello, world!";
@@ -25,7 +25,7 @@ echo "Hello, world!";
 
 **输出:**
 
-```
+```php
 Hello, world!
 ```
 
@@ -35,7 +35,7 @@ Hello, world!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?
 # Here echo command will only work if
 # setting is done as said before
@@ -45,7 +45,7 @@ echo "Hello, world!";
 
 **输出:**
 
-```
+```php
 Hello, world!
 ```
 
@@ -55,7 +55,7 @@ Hello, world!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <script language="php">
 echo "hello world!";
 </script>
@@ -63,7 +63,7 @@ echo "hello world!";
 
 **输出:**
 
-```
+```php
 hello world!
 ```
 
@@ -73,7 +73,7 @@ hello world!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <%
 # Can only be written if setting is turned on
 # to allow %
@@ -83,7 +83,7 @@ echo "hello world";
 
 **输出:**
 
-```
+```php
 hello world
 ```
 
@@ -109,7 +109,7 @@ PHP 支持两种类型的注释:
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // This is a single line comment
 // These cannot be extended to more lines
@@ -122,7 +122,7 @@ echo "hello world!!!";
 
 **输出:**
 
-```
+```php
 hello world!!!
 ```
 
@@ -131,7 +131,7 @@ hello world!!!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 /* This is a multi line comment
     In PHP variables are written
@@ -144,7 +144,7 @@ echo $geek;
 
 **输出:**
 
-```
+```php
 hello world!
 ```
 
@@ -156,7 +156,7 @@ hello world!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP code illustrate the whitespace insensitivity
 $var1         =     15;
@@ -176,7 +176,7 @@ echo $sum1;
 
 **输出:**
 
-```
+```php
 45
 45
 ```
@@ -187,7 +187,7 @@ echo $sum1;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // Here we can see that all echo
 // statements are executed in the same manner
@@ -205,7 +205,7 @@ echo $VARIABLE
 
 **输出:**
 
-```
+```php
 25
 25
 25
@@ -217,7 +217,7 @@ echo $VARIABLE
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $var = 50;
 if ($var>0){
@@ -229,7 +229,7 @@ if ($var>0){
 
 **或****【tput:**
 
-```
+```php
 Positive as
 greater than 0
 ```

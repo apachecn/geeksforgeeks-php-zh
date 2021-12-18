@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::adaptiveThresholdImage ( $width, $height, $offset )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // require_once('path/to/vendor/autoload.php'); 

@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 strchr($originalStr, $searchStr, $before_search
 
 ```
@@ -27,7 +27,7 @@ strchr($originalStr, $searchStr, $before_search
 
 **示例：**
 
-```
+```php
 Input : $originalStr = "geeks for geeks" 
         $searchStr = "geeks" 
 Output : geeks for geeks 
@@ -51,7 +51,7 @@ Output: No output
 
 ## PHP
 
-```
+```php
 <?php
 // Program to demonstrate the strchr()
 // function when word is found
@@ -66,7 +66,7 @@ echo strchr($originalStr, $searchStr);
 
 **输出：**
 
-```
+```php
 geeks for geeks
 
 ```
@@ -75,7 +75,7 @@ geeks for geeks
 
 ## PHP
 
-```
+```php
 <?php
 // Program to demonstrate the strchr()
 // function when word is not found
@@ -90,7 +90,7 @@ echo strchr($originalStr, $searchStr);
 
 **输出：**
 
-```
+```php
 No Output
 
 ```
@@ -99,7 +99,7 @@ No Output
 
 ## PHP
 
-```
+```php
 <?php
 // Program to demonstrate the strchr()
 // function when word is found and
@@ -115,7 +115,7 @@ echo strchr($originalStr, $searchStr, true);
 
 **输出：**
 
-```
+```php
 geeks
 
 ```
@@ -124,7 +124,7 @@ geeks
 
 ## PHP
 
-```
+```php
 <?php
 // Program to demonstrate the strchr()
 // function when a part of word is passed and found
@@ -139,7 +139,7 @@ echo strchr($originalStr, $searchStr);
 
 **输出：**
 
-```
+```php
 eks for geeks
 
 ```
@@ -148,7 +148,7 @@ eks for geeks
 
 ## PHP
 
-```
+```php
 <?php
 // Program to demonstrate the strchr()
 // function when a number is passed and its equivalent
@@ -165,7 +165,7 @@ echo strchr($originalStr, $searchStr);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 eeks for geeks
 
 ```

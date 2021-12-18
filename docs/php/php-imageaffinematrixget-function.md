@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* imageaffinematrixget( *int* $type, *mixed* $options )
 ```
 
@@ -26,7 +26,7 @@
 下面给出的程序说明了 PHP 中的**imageaffinemailxget()函数**：
 **程序 1(从数组创建)：**
 
-```
+```php
 <?php
 // Create an array
 $arr = array('x' => 5, 'y' => 8);
@@ -41,7 +41,7 @@ print("<pre>".print_r($matrix, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 1
@@ -55,7 +55,7 @@ Array
 
 **程序 2(从角度创建)：**
 
-```
+```php
 <?php
 // Create an angle
 $angle = 300;
@@ -70,7 +70,7 @@ print("<pre>".print_r($matrix, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 1

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagefilter( *resource* $image, *int* $filtertype,
        *int* $arg1, *int* $arg2, *int* $arg3, *int* $arg4 )
 ```
@@ -40,7 +40,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Load the png image
@@ -61,7 +61,7 @@ imagepng($im);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Load the png image
@@ -82,7 +82,7 @@ imagepng($im);
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Load the png image

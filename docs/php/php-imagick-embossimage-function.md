@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::embossImage( $radius, $sigma )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php'); 

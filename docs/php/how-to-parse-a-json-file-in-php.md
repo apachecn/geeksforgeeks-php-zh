@@ -80,7 +80,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Read the JSON file 
@@ -97,7 +97,7 @@ print_r($json_data);
 
 **输出:**
 
-```
+```php
 Array ( 
     [Student] => Array ( 
         [0] => Array ( 

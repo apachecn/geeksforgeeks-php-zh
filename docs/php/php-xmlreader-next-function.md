@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::next( *string* $localname )
 ```
 
@@ -19,7 +19,7 @@
 **程序 1：**在本程序中，我们将遍历 XML 树。
 **文件名：***data.xml*
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div1>
     <h1> Foo Bar </h1>
@@ -31,7 +31,7 @@
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -67,13 +67,13 @@ echo "After:<br> We are currently"
 **输出：**
 **之前：**
 
-```
+```php
 We are currently at: h1
 ```
 
 **之后：**
 
-```
+```php
 We are currently at: div2
 ```
 
@@ -81,7 +81,7 @@ We are currently at: div2
 
 加入时间：清华大学 2007 年 01 月 25 日下午 3：33
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div1>
     <h1> Foo Bar </h1>
@@ -94,7 +94,7 @@ We are currently at: div2
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -129,13 +129,13 @@ echo "After:<br> We are currently"
 **输出：**
 **之前：**
 
-```
+```php
 We are currently at: div2
 ```
 
 **之后：**
 
-```
+```php
 We are currently at: div3
 ```
 

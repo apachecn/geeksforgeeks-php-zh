@@ -8,7 +8,7 @@ PHP 中的 feof()函数是一个内置函数，用于测试文件指针上的文
 
 **语法：**
 
-```
+```php
 feof( $file )
 ```
 
@@ -25,7 +25,7 @@ feof( $file )
 
 **程序 1**：在下面的程序中，名为“singleline.txt”的文件只包含一行文本，即“本文件只包含一行”。
 
-```
+```php
 <?php
 
 // a file is opened using fopen() function
@@ -49,7 +49,7 @@ fclose($check);
 
 产出：
 
-```
+```php
 This file consists of only a single line.
 
 ```
@@ -60,7 +60,7 @@ This file consists of only a single line.
 > 这是第二行。
 > 这是第三行。
 
-```
+```php
 <?php
 
 // a file is opened using fopen() function
@@ -83,7 +83,7 @@ fclose($check);
 
 产出：
 
-```
+```php
 This is the first line.
 This is the second line.
 This is the third line.

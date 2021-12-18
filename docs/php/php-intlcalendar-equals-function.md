@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *bool* IntlCalendar::equals( *IntlCalendar* $other )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *bool* intlcal_equals( *IntlCalendar* $cal, *IntlCalendar* $other )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an IntlCalendar from a DateTime object or string
@@ -72,7 +72,7 @@ var_dump($calendar1->equals($calendar2));
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(true)

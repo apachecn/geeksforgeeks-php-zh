@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::getPropertyEnum( $alias )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // PHP program to uses IntlChar::getPropertyEnum()
@@ -45,7 +45,7 @@ var_dump(IntlChar::getPropertyEnum('script') === IntlChar
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

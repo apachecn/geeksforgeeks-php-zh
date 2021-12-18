@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplDoublyLinkedList::shift( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -42,7 +42,7 @@ var_dump($list->shift());
 
 **输出：**
 
-```
+```php
 int(30)
 int(20)
 int(30)
@@ -51,7 +51,7 @@ int(30)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -76,7 +76,7 @@ var_dump($list->shift());
 
 **输出：**
 
-```
+```php
 int(1)
 int(2)
 int(3)

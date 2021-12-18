@@ -6,7 +6,7 @@ Imageantialias()函数是 PHP 中的内置函数，用于检查是否使用了�
 
 **语法：**
 
-```
+```php
 *bool* imageantialias( $image, $enabled )
 ```
 
@@ -23,7 +23,7 @@ Imageantialias()函数是 PHP 中的内置函数，用于检查是否使用了�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Function to create image of given size

@@ -6,7 +6,7 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
 **语法:**
 
-```
+```php
 *array* array_change_key_case(in_array, convert_case)
 ```
 
@@ -23,7 +23,7 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
 *   Below program converts the case of keys to uppercase:
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate array_change_key_case()
@@ -42,7 +42,7 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [AAKASH] => 90
@@ -56,7 +56,7 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
 *   If we ignore the second parameter *convert_case* in the function array_change_key_case() then the keys will be converted to lowercase. Below program illustrates this:
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate array_change_key_case()
@@ -75,7 +75,7 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [aakash] => 90
@@ -89,7 +89,7 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
 *   If we don’t pass an array to the function then PHP_Warning is popped up, but the program works and No Output is generated. Below program illustrates this
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate array_change_key_case()
@@ -108,14 +108,14 @@ array_change_key_case()函数是 PHP 中的一个内置函数，用于将给定�
 
     输出:
 
-    ```
+    ```php
     No Output
 
     ```
 
     警告:
 
-    ```
+    ```php
     PHP Warning:  array_change_key_case() expects at least 1 parameter, 
     0 given in /home/7d540b2d77cbbfa46af4fb8798fb5e79.php on line 5
     ```

@@ -6,7 +6,7 @@ PHP 的这个内置函数用于从数组中获取随机数量的元素。元素�
 
 **语法**:
 
-```
+```php
 array_rand($array, $num)
 ```
 
@@ -19,7 +19,7 @@ array_rand($array, $num)
 
 示例:
 
-```
+```php
 Input : 
 $array = ("ram"=>"20", "krishna"=>"42", "aakash"=>"15")
 $num = 2
@@ -40,7 +40,7 @@ Output : krishna
 
 *   In the below program we have passed our second parameter that specifies the number of elements to be returned.
 
-    ```
+    ```php
     <?php
     // PHP function to illustrate the use 
     // of array_rand()
@@ -53,7 +53,7 @@ Output : krishna
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [0] => ram
@@ -64,7 +64,7 @@ Output : krishna
 
 *   Now let’s see what will happen if we don’t pass the second parameter.
 
-    ```
+    ```php
     <?php
     // PHP function to illustrate the 
     // use of array_rand()
@@ -76,7 +76,7 @@ Output : krishna
 
     输出:
 
-    ```
+    ```php
     aakash
 
     ```

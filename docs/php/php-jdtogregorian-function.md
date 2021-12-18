@@ -6,7 +6,7 @@ Jdtogregorian()函数是一个内置函数，用于将[儒略日整数](https://
 
 **语法：**
 
-```
+```php
 jdtogregorian($jd)
 ```
 
@@ -16,7 +16,7 @@ jdtogregorian($jd)
 
 例如：
 
-```
+```php
 Input : 2458209
 Output : 3/31/2018
 
@@ -29,7 +29,7 @@ Output : 4/27/2018
 
 **程序 1：**下面的程序说明了 jdtogregorian()函数的用法。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdtogregorian() function 
@@ -48,13 +48,13 @@ echo ($date), "\n"; 
 
 产出：
 
-```
+```php
 3/31/2018
 ```
 
 **程序 2：**下面的程序显示了传递无效儒略日整数时的输出。
 
-```
+```php
 <?php
 // PHP program to demonstrate the output
 // of jdtogregorian() function when 0 is 
@@ -72,7 +72,7 @@ echo ($date), "\n"; 
 
 产出：
 
-```
+```php
 0/0/0
 ```
 

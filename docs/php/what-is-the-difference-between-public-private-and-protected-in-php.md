@@ -13,7 +13,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // BaseClass
@@ -47,7 +47,7 @@ $obj->show();
 
 **输出:**
 
-```
+```php
 A Computer Science Portal for Geeks!
 A Computer Science Portal for Geeks!
 A Computer Science Portal for Geeks!
@@ -58,7 +58,7 @@ A Computer Science Portal for Geeks!
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Base Class
@@ -89,7 +89,7 @@ $obj->mul();
 
 **输出:**
 
-```
+```php
 0
 250000
 ```
@@ -99,7 +99,7 @@ $obj->mul();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Base Class
@@ -133,7 +133,7 @@ $obj->display();
 
 **输出:**
 
-```
+```php
 It will display error because private class data can not be accessed outside the class
 ```
 
@@ -142,7 +142,7 @@ It will display error because private class data can not be accessed outside the
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 class BaseClass
 {
@@ -187,7 +187,7 @@ $obj2->Display(); //Displays all properties
 
 **输出:**
 
-```
+```php
 It will display error because private class data can not be accessed outside the class
 ```
 

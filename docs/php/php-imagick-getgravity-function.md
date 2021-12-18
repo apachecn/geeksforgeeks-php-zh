@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getGravity( *void* )
 ```
 
@@ -31,7 +31,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -46,13 +46,13 @@ echo $gravity;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 // Which means gravity is not set.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -71,7 +71,7 @@ echo $gravity;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3 // Which corresponds to *imagick::GRAVITY_NORTHEAST*.
 ```
 

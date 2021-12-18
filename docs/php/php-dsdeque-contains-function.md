@@ -6,7 +6,7 @@ DS\Deque：：CONTAINS()函数是 PHP 中的一个内置函数，用于检查元
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::contains( $values ) : bool
 
 ```
@@ -19,7 +19,7 @@ DS\Deque：：CONTAINS()函数是 PHP 中的一个内置函数，用于检查元
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare deque of default size
@@ -41,7 +41,7 @@ var_dump($deck->contains(3));
 
 **输出：**
 
-```
+```php
 Elements in the deque
 object(Ds\Deque)#1 (6) {
   [0]=>
@@ -65,7 +65,7 @@ bool(true)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare deque of default size
@@ -87,7 +87,7 @@ var_dump($deck->contains("GFG"));
 
 **输出：**
 
-```
+```php
 Elements in the deque
 object(Ds\Deque)#1 (6) {
   [0]=>

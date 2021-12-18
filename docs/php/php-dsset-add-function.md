@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Set::add( $values )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an empty set
@@ -40,7 +40,7 @@ var_dump($set);
 
 **输出：**
 
-```
+```php
 object(Ds\Set)#1 (4) {
   [0]=>
   int(1)
@@ -56,7 +56,7 @@ object(Ds\Set)#1 (4) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty set
@@ -72,7 +72,7 @@ print_r($set);
 
 **输出：**
 
-```
+```php
 Ds\Set Object
 (
     [0] => 10

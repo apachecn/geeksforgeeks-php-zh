@@ -6,7 +6,7 @@ Gmp_strval()是 PHP 中的一个内置函数，它返回 GMP 编号的字符串�
 
 **语法：**
 
-```
+```php
 string gmp_strval ( GMP $num, int $base )
 ```
 
@@ -19,7 +19,7 @@ string gmp_strval ( GMP $num, int $base )
 
 例如：
 
-```
+```php
 Input : $num = "110" $base = 2 
 Output : 6
 
@@ -32,7 +32,7 @@ Output :  110
 
 **程序 1：**下面的程序演示了当数字字符串作为参数传递且缺少第二个参数时，gmp_strval()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_strval() function
 
@@ -44,13 +44,13 @@ echo gmp_strval("10");  
 
 产出：
 
-```
+```php
 10
 ```
 
 **程序 2：**下面的程序演示了当数字字符串作为参数传递并且存在第二个参数时，gmp_strval()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_strval() function
 
@@ -63,13 +63,13 @@ echo gmp_strval("10", 2);  
 
 产出：
 
-```
+```php
 1010
 ```
 
 **程序 3：**下面的程序演示了当传递 GMP 编号且没有第二个参数时，gmp_strval()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_strval() function
 
@@ -86,13 +86,13 @@ echo gmp_strval($num);   
 
 产出：
 
-```
+```php
 5
 ```
 
 **程序 4：**下面的程序演示了当 GMP 编号作为参数传递且存在第二个参数时，gmp_strval()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the gmp_strval() function
 
@@ -107,7 +107,7 @@ echo gmp_strval($num, 8);  
 
 产出：
 
-```
+```php
 12
 ```
 

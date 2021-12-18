@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixelIterator::newPixelRegionIterator( *Imagick* $wand,
          *int* $x, *int* $y, *int* $columns, *int* $rows )
 ```
@@ -27,7 +27,7 @@
 
 **程序 1：**此程序在空白图像上绘制正方形。
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -67,7 +67,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**此程序在 PNG 图像上绘制一个矩形。
 
-```
+```php
 <?php
 
 // Create a new imagick object

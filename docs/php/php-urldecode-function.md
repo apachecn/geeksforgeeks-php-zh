@@ -5,7 +5,7 @@
 Urldecode()函数是 PHP 中的内置函数，用于解码由 encode()函数编码的 url。
 **语法：**
 
-```
+```php
 *string* urldecode( $input )
 ```
 
@@ -16,7 +16,7 @@ Urldecode()函数是 PHP 中的内置函数，用于解码由 encode()函数编�
 下面的程序说明了 PHP 中的 urldecode()函数：
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate urldecode function
@@ -30,7 +30,7 @@ echo urldecode("https%3A%2F%2Fgeeksforgeeks.org%2F"). "\n";
 
 **Output:**
 
-```
+```php
 https://ide.geeksforgeeks.org/
 https://practice.geeksforgeeks.org/
 https://geeksforgeeks.org/

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 array(
     key  => value,
     key2 => value2,
@@ -22,7 +22,7 @@ array(
 
 **例:**
 
-```
+```php
 <?php
 
 $array = array(
@@ -44,7 +44,7 @@ var_dump($array);
 
 **输出:**
 
-```
+```php
 array(2) {
   ["geek"]=>
   string(4) "tech"

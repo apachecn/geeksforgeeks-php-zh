@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isIDIgnorable( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 下面的程序演示了 PHP 中的**IntlChar：：isIDIgnorable()**函数。
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate
@@ -52,7 +52,7 @@ echo "<br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 NULL
 NULL
@@ -64,7 +64,7 @@ NULL
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate
@@ -86,7 +86,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

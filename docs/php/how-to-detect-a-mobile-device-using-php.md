@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 $_SERVER['HTTP_USER_AGENT']
 ```
 
@@ -18,7 +18,7 @@ $_SERVER['HTTP_USER_AGENT']
 
 **示例:**很容易迷失在这一大块 regex 中，但就是这样从市场上可用的每个移动操作系统中检测各种浏览器(也可以检测 Kindle 设备)。比如**(安卓|bb\d+|meego)。+mobile|avantgo|bada** 将检查用户设备的操作系统是否为 **Android** 。如果将此片段插入网站的 index.php，并且从移动设备访问该网站，浏览器将显示消息为**检测到移动浏览器**。
 
-```
+```php
 <?php
 function isMobileDevice() {
     return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo
@@ -36,6 +36,6 @@ else {
 
 **输出:**我们正在从笔记本电脑访问它。
 
-```
+```php
 Mobile Browser Not Detected
 ```

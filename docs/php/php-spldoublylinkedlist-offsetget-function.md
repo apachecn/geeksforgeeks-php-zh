@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplDoublyLinkedList::offsetGet( $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -44,7 +44,7 @@ var_dump($list->offsetGet(3));
 
 **输出：**
 
-```
+```php
 int(30)
 string(5) "Geeks"
 
@@ -52,7 +52,7 @@ string(5) "Geeks"
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -77,7 +77,7 @@ var_dump($list->offsetGet(3));
 
 **输出：**
 
-```
+```php
 int(2)
 int(3)
 int(8)

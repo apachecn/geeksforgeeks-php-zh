@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ReflectionClass::getStartLine( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -38,14 +38,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 int(4)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -69,7 +69,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 int(4)
 
 ```

@@ -6,7 +6,7 @@ PHP 中的 bcpowmod()函数是一个内置函数，用于将任意精度的基�
 
 **语法:**
 
-```
+```php
 *string* bcpowmod ( $base, $exponent, $mod, $scaleVal )
 ```
 
@@ -21,7 +21,7 @@ PHP 中的 bcpowmod()函数是一个内置函数，用于将任意精度的基�
 
 示例:
 
-```
+```php
 Input:  $base = 2, $exponent = 3 $mod = 3
 Output: 2
 Since the parameter $scaleVal is not specified so
@@ -37,7 +37,7 @@ Output: 2.00
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcpowmod() function
 
@@ -57,14 +57,14 @@ echo $res;
 
 输出:
 
-```
+```php
 2
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcpowmod() function
 
@@ -87,7 +87,7 @@ echo $res;
 
 输出:
 
-```
+```php
 2.0000
 
 ```

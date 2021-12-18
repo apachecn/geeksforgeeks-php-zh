@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* SplDoublyLinkedList::getIteratorMode( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -50,7 +50,7 @@ var_dump($mode);
 
 **输出：**
 
-```
+```php
 int(0)
 int(1)
 int(2)
@@ -59,7 +59,7 @@ int(2)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -85,7 +85,7 @@ var_dump($mode & SplDoublyLinkedList::IT_MODE_KEEP); 
 
 **输出：**
 
-```
+```php
 int(0)
 int(2)
 int(1)

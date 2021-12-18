@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```php
 *string* implode($separator, $array)
 
 ```
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to create a string by 
 // joining the values of an array
@@ -44,7 +44,7 @@ $str = get_string ($arr); 
 
 **输出**
 
-```
+```php
 GeeksforGeeks
 Geeks-for-Geeks-
 

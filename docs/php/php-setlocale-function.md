@@ -5,7 +5,7 @@
 Setlocale()函数是 PHP 中的内置函数，用于设置区域设置信息。 区域设置意味着为您的系统分配一个地理位置，然后根据该位置的区域设置执行某些功能。 通常，处理其他地方的日期和时间的程序会处理这个问题。
 **语法：**和
 
-```
+```php
 setlocale( $category , $locale )
 ```
 
@@ -30,7 +30,7 @@ setlocale( $category , $locale )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Setting locale to german
@@ -45,7 +45,7 @@ echo strftime(" and the current english time is %r");
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 The current german time is 08:17:45 AM 
 and the current english time is 08:17:45 AM
 ```
@@ -54,7 +54,7 @@ and the current english time is 08:17:45 AM
 
 ## PHP
 
-```
+```php
 <?php
 
 // Try different possible locale names for german
@@ -65,7 +65,7 @@ echo "Preferred locale for german on this system is '$loc_de'";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Preferred locale for german on this system is 'German_Germany.1252'
 ```
 
@@ -73,7 +73,7 @@ Preferred locale for german on this system is 'German_Germany.1252'
 
 ## PHP
 
-```
+```php
 <?php
 
 // Setting locale to english
@@ -85,7 +85,7 @@ print_r($loc);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Array
 (
     [decimal_point] => .

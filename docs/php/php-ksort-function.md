@@ -6,7 +6,7 @@ Kort()函数是 PHP 中的一个内置函数，用于根据数组的键值按**�
 
 **语法：**
 
-```
+```php
 bool ksort( $array, $sorting_type )
 ```
 
@@ -25,7 +25,7 @@ bool ksort( $array, $sorting_type )
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // ksort()function
@@ -61,7 +61,7 @@ foreach ($arr as $key => $val) {
 
 **输出：**
 
-```
+```php
 [0] = Java
 [1] = SQL
 [2] = PL/Sql
@@ -80,7 +80,7 @@ foreach ($arr as $key => $val) {
 
 **程序 2：**
 
-```
+```php
 
 <?php
 // PHP program to illustrate
@@ -115,7 +115,7 @@ foreach ($arr as $key => $val) {
 
 **输出：**
 
-```
+```php
 [a] = 77
 [b] = 66
 [d] = 1

@@ -8,7 +8,7 @@ PHP 中有各种方法将 HTML 标签显示为纯文本，下面讨论其中一�
 
 **语法:**
 
-```
+```php
 string htmlspecialchars( $string, $flags, $encoding, $double_encode )
 ```
 
@@ -21,7 +21,7 @@ string htmlspecialchars( $string, $flags, $encoding, $double_encode )
 
 **示例:**
 
-```
+```php
 <?php
 
 echo("<b>without using htmlspecialchars() function</b><br>");
@@ -39,7 +39,7 @@ echo($myVar);
 
 **语法:**
 
-```
+```php
 string htmlentities( $string, $flags, $encoding, $double_encode )
 ```
 
@@ -54,7 +54,7 @@ string htmlentities( $string, $flags, $encoding, $double_encode )
 
 **示例:**
 
-```
+```php
 <?php
 $str = "<b>GeeksforGeeks</b>";
 echo("without using htmlentities() function = ".$str."<br>");
@@ -72,7 +72,7 @@ echo("with using htmlentities() function = ".$myVar);
 
 **示例:**
 
-```
+```php
 <?php
 $str = "<b>GeeksforGeeks</b>";
 echo("without using & lt; and & gt; = ".$str."<br>");

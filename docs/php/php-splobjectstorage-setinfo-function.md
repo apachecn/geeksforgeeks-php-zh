@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::setInfo( $val )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $str = new SplObjectStorage();
@@ -39,14 +39,14 @@ var_dump($str[$obj1]);
 
 **输出：**
 
-```
+```php
 string(17) "new_GeeksforGeeks"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -74,7 +74,7 @@ while($gfg->valid()) {
 
 **输出：**
 
-```
+```php
 string(17) "Modified_GFG_DATA"
 string(17) "Modified_GFG_DATA"
 string(17) "Modified_GFG_DATA"

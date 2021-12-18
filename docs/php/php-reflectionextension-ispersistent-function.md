@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* ReflectionExtension::isPersistent( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 _1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -38,14 +38,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -60,7 +60,7 @@ var_dump($extension->isPersistent());
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```

@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```php
      fopen("filename", access_mode);
     ```
 
@@ -20,7 +20,7 @@
 
     **语法:**
 
-    ```
+    ```php
     feof($file)
     ```
 
@@ -32,7 +32,7 @@
 
     **语法:**
 
-    ```
+    ```php
     fgets($file)
     ```
 
@@ -44,7 +44,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
     // Open your file in read mode

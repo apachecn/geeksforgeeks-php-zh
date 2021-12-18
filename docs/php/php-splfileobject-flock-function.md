@@ -6,7 +6,7 @@ SplFileObject flock()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用�
 
 **语法：**
 
-```
+```php
 *bool* SplFileObject::flock( $opr, $isBlock )
 ```
 
@@ -28,7 +28,7 @@ SplFileObject flock()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create Spl Object
@@ -51,14 +51,14 @@ else {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Success Lock and Unlock Operation.
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create SplFile Object
@@ -80,7 +80,7 @@ if ($file->flock(LOCK_EX)) { 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Success Exclusive Lock and Unlock Operation
 ```
 

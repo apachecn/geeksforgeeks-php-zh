@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::xor ( Ds\Set $set )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -38,7 +38,7 @@ print_r($a->xor($b));
 
 **输出：**
 
-```
+```php
 xor of both set is: 
 Ds\Set Object
 (
@@ -52,7 +52,7 @@ Ds\Set Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -71,7 +71,7 @@ var_dump($a->xor($b));
 
 **输出：**
 
-```
+```php
 xor of both set is: 
 object(Ds\Set)#3 (5) {
   [0]=>

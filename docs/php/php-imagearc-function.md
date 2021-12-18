@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool imagearc( $image, $cx, $cy, $width, $height, $start, $end, 
 $color )
 ```
@@ -28,7 +28,7 @@ $color )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.
@@ -67,7 +67,7 @@ imagedestroy($image_size);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* IntlChar::tolower ( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -43,7 +43,7 @@ var_dump(IntlChar::tolower(ord("I")));
 
 **输出：**
 
-```
+```php
 string(1) "a"
 string(1) "a"
 string(1) "1"
@@ -54,7 +54,7 @@ int(105)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::tolower()
 
@@ -72,7 +72,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 int(97)
 NULL
 string(1) "^"

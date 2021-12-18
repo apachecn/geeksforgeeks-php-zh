@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::addNoiseImage ( $noise_type, $channel )
 ```
 
@@ -48,7 +48,7 @@
 ![original image](img/c6e0a168008bc4a43314f9fb895e5c7c.png)
 **程序：**
 
-```
+```php
 <?php 
 
 // require_once('path/to/vendor/autoload.php'); 

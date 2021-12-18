@@ -10,7 +10,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring both the numbers
@@ -34,7 +34,7 @@ print ("Number 2 modified: " . $num2 . "</br>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Number 1 original: 9
 Number 2 original: 4
 Number 1 modified: 4
@@ -45,7 +45,7 @@ Number 2 modified: 9
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring both the numbers
@@ -64,7 +64,7 @@ print ("Number 2 modified: " . $num2 . "</br>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Number 1 original: 9
 Number 2 original: 4
 Number 1 modified: 4
@@ -75,7 +75,7 @@ Number 2 modified: 9
 
 **语法：**
 
-```
+```php
 array(num2 , num1)
 ```
 
@@ -83,7 +83,7 @@ array(num2 , num1)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring both the numbers
@@ -102,7 +102,7 @@ print ("Number 2 modified: " . $num2 . "</br>")
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Number 1 original: 9
 Number 2 original: 4
 Number 1 modified: 4

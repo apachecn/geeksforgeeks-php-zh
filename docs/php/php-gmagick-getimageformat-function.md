@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Gmagick::getimageformat( void )
 ```
 
@@ -20,7 +20,7 @@
 ![](img/efa5ea8e0258291fa60ad9a32c288072.png)
 **程序 1：**
 
-```
+```php
 <?php 
 // require_once('path/vendor/autoload.php');
 
@@ -40,7 +40,7 @@ echo $res; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PNG
 ```
 
@@ -49,7 +49,7 @@ PNG
 
 **程序 2：**
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 
@@ -84,7 +84,7 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 jpeg
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNodeList* DOMElement::getElementsByTagName( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -50,7 +50,7 @@ foreach ($nodeList as $node) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 color:red;
 color:green;
 color:blue;
@@ -60,7 +60,7 @@ color:blue;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -94,7 +94,7 @@ foreach ($nodeList as $node) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Hello, this is my first paragraph.
 Hello, this is my second paragraph.
 Hello, this is my third paragraph.

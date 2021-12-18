@@ -4,7 +4,7 @@
 
 抽象类是至少有一个方法是抽象的类。与 C++不同，PHP 中的抽象类是借助抽象关键字来声明的。抽象类的用途是所有实现这个类的基类都应该给出在父类中声明的抽象方法的实现。抽象类可以包含抽象和非抽象方法。
 
-```
+```php
 <?php
 
 // Abstract class example in PHP
@@ -28,7 +28,7 @@ abstract class base
 
     **示例:**
 
-    ```
+    ```php
     <?php
 
     // Abstract class
@@ -54,7 +54,7 @@ abstract class base
 
     **Output:**
 
-    ```
+    ```php
     Derived class
 
     ```
@@ -63,7 +63,7 @@ abstract class base
 
     **示例:**
 
-    ```
+    ```php
     <?php
 
     // Abstract class
@@ -90,7 +90,7 @@ abstract class base
 
     **Output:**
 
-    ```
+    ```php
     Derived class constructor
      Derived class printdata function
 
@@ -100,7 +100,7 @@ abstract class base
 
     **示例:**
 
-    ```
+    ```php
     <?php
 
     // example to understand that an abstract 
@@ -116,7 +116,7 @@ abstract class base
 
     **运行时错误:**
 
-    ```
+    ```php
     PHP Fatal error:  Abstract function Base::printdata() cannot contain body 
     in /home/a7540402ade5337d505a779cf4797b38.php on line 7
 

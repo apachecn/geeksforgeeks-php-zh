@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 imagecreate( $width, $height )
 ```
 
@@ -21,7 +21,7 @@ imagecreate( $width, $height )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create the size of image or blank image
@@ -50,7 +50,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create the size of image or blank image

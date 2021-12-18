@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 mysqli_fetch_array ("database_name", "mode")
 
 ```
@@ -20,7 +20,7 @@ mysqli_fetch_array ("database_name", "mode")
 
 **程序：**
 
-```
+```php
 <?php
 
 $conn = mysqli_connect(
@@ -53,7 +53,7 @@ mysqli_close($conn);
 对于上表，输出将为：
 **输出**：
 
-```
+```php
 A    B
 C    D
 E    F

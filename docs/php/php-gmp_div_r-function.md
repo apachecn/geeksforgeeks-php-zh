@@ -5,7 +5,7 @@
 gmp_div_r()函数是 PHP 中的一个内置函数，它执行两个 GMP 数字[(GNU 多精度：对于大数)](https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library)之间的除法运算，并返回余数。
 **语法：**
 
-```
+```php
 gmp_div_r($num1, $num2)
 ```
 
@@ -15,7 +15,7 @@ gmp_div_r($num1, $num2)
 
 **示例：**
 
-```
+```php
 Input : $num1 = 146, $num2  = 12
 Output : 2
 
@@ -28,7 +28,7 @@ Output :  7654606696
 
 **程序 1：**当 GMP 编号作为参数传递时执行 GMP 编号除法的程序。
 
-```
+```php
 <?php
 // PHP program to perform the division of
 // GMP numbers
@@ -48,13 +48,13 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2
 ```
 
 **程序 2：**当作为 GMP 编号的数字字符串作为参数传递时，执行 GMP 编号除法的程序。
 
-```
+```php
 <?php
 // PHP program to perform the division of
 // GMP numbers
@@ -73,7 +73,7 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 13295953
 ```
 

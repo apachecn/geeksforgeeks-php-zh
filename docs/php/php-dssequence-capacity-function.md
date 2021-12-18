@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* abstract public Ds\Sequence::capacity ( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a sequence
@@ -45,7 +45,7 @@ var_dump($seq->capacity());
 
 **输出：**
 
-```
+```php
 int(8)
 int(100)
 int(100)
@@ -54,7 +54,7 @@ int(100)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a sequence
@@ -77,7 +77,7 @@ var_dump($seq->capacity());
 
 **输出：**
 
-```
+```php
 int(50)
 int(100)
 

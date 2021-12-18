@@ -13,7 +13,7 @@ PHP 用于网页开发。PHP 中的错误处理几乎类似于所有编程语言
 **基本错误处理:使用 die()函数**die()函数打印一条消息并退出当前脚本。
 **语法:**
 
-```
+```php
 die( $message )
 ```
 
@@ -21,7 +21,7 @@ die( $message )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Php code showing default error handling
@@ -33,7 +33,7 @@ $file = fopen("geeks.txt", "w");
 **注意:**运行上面的代码并且 *geeks.txt* 文件不存在，那么它将显示一个运行时错误消息。
 **运行时错误:**
 
-```
+```php
  PHP Warning: fopen(geeks.txt): failed to open stream: Permission denied 
 in /home/dac923dff0a2558b37ba742613273073.php on line 2
 ```
@@ -43,7 +43,7 @@ in /home/dac923dff0a2558b37ba742613273073.php on line 2
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP code to check errors
@@ -65,14 +65,14 @@ else {
 **注意:**如果 *geeks.txt* 文件不存在，那么它将显示输出。
 **输出**
 
-```
+```php
 File is not present
 ```
 
 **自定义错误处理:**在 PHP 中创建自定义错误处理程序非常简单。创建一个函数，当 PHP 中出现错误时可以调用它。
 **语法:**
 
-```
+```php
 error_function( $error_level, $error_message, $error_file, $error_line, $error_context)
 ```
 
@@ -99,7 +99,7 @@ T3】例:
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Creates my error function which prints message
@@ -125,7 +125,7 @@ echo($a / $b);;
 
 **输出:**
 
-```
+```php
 Error: [2] Division by zero 
  Now Script will end
 ```

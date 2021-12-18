@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagescale( $image, $new_width, $new_height = -1, $mode = IMG_BILINEAR_FIXED )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Assign image file to variable 
@@ -48,7 +48,7 @@ imagepng($img); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // It create the size of image or blank image. 

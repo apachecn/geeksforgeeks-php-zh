@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Vector* public Ds\Vector::slice( $index, $length )/pre>
 
 Parameters: This function accepts two parameter as mentioned above and described below:
@@ -18,7 +18,7 @@ Parameters: This function accepts two parameter as mentioned above and described
 
 **Return Value:** This function returns a sub-vector of given range. Below programs illustrate the **Ds\Vector::slice()** function in PHP: **Program 1:**
 
-```
+```php
 <?php 
 
 // Create new vector 
@@ -43,7 +43,7 @@ var_dump($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Original vector:
 object(Ds\Vector)#1 (6) {
   [0]=>
@@ -72,7 +72,7 @@ object(Ds\Vector)#2 (2) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector
@@ -104,7 +104,7 @@ var_dump($res);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Original vector:
 object(Ds\Vector)#1 (6) {
   [0]=>

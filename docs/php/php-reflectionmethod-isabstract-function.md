@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionMethod::isAbstract ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **Program_1：**中的**ReflectionMethod：：isAbstract()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined abstract class
@@ -40,14 +40,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -84,7 +84,7 @@ var_dump($C->isAbstract());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 bool(false)
 bool(true)

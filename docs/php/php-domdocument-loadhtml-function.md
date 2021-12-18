@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::loadHTML( *string* $source, *int* $options = 0 )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -51,7 +51,7 @@ echo $doc->saveHTML();
 
 **输出：**
 
-```
+```php
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
         "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html>
@@ -70,7 +70,7 @@ echo $doc->saveHTML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -112,7 +112,7 @@ echo $doc->saveHTML();
 
 **输出：**
 
-```
+```php
 <!--Starting of HTML document file-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" 
         "http://www.w3.org/TR/REC-html40/loose.dtd">

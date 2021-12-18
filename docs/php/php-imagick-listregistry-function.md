@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::listRegistry( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

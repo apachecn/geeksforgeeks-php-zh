@@ -8,7 +8,7 @@ PHP 中的 jdtounix()函数是一个内置函数，用于将儒略日日期转�
 
 **语法：**
 
-```
+```php
 jdtounix($jd)
 ```
 
@@ -23,7 +23,7 @@ jdtounix($jd)
 
 **示例：**
 
-```
+```php
 Input : $julian_date = gregoriantojd(01, 02, 1997);
         echo jdtounix($julian_date);
 Output : 852163200
@@ -38,7 +38,7 @@ Output : 1511222400
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // converting Gregorian date to Julian date
@@ -52,13 +52,13 @@ echo jdtounix($julian_date);
 
 产出：
 
-```
+```php
 852163200
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // converting Gregorian date to Julian date
@@ -72,7 +72,7 @@ echo jdtounix($julian_date);
 
 产出：
 
-```
+```php
 1511222400
 ```
 

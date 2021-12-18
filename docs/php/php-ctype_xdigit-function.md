@@ -6,7 +6,7 @@ PHP 中的**ctype_xdigit()**函数用于检查字符串/文本的每个字符是
 
 **语法：**
 
-```
+```php
 *ctype_xdigit(string text)*
 
 ```
@@ -20,7 +20,7 @@ PHP 中的**ctype_xdigit()**函数用于检查字符串/文本的每个字符是
 
 **示例：**
 
-```
+```php
 Input  :  ABCDEF0123
 Output :  Yes
 
@@ -29,7 +29,7 @@ Output : No
 
 ```
 
-```
+```php
 Note :  It checking decimal digit or a character from [A-F, a-f].
 ```
 
@@ -37,7 +37,7 @@ Note :  It checking decimal digit or a character from [A-F, a-f].
 
 **程序：1**
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // Hexadecimal character or not
@@ -61,7 +61,7 @@ if ( ctype_xdigit($string)) {
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
@@ -69,7 +69,7 @@ Yes
 **程序：2**
 再举一个例子**ctype_xdigit()**函数，通过将输入作为字符串数组，检查当输入包含大写、小写和符号字符时，它是如何工作的。
 
-```
+```php
 <?php
 // PHP program to check given string is 
 //Hexadecimal character or not
@@ -99,7 +99,7 @@ foreach ($strings as $test) {
 
 **Output:**
 
-```
+```php
 Yes 
 Yes 
 No 

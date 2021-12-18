@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Generator* ReflectionGenerator::getExecutingGenerator( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -47,14 +47,14 @@ var_dump($C->current());
 
 **输出：**
 
-```
+```php
 int(0)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Departments
@@ -93,7 +93,7 @@ var_dump($F->getExecutingGenerator()->current());
 
 **输出：**
 
-```
+```php
 int(0)
 int(1)
 int(2)

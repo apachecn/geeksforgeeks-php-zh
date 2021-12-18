@@ -10,7 +10,7 @@ Mersenne Twister 是一种伪随机数发生器，它的名字来源于它的周
 
 **语法：**
 
-```
+```php
 *int* mt_rand($min, $max)
 ```
 
@@ -23,7 +23,7 @@ Mersenne Twister 是一种伪随机数发生器，它的名字来源于它的周
 
 例如：
 
-```
+```php
 Input : mt_rand()
 Output : 34567
 
@@ -36,7 +36,7 @@ Output : 49
 
 **程序 1：**
 
-```
+```php
 <?php
 
 echo mt_rand();
@@ -46,13 +46,13 @@ echo mt_rand();
 
 产出：
 
-```
+```php
 34567
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 echo mt_rand(15, 50);
@@ -62,7 +62,7 @@ echo mt_rand(15, 50);
 
 产出：
 
-```
+```php
 49
 ```
 

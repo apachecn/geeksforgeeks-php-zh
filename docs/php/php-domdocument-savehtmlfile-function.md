@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* DOMDocument::saveHTMLFile( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -96,7 +96,7 @@ echo "HTML file saved successfully";
 
 **保存的 HTML 文件 gfg.html 的内容：**
 
-```
+```php
 <html>
 <head>
     <meta http-equiv="Content-Type" 

@@ -7,7 +7,7 @@ chmod()函数改变指定文件的权限，成功返回 true，失败返回 fals
 
 **语法:**
 
-```
+```php
 bool chmod ( string $filename, int $mode )
 ```
 
@@ -31,7 +31,7 @@ PHP 中的 chmod()函数接受两个参数，即文件名和模式。
 
 示例:
 
-```
+```php
 Input : chmod("gfg.txt", 0600);
 Output : true
 
@@ -48,7 +48,7 @@ Output : true
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Read and write permission to owner
@@ -59,7 +59,7 @@ chmod("gfg.txt", 0600);
 
 输出:
 
-```
+```php
 true
 ```
 
@@ -67,7 +67,7 @@ true
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Read and write permission to owner,
@@ -79,7 +79,7 @@ chmod("gfg.txt", 0644);
 
 输出:
 
-```
+```php
 true
 ```
 
@@ -87,7 +87,7 @@ true
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // All permissions to owner, read and
@@ -99,7 +99,7 @@ chmod("gfg.txt", 0755);
 
 输出:
 
-```
+```php
 true
 ```
 

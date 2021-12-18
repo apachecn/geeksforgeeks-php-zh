@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::unserialize( $serilize )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -36,7 +36,7 @@ print_r($gfg1);
 
 **输出：**
 
-```
+```php
 SplObjectStorage Object
 (
     [storage:SplObjectStorage:private] => Array
@@ -67,7 +67,7 @@ SplObjectStorage Object
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -94,7 +94,7 @@ var_dump(count($gfg2));
 
 **输出：**
 
-```
+```php
 int(3)
 int(5)
 

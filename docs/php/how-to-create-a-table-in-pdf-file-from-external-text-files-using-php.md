@@ -6,13 +6,13 @@
 
 **方法:**你需要[从](http://www.fpdf.org/en/download.php) [FPDF 网站](http://www.fpdf.org/)下载 FPDF 类，并将其包含在你的 PHP 脚本中。
 
-```
+```php
 require('fpdf/fpdf.php');
 ```
 
 根据您的需要实例化并使用 FPDF 类，如下例所示。
 
-```
+```php
 $pdf=new FPDF();
 ```
 
@@ -20,7 +20,7 @@ $pdf=new FPDF();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 require('fpdf/fpdf.php');
@@ -123,7 +123,7 @@ class PDF extends FPDF {
 
 **employees.txt:** 以下是上述 HTML 文件中使用的文件“employees.txt”的内容。
 
-```
+```php
 Aman;Varanasi;33;80750
 Beena;Bombay;30;10100
 Derek;Culcutta;43;52950

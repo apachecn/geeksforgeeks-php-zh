@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::toArray( void ) : array
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -40,7 +40,7 @@ print_r($deck->toArray());
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (
@@ -66,7 +66,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -89,7 +89,7 @@ var_dump($deck->toArray());
 
 **输出：**
 
-```
+```php
 Elements of Deque
 object(Ds\Deque)#1 (4) {
   [0]=>

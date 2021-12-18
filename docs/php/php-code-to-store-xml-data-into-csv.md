@@ -10,7 +10,7 @@
 
 **XML 的结构:**
 
-```
+```php
 <root>
   <child>
     <subchild>.....</subchild>
@@ -20,7 +20,7 @@
 
 **示例:**我们正在将*学生*的详细信息保存为 *student_data.xml* 文件，并将该数据存储在 CSV 文件中。
 
-```
+```php
 <?xml version="1.0" encoding="UTF-8"?> 
 <student> 
     <details> 
@@ -47,7 +47,7 @@
 
 ***语法:***
 
-```
+```php
 *file_exists(path/filename)*
 ```
 
@@ -58,7 +58,7 @@
 
 ***语法:***
 
-```
+```php
 *simplexml_load_file(file)*
 ```
 
@@ -68,7 +68,7 @@
 
 ***语法:***
 
-```
+```php
 *fopen(filename, mode)*
 ```
 
@@ -79,7 +79,7 @@
 
 ***语法:***
 
-```
+```php
 *fclose(file_pointer)*
 ```
 
@@ -87,7 +87,7 @@
 
 ***语法:***
 
-```
+```php
 *fputcsv(file, fields, separator)*
 ```
 
@@ -108,7 +108,7 @@
 
 ## *学生详细信息. xml*
 
-```
+```php
 *<?xml version="1.0" encoding="UTF-8"?> 
 <student> 
     <details> 
@@ -133,7 +133,7 @@
 
 ## ***服务器端编程语言（Professional Hypertext Preprocessor 的缩写）***
 
-```
+```php
 ***<?php
 
 // Open xml file that is present in

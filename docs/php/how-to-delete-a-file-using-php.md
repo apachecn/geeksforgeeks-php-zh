@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 unlink( $filename, $context );
 ```
 
@@ -15,7 +15,7 @@ unlink( $filename, $context );
 **程序 1:** 该程序使用 unlink()函数从目录中删除文件。
 假设有一个名为**【gfg . txt】**的文件
 
-```
+```php
 <?php
 // PHP program to delete a file named gfg.txt 
 // using unlike() function 
@@ -35,14 +35,14 @@ else { 
 
 **输出:**
 
-```
+```php
 gfg.txt has been deleted
 
 ```
 
 **程序 2:** 该程序使用 unlink()函数，在使用一些操作后，从文件夹中删除一个文件。
 
-```
+```php
 <?php
 // PHP program to delete a file named gfg.txt 
 // using unlike() function 
@@ -66,7 +66,7 @@ else { 
 
 **输出:**
 
-```
+```php
 Warning: unlink() expects parameter 1 to be a valid path, resource
 given in C:\xampp\htdocs\server.php on line 12
 Resource id #3 cannot be deleted due to an error

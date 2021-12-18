@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *mixed* AppendIterator::current( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -45,7 +45,7 @@ var_dump($itr->current());
 
 **输出:**
 
-```
+```php
 string(1) "G"
 string(1) "e"
 
@@ -53,7 +53,7 @@ string(1) "e"
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -74,7 +74,7 @@ foreach ($itr as $key => $val) {
 
 **输出:**
 
-```
+```php
 string(5) "Geeks"
 string(3) "for"
 string(5) "Geeks"

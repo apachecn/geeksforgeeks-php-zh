@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::rewind( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -50,7 +50,7 @@ echo $arrItr->current();
 
 **输出:**
 
-```
+```php
 NULL
 4
 
@@ -58,7 +58,7 @@ NULL
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -89,7 +89,7 @@ echo $arrItr->current();
 
 **输出:**
 
-```
+```php
 for
 
 ```

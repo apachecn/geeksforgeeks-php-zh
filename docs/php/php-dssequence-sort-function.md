@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* abstract public Ds\Sequence::sort ([ callable $comparator ] )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -38,7 +38,7 @@ print_r($seq);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

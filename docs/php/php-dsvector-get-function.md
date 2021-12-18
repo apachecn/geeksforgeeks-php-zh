@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::get( $index )
 
 ```
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Vector
@@ -42,7 +42,7 @@ var_dump($vector->get(4));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Vector

@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to compare dates
 
@@ -29,7 +29,7 @@ else
 
 **输出:**
 
-```
+```php
 1998-11-24 is latest than 1997-03-26
 
 ```
@@ -38,7 +38,7 @@ else
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to compare dates
 
@@ -63,7 +63,7 @@ else
 
 **输出:**
 
-```
+```php
 12-03-26 is latest than 2011-10-24
 
 ```
@@ -72,7 +72,7 @@ else
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to compare dates
 
@@ -95,7 +95,7 @@ else
 
 **输出:**
 
-```
+```php
 2012-11-24 is latest than 2011-03-26
 
 ```

@@ -6,7 +6,7 @@ Key()函数是 PHP 中的一个内置函数，用于返回内部指针当前指�
 
 **语法：**
 
-```
+```php
 key($array)
 ```
 
@@ -18,7 +18,7 @@ key($array)
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // input array 
@@ -34,14 +34,14 @@ echo "The index of the current element of".
 
 产出：
 
-```
+```php
 The index of the current element of the array is: 0
 
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // input array 
@@ -61,14 +61,14 @@ echo "The index of the current element of".
 
 产出：
 
-```
+```php
 The index of the current element of the array is: 1
 
 ```
 
 **程序 3**：
 
-```
+```php
 <?php
 
 // input array 
@@ -89,7 +89,7 @@ echo "The index of the current element of".
 
 产出：
 
-```
+```php
 The index of the current element of the array is: 2
 
 ```

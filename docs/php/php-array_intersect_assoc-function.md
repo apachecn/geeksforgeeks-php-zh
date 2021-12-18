@@ -6,7 +6,7 @@ array_intersect_assoc()是 PHP 中的一个内置函数，用于计算两个或�
 
 **语法:**
 
-```
+```php
 *array* array_intersect_assoc($array1, $array2, $array3,...)
 
 ```
@@ -17,7 +17,7 @@ array_intersect_assoc()是 PHP 中的一个内置函数，用于计算两个或�
 
 示例:
 
-```
+```php
 Input : 
        $array1 = ("1" => "shyam", "2" => "rishav", "3" => "gaurav");
        $array2 = ("1" => "shyam", "2" => "rishi", "3" => "rishav");
@@ -32,7 +32,7 @@ Output :
 
 在下面的程序中，我们使用了 array_intersect_assoc()来寻找数组之间的交集。让我们仔细看看这个和 array_intersect()函数的输出。
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of array_intersect_assoc()
@@ -52,7 +52,7 @@ print_r(Intersect($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [1] => shyam
@@ -62,7 +62,7 @@ Array
 
 在上面的程序中，我们使用了 array_intersect_assoc()来寻找数组的交集。在下面的程序中，我们将使用 array_intersect()函数来做同样的事情。密切关注两个程序的输出。与 array_intersect()不同，第一个函数只返回严格相似的元素，包括值和键。
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of array_intersect()
@@ -82,7 +82,7 @@ print_r(Intersect($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [1] => shyam

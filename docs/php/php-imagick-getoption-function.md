@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::getOption( *string* $key )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -37,7 +37,7 @@ echo $option;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

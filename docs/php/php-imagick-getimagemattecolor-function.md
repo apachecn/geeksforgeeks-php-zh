@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickPixel* Imagick::getImageMatteColor( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -40,7 +40,7 @@ echo $matteColor;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

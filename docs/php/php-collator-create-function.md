@@ -8,13 +8,13 @@
 
 *   **Object-oriented style:**
 
-    ```
+    ```php
     *Collator* Collator::create( $locale )
     ```
 
 *   **Program style:**
 
-    ```
+    ```php
     *Collator* collator_create( $locale )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 $coll = collator_create( 'en_US' );
 
@@ -41,14 +41,14 @@ else {
 
 **输出:**
 
-```
+```php
 Collector created
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php 
 $coll = collator_create( 'en_US' ); 
 
@@ -65,7 +65,7 @@ var_export( $arr ); 
 
 **输出:**
 
-```
+```php
 array (
   0 => 'geek',
   1 => 'geeK',

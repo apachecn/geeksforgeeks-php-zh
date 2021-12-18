@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::endCdata( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -55,7 +55,7 @@ $writer->endDocument();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -93,7 +93,7 @@ $writer->endDocument();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <p><![CDATA[This will be secret text, not visible in browser]]>GeeksforGeeks</p>
 ```

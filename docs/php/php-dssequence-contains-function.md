@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* abstract public Ds\Sequence::contains ([ mixed $...values ] )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a sequence 
@@ -44,7 +44,7 @@ var_dump($seq->contains('5')); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a sequence 

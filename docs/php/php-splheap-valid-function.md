@@ -11,7 +11,7 @@ SplHeap：：Valid()函数是 PHP 中的一个内置函数，用于检查堆是�
 
 **语法：**
 
-```
+```php
 bool SplHeap::valid()
 ```
 
@@ -25,7 +25,7 @@ bool SplHeap::valid()
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Min Heap 
@@ -48,7 +48,7 @@ for ($heap->top(); $heap->valid(); $heap->next()) {
 
 **OUTPUT**
 
-```
+```php
 ALGO
 C
 GFG
@@ -61,7 +61,7 @@ System
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 
@@ -84,7 +84,7 @@ for ($heap->top(); $heap->valid(); $heap->next()) {
 
 **OUTPUT**
 
-```
+```php
 System
 GeeksforGeeks
 Geeks

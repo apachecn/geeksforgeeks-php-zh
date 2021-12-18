@@ -16,7 +16,7 @@
 
 **使用程序方法删除查询：**
 
-```
+```php
 <?php
 $link = mysqli_connect("localhost", "root", "", "Mydb");
 
@@ -45,7 +45,7 @@ Web 浏览器上的输出：
 
 **使用面向对象的方法删除查询：**
 
-```
+```php
 <?php
 $mysqli = new mysqli("localhost", "root", "", "Mydb");
 
@@ -74,7 +74,7 @@ Web 浏览器上的输出：
 
 **使用 PDO 方法删除查询：**
 
-```
+```php
 <?php
 try{
     $pdo = new PDO("mysql:host=localhost;

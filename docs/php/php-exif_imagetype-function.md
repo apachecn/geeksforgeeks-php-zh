@@ -5,7 +5,7 @@
 **exif_imageType()函数**是 PHP 中的一个内置函数，用于确定图像的类型。
 **语法：**和
 
-```
+```php
 *int* exif_imagetype( *string* $filename )
 ```
 
@@ -36,7 +36,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // Load an image from PNG URL
 $type = exif_imagetype(
@@ -48,7 +48,7 @@ echo $type;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 3 // which corresponds to IMAGETYPE_PNG
 ```
 
@@ -56,7 +56,7 @@ echo $type;
 
 ## PHP
 
-```
+```php
 <?php
 // Load an image from JPEG URL
 $type = exif_imagetype(
@@ -71,7 +71,7 @@ if($type > 0 || $type < 19)
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 This is a supported image format.
 ```
 

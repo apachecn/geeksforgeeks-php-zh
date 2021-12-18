@@ -6,7 +6,7 @@ SplDoublyLinkedList：：Valid()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 *bool* SplDoublyLinkedList::valid( *void* )
 ```
 
@@ -17,7 +17,7 @@ SplDoublyLinkedList：：Valid()函数是 PHP 中的一个内置函数，用于�
 以下程序说明 PHP：
 **程序 1：**中的 SplDoublyLinkedList：：Valid()函数
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -45,14 +45,14 @@ for($i = 0; $i < 5; $i++) {
 
 **Output:**
 
-```
+```php
 1 2 3 8 5
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -82,7 +82,7 @@ for($i = 0; $i < 7; $i++) {
 
 **Output:**
 
-```
+```php
 Welcome to GeeksforGeeks A Computer Science Portal
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageWhitePoint( *float* $x, *float* $y )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -41,7 +41,7 @@ print("<pre>".print_r($whitepoint, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [x] => 0.65
@@ -51,7 +51,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

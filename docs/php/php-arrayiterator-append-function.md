@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::append( *mixed* $value )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -40,14 +40,14 @@ while($arrItr->valid()) {
 
 **输出:**
 
-```
+```php
 Geeks123
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -74,7 +74,7 @@ foreach ($arrItr as $key => $val) {
 
 **输出:**
 
-```
+```php
 a => Geeks
 b => for
 c => Geeks

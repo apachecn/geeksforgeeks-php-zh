@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isdefined ( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP function to illustrate 
@@ -44,7 +44,7 @@ var_dump(IntlChar::isdefined("5"));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(false)
@@ -55,7 +55,7 @@ bool(true)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isdefined()
 
@@ -74,7 +74,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 bool(true)
 NULL
 bool(true)

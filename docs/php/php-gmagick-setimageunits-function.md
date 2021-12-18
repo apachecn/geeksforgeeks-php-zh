@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimageunits( *int* $resolution )
 ```
 
@@ -29,7 +29,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -46,13 +46,13 @@ echo $units;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2  // Which corresponds to Gmagick::RESOLUTION_PIXELSPERCENTIMETER
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

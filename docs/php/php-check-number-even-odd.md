@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input : 42
 Output : Even
 Explanation: The number 42 is divisible by 2
@@ -25,7 +25,7 @@ Explanation: The number 39 is not divisible by 2
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
     // PHP code to check whether the number 
     // is Even or Odd in Normal way
@@ -46,7 +46,7 @@ Explanation: The number 39 is not divisible by 2
 
     **Output :**
 
-    ```
+    ```php
     Odd
 
     ```
@@ -58,7 +58,7 @@ Explanation: The number 39 is not divisible by 2
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
     // Recursive function to check whether
     // the number is Even or Odd 
@@ -84,7 +84,7 @@ Explanation: The number 39 is not divisible by 2
 
     **Output :**
 
-    ```
+    ```php
     Odd
 
     ```
@@ -98,7 +98,7 @@ Explanation: The number 39 is not divisible by 2
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
     // PHP code to check whether the number 
     // is Even or Odd using Bitwise Operator
@@ -128,7 +128,7 @@ Explanation: The number 39 is not divisible by 2
 
     **Output :**
 
-    ```
+    ```php
     Odd
 
     ```

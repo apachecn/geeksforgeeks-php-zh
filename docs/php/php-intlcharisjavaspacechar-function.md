@@ -5,7 +5,7 @@
 **IntlChar：：isJavaSpaceChar()**函数是 PHP 中的一个内置函数，用于根据 Java 检查输入的字符代码点是否为空格字符。 对于不包括控制字符的常规类别为“Z”(分隔符)的字符，其值为 True。
 **语法：**和
 
-```
+```php
 *bool* IntlChar::isJavaSpaceChar( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::isJavaSpaceChar()
@@ -53,7 +53,7 @@ var_dump(IntlChar::isJavaSpaceChar("3 "));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(false) 
 bool(false) 
 bool(false) 
@@ -68,7 +68,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::isJavaSpaceChar()
@@ -94,7 +94,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(false)
 bool(true)
 bool(false)

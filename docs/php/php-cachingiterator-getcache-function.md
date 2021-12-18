@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *array* CachingIterator::getCache( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -47,7 +47,7 @@ var_dump($cachIt->getCache());
 
 **输出:**
 
-```
+```php
 array(1) {
   [0]=>
   string(1) "G"
@@ -63,7 +63,7 @@ array(2) {
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -101,7 +101,7 @@ var_dump($cachIt->getCache());
 
 **输出:**
 
-```
+```php
 array(3) {
   ["a"]=>
   string(5) "Geeks"

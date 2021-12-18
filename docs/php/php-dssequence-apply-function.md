@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* abstract public Ds\Sequence::apply ( callable $callback )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new sequence 
@@ -38,7 +38,7 @@ print_r($seq);
 
 **输出：**
 
-```
+```php
 Ds\Vector Object
 (
     [0] => 2
@@ -52,7 +52,7 @@ Ds\Vector Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new sequence 
@@ -71,7 +71,7 @@ var_dump($seq);
 
 **输出：**
 
-```
+```php
 object(Ds\Vector)#1 (5) {
   [0]=>
   int(2)

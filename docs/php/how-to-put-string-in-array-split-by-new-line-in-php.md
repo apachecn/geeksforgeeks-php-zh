@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```php
  Input : string is 'Ankit \n Ram \n Shyam'
  Output : Array
 (
@@ -21,7 +21,7 @@
 
 **例:**
 
-```
+```php
 <?php
 
 // PHP program to separate string
@@ -40,7 +40,7 @@ print_r($arr);
 
 **输出:**
 
-```
+```php
 Array
 (
     [0] => Ankit Mishra

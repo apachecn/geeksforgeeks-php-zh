@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromxbm( *string* $filename )
 ```
 
@@ -17,7 +17,7 @@
 下面给出的程序说明了 PHP 中的**imagecreatefrom mxbm()函数**：
 **程序 1：**
 
-```
+```php
 <?php
 // Load an XBM image from local folder
 // You can convert any image to XBM using
@@ -32,13 +32,13 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will load the content into browser in the form of unsupported text as browsers don't support XBM.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Load an XBM image from local folder
 // You can convert any image to XBM using

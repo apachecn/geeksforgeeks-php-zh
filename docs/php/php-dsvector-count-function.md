@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* public Ds\Vector::count( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a vector 
@@ -42,7 +42,7 @@ echo(count($arr1));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a vector 

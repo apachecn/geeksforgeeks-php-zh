@@ -6,7 +6,7 @@ Imagick：：clutImage()函数是 PHP 中的一个内置函数，用于替换图
 
 **语法：**
 
-```
+```php
 *bool* Imagick::clutImage( $lookup_table, $channel = Imagick::CHANNEL_DEFAULT )
 ```
 
@@ -23,7 +23,7 @@ Imagick：：clutImage()函数是 PHP 中的一个内置函数，用于替换图
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare an Imagick object

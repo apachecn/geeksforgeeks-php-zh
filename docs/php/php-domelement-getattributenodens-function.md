@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMAttr* DOMElement::getAttributeNodeNS( *string* $namespaceURI, *string* $localName )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -53,7 +53,7 @@ echo $name . " => " . $value . "<br>";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

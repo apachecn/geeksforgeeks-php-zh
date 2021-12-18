@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_exec( $ftp_connection, $command )
 ```
 
@@ -26,7 +26,7 @@ ftp_exec( $ftp_connection, $command )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -81,7 +81,7 @@ if( $ftp_connection ) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 successfully connected to the ftp server!
 logged in successfully!
 ls-al > test.txt has been successfully executed.

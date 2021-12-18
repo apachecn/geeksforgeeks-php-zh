@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imageloadfont( *string* $file )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1(在图纸上书写)：**
 
-```
+```php
 <?php
 
 // Create a new image instance
@@ -51,7 +51,7 @@ imagedestroy($im);
 
 **程序 2(在图像上写入)：**
 
-```
+```php
 <?php
 
 // Create an image instance

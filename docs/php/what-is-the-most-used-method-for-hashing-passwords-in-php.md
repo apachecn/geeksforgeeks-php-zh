@@ -8,7 +8,7 @@ PHP 提供了一个通用的密码散列函数，用于根据密码创建新的�
 
 **语法:**
 
-```
+```php
 *string* password_hash(*string* $password, *string* $algo, *array* $options = [])
 ```
 
@@ -28,7 +28,7 @@ PHP 提供了一个通用的密码散列函数，用于根据密码创建新的�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $password = "GeeksforGeeks";
@@ -63,7 +63,7 @@ echo "Hashed password using bcrypt: ",
 
 **语法:**
 
-```
+```php
 *bool* password_verify(*string* $password, *string* $hash)
 ```
 
@@ -76,7 +76,7 @@ echo "Hashed password using bcrypt: ",
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $password = "GeeksforGeeks";
@@ -101,7 +101,7 @@ if (password_verify($password, $hashed_password)) {
 
 **Output**
 
-```
+```php
 Original Password is: GeeksforGeeks
 Hashed Password is: $2y$10$MQU3vDgoN10.JxyJ1m9UQOEqFy.Jg3D8tmHdZUAAkcpGFRwkbbLfi
 Password is valid!

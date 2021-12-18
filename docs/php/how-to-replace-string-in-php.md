@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```php
 str_replace(substring,new_replaced_string,original_string);
 ```
 
@@ -24,7 +24,7 @@ str_replace(substring,new_replaced_string,original_string);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 //input string
 $string="Geeks for Geeks";
@@ -35,7 +35,7 @@ echo str_replace("Geeks","computer",$string);
 
 **输出:**
 
-```
+```php
 computer for computer
 ```
 
@@ -43,7 +43,7 @@ computer for computer
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 //input string
 $string="Geeks for Geeks";
@@ -54,7 +54,7 @@ echo str_replace("Geeks","",$string);
 
 **输出:**
 
-```
+```php
 for
 ```
 
@@ -62,7 +62,7 @@ for
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 //input string
 $string="Geeks for Geeks";
@@ -73,6 +73,6 @@ echo str_replace("Geeks",1,$string);
 
 **输出:**
 
-```
+```php
 1 for 1
 ```

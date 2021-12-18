@@ -8,7 +8,7 @@ Soudex 键是一个四字符长的字母数字字符串(以字母开头)，表�
 
 **语法**：
 
-```
+```php
 *string* soundex($str);
 
 ```
@@ -21,7 +21,7 @@ Soudex 键是一个四字符长的字母数字字符串(以字母开头)，表�
 
 **程序 1：**在下面的程序中，Soudex()函数生成字符串“geeksforgeek”的 Soundex 键。
 
-```
+```php
 <?php
 
 $str = "geeksforgeeks";
@@ -33,14 +33,14 @@ echo soundex($str);
 
 产出：
 
-```
+```php
 G216
 
 ```
 
 **程序 2：**在下面的程序中，我们将看到两个发音相同的单词产生相似的发音键。
 
-```
+```php
 <?php
 
 $str1 = "hair";
@@ -54,7 +54,7 @@ echo soundex($str2);
 
 产出：
 
-```
+```php
 H600
 H600
 

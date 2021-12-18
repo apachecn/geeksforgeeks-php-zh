@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::writeimage( *string* $filename, *bool* $all_frames )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**写入镜像
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -38,13 +38,13 @@ echo 'Image saved successfully';
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the image successfully.
 ```
 
 **程序 2：**写入图纸
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -79,7 +79,7 @@ echo 'Image saved successfully';
 
 **输出：**这会将图形保存在本地文件夹中。
 
-```
+```php
 Image saved successfully
 ```
 

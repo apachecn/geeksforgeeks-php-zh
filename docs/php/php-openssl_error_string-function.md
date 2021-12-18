@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 openssl_error_string(): string|false
 ```
 
@@ -20,7 +20,7 @@ openssl_error_string(): string|false
 
 ## PHP
 
-```
+```php
 <?php
 
 // Encrypt method to use
@@ -61,7 +61,7 @@ while ($msg = openssl_error_string()) echo $msg . "\n";
 
 ## PHP
 
-```
+```php
 <?php
 
 // For SSL server certificates the commonName

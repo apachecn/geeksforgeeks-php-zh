@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* DOMDocument::xinclude( *int* $options = 0 )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **new.xml**
 
-    ```
+    ```php
     <?xml version='1.0'?>
     <disclaimer>
       <p>
@@ -32,7 +32,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
     $xml = <<<EOD
     <?xml version="1.0" ?>
@@ -61,7 +61,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This is the content from new.xml included using xinclude.
     ```
 
@@ -69,7 +69,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
     $xml = <<<EOD
     <?xml version="1.0" ?>
@@ -101,7 +101,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     xml not found
     ```
 

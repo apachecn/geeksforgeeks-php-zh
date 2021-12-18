@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* GmagickPixel::getcolor( *bool* $as_array,
                   *bool* $normalized_array )
 ```
@@ -24,7 +24,7 @@
 
 **程序 1(以字符串形式获取颜色)：**
 
-```
+```php
 <?php
 
 // Create a new GmagickPixel object
@@ -41,7 +41,7 @@ print("<pre>".print_r($color, true)."</pre>");
 
 **程序 2(使用归一化获取颜色数组)：**
 
-```
+```php
 <?php
 
 // Create a new GmagickPixel object
@@ -58,7 +58,7 @@ print("<pre>".print_r($color, true)."</pre>");
 
 **程序 3(在未归一化的情况下以数组形式获取颜色)：**
 
-```
+```php
 <?php
 
 // Create a new GmagickPixel object

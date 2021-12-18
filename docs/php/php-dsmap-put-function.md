@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Map::put( $key, $value )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -49,7 +49,7 @@ print_r($map);
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object
@@ -97,7 +97,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -116,7 +116,7 @@ var_dump($map);
 
 **输出：**
 
-```
+```php
 object(Ds\Map)#1 (3) {
   [0]=>
   object(Ds\Pair)#2 (2) {

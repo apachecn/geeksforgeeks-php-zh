@@ -5,7 +5,7 @@
 函数**ftp_alloc()**是 PHP 的内置函数，用于为 FTP 服务器上传的文件分配空间。
 **语法：**和
 
-```
+```php
 ftp_alloc( $ftp_connection, $filesize, $result );
 ```
 
@@ -26,7 +26,7 @@ ftp_alloc( $ftp_connection, $filesize, $result );
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

@@ -8,7 +8,7 @@ PHP 中的 dirname()函数是一个内置函数，用于返回给定路径的目
 
 **语法：**
 
-```
+```php
 string dirname ( $path )
 ```
 
@@ -23,7 +23,7 @@ string dirname ( $path )
 
 **示例：**
 
-```
+```php
 Input : dirname("user01/geeksforgeeks/gfg.txt")
 Output : user01/geeksforgeeks
 
@@ -36,7 +36,7 @@ Output : /geeksforgeeks
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // specifying path to the dirname() function
@@ -47,13 +47,13 @@ echo dirname("user01/geeksforgeeks/gfg.txt")
 
 产出：
 
-```
+```php
 user01/geeksforgeeks
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // specifying path to the dirname() function
@@ -64,7 +64,7 @@ echo dirname("/geeksforgeeks/gfg.txt");
 
 产出：
 
-```
+```php
 /geeksforgeeks
 ```
 

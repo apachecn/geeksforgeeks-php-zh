@@ -6,7 +6,7 @@
 。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::solarizeimage ( $threshold )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

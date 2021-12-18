@@ -23,7 +23,7 @@
 
 在开始 PHP 的 FETCH 和 SHOW 循环之前，让我们先设置表的基本界面。 在“WWW”文件夹/“htdocs”文件夹中创建了一个文件夹并创建了一个“index.php”文件之后，我使用以下标记获得了一个基本的表格界面，如下所示。
 
-```
+```php
 <!DOCTYPE html>
 <html>
   <head>
@@ -66,7 +66,7 @@
 
 如果我们想要使用分页，我们必须有相当大量的数据在页面之间分发。 现在，您可以搜索样本数据集或创建自己的数据集。 现在为了简单起见，我使用下面的 python 脚本创建了一个要在网页上显示的假排名列表。 通过使用随机库，生成的数据不太明显，使用 CSV 格式可以直接导入到 MySQL 中。
 
-```
+```php
 import csv, random
 firstNames = ["Anuran", "Bappa", "Deep", "Dhanraj", 
               "Harsh", "Sabyasachi", "Saptarshi", 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::affineTransformImage( $matrix )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序：**此程序使用 Imagick：：affineTransformImage()函数通过仿射给定的仿射矩阵来变换图像。
 
-```
+```php
 <?php
 
 // Create an Imagick object

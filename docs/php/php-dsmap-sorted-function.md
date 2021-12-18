@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Map* public Ds\Map::sorted( $comparator )
 
 ```
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate sorted() function
 
@@ -42,7 +42,7 @@ print_r($map->sorted());
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate sorted() function
 

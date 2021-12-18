@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionMethod* ReflectionClass::getMethod ( *string* $name )
 ```
 
@@ -16,7 +16,7 @@
 
 下面的程序说明 PHP 中的 ReflectionClass：：getMethod()函数：
 
-```
+```php
 <?php
 
 // Using ReflectionClass over the inbuilt class
@@ -35,7 +35,7 @@ var_dump($method);
 
 **输出：**
 
-```
+```php
 object(ReflectionMethod)#2 (2) {
   ["name"]=>
   string(9) "getMethod"

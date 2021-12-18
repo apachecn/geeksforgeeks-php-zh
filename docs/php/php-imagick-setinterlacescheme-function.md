@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setInterlaceScheme( *int* $interlace_scheme )
 ```
 
@@ -31,7 +31,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -49,13 +49,13 @@ echo $interlace_scheme;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

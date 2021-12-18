@@ -5,7 +5,7 @@
 **ReflectionClass：：getTraitAliases()函数**是 PHP 中的内置函数，用于返回用户定义类使用的特征别名数组。
 **语法：**和
 
-```
+```php
 *array* ReflectionClass::getTraitAliases( *void* )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Defining a trait class
@@ -47,7 +47,7 @@ var_dump($A);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 array(1) {
   ["Portal"]=>
   string(22) "Company::GeeksforGeeks"
@@ -58,7 +58,7 @@ array(1) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Defining a user-defined class Department
@@ -77,7 +77,7 @@ var_dump($obj->getTraitAliases());
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 array(0) {
 }
 ```

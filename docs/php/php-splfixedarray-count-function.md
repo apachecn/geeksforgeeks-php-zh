@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* SplFixedArray::count()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an array of fixed size 10
@@ -31,14 +31,14 @@ echo $array->count();
 
 **输出：**
 
-```
+```php
 10
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Creating fixed size array
@@ -64,7 +64,7 @@ echo count($gfg) . "\n";
 
 **输出：**
 
-```
+```php
 7
 9
 100

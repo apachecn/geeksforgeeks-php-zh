@@ -5,7 +5,7 @@
 函数是 PHP 中的一个内置函数，用于将指定的日期转换为儒略日计数。 *cal_to_jd()* 函数计算指定日历中某个日期的儒略日计数。该功能支持 CAL_GREGORIAN、CAL_JULIAN、CAL _ JULIAN 和 CAL _ FRENCH 日历。
 **语法:**
 
-```
+```php
 int cal_to_jd( $calendar, $month, $day, $year )
 ```
 
@@ -22,7 +22,7 @@ int cal_to_jd( $calendar, $month, $day, $year )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Converts a Gregorian calendar Date
@@ -37,7 +37,7 @@ echo $date;
 
 **Output:** 
 
-```
+```php
 2454408
 ```
 
@@ -45,7 +45,7 @@ echo $date;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Converts Julian calendar Date into
@@ -59,7 +59,7 @@ echo $date;
 
 **Output:** 
 
-```
+```php
 9032468
 ```
 

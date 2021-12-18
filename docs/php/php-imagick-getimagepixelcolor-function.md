@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickPixel* Imagick::getImagePixelColor( *int* $x, *int* $y )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -43,7 +43,7 @@ echo $color;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

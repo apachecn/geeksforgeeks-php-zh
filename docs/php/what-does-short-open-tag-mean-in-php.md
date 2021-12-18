@@ -6,7 +6,7 @@
 
 在 PHP 中，每当它读取一个 PHP 文档时，它都会查找:
 
-```
+```php
 <?php ?>
 ```
 
@@ -14,7 +14,7 @@
 
 **例如:**
 
-```
+```php
 <?php
 echo "Hello PHP !";
 ?>
@@ -22,7 +22,7 @@ echo "Hello PHP !";
 
 **Output:**
 
-```
+```php
 Hello PHP !
 
 ```

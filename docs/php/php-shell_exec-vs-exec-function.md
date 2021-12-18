@@ -8,7 +8,7 @@ Shell_exec()函数是 PHP 中的一个内置函数，用于通过 shell 执行�
 
 **语法：**
 
-```
+```php
 *string* shell_exec( $cmd )
 ```
 
@@ -20,7 +20,7 @@ Shell_exec()函数是 PHP 中的一个内置函数，用于通过 shell 执行�
 
 **示例：**
 
-```
+```php
 <?php
 
 // Use ls command to shell_exec
@@ -41,7 +41,7 @@ Exec()函数是 PHP 中的内置函数，用于执行外部程序并返回输出
 
 **语法：**
 
-```
+```php
 *string* exec( $command, $output, $return_var )
 ```
 
@@ -55,7 +55,7 @@ Exec()函数是 PHP 中的内置函数，用于执行外部程序并返回输出
 
 **示例：**
 
-```
+```php
 <?php
 // (on a system with the "iamexecfunction" executable in the path)
 echo exec('iamexecfunction');

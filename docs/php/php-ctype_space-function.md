@@ -6,7 +6,7 @@ PHP 中的 ctype_space()函数用于检查字符串的每个字符是否为空�
 
 **语法：**
 
-```
+```php
 *ctype_space(string text)*
 
 ```
@@ -20,7 +20,7 @@ PHP 中的 ctype_space()函数用于检查字符串的每个字符是否为空�
 
 **示例：**
 
-```
+```php
 Input  : \r   
 Output : Yes
 Explanation: \r is create white space
@@ -34,7 +34,7 @@ Explanation: characters "abc" are not white space
 下面的程序演示了 ctype_space()函数。
 **程序 1：**接受单个字符串
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // whitespace character or not
@@ -50,14 +50,14 @@ else 
 
 **Output:**
 
-```
+```php
 No
 
 ```
 
 **程序：2**获取字符串数组并使用 ctype_space()函数检查空格
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // whitespace  character or not
@@ -79,7 +79,7 @@ foreach ($strings as $testcase) {
 
 **Output:**
 
-```
+```php
 No 
 No 
 Yes
@@ -89,7 +89,7 @@ Yes
 **程序：3**
 以**ctype_space()**函数为例，说明如何使用单引号‘’和双引号“”符号处理字符串。
 
-```
+```php
 <?php
 // PHP program to check given string is 
 // whitespace  character or not
@@ -112,7 +112,7 @@ foreach ($strings as $testcase) {
 
 **Output:**
 
-```
+```php
 No 
 Yes 
 No 

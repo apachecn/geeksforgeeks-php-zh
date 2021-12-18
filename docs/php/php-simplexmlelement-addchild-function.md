@@ -8,7 +8,7 @@ SimpleXMLElement：：addChild()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 *SimpleXMLElement* SimpleXMLElement::addChild($name, $value, $namespace);
 ```
 
@@ -24,7 +24,7 @@ SimpleXMLElement：：addChild()函数是 PHP 中的一个内置函数，用于�
 
 **示例：**
 
-```
+```php
 <?php
 // Loading XML document to $user
 
@@ -55,7 +55,7 @@ echo $xml->asXML('savexmltofile.xml');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 user123 firstname lastname +91-9876543210 I am John Doe.
 Live in Kolkata, India. geeksforgeeks 1
 

@@ -100,7 +100,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Declare a regular expression
@@ -125,13 +125,13 @@ else {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Name string matching with regular expression
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Declare a regular expression
@@ -151,7 +151,7 @@ echo $output[0][0]." <br> ".$output[0][1]."\n";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 John
 Developer
 
@@ -159,7 +159,7 @@ Developer
 
 **示例 3：**
 
-```
+```php
 <?php
 
 // Declare a regular expression
@@ -181,13 +181,13 @@ echo $original;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Completed graduation in 2002
 ```
 
 **示例 4：**
 
-```
+```php
 <?php
 <?php
 
@@ -212,7 +212,7 @@ echo "$output[3] <br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 134
 645
 478

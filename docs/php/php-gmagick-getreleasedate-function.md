@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Gmagick::getreleasedate( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a Gmagick object 
@@ -36,13 +36,13 @@ print_r($gmagick->getreleasedate());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2017-05-23
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -77,7 +77,7 @@ print_r($gmagick->getreleasedate());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2017-05-23
 ```
 

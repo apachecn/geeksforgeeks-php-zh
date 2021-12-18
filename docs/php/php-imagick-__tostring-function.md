@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::__toString( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -35,13 +35,13 @@ echo $string;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will display a large text which is the string form of image.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

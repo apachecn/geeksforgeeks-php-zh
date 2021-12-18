@@ -6,7 +6,7 @@ SplFileInfo：：isReadable()函数是 PHP 中标准 PHP 库(SPL)的内置函数
 
 **语法：**
 
-```
+```php
 *bool* SplFileInfo::isReadable( void )
 ```
 
@@ -20,7 +20,7 @@ SplFileInfo：：isReadable()函数是 PHP 中标准 PHP 库(SPL)的内置函数
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -46,7 +46,7 @@ var_dump($gfg);
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // PHP program to use array to check 

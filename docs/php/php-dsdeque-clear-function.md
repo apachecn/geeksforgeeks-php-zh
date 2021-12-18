@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::clear( void ) : void
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare deque of default size
@@ -41,7 +41,7 @@ print_r($deck);
 
 **输出：**
 
-```
+```php
 Elements in the deck:
 Ds\Deque Object
 (
@@ -60,7 +60,7 @@ Ds\Deque Object
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare deque of default size
@@ -83,7 +83,7 @@ print_r($deck);
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (

@@ -6,7 +6,7 @@ Gettimeofday()函数是 PHP 中的内置函数，用于返回当前时间。 它
 
 **语法：**
 
-```
+```php
 gettimeofday( $return_float )
 ```
 
@@ -26,7 +26,7 @@ gettimeofday( $return_float )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Displaying the current time
@@ -38,7 +38,7 @@ print_r(gettimeofday());
 
 **Output:**
 
-```
+```php
 Current time is: Array
 (
     [sec] => 1536040360
@@ -51,7 +51,7 @@ Current time is: Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Displaying the current time
@@ -63,7 +63,7 @@ print_r(gettimeofday(true));
 
 **Output:**
 
-```
+```php
 Current time is: 1536040361.1613
 
 ```

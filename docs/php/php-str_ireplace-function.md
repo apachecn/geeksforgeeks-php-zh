@@ -6,7 +6,7 @@ Str_iplace()是 PHP 中的一个内置函数，用于将搜索字符串或搜索
 
 **语法：**
 
-```
+```php
 str_ireplace ( $searchVal, $replaceVal, $subjectVal, $count )
 ```
 
@@ -23,7 +23,7 @@ str_ireplace ( $searchVal, $replaceVal, $subjectVal, $count )
 
 例如：
 
-```
+```php
 Input : $subjectVal = "How ARE you", $searcVal = "are"
         $replaceVal = "is"
         str_ireplace($searchVal,$replaceVal,$subjectVal);
@@ -40,7 +40,7 @@ Output : Geeks for Geeks
 
 **程序 1：**此程序显示 str_iplace()函数不区分大小写。
 
-```
+```php
 <?php
 
 // Input string
@@ -57,13 +57,13 @@ echo $res;
 
 产出：
 
-```
+```php
 how is you
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Input string
@@ -80,7 +80,7 @@ echo $res;
 
 产出：
 
-```
+```php
 Geeks for Geeks
 ```
 

@@ -8,7 +8,7 @@ PDOStatement::bindParam()函数是 PHP 中的内置函数，用于将参数绑�
 
 **语法:**
 
-```
+```php
 *bool* PDOStatement::bindParam
 ( $parameter, $variable, $data_type, $length, $driver_options )
 ```
@@ -24,7 +24,7 @@ PDOStatement::bindParam()函数是 PHP 中的内置函数，用于将参数绑�
 **返回值:**该函数成功返回真，失败返回假。
 T3】程序:T5】
 
-```
+```php
 <?php  
 
 // setup PDO connection
@@ -52,7 +52,7 @@ PDOStatement::bindValue()函数是 PHP 中的内置函数，用于将值绑定�
 
 **语法:**
 
-```
+```php
 *bool* PDOStatement::bindValue( $parameter, $value, $data_type )
 ```
 
@@ -65,7 +65,7 @@ PDOStatement::bindValue()函数是 PHP 中的内置函数，用于将值绑定�
 **返回值:**该函数成功返回真，失败返回假。
 T3】节目:
 
-```
+```php
 <?php  
 
 // setup PDO connection

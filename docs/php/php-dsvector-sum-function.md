@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *number* public Ds\Vector::sum( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare the new Vector
@@ -43,7 +43,7 @@ var_dump($arr->sum());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare the new Vector

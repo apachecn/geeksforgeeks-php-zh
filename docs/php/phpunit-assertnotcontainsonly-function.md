@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertNotContainsOnly( string $dataType, array $array,
                  boolean $isNativeType = null, string $message = '' )
 
@@ -23,7 +23,7 @@ assertNotContainsOnly( string $dataType, array $array,
 
 **程序 1：**
 
-```
+```php
 <?php
 use PHPUnit\Framework\TestCase;
 
@@ -48,7 +48,7 @@ class GeeksPhpunitTestCase extends TestCase
 
 **程序 2：**
 
-```
+```php
 <?php
 use PHPUnit\Framework\TestCase;
 

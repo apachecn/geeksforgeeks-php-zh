@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 require('File_Name_With_Extension');
 ```
 
@@ -16,7 +16,7 @@ require('File_Name_With_Extension');
 
 ## require.php
 
-```
+```php
 <?php 
 
     require('welcome.html');
@@ -29,7 +29,7 @@ require('File_Name_With_Extension');
 
 ## welcome.html
 
-```
+```php
 <!DOCTYPE html>
 <html>
   <body>
@@ -42,7 +42,7 @@ require('File_Name_With_Extension');
 
 **输出:**
 
-```
+```php
 This file is included.
 This file is included.
 ```
@@ -51,7 +51,7 @@ This file is included.
 
 ****语法:****
 
-```
+```php
 require_once('File_Name_With_Extension');
 ```
 
@@ -59,7 +59,7 @@ require_once('File_Name_With_Extension');
 
 ## **require_once.php**
 
-```
+```php
 <?php 
     require_once('welcome.html');   
     require_once('welcome.html');
@@ -68,7 +68,7 @@ require_once('File_Name_With_Extension');
 
 ## **welcome.html**
 
-```
+```php
 <!DOCTYPE html>
 <html>
   <body>
@@ -82,7 +82,7 @@ require_once('File_Name_With_Extension');
 
 ****输出:****
 
-```
+```php
 This file is included only once!
 ```
 

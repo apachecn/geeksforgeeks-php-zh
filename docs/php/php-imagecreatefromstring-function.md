@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromstring( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1(查看字符串中的图像)：**
 
-```
+```php
 <?php
 
 // Image data in the form of string
@@ -49,7 +49,7 @@ imagedestroy($im);
 
 **程序 2(处理加载的字符串图像)：**
 
-```
+```php
 <?php
 
 // Image data in the form of string

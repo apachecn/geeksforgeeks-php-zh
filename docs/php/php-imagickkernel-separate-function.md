@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickKernel::separate( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**此程序对 ImagickKernel 中的所有内核进行计数。
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -71,7 +71,7 @@ echo count($kernelList);
 
 **程序 2(获取对象中的所有 ImagickKernel)：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

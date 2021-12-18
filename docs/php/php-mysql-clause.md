@@ -20,7 +20,7 @@ WHERE 条件**
 
 **WHERE 子句使用程序方法：**
 
-```
+```php
 <?php
 $link = mysqli_connect("localhost", "root", "", "Mydb");
 
@@ -70,7 +70,7 @@ mysqli_close($link);
 
 **WHERE 子句使用面向对象的方法：**
 
-```
+```php
 <?php
 $mysqli = new mysqli("localhost", "root", "", "Mydb");
 
@@ -114,7 +114,7 @@ $mysqli->close();
 
 **使用 PDO 方法的 WHERE 子句：**
 
-```
+```php
 <?php
 try{
     $pdo = new PDO("mysql:host=localhost;

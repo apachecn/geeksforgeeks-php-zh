@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ReflectionProperty::getModifiers ( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -44,7 +44,7 @@ var_dump($D);
 
 **输出：**
 
-```
+```php
 int(256)
 int(512)
 
@@ -52,7 +52,7 @@ int(512)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -89,7 +89,7 @@ var_dump($F);
 
 **输出：**
 
-```
+```php
 int(512)
 int(256)
 int(1024)

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNamedNodeMap::getNamedItemNS
 ( *string* $namespaceURl, *string* $localName )
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**在本例中，我们将获得具有两个不同名称空间的元素的属性值。
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();
@@ -57,7 +57,7 @@ echo $attribute;
 
 **程序 2：**在本例中，我们将通过更改属性的值来检查函数是否获取最新属性值。
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();

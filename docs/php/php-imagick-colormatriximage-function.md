@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::colorMatrixImage( array $color_matrix = Imagick::CHANNEL_DEFAULT )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 
 <?php
 

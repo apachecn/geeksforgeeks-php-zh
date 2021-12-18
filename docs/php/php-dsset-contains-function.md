@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* public Ds\Set::contains( $values )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare new Set
@@ -41,7 +41,7 @@ var_dump($set->contains('5'));  
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(false)
@@ -52,7 +52,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare new Set
@@ -75,7 +75,7 @@ var_dump($set->contains('5', 5));  
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(false)

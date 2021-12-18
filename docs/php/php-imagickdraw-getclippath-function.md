@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ImagickDraw::getClipPath( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -35,7 +35,7 @@ echo $draw->getClipPath();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object

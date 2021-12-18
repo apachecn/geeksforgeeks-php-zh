@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 mixed SplPriorityQueue::key()
 ```
 
@@ -18,7 +18,7 @@ mixed SplPriorityQueue::key()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -50,7 +50,7 @@ var_dump($obj->key());
 
 **OUTPUT**
 
-```
+```php
 int(3)
 ```
 

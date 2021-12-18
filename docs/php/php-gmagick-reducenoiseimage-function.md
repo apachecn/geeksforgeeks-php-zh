@@ -5,7 +5,7 @@
 **Gmagick：：Reducenoiseimage()**函数是 PHP 中的一个内置函数，用于设置图像的平滑轮廓，同时仍然保留边缘信息。 该算法的工作原理是将每个像素替换为其相邻的最近值。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::reducenoiseimage( $radius )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

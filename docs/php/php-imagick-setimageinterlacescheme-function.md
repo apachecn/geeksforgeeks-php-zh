@@ -5,7 +5,7 @@
 **Imagick：：setImageInterlaceScheme()函数**是 PHP 中的一个内置函数，用于设置图像的隔行扫描方案。
 **语法：**和
 
-```
+```php
 *bool* Imagick::setImageInterlaceScheme( *int* $interlace_scheme )
 ```
 
@@ -30,7 +30,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -47,7 +47,7 @@ echo $imagick->getImageInterlaceScheme();
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 6
 ```
 
@@ -55,7 +55,7 @@ echo $imagick->getImageInterlaceScheme();
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -72,7 +72,7 @@ echo $imagick->getImageInterlaceScheme();
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 4
 ```
 

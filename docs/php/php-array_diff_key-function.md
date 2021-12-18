@@ -8,7 +8,7 @@ PHP 的这个内置函数用于获取一个或多个数组之间的差异。此�
 
 **语法:**
 
-```
+```php
 *array* array_diff_key($array1, $array2, $array3, ..., $array_n)
 ```
 
@@ -18,7 +18,7 @@ PHP 的这个内置函数用于获取一个或多个数组之间的差异。此�
 
 示例:
 
-```
+```php
 Input : 
 $array1 = ("10"=>"RAM", "20"=>"LAXMAN", "30"=>"RAVI", 
                       "40"=>"KISHAN", "50"=>"RISHI")
@@ -50,7 +50,7 @@ Array
 
 下面的程序说明了 PHP 中 array_diff_key()的工作原理:
 
-```
+```php
 <?php
 
 // PHP code to illustrate the 
@@ -70,7 +70,7 @@ print_r(array_diff_key($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [20] => LAXMAN

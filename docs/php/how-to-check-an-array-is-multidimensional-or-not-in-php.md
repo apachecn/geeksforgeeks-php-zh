@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 rsort( $array )
 ```
 
@@ -16,7 +16,7 @@ rsort( $array )
 
 **示例 1:** 使用 **rsort** 函数检查数组是否为多维数组的 PHP 程序。
 
-```
+```php
 <?php
 $myarray = array( 
 
@@ -40,7 +40,7 @@ var_dump( is_multi_array( $myarray ) );
 
 **输出:**
 
-```
+```php
 bool(true)
 
 ```

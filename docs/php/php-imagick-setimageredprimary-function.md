@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageRedPrimary( *float* $x, *float* $y )
 ```
 
@@ -22,7 +22,7 @@
 下面给定的程序说明了 PHP：
 **程序 1：**中的**Imagick：：setImageRedPrimary()函数**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -40,13 +40,13 @@ print_r($result);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [x] => 5 [y] => 8 )
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

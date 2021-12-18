@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 strtr($string, $string1, $string2) 
 
 or,
@@ -31,7 +31,7 @@ strtr($string, $arr)
 
 例如：
 
-```
+```php
 Input : $string = "gieuz foh geeks", 
         $string1 = "iuzh"   ,    $string2="eksr"
 Output : geeks for geeks
@@ -58,7 +58,7 @@ Explanation: "giiks" was replaced by "geeks" and
 
 **程序 1：**当传递相同长度的字符串 1 和字符串 2 时，演示 strtr()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtr() function 
 // when same length string1 and string2 is passed
@@ -74,13 +74,13 @@ echo strtr($string, $string1, $string2);
 
 产出：
 
-```
+```php
 geeks for geeks
 ```
 
 **程序 2：**当传递不同长度的字符串 1 和字符串 2 时，演示 strtr()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtr() function 
 // when different length string1 and string2 is passed
@@ -96,13 +96,13 @@ echo strtr($string, $string1, $string2);
 
 产出：
 
-```
+```php
 geeks foh geeks
 ```
 
 **程序 3：**演示 strtr()函数的程序，该函数替换出现字符的所有位置。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtr() function 
 // which replaces at all positions where 
@@ -119,13 +119,13 @@ echo strtr($string, $string1, $string2);
 
 产出：
 
-```
+```php
 geeks for geeks
 ```
 
 **程序 4：**当数组作为参数传递时，演示 strtr()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtr() function 
 // when array is passed as the parameter
@@ -140,13 +140,13 @@ echo strtr($string, $arr);
 
 产出：
 
-```
+```php
 geeks for geeks
 ```
 
 **程序 5：**当数组中的一个键作为“”传递时，演示 strtr()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtr() function 
 // when one key in array is passed as ""
@@ -161,7 +161,7 @@ echo strtr($string, $arr);
 
 产出：
 
-```
+```php
 No Output
 ```
 

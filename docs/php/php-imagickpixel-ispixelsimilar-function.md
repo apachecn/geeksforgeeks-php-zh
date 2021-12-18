@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::isPixelSimilar( *ImagickPixel* $color, *float* $fuzz )
 ```
 
@@ -22,7 +22,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickPixel：：isPixelSimilar()函数**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixelwhite = new ImagickPixel('white');
@@ -43,13 +43,13 @@ if($isSimilar) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Not Similar
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create two new imagickPixel objects with same color
 $imagickPixel1 = new ImagickPixel('green');
@@ -68,13 +68,13 @@ if($isSimilar) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Similar
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(
@@ -102,7 +102,7 @@ if ($isSimilar) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Not Similar
 ```
 

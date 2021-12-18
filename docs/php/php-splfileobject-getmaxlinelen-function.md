@@ -6,7 +6,7 @@ SplFileObject：：getMaxLineLen()函数是 PHP 中标准 PHP 库(SPL)的内置�
 
 **语法：**
 
-```
+```php
 *int* SplFileObject::getMaxLineLen( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileObject：：getMaxLineLen()函数是 PHP 中标准 PHP 库(SPL)的内置�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an SplFile Object
@@ -40,7 +40,7 @@ var_dump($file->getMaxLineLen());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an SplFile Object
@@ -58,7 +58,7 @@ var_dump($gfg->getMaxLineLen());
 
 **输出：**
 
-```
+```php
 int(0) int(20)
 
 ```

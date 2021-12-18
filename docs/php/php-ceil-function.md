@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *float* ceil(value)
 ```
 
@@ -16,7 +16,7 @@
 
 示例:
 
-```
+```php
 Input : ceil(0.70)
 Output : 1
 
@@ -33,7 +33,7 @@ Output : 6
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 echo (ceil(0.70));
@@ -43,7 +43,7 @@ echo (ceil(0.70));
 
 **输出:**
 
-```
+```php
 1
 ```
 
@@ -51,7 +51,7 @@ echo (ceil(0.70));
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 echo (ceil(-4.1));
@@ -61,7 +61,7 @@ echo (ceil(-4.1));
 
 **输出:**
 
-```
+```php
 -4
 ```
 
@@ -69,7 +69,7 @@ echo (ceil(-4.1));
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 echo (ceil(6));
@@ -79,7 +79,7 @@ echo (ceil(6));
 
 **输出:**
 
-```
+```php
 6
 ```
 

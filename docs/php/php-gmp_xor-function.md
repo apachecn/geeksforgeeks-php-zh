@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 gmp_xor( $num1, $num2 )
 ```
 
@@ -16,7 +16,7 @@ gmp_xor( $num1, $num2 )
 
 **示例：**
 
-```
+```php
 Input : $num1 = "3" $num2 = "5"
 Output : 6
 
@@ -29,7 +29,7 @@ Output : 0
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，该程序计算两个数字的异或。
 
-```
+```php
 <?php
 // PHP program to calculate the XOR 
 // of two numbers using gmp_xor() 
@@ -46,14 +46,14 @@ echo $xor;
 
 产出：
 
-```
+```php
 6
 
 ```
 
 **程序 2：**当 GMP 编号作为参数传递时，该程序计算两个数字的异或。
 
-```
+```php
 <?php
 // PHP program to calculate XOR 
 // of two numbers 
@@ -75,7 +75,7 @@ echo gmp_strval($xor3, 2);
 
 产出：
 
-```
+```php
 1011110111
 
 ```

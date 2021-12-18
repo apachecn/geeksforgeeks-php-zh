@@ -5,7 +5,7 @@
 **Gmagick：：implodeimage()**函数是 PHP 中的一个内置函数，用于创建一个新图像，该图像是现有图像的副本。 它使用按指定百分比内爆的图像像素。
 **语法：**和
 
-```
+```php
 *mixed* Gmagick::implodeimage( $radius )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

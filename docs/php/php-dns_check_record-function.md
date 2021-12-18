@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *bool* dns_check_record( *string* $host, *string* $type )
 ```
 
@@ -30,7 +30,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $domain = "geeksforgeks.org";
@@ -45,7 +45,7 @@ if(dns_check_record($domain, "MX")) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Record exists.
 ```
 
@@ -53,7 +53,7 @@ Record exists.
 
 ## PHP
 
-```
+```php
 <?php
 
 $domain = "geeksforgeks.org";
@@ -79,7 +79,7 @@ foreach( $arr as $element) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 A:found
 MX:found
 NS:found

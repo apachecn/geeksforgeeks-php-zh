@@ -10,7 +10,7 @@ PHP 中的**strrpos()**
 
 **语法：**
 
-```
+```php
 strrpos(original_str, search_str, start_pos)
 
 ```
@@ -28,7 +28,7 @@ strrpos(original_str, search_str, start_pos)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to search for a specific string's position
 // last occurrence using strrpos() case-sensitive function
@@ -51,7 +51,7 @@ echo Search($search, $string);
 
 **输出：**
 
-```
+```php
 Found at position 19
 
 ```
@@ -62,7 +62,7 @@ PHP__t1 中的\\t0++strripos()\\
 
 **语法：**
 
-```
+```php
 strripos(original_str, search_str, start_pos)
 
 ```
@@ -80,7 +80,7 @@ strripos(original_str, search_str, start_pos)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to search for a specific string
 // last occurrence using strripos() case-insensitive function
@@ -103,7 +103,7 @@ echo Search($search, $string);
 
 **输出：**
 
-```
+```php
 Found at position 19
 
 ```

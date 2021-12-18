@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Vector* public Ds\Vector::copy( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a vector array
@@ -45,7 +45,7 @@ print_r($arr2);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a vector array

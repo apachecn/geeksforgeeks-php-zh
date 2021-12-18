@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* xml_set_character_data_handler( *resource* $xml_parser, *callable* $data_handler )
 ```
 
@@ -15,7 +15,7 @@
 *   **$xml_parser：**它是必需的参数。 它保存了 XML 解析器的引用来设置字符数据处理程序。
 *   **$DATA_HANDLER：**它是必需的参数。 它是一个包含函数名称的字符串。
 
-```
+```php
 handler( *resource* $parser, *string* $data )
 ```
 
@@ -35,7 +35,7 @@ handler( *resource* $parser, *string* $data )
 
 ## 可扩展标记语言
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -49,7 +49,7 @@ handler( *resource* $parser, *string* $data )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an XML parser
@@ -92,7 +92,7 @@ function char_print($xml_parser, $data_to_print) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 user123 
 firstname lastname 
 +91-9876543210 
@@ -103,7 +103,7 @@ I am John Doe. Live in Kolkata, India.
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an xml parser
@@ -177,7 +177,7 @@ fclose($file_pointer);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 USER DATA
 Username: user123
 Name: firstname lastname

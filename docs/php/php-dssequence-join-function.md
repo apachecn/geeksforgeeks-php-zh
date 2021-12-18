@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* abstract public Ds\Sequence::join ([ string $glue ] )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -37,7 +37,7 @@ var_dump($seq->join());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

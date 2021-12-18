@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimagetype( *void* )
 ```
 
@@ -36,7 +36,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new  Gmagick object
@@ -50,13 +50,13 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 6 // Which corresponds to gmagick::IMGTYPE_TRUECOLOR.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new  Gmagick object
@@ -73,7 +73,7 @@ echo $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 4
 ```
 

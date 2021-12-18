@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::join( $glue ) : string
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -41,7 +41,7 @@ var_dump($deck->join("|"));
 
 **输出：**
 
-```
+```php
 Original Deque
 Ds\Deque Object
 (
@@ -59,7 +59,7 @@ String form: string(11) "1|2|3|4|5|6"
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -81,7 +81,7 @@ var_dump($deck->join());
 
 **输出：**
 
-```
+```php
 Original Deque
 Ds\Deque Object
 (

@@ -6,7 +6,7 @@ gmp_rootrem()是 PHP 中的一个内置函数，用于计算 GMP 数的 n 次方
 
 **语法：**
 
-```
+```php
 gmp_rootrem($num,$n)
 ```
 
@@ -17,7 +17,7 @@ gmp_rootrem($num,$n)
 
 **示例：**
 
-```
+```php
 Input : $num = "8" $n = 2
 Output :  Array ( 
                     [0] => GMP Object ( [num] => 2 )
@@ -41,7 +41,7 @@ Output : Array (
 
 **程序 1：**下面的程序说明了将 GMP 编号作为参数传递的函数的用法。
 
-```
+```php
 <?php
 // PHP program to calculate the 
 // integer part and remainder  
@@ -60,7 +60,7 @@ echo print_r($rootrem);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => GMP Object ( [num] => 2 )
@@ -70,7 +70,7 @@ Array
 
 **程序 2：**下面的程序说明了将数字字符串作为参数传递的函数的用法。
 
-```
+```php
 <?php
 // PHP program to calculate the 
 // integer part and remainder  
@@ -89,7 +89,7 @@ echo print_r($rootrem);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array (
  [0] => GMP Object ( [num] => 563 ) 
 [1] => GMP Object ( [num] => 471343 )  

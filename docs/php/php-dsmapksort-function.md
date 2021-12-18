@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Map::ksort ([ callable $comparator ] )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate ksort() function 
 
@@ -40,7 +40,7 @@ print_r($map);
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object
@@ -67,7 +67,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate ksort() function 
 
@@ -86,7 +86,7 @@ print_r($map);
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object

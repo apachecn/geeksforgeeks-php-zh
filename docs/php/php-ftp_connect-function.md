@@ -6,7 +6,7 @@ Ftp_connect()函数是 PHP 中的一个内置函数，用于创建到指定 FTP 
 
 **语法：**
 
-```
+```php
 ftp_connect( $ftp_host, $ftp_port, $timeout );
 ```
 
@@ -31,7 +31,7 @@ ftp_connect( $ftp_host, $ftp_port, $timeout );
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -53,7 +53,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Successfully connected to the ftp server!
 ```
 
@@ -61,7 +61,7 @@ Successfully connected to the ftp server!
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -85,7 +85,7 @@ if( $ftp_connection ) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Successfully connected to the ftp server!
 ```
 

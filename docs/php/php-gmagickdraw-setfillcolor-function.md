@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::setfillcolor( *mixed* $color )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**带填充颜色的矩形。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -52,7 +52,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2：**带填充颜色的文本。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

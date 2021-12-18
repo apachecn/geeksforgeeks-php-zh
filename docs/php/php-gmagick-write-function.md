@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::write( *string* $filename )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**写入图像。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -36,13 +36,13 @@ echo 'Image saved successfully';
 
 **输出：**这将成功保存图像。
 
-```
+```php
 Image saved successfully
 ```
 
 **程序 2：**写入图纸
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -77,7 +77,7 @@ echo 'Image saved successfully';
 
 **输出：**这会将图形保存在本地文件夹中。
 
-```
+```php
 Image saved successfully
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertIsObject($actual[, $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertIsObject($actual[, $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -50,7 +50,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

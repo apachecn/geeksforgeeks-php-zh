@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ReflectionClass::getStaticProperties(void) : array
 ```
 
@@ -17,7 +17,7 @@ ReflectionClass::getStaticProperties(void) : array
 以下程序说明 PHP：
 **程序 1：**中的 ReflectionClass：：getStaticProperties()函数
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -40,7 +40,7 @@ var_dump($A);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(1) {
   ["Dept3"]=>
   string(2) "EE"
@@ -50,7 +50,7 @@ array(1) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -74,7 +74,7 @@ var_dump($Property);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(3) {
   ["name"]=>
   string(13) "GeeksforGeeks"

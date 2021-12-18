@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```php
 strval( $variable ) 
 ```
 
@@ -28,7 +28,7 @@ strval( $variable )
 
 ## PHP
 
-```
+```php
 <?php
 
 $var_name = 2;
@@ -44,7 +44,7 @@ echo "Welcome $str GeeksforGeeks";
 
 **输出**
 
-```
+```php
 Welcome 2 GeeksforGeeks
 ```
 
@@ -54,7 +54,7 @@ Welcome 2 GeeksforGeeks
 
 **语法:**
 
-```
+```php
 $integer = 2;
 echo "$integer";
 ```
@@ -63,7 +63,7 @@ echo "$integer";
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $var_name = 2;
@@ -77,7 +77,7 @@ echo "Welcome $var_name GeeksforGeeks";
 
 **Output**
 
-```
+```php
 Welcome 2 GeeksforGeeks
 ```
 
@@ -87,7 +87,7 @@ Welcome 2 GeeksforGeeks
 
 **语法:**
 
-```
+```php
 $str = (string)$var_name
 ```
 
@@ -95,7 +95,7 @@ $str = (string)$var_name
 
 ## PHP
 
-```
+```php
 <?php
 
 $var_name = 2;
@@ -111,6 +111,6 @@ echo "Welcome $str GeeksforGeeks";
 
 **输出**
 
-```
+```php
 Welcome 2 GeeksforGeeks
 ```

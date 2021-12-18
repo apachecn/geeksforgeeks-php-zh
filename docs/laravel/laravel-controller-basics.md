@@ -8,7 +8,7 @@ Laravel 是一个基于 **MVC** 的 PHP 框架。在 MVC 架构中， **C** 代�
 
 **语法:**
 
-```
+```php
 php artisan make:controller UserController
 ```
 
@@ -18,7 +18,7 @@ php artisan make:controller UserController
 
 1.  Let’s create a controller by running the following command:
 
-    ```
+    ```php
 
     php artisan make:controller GfGController
 
@@ -28,7 +28,7 @@ php artisan make:controller UserController
 
 2.  现在我们已经创建了一个控制器，让我们定义一个名为“**索引**的公共函数，并指定我们的视图文件名(*我们将在下一步*中创建它)。
 
-    ```
+    ```php
     <?php
 
     namespace App\Http\Controllers;
@@ -45,7 +45,7 @@ php artisan make:controller UserController
 
 3.  现在，我们必须为视图文件创建并编写代码，该文件是我们在“**GfGController.php**中指定的。我们将在“**资源/视图**目录中创建一个“**gfg.blade.php**”文件。
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
     <head>
@@ -65,7 +65,7 @@ php artisan make:controller UserController
 
 4.  Now the last thing to do is to write the route in the ‘**web.php**’ file in ‘**routes**’ directory.
 
-    ```
+    ```php
     Route::get('gfg', 'GfGController@index');
 
     ```

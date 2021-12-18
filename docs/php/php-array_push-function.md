@@ -6,7 +6,7 @@ PHP 的这个内置函数用于将新元素推入数组。我们可以将一个�
 
 **语法**:
 
-```
+```php
 array_push($array, $val1, $val2, $val3....)
 ```
 
@@ -22,7 +22,7 @@ array_push($array, $val1, $val2, $val3....)
 
 示例:
 
-```
+```php
 Input : $array = (1=>"ram", 2=>"krishna", 3=>"aakash")
         $val1 = "rohan", $val2 = "rajeeb", $val3 = "saniya"
 Output : 
@@ -55,7 +55,7 @@ Array
 
 *   In the below program the array_push() function is used to push new elements in an array with no keys.
 
-    ```
+    ```php
     <?php
     // PHP code to illustrate the use of array_push()
 
@@ -74,7 +74,7 @@ Array
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [0] => ram
@@ -89,7 +89,7 @@ Array
 
 *   In the below program, we will understand how the array_push() function works with an array having a already defined key_value pair.
 
-    ```
+    ```php
     <?php
     // PHP code to illustrate the use of array_push()
 
@@ -108,7 +108,7 @@ Array
 
     输出:
 
-    ```
+    ```php
     Array
     (
         [1] => ram

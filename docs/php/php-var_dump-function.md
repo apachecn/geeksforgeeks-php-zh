@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *void* var_dump ($expsn)
 
 ```
@@ -18,7 +18,7 @@
 **返回类型**：此函数没有返回类型。
 示例：
 
-```
+```php
 Input :  $expsn = 2.7;   
 Output : float(2.7)
 
@@ -37,7 +37,7 @@ Output : array(3) {
 
 下面的程序演示了 PHP 中 var_dump()的工作原理：
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working
@@ -50,7 +50,7 @@ var_dump(var_dump(2, 2.1, TRUE, array(1, 2, 3, 4)));
 
 产出：
 
-```
+```php
 int(2) 
 float(2.1) 
 bool(true) 

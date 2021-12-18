@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickKernel* ImagickKernel::fromBuiltIn( *int* $kernelType, *string* $kernelString )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a kernel from matrix
@@ -51,7 +51,7 @@ echo $output;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The matrix of Builtin kernel - Diamond:
 00100
 01110
@@ -62,7 +62,7 @@ The matrix of Builtin kernel - Diamond:
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

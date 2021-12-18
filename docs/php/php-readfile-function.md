@@ -7,7 +7,7 @@ PHP 中的 readfile()函数是一个内置函数，用于读取文件并将其�
 
 **语法：**
 
-```
+```php
 readfile(filename, include_path, context)
 ```
 
@@ -21,7 +21,7 @@ PHP 中的 readfile()函数接受三个参数。
 **返回值：**
 它返回成功时读取的字节数，失败时返回 False 和错误。
 
-```
+```php
 Note: URL can be used as a filename with this function if the fopen wrappers have been enabled.
 ```
 
@@ -31,7 +31,7 @@ Note: URL can be used as a filename with this function if the fopen wrappers hav
 
 **示例：**
 
-```
+```php
 Input : echo readfile("gfg.txt");
 Output : A computer portal for geeks!
 
@@ -50,7 +50,7 @@ Output : A computer portal for geeks!
 
 **程序 1**
 
-```
+```php
 <?php 
 
 // writing file contents on the output
@@ -62,13 +62,13 @@ echo readfile("gfg.txt");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 A computer portal for geeks!
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 
 // writing file contents on the output
@@ -83,7 +83,7 @@ if (!$myfile) 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 A computer portal for geeks!
 ```
 

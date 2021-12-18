@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```php
 Input : array(3, 3, 4, 5, 5, 5, 9, 8, 8, 8, 8, 8);
 Output : Second most frequent element is: 5
 
@@ -27,7 +27,7 @@ Output : Second most frequent element is: for
 下面是上述方法的说明：
 **示例 1：**
 
-```
+```php
 <?php    
 
     $arr = array(2, 2, 3, 4, 4, 4, 8, 8, 6, 6, 9, 9, 9, 9);
@@ -49,14 +49,14 @@ Output : Second most frequent element is: for
 
 **Output:**
 
-```
+```php
 Second most frequent element is: 4
 
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 
     $arr = array("Geeks", "for", "Geeks");
@@ -78,7 +78,7 @@ Second most frequent element is: 4
 
 **Output:**
 
-```
+```php
 Second most frequent string is: for
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionClass::getReflectionConstants( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionClass：：getReflectionConstants()函数**
 
-```
+```php
 <?php
 
 // Declaring a class named as Company
@@ -42,7 +42,7 @@ print_r($a);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => ReflectionClassConstant Object
@@ -63,7 +63,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using the ReflectionClass() function 
@@ -79,7 +79,7 @@ print_r($a);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => ReflectionClassConstant Object

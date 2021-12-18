@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 exit("Message goes here");
 or
 exit();
@@ -14,7 +14,7 @@ exit();
 
 **示例:**
 
-```
+```php
 exit("This request is processed");
 ```
 
@@ -22,7 +22,7 @@ exit("This request is processed");
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
    exit ("This is an exit function in php");
    echo "This will not printed because "
@@ -32,7 +32,7 @@ exit("This request is processed");
 
 **输出:**
 
-```
+```php
 This is an exit function in php
 ```
 
@@ -40,7 +40,7 @@ This is an exit function in php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   $a = 10;
   $b = 10.0;
@@ -55,7 +55,7 @@ This is an exit function in php
 
 **输出:**
 
-```
+```php
 variables are equal
 ```
 
@@ -63,7 +63,7 @@ variables are equal
 
 **语法:**
 
-```
+```php
 die("Message goes here"); 
 or 
 die();
@@ -71,7 +71,7 @@ die();
 
 **示例:**
 
-```
+```php
 die('Oops! Something went wrong');
 ```
 
@@ -79,7 +79,7 @@ die('Oops! Something went wrong');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     $num = 1;
 
@@ -91,7 +91,7 @@ die('Oops! Something went wrong');
 
 **输出:**
 
-```
+```php
 No Output
 ```
 

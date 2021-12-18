@@ -25,7 +25,7 @@
     *   **GET：**它从指定的资源请求数据。 在此方法中，数据作为 URL 参数发送，这些参数通常是名称和值对的字符串，由与号分隔(&)。
         **语法：**
 
-        ```
+        ```php
         <?php
         $_GET['variable_name'];
         ?>
@@ -34,7 +34,7 @@
     *   **POST：**在此方法中，数据以包的形式发送到服务器，并与处理脚本进行单独通信。 通过 POST 方法发送的数据在 URL 中不可见。
         **语法：**
 
-        ```
+        ```php
         <?php
         $_POST['variable_name'];
         ?>
@@ -45,7 +45,7 @@
     *   **unset()函数：**unset()函数是 PHP 中的一个内置函数，用于通过清空文件来删除文件中的内容。 这意味着该功能清除文件的内容，而不是删除它。 函数的作用是：不仅清除文件内容，还用于取消变量的设置，从而使其为空，并接受单个参数变量。
 8.  **If x = 10 and y = “10” then what does the condition x === y returns ?**
 
-    ```
+    ```php
     <?php
     $x = 10;  
     $y = "10";
@@ -59,7 +59,7 @@
 9.  **What is Nullable types in PHP ?**
     This feature is new to PHP, Nullable adds a leading question mark indicate that a type can also be null.
 
-    ```
+    ```php
     function geeks(): ?int  {
         return null; // ok
     }
@@ -70,7 +70,7 @@
 11.  [**How can we increase the execution time of a PHP script ?**](https://www.geeksforgeeks.org/maximum-execution-time-taken-by-a-php-script/)
     Use PHP inbuilt function ini_set(option, value) where the parameters are the given configuration option and the value to be set. It is used when you need to override the configuration value at run-time. This function is called from your own PHP code and will only affect the script which calls this function. Use init_set(‘max_execution_time’, 0) when you want to set unlimited execution time for the script.
 
-    ```
+    ```php
     // The program is executed for 3mns. 
     <?php 
     ini_set('max_execution_time', 180); 
@@ -91,7 +91,7 @@
 *   如果两边的值相等，则返回 0*   如果左侧的值较大，则返回 1*   Return -1 if the value on the right side is greater*   [**What are the __construct() and __destruct() methods in a PHP class ?**](https://www.geeksforgeeks.org/php-constructors-and-destructors/)
     *   **__struct()方法：**构造函数是定义未来对象及其性质的非常基本的构造块。 可以说，构造函数是对象创建的蓝图，为成员函数和成员变量提供值。
 
-        ```
+        ```php
         function __construct() {
 
             // Initialize the object and its
@@ -101,7 +101,7 @@
 
     *   **__destruct()方法：**析构函数用于销毁对象，并在执行结束时自动调用。
 
-        ```
+        ```php
         function __destruct() {
 
             // Destroying the object or

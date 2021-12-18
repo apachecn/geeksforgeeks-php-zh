@@ -12,7 +12,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -35,7 +35,7 @@ echo $text;
 
 **Output:** 
 
-```
+```php
 Geeks
 For
 Geeks
@@ -45,7 +45,7 @@ GeeksForGeeks
 **使用** [**preg_replace()函数**](https://www.geeksforgeeks.org/php-preg_replace-function/)**:**preg _ replace()函数是 PHP 中的一个内置函数，用于执行正则表达式来搜索和替换内容。
 **语法:**
 
-```
+```php
 preg_replace( $pattern, $replacement, $subject, $limit, $count )
 ```
 
@@ -54,7 +54,7 @@ preg_replace( $pattern, $replacement, $subject, $limit, $count )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -77,7 +77,7 @@ echo $text;
 
 **Output:** 
 
-```
+```php
 Geeks
 For
 Geeks

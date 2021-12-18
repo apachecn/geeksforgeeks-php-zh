@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::uasort( *callable* $cmp_function )
 ```
 
@@ -17,7 +17,7 @@
 下面的程序说明了 PHP 中的 ArrayIterator::uasort()函数:
 strong >程序 1:
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -49,7 +49,7 @@ print_r($arrItr); 
 
 **Output:**
 
-```
+```php
 ArrayIterator Object
 (
     [storage:ArrayIterator:private] => Array
@@ -68,7 +68,7 @@ ArrayIterator Object
 
 **程序 2:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -105,7 +105,7 @@ print_r($arrItr); 
 
 **Output:**
 
-```
+```php
 ArrayIterator Object
 (
     [storage:ArrayIterator:private] => Array

@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *float* IntlCalendar::getTime( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *float* intlcal_get_time( *IntlCalendar* $cal )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an instance of calendar
@@ -58,7 +58,7 @@ var_dump($calendar->getTime());
 
 **输出：**
 
-```
+```php
 float(1569306894500)
 float(1571747456000)
 float(1553159969000)

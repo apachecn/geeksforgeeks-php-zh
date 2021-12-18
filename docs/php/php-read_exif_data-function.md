@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* read_exif_data( *mixed* $stream, *string* $sections,
                      *bool* $arrays, *bool* $thumbnail )
 ```
@@ -24,7 +24,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Open a the file from local folder
@@ -44,7 +44,7 @@ print("<pre>".print_r($headers, true)."</pre>");
 
 **示例 2：**
 
-```
+```php
 <?php   
 
 // Create an Imagick Object 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::opaquePaintImage( $target, $fill, $fuzz,
                    $invert, $channel = Imagick::CHANNEL_DEFAULT ] )
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Image Path
@@ -69,7 +69,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Image Path

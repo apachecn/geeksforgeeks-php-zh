@@ -8,13 +8,13 @@ Laravel 有自己的命令行界面，叫做 **Artisan** 。这就像一个 Linu
 
 *   **Command:**
 
-    ```
+    ```php
     php artisan list
     ```
 
     或者
 
-    ```
+    ```php
     php artisan
     ```
 
@@ -25,13 +25,13 @@ Laravel 有自己的命令行界面，叫做 **Artisan** 。这就像一个 Linu
 
 *   **Command:**
 
-    ```
+    ```php
     php artisan help
     ```
 
     或者
 
-    ```
+    ```php
     php artisan help make:model
     ```
 
@@ -42,7 +42,7 @@ Laravel 有自己的命令行界面，叫做 **Artisan** 。这就像一个 Linu
 
 *   **命令:**
 
-    ```
+    ```php
     php artisan -V
     ```
 
@@ -53,7 +53,7 @@ Laravel 有自己的命令行界面，叫做 **Artisan** 。这就像一个 Linu
 
 *   **命令:**
 
-    ```
+    ```php
     php artisan make:controller
     ```
 
@@ -61,7 +61,7 @@ Laravel 有自己的命令行界面，叫做 **Artisan** 。这就像一个 Linu
 
 *   **命令:**
 
-    ```
+    ```php
     php artisan tinker
     ```
 

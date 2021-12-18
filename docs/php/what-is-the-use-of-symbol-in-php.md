@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```php
 key => value
 ```
 
 **示例 1:** 使用“= >”符号创建关联数组的 PHP 程序。
 
-```
+```php
 <?php 
 // PHP program to use '=>' symbol
 $subject = array( "Maths" => 95,
@@ -35,7 +35,7 @@ echo "Computer:" . $subject["Computer"], "\n"; 
 
 **Output:**
 
-```
+```php
 Marks for students:
 Maths:95
 Physics:90
@@ -47,7 +47,7 @@ Computer:98
 
 **示例 2:** 使用“= >”符号创建数字索引数组的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to create numeric
 // indexed array
@@ -67,7 +67,7 @@ foreach($arr as $key => $value) {
 
 **Output:**
 
-```
+```php
 0 => 7
 1 => 10
 2 => 8
@@ -77,7 +77,7 @@ foreach($arr as $key => $value) {
 
 **示例 3:** PHP 程序在不使用“= >”符号的情况下分配数值索引。
 
-```
+```php
 <?php 
 // PHP program to create indexed array
 // without using '=>' symbols
@@ -94,7 +94,7 @@ foreach($name as $key => $value) {
 
 **Output:**
 
-```
+```php
 0 => Zack
 1 => Anthony
 2 => Ram

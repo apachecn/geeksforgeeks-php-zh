@@ -5,7 +5,7 @@
 **Imagick：：setImageType()函数**是 PHP 中的内置函数，用于设置图像类型。
 **语法：**和
 
-```
+```php
 *bool* Imagick::setImageType( *int* $image_type )
 ```
 
@@ -31,7 +31,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -55,7 +55,7 @@ echo $imagick->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object

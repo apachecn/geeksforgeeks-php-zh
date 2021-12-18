@@ -10,7 +10,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Output "Hello GeeksforGeeks"
@@ -21,7 +21,7 @@ echo "Hello GeeksforGeeks";
 
 **输出:**
 
-```
+```php
 Hello GeeksforGeeks
 ```
 
@@ -29,7 +29,7 @@ Hello GeeksforGeeks
 
 ## **PHP**
 
-```
+```php
 <?php
 
 echo "Hello Geeks"; 
@@ -41,7 +41,7 @@ echo "Hello Geeks"; 
 
 ****输出:****
 
-```
+```php
 **Hello Geeks**
 ```
 

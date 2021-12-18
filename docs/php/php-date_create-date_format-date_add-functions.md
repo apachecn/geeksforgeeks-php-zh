@@ -9,7 +9,7 @@
 此函数用于使用日期/时间字符串和时区创建 DateTime 对象。 日期/时间字符串的默认值为当前日期/时间。
 **语法：**
 
-```
+```php
 *DateTime* date_create(time, timezone);
 
 ```
@@ -28,7 +28,7 @@
 
 **语法：**
 
-```
+```php
 *string* date_format(object, format);
 
 ```
@@ -40,7 +40,7 @@
 
 **返回值**：date_format()函数返回一个字符串，该字符串表示成功格式化时按照指定格式格式化的日期，否则在失败时返回 False。
 
-```
+```php
 <?php
 
 // using date_create() function to create
@@ -55,7 +55,7 @@ echo date_format($date, "Y/m/d H:i:s");
 
 产出：
 
-```
+```php
 2018/03/15 00:00:00
 
 ```
@@ -66,7 +66,7 @@ echo date_format($date, "Y/m/d H:i:s");
 
 **语法：**
 
-```
+```php
 *DateTime* date_add(object, interval);
 
 ```
@@ -82,7 +82,7 @@ echo date_format($date, "Y/m/d H:i:s");
 
 **示例-1**
 
-```
+```php
 <?php
 
 // PHP program to add 40 days in date
@@ -98,14 +98,14 @@ echo date_format($date, "Y-m-d");
 
 产出：
 
-```
+```php
 2019-01-19
 
 ```
 
 **示例-2**
 
-```
+```php
 <?php
 
 //PHP program to add 1 year, 10 mins, 23 secs in date
@@ -122,7 +122,7 @@ echo date_format($date, "Y-m-d H:i:s");
 
 产出：
 
-```
+```php
 2019-12-10 00:10:23
 
 ```

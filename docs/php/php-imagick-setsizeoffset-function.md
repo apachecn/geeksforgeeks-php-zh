@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setSizeOffset( *int* $columns, *int* $rows, *int* $offset )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -44,7 +44,7 @@ echo $sizeOffset;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

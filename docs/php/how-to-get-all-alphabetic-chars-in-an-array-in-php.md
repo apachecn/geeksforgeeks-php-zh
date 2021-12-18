@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```php
 *array* range( *mixed* first, *mixed* second, *number* steps )
 ```
 
 **示例 1:** 以下示例说明如何使用 range()函数显示所有字母字符的数组。
 
-```
+```php
 <?php 
 
 // Loop to take values from given range
@@ -31,7 +31,7 @@ foreach( range('A', 'Z') as $elements) {
 
 **输出:**
 
-```
+```php
 A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z,
 
 ```

@@ -8,13 +8,13 @@ collator_compare()函数是 PHP 中的一个内置函数，用于根据排序规
 
 *   **Program style:**
 
-    ```
+    ```php
     int collator_compare( $coll, $str1, $str2 )
     ```
 
 *   **Object-oriented style:**
 
-    ```
+    ```php
     int Collator::compare( $str1, $str2 )
     ```
 
@@ -35,7 +35,7 @@ collator_compare()函数是 PHP 中的一个内置函数，用于根据排序规
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare variable and initialize it
@@ -60,14 +60,14 @@ else
 
 **输出:**
 
-```
+```php
 Geeks is greater than geeks
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare the variable and initialize it
@@ -92,7 +92,7 @@ else
 
 **输出:**
 
-```
+```php
 GeeksforGeeks is equal to GeeksforGeeks
 
 ```

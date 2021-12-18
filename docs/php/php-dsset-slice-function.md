@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::slice ( int $index [, int $length ] )
 
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new set 
@@ -41,7 +41,7 @@ print_r($set->slice(2, -2)); 
 
 **输出：**
 
-```
+```php
 Ds\Set Object
 (
     [0] => 6
@@ -66,7 +66,7 @@ Ds\Set Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new set
@@ -85,7 +85,7 @@ print_r($set->slice(0, 3)); 
 
 **输出：**
 
-```
+```php
 Ds\Set Object
 (
     [0] => for

@@ -27,7 +27,7 @@ MySQLi 和 PDO 都有自己的回报:
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $servername = "localhost";
 $username = "username";
@@ -51,7 +51,7 @@ echo "Connected successfully";
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $servername = "localhost";
@@ -76,7 +76,7 @@ echo "Connected successfully";
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $servername = "localhost";

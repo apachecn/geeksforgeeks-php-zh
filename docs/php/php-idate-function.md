@@ -6,7 +6,7 @@ Idate()函数是 PHP 中的内置函数，用于将本地时间/日期格式化�
 
 **语法：**
 
-```
+```php
 int idate( $format, $timestamp )
 ```
 
@@ -43,7 +43,7 @@ int idate( $format, $timestamp )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Formatting local date/time as Year
@@ -62,7 +62,7 @@ echo idate("z") . "<br>";
 
 **Output:**
 
-```
+```php
 2018
 11
 22
@@ -72,7 +72,7 @@ echo idate("z") . "<br>";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Parsing English textual datetime description into a Unix timestamp
@@ -85,7 +85,7 @@ echo idate('Y', $timestamp);
 
 **Output:**
 
-```
+```php
 2018
 
 ```

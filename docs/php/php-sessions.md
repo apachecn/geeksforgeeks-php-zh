@@ -17,7 +17,7 @@
 
     以下是启动新会话的 PHP 代码：
 
-    ```
+    ```php
     <?php
 
     session_start();
@@ -29,7 +29,7 @@
 
     下面是用两个会话变量 Rollnumber 和 Name 存储会话的 PHP 代码：
 
-    ```
+    ```php
     <?php
 
     session_start();
@@ -44,7 +44,7 @@
 
     使用两个会话变量 Rollnumber 和 Name 访问会话数据的 PHP 代码如下所示：
 
-    ```
+    ```php
     <?php
 
     session_start();
@@ -57,7 +57,7 @@
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     The Name of the student is :Ajay 
     The Roll number of the student is :11
     ```
@@ -66,7 +66,7 @@
 
     仅从关联会话数组中取消设置“Rollnumber”会话变量的 PHP 代码：
 
-    ```
+    ```php
     <?php
 
     session_start();
@@ -80,7 +80,7 @@
 
 *   **销毁完整会话**：**SESSION_Destroy()**函数用于完全销毁会话。 SESSION_Destroy()函数不需要任何参数。
 
-    ```
+    ```php
     <?php
 
     session_start();

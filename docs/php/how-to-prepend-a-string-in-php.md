@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```php
 $x . $y
 
 ```
@@ -17,7 +17,7 @@ $x . $y
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to prepend a string 
 
@@ -45,6 +45,6 @@ echo $str; 
 
 **输出**
 
-```
+```php
 GeeksforgeeksExample
 ```

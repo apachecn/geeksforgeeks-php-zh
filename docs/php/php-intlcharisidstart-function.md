@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool IntlChar::isIDStart( $codepoint )
 
 ```
@@ -21,7 +21,7 @@ bool IntlChar::isIDStart( $codepoint )
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate
 // IntlChar::isIDStart() function
@@ -50,7 +50,7 @@ var_dump(IntlChar::isIDStart(" $ "));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 NULL
 NULL
@@ -65,7 +65,7 @@ NULL
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate
 // IntlChar::isIDStart() function
@@ -92,7 +92,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 bool(true)
 bool(false)

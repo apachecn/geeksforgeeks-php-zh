@@ -7,7 +7,7 @@
 
 **语法：**
 
-```
+```php
 *float* sqrt(value)
 
 ```
@@ -18,7 +18,7 @@
 
 **示例：**
 
-```
+```php
 Input : sqrt(25) 
 Output : 5
 
@@ -39,7 +39,7 @@ Output : 0
 
 ## PHP
 
-```
+```php
 <?php
 
 echo(sqrt(25));
@@ -49,7 +49,7 @@ echo(sqrt(25));
 
 **输出：**
 
-```
+```php
 5
 
 ```
@@ -58,7 +58,7 @@ echo(sqrt(25));
 
 ## PHP
 
-```
+```php
 <?php
 
 echo(sqrt(-25));
@@ -68,7 +68,7 @@ echo(sqrt(-25));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 NaN
 
 ```
@@ -77,7 +77,7 @@ NaN
 
 ## PHP
 
-```
+```php
 <?php
 
 echo(sqrt(0.09));
@@ -87,7 +87,7 @@ echo(sqrt(0.09));
 
 **输出：**
 
-```
+```php
 0.3
 
 ```
@@ -96,7 +96,7 @@ echo(sqrt(0.09));
 
 ## PHP
 
-```
+```php
 <?php
 
 echo(sqrt(0));
@@ -106,7 +106,7 @@ echo(sqrt(0));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0
 
 ```

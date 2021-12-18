@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Reflection::getModifierNames( *int* $modifiers )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring a class Testing
@@ -44,7 +44,7 @@ echo implode(' ', Reflection::getModifierNames($GeeksforGeeks->getModifiers()));
 
 **Output:** 
 
-```
+```php
 public static
 ```
 
@@ -52,7 +52,7 @@ public static
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declaring a class Testing
@@ -79,7 +79,7 @@ echo implode(' ', Reflection::getModifierNames($GFG->getModifiers()));
 
 **Output:** 
 
-```
+```php
 final public
 ```
 

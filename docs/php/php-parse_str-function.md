@@ -6,7 +6,7 @@ Parse_str()函数是 PHP 中的一个内置函数，用于将查询字符串解�
 
 **语法：**
 
-```
+```php
 parse_str($string, $array)
 ```
 
@@ -17,7 +17,7 @@ parse_str($string, $array)
 
 例如：
 
-```
+```php
 Input : "name=Richik&age=20"
 Output :  $name = Richik
           $age = 20
@@ -33,7 +33,7 @@ Output : $roll_no = 2
 
 **程序 1：**
 
-```
+```php
 <?php
 
     parse_str("name=Richik&age=20");
@@ -43,7 +43,7 @@ Output : $roll_no = 2
 
 产出：
 
-```
+```php
 Richik
 20
 
@@ -51,7 +51,7 @@ Richik
 
 **程序 2：**在此程序中，我们将变量存储在数组中，然后使用 print_r()函数显示该数组。
 
-```
+```php
 <?php
 
     parse_str("roll_no=2&year=2nd&gpa=8.3", $array);
@@ -62,7 +62,7 @@ Richik
 
 产出：
 
-```
+```php
 Array
 (
     [roll_no] => 2

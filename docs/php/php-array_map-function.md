@@ -6,7 +6,7 @@ array_map()是 PHP 中的一个内置函数，它有助于根据用户定义的�
 
 **语法**:
 
-```
+```php
 array_map(functionName,arr1,arr2...)
 
 ```
@@ -24,7 +24,7 @@ functionName 参数是必需的，我们可以将任意数量的数组传递给�
 
 下面的程序说明了 PHP 中 array_map()函数的工作原理:
 
-```
+```php
 <?php
 
 function fun1($v)
@@ -50,7 +50,7 @@ print_r(array_map("fun2", $arr1, $arr2));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => 8
@@ -74,7 +74,7 @@ Array
 
 下面的程序演示了如何创建数组数组:
 
-```
+```php
 <?php
 $a = array(1, 2, 3);
 $b = array("one", "two", "three");
@@ -87,7 +87,7 @@ print_r($result);
 
 输出:
 
-```
+```php
 Array
 (
     [0] => Array

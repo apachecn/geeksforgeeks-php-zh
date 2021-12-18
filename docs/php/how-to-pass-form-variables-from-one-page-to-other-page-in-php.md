@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 <?php
      session_start();
      session_register('variable_name');
@@ -19,7 +19,7 @@
 
 *   **代码 1:** 启动你的本地主机服务器，比如 Apache 等。完成 HTML 标记的编写，并在 BODY 部分中编写下面的代码。将格式为**‘form 1 . PHP’**的文件保存在本地主机的本地目录中。打开你的网络浏览器，输入你的本地主机地址，后跟 **'\form1.php'** 。
 
-    ```
+    ```php
     <form method="POST" action="form2.php">
         <pre>Name: <input type="text"
             name="user_name">
@@ -41,7 +41,7 @@
     ![Output Of First Code](img/c70776d7acfd556c10e889ebeb7229ea.png)
 *   **代码 2:** 重复上述保存文件的过程。请使用文件名“form2.php”。当你点击 form1.php 页面的“下一步”时。该页面将询问学院/公司名称、城市、用户所在州以及他/她申请的课程。
 
-    ```
+    ```php
     <?php
 
     // Initialize the session
@@ -127,7 +127,7 @@
     ![](img/b7e02ca0ecb86c99729a3069fc597d04.png)
 *   **代码 3:** 在这一步中，我们将从会话数组中提取信息，并将其存储在我们的 MySQL 数据库中。制作第三个名为“form3.php”的文件，在 BODY 部分中编写以下代码，并应用必要的 HTML 标记。
 
-    ```
+    ```php
     <?php
         //Initializing the session
         session_start();

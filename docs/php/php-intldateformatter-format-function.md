@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *string* IntlDateFormatter::format( *mixed* $value )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *string* datefmt_format( *IntlDateFormatter* $fmt, *mixed* $value )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a date formatter
@@ -69,7 +69,7 @@ echo 'Formatted output using procedural style: '
 
 **输出：**
 
-```
+```php
 Formatted output using object oriented style: January 1, 1970 at 5:30:00 AM GMT+5:30
 Formatted output using procedural style: January 1, 1970 at 5:30:00 AM GMT+5:30
 

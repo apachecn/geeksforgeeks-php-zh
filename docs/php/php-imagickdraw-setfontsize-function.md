@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setFontSize( $pointsize )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object
@@ -61,7 +61,7 @@ echo $imagick->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object

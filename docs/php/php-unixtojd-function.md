@@ -6,7 +6,7 @@ Unixtojd()是 PHP 中的一个内置函数，用于将 Unix 时间戳转换为�
 
 **语法：**
 
-```
+```php
 unixtojd( $unix )
 ```
 
@@ -16,7 +16,7 @@ unixtojd( $unix )
 
 例如：
 
-```
+```php
 Input : $unix = 1524909427
 Output : 2458237
 Explanation: The Gregorian date is 4/28/2018 of 
@@ -36,7 +36,7 @@ the given unix timestamp
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of unixtojd()
 // function when no parameter is passed
@@ -54,7 +54,7 @@ echo "The Gregorian date is ", jdtogregorian($jd);
 
 产出：
 
-```
+```php
 The Julian Day integer is 2458237
 The Gregorian date is 4/28/2018
 ```
@@ -63,7 +63,7 @@ The Gregorian date is 4/28/2018
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of unixtojd()
 // function when parameter is passed
@@ -81,7 +81,7 @@ echo "The Gregorian date is ", jdtogregorian($jd);
 
 产出：
 
-```
+```php
 The Julian Day integer is 2440653
 The Gregorian date is 3/7/1970
 ```

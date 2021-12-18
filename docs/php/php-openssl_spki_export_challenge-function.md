@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* openssl_spki_export_challenge( *string* &$spkac )
 ```
 
@@ -24,7 +24,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 $pkey   = openssl_pkey_new(array("spki"));

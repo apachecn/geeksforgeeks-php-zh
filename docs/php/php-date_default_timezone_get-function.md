@@ -6,7 +6,7 @@ DATE_DEFAULT_TIMEZONE_GET()函数是 PHP 中的一个内置函数，用于获取
 
 **语法：**
 
-```
+```php
 string date_default_timezone_get( void )
 ```
 
@@ -26,7 +26,7 @@ string date_default_timezone_get( void )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the default timezone
@@ -44,7 +44,7 @@ if ($timezone_object) {
 
 **Output:** 
 
-```
+```php
 date_default_timezone_set: Asia/Kolkata
 ```
 
@@ -52,7 +52,7 @@ date_default_timezone_set: Asia/Kolkata
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the default timezone
@@ -64,7 +64,7 @@ echo date_default_timezone_get() . ' => ' . date('e') . ' => ' . date('T');
 
 **Output:** 
 
-```
+```php
 Asia/Kolkata => Asia/Kolkata => IST
 ```
 

@@ -10,7 +10,7 @@
 
 **语法：**
 
-```
+```php
 reset($array)
 ```
 
@@ -22,7 +22,7 @@ reset($array)
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // input array
@@ -39,13 +39,13 @@ print "$res";
 
 产出：
 
-```
+```php
 Ram
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Input array
@@ -70,7 +70,7 @@ print current($arr);
 
 产出：
 
-```
+```php
 Delhi
 Kolkata
 Delhi

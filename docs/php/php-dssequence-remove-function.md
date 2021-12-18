@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* abstract public Ds\Sequence::remove ( int $index )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a sequence
@@ -34,7 +34,7 @@ var_dump($seq->remove(0));
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 string(5) "Geeks"
 
@@ -42,7 +42,7 @@ string(5) "Geeks"
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a sequence
@@ -61,7 +61,7 @@ var_dump($seq->remove(1));
 
 **输出：**
 
-```
+```php
 int(8)
 
 ```

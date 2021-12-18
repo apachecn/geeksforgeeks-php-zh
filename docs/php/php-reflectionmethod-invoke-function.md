@@ -5,7 +5,7 @@
 **ReflectionMethod：：Invoke()函数**是 PHP 中的内置函数，用于调用指定的反射方法并返回该方法的结果。
 **语法：**和
 
-```
+```php
 *public mixed* ReflectionMethod::invoke ( *$object*, *$parameter* )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -45,7 +45,7 @@ echo $B;
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks is a Computer Science Portal.
 ```
 
@@ -53,7 +53,7 @@ GeeksforGeeks is a Computer Science Portal.
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -93,7 +93,7 @@ echo $C->invoke(new Department3(), ' too.');
 
 **Output:** 
 
-```
+```php
 HR is a Department.
 Coding is also a Department.
 Marketing too.

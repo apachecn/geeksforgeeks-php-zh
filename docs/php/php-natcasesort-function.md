@@ -6,7 +6,7 @@ Natcasesort()函数是 PHP 中的一个内置函数，用于使用“自然顺�
 
 **语法：**
 
-```
+```php
 *bool* natcasesort($array )
 ```
 
@@ -18,7 +18,7 @@ Natcasesort()函数是 PHP 中的一个内置函数，用于使用“自然顺�
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // input array
@@ -40,7 +40,7 @@ print_r($arr2);
 
 产出：
 
-```
+```php
 Standard sorting:
 Array
 (
@@ -63,7 +63,7 @@ Array
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // input array
@@ -80,7 +80,7 @@ print_r($arr);
 
 产出：
 
-```
+```php
 Array
 (
     [2] => Gfg1.jpeg

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 filesize($filename)
 ```
 
@@ -18,7 +18,7 @@ filesize($filename)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 echo "The File size is: ";
@@ -30,7 +30,7 @@ echo filesize("gfg.txt");
 
 **输出:**
 
-```
+```php
 The File size is: 15
 ```
 
@@ -38,7 +38,7 @@ The File size is: 15
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "The File size is: ";
@@ -49,7 +49,7 @@ echo filesize("gfg2.txt");
 
 **输出:**
 
-```
+```php
 The File size is: 
 Warning: filesize(): stat failed for inde1x.php in
 C:\xampp\htdocs\gfg.php on line 4

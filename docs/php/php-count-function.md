@@ -6,7 +6,7 @@ PHP 的这个内置函数用于计算数组中的当前元素。 对于已设置
 
 **语法：**
 
-```
+```php
 count($array, mode)
 ```
 
@@ -21,7 +21,7 @@ count($array, mode)
 
 **程序 1**：正常计数，即通过*模式*为 0 或不通过参数模式。
 
-```
+```php
 <?php
 
 // PHP programme to illustrate working of count()
@@ -34,13 +34,13 @@ print_r(count($array));
 
 产出：
 
-```
+```php
 5
 ```
 
 **程序 2**：递归计数或将*模式*作为 1 传递。
 
-```
+```php
 <?php
 
 // PHP program to illustrate working of count()
@@ -58,7 +58,7 @@ echo("Normal count: ".count($array,0)."\n");
 
 产出：
 
-```
+```php
 Recursive count: 8
 Normal count: 2
 

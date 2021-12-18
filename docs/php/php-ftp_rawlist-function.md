@@ -6,7 +6,7 @@ Ftp_rawlist()函数是 PHP 中的一个内置函数，它返回一个文件列�
 
 **语法：**
 
-```
+```php
 ftp_rawlist( $ftp_connection, $directory, $recursive )
 ```
 
@@ -30,7 +30,7 @@ ftp_rawlist( $ftp_connection, $directory, $recursive )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

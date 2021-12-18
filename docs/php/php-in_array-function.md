@@ -8,7 +8,7 @@
 
 **语法**：
 
-```
+```php
 bool in_array( $val, $array_name, $mode )
 ```
 
@@ -28,7 +28,7 @@ bool in_array( $val, $array_name, $mode )
 
 ## PHP
 
-```
+```php
 <?php
   $marks = array(100, 65, 70, 87);
   if (in_array("100", $marks))
@@ -44,7 +44,7 @@ bool in_array( $val, $array_name, $mode )
 
 **输出**
 
-```
+```php
 found
 ```
 
@@ -52,7 +52,7 @@ found
 
 ## PHP
 
-```
+```php
 <?php
   $name = array("ravi", "ram", "rani", 87);
 
@@ -87,7 +87,7 @@ found
 
 **输出**
 
-```
+```php
 found 
 found 
 not found 

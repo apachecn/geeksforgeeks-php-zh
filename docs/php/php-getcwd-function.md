@@ -6,7 +6,7 @@ PHP 中的 getcwd()函数是一个内置函数，用于返回当前工作目录�
 
 **语法：**
 
-```
+```php
 getcwd()
 ```
 
@@ -23,7 +23,7 @@ getcwd()
 
 **程序 1：**
 
-```
+```php
 <?php
 
 //current directory
@@ -38,7 +38,7 @@ echo $cur_dir ; 
 
 **程序 2：**
 
-```
+```php
 <?php
 //current directory
  $cur_dir = getcwd();

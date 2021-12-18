@@ -8,7 +8,7 @@
 
 *   **Step 1:** To generate a scaffolding, we first need to install the **laravel/ui**, which is a **composer** package and to do that we have to run the following composer command.
 
-    ```
+    ```php
     composer require laravel/ui --dev
     ```
 
@@ -18,7 +18,7 @@
     *   **自举**T0】
     *   **视图**
 
-        ```
+        ```php
         php artisan ui vue
         ```
 
@@ -32,7 +32,7 @@
 
 *   **Step 3:** After running any of the above preset commands, we will have to install the npm, if it is not installed, to install run the following command.
 
-    ```
+    ```php
     npm install
     ```
 
@@ -40,7 +40,7 @@
 
 *   **Step 4:** Now we have to run the following **npm** command to compile the scaffolding.
 
-    ```
+    ```php
     npm run dev
     ```
 
@@ -52,7 +52,7 @@
     *   **自举**T0】
     *   **视图**
 
-        ```
+        ```php
         php artisan ui vue --auth
         ```
 
@@ -66,7 +66,7 @@
 
     *   **Step 2:** After running any of the above preset commands, we will have to install the npm if it is not installed, to install run the following command.
 
-    ```
+    ```php
     npm install
     ```
 
@@ -74,7 +74,7 @@
 
     *   **Step 3:** Now we have to run the following npm command to compile the scaffolding.
 
-    ```
+    ```php
     npm run dev
     ```
 
@@ -82,7 +82,7 @@
 
     **移除脚手架:**要移除生成的脚手架，我们将运行以下 artisan 命令。
 
-    ```
+    ```php
     php artisan preset none
     ```
 

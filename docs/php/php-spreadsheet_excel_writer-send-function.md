@@ -6,7 +6,7 @@ Send()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于发送�
 
 **语法：**
 
-```
+```php
 *void* Spreadsheet_Excel_Writer::send( $filename )
 ```
 
@@ -16,7 +16,7 @@ Send()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于发送�
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // require_once 'Spreadsheet/Excel/Writer.php';
@@ -60,7 +60,7 @@ $workbook->close();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // require_once 'Spreadsheet/Excel/Writer.php';

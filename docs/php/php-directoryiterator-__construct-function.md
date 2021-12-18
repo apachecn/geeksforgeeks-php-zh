@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* DirectoryIterator::__construct( *string* $path )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator
@@ -41,7 +41,7 @@ foreach ($directory as $dir) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator

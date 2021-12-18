@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input: Array
        (   
            [0] => 'G' 
@@ -30,7 +30,7 @@ Output: Array
 
 **语法:**
 
-```
+```php
 unset($variable)
 ```
 
@@ -38,7 +38,7 @@ unset($variable)
 
 **程序 1:** 从一维数组中删除一个元素。
 
-```
+```php
 <?php
 // PHP program to delete an array 
 // element based on index
@@ -62,7 +62,7 @@ print_r($arr);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => G
@@ -83,7 +83,7 @@ Array
 
 **程序 2:** 从关联数组中删除一个元素。
 
-```
+```php
 <?php 
 
 // PHP program to creating two 
@@ -137,7 +137,7 @@ print_r($marks); 
 
 **Output:**
 
-```
+```php
 Before delete the element 
 Array
 (

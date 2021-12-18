@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_get_option( $ftp_connection, $option )
 ```
 
@@ -28,7 +28,7 @@ ftp_get_option( $ftp_connection, $option )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -80,7 +80,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 successfully connected to the ftp server!
 logged in successfully!
 90

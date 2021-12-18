@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed * public Ds\Vector::reduce( $callback, $initial )
 
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare new Vector
@@ -45,7 +45,7 @@ var_dump($vect->reduce(function($carry, $element) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare new Vector

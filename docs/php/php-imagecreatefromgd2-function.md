@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 resource imagecreatefromgd2( string $filename )
 ```
 
@@ -18,7 +18,7 @@ resource imagecreatefromgd2( string $filename )
 
 ## PHP
 
-```
+```php
 <?php
 // Load the GD2 image from local folder
 // GD2 images can be created with imagegd2() function
@@ -39,7 +39,7 @@ imagedestroy($im);
 
 ## PHP
 
-```
+```php
 <?php
 // Load the GD2 image
 $im = imagecreatefromgd2('geeksforgeeks.gd2');

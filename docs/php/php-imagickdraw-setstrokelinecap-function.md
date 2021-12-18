@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setStrokeLineCap( *int* $linecap )
 ```
 
@@ -27,7 +27,7 @@ LINECAP 常量列表如下：
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -44,13 +44,13 @@ echo $lineCap;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2 // Which corresponds to imagick::LINECAP_ROUND
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageHistogram( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -38,7 +38,7 @@ print("<pre>".print_r($histogram, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

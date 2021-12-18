@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::setColor( *string* $color )
 ```
 
@@ -19,7 +19,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickPixel：：setColor()函数**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixel = new ImagickPixel();
@@ -35,7 +35,7 @@ print("<pre>".print_r($color, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [r] => 66
@@ -47,7 +47,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(

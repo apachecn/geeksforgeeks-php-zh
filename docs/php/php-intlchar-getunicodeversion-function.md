@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* IntlChar::getUnicodeVersion ( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 var_dump(IntlChar::getUnicodeVersion());
 ?>
@@ -26,7 +26,7 @@ var_dump(IntlChar::getUnicodeVersion());
 
 **输出：**
 
-```
+```php
 array(4) {
   [0]=>
   int(7)

@@ -10,7 +10,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class DataBaseConnector {
@@ -39,7 +39,7 @@ var_dump($obj1 == $obj2);
 
 **Output**
 
-```
+```php
 DataBaseConnector initialize only once bool(true)
 
 ```

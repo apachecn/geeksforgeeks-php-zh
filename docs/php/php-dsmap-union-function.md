@@ -6,7 +6,7 @@ Ds\Map：：Union()函数是 PHP 中的一个内置函数，用于创建包含�
 
 **语法：**
 
-```
+```php
 Ds\Map Ds\Map::union( $map )
 ```
 
@@ -18,7 +18,7 @@ Ds\Map Ds\Map::union( $map )
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -37,7 +37,7 @@ print_r($a->union($b));
 
 **输出：**
 
-```
+```php
 Union of both map is: 
 Ds\Map Object
 (
@@ -71,7 +71,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -90,7 +90,7 @@ print_r($a->union($b));
 
 **输出：**
 
-```
+```php
 Union of both map is: 
 Ds\Map Object
 (

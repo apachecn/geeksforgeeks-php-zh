@@ -6,7 +6,7 @@
 **方法 1:使用 json_decode 和 json_encode 方法:**json _ decode 函数接受 json 编码的字符串，并将其转换为 PHP 变量，另一方面 json_encode 返回给定值的 JSON 编码字符串。
 **语法:**
 
-```
+```php
 $myArray = json_decode(json_encode($object), true);
 ```
 
@@ -14,7 +14,7 @@ $myArray = json_decode(json_encode($object), true);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 class sample {
 
@@ -43,7 +43,7 @@ var_dump($myArray);
 
 **Output:** 
 
-```
+```php
 Before conversion: 
 object(sample)#1 (2) {
   ["var1"]=>
@@ -63,7 +63,7 @@ array(2) {
 **方法 2:将对象类型转换为数组:**类型转换是将一个数据类型变量转换为不同数据类型的方法，它只是数据类型的显式转换。它可以通过使用 PHP 中支持的类型转换规则将 PHP 对象转换为数组。
 **语法:**
 
-```
+```php
 $myArray = (array) $myObj;
 ```
 
@@ -71,7 +71,7 @@ $myArray = (array) $myObj;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 class bag {
 
@@ -102,7 +102,7 @@ var_dump($myBagArray);
 
 **Output:** 
 
-```
+```php
 Before conversion : 
 object(bag)#1 (3) {
   ["item1"]=>

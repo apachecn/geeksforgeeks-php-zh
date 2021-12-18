@@ -16,7 +16,7 @@
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -37,7 +37,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 if(isset($_POST['ifsc'])) {
     $ifsc = $_POST['ifsc'];

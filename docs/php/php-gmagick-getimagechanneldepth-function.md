@@ -5,7 +5,7 @@
 **gmagick：：getimagechnelDeep()**函数是 PHP 中的一个内置函数，用于返回通道图像的深度。
 **语法：**和
 
-```
+```php
 *int* Gmagick::getimagechanneldepth( $channel_type )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create new Gmagick object

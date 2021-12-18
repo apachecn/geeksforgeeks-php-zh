@@ -6,7 +6,7 @@ Unlink()函数是 PHP 中的一个内置函数，用于删除文件。 它类似
 
 **语法：**
 
-```
+```php
 unlink( $filename, $context )
 
 ```
@@ -31,7 +31,7 @@ unlink( $filename, $context )
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to delete a file named gfg.txt
 // using unlink() function
@@ -51,7 +51,7 @@ else {
 
 **输出：**
 
-```
+```php
 gfg.txt has been deleted
 
 ```
@@ -60,7 +60,7 @@ gfg.txt has been deleted
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to delete a file named gfg.txt
 // using unlink() function
@@ -84,7 +84,7 @@ else {
 
 **输出：**
 
-```
+```php
 Warning: unlink() expects parameter 1 to be a valid path, resource
 given in C:\xampp\htdocs\server.php on line 12
 Resource id #3 cannot be deleted due to an error

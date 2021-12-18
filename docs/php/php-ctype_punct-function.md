@@ -6,7 +6,7 @@ Ctype_point()是 PHP 中的一个内置函数，用于检查非空格或字母�
 
 **语法：**
 
-```
+```php
 bool ctype_punct ( $text )
 ```
 
@@ -15,7 +15,7 @@ bool ctype_punct ( $text )
 **返回值：**如果字符串不包含任何字母数字、数字或空白字符，则返回 True；如果失败，则返回 False。
 示例：
 
-```
+```php
 Input : GeeksforGeeks
 Output : No
 Explanation: String (GeeksforGeeks) contains only the alphanumeric characters.
@@ -29,7 +29,7 @@ Explanation: String ($%^&@) contains only the punctuation character.
 下面的程序演示了 ctype_point()函数。
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to check the given
 // string is not containing any 
@@ -52,7 +52,7 @@ if ( ctype_punct($string2)) 
 
 **Output:**
 
-```
+```php
 No
 Yes
 
@@ -60,7 +60,7 @@ Yes
 
 **程序 2：**ctype_point()函数的代码接受包含整数和特殊符号的输入字符串数组。
 
-```
+```php
 <?php
 // PHP program to check given
 // string is not contain any 
@@ -92,7 +92,7 @@ foreach ($strings as $test) {
 
 **Output:**
 
-```
+```php
 No
 No
 No

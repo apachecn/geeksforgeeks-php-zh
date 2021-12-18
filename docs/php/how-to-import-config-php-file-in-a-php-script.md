@@ -6,7 +6,7 @@ PHP 中的 **include** 语句将上述文件中的文本代码复制到使用 in
 
 **语法:**
 
-```
+```php
 <?php
    include('config.php');
 ?>
@@ -16,7 +16,7 @@ PHP 中的 **include** 语句将上述文件中的文本代码复制到使用 in
 
 *   **代码 1:** 创建一个 PHP 文件，并以“config.php”的名称保存。
 
-    ```
+    ```php
     <?php
        $host = 'localhost';
        $database = 'GeeksForGeeks';
@@ -27,7 +27,7 @@ PHP 中的 **include** 语句将上述文件中的文本代码复制到使用 in
 
 *   **代码 2:** 创建一个 PHP 文件，并以“try.php”的名称将其保存在与“config.php”文件相同的文件夹中。复制下面的代码以包含“config.php”文件，并打印数据库的名称和用户名。
 
-    ```
+    ```php
     <?php
        include('config.php');
        echo "Host: ".$host." Database: ".$database;
@@ -41,7 +41,7 @@ PHP 中的 **include** 语句将上述文件中的文本代码复制到使用 in
 
 *   **代码 1:** 只需返回“config.php”文件的内容。
 
-    ```
+    ```php
     <?php
        return [
        'host' => 'localhost2',
@@ -54,7 +54,7 @@ PHP 中的 **include** 语句将上述文件中的文本代码复制到使用 in
 
 *   **代码 2:** 接受变量中返回的数组。
 
-    ```
+    ```php
     <?php
        $details = include('config.php');
        echo 'Host: ' . $details['host'] . 

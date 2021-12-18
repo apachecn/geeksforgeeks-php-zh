@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* abstract public Ds\Sequence::rotate ( int $rotations )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new Sequence
@@ -44,7 +44,7 @@ print_r($seq); 
 
 **输出：**
 
-```
+```php
 Original Sequence
 Ds\Vector Object
 (
@@ -69,7 +69,7 @@ Ds\Vector Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new Sequence
@@ -95,7 +95,7 @@ print_r($seq); 
 
 **输出：**
 
-```
+```php
 Original Sequence
 Ds\Vector Object
 (

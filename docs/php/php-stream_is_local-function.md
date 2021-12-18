@@ -6,7 +6,7 @@ STREAM_IS_LOCAL()函数是 PHP 中的一个内置函数，用于检查流是本�
 
 **语法：**
 
-```
+```php
 *bool* stream_is_local( $stream )
 ```
 
@@ -18,7 +18,7 @@ STREAM_IS_LOCAL()函数是 PHP 中的一个内置函数，用于检查流是本�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -34,14 +34,14 @@ var_dump($res);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```
 
 **程序 2：**打印函数返回的数组长度的程序。
 
-```
+```php
 <?php
 
 // PHP program to illustrate 
@@ -64,7 +64,7 @@ var_dump($remote);
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 bool(false)

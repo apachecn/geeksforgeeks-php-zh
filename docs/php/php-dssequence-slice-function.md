@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Sequence* abstract public Ds\Sequence::slice ( int $index 
 [, int $length ] )
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -44,7 +44,7 @@ print_r($seq->slice(2, -2));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

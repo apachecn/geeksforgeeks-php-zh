@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatetruecolor( $width, $height )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Set the vertices of polygon
@@ -58,7 +58,7 @@ imagepng($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create the size of image or blank image.
@@ -72,7 +72,7 @@ echo imagesy($image);
 
 **输出：**
 
-```
+```php
 300
 ```
 

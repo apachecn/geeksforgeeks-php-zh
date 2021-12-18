@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::ellipse( *float* $ox, *float* $oy, 
 *float* $rx, *float* $ry, *float* $start, *float* $end )
 ```
@@ -28,7 +28,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -58,7 +58,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

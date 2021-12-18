@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageChannelMean(*int* $channel)
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new imagick object
@@ -39,7 +39,7 @@ print_r($mean);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new imagick object

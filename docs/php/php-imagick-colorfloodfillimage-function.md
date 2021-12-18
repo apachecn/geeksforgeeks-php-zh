@@ -6,7 +6,7 @@ Imagick：：ColorFlodfulImage()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 *bool* Imagick::colorFloodfillImage( $color, $fuzz, $bordercolor, $x, $y )
 ```
 
@@ -24,7 +24,7 @@ Imagick：：ColorFlodfulImage()函数是 PHP 中的一个内置函数，用于�
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

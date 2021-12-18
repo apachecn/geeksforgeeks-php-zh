@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ord($string)
 ```
 
@@ -16,7 +16,7 @@
 
 **示例：**
 
-```
+```php
 Input : Geeksforgeeks
 Output : 71
 Explanation: The ASCII value of G is 71
@@ -31,7 +31,7 @@ Explanation: The ASCII value of t is 116
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate the ord() function
 
@@ -42,14 +42,14 @@ echo ord("twinkle");
 
 产出：
 
-```
+```php
 116
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate the ord() function
 
@@ -60,7 +60,7 @@ echo ord("Geeksforgeeks");
 
 产出：
 
-```
+```php
 71
 ```
 

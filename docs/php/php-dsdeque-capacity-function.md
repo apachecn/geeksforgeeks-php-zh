@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::capacity( void ) : int
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Allocating deque of default size
@@ -43,7 +43,7 @@ var_dump($deck->capacity());
 
 **输出：**
 
-```
+```php
 Default size of Deque: int(8)
 Allocated size of Deque: int(64)
 
@@ -51,7 +51,7 @@ Allocated size of Deque: int(64)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare Deque
@@ -72,7 +72,7 @@ var_dump($deck->capacity());
 
 **输出：**
 
-```
+```php
 Elements of Deque
 object(Ds\Deque)#1 (6) {
   [0]=>

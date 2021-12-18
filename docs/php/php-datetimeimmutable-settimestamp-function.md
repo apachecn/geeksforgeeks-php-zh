@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateTimeImmutable* DateTimeImmutable::setTimestamp( *int* $unixtimestamp )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::setTimestamp()
 // function
@@ -41,14 +41,14 @@ echo $datetimeImmutable->format('U = d-m-Y H:i:s');
 
 **输出：**
 
-```
+```php
 1570187170 = 04-10-2019 11:06:10
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::setTimestamp()
 // function
@@ -68,7 +68,7 @@ echo $datetimeImmutable->format('U = d-m-Y H:i:s');
 
 **输出：**
 
-```
+```php
 1570187171 = 04-10-2019 11:06:11
 
 ```

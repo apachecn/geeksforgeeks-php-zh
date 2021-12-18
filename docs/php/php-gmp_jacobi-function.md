@@ -6,7 +6,7 @@ Gmp_Jacobi()函数是 PHP 中的一个内置函数，它计算作为参数传递
 
 **语法：**
 
-```
+```php
 gmp_jacobi($num1, $num2)
 ```
 
@@ -18,7 +18,7 @@ gmp_jacobi($num1, $num2)
 
 **示例：**
 
-```
+```php
 Input : $num1 = 2, $num2 = 3
 Output : -1
 
@@ -31,7 +31,7 @@ Output : 0
 
 **程序 1**
 
-```
+```php
 <?php
 // PHP program to calculate the
 // jacobi of two GMP numbers
@@ -45,13 +45,13 @@ echo gmp_jacobi($num1, $num2); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 // PHP program to calculate the
 // jacobi of two GMP numbers
@@ -67,7 +67,7 @@ echo gmp_jacobi($num1, $num2); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 -1
 ```
 

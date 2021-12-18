@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::detach($obj)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Creating class 
@@ -43,7 +43,7 @@ var_dump(count($str));
 
 **输出：**
 
-```
+```php
 int(1)
 int(0)
 
@@ -51,7 +51,7 @@ int(0)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Creating class 
@@ -86,7 +86,7 @@ var_dump(count($str));
 
 **输出：**
 
-```
+```php
 int(3)
 int(2)
 int(1)

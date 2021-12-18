@@ -8,7 +8,7 @@ PHP 中的 rewind()函数是一个内置函数，用于设置文件指针指向�
 
 **语法：**
 
-```
+```php
 rewind(file)
 ```
 
@@ -28,7 +28,7 @@ PHP 中的 rewind()函数接受一个参数。
 
 例如：
 
-```
+```php
 Input: $myfile = fopen("gfg.txt", "r");
         fseek($myfile, "10");
         rewind($myfile);
@@ -53,7 +53,7 @@ Here all characters of the file as it is after rewind "portal"
 
 **程序 1**
 
-```
+```php
 <?php
 
 $myfile = fopen("gfg.txt", "r");
@@ -73,13 +73,13 @@ fclose($file);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 
 $myfile = fopen("gfg.txt", "r+");
@@ -105,7 +105,7 @@ fclose($myfile);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 geeksportalks a computer science portal
 ```
 

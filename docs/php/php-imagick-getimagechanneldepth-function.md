@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageChannelDepth( $channel )
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 // Create new imagick object
@@ -39,7 +39,7 @@ echo $im->getImageChannelDepth(imagick::CHANNEL_BLUE) . "</br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 8
 8
 8
@@ -52,7 +52,7 @@ echo $im->getImageChannelDepth(imagick::CHANNEL_BLUE) . "</br>";
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54.png](img/583fb2a26e2d28d4d8bbc47a02020896.png)
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -88,7 +88,7 @@ echo $im->getImageChannelDepth(imagick::CHANNEL_BLUE) . "</br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 8
 8
 8

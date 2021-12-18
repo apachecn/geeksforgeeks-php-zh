@@ -5,7 +5,7 @@
 Stristr()函数是 PHP 中的内置函数。 它搜索一个字符串在另一个字符串中的第一个匹配项，并从前者在后者中的第一个匹配项开始显示后者的一部分(如果指定，则在此之前)。 此函数是**不区分大小写的**。
 **语法：**
 
-```
+```php
 stristr( $string, $search, $before )
 ```
 
@@ -19,7 +19,7 @@ stristr( $string, $search, $before )
 
 例如：
 
-```
+```php
 Input : $string = "Hello world!", $search = "WORLD"
 Output : world!
 
@@ -32,7 +32,7 @@ Output : ks for Geeks!
 
 **程序 1：**在本程序中，我们将显示第一次出现$search 时的$string 部分。
 
-```
+```php
 <?php
 echo stristr("Geeks for Geeks!", "K");
 ?>
@@ -41,13 +41,13 @@ echo stristr("Geeks for Geeks!", "K");
 
 产出：
 
-```
+```php
 ks for Geeks! 
 ```
 
 **程序 2：**在本程序中，我们将显示第一次出现$search 之前的$string 部分。
 
-```
+```php
 <?php
 echo stristr("Geeks for Geeks!", "K", true);
 ?>
@@ -56,13 +56,13 @@ echo stristr("Geeks for Geeks!", "K", true);
 
 产出：
 
-```
+```php
 Gee
 ```
 
 **程序 3：**在此程序中，我们将传递一个整数作为$search。
 
-```
+```php
 <?php
   $string = "Geeks";
   echo stristr($string, 101); // 101 is ASCII value of lowercase e
@@ -72,7 +72,7 @@ Gee
 
 产出：
 
-```
+```php
 eeks
 ```
 

@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *DateTime* DateTime::add( *DateInterval* $interval )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *DateTime* date_add( *DateTime* $object, *DateInterval* $interval )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initialising a DateTime
@@ -47,14 +47,14 @@ echo $datetime->format('Y-m-d') . "\n";
 
 **输出：**
 
-```
+```php
 2019-10-01
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initialising a DateTime
@@ -72,7 +72,7 @@ echo $datetime->format('Y-m-d H:i:s') . "\n";
 
 **输出：**
 
-```
+```php
 2019-09-30 05:03:10
 
 ```

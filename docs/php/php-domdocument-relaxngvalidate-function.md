@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::relaxNGValidate( *string* $filename )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **File name: rule.rng**
 
-    ```
+    ```php
     <element name="college" 
       xmlns="http://relaxng.org/ns/structure/1.0">
       <zeroOrMore>
@@ -38,7 +38,7 @@
 
 *   **File name: index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new DOMDocument
@@ -66,7 +66,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is valid!
     ```
 
@@ -74,7 +74,7 @@
 
 *   **File name: rule.rng**
 
-    ```
+    ```php
     <element name="company" 
       xmlns="http://relaxng.org/ns/structure/1.0">
       <zeroOrMore>
@@ -92,7 +92,7 @@
 
 *   **File name: index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new DOMDocument
@@ -120,7 +120,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is not valid!
     ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::startDocument( *string* $version, 
 *string* $encoding, *string* $standalone )
 ```
@@ -23,7 +23,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -51,7 +51,7 @@ $writer->endDocument();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <div>GeeksforGeeks</div>
 
@@ -59,7 +59,7 @@ $writer->endDocument();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance

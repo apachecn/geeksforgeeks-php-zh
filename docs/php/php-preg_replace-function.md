@@ -6,7 +6,7 @@ Preg_place()函数是 PHP 中的一个内置函数，用于执行正则表达式
 
 **语法：**
 
-```
+```php
 preg_replace( $pattern, $replacement, $subject, $limit, $count )
 ```
 
@@ -24,7 +24,7 @@ preg_replace( $pattern, $replacement, $subject, $limit, $count )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate 
@@ -41,14 +41,14 @@ echo preg_replace($pattern, $replacement, $string);
 
 **输出：**
 
-```
+```php
 November 02, 2018
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate 
@@ -66,7 +66,7 @@ print_r(preg_replace($pattern, $replace, $subject)); 
 
 **输出：**
 
-```
+```php
 preg_replace returns
 Array
 (
@@ -84,7 +84,7 @@ Array
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate 
@@ -100,7 +100,7 @@ echo "\n" . $count;
 
 **输出：**
 
-```
+```php
 Geeks***Geeks
 3
 

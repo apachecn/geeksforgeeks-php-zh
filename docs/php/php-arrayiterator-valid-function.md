@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *bool* ArrayIterator::valid( *void* )
 ```
 
@@ -17,7 +17,7 @@
 下面的程序说明了 PHP 中的 ArrayIterator::valid()函数:
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -37,7 +37,7 @@ while ($arrItr->valid()) {
 
 **Output:**
 
-```
+```php
 ArrayIterator Key: 0  ArrayIterator Value: G
 ArrayIterator Key: 1  ArrayIterator Value: e
 ArrayIterator Key: 2  ArrayIterator Value: e
@@ -48,7 +48,7 @@ ArrayIterator Key: 4  ArrayIterator Value: s
 
 **程序 2:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -75,7 +75,7 @@ while($arrItr->valid()) { 
 
 **Output:**
 
-```
+```php
 string(5) "Geeks"
 string(3) "for"
 string(5) "Geeks"

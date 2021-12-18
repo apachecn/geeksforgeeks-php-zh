@@ -6,7 +6,7 @@ DATE_DATE_SET()函数是 PHP 中的内置函数，用于设置新日期。 此�
 
 **语法：**
 
-```
+```php
 date_date_set( $object, $year, $month, $day )
 ```
 
@@ -23,7 +23,7 @@ date_date_set( $object, $year, $month, $day )
 
 **程序 1：**打印日期时间的过程样式。
 
-```
+```php
 <?php
 
 // Date_create() returns a new DateTime object.
@@ -39,14 +39,14 @@ echo date_format($date, "Y/m/d");
 
 **输出：**
 
-```
+```php
 2018/08/31
 
 ```
 
 **程序 2：**打印日期时间的面向对象样式。
 
-```
+```php
 <?php
 
 // Declare DateTime object.
@@ -62,7 +62,7 @@ echo $date->format('Y/m/d');
 
 **输出：**
 
-```
+```php
 2018/08/31
 
 ```

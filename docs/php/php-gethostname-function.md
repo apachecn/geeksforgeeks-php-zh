@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* gethostname( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Use gethostname() function to

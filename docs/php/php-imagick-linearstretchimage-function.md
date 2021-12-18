@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::linearStretchImage( $blackPoint, $whitePoint )
 
 ```
@@ -22,7 +22,7 @@
 
 **程序：**此程序使用 Imagick：：linearStretchImage()函数以饱和度拉伸图像强度。
 
-```
+```php
 <?php
 
 // Store the image into variable

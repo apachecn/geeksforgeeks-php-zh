@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromwebp( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Load an WEBP image from local folder
 // You can convert any image to WEBP using
@@ -37,7 +37,7 @@ imagedestroy($im);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Load an WEBP image from local folder
 // You can convert any image to WEBP using

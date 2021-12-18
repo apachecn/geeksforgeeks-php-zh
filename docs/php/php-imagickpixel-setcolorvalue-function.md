@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::setColorValue( *int* $color, *float* $value )
 ```
 
@@ -34,7 +34,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixel = new ImagickPixel();
@@ -50,13 +50,13 @@ echo $colorValue;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.8
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(

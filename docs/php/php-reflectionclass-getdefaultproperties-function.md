@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ReflectionClass::getDefaultProperties(void) : array
 ```
 
@@ -17,7 +17,7 @@ ReflectionClass::getDefaultProperties(void) : array
 以下程序说明 PHP：
 **程序 1：**中的 ReflectionClass：：getDefaultProperties()函数
 
-```
+```php
 <?php
 
 // Defining a class named as College
@@ -45,7 +45,7 @@ var_dump($ReflectionClass->getDefaultProperties());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(4) {
   ["Dept3"]=>
   string(2) "EE"
@@ -61,7 +61,7 @@ array(4) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a class named as College
@@ -89,7 +89,7 @@ var_dump($ReflectionClass->getDefaultProperties());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(4) {
   ["Dept3"]=>
   NULL

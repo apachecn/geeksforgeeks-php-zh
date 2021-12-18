@@ -5,7 +5,7 @@
 **Imagick：：IdentifyImage()**函数是 PHP 中的内置函数，用于标识图像并返回其属性。 属性包含图像宽度、高度、大小等。
 **语法：**和
 
-```
+```php
 *array* Imagick::identifyImage( $appendRawOutput )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

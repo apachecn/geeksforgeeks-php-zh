@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagelayereffect( $image, $effect )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Setup an image
 $im = imagecreatetruecolor(200, 200);
@@ -55,7 +55,7 @@ imagedestroy($im);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Setup an image
 $im = imagecreatetruecolor(200, 200);

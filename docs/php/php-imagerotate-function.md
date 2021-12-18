@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagerotate( $image, $angle, $bgd_color, $ignore_transparent = 0 ) 
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Assign image file to variable 
@@ -49,7 +49,7 @@ imagepng($img); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // It create the size of image or blank image. 

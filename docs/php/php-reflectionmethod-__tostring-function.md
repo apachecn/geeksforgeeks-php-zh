@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionMethod::__toString ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionMethod：：__toString()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -40,7 +40,7 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(94) "Method [ <user> public method GFG ] {
   @@ /home/43d46426def0fce620e2e2cf2bf10e7a.php 6 - 6
 }
@@ -50,7 +50,7 @@ string(94) "Method [ <user> public method GFG ] {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -86,7 +86,7 @@ var_dump($C->__toString());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(158) "Method [ <user> private method hr ] {
   @@ /home/2aa9608c9056b85288d53e96d9de3310.php 6 - 8
 

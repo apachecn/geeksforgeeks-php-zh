@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::polyline( $coordinates )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw Object
@@ -72,7 +72,7 @@ echo $image->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an ImagickDraw Object

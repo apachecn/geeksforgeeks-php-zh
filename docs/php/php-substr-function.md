@@ -6,7 +6,7 @@ Substr()是 PHP 中的一个内置函数，用于提取字符串的一部分。
 
 **语法：**
 
-```
+```php
 substr(string_name, start_position, string_length_to_cut)
 ```
 
@@ -22,7 +22,7 @@ substr()函数允许 3 个参数或参数，其中两个是必需的，一个是
 
 下面是一个演示在 PHP 中使用 substr()的程序：
 
-```
+```php
 <?php
 
 // PHP program to illustrate substr()
@@ -43,7 +43,7 @@ Substring($str);
 
 产出：
 
-```
+```php
 Geeks
 forGeeks
 Geeks

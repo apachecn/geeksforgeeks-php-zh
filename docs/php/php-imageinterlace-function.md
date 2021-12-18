@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imageinterlace( *resource* $image, *int* $interlace )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**在本例中，我们将启用隔行扫描。
 
-```
+```php
 <?php
 
 // Create an image from URL
@@ -43,7 +43,7 @@ imagedestroy($im);
 
 **程序 2：**在本例中，我们将禁用隔行扫描。
 
-```
+```php
 <?php
 
 // Create an image from URL

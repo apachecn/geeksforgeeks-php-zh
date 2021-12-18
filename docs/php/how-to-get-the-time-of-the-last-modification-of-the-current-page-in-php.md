@@ -14,7 +14,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // To Get the last modification time.
@@ -28,13 +28,13 @@ echo $last_modification;
 
 **Output**
 
-```
+```php
 Last modified: February 25 2021 12:40:34.
 ```
 
 **注:**我们可以直接使用如下。
 
-```
+```php
 echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());
 ```
 
@@ -44,7 +44,7 @@ echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());
 
 ## PHP
 
-```
+```php
 <?php 
 
 // checking last time the contents 
@@ -61,6 +61,6 @@ echo "Last modified: ".date("F d Y H:i:s.",  
 
 **输出:**
 
-```
+```php
 Last modified: February 13 2021 13:01:35.
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayIterator::ksort( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -49,14 +49,14 @@ while($arrItr->valid()) {
 
 **输出:**
 
-```
+```php
 s k e e G f r o
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -87,7 +87,7 @@ foreach($arrItr as $element) {
 
 **输出:**
 
-```
+```php
 key: a  Value: Geeks
 key: b  Value: Geeks
 key: c  Value: for

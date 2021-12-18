@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::blueShiftImage( $factor)
 ```
 
@@ -20,7 +20,7 @@
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/geeks-21.png](img/a377156ca25e3fe93469e179d416418f.png)
 
-```
+```php
 <?php
 
 // Create new imagick object
@@ -43,7 +43,7 @@ echo $imagick->getImageBlob();
 **原始图像：**
 ![https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png](img/980b01fe1c7f85a5a4bb0420eb28bb53.png)
 
-```
+```php
 <?php
 
 // Create new imagick object

@@ -6,7 +6,7 @@ PHP 的这个内置函数用于计算两个或多个数组的交集。该函数�
 
 **语法:**
 
-```
+```php
 *array* array_intersect($array1, $array2, $array3, $array4...)
 ```
 
@@ -18,7 +18,7 @@ PHP 的这个内置函数用于计算两个或多个数组的交集。该函数�
 
 示例:
 
-```
+```php
 Input : $array1 = array(5, 10, 15, 20, 25, 30)
         $array2 = array(20, 10, 15, 55, 110, 30)
         $array3 = array(10, 15, 30, 55, 100, 95)
@@ -44,7 +44,7 @@ Output :
 
 下面的程序说明了 PHP 中的 array_intersect()函数:
 
-```
+```php
 <?php
 
 // PHP function to illustrate the use of array_intersect()
@@ -65,7 +65,7 @@ print_r(Intersect($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [1] => 10

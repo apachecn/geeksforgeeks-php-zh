@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::drawimage ( $GmagickDraw )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -65,7 +65,7 @@ echo $gmagick->getImageBlob(); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 

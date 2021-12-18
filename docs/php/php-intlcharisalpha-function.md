@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isalpha( $codepoint )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isalpha()
 // function
@@ -43,7 +43,7 @@ var_dump(IntlChar::isalpha("5"));
 
 **输出：**
 
-```
+```php
 bool(true) 
 NULL 
 NULL 
@@ -55,7 +55,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isalpha()
 
@@ -73,7 +73,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 bool(true) 
 NULL 
 bool(false) 

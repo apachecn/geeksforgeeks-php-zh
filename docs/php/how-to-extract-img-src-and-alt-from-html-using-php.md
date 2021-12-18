@@ -11,7 +11,7 @@
 
 **示例 1:** 本示例将图像对象显示为输出。
 
-```
+```php
 <?php
 // error_reporting(0);
 
@@ -61,7 +61,7 @@ crawl_page("https://www.google.com/search?q=geeksforgeeks&tbm=isch");
 
 **示例 2:** 本示例显示图像对象的属性。
 
-```
+```php
 <?php
 // error_reporting(0);
 

@@ -13,7 +13,7 @@ PHP 代表超文本预处理器，它是一种流行的通用脚本语言，主�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class GFG {

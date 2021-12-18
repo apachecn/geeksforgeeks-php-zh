@@ -5,7 +5,7 @@
 **DOMXPath：：Evaluate()函数**是 PHP 中的一个内置函数，用于执行给定的 XPath 表达式，该表达式是为选择一组节点而定义的模式。
 **语法：**和
 
-```
+```php
 *mixed* DOMXPath::evaluate( *string* $expression, 
           *DOMNode* $contextnode, *bool* $registerNodeNS )
 ```
@@ -23,7 +23,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -66,7 +66,7 @@ echo "Number of elements with lang = \"en\": $entries\n";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Number of elements with lang = "en": 2
 ```
 
@@ -74,7 +74,7 @@ Number of elements with lang = "en": 2
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -109,7 +109,7 @@ echo $entries[0]->nodeValue;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Keep Learning.
 ```
 

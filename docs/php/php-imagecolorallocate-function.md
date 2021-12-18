@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorallocate ( $image, $red, $green, $blue )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.
@@ -51,7 +51,7 @@ imagedestroy($image_size);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.

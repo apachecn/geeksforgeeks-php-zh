@@ -6,7 +6,7 @@
 
 **语法**：
 
-```
+```php
 *string* strtoupper ( $string )
 
 ```
@@ -17,7 +17,7 @@
 
 例如：
 
-```
+```php
 Input : $str  = "GeeksForGeeks"
         strtoupper($str)
 Output: GEEKSFORGEEKS
@@ -32,7 +32,7 @@ Output: GOING BACK HE SAW THIS 123$#%
 
 **程序 1**
 
-```
+```php
 <?php
 
 // original string
@@ -48,14 +48,14 @@ print_r($resStr);
 
 产出：
 
-```
+```php
 GEEKSFORGEEKS
 
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 
 // original string
@@ -71,7 +71,7 @@ print_r($resStr);
 
 产出：
 
-```
+```php
 GOING BACK HE SAW THIS 123$#%
 
 ```

@@ -29,7 +29,7 @@ SQL 中的 LIKE 运算符在 WHERE 子句中用于搜索列中的指定模式。
 
 语法:
 
-```html
+```phphtml
 SELECT column1, column2, ...,columnn
 FROM table_name
 WHERE columnn LIKE pattern;
@@ -49,13 +49,13 @@ WHERE columnn LIKE pattern;
 
 地址以 h 开头:
 
-```html
+```phphtml
 SELECT  * from student_address WHERE saddress LIKE 'h%'
 ```
 
 输出:
 
-```html
+```phphtml
 Address starts with h:
 STUDENT-ID : 3 ----- NAME : ojaswi ----- ADDRESS : hyderabad
 STUDENT-ID : 4 ----- NAME : rohith ----- ADDRESS : hyderabad
@@ -66,13 +66,13 @@ STUDENT-ID : 5 ----- NAME : gnanesh ----- ADDRESS : hyderabad
 
 名称以 h 结尾:
 
-```html
+```phphtml
 SELECT  * from student_address WHERE sname LIKE '%h';
 ```
 
 输出:
 
-```html
+```phphtml
 Name ends with h:
 STUDENT-ID : 4 ----- NAME : rohith ----- ADDRESS : hyderabad
 STUDENT-ID : 5 ----- NAME : gnanesh ----- ADDRESS : hyderabad
@@ -82,13 +82,13 @@ STUDENT-ID : 5 ----- NAME : gnanesh ----- ADDRESS : hyderabad
 
 地址包含“um”模式
 
-```html
+```phphtml
 SELECT  * from student_address WHERE sname LIKE '%um%';
 ```
 
 输出:
 
-```html
+```phphtml
 STUDENT-ID : 1 ----- NAME : sravan kumar ----- ADDRESS : kakumanu
 ```
 
@@ -96,13 +96,13 @@ STUDENT-ID : 1 ----- NAME : sravan kumar ----- ADDRESS : kakumanu
 
 地址以 r 开头，以 h 结尾。
 
-```html
+```phphtml
 SELECT  * from student_address WHERE sname LIKE 'r%h';
 ```
 
 输出:
 
-```html
+```phphtml
 STUDENT-ID : 4 ----- NAME : rohith ----- ADDRESS : hyderabad.
 ```
 
@@ -127,7 +127,7 @@ STUDENT-ID : 4 ----- NAME : rohith ----- ADDRESS : hyderabad.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 //servername
 $servername = "localhost";
@@ -165,7 +165,7 @@ $conn->close();
 
 输出:
 
-```html
+```phphtml
 data stored successfully
 ```
 
@@ -175,7 +175,7 @@ form.php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <html>
 <body>
 <?php
@@ -239,7 +239,7 @@ form1.php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <html>
 <body>
 <?php
@@ -301,7 +301,7 @@ form2.php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <html>
 <body>
 <?php

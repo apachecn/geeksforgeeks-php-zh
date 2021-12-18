@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* XMLReader::readOuterXml( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div>
         <h1>Hello World</h1>
@@ -29,7 +29,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -59,7 +59,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div>
         <h1>Hello World 
@@ -70,7 +70,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance

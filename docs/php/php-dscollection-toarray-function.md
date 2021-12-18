@@ -6,7 +6,7 @@ Ds\Collection：：toArray()函数是 PHP 中的一个内置函数，用于将�
 
 **语法：**
 
-```
+```php
 *public* Ds\Collection::toArray( void ) : array
 ```
 
@@ -18,7 +18,7 @@ Ds\Collection：：toArray()函数是 PHP 中的一个内置函数，用于将�
 
 **示例 1：**
 
-```
+```php
 <?php 
 
 // Create a collection 
@@ -35,7 +35,7 @@ var_dump($collection->toArray()); 
 
 **示例 2：**
 
-```
+```php
 <?php 
 
 // Create a collection

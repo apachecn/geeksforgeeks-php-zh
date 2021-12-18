@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *float* atanh($value)
 ```
 
@@ -16,7 +16,7 @@
 
 示例:
 
-```
+```php
 Input : atanh(0.50)  
 Output : 0.54930614433405
 
@@ -35,7 +35,7 @@ Output : 1.0593061708232
 
 *   Passing 0.50 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atanh(0.50));
@@ -45,13 +45,13 @@ Output : 1.0593061708232
 
     输出:
 
-    ```
+    ```php
     0.54930614433405
     ```
 
 *   Passing -0.50 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atanh(-0.50));
@@ -61,13 +61,13 @@ Output : 1.0593061708232
 
     输出:
 
-    ```
+    ```php
     -0.54930614433405
     ```
 
 *   Passing 1 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atanh(1));
@@ -77,13 +77,13 @@ Output : 1.0593061708232
 
     输出:
 
-    ```
+    ```php
     INF
     ```
 
 *   When (M_PI_4) is passed as a parameter, M_PI_4 is a constant in PHP and it’s value is 0.78539816339744830962:
 
-    ```
+    ```php
     <?php
 
     echo (atanh(M_PI_4));
@@ -93,7 +93,7 @@ Output : 1.0593061708232
 
     输出:
 
-    ```
+    ```php
     1.0593061708232
     ```
 

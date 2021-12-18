@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool imagechar( $image, $font, $x, $y, $c, $color )
 ```
 
@@ -25,7 +25,7 @@ bool imagechar( $image, $font, $x, $y, $c, $color )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Creates image size
@@ -53,7 +53,7 @@ imagepng($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create image size

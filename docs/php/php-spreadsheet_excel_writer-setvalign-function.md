@@ -6,7 +6,7 @@ SetVAlign()函数是 Spreadsheet_Excel_Writer 中的内置函数，用于设置�
 
 **语法：**
 
-```
+```php
 *void* Format::setVAlign( $location )
 ```
 
@@ -18,7 +18,7 @@ SetVAlign()函数是 Spreadsheet_Excel_Writer 中的内置函数，用于设置�
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once 'Spreadsheet/Excel/Writer.php';
@@ -62,7 +62,7 @@ $workbook->close();
 
 ## PHP
 
-```
+```php
 <?php
 
 require_once 'Spreadsheet/Excel/Writer.php';

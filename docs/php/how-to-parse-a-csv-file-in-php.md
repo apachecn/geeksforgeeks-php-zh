@@ -26,19 +26,19 @@
 
 1.  使用 fopen 函数打开 CSV 的数据集。
 
-    ```
+    ```php
     $open = fopen("filename.csv", "r");
     ```
 
 2.  读一行使用**[**fgetcsv()**](https://www.geeksforgeeks.org/how-to-display-data-from-csv-file-using-php/)功能。**
 
-    ```
+    ```php
     $data = fgetcsv($Open, 1000, ",");
     ```
 
 3.  **使用循环迭代每一行数据。**
 
-    ```
+    ```php
     while (($data = fgetcsv($Open, 1000, ",")) !== FALSE) 
     {
       // Read the data    
@@ -47,7 +47,7 @@
 
 4.  **使用 PHP [**fclose()**](https://www.geeksforgeeks.org/php-fclose-function/) 方法关闭该文件。**
 
-    ```
+    ```php
     fclose($open);
     ```
 
@@ -55,7 +55,7 @@
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
   if (($open = fopen("Book1.csv", "r")) !== FALSE) 
@@ -76,7 +76,7 @@
 
 ****输出:****
 
-```
+```php
 array(6) {
   [0]=>
   array(2) {

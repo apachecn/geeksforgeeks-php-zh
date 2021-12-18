@@ -6,7 +6,7 @@ TIMEZONE_VERSION_GET()函数是 PHP 中的一个内置函数，用于返回时�
 
 **语法：**
 
-```
+```php
 string timezone_version_get()
 ```
 
@@ -20,7 +20,7 @@ string timezone_version_get()
 
 **程序：**
 
-```
+```php
 <?php
 
 // Displaying the version of the timezone database
@@ -32,7 +32,7 @@ echo ("Timezone Database Version: " . $timezone_db );
 
 **输出：**
 
-```
+```php
 Timezone Database Version: 0.system
 
 ```

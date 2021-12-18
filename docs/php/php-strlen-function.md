@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 strlen($string);
 ```
 
@@ -22,7 +22,7 @@ strlen($string);
 
 ## PHP
 
-```
+```php
 <?php
 
     // PHP program to find the
@@ -41,7 +41,7 @@ strlen($string);
 
 ## PHP
 
-```
+```php
 <?php
 
     // PHP program to find the

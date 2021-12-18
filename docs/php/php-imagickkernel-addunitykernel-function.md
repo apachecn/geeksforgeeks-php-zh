@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickKernel::addUnityKernel( *float* $scale )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -47,7 +47,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a kernel from matrix
@@ -67,7 +67,7 @@ print("<pre>".print_r($kernel->getMatrix(), true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before adding unity kernel:
 Array
 (

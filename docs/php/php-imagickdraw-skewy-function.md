@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::skewY( $degrees )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -78,7 +78,7 @@ echo $image->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

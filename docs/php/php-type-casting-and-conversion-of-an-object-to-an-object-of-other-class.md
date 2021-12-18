@@ -8,7 +8,7 @@
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to show 
 // standard type casting
@@ -65,7 +65,7 @@ var_dump($a);
 
 **Output:**
 
-```
+```php
 int(1)
 float(1)
 float(1)
@@ -91,7 +91,7 @@ NULL
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to convert an class object
 // to object of another class
@@ -137,7 +137,7 @@ print_r($object1);
 
 **Output:**
 
-```
+```php
 Geeks1 Object
 (
     [a] => geeksforgeeks
@@ -154,7 +154,7 @@ Geeks2 Object
 
 **示例：**
 
-```
+```php
 <?php
 // PHP program to convert an class object 
 // to object of another class
@@ -203,7 +203,7 @@ print_r($object1);
 
 **Output:**
 
-```
+```php
 Geeks1 Object
 (
     [a] => geeksforgeeks

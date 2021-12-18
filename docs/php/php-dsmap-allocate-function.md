@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Map::allocate( $capacity )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new map 
@@ -44,7 +44,7 @@ var_dump($map->capacity()); 
 
 **输出：**
 
-```
+```php
 int(8)
 int(64)
 int(128)
@@ -53,7 +53,7 @@ int(128)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new map 
@@ -77,7 +77,7 @@ foreach ($arr as $val) { 
 
 **输出：**
 
-```
+```php
 int(16)
 int(32)
 int(32)

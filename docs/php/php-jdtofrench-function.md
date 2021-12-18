@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 jdtofrench($jd)
 ```
 
@@ -16,7 +16,7 @@ jdtofrench($jd)
 
 例如：
 
-```
+```php
 Input : 2379254
 Output : 5/8/10 
 
@@ -29,7 +29,7 @@ Output : 1/7/13
 
 **程序 1：**下面的程序说明了 jdtofrch()函数的用法。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdtofrench() function 
@@ -51,7 +51,7 @@ echo "The french date initially taken was ", ($date), "\n"; 
 
 产出：
 
-```
+```php
 The julian day integer is 2380229
 The french date initially taken was 1/7/13
 
@@ -59,7 +59,7 @@ The french date initially taken was 1/7/13
 
 **程序 2：**下面的程序显示了传递无效儒略日整数时的输出。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // use of jdtofrench() function  
@@ -82,7 +82,7 @@ echo "The french date initially taken was ", ($date), "\n"; 
 
 产出：
 
-```
+```php
 The julian day integer is 0
 The french date initially taken was 0/0/0
 

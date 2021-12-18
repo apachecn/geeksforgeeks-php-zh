@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageProfiles( *string* $pattern = "*", *bool* $include_values = TRUE )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -42,7 +42,7 @@ print("<pre>".print_r($profiles, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

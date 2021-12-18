@@ -5,7 +5,7 @@
 **imagettfbbox()函数**是 PHP 中的一个内置函数，用于计算 TrueType 文本的边界框(以像素为单位)。
 **语法：**和
 
-```
+```php
 *array* imagettfbbox( *float* $size, *float* $angle, 
                  *string* $fontfile, *string* $text)
 ```
@@ -23,7 +23,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create bounding box with local font file
@@ -37,7 +37,7 @@ print("<pre>".print_r($bbox, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Array
 (
     [0] => 47
@@ -55,7 +55,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a image

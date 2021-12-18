@@ -10,7 +10,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     #declaring the number of zeros to lead the number
     $no_of_zeros = 4;
@@ -31,7 +31,7 @@
 
 **Output**
 
-```
+```php
 Original number : 999
 Modified number : 0000999
 ```
@@ -44,7 +44,7 @@ Modified number : 0000999
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   #declaring a number using a string with leading zeros
   $num = "00000092939292";
@@ -61,7 +61,7 @@ Modified number : 0000999
 
 **Output**
 
-```
+```php
 Original Number 
 00000092939292
 explicit casting.
@@ -76,7 +76,7 @@ explicit casting.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 #specify the new length of the string
 $len = 8;
@@ -95,7 +95,7 @@ echo $new_str;
 
 **Output**
 
-```
+```php
 Original String     2222
 Modified String     00002222
 ```
@@ -106,7 +106,7 @@ Modified String     00002222
 
 **语法:**
 
-```
+```php
 printf(format,arg1,arg2)
 ```
 
@@ -118,7 +118,7 @@ printf(format,arg1,arg2)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   #declaring the number
   $num = 86857658;
@@ -150,7 +150,7 @@ printf(format,arg1,arg2)
 
 **Output**
 
-```
+```php
 Original Number : 86857658
 <br>Modified Number : 000000000086857658
 ```

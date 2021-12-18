@@ -7,7 +7,7 @@ SimpleXMLElement：：Children()函数是 PHP 中的内置函数，它返回 Sim
 
 **语法：**
 
-```
+```php
 *SimpleXMLElement* SimpleXMLElement::children( $namespace, $is_prefix )
 ```
 
@@ -23,7 +23,7 @@ SimpleXMLElement：：Children()函数是 PHP 中的内置函数，它返回 Sim
 
 ## PHP
 
-```
+```php
 <?php
 
 // Loading XML document to $user

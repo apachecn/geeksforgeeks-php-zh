@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagewbmp( *resource* $image, *int* $to, *int* $foreground )
 ```
 
@@ -22,7 +22,7 @@
 
 **示例 1：**在此示例中，我们将在浏览器中下载图像。
 
-```
+```php
 <?php
 
 // Load an wbmp image from local folder
@@ -41,7 +41,7 @@ imagedestroy($im);
 
 **示例 2：**在本例中，我们将 PNG 转换为 WBMP。
 
-```
+```php
 <?php
 
 // Load an image from PNG URL

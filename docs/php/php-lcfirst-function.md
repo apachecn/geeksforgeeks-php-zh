@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 lcfirst($string)
 ```
 
@@ -16,7 +16,7 @@ lcfirst($string)
 
 例如：
 
-```
+```php
 Input : "Geeks for geeks"
 Output : geeks for geeks
 
@@ -29,7 +29,7 @@ Output : chetna agarwal
 
 **程序 1：**
 
-```
+```php
 <?php
     // PHP program to demonstrates the 
     // use of lcfirst() function 
@@ -44,14 +44,14 @@ Output : chetna agarwal
 
 产出：
 
-```
+```php
 geeks for geeks
 
 ```
 
 **程序 2：**下面的程序演示了在起始字符已经是小写时如何使用 lcfirst()函数。
 
-```
+```php
 <?php
     // PHP program that demonstrates the 
     // use of lcfirst() function when 
@@ -67,7 +67,7 @@ geeks for geeks
 
 产出：
 
-```
+```php
 chetna agarwal
 
 ```

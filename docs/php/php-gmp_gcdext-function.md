@@ -7,7 +7,7 @@ Gmp_gcdext()是 PHP 中的一个内置函数，它计算给定方程的 GCD(最�
 
 **语法：**
 
-```
+```php
 array gmp_gcdext ( GMP $a, GMP $b )
 
 ```
@@ -21,7 +21,7 @@ array gmp_gcdext ( GMP $a, GMP $b )
 
 **示例：**
 
-```
+```php
 Input: a = 12  ,  b = 21
        equation = 12 * x + 21 * y = 3
 Output:  
@@ -34,7 +34,7 @@ Output: x = 1  ,  y = 0  ,  GCD(12,21) = 5
 
 下面的程序演示了 gmp_gcdext()函数：
 
-```
+```php
 <?php
 // PHP code to solve a Diophantine equation 
 
@@ -65,7 +65,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Solution: 5 * -1 + 6 * 1 = 1
 
 ```

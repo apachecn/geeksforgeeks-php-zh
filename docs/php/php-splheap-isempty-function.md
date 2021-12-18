@@ -11,7 +11,7 @@ SplHeap：：isEmpty()函数是 PHP 中的一个内置函数，用于检查堆�
 
 **语法：**
 
-```
+```php
 bool SplHeap::isEmpty()
 ```
 
@@ -25,7 +25,7 @@ bool SplHeap::isEmpty()
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 
@@ -52,7 +52,7 @@ var_dump($heap2->isEmpty());
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Min Heap 

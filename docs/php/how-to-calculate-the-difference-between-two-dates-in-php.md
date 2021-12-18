@@ -6,7 +6,7 @@
 
 **考虑下面的例子:**
 
-```
+```php
 Input: start_date: 2016-06-01 22:45:00 
        end_date: 2018-09-21 10:44:01
 Output: 2 years, 3 months, 21 days, 11 hours, 59 minutes, 1 seconds
@@ -21,7 +21,7 @@ Explanation: The difference of 2 dates will give the date in complete format.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // Creates DateTime objects
@@ -38,7 +38,7 @@ Explanation: The difference of 2 dates will give the date in complete format.
 
 **输出:**
 
-```
+```php
 +2 years 3 months
 ```
 
@@ -48,7 +48,7 @@ Explanation: The difference of 2 dates will give the date in complete format.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Declare and define two dates
@@ -103,7 +103,7 @@ Explanation: The difference of 2 dates will give the date in complete format.
 
 **输出:**
 
-```
+```php
 2 years, 3 months, 21 days, 11 hours, 59 minutes, 1 seconds
 ```
 
@@ -111,7 +111,7 @@ Explanation: The difference of 2 dates will give the date in complete format.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Declare two dates
@@ -128,7 +128,7 @@ Explanation: The difference of 2 dates will give the date in complete format.
 
 **输出:**
 
-```
+```php
 Difference between two dates: 103
 ```
 

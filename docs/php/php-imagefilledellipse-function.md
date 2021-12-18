@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagefilledellipse( $image, $cx, $cy, $width, $height, $color )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.
@@ -55,7 +55,7 @@ imagepng($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.

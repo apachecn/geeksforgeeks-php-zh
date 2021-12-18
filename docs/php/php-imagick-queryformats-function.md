@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::queryFormats( *string* $pattern = "*" )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -36,7 +36,7 @@ print("<pre>".print_r($formats, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

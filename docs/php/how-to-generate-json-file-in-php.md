@@ -6,7 +6,7 @@
 
 **结构**:
 
-```
+```php
 {"data":[
  { "sub_data1":"value1", "sub_data2":"value2","sub_data_n":"value n" },
  { "sub_data2":"value2","sub_data2":"value2", "sub_data_n":"value n" },
@@ -16,7 +16,7 @@
 
 **例**:
 
-```
+```php
 [{"id":"7020","name":"Bobby","Subject":"Java"},
  {"id":"7021","name":"ojaswi","Subject":"sql"}]
 ```
@@ -32,7 +32,7 @@
 
 **语法**:
 
-```
+```php
 $array = Array (
    "number" => Array (
        "data1" => "value1",
@@ -49,7 +49,7 @@ $array = Array (
 
 **示例:**
 
-```
+```php
 $array = Array (
    "0" => Array (
        "id" => "7020",
@@ -68,13 +68,13 @@ $array = Array (
 
 **语法**:
 
-```
+```php
 json_encode(array_input);
 ```
 
 **示例**:使用 [file_put_contents()](https://www.geeksforgeeks.org/php-file_put_contents-function/) 将文件放置在路径中
 
-```
+```php
 $json = json_encode($array);
 ```
 
@@ -82,13 +82,13 @@ $json = json_encode($array);
 
 **语法**:
 
-```
+```php
 *file_put_contents(file_name.json.json_object);*
 ```
 
 **例**:
 
-```
+```php
 file_put_contents("geeks_data.json", $json);
 ```
 
@@ -96,7 +96,7 @@ file_put_contents("geeks_data.json", $json);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // input data  through array
@@ -125,7 +125,7 @@ file_put_contents("geeks_data.json", $json);
 
 **输出:**
 
-```
+```php
 [{"id":"7020","name":"Bobby","Subject":"Java"},
  {"id":"7021","name":"ojaswi","Subject":"sql"}]
 ```

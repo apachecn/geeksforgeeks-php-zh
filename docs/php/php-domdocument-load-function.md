@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* DOMDocument::load( *string* $filename, *int* $options = 0 )
 ```
 
@@ -21,7 +21,7 @@
 
 **gfg.xml**
 
-```
+```php
 <user> 
     <username>Geeks123</username> 
     <name>GeeksforGeeks</name>  
@@ -34,7 +34,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

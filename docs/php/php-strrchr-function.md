@@ -6,7 +6,7 @@
 
 **语法**：
 
-```
+```php
 strrchr($string, $key)
 
 ```
@@ -20,7 +20,7 @@ strrchr($string, $key)
 
 例如：
 
-```
+```php
 Input : $string = "Hello|welcome|to|gfg"  $key = '|'
 Output : |gfg
 
@@ -33,7 +33,7 @@ Output : gfg
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // Input string
@@ -49,14 +49,14 @@ echo strrchr($string, $key);
 
 产出：
 
-```
+```php
 |gfg
 
 ```
 
 **程序 2**：当$key 包含转义序列时。
 
-```
+```php
 <?php
 
 // Input string
@@ -72,7 +72,7 @@ echo strrchr($string, $key);
 
 产出：
 
-```
+```php
 
 gfg
 
@@ -80,7 +80,7 @@ gfg
 
 **程序 3**：当$key 包含多个字符时。
 
-```
+```php
 <?php
 
 // Input string
@@ -96,7 +96,7 @@ echo strrchr($string, $key);
 
 产出：
 
-```
+```php
 |gfg
 
 ```

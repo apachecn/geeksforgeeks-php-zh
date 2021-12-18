@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::compositeimage( *Gmagick* $source, *int* $COMPOSE, *int* $x, *int* $y )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**此程序使用 Gmagick：：CompositeImage()函数合成两幅没有偏移的图像。
 
-```
+```php
 <?php
 
 // Create two new Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick1;  
 
 **程序 2：**此程序使用 Gmagick：：CompositeImage()函数合成两幅带有偏移量的图像。
 
-```
+```php
 <?php
 
 // Create two new Gmagick object

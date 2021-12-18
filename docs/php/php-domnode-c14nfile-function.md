@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* DOMNode::C14NFile( *string* $uri, *bool* $exclusive, 
 *bool* $with_comments, *array* $xpath, *array* $ns_prefixes )
 ```
@@ -25,7 +25,7 @@
 
 **示例 1：**在此示例中，我们将字符串形式的 DOM 内容保存到不带注释的文件
 
-```
+```php
 <?php
 
 // Create a DOMDocument
@@ -47,7 +47,7 @@ $stringdata = $doc->C14NFile('new.txt');
 
 **输出：**这将创建一个具有以下文本内容
 
-```
+```php
 <html><h1></h1></html>
 ```
 
@@ -55,7 +55,7 @@ $stringdata = $doc->C14NFile('new.txt');
 
 **示例 2：**在本例中，我们将字符串形式的 DOM 内容保存到一个带有注释的文件中。
 
-```
+```php
 <?php
 
 // Create a DOMDocument
@@ -77,7 +77,7 @@ $stringdata = $doc->C14NFile('new.txt', false, true);
 
 **输出：**这将创建一个具有以下文本内容
 
-```
+```php
 <html><!-- This is a comment --><h1></h1></html>
 ```
 

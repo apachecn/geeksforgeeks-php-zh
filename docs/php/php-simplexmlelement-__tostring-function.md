@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* XMLReader::__toString( *void* )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create the XML
@@ -41,7 +41,7 @@ echo $string;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 
@@ -49,7 +49,7 @@ GeeksforGeeks
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create the XML
@@ -73,7 +73,7 @@ echo $string;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 // Empty string because text content is in a children node not current node.
 ```
 

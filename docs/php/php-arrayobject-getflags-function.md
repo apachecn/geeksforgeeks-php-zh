@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *int* ArrayObject::getFlags( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::getFlags() function 
@@ -49,7 +49,7 @@ var_dump($flag); 
 
 **输出:**
 
-```
+```php
 int(0)
 int(2)
 
@@ -57,7 +57,7 @@ int(2)
 
 **程序二:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::getFlags() function 
@@ -92,7 +92,7 @@ var_dump($flag); 
 
 **输出:**
 
-```
+```php
 int(0)
 int(1)
 

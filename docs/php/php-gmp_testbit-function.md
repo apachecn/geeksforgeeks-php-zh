@@ -6,7 +6,7 @@ Gmp_testbit()是 PHP 中的一个内置函数，用于检查是否设置了给�
 
 **语法：**
 
-```
+```php
 gmp_testbit($num, $index)
 ```
 
@@ -19,7 +19,7 @@ gmp_testbit($num, $index)
 
 例如：
 
-```
+```php
 Input : $num=4 $index=2
 Output :  true
 
@@ -32,7 +32,7 @@ Output :  false
 
 **程序 1：**下面的程序演示了当 GMP 编号作为参数传递时，gmp_testbit()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to check the sign 
 // of a number 
@@ -54,7 +54,7 @@ var_dump(gmp_testbit($num, $index2));  
 
 **程序 2：**下面的程序演示了将数字字符串作为参数传递时 gmp_testbit()的工作方式。
 
-```
+```php
 <?php
 // PHP program to check the sign 
 // of a number 

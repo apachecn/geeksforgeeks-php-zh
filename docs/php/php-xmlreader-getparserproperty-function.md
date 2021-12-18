@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::getParserProperty( *int* $property )
 ```
 
@@ -28,7 +28,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div xmlns:x="geeksforgeeks">
         <x:h1 x:attrib="value">
@@ -39,7 +39,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -64,7 +64,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div xmlns:x="geeksforgeeks">
         <x:h1 x:attrib="value">
@@ -75,7 +75,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance

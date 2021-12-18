@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *float* acosh($value)
 ```
 
@@ -16,7 +16,7 @@
 
 示例:
 
-```
+```php
 Input : acosh(7)
 Output : 2.6339157938496
 
@@ -32,7 +32,7 @@ Output : 1.5447131178707
 
 *   Passing 7 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (acosh(7));
@@ -42,13 +42,13 @@ Output : 1.5447131178707
 
     输出:
 
-    ```
+    ```php
     2.6339157938496
     ```
 
 *   Passing 56 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (acosh(56));
@@ -58,13 +58,13 @@ Output : 1.5447131178707
 
     输出:
 
-    ```
+    ```php
     4.7184191423729
     ```
 
 *   Passing 2.45 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (acosh(2.45));
@@ -74,7 +74,7 @@ Output : 1.5447131178707
 
     输出:
 
-    ```
+    ```php
     1.5447131178707
     ```
 

@@ -6,7 +6,7 @@ Geoip_db_filename()函数是 PHP 中的一个内置函数，用于生成作为�
 
 **语法：**
 
-```
+```php
 string geoip_db_filename ( $database )
 ```
 
@@ -35,7 +35,7 @@ string geoip_db_filename ( $database )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code implementing the geoip_db_filename() function 
@@ -50,7 +50,7 @@ print geoip_db_filename(GEOIP_COUNTRY_EDITION);
 
 **程序 2：**
 
-```
+```php
 <?php
 $arr = array(
              'GEOIP_COUNTRY_EDITION' => GEOIP_COUNTRY_EDITION,

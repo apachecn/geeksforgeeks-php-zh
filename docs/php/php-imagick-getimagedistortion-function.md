@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *float* Imagick::getImageDistortion(*Imagick* $reference, *int* $metric)
 ```
 
@@ -30,7 +30,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -50,13 +50,13 @@ echo $distortion;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.97254902124405
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -76,13 +76,13 @@ echo $distortion;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.020707619325613
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -102,7 +102,7 @@ echo $distortion;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 because both images are same.
 ```
 

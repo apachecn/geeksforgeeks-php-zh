@@ -14,7 +14,7 @@
 
 *   Laravel 实际上使用名为 [Composer](https://getcomposer.org/) 的依赖管理器工具来安装运行 Laravel 所需的所有库。因此，在我们继续之前，请确保您的系统中安装了 composer。您可以从[这里](https://getcomposer.org/download/)轻松安装 Composer。它有很好的文档记录，安装后，在您的终端/命令提示符下运行下面给出的命令:
 
-```
+```php
 composer
 ```
 
@@ -24,7 +24,7 @@ composer
 
 *   下一步是创建一个文件夹，我们将在其中创建我们的新的 Laravel 项目。移动到那个文件夹后，运行这个 composer 命令来创建一个新的 Laravel 项目。
 
-```
+```php
 composer create-project --prefer-dist laravel/laravel my-first-laravel-project
 ```
 
@@ -38,7 +38,7 @@ composer create-project --prefer-dist laravel/laravel my-first-laravel-project
 
 *   现在你有了一个名为"我的第一个拉沃尔项目"的新文件夹，并移动到那个文件夹。你会注意到在这个文件夹里面已经有很多文件和文件夹了，这实际上是 Laravel 框架本身。在这个文件夹中，运行下面给出的命令来启动内置的 PHP 服务器。
 
-```
+```php
 php artisan serve
 ```
 

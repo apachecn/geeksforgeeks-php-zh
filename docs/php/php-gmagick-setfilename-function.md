@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setfilename( *string* $filename )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -40,13 +40,13 @@ echo $name;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Filename_1.png
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -63,7 +63,7 @@ $gmagick->writeimage($gmagick->getfilename());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the image geeksforgeeks.png as Filename_1.png on the same folder.
 ```
 

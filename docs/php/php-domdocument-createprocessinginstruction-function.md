@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMProcessingInstruction* DOMDocument::createProcessingInstruction( $target, $data )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -42,7 +42,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <?name GeeksforGeeks?>
 
@@ -50,7 +50,7 @@ echo $domDocument->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -78,7 +78,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <?name GeeksforGeeks?>
 <?contact Noida?>

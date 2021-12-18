@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::polyline( *array* $coordinates_array )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**在图像上绘制
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -62,7 +62,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2：**从头开始绘图
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

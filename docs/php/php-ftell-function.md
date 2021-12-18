@@ -6,7 +6,7 @@ PHP 中的 ftell()函数是一个内置函数，用于返回打开文件中的�
 
 **语法：**
 
-```
+```php
 ftell( $file )
 ```
 
@@ -21,7 +21,7 @@ ftell( $file )
 
 示例：
 
-```
+```php
 Input : $myfile = fopen("gfg.txt", "r");
         echo ftell($myfile);
 Output : 0
@@ -41,7 +41,7 @@ Output : 0
 
 > 极客是极客的门户！
 
-```
+```php
 <?php
 // Opening a file in read. mode
 $myfile = fopen("gfg.txt", "r");
@@ -60,7 +60,7 @@ fclose($myfile);
 
 > 极客是极客的门户！
 
-```
+```php
 <?php
 // Opening a file in read. mode
 $myfile = fopen("gfg.txt", "r");

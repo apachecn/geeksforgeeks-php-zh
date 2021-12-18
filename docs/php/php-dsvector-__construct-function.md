@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 public Ds\Vector::__construct( $values )
 ```
 
@@ -16,7 +16,7 @@ public Ds\Vector::__construct( $values )
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new Vector
@@ -32,7 +32,7 @@ print_r($vect);
 
 **Output:**
 
-```
+```php
 Ds\Vector Object
 (
 )
@@ -48,7 +48,7 @@ Ds\Vector Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new vector
@@ -63,7 +63,7 @@ var_dump($vect);
 
 **输出：**
 
-```
+```php
 object(Ds\Vector)#1 (5) {
   [0]=>
   int(2)

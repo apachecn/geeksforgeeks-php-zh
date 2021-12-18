@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 strpos(string, character, start_pos)
 ```
 
@@ -22,7 +22,7 @@ strpos(string, character, start_pos)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Consider the string
@@ -48,7 +48,7 @@ echo strpos($str1, ' ');
 
 **Output**
 
-```
+```php
 12
 0
 2
@@ -59,7 +59,7 @@ echo strpos($str1, ' ');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Consider the string
@@ -81,7 +81,7 @@ echo strpos($str1, 'H', 8);
 
 **Output**
 
-```
+```php
 12
 
 ```

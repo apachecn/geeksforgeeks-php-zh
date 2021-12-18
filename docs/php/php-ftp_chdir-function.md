@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_chdir( $ftp_connection, $directory )
 ```
 
@@ -26,7 +26,7 @@ ftp_chdir( $ftp_connection, $directory )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -83,7 +83,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 successfully connected to the ftp server!
 logged in successfully!
 Current directory successfully changed to htdocs.

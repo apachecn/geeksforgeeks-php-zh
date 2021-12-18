@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageProperty( *string* $name, *string* $value )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

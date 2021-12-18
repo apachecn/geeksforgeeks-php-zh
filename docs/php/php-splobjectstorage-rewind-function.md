@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::rewind()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -54,7 +54,7 @@ var_dump($str->getInfo());
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 string(5) "Geeks"
 string(3) "GFG"
@@ -63,7 +63,7 @@ string(3) "GFG"
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -89,7 +89,7 @@ while($gfg->valid()) {
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 string(12) "GeeksClasses"
 string(4) "SUDO"

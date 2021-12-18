@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* SplDoublyLinkedList::pop( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -42,7 +42,7 @@ var_dump($list->pop());
 
 **输出：**
 
-```
+```php
 string(1) "G"
 string(5) "Geeks"
 
@@ -50,7 +50,7 @@ string(5) "Geeks"
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -75,7 +75,7 @@ var_dump($list->pop());
 
 **输出：**
 
-```
+```php
 int(5)
 int(8)
 int(3)

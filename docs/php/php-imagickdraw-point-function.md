@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::point( $x, $y )
 ```
 
@@ -20,7 +20,7 @@
 下面的程序说明了 PHP：
 **程序：**中的**ImagickDraw：：Point()**函数
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object

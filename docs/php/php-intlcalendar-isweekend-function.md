@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* IntlCalendar::isWeekend( *float* $date = NULL )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_is_weekend( *IntlCalendar* $cal, *float* $date = NULL )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -58,7 +58,7 @@ var_dump($calendar->isWeekend());
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(true)

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : 6
 Output : Perfect Number
 Explanation: factors of 6 are 1, 2, 3, 6
@@ -26,7 +26,7 @@ Explanation : factors of 24 are 1,2,3,4,6,8,12,24
 
 下面是上述思想在 PHP 中的实现:
 
-```
+```php
 <?php
 // Function to check if a number is perfect
 function isPerfectNumber($N)
@@ -61,7 +61,7 @@ else
 
 输出:
 
-```
+```php
 Perfect Number
 
 ```

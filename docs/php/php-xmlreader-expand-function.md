@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* XMLReader::expand( *DOMNode* $basenode )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <root>
         <div> This is a div </div>
@@ -29,7 +29,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -55,7 +55,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <body>
         <h1 style="color:green; font-size:100px;"> 
@@ -66,7 +66,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance

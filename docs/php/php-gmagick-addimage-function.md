@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Gmagick::addImage( $source )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // require_once('path/to/vendor/autoload.php');
@@ -49,7 +49,7 @@ echo $image;
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 

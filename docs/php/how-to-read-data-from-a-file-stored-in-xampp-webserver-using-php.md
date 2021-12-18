@@ -10,7 +10,7 @@
 
 ******语法:******
 
-```
+```php
 **fopen('filename', filemode)** 
 ```
 
@@ -37,7 +37,7 @@
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 // File to be read
@@ -60,7 +60,7 @@ fclose($f);
 
 *****welcome.txt* 文件中的数据有:****
 
-```
+```php
 **GEEKS FOR GEEKS IS BEST FOR COMPUTER SCIENCE**
 ```
 

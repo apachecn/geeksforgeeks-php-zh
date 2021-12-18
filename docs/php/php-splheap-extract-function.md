@@ -11,7 +11,7 @@ SplHeap：：Extract()函数是 PHP 中的一个内置函数，用于从堆的�
 
 **语法：**
 
-```
+```php
 mixed SplHeap::extract()
 ```
 
@@ -25,7 +25,7 @@ mixed SplHeap::extract()
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Min Heap 
@@ -49,7 +49,7 @@ echo $heap->extract();
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickPixelIterator::getCurrentIteratorRow( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1(获取第一行的前五个像素)：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick();
@@ -42,7 +42,7 @@ print("<pre>".print_r($row, true)."</pre>");
 
 **程序 2(获取第一行前五个像素的颜色)：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(

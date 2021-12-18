@@ -6,7 +6,7 @@ Hash_pbkdf2()函数是 PHP 中的一个内置函数，用于生成提供的密�
 
 **语法：**
 
-```
+```php
 *string* hash_pbkdf2( $algo, $pass, $salt, $itr, $len, $raw_opt )
 ```
 
@@ -24,7 +24,7 @@ Hash_pbkdf2()函数是 PHP 中的一个内置函数，用于生成提供的密�
 以下程序说明了 PHP 中的 hash_pbkdf2()函数：
 **程序 1：**
 
-```
+```php
 <?php
 $gfg = "GeeksforGeeks";
 $iterations = 142;
@@ -46,14 +46,14 @@ echo $hash;
 
 **Output:**
 
-```
+```php
 f0ebbbf59869d76f946c4b15340761
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $gfg = "Contribute1234";
 $iterations = 100;
@@ -75,7 +75,7 @@ echo $hash;
 
 **Output:**
 
-```
+```php
 715b385158045923923c
 
 ```

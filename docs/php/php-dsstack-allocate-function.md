@@ -5,7 +5,7 @@
 **ds\Stack：：Allocation()函数**是 PHP 中的一个内置函数，用于为所需的容量分配内存。 此函数为 Stack 类实例的给定容量分配足够的内存。
 **语法：**和
 
-```
+```php
 *void* Ds\Stack::allocate( $capacity )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -46,7 +46,7 @@ var_dump($stack->capacity());
 
 **Output:** 
 
-```
+```php
 Allocated Space is: int(8)
 Allocated space is: int(50)
 ```
@@ -55,7 +55,7 @@ Allocated space is: int(50)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare new stack
@@ -88,7 +88,7 @@ var_dump($stack->capacity());
 
 **Output:** 
 
-```
+```php
 Allocated Space is: int(8)
 Allocated space is: int(8)
 Allocated space is: int(120)

@@ -17,7 +17,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     // Program to display URL of current page.
     if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
@@ -40,7 +40,7 @@
 
 **输出:**
 
-```
+```php
 https://ide.geeksforgeeks.org/
 ```
 
@@ -48,7 +48,7 @@ https://ide.geeksforgeeks.org/
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     // Program to display current page URL.
     $link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] 
@@ -61,7 +61,7 @@ https://ide.geeksforgeeks.org/
 
 **输出:**
 
-```
+```php
 https://ide.geeksforgeeks.org/
 ```
 
@@ -71,7 +71,7 @@ https://ide.geeksforgeeks.org/
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // Program to display complete URL
@@ -98,7 +98,7 @@ https://ide.geeksforgeeks.org/
 
 **输出:**
 
-```
+```php
 https://ide.geeksforgeeks.org/index.php
 ```
 
@@ -106,7 +106,7 @@ https://ide.geeksforgeeks.org/index.php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // Program to display complete URL
@@ -121,7 +121,7 @@ https://ide.geeksforgeeks.org/index.php
 
 **输出:**
 
-```
+```php
 https://ide.geeksforgeeks.org/index.php
 ```
 

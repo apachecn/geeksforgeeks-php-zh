@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::relaxNGValidateSource( *string* $source )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -63,7 +63,7 @@ if ($doc->relaxNGValidateSource($RNG)) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

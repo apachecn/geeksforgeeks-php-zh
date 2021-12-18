@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::displayImages( *string* $servername )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create an Imagick object 
@@ -42,7 +42,7 @@ echo $imagick->getImageBlob(); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 

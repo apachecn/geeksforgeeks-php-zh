@@ -12,7 +12,7 @@ PHP 中的 dir()函数是一个内置函数，用于返回 Directory 类的实�
 
 **语法：**
 
-```
+```php
 dir($directory, $context)
 ```
 
@@ -32,7 +32,7 @@ dir($directory, $context)
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $dir_handle = dir("user/gfg");
@@ -50,7 +50,7 @@ while(($file_name = $dirhandle->read()) !== false) 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $dir_handle = dir("user/gfg");

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::attach($obj, $val)
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare new object
@@ -41,14 +41,14 @@ var_dump($str[$obj]);
 
 **输出：**
 
-```
+```php
 string(13) "GeeksforGeeks"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Creating std classes
@@ -76,7 +76,7 @@ var_dump($str[$obj4]);
 
 **输出：**
 
-```
+```php
 NULL
 string(3) "GFG"
 string(13) "GeeksforGeeks"

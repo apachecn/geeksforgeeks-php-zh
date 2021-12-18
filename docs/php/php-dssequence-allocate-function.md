@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* abstract public Ds\Sequence::allocate ( int $capacity )
 
 ```
@@ -19,7 +19,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -47,7 +47,7 @@ var_dump($seq->capacity());
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

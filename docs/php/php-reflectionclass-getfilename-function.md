@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionClass::getFileName( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class
@@ -43,14 +43,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 string(23) "C:\xampp\htdocs\gfg.php"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass 
@@ -67,7 +67,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

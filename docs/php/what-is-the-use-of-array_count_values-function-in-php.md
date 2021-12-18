@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```php
 array array_count_values( $array )
 ```
 
@@ -20,7 +20,7 @@ array array_count_values( $array )
 
 ## **PHP**
 
-```
+```php
 <?php
 
 // Array of subjects with 4 elements
@@ -34,7 +34,7 @@ print_r(array_count_values($array1));
 
 ****输出**
 
-```
+```php
 Array
 (
     [Python] => 1
@@ -49,7 +49,7 @@ Array
 
 ## **PHP**
 
-```
+```php
 <?php
 
 // Array of subjects with 8 elements
@@ -64,7 +64,7 @@ print_r(array_count_values($array1));
 
 ****输出**
 
-```
+```php
 Array
 (
     [Python] => 1

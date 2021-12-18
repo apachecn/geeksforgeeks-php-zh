@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::pingImage( $filename )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序：**该程序通过图像链接告诉图像的高度和宽度。
 
-```
+```php
 <?php
 
 // Create new Imagick object

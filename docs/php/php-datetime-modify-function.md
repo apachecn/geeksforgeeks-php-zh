@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *DateTime* DateTime::modify( *string* $modify )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *DateTime* date_modify( *DateTime* $object, *string* $modify )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate 
 // DateTime::modify() function
@@ -49,14 +49,14 @@ echo $datetime->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-10-05
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP program to illustrate the
 // DateTime::modify() function
@@ -76,7 +76,7 @@ echo $datetime->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2020-03-01
 
 ```

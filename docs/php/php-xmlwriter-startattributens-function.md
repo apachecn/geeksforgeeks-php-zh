@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::startAttributeNs( *string* $prefix, 
 *string* $name, *string* $uri )
 ```
@@ -23,7 +23,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -57,14 +57,14 @@ $writer->endDocument();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <div pre:attrib="value" xmlns:pre="value"/>
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance

@@ -20,7 +20,7 @@ PHP 中使用了许多类型的行尾字符。它们因操作系统和使用它�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   #declaring a string
   $str = "Illustrating the usage \r\nof\n\rline\nseparators\r";
@@ -31,7 +31,7 @@ PHP 中使用了许多类型的行尾字符。它们因操作系统和使用它�
 
 **Output**
 
-```
+```php
 Illustrating the usage <br />
 of<br />
 

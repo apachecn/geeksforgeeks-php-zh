@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* stream_get_filters( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -31,7 +31,7 @@ print_r($streamlist);
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => zlib.*
@@ -49,7 +49,7 @@ Array
 
 **程序 2：**打印按函数返回的过滤器数量的程序。
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -66,7 +66,7 @@ echo "Total Available Filters = " . $count;
 
 **输出：**
 
-```
+```php
 Total Available Filters = 9
 
 ```

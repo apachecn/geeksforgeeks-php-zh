@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickPixelIterator* Imagick::getPixelRegionIterator( *int* $x, *int* $y, *int* $columns, *int* $rows )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -55,7 +55,7 @@ echo $imagick;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

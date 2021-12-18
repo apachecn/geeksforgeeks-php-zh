@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *float* ImagickDraw::getFontSize( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -37,14 +37,14 @@ echo $fontSize;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 45
 ```
 
 **注意：**默认字体大小为 12。
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

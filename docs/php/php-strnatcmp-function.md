@@ -6,7 +6,7 @@ Strnatcmp()是 PHP 的内置函数。 此函数使用“自然顺序”算法比
 
 **语法：**
 
-```
+```php
 strnatcmp( $string1, $string2 )
 ```
 
@@ -23,7 +23,7 @@ strnatcmp( $string1, $string2 )
 
 例如：
 
-```
+```php
 Input : $string1 = "Hello", $string2 = "HEllo"
 Output : 1
 
@@ -36,7 +36,7 @@ Output : -1
 
 **程序 1：**此程序显示 strnatcmp()函数的简单用法。
 
-```
+```php
 <?php
 
     echo strnatcmp("Geek", "Geeks");
@@ -46,13 +46,13 @@ Output : -1
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 -1
 ```
 
 **程序 2：**此程序显示 strnatcmp()函数区分大小写。
 
-```
+```php
 <?php
 
     echo strnatcmp("Geeks", "GEEks");
@@ -62,13 +62,13 @@ Output : -1
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1
 ```
 
 **程序 3：**此程序说明了 strcmp()和 strnatcmp()函数之间的区别。
 
-```
+```php
 <?php
 
     echo strnatcmp("Geek of month 2", "Geek of month 10");
@@ -80,7 +80,7 @@ Output : -1
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 -1
 256
 ```

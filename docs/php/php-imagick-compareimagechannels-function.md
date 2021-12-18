@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::compareImageChannels( *Imagick* $image, *int* $channelType, *int* $metricType )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序：**
 
-```
+```php
 
 <?php
 

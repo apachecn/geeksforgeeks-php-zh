@@ -5,7 +5,7 @@
 **IntlChar：：isIDPart()**函数是 PHP 中的内置函数，用于检查给定的输入字符在标识符中是否允许。 对于一般类别为“L”(字母)、“ND”(十进制数字)、“NL”(字母数字)、“Mc”和“Mn”(组合符号)、“Pc”(连接标点符号)和 u_isIDIgnorable(C)的字符为 True。
 **语法：**和
 
-```
+```php
 *bool* IntlChar::isIDPart( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP code to illustrate
@@ -44,7 +44,7 @@ var_dump(IntlChar::isIDPart("\u{012C}"));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true)
 NULL
 NULL
@@ -57,7 +57,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate
 // IntlChar::isIDPart() function
@@ -83,7 +83,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true)
 bool(true)
 bool(false)

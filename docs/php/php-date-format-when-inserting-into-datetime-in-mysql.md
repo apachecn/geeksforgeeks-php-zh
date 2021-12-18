@@ -10,7 +10,7 @@
 
 **示例：**
 
-```
+```php
 DATE: YYYY-MM-DD
 Example: 2005-12-26
 
@@ -26,7 +26,7 @@ YEAR: YYYY or YY
 
 **创建数据库的 MySQL 查询：**
 
-```
+```php
 CREATE DATABASE Date_time_example;
 
 ```
@@ -35,7 +35,7 @@ CREATE DATABASE Date_time_example;
 
 ## PHP
 
-```
+```php
 <?php
 
 $servername = "localhost";

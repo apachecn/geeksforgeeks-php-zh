@@ -6,7 +6,7 @@ SplDoublyLinkedList：：setIteratorMode()函数是 PHP 中的内置函数，用
 
 **语法：**
 
-```
+```php
 *void* SplDoublyLinkedList::setIteratorMode( *int* $mode )
 ```
 
@@ -26,7 +26,7 @@ SplDoublyLinkedList：：setIteratorMode()函数是 PHP 中的内置函数，用
 以下程序说明 PHP：
 **程序 1：**中的 SplDoublyLinkedList：：setIteratorMode()函数
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -58,7 +58,7 @@ var_dump($mode);
 
 **Output:**
 
-```
+```php
 int(0)
 int(1)
 int(2)
@@ -67,7 +67,7 @@ int(2)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -93,7 +93,7 @@ var_dump($mode & SplDoublyLinkedList::IT_MODE_KEEP); 
 
 **Output:**
 
-```
+```php
 int(0)
 int(2)
 int(1)

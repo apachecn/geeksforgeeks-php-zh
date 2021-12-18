@@ -19,7 +19,7 @@ PHP 遵循很少的规则，并保持其编码风格。由于世界各地有许�
 
 **完整标签:**
 
-```
+```php
 <?PHP
   PHP code
 ?>                
@@ -27,7 +27,7 @@ PHP 遵循很少的规则，并保持其编码风格。由于世界各地有许�
 
 **短标签:**
 
-```
+```php
 <?
   PHP code
 ?>
@@ -42,7 +42,7 @@ PHP 遵循很少的规则，并保持其编码风格。由于世界各地有许�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $n = 5;
@@ -61,7 +61,7 @@ else{
 
 **输出:**
 
-```
+```php
 Positive
 ```
 
@@ -69,7 +69,7 @@ Positive
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 echo testFunc(5, 6);
@@ -84,7 +84,7 @@ function testFunc($num1, $num2) {
 
 **输出:**
 
-```
+```php
 11
 ```
 

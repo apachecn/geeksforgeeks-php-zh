@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::resampleImage( $x_resolution, $y_resolution, $filter, 
 $blur )
 
@@ -27,7 +27,7 @@ $blur )
 
 **程序：**
 
-```
+```php
 <?php    
 
 // Create new Imagick object

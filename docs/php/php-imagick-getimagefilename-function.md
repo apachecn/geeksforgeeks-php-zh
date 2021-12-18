@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::getImageFilename( void )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -36,7 +36,7 @@ echo $name;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object with a image

@@ -6,7 +6,7 @@ DATE_DEFAULT_TIMEZONE_SET()函数是 PHP 中的一个内置函数，用于设置
 
 **语法：**
 
-```
+```php
 bool date_default_timezone_set( $timezone_identifier )
 ```
 
@@ -18,7 +18,7 @@ bool date_default_timezone_set( $timezone_identifier )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Set timezone
@@ -38,14 +38,14 @@ if (strcmp($timezone_object, ini_get('date.timezone'))){
 
 **输出：**
 
-```
+```php
 Script timezone differs from ini-set timezone.
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Set the timezone
@@ -65,7 +65,7 @@ if (strcmp($timezone_object, ini_get('date.timezone'))){
 
 **输出：**
 
-```
+```php
 Script timezone differs from ini-set timezone.
 
 ```

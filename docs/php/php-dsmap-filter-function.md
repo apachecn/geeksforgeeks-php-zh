@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Map* public Ds\Map::filter( $callback )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the filter() 
 // function of Ds\map 
@@ -41,7 +41,7 @@ var_dump($map->filter(function($key, $val) { 
 
 **输出：**
 
-```
+```php
 object(Ds\Map)#3 (1) {
   [0]=>
   object(Ds\Pair)#2 (2) {
@@ -56,7 +56,7 @@ object(Ds\Map)#3 (1) {
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the filter() 
 // function of Ds\map 
@@ -79,7 +79,7 @@ var_dump($map->filter(function($key, $val) { 
 
 **输出：**
 
-```
+```php
 object(Ds\Map)#3 (2) {
   [0]=>
   object(Ds\Pair)#2 (2) {

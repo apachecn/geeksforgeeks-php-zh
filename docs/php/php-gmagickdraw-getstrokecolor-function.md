@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickPixel* GmagickDraw::getstrokecolor( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php  
 
 // Create a new GmagickDraw object 
@@ -34,13 +34,13 @@ echo $strokeColor; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(0, 0, 0)
 ```
 
 **程序 2：**
 
-```
+```php
 <?php  
 
 // Create a new GmagickDraw object 
@@ -57,7 +57,7 @@ echo $strokeColor; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(19018, 30326, 48573)
 ```
 
@@ -66,7 +66,7 @@ rgb(19018, 30326, 48573)
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

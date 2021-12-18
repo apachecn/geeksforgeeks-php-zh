@@ -5,7 +5,7 @@
 **Gmagick：：ResizeImage()**函数是 PHP 中的一个内置函数，用于通过滤镜将图像缩放到给定的尺寸。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::resizeimage( $width, $height, $filter, $blur)
 ```
 
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -52,7 +52,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

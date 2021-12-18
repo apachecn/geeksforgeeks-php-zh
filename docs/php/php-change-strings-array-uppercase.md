@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : arr[] = ("geeks", "For", "GEEks")
 Output : Array ([0]=>GEEKS [1]=>FOR [2]=>GEEKS)
 
@@ -27,7 +27,7 @@ Output : Array ([0]=>GEEKS)
 
 下面是上述方法在 PHP 中的实现:
 
-```
+```php
 <?php
 
 // Program to change strings in an array to upper case
@@ -57,7 +57,7 @@ print_r($input);
 
 输出:
 
-```
+```php
 Array before string conversion:
 Array
 (

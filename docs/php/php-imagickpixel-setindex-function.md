@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::setIndex( *int* $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**此程序设置并返回单个像素的索引。
 
-```
+```php
 <?php
 
 // Create a new imagickPixel object
@@ -37,7 +37,7 @@ echo $index;
 
 **程序 2：**此程序返回图像的索引值。
 
-```
+```php
 <?php
 
 // Create a new imagick object

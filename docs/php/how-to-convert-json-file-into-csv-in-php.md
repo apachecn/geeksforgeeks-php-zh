@@ -12,7 +12,7 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
 **JSON 的结构:**
 
-```
+```php
 [{
     "data1": "value1", 
     "data2": "value2", 
@@ -24,7 +24,7 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
 **示例:**
 
-```
+```php
 [{
     "student": "sravan kumar",
     "age": 22,
@@ -39,7 +39,7 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
     **语法:**
 
-    ```
+    ```php
     json_decode( string, assoc )
 
     **示例:**
@@ -70,7 +70,7 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
     // into an associative array
     $jsonans = json_decode($jsondata, true);
 
-    ```
+    ```php
 
     ```
 
@@ -78,13 +78,13 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
     **语法:**
 
-    ```
+    ```php
     fopen( filename, file_mode )
     ```
 
     **示例:**
 
-    ```
+    ```php
     // File pointer in writable mode
     $file_pointer = fopen($csv, 'w');
 
@@ -94,13 +94,13 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
     **语法:**
 
-    ```
+    ```php
     fclose( $file_pointer );
     ```
 
     **示例:**
 
-    ```
+    ```php
     fclose( $file_pointer );
     ```
 
@@ -108,13 +108,13 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
     **语法:**
 
-    ```
+    ```php
     fputcsv( file, fields )
     ```
 
     **示例:**
 
-    ```
+    ```php
     fputcsv( $file_pointer, $i );
     ```
 
@@ -130,7 +130,7 @@ JSON (JavaScript 对象符号)是一种类似字典的符号，可以用来构�
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
 
     // Student JSON data

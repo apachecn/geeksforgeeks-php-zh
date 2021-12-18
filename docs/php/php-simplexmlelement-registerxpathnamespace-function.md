@@ -8,7 +8,7 @@ SimpleXMLElement：：registerXPathNamespace()函数是 PHP 中的一个内置�
 
 **语法：**
 
-```
+```php
 *bool* SimpleXMLElement::registerXPathNamespace( $prefix, $namespace )
 ```
 
@@ -25,7 +25,7 @@ SimpleXMLElement：：registerXPathNamespace()函数是 PHP 中的一个内置�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -72,7 +72,7 @@ foreach ($result as $id) {
 
 **Output:**
 
-```
+```php
 12345
 15980
 
@@ -80,7 +80,7 @@ foreach ($result as $id) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -143,7 +143,7 @@ foreach ($result_l_name as $l_name) {
 
 **Output:**
 
-```
+```php
 12345
 57833
 98944

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* is_object( *mixed* $var )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a class
@@ -47,7 +47,7 @@ else {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a class

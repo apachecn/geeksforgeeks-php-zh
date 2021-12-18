@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMDocument* DOMImplementation::createDocument( *string* $namespaceURI = NULL, 
 *string* $qualifiedName = NULL, *DOMDocumentType* $doctype = NULL )
 ```
@@ -25,7 +25,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a DOMImplementation instance
@@ -60,7 +60,7 @@ echo $document->saveXML();
 ![](img/260dd1f2d3da9d8b51ca01d3f1b0f855.png)
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a DOMImplementation instance

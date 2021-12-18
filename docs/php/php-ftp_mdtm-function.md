@@ -6,7 +6,7 @@ Ftp_mdtm()函数是 PHP 中的一个内置函数，用于获取上次修改 FTP 
 
 **语法：**
 
-```
+```php
 ftp_mdtm( $ftp_connection, $file )
 ```
 
@@ -27,7 +27,7 @@ ftp_mdtm( $ftp_connection, $file )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server

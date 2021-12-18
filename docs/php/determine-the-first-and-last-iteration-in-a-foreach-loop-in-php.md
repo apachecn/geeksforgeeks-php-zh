@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to get first and
@@ -50,7 +50,7 @@ foreach ($myarray as $item) {
 
 **Output:** 
 
-```
+```php
 1: First iteration 
 6: Last iteration
 ```
@@ -60,7 +60,7 @@ foreach ($myarray as $item) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to get first and
@@ -97,7 +97,7 @@ foreach ( $myarray as $item ) {
 
 **Output:** 
 
-```
+```php
 1: First iteration 
 6: :ast iteration
 ```
@@ -107,7 +107,7 @@ foreach ( $myarray as $item ) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to get first and
@@ -146,7 +146,7 @@ foreach ($myarray as $item) {
 
 **Output:** 
 
-```
+```php
 1: First iteration 
 6: Last iteration
 ```

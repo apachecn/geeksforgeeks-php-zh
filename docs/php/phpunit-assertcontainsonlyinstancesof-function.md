@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertContainsOnlyInstancesOf( string $classname, array $array, string $message = '' )
 
 ```
@@ -21,7 +21,7 @@ assertContainsOnlyInstancesOf( string $classname, array $array, string $message 
 
 **程序 1：**
 
-```
+```php
 <?php
 
 use PHPUnit\Framework\TestCase;
@@ -56,7 +56,7 @@ class GeeksPhpunitTestCase extends TestCase
 
 **程序 2：**
 
-```
+```php
 <?php
 use PHPUnit\Framework\TestCase;
 

@@ -5,7 +5,7 @@
 array_slice()是 PHP 的一个内置函数，用于根据用户的选择，通过对数组进行切片来获取数组的一部分。
 **语法**:
 
-```
+```php
 array_slice($array, $start_point, $slicing_range, preserve)
 ```
 
@@ -23,7 +23,7 @@ array_slice($array, $start_point, $slicing_range, preserve)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -41,7 +41,7 @@ print_r(array_slice($array, 1, 3, true));
 
 输出:
 
-```
+```php
 Array
 (
     [1] => krishna
@@ -54,7 +54,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -72,7 +72,7 @@ print_r(array_slice($array, 1, 3, false));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => krishna
@@ -85,7 +85,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -103,7 +103,7 @@ print_r(array_slice($array, 1));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => krishna
@@ -117,7 +117,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -136,7 +136,7 @@ print_r(array_slice($array, -3));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => aakash
@@ -149,7 +149,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program to illustrate the
@@ -167,7 +167,7 @@ print_r(array_slice($array, -3, -2, true));
 
 输出:
 
-```
+```php
 Array
 (
     [2] => aakash

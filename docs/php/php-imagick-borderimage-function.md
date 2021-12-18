@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::borderImage( $bordercolor, $width, $height )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an image object
@@ -44,7 +44,7 @@ echo $image;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an image object

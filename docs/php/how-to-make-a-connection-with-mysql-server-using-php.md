@@ -19,7 +19,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $servername = "localhost";
@@ -53,7 +53,7 @@ catch(PDOException $e) {
 
 **输出:**
 
-```
+```php
 Connection established successfully...
 ```
 
@@ -61,7 +61,7 @@ Connection established successfully...
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $servername = "localhost";
@@ -90,6 +90,6 @@ mysqli_close($conn);
 
 **输出:**
 
-```
+```php
 Connection established successfully...
 ```

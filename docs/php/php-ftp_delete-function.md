@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ftp_delete( $ftp_connection, $file )
 ```
 
@@ -27,7 +27,7 @@ ftp_delete( $ftp_connection, $file )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -84,7 +84,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 successfully connected to the ftp server!
 logged in successfully!
 deletion of ./htdocs/test.txt is successful.
@@ -93,7 +93,7 @@ Connection closed Successfully!
 
 如果该文件被删除并再次运行相同的程序，只要该文件不存在，因为该文件已经被删除，那么就会出现错误。 输出将如下所示
 
-```
+```php
 successfully connected to the ftp server!
 logged in successfully!
 Error while deleting the file ./htdocs/test.txt

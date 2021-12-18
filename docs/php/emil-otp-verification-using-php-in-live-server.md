@@ -22,7 +22,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -219,7 +219,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
     <?php
@@ -320,7 +320,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -448,7 +448,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -599,7 +599,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 <?php

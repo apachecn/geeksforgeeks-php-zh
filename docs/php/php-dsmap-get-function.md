@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Map::get( mixed $key[, mixed $default] )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the get()
 // function of Ds\map 
@@ -45,7 +45,7 @@ var_dump($map->get(7, 100));
 
 **输出：**
 
-```
+```php
 int(10)
 int(30)
 int(50)
@@ -55,7 +55,7 @@ int(100)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Creating a Map 
@@ -76,7 +76,7 @@ var_dump($map->get("d", "GeeksforGeeks"));
 
 **输出：**
 
-```
+```php
 string(5) "Geeks"
 string(3) "for"
 string(5) "Geeks"

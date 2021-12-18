@@ -7,7 +7,7 @@ Uuencode 编码将所有字符串(包括二进制数据)转换为可打印字符
 
 **语法:**
 
-```
+```php
 *String* convert_uuencode($string)
 
 ```
@@ -18,7 +18,7 @@ Uuencode 编码将所有字符串(包括二进制数据)转换为可打印字符
 
 **示例:**
 
-```
+```php
 Input : "Good Morning..."
 Output : /1V]O9"!-;W)N:6YG+BXN
 `
@@ -30,7 +30,7 @@ Output : /22!L;W9E(&UY(&EN9&EA`
 
 下面的程序说明了 convert_uuencode()函数:
 
-```
+```php
 <?php
 
 // PHP program illustrate the 
@@ -54,7 +54,7 @@ echo $decodeString;
 
 输出:
 
-```
+```php
 09V5E:W, @9F]R(&=E96MS(0``
 geeks for geeks! 
 

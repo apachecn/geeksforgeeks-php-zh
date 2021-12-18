@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 //array containing elements
 $names = array('Geeks', 'for', 'Geeks');
@@ -28,7 +28,7 @@ else{
 
 **输出:**
 
-```
+```php
 Your element founded
 ```
 
@@ -36,7 +36,7 @@ Your element founded
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $name = array("Python", "Java", "C#", 3);
 
@@ -74,7 +74,7 @@ else
 
 **输出:**
 
-```
+```php
 not found 
 found 
 found 
@@ -84,7 +84,7 @@ found
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arr= array('gfg', 1, 17);
 
@@ -100,7 +100,7 @@ if (in_array(18, $arr)) {
 
 **输出:**
 
-```
+```php
 gfg 
 ```
 

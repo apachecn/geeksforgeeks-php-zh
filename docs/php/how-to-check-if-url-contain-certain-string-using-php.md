@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```php
 int strpos( $String, $Substring )
 ```
 
@@ -20,7 +20,7 @@ int strpos( $String, $Substring )
 
 **程序:** PHP 程序使用 strpos()函数在一个 URL 中查找某个字符串。
 
-```
+```php
 <?php
 // PHP program to find certain substring in an URL
 
@@ -52,7 +52,7 @@ else {
 
 **Output:**
 
-```
+```php
 gfg exists in the URL 
 function not exists in the URL
 
@@ -67,7 +67,7 @@ function not exists in the URL
 
 **语法:**
 
-```
+```php
 preg_match( $pattern, $subject )
 ```
 
@@ -78,7 +78,7 @@ preg_match( $pattern, $subject )
 
 **程序 2:** PHP 程序，用于查找 URL 中字符串的精确匹配
 
-```
+```php
 <?php
 // PHP program to find exach match substring
 
@@ -115,7 +115,7 @@ else {
 
 **Output:**
 
-```
+```php
 gfg exist in the URL 
 function does not exist in the URL
 

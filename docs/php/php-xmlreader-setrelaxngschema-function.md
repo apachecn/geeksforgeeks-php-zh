@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::setRelaxNGSchema( *string* $filename )
 ```
 
@@ -19,7 +19,7 @@
 **Example 1:**
 *   **data.xml**(待验证的 XML 文件)
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <body>
         <div>
@@ -35,7 +35,7 @@
 
 *   **rule.rng**(XML 文件要遵循的规则)
 
-    ```
+    ```php
     <element name="body" 
       xmlns="http://relaxng.org/ns/structure/1.0">
       <zeroOrMore>
@@ -53,7 +53,7 @@
 
 *   **index.php**(运行验证器的 PHP 脚本)
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -86,7 +86,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <body>
         <div>
@@ -103,7 +103,7 @@
 
 *   **rule.rng**
 
-    ```
+    ```php
     <element name="body"
       xmlns="http://relaxng.org/ns/structure/1.0">
       <zeroOrMore>
@@ -121,7 +121,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance

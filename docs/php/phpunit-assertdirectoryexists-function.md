@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertDirectoryExists( integer $directory, string $message = '' )
 
 ```
@@ -20,7 +20,7 @@ assertDirectoryExists( integer $directory, string $message = '' )
 
 **程序 1：**
 
-```
+```php
 <?php
 use PHPUnit\Framework\TestCase;
 
@@ -46,7 +46,7 @@ class GeeksPhpunitTestCase extends TestCase
 
 **程序 2：**
 
-```
+```php
 <?php
 use PHPUnit\Framework\TestCase;
 

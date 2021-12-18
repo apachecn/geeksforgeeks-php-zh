@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 *float* acos($value)
 ```
 
@@ -18,7 +18,7 @@
 
 示例:
 
-```
+```php
 Input : 0
 Output : 1.5707963267949
 
@@ -35,7 +35,7 @@ Output : NaN
 
 *   Passing 0 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (acos(0));
@@ -45,13 +45,13 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     1.5707963267949
     ```
 
 *   Passing 1 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (acos(1));
@@ -61,13 +61,13 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     0
     ```
 
 *   Passing -1 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (acos(-1));
@@ -77,13 +77,13 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     3.1415926535898
     ```
 
 *   Passing 2 as a parameter. As 2 is outside the range [-1,1], the function will return NaN :
 
-    ```
+    ```php
     <?php
 
     echo (acos(2));
@@ -93,7 +93,7 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     NaN
     ```
 

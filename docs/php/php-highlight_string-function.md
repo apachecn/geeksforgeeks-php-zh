@@ -6,7 +6,7 @@ Highlight_string()函数是 PHP 中的一个内置函数，用于突出显示文
 
 **语法：**
 
-```
+```php
 highlight_string( $string, $return )
 ```
 
@@ -21,7 +21,7 @@ highlight_string( $string, $return )
 
 **程序 1：**
 
-```
+```php
 <?php
 highlight_string('Welcome to Geeksforgeeks');
 ?>
@@ -31,7 +31,7 @@ highlight_string('Welcome to Geeksforgeeks');
 
 **程序 2：**
 
-```
+```php
 <?php
 highlight_string('<?php
 // PHP Program to add two numbers

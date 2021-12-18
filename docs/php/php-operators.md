@@ -67,7 +67,7 @@ $x-$y
 
 ## PHP
 
-```
+```php
 <?php
   $x = 29; // Variable 1
   $y = 4; // Variable 2
@@ -84,7 +84,7 @@ $x-$y
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 33
 25
 116
@@ -129,7 +129,7 @@ $x-$y
 
 ## PHP
 
-```
+```php
 <?php
 $x = 50;
 $y = 30;
@@ -155,7 +155,7 @@ $y = 30;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 and Success 
 or Success 
 xor Success 
@@ -183,7 +183,7 @@ xor Success
 
 ## PHP
 
-```
+```php
 <?php
   $a = 80;
   $b = 50;
@@ -207,7 +207,7 @@ xor Success
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)
@@ -225,7 +225,7 @@ bool(true)
 
 **语法**：
 
-```
+```php
 $var = (condition)? value1 : value2;
 ```
 
@@ -255,7 +255,7 @@ $var = (condition)? value1 : value2;
 
 ## PHP
 
-```
+```php
 <?php
   $x = -12;
   echo ($x > 0) ? 'The number is positive' : 'The number is negative';
@@ -264,7 +264,7 @@ $var = (condition)? value1 : value2;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 The number is negative
 ```
 
@@ -304,7 +304,7 @@ The number is negative
 
 ## PHP
 
-```
+```php
 <?php
   // Simple assign operator
   $y = 75;
@@ -339,7 +339,7 @@ The number is negative
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 75
 300
 60
@@ -385,7 +385,7 @@ The number is negative
 
 ## PHP
 
-```
+```php
 <?php
   $x = array("k" => "Car", "l" => "Bike");
   $y = array("a" => "Train", "b" => "Plane");
@@ -401,7 +401,7 @@ The number is negative
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 array(4) {
   ["k"]=>
   string(3) "Car"
@@ -452,7 +452,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
   $x = 2;
   echo ++$x, " First increments then prints \n";
@@ -474,7 +474,7 @@ bool(true)
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 3 First increments then prints 
 3
 2 First prints then increments 
@@ -516,7 +516,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
   $x = "Geeks";
   $y = "for";
@@ -529,7 +529,7 @@ bool(true)
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 GeeksforGeeks!!!
 GeeksforGeeks!!!
 ```
@@ -567,7 +567,7 @@ PHP7 引入了一种新的运算符，称为宇宙飞船运算符。 飞船运�
 
 ## PHP
 
-```
+```php
 <?php
   $x = 50;
   $y = 50;
@@ -598,7 +598,7 @@ PHP7 引入了一种新的运算符，称为宇宙飞船运算符。 飞船运�
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 0
 1
 -1

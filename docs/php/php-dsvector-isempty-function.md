@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* public Ds\Vector::isEmpty( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new vector
@@ -43,7 +43,7 @@ var_dump($vector->isEmpty());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector

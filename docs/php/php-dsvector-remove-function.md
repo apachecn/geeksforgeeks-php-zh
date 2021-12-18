@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::remove( $index )
 
 ```
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare new Vector
@@ -46,7 +46,7 @@ var_dump($arr);
 
 **Output:**
 
-```
+```php
 Vector Elements
 object(Ds\Vector)#1 (6) {
   [0]=>
@@ -85,7 +85,7 @@ object(Ds\Vector)#1 (6) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare new Vector
@@ -110,7 +110,7 @@ print_r($vect);
 
 **Output:**
 
-```
+```php
 Vector Elements
 Ds\Vector Object
 (

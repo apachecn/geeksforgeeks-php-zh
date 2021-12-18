@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Set::allocate( $capacity )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare new empty set 
@@ -44,7 +44,7 @@ var_dump($set->capacity()); 
 
 **输出：**
 
-```
+```php
 Allocated Space is: int(8)
 Allocated space is: int(64)
 
@@ -52,7 +52,7 @@ Allocated space is: int(64)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty set 
@@ -85,7 +85,7 @@ var_dump($set->capacity()); 
 
 **输出：**
 
-```
+```php
 Allocated Space is: int(8)
 Allocated space is: int(8)
 Allocated space is: int(128)

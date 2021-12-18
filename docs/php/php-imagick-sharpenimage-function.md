@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::sharpenImage( $radius, $sigma, $channel )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* public Ds\Vector::contains( $values )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a vector
@@ -39,7 +39,7 @@ var_dump($vector->contains(10));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a vector

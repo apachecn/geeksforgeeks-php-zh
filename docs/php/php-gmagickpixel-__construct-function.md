@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickPixel* GmagickPixel::__construct( *string* $color )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1(无颜色参数)：**
 
-```
+```php
 <?php
 
 // Create a new GmagickPixel
@@ -37,7 +37,7 @@ echo $color;
 
 **程序 2(带颜色参数)：**
 
-```
+```php
 <?php
 
 // Create a new GmagickPixel object

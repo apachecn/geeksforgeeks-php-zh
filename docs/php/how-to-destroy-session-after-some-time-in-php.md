@@ -20,7 +20,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
     session_start();
@@ -93,7 +93,7 @@
 
 ## 主页. php
 
-```html
+```phphtml
 <?php
 
     session_start();
@@ -147,7 +147,7 @@
 
 ## logout.php
 
-```html
+```phphtml
 <?php
 
 session_start();

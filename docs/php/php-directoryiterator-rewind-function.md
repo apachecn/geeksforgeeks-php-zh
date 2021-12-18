@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DirectoryIterator::rewind( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator
@@ -54,7 +54,7 @@ echo $directory->key() . " => " . 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator

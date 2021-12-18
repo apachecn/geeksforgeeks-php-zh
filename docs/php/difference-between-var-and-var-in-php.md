@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 $variable = value;
 ```
 
@@ -19,7 +19,7 @@ $variable = value;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
        // String value
@@ -47,7 +47,7 @@ $variable = value;
 
  **Output**
 
-```
+```php
 hello Geeks<br/>1<br/>34<br/>
 ```
 
@@ -55,7 +55,7 @@ hello Geeks<br/>1<br/>34<br/>
 
 **语法:**
 
-```
+```php
 $variable = "value";  
 $variable = "new_value";
 ```
@@ -69,7 +69,7 @@ $variable = "new_value";
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
       // String value
@@ -91,7 +91,7 @@ $variable = "new_value";
 
 **Output**
 
-```
+```php
 hello
 Hello php
 ```

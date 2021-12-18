@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```php
 bindec(binary_string)
 ```
 
@@ -17,7 +17,7 @@ bindec(binary_string)
 
 示例:
 
-```
+```php
 Input : bindec('110011')
 Output : 51
 
@@ -33,7 +33,7 @@ Output : 7
 
 *   When ‘110011’ is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo bindec('110011');
@@ -43,13 +43,13 @@ Output : 7
 
     输出:
 
-    ```
+    ```php
     51
     ```
 
 *   When ‘000110011’ is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo bindec('000110011');
@@ -59,13 +59,13 @@ Output : 7
 
     输出:
 
-    ```
+    ```php
     51
     ```
 
 *   When ‘111’ is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo bindec('111');
@@ -75,7 +75,7 @@ Output : 7
 
     输出:
 
-    ```
+    ```php
     7
     ```
 

@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::polaroidImage( $properties, $angle )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new object

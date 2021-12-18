@@ -8,7 +8,7 @@ PHP 中的 fileatime()函数是一个内置函数，用于返回指定文件的�
 
 **语法：**
 
-```
+```php
 fileatime($filename)
 ```
 
@@ -23,7 +23,7 @@ fileatime($filename)
 
 **示例：**
 
-```
+```php
 Input : echo fileatime("gfg.txt");
 Output : 1525159574
 
@@ -37,7 +37,7 @@ Output : Last accessed: May 1 2018 07:26:14.
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // checking last accessed time of a file 
@@ -48,13 +48,13 @@ echo fileatime("gfg.txt");
 
 产出：
 
-```
+```php
 1525159574
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // checking last accessed time of a file 
@@ -69,7 +69,7 @@ echo "Last accessed: ".date("F d Y H:i:s.", 
 
 产出：
 
-```
+```php
 1525159574
 Last accessed: May 1 2018 07:26:14.
 

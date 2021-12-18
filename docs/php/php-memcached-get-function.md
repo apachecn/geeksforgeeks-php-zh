@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 public Memcached::get( $key, 
     callable $cache_cb = ?,  $flags = ?): mixed
 ```
@@ -25,7 +25,7 @@ public Memcached::get( $key,
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "<pre>";
@@ -78,7 +78,7 @@ var_dump($valD);
 
 ## PHP
 
-```
+```php
 <?php
 echo "<pre>";
 

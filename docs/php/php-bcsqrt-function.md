@@ -6,7 +6,7 @@ PHP 中的 bcsqrt()函数是一个内置函数，用于计算任意精度数字�
 
 **语法:**
 
-```
+```php
 *string* bcsqrt ( $num_str, $scaleVal)
 ```
 
@@ -19,7 +19,7 @@ PHP 中的 bcsqrt()函数是一个内置函数，用于计算任意精度数字�
 
 示例:
 
-```
+```php
 Input:  $num_str = 26
 Output: 5
 Since the parameter $scaleVal is not specified so
@@ -35,7 +35,7 @@ Output: 5.0990
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcsqrt() function
 
@@ -53,14 +53,14 @@ echo $res;
 
 输出:
 
-```
+```php
 5
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcsqrt() function
 
@@ -79,7 +79,7 @@ echo $res;
 
 输出:
 
-```
+```php
 5.0990
 
 ```

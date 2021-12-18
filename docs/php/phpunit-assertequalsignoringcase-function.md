@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertEqualsIgnoringCase(mixed $expected, 
       mixed $actual[, string $message = '']
 
@@ -24,7 +24,7 @@ assertEqualsIgnoringCase(mixed $expected,
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -52,7 +52,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

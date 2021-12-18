@@ -8,7 +8,7 @@ SimpleXMLElement：：addAttribute()函数是 PHP 中内置函数，用于在 Si
 
 **语法：**
 
-```
+```php
 *void* SimpleXMLElement::addAttribute($name, $value, $namespace)
 ```
 
@@ -24,7 +24,7 @@ SimpleXMLElement：：addAttribute()函数是 PHP 中内置函数，用于在 Si
 
 **示例：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -58,7 +58,7 @@ echo $xml->asXML('savexmltofile.xml');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 user123 firstname lastname +91-9876543210 I am John Doe.
 Live in Kolkata, India. geeksforgeeks 1
 
@@ -66,7 +66,7 @@ Live in Kolkata, India. geeksforgeeks 1
 
 **浏览器中的源代码：**
 
-```
+```php
 <?xml version="1.0"?>
 <user>
 <username> user123 </username>

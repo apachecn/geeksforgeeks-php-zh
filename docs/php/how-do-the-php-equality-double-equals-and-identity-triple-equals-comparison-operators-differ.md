@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```php
 <?php
 
 // Variable contains integer value
@@ -29,7 +29,7 @@ else
 
 **输出:**
 
-```
+```php
 Same content
 
 ```

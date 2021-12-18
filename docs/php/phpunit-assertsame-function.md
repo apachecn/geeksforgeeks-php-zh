@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertSame(mixed $expected, mixed $actual[, string $message = ''])
 
 ```
@@ -23,7 +23,7 @@ assertSame(mixed $expected, mixed $actual[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -54,7 +54,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

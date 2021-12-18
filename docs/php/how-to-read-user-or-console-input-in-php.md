@@ -4,7 +4,7 @@
 
 在 PHP 中，控制台是一个命令行界面，也叫**交互外壳**。我们可以通过在终端中键入以下命令来访问它:
 
-```
+```php
 php -a
 ```
 
@@ -20,7 +20,7 @@ php -a
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // For input

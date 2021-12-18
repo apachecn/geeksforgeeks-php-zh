@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *SimpleXMLElement* simplexml_load_file( *string* $filename, *string* $class_name = "SimpleXMLElement",
                                     *int* $options = 0, *string* $ns = "", *bool* $is_prefix = FALSE )
 ```
@@ -25,7 +25,7 @@
 
 **gfg.xml 文件：**
 
-```
+```php
 <?xml version="1.0"?>
 <organization>
     <name>GeeksforGeeks</name>
@@ -39,7 +39,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Check file exist or not

@@ -5,7 +5,7 @@
 **GmagickPixel：：setColorvalue()函数**是 PHP 中的一个内置函数，用于为给定的 GmagickPixel 颜色设置提供的颜色通道的规格化值。 规格化值是介于 0 和 1 之间的浮点数。
 **语法：**
 
-```
+```php
 *GmagickPixel* GmagickPixel::setcolorvalue( *int* $color, *float* $value )
 
 ```
@@ -34,7 +34,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // Create a new gmagickPixel object
 $imagickPixel = new GmagickPixel();
@@ -50,7 +50,7 @@ echo $colorValue;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0.8
 
 ```
@@ -62,7 +62,7 @@ echo $colorValue;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new gmagickPixel object

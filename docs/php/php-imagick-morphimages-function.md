@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::morphImages( $number_frames )
 ```
 
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set of images

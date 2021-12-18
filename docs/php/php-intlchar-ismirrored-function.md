@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isMirrored ( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -40,7 +40,7 @@ var_dump(IntlChar::isMirrored("^"));
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(true)
@@ -50,7 +50,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isMirrored()
 // function.
@@ -69,7 +69,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 bool(false)
 NULL
 bool(false)

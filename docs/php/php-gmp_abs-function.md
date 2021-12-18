@@ -6,7 +6,7 @@ Gmp_abs()是 PHP 中的一个内置函数，用于计算 GMP 数字的绝对值(
 
 **语法：**
 
-```
+```php
 gmp_abs( $num )
 ```
 
@@ -16,7 +16,7 @@ gmp_abs( $num )
 
 例如：
 
-```
+```php
 Input : "16497863358"
 Output : 16497863358
 
@@ -29,7 +29,7 @@ Output : 16497863358
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Passing a positive number
@@ -49,7 +49,7 @@ echo gmp_strval($val2);
 
 产出：
 
-```
+```php
 16497863358
 16497863358
 
@@ -57,7 +57,7 @@ echo gmp_strval($val2);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Passing a positive number
@@ -77,7 +77,7 @@ echo gmp_strval($val2);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1897023411
 1897023411
 

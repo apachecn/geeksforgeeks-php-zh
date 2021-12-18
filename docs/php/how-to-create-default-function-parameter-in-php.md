@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 function greeting($name=" parameter_value ")
 ```
 
@@ -15,7 +15,7 @@ function greeting($name=" parameter_value ")
 以下示例说明了创建和使用默认函数参数的过程:
 **示例 1:**
 
-```
+```php
 <?php  
     function greeting($name="GeeksforGeeks")
     {  
@@ -32,7 +32,7 @@ function greeting($name=" parameter_value ")
 
 **输出:**
 
-```
+```php
 Welcome to Gfg 
 Welcome to GeeksforGeeks 
 Welcome to A Computer Science Portal 
@@ -40,7 +40,7 @@ Welcome to A Computer Science Portal
 
 **例 2:**
 
-```
+```php
 <?php    
     function welcome($first="GeeksforGeeks",
                      $last="A Computer Science Portal for Geeks")
@@ -56,7 +56,7 @@ Welcome to A Computer Science Portal
 
 **输出:**
 
-```
+```php
 Greeting: GeeksforGeeks A Computer Science Portal for Geeks
 Greeting: night_fury A Computer Science Portal for Geeks
 Greeting: night_fury Contributer

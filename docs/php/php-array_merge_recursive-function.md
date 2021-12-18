@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 array_merge_recursive($array1, $array2, $array3...$arrayn)
 ```
 
@@ -18,7 +18,7 @@ array_merge_recursive($array1, $array2, $array3...$arrayn)
 
 示例:
 
-```
+```php
 Input : $a1=array("a"=>"raj", "b"=>"striver");
         $a2=array("z"=>"geeks", "b"=>"articles");
 Output : 
@@ -55,7 +55,7 @@ Array
 **程序 1:** 用所有不同的键演示 array_merge_recursive()
 函数的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate array_merge_recursive() 
 // function with same keys
@@ -68,7 +68,7 @@ print_r(array_merge_recursive($a1, $a2));
 
 输出:
 
-```
+```php
 Array
 (
     [a] => raj
@@ -81,7 +81,7 @@ Array
 
 **程序二:**用相同的键演示 array_merge_recursive()函数的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate array_merge_recursive() 
 // function with same keys
@@ -95,7 +95,7 @@ print_r(array_merge_recursive($a1, $a2));
 
 输出:
 
-```
+```php
 Array
 (
     [a] => raj

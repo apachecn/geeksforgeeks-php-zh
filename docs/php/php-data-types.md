@@ -28,7 +28,7 @@
 
     ## PHP
 
-    ```
+    ```php
     <?php
 
     // decimal base integers
@@ -50,7 +50,7 @@
     **输出：**
     和
 
-    ```
+    ```php
     704
     ```
 
@@ -60,7 +60,7 @@
 
     ## PHP
 
-    ```
+    ```php
     <?php
 
     $val1 = 50.85; 
@@ -75,7 +75,7 @@
 
     **Output: **
 
-    ```
+    ```php
     705.11
     ```
 
@@ -85,7 +85,7 @@
 
     ## PHP
 
-    ```
+    ```php
     <?php
 
     $name = "Krishna";
@@ -97,7 +97,7 @@
 
     **输出：**
 
-    ```
+    ```php
     The name of the Geek is Krishna 
     The name of the geek is $name
     ```
@@ -108,7 +108,7 @@
 
     ## PHP
 
-    ```
+    ```php
     <?php
 
     $nm = NULL;
@@ -123,7 +123,7 @@
 
     ## PHP
 
-```
+```php
 <?php
 
 if(TRUE)

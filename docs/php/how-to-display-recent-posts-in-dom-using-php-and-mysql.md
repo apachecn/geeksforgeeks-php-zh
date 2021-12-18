@@ -14,7 +14,7 @@
 
 **代码片段:**下面的代码片段展示了如何在各自的 HTML 或 PHP 代码中添加所需的库。
 
-```html
+```phphtml
 <head> 
  <link rel="stylesheet" 
   href="https://stackpath.bootstrapcdn.com/
@@ -78,7 +78,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```phphtml
     <!DOCTYPE html>
     <html lang="en" dir="ltr">
 
@@ -173,7 +173,7 @@
 
     **CSS 代码片段:**上面的代码中使用了下面的“style.css”文件来设置 HTML 控件的样式。
 
-    ```html
+    ```phphtml
     *{
       box-sizing: border-box;    
     }
@@ -216,7 +216,7 @@
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```html
+    ```phphtml
     <?php
 
     $servername = "localhost";
@@ -264,7 +264,7 @@
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```html
+    ```phphtml
     <?php 
     include 'retrieve_id.php'
     ?>

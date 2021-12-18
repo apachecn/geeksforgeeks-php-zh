@@ -6,7 +6,7 @@ Imagick：：Filter()函数是 PHP 中的一个内置函数，用于将自定义
 
 **语法：**
 
-```
+```php
 *bool* Imagick::filter( $ImagickKernel, $channel = Imagick::CHANNEL_UNDEFINED )
 ```
 
@@ -21,7 +21,7 @@ Imagick：：Filter()函数是 PHP 中的一个内置函数，用于将自定义
 
 **程序：**
 
-```
+```php
 <?php
 
 // Declare an imagick object

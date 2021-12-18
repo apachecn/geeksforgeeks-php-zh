@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNode::removeChild( *DOMNode* $oldnode )
 ```
 
@@ -20,7 +20,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -50,7 +50,7 @@ echo $document->saveXML();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

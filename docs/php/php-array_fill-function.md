@@ -6,7 +6,7 @@ array_fill()是 PHP 中的内置函数，用于用值填充数组。这个函数
 
 **语法:**
 
-```
+```php
 array_fill($start_index, $number_elements, $values)
 ```
 
@@ -21,7 +21,7 @@ array _ fill()函数采用三个参数，描述如下:
 
 示例:
 
-```
+```php
 Input : $start_index = 2; $number_elements = 3;
         $values = "Geeks";
 Output :
@@ -46,7 +46,7 @@ Output :
 
 下面的程序说明了 PHP 中 array_fill()函数的工作原理:
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working of array_fill()
@@ -65,7 +65,7 @@ print_r(Fill($start_index, $number_elements, $values));
 
 输出:
 
-```
+```php
 Array
 (
     [2] => Geeks

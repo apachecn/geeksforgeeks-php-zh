@@ -26,7 +26,7 @@
 下面给出的程序说明了 PHP 中的**imagecopyressamed()函数**：
 **程序 1(将图像重新采样为其宽度和高度的一半)：**
 
-```
+```php
 <?php
 // Get dimensions of new image
 list($width, $height) = getimagesize(
@@ -54,7 +54,7 @@ imagejpeg($image_p, null, 100);
 
 **程序 2(使用固定宽度和高度重采样图像)：**
 
-```
+```php
 <?php
 // Set a  fixed height and width
 $width = 300;

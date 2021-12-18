@@ -8,7 +8,7 @@
 
 ***语法:***
 
-```
+```php
 *$string = __FUNCTION__*
 ```
 
@@ -16,7 +16,7 @@
 
 ***程序 1:** PHP 程序打印函数里面的函数名 ***GeeksforGeeks()。****
 
-```
+```php
 *<?php
 
 function GeeksforGeeks() {
@@ -38,14 +38,14 @@ GeeksforGeeks();
 
 ***Output:**
 
-```
+```php
 GeeksforGeeks
 
 ```* 
 
 ***程序二:** PHP 程序打印函数**里面的函数名 *Geeks()。****
 
-```
+```php
 *<?php
 
 function Geeks() {
@@ -66,7 +66,7 @@ Geeks();
 
 ***输出:**
 
-```
+```php
 Geeks
 
 ```

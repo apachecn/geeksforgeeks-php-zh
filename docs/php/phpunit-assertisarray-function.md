@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertIsArray($actual[, $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertIsArray($actual[, $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -51,7 +51,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

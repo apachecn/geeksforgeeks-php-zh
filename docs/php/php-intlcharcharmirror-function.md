@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* IntlChar::charMirror( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 下面的程序演示了 PHP 中的**IntlChar：：charMirror()**函数。
 **程序 1：**
 
-```
+```php
 <?php
 // PHP code to illustrate
 // IntlChar::charMirror ()function
@@ -41,7 +41,7 @@ var_dump(IntlChar::charMirror("10"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(1) "A" 
 string(1) "B" 
 string(1) "&" 
@@ -55,7 +55,7 @@ NULL
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate
 // IntlChar::charMirror() function
@@ -74,7 +74,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(1) "G" 
 NULL 
 NULL 

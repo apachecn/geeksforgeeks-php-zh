@@ -6,7 +6,7 @@ Gmp_sqrt()是 PHP 中的一个内置函数，用于计算 GMP 数字的平方根
 
 **语法：**
 
-```
+```php
 gmp_sqrt ( $num )
 ```
 
@@ -16,7 +16,7 @@ gmp_sqrt ( $num )
 
 例如：
 
-```
+```php
 Input : "9"
 Output : 3
 
@@ -29,7 +29,7 @@ Output : 4
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，计算 GMP 编号的平方根的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the square root 
 // of a GMP number passed as arguments 
@@ -51,7 +51,7 @@ echo $squareRoot."\n";
 
 产出：
 
-```
+```php
 3
 4
 
@@ -59,7 +59,7 @@ echo $squareRoot."\n";
 
 **程序 2：**当 GMP 编号作为参数传递时，计算 GMP 编号的平方根的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the square root 
 // of a GMP number
@@ -81,7 +81,7 @@ echo $squareRoot."\n";
 
 产出：
 
-```
+```php
 3
 4
 

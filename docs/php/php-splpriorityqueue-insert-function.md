@@ -6,7 +6,7 @@ SplPriorityQueue：：Insert()函数是 PHP 中的一个内置函数，用于通
 
 **语法：**
 
-```
+```php
 bool SplPriorityQueue::insert( mixed $value, mixed $priority )
 ```
 
@@ -21,7 +21,7 @@ bool SplPriorityQueue::insert( mixed $value, mixed $priority )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -52,7 +52,7 @@ var_dump($obj);
 
 **OUTPUT**
 
-```
+```php
 object(priorityQueue)#1 (3) {
   ["flags":"SplPriorityQueue":private]=>
   int(1)

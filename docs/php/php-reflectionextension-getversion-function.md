@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionExtension::getVersion( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -39,14 +39,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 string(8) "20031129"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -61,7 +61,7 @@ var_dump($extension->getVersion());
 
 **输出：**
 
-```
+```php
 string(23) "7.0.33-0ubuntu0.16.04.7"
 
 ```

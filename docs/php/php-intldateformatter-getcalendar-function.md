@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *int* IntlDateFormatter::getCalendar( *void* )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *int* datefmt_get_calendar( *IntlDateFormatter* $fmt )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a date formatter
@@ -64,7 +64,7 @@ echo "First Formatted output is "
 
 **输出：**
 
-```
+```php
 Calendar of formatter: 0
 Formatted calendar output: 01/01/1970
 
@@ -75,7 +75,7 @@ First Formatted output is 01/01/1970
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a date formatter
@@ -112,7 +112,7 @@ echo "First Formatted output is "
 
 **输出：**
 
-```
+```php
 Calendar of formatter: 0
 Formatted calendar output: 01/01/1970
 

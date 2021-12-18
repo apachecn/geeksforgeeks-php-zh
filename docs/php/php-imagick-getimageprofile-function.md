@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::getImageProfile( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -39,13 +39,13 @@ echo $profile;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 profile_data
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

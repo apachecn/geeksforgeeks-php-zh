@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::distortImage( $method, $arguments, $bestfit )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 /*Imagick Object*/

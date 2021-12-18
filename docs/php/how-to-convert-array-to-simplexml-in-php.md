@@ -8,7 +8,7 @@ SimpleXML 扩展函数提供了将 XML 转换为对象的工具集。这些对�
 
 **例 1:**
 
-```
+```php
 <?php
 // Code to convert php array to xml document
 
@@ -61,7 +61,7 @@ echo arrayToXml($my_array);
 
 **输出:**
 
-```
+```php
 <?xml version="1.0"?>
 <root>
     <name> GFG </name>
@@ -79,7 +79,7 @@ echo arrayToXml($my_array);
 
 **例 2:**
 
-```
+```php
 <?php
 // Code to convert php array to xml document
 
@@ -108,7 +108,7 @@ print $xml->asXML();
 
 **输出:**
 
-```
+```php
 <?xml version="1.0"? >
 <root >
        <x> a </x >

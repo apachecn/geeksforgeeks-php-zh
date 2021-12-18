@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* image_type_to_extension( *int* $imagetype, *bool* $include_dot )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Extension with dot
@@ -37,7 +37,7 @@ echo image_type_to_extension(IMAGETYPE_PNG, FALSE);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create image instance

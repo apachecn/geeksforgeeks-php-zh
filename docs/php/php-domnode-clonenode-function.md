@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNode::cloneNode( *bool* $deep )
 ```
 
@@ -16,7 +16,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a DOMDocument
 $doc = new DOMDocument();
@@ -46,7 +46,7 @@ echo $doc_new->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a DOMDocument
 $doc = new DOMDocument('1.0', 'iso-8859-1');

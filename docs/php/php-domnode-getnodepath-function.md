@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMNode::getNodePath( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -41,7 +41,7 @@ echo $dom->getElementsByTagName('h1')
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

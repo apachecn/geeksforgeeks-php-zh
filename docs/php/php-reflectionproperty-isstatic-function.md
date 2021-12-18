@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionProperty::isStatic( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -45,7 +45,7 @@ var_dump($D);
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 
@@ -53,7 +53,7 @@ bool(true)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -86,7 +86,7 @@ var_dump($C->isStatic());
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(false)
 bool(true)

@@ -7,7 +7,7 @@ SimpleXMLElement：：Attributes()函数是 PHP 中的内置函数，用于从 S
 
 **语法：**
 
-```
+```php
 *SimpleXMLElement* SimpleXMLElement::attributes( $namespace, $is_prefix )
 ```
 
@@ -23,7 +23,7 @@ SimpleXMLElement：：Attributes()函数是 PHP 中的内置函数，用于从 S
 
 ## PHP
 
-```
+```php
 <?php
 
 // Loading XML document to $user

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimagecolors( *void* )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**用于多色图像。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -36,13 +36,13 @@ echo $color;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2955
 ```
 
 **程序 2：**用于单色图像。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -56,13 +56,13 @@ echo $color;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 3：**用于绘图
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -97,7 +97,7 @@ echo $colors;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 238
 ```
 

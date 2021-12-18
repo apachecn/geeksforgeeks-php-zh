@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* IntlCalendar::setTimeZone( *mixed* $timeZone )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_set_time_zone( *IntlCalendar* $cal, *mixed* $timeZone )
     ```
 
@@ -33,7 +33,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the date timezone
@@ -68,7 +68,7 @@ echo IntlDateFormatter::formatObject($calendar, IntlDateFormatter::FULL);
 
 **输出：**
 
-```
+```php
 Thursday, March 21, 2019 at 9:19:29 AM India Standard Time
 Thursday, March 21, 2019 at 11:49:29 AM Singapore Standard Time
 Thursday, March 21, 2019 at 9:19:29 AM GMT+05:30

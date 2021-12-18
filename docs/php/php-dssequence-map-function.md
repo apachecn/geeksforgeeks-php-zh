@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Sequence* abstract public Ds\Sequence::map( $callback )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -32,7 +32,7 @@ var_dump($seq->map(function($val) { 
 ?>
 ```
 
-```
+```php
 Output:
 object(Ds\Vector)#3 (4) {
   [0]=>
@@ -48,7 +48,7 @@ object(Ds\Vector)#3 (4) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

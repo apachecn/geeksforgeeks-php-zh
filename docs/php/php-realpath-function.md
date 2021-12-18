@@ -8,7 +8,7 @@ realpath()函数删除所有符号链接，如**‘/./’/../‘**和额外的**
 
 **语法：**
 
-```
+```php
 realpath(path)
 ```
 
@@ -28,7 +28,7 @@ PHP 中的 realpath()函数只接受一个参数。
 
 例如：
 
-```
+```php
 Input : echo realpath("gfg.txt");
 Output : C:\xampp\htdocs\filehandling\gfg.txt
 
@@ -45,7 +45,7 @@ Output : /gfg/articles
 
 **程序 1**
 
-```
+```php
 <?php 
 // returning absolute path 
 // using realpath() function
@@ -56,13 +56,13 @@ echo realpath("gfg.txt");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 C:\xampp\htdocs\filehandling\gfg.txt
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 
 // using chdir() to change directory
@@ -76,7 +76,7 @@ echo realpath('./../../gfg/articles');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 /gfg/articles
 ```
 

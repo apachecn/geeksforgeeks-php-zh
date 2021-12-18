@@ -6,7 +6,7 @@ Ds\Collection：：Clear()函数是 PHP 中的一个内置函数，用于从集�
 
 **语法：**
 
-```
+```php
 Ds\Collection::clear( void )
 ```
 
@@ -18,7 +18,7 @@ Ds\Collection::clear( void )
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a collection
@@ -40,7 +40,7 @@ print_r($collection);
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a collection

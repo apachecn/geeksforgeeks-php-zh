@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixelIterator::resetIterator( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -46,7 +46,7 @@ echo "<br>After reset row is " . $pixelIterator->getIteratorRow();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

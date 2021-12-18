@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *string* ArrayIterator::serialize( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -41,7 +41,7 @@ var_dump($serialize);
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator

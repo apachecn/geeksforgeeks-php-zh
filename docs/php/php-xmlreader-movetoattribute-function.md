@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::moveToAttribute( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 加入：清华 2007 年 1 月 25 日下午 3：33 岗位：287 岗位：338 岗位：338 岗位：321загрузкаиспользованияпрограмметсяпрограмметсяпрограмма
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div>
     <h1> GeeksforGeeks </h1>
@@ -27,7 +27,7 @@
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance
@@ -52,13 +52,13 @@ while ($XMLReader->read()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 // Empty string because there is no attribute with given name.
 ```
 
 加入：清华 2007 年 1 月 25 日下午 3：33 岗位：287 岗位：338 岗位：338 岗位：321загрузкаиспользованияпрограмметсяпрограмметсяпрограмма
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div>
     <h1 attrib="value"> My Text </h1>
@@ -67,7 +67,7 @@ while ($XMLReader->read()) {
 
 **文件名：***index.php*
 
-```
+```php
 <?php
 // Create a new XMLReader instance
 $XMLReader = new XMLReader();
@@ -91,7 +91,7 @@ while ($XMLReader->read()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 value
 ```
 

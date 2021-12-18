@@ -8,7 +8,7 @@
 
 *   First, you need to update your system with unsupported packages from this untrusted PPA by adding **ppa:ondrej/php** to your system’s Software Sources. This step is required only for Ubuntu 15 or less. Type the below command in your terminal and when prompted press ENTER to enable the repository
 
-    ```
+    ```php
     sudo add-apt-repository ppa:ondrej/php
     ```
 
@@ -24,7 +24,7 @@
 
 *   Next, update your repositories using the command 
 
-    ```
+    ```php
     sudo apt-get update
     ```
 
@@ -34,7 +34,7 @@
 
 *   Now, we are ready to install the gd library for PHP. Run the below command to install the required version of php7.x-gd, where x should be replaced by the version required for you to install.
 
-    ```
+    ```php
     sudo apt-get install php7.x-gd
 
     for php version 7.0 replace x with 0,

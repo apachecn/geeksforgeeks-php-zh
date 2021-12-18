@@ -6,7 +6,7 @@ Join()函数是 PHP 中的内置函数，用于联接由字符串分隔的元素
 
 **语法**
 
-```
+```php
 *string* join( $separator, $array)
 ```
 
@@ -19,7 +19,7 @@ Join()函数是 PHP 中的内置函数，用于联接由字符串分隔的元素
 
 例如：
 
-```
+```php
 Input : join(array('Geeks','for','Geeks')
 Output : GeeksforGeeks
 
@@ -30,7 +30,7 @@ Output : Geeks-for-Geeks
 
 下面的程序演示了 PHP 中 Join()函数的工作原理：
 
-```
+```php
 <?php
     // PHP Code to implement join function
 
@@ -48,7 +48,7 @@ Output : Geeks-for-Geeks
 
 产出：
 
-```
+```php
 GeeksforGeeks
 Geeks-for-Geeks
 

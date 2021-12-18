@@ -10,7 +10,7 @@
 
 要访问静态类及其方法，请使用以下语法:
 
-```
+```php
  ClassName::MethodName();
 ```
 
@@ -18,7 +18,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class Date {
@@ -35,7 +35,7 @@ echo Date::format_date(time());
 ?>
 ```
 
-```
+```php
 Output:
 April 30th, 2020
 2020/04/30 10:48:36
@@ -45,7 +45,7 @@ April 30th, 2020
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class geeks {
@@ -77,7 +77,7 @@ else
 
 **输出:**
 
-```
+```php
 String is valid!
 String is NOT valid!
 ```

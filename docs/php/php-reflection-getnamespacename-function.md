@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Reflection::getNamespaceName( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的反射：：getNamespaceName()函数
 
-```
+```php
 <?php
 
 // Defining a namespace and class GFG
@@ -38,14 +38,14 @@ var_dump($A);
 
 **Output:**
 
-```
+```php
 string(3) "A\B"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass over the inbuilt class 'ReflectionClass'
@@ -61,7 +61,7 @@ var_dump($A);
 
 **Output:**
 
-```
+```php
 string(0) ""
 
 ```

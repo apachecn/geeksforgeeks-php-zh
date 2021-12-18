@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
    //setting error reporting to zero
   error_reporting(0);
@@ -19,7 +19,7 @@
 
 **输出:**
 
-```
+```php
 No output
 No error is reported
 ```
@@ -30,7 +30,7 @@ No error is reported
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     //setting error reporting to all errors
   error_reporting(E_ALL);

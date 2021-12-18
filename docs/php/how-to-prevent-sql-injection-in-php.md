@@ -14,19 +14,19 @@ SQL 注入是一种代码注入技术，用于攻击数据驱动的应用程序�
 
 **步骤 1:** 那么，让我们从创建数据库开始–
 
-```
+```php
 CREATE DATABASE GFG;
 ```
 
 **步骤 2:** 使用该数据库–
 
-```
+```php
 USE GFG;
 ```
 
 **步骤 3:** 在 GFG 数据库中创建登录凭据表–
 
-```
+```php
 CREATE TABLE users( 
     id int(10) PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(255),
@@ -36,7 +36,7 @@ CREATE TABLE users(
 
 **步骤 4:** 将一些数据插入数据库–
 
-```
+```php
 INSERT INTO users VALUES(1, 'idevesh', '1234');
 INSERT INTO users VALUES(2, 'geeksforgeeks', 'gfg');
 ```
@@ -51,7 +51,7 @@ INSERT INTO users VALUES(2, 'geeksforgeeks', 'gfg');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $db = mysqli_connect("localhost","root","","GFG");
@@ -67,7 +67,7 @@ if (mysqli_connect_errno()) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -110,7 +110,7 @@ if (mysqli_connect_errno()) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 include 'dbconnection.php';
@@ -132,7 +132,7 @@ else {
 
 **第 6 步:**现在我们将传递一个中毒的密码进入用户配置文件–
 
-```
+```php
 Poisoned password = ' or 'a'='a
 ```
 
@@ -148,7 +148,7 @@ mysqli _ real _ escape _ string()函数将特殊字符作为用户的输入，�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 include 'dbconnection.php';

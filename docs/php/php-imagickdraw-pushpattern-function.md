@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::pushPattern( *string* $pattern_id, 
       *float* $x, *float* $y, *float* $width, *float* $height )
 ```
@@ -25,7 +25,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickDraw：：Push Pattern()函数**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -73,7 +73,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

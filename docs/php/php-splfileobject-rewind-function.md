@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplFileObject::rewind( $line_num)
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -35,7 +35,7 @@ echo $file->current();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?php
 ```
 
@@ -43,7 +43,7 @@ echo $file->current();
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to use array to check
@@ -65,7 +65,7 @@ foreach ($GFG as &$file_name) {
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks
 gfg
 contribute

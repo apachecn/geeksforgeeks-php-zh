@@ -7,7 +7,7 @@
 
 **语法：**
 
-```
+```php
 popen(command, mode)
 ```
 
@@ -27,7 +27,7 @@ PHP 中的 popen()函数接受两个参数。
 
 **示例：**
 
-```
+```php
 Input : $my_file= popen("/bin/ls", "r");
 Output : 1
 
@@ -44,7 +44,7 @@ Output : 1
 
 **程序 1**
 
-```
+```php
 <?php
 
 // opening a pipe 
@@ -54,13 +54,13 @@ $my_file= popen("/bin/ls", "r");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 // opening a pipe
 $my_file= popen('/executable/gfg.exe', 'r');
@@ -79,7 +79,7 @@ pclose($my_file);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 

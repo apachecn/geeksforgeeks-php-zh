@@ -8,13 +8,13 @@
 
 *   **process style:**
 
-    ```
+    ```php
     timezone_transitions_get( $object, $timestamp_begin, $timestamp_end )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     DateTimeZone::getTransitions( $timestamp_begin, $timestamp_end )
     ```
 
@@ -30,7 +30,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Set time_zone object
@@ -47,7 +47,7 @@ print_r(array_slice($transition, 0, 3));
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => Array
@@ -83,7 +83,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Set time_zone object
@@ -100,7 +100,7 @@ print_r(array_slice($transition, 0, 3));
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => Array

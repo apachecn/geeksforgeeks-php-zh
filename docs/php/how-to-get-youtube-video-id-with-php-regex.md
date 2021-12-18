@@ -15,7 +15,7 @@ YouTube ID 是一个由 11 个字符组成的字符串，由大写字母和小�
 **Regex:** 现在我们知道有五种基本格式可以获得 YouTube ID，即通过 v=或 vi=或 v/或 vi/或 YouTube.。那么查询从什么开始呢或者“yout.be/”，用“？”开始正则表达式或者寻找“yout.be/”。它会忽略之前的网址部分吗？或“yout.be/”。然后搜索“v=”或“vi=”，存储下 11 个字符并打印出来。
 按照这个逻辑，正则表达式将是
 
-```
+```php
 preg_match_all("#(?<=v=|v\/|vi=|vi\/|youtu.be\/)[a-zA-Z0-9_-]{11}#", $url, $match);
 ```
 
@@ -23,14 +23,14 @@ preg_match_all("#(?<=v=|v\/|vi=|vi\/|youtu.be\/)[a-zA-Z0-9_-]{11}#", $url, $matc
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $url = 'https://youtu.be/hjGD08xfg9c
 ```
 
 **Output:** 
 
-```
+```php
 Array
 (
     [0] => hjGD08xfg9c
@@ -46,7 +46,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Store the URL into variable
@@ -66,7 +66,7 @@ echo $youtube_id_vi['vi'];
 
 **Output:** 
 
-```
+```php
 hjGD08xfg9c
 hjGD08xfg9c
 ```

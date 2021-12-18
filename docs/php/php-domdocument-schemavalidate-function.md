@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::schemaValidate( *string* $filename, *int* $flags = 0 )
 ```
 
@@ -23,7 +23,7 @@
 
 *   **File name: rule.xsd**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     elementFormDefault="qualified">
@@ -40,7 +40,7 @@
 
 *   **File name: index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new DOMDocument
@@ -62,7 +62,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is valid!
     ```
 
@@ -70,7 +70,7 @@
 
 *   **File name: rule.xsd**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     elementFormDefault="qualified">
@@ -87,7 +87,7 @@
 
 *   **File name: index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new DOMDocument
@@ -108,7 +108,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is not valid!
     ```
 

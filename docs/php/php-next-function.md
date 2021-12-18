@@ -11,7 +11,7 @@
 
 **语法：**
 
-```
+```php
 next($array)
 ```
 
@@ -21,7 +21,7 @@ next($array)
 
 例如：
 
-```
+```php
 Input : array = [1, 2, 3, 4] 
 Output : 2 
 
@@ -35,7 +35,7 @@ Output : 2
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP Program to demonstrate the
 // first position of next() function 
@@ -50,13 +50,13 @@ echo next($array);
 
 产出：
 
-```
+```php
 Raj
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP Program to demonstrate the 
 // working of next() function 
@@ -91,7 +91,7 @@ echo current($array), "\n"; 
 
 产出：
 
-```
+```php
 geeks
 Raj
 Raj

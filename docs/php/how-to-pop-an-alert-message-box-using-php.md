@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 alert("Message")
 ```
 
@@ -16,7 +16,7 @@ alert("Message")
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to pop an alert
 // message box on the screen

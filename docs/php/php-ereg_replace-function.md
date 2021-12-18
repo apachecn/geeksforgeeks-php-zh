@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ereg_replace ( $string_pattern, $replace_string,  $original_string )
 
 ```
@@ -23,7 +23,7 @@
 
 示例：
 
-```
+```php
 Input: $original_string = "Geeksforgeeks PHP article."; 
        $string_pattern = "(.*)PHP(.*)"; 
        $replace_string = " You should read \\1all\\2"; 
@@ -44,7 +44,7 @@ Output: Geeksforgeeks is no:1 computer science portal.
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Original input string 
@@ -67,7 +67,7 @@ echo ereg_replace($patternstrVal, $replacesstrVal, $stringVal); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Original input string 

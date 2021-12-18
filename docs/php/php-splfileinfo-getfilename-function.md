@@ -6,7 +6,7 @@ SplFileInfo：：getFilename()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **语法：**
 
-```
+```php
 *string* SplFileInfo::getFilename( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getFilename()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -35,14 +35,14 @@ echo( $file->getFilename());
 
 **Output:**
 
-```
+```php
 gfg.txt
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check 
@@ -69,7 +69,7 @@ foreach ($GFG as $file_name) {
 
 **Output:**
 
-```
+```php
 dummy.php
 gfg.txt
 gfg.php

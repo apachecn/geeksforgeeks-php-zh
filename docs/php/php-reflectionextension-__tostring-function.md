@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ReflectionExtension::__toString()
 ```
 
@@ -17,7 +17,7 @@ ReflectionExtension::__toString()
 以下程序说明 PHP：
 **Program_1：**中的 ReflectionExtension：：__toString()函数
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -38,7 +38,7 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(98219) "Extension [ <persistent> extension #18 dom version 20031129 ] {
 
   - Dependencies {
@@ -77,7 +77,7 @@ string(98219) "Extension [ <persistent> extension #18 dom version 20031129 ] {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -93,7 +93,7 @@ var_dump($extension->__toString());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(6209) "Extension [ <persistent> extension #15 xml version 7.0.33-0ubuntu0.16.04.7 ] {
 
   - Dependencies {

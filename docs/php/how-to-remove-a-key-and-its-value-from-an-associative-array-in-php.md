@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input : array( "name" => "Anand", "roll"=> "1")
 Output : Array (
     [roll] => 1
@@ -24,13 +24,13 @@ Output : Array (
 
 **语法:**
 
-```
+```php
 *void* unset( $array_name['key_to_be_removed'] )
 ```
 
 **程序:**
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -52,7 +52,7 @@ print_r($arr);
 
 **Output:**
 
-```
+```php
 Array
 (
     [2] => Multiply
@@ -65,13 +65,13 @@ Array
 
 **语法:**
 
-```
+```php
 *array* array_diff_key( $array_name, array_flip((array) ['keys_to_be_removed'] )
 ```
 
 **程序:**
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -94,7 +94,7 @@ print_r($result);
 
 **Output:**
 
-```
+```php
 Array
 (
     [2] => b

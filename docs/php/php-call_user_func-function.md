@@ -6,7 +6,7 @@ call_user_func()是 PHP 中的一个内置函数，用于调用第一个参数�
 
 **语法:**
 
-```
+```php
 mixed call_user_func ( $function_name[, mixed $value1[, mixed $... ]])
 ```
 
@@ -22,7 +22,7 @@ mixed call_user_func ( $function_name[, mixed $value1[, mixed $... ]])
 
 **程序 1:** 调用函数
 
-```
+```php
 <?php
 function GFG($value)
 {
@@ -37,7 +37,7 @@ call_user_func('GFG', "Content");
 
 **Output:**
 
-```
+```php
 This is GeeksforGeeks site.
 This is Content site.
 
@@ -45,7 +45,7 @@ This is Content site.
 
 **程序 2:** 使用名称空间名称调用 _user_func()
 
-```
+```php
 <?php
 
 namespace Geeks;
@@ -66,7 +66,7 @@ call_user_func(array(__NAMESPACE__ .'\GFG', 'demo')); 
 
 **Output:**
 
-```
+```php
 GeeksForGeeks
 GeeksForGeeks
 
@@ -74,7 +74,7 @@ GeeksForGeeks
 
 **程序 3:** 使用带有 call_user_func()的类方法
 
-```
+```php
 <?php
 
 class GFG {
@@ -96,7 +96,7 @@ call_user_func(array($obj, 'show'));
 
 **Output:**
 
-```
+```php
 Geeks
 Geeks
 
@@ -104,7 +104,7 @@ Geeks
 
 **程序 4:** 使用带有 call_user_func()的 lambda 函数
 
-```
+```php
 <?php
 call_user_func(function($arg) { print "$arg\n"; }, 'GeeksforGeeks');
 ?>
@@ -112,7 +112,7 @@ call_user_func(function($arg) { print "$arg\n"; }, 'GeeksforGeeks');
 
 **Output:**
 
-```
+```php
 GeeksforGeeks
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setResolution( *float* $x_resolution, *float* $y_resolution )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -67,7 +67,7 @@ print("<pre>".print_r($imagick->identifyImage(), true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

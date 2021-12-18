@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 string get_called_class( void )
 ```
 
@@ -18,7 +18,7 @@ string get_called_class( void )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a class
@@ -37,14 +37,14 @@ GFG::Geeks();
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a class
@@ -72,7 +72,7 @@ GeeksforGeeks::GeeksforGeeks();
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 string(3) "GFG"
 string(3) "GFG"

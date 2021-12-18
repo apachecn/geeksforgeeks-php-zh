@@ -15,7 +15,7 @@ PHP 文件句柄是如何知道一些基本信息的，比如文件名、文件�
 
 现在看看这个数组是什么样子的？？
 
-```
+```php
  *   $ _ FILES[输入字段名称][名称]
 *   $ _ FILES[输入字段名][tmp_name]
 *   $ _ FILES[输入字段名称][大小]
@@ -26,7 +26,7 @@ PHP 文件句柄是如何知道一些基本信息的，比如文件名、文件�
 让我们看一下例子，在第一个例子中这个数组是如何工作的。
 **例 1 :**
 
-```
+```php
 <?php
    echo "<pre>";
    print_r($_FILES);
@@ -45,7 +45,7 @@ PHP 文件句柄是如何知道一些基本信息的，比如文件名、文件�
 **示例 2 :** 添加 html 代码后跟 PHP 脚本不同的文件。让我们制作一个上传文件的 HTML 表单
 T3【index.html】T4
 
-```
+```php
 <!DOCTYPE html>
 <html>
   <head>
@@ -83,7 +83,7 @@ T3【index.html】T4
 现在，是时候编写一个能够处理文件上传系统的 php 脚本了。
 **file-upload-manager.php**
 
-```
+```php
 <?php
 // Check if the form was submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

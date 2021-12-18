@@ -8,7 +8,7 @@
 
 **示例:**在多维数组中搜索名字为“AMIT”的学生并打印结果的程序。
 
-```
+```php
 <?php
 // PHP program to carry out multidimensional array
 // search by key=>value
@@ -71,7 +71,7 @@ foreach ($res as $var) {
 
 **Output:**
 
-```
+```php
 101 - AMIT
 202 - AMIT
 
@@ -81,7 +81,7 @@ foreach ($res as $var) {
 
 **示例:**程序以多维数组搜索住在“德里”的学生并打印结果。
 
-```
+```php
 <?php
 // PHP program to carry out multidimensional
 // array search by key=>value
@@ -143,7 +143,7 @@ foreach ($res as $var) {
 
 **Output:**
 
-```
+```php
 BOB - Delhi
 AMIT - Delhi
 ANMOL - Delhi

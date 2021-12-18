@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* gethostbyname( *$hostname* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 $ip = gethostbyname("geeksforgeeks.org");

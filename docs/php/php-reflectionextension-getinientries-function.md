@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Array* ReflectionExtension::getINIEntries( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 _1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -40,7 +40,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 array(0) {
 }
 
@@ -48,7 +48,7 @@ array(0) {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -65,7 +65,7 @@ var_dump($extension->getINIEntries());
 
 **输出：**
 
-```
+```php
 array(3) {
   ["pcre.backtrack_limit"]=>
   string(7) "1000000"

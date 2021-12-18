@@ -6,7 +6,7 @@ Intval()函数是 PHP 中的内置函数，它返回变量的整数值。
 
 **语法：**
 
-```
+```php
 int intval ( $var, $base )
 
 ```
@@ -23,7 +23,7 @@ int intval ( $var, $base )
 
 **示例：**
 
-```
+```php
 Input : $var = '120', $base = 8
 Output : 80
 
@@ -39,7 +39,7 @@ Output : 28
 
 **程序 1：**
 
-```
+```php
 <?php
 $var = '7.423';
 $int_value = intval($var);
@@ -49,14 +49,14 @@ echo $int_value;
 
 **输出：**
 
-```
+```php
 7
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $var = 0x423;
 $int_value = intval($var);
@@ -66,14 +66,14 @@ echo $int_value;
 
 **输出：**
 
-```
+```php
 1059
 
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 $var = "64";
 echo intval($var)."\n".intval($var, 8);
@@ -83,7 +83,7 @@ echo intval($var)."\n".intval($var, 8);
 
 **输出：**
 
-```
+```php
 64
 52
 

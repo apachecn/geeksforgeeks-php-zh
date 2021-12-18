@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMCharacterData::substringData( *int* $offset, *int* $count )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1(使用 PHP ECHO 函数查看子串)：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -45,13 +45,13 @@ echo $text;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksForGeeks
 ```
 
 **程序 2(创建 HTML 标题以查看子字符串)：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document

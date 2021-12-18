@@ -9,7 +9,7 @@ PHP 中的*hedec()*函数将十六进制数转换为十进制数。
 
 **语法：**
 
-```
+```php
 hexdec($value)
 ```
 
@@ -19,7 +19,7 @@ hexdec($value)
 
 例如：
 
-```
+```php
 Input : hexdec("5e")
 Output : 94
 
@@ -36,7 +36,7 @@ Output : 11256913
 
 下面的程序演示了十六进制解码器()在 PHP 中的工作原理：
 
-```
+```php
 <?php
 
 echo hexdec("5e") . "\n";
@@ -49,7 +49,7 @@ echo hexdec("abc451") . "\n";
 
 产出：
 
-```
+```php
 94
 10
 61937

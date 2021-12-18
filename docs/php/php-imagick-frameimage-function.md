@@ -6,7 +6,7 @@ Imagick：：FrameImage()函数是 PHP 中的一个内置函数，用于在图�
 
 **语法：**
 
-```
+```php
 *bool* Imagick::frameImage( $color, $width, $height, $inner_bevel, $outer_bevel )
 ```
 
@@ -24,7 +24,7 @@ Imagick：：FrameImage()函数是 PHP 中的一个内置函数，用于在图�
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create an Imagick object 
@@ -47,7 +47,7 @@ echo $imagick->getImageBlob(); 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -82,7 +82,7 @@ $image->writeImage(__DIR__.'\sample_image_with_border2.jpeg');
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a function which accepts the parameters

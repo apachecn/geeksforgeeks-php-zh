@@ -5,7 +5,7 @@
 **IntlChar：：枚举 CharNames()**函数是 PHP 中的一个内置函数，用于给出一个范围内所有可用赋值 Unicode 字符的目录。 该列表将包含起始代码点(包括起始代码点)和限制代码点(不包括限制代码点)之间的 Unicode 字符。 将为每个函数调用一个函数，并将代码点值与字符名称一起传递。 那些与新的&现代名称不同的名称，对于 Unicode 1.0 名称，只有那些名称将被编目。
 **语法：**
 
-```
+```php
 *void* IntlChar::enumCharNames( $start, $limit, $callback,
 $nameChoice = IntlChar::UNICODE_CHAR_NAME )  
 ```
@@ -31,7 +31,7 @@ $nameChoice = IntlChar::UNICODE_CHAR_NAME )
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to uses IntlChar::enumCharNames()
@@ -46,7 +46,7 @@ IntlChar::enumCharNames(0x2700, 0x2710,
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 U+2700 BLACK SAFETY SCISSORS
 U+2701 UPPER BLADE SCISSORS
 U+2702 BLACK SCISSORS

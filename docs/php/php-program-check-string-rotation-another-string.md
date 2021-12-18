@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```php
 Input : $string1 = "WayToCrack",
         $string2 = "CrackWayTo";
 Output : Yes
@@ -27,7 +27,7 @@ Output : No.
 
 ## PHP
 
-```
+```php
 <?php
     function rotation_string($string1, $string2)
     {
@@ -55,7 +55,7 @@ Output : No.
 
 **Output:**
 
-```
+```php
 Yes
 
 ```

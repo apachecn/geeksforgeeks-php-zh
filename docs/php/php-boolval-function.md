@@ -6,7 +6,7 @@ boolval()函数是 PHP 中的一个内置函数，它为给定的表达式提供
 
 **语法**:
 
-```
+```php
 *boolean* boolval( $expr )
 ```
 
@@ -30,7 +30,7 @@ boolval()函数是 PHP 中的一个内置函数，它为给定的表达式提供
 
 下面的程序说明了 PHP 中的 boolval()函数:
 
-```
+```php
 <?php
 // PHP program to illustrate 
 // the boolval() function
@@ -55,7 +55,7 @@ echo 'boolval of NULL: '.( boolval( NULL )? 'true' : 'false' )."\n";
 
 **输出**:
 
-```
+```php
 boolval of 3: true
 boolval of -3    : true
 boolval of 0: false

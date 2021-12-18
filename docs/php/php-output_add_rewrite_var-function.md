@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *bool* output_add_rewrite_var( *string* $name, *string* $value )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 session_start();
@@ -51,7 +51,7 @@ print_r(ob_list_handlers());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 output_add_rewrite_var('var', 'value');

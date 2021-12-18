@@ -6,7 +6,7 @@ PHP 中的 chroot()函数是一个内置函数，用于将当前进程的根目�
 
 **语法:**
 
-```
+```php
 chroot($directory)
 ```
 
@@ -25,7 +25,7 @@ chroot($directory)
 
 **节目 1:**
 
-```
+```php
 <?php
 
 // Changing root directory
@@ -38,14 +38,14 @@ echo getcwd();
 
 **输出:**
 
-```
+```php
 /
 
 ```
 
 **节目 2:**
 
-```
+```php
 <?php
 // Changing root directory
 $flag = chroot("path/gfg/chroot/");
@@ -62,7 +62,7 @@ else 
 
 **输出:**
 
-```
+```php
 Root Directory Has Been Successfully Changed
 
 ```

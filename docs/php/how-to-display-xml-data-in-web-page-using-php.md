@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```php
 <root>
    <child>
    <subchild>.....</subchild>
@@ -22,14 +22,14 @@
 
 *   [simplexml_load_file](https://www.geeksforgeeks.org/php-simplexml_load_file-function/)
 
-    ```
+    ```php
     simplexml_load_file(name of XML file)
 
     ```
 
 *   **[子节点():](https://www.geeksforgeeks.org/php-simplexmlelement-children-function/)***子节点()*函数查找指定节点的子节点。
 
-    ```
+    ```php
     $xml_data->children()
 
     ```
@@ -42,7 +42,7 @@
 
     ## XML _ data . XML
 
-    ```
+    ```php
     <?xml version = "1.0" encoding = "utf-8"?>
     <collegedata>
        <department category = "IT">
@@ -76,7 +76,7 @@
 
     ## code.php
 
-    ```
+    ```php
     <?php
     // Start php code
     // Load xml file into xml_data variable

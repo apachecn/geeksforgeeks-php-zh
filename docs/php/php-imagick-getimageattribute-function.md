@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::getImageAttribute( *string* $key )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a Imagick object
@@ -36,7 +36,7 @@ echo $attribute;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a Imagick object

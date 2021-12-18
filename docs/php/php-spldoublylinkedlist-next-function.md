@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplDoublyLinkedList::next( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -50,7 +50,7 @@ var_dump($list->current());
 
 **输出：**
 
-```
+```php
 int(30)
 int(20)
 
@@ -58,7 +58,7 @@ int(20)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -93,7 +93,7 @@ var_dump($list->current());
 
 **输出：**
 
-```
+```php
 int(1)
 int(8)
 

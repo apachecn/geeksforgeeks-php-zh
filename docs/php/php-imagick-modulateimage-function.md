@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::modulateImage( $brightness, $saturation, $hue )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 /*require_once('vendor/autoload.php'); */
@@ -48,7 +48,7 @@ echo $image;
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 /*require_once('vendor/autoload.php');*/

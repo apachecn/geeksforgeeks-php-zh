@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Website: https://www.geeksforgeeks.org
 HTTP_HOST: www.geeksforgeeks.org
 
@@ -16,7 +16,7 @@ HTTP_HOST: www.geeksforgeeks.org
 
 **示例:**
 
-```
+```php
 Website: https://www.geeksforgeeks.org
 HTTP_SERVER: Display the server name
 
@@ -38,7 +38,7 @@ HTTP _ SERVER:google.com |
 
 **HTTP _ HOST 示例:**
 
-```
+```php
 <?php
  echo $_SERVER['HTTP_HOST']; 
 ?>
@@ -46,13 +46,13 @@ HTTP _ SERVER:google.com |
 
 **输出:**
 
-```
+```php
 It display the host name.
 ```
 
 **HTTP _ SERVER 示例:**
 
-```
+```php
 <?php
 echo $_SERVER['SERVER_NAME'];
 ?>
@@ -60,7 +60,7 @@ echo $_SERVER['SERVER_NAME'];
 
 **输出:**
 
-```
+```php
 It display the server name.
 ```
 

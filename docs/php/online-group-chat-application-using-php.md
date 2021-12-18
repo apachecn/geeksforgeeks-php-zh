@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <style>
 *{
     box-sizing:border-box;
@@ -226,7 +226,7 @@ main footer textarea::placeholder{
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
     if (isset($_POST['submit'])){
 
@@ -267,7 +267,7 @@ main footer textarea::placeholder{
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <body onload="show_func()">
 <div id="container">
     <main>
@@ -394,7 +394,7 @@ endwhile; ?>
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 if (isset($_POST['submit'])){
 /* Attempt MySQL server connection. Assuming

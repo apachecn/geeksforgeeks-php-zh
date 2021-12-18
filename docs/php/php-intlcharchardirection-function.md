@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::charDirection ( $codepoint )
 ```
 
@@ -43,7 +43,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate IntlChar::charDirection()
@@ -81,7 +81,7 @@ var_dump(IntlChar::charDirection("O") === 
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)
@@ -94,7 +94,7 @@ bool(true)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate IntlChar::charDirection()
@@ -125,7 +125,7 @@ var_dump(IntlChar::charDirection("O"));
 
 **输出：**
 
-```
+```php
 int(0)
 int(1)
 int(3)

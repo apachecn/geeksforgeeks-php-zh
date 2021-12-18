@@ -8,7 +8,7 @@
 
 示例：
 
-```
+```php
 Input : array[] = {2, 3, 1, 6, 1, 6, 2, 3}
 Output : array (
                 [6] => 2
@@ -39,7 +39,7 @@ Output : array (
 
 以下是上述想法的实施情况：
 
-```
+```php
 <?php
     // define array
     $a = array(1, 5, 2, 5, 1, 3, 2, 4, 5);

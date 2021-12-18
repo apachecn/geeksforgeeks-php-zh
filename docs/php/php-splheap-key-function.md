@@ -11,7 +11,7 @@ SplHeap：：key()函数是 PHP 中的一个内置函数，用于获取当前节
 
 **语法：**
 
-```
+```php
 mixed SplHeap::key()
 ```
 
@@ -25,7 +25,7 @@ mixed SplHeap::key()
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Mix Heap 
@@ -53,7 +53,7 @@ for ($heap->top(); $heap->valid(); $heap->next()) {
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 

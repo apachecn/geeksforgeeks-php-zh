@@ -8,14 +8,14 @@
 
 *   面向对象的样式：
 
-```
+```php
 *DateTimeImmutable* static DateTime::createFromFormat( *string* $format,
                                       *string* $time, *DateTimeZone* $timezone )
 ```
 
 *   程序风格：
 
-```
+```php
 *DateTimeImmutable* date_create_from_format( *string* $format, 
                                       *string* $time, *DateTimeZone* $timezone )
 ```
@@ -50,7 +50,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Use date_create_from_format() function
@@ -65,7 +65,7 @@ echo date_format($date, 'Y-m-d');
 
 **Output:** 
 
-```
+```php
 2019-10-03
 ```
 
@@ -73,7 +73,7 @@ echo date_format($date, 'Y-m-d');
 
 ## PHP
 
-```
+```php
 <?php
 
 // Use date_create_from_format() function
@@ -88,7 +88,7 @@ echo date_format($date, 'Y-m-j');
 
 **Output:** 
 
-```
+```php
 2019-10-3
 ```
 
@@ -96,7 +96,7 @@ echo date_format($date, 'Y-m-j');
 
 ## PHP
 
-```
+```php
 <?php
 
 // Use DateTime::createFromFormat() function
@@ -111,7 +111,7 @@ echo $date->format('Y-m-d');
 
 **Output:** 
 
-```
+```php
 2019-10-03
 ```
 

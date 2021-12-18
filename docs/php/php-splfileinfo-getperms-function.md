@@ -6,7 +6,7 @@ SplFileInfo：：getPerms()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **语法：**
 
-```
+```php
 *int* SplFileInfo::getPerms( void )
 ```
 
@@ -22,7 +22,7 @@ SplFileInfo：：getPerms()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check multiple files

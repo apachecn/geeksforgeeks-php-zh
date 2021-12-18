@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // Variable to store directory name
@@ -51,7 +51,7 @@ foreach($files as $file) {
 
     **示例:**
 
-    ```
+    ```php
     <?php
 
     // Function to delete all files

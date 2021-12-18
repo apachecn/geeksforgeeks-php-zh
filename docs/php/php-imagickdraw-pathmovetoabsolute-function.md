@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::pathMoveToAbsolute( *float* $x, *float* $y )
 ```
 
@@ -22,7 +22,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickDraw：：pathMoveToAbsolute()函数**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -61,7 +61,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -6,7 +6,7 @@
 
 **方法 1:** 使用正则表达式的电子邮件验证。
 
-```
+```php
 <?php
 // PHP program to validate email
 
@@ -30,7 +30,7 @@ else {
 
 **输出:**
 
-```
+```php
 Valid email address.
 
 ```
@@ -39,7 +39,7 @@ Valid email address.
 
 **方法 2:** 使用 filter_var()方法进行邮件验证。
 
-```
+```php
 <?php
 
 // Declare variable and initialize
@@ -59,7 +59,7 @@ else {
 
 **Output:**
 
-```
+```php
 author@geeksforgeeks.com is a valid email address
 
 ```
@@ -68,7 +68,7 @@ author@geeksforgeeks.com is a valid email address
 
 **方法 3:** 使用 FILTER_SANITIZE_EMAIL 过滤器进行邮件验证。
 
-```
+```php
 <?php
 
 // Declare variable and store it to email
@@ -90,7 +90,7 @@ else {
 
 **输出:**
 
-```
+```php
 author.gfg@GeeksforGeeks.com is a valid email address
 
 ```

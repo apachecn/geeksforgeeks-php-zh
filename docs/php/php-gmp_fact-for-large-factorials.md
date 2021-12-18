@@ -6,7 +6,7 @@ GMP_FACT()是 PHP 中的一个内置函数，用于计算 GMP 数的阶乘([GNU 
 
 **语法：**
 
-```
+```php
 gmp_fact ( $num )
 ```
 
@@ -16,7 +16,7 @@ gmp_fact ( $num )
 
 例如：
 
-```
+```php
 Input : "9"
 Output : 362880
 
@@ -29,7 +29,7 @@ Output : 15511210043330985984000000
 
 **程序 1：**
 
-```
+```php
 <?php
 $fact = gmp_fact(5); 
 echo gmp_strval($fact);
@@ -39,14 +39,14 @@ echo gmp_strval($fact);
 
 产出：
 
-```
+```php
 120
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $fact = gmp_fact(25); 
 echo gmp_strval($fact);
@@ -56,7 +56,7 @@ echo gmp_strval($fact);
 
 产出：
 
-```
+```php
 15511210043330985984000000
 
 ```

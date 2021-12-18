@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Gmagick::destroy( *void* )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 
@@ -40,13 +40,13 @@ echo $gmagick;  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 No image is shown as output because it is destroyed.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -67,7 +67,7 @@ print("<pre>".print_r($gmagick->getimageresolution(), true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before destruction:
 Array
 (

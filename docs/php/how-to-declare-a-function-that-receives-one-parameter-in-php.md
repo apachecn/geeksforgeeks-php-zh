@@ -16,7 +16,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 function param_hello($hello=false){
@@ -38,7 +38,7 @@ param_hello(false);
 
 **输出:**
 
-```
+```php
 Hello
 No hello
 ```
@@ -49,7 +49,7 @@ No hello
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 function param_hello($hello=false){
     if($hello){
@@ -70,6 +70,6 @@ echo($res);
 
 **输出:**
 
-```
+```php
 Hello
 ```

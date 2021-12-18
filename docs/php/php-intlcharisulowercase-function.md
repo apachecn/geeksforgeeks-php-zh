@@ -5,7 +5,7 @@
 **IntlChar：：isULowercase()**函数是 PHP 中的内置函数，用于检查给定的输入字符是否为小写字符。
 **语法：**
 
-```
+```php
 *bool* IntlChar::isULowercase( $codepoint )
 ```
 
@@ -16,7 +16,7 @@
 
 **语法：**
 
-```
+```php
 bool IntlChar::isULowercase( $codepoint )
 ```
 
@@ -28,7 +28,7 @@ bool IntlChar::isULowercase( $codepoint )
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isULowercase()()
 // function
@@ -52,7 +52,7 @@ var_dump(IntlChar::isULowercase("7"));
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 NULL
@@ -64,7 +64,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP code to IntlChar::isULowercase()
@@ -84,7 +84,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 bool(false) 
 NULL 
 bool(false) 
@@ -104,7 +104,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isULowercase()
 // function
@@ -128,7 +128,7 @@ var_dump(IntlChar::isULowercase("7"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 bool(true)
 NULL
@@ -140,7 +140,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP code to IntlChar::isULowercase()
@@ -160,7 +160,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false) 
 NULL 
 bool(false) 

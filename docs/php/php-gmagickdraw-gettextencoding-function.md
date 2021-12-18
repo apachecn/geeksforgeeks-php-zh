@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* GmagickDraw::gettextencoding( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new GmagickDraw object
@@ -34,13 +34,13 @@ echo $textEncoding;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 // Empty string which is the default value
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new GmagickDraw object
@@ -57,7 +57,7 @@ echo $textEncoding;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 utf-8
 ```
 
@@ -66,7 +66,7 @@ utf-8
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::rotationalBlurImage( $angle, $channel )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new Imagick Object
@@ -47,7 +47,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php');

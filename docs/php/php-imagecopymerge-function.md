@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagecopymerge ( $dst_image, $src_image, $dst_x, $dst_y, 
 $src_x, $src_y, $src_w, $src_h, $pct )
 ```
@@ -33,7 +33,7 @@ $src_x, $src_y, $src_w, $src_h, $pct )
 **输入目标图像：**
 ![destination image](img/b7905e631526ae6974f1fc5a421df498.png)
 
-```
+```php
 <?php
 // Create image instances
 $dest = imagecreatefromgif(
@@ -62,7 +62,7 @@ imagedestroy($src);
 **输入目标图像：**
 ![destination image](img/c6e0a168008bc4a43314f9fb895e5c7c.png)
 
-```
+```php
 <?php
 // Create image instances
 $dest = imagecreatefrompng(

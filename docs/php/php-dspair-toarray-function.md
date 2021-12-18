@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Ds\Pair::toArray( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a Pair 
@@ -33,7 +33,7 @@ print_r($pair->toArray()); 
 
 **输出：**
 
-```
+```php
 Array is:
 Array
 (
@@ -45,7 +45,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a Pair 
@@ -60,7 +60,7 @@ var_dump($pair->toArray()); 
 
 **输出：**
 
-```
+```php
 Array is:
 array(2) {
   ["key"]=>

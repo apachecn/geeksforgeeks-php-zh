@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* abstract public Ds\Sequence::reduce ( callable $callback 
 [, mixed $initial ] )
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare new sequence
@@ -45,7 +45,7 @@ var_dump($seq->reduce(function($carry, $element) { 
 
 **输出：**
 
-```
+```php
 Sequence Elements
 Ds\Vector Object
 (
@@ -63,7 +63,7 @@ int(25)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare new sequence
@@ -87,7 +87,7 @@ var_dump($seq->reduce($func_gfg, 10)); 
 
 **输出：**
 
-```
+```php
 Original sequence elements
 Ds\Vector Object
 (

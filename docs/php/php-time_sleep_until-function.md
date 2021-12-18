@@ -8,7 +8,7 @@ PHP 中的 TIME_SLEEP_Until()函数是一个内置函数，用于将当前脚本
 
 **语法：**
 
-```
+```php
 time_sleep_until(timestamp)
 ```
 
@@ -24,7 +24,7 @@ time_sleep_until(timestamp)
 
 **示例：**
 
-```
+```php
 Input : echo date('h:i:s');
         time_sleep_until(time()+5);
         echo date('h:i:s'); 
@@ -43,7 +43,7 @@ Output : 07:21:55
 
 **程序 1**：
 
-```
+```php
 <?php
 // displaying time
 echo date('h:i:s');
@@ -59,7 +59,7 @@ echo date('h:i:s'); 
 
 **Output:**
 
-```
+```php
 06:50:04
 06:50:08
 
@@ -67,7 +67,7 @@ echo date('h:i:s'); 
 
 **程序 2**：
 
-```
+```php
 <?php
 // displaying time
 echo date('h:i:s');
@@ -84,7 +84,7 @@ echo date('h:i:s'); 
 
 **Output:**
 
-```
+```php
 06:50:14
 06:50:15
 
@@ -92,7 +92,7 @@ echo date('h:i:s'); 
 
 **程序 3**：
 
-```
+```php
 <?php
 
 // delaying execution of script with negative time
@@ -106,7 +106,7 @@ echo date('h:i:s'); 
 
 **Output:**
 
-```
+```php
 false
 
 ```

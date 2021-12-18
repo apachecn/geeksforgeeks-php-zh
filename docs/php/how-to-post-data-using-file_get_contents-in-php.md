@@ -6,7 +6,7 @@ PHP 中的 [file_get_contents()函数](https://www.geeksforgeeks.org/php-file_ge
 
 **语法:**
 
-```
+```php
 *string* file_get_contents( $path, $include_path, 
                       $context, $offset, $max_length )
 ```
@@ -26,7 +26,7 @@ PHP 中的 [file_get_contents()函数](https://www.geeksforgeeks.org/php-file_ge
 ![](img/97864848eb7b75ea1aa2ed17cdc1134f.png)
 以下代码包含在‘index . PHP’中。
 
-```
+```php
 <?php
 
 // Contains the url to post data
@@ -65,7 +65,7 @@ echo $result;
 
 要查看内容中的项目，以下代码是用“demo1.php”编写的:
 
-```
+```php
 <?php
 echo $_POST['Name'];
 ?> 

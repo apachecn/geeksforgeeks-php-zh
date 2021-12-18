@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::queryformats( *string* $pattern )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1(获取所有格式)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -39,7 +39,7 @@ foreach ($formats as $format) {
 
 **程序 2(检查是否支持某种格式)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

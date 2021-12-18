@@ -9,7 +9,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isblank ( $codepoint )
 
 ```
@@ -22,7 +22,7 @@
 
 例如：
 
-```
+```php
 Input : $codepoint = "G"
 Output :bool(false)
 // Character becomes False
@@ -41,7 +41,7 @@ Output : NULL
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP code to illustrate the 
 // IntlChar::isblank() function.
@@ -68,7 +68,7 @@ var_dump(IntlChar::isblank("\n"));
 
 产出：
 
-```
+```php
 bool(false)
 bool(false)
 bool(true)
@@ -80,7 +80,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate the 
 // IntlChar::isblank() function.
@@ -107,7 +107,7 @@ var_dump(IntlChar::isblank('\n'));
 
 产出：
 
-```
+```php
 bool(false)
 bool(false)
 bool(true)
@@ -119,7 +119,7 @@ NULL
 
 **程序 3：**如果函数输入是字符串或数字，则打印 NULL。
 
-```
+```php
 <?php
 // PHP code to illustrate the 
 // IntlChar::isblank() function.
@@ -134,7 +134,7 @@ var_dump(IntlChar::isblank("2018"));
 
 产出：
 
-```
+```php
 NULL
 NULL
 

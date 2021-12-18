@@ -5,7 +5,7 @@
 函数是 PHP 中的一个内置函数，用于将基于调色板的图像转换为真彩色。
 **语法：**和
 
-```
+```php
 *bool* imagepalettetotruecolor( *resource* $src )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an image
@@ -46,7 +46,7 @@ function check($image) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Before conversion:
 Type of image is palette
 After conversion:
@@ -57,7 +57,7 @@ Type of image is true color
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an image of palette type

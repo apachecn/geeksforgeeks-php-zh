@@ -11,7 +11,7 @@ array_replace()函数是 PHP 中的一个内置函数，它以逗号(，)分隔�
 
 **语法**:
 
-```
+```php
 *array* array_replace ( $array1, $array2, ...., $arrayn )
 
 ```
@@ -22,7 +22,7 @@ array_replace()函数是 PHP 中的一个内置函数，它以逗号(，)分隔�
 
 示例:
 
-```
+```php
 Input : $array1 = array("orange", "banana", "apple", "raspberry")
         $array2 = array(0 => "pineapple", 4 => "cherry")
         $array3 = array(0 => "grape")
@@ -59,7 +59,7 @@ Output : Array
 
 **程序 1** :
 
-```
+```php
 <?php
 
 // Array to be replaced
@@ -81,7 +81,7 @@ print_r($resArr);
 
 输出:
 
-```
+```php
 Array
 (
     [0] => grape
@@ -95,7 +95,7 @@ Array
 
 **程序 2** :
 
-```
+```php
 <?php
 
 // Array to be replaced
@@ -117,7 +117,7 @@ print_r($resArr);
 
 输出:
 
-```
+```php
 Array
 (
     [0] => solitude

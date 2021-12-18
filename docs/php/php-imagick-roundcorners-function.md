@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::roundCorners( *float* $x_rounding, 
 *float* $y_rounding, *float* $stroke_width = 10, 
 *float* $displace = 5, *float* $size_correction = -6 )
@@ -28,7 +28,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -50,7 +50,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

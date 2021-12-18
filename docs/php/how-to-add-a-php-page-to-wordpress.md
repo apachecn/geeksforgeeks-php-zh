@@ -11,7 +11,7 @@ WordPress 是最好的博客平台之一。这是一个场景，我们有一个�
 **第二步:**创建 WordPress 模板页面
 我们可以从一个示例文件开始，复制 page.php，根据您的选择重命名它，并将其放入主题文件夹中../WP-内容/主题/神话/
 
-```
+```php
 <?php
 /*
 Template Name: GFG
@@ -31,7 +31,7 @@ Template Name: GFG
 
 **示例:**在函数中，需要如下实现:
 
-```
+```php
 function simple_function_1() {
     return "Hello World!";
 }
@@ -41,13 +41,13 @@ add_shortcode( 'own_shortcode1', 'simple_function_1' );
 
 在帖子/页面中:
 
-```
+```php
 [own_shortcode1]
 ```
 
 输出:
 
-```
+```php
 Hello World!
 ```
 

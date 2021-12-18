@@ -6,7 +6,7 @@ PHP 的这个内置函数用于删除或弹出并返回数组中作为参数传�
 
 **语法**:
 
-```
+```php
 array_pop($array)
 ```
 
@@ -18,7 +18,7 @@ array_pop($array)
 
 示例:
 
-```
+```php
 Input : $array = (1=>"ram", 2=>"krishna", 3=>"aakash");
 Output : aakash
 
@@ -31,7 +31,7 @@ Output : 120
 
 **例 1**
 
-```
+```php
 <?php
 // PHP code to illustrate the use of array_pop()
 
@@ -48,7 +48,7 @@ print_r($array);
 
 输出:
 
-```
+```php
 Popped element is aakash
 After popping the last element, the array reduces to: 
 Array
@@ -61,7 +61,7 @@ Array
 
 **例 2**
 
-```
+```php
 <?php
 $arr = array(24, 48, 95, 100, 120);
 
@@ -76,7 +76,7 @@ print_r($arr);
 
 输出:
 
-```
+```php
 Popped element is 120
 After popping the last element, the array reduces to: 
 Array

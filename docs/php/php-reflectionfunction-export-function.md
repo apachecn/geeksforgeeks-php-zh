@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionFunction::export( *string* $name, *string* $return )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined function
@@ -42,7 +42,7 @@ echo $A;
 
 **输出：**
 
-```
+```php
 Function [ <user> function Company ] {
   @@ /home/b38c7d194c961e6b0d1d5b1c6e582d19.php 4 - 7
 
@@ -56,7 +56,7 @@ Function [ <user> function Company ] {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined functions
@@ -81,7 +81,7 @@ echo $function2->export(Trial2, $return = FALSE);
 
 **输出：**
 
-```
+```php
 Function [ <user> function Trial1 ] {
   @@ /home/2410abe3ca2b5235249f9a0c9ba035b4.php 4 - 7
 

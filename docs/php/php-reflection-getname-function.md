@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Reflection::getName( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class named as Departments
@@ -41,14 +41,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 string(11) "Departments"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass over the inbuilt class 'ReflectionClass'
@@ -64,7 +64,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 string(15) "ReflectionClass"
 
 ```

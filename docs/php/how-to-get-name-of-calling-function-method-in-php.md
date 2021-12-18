@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```php
 <?php
 // PHP program to get the name
 // of calling function/method
@@ -60,7 +60,7 @@ firstCall('test', 'php');
 
 **Output:**
 
-```
+```php
 Array
 (
     [file] => /home/5aeb55f2023e4e59fedcedc30e37e060.php
@@ -87,7 +87,7 @@ Array
 
 **例 2:**
 
-```
+```php
 <?php
 // PHP program to get the name
 // of calling function/method
@@ -131,7 +131,7 @@ firstCall('test', 'php');
 
 **Output:**
 
-```
+```php
 Array
 (
     [file] => /home/1b5518d5af0615813238e7534ccb6e8a.php

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertGreaterThan(mixed $expected, 
          mixed $actual[, string $message = ''])
 
@@ -24,7 +24,7 @@ assertGreaterThan(mixed $expected,
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -70,7 +70,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -95,7 +95,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHPUnit 8.5.8 by Sebastian Bergmann and contributors.
 
 .                            1 / 1 (100%)

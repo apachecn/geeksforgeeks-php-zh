@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagesavealpha( *resource* $image, *bool* $save_flag )
 ```
 
@@ -21,7 +21,7 @@
 
 **示例 1：**在此示例中，我们将启用保存 Alpha 信息。
 
-```
+```php
 <?php
 
 // Load the png image
@@ -49,7 +49,7 @@ imagedestroy($png);
 
 **示例 2：**在此示例中，我们将禁用保存 Alpha 信息。
 
-```
+```php
 <?php
 
 // Load the png image

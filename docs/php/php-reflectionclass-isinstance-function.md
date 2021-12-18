@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isInstance( *object* $object )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declaring a user-defined class
@@ -43,7 +43,7 @@ var_dump($A);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declaring a user-defined class

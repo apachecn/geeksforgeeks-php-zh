@@ -5,7 +5,7 @@
 **ImagickDraw：：setFillOpacity()**函数是 PHP 中的一个内置函数，用于设置使用填充颜色或填充纹理绘制时要使用的不透明度。
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setFillOpacity( $fillOpacity ) 
 ```
 
@@ -16,7 +16,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('vendor/autoload.php');
@@ -71,7 +71,7 @@ echo $image->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

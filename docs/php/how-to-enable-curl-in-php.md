@@ -8,7 +8,7 @@
 
 **需要“启用”cURL:** 默认情况下，Apache 中不启用 cURL。如果我们试图在 Apache 中运行 CURL 程序而不启用 CURL，浏览器将会抛出一个错误。
 
-```
+```php
 Fatal error: Call to undefined function curl_init()
 ```
 
@@ -30,13 +30,13 @@ Fatal error: Call to undefined function curl_init()
 
 *   这个命令安装 PHP CURL。
 
-    ```
+    ```php
     sudo apt-get install php5-curl
     ```
 
 *   该命令从 Apache 服务器开始。
 
-    ```
+    ```php
     sudo service apache2 restart
     ```
 
@@ -45,7 +45,7 @@ T3】
 
 *   **例:**
 
-    ```
+    ```php
     <?php
             // Create curl resource
             $ch = curl_init();

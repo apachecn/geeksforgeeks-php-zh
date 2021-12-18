@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageColors( void )
 
 ```
@@ -23,7 +23,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 //require_once('path/vendor/autoload.php');
 
@@ -41,7 +41,7 @@ print_r($size);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2955
 
 ```

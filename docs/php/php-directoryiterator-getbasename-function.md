@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DirectoryIterator::getBasename( *string* $suffix )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator
@@ -40,7 +40,7 @@ while ($directory->valid()) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a directory Iterator

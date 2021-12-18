@@ -24,7 +24,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "<pre>";
@@ -66,7 +66,7 @@ var_dump($memcacheD->getServerList());
 
 ## PHP
 
-```
+```php
 <?php
 echo "<pre>";
 

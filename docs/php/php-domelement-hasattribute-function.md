@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMElement::hasAttribute( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -48,7 +48,7 @@ foreach ($nodeList as $node) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

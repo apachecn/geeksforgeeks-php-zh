@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```php
 Input  : $boolStrVar1 = filter_var('true', FILTER_VALIDATE_BOOLEAN); 
 Output : true
 
@@ -19,7 +19,7 @@ Output : false
 
 **语法:**
 
-```
+```php
 filter_var( var, filterName, options )
 ```
 
@@ -33,7 +33,7 @@ filter_var( var, filterName, options )
 
 **程序:**
 
-```
+```php
 <?php
 // PHP program to illustrate the conversion
 // of String to Boolean value
@@ -56,7 +56,7 @@ var_dump(filter_var('', FILTER_VALIDATE_BOOLEAN));
 
 **输出:**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

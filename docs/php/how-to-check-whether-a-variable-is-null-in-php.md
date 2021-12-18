@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```php
 boolean is_null( $var )
 ```
 
@@ -14,7 +14,7 @@ boolean is_null( $var )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP Program to check whether
 // a variable is null or not?
@@ -38,7 +38,7 @@ is_null($var3) ? print_r("True\n") : print_r("False\n");
 
 **输出:**
 
-```
+```php
 True
 False
 False

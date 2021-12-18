@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 array array_unique($array, $sort_flags)
 ```
 
@@ -27,7 +27,7 @@ array array_unique($array, $sort_flags)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Input Array
@@ -41,7 +41,7 @@ print_r(array_unique($a));
 
 **Output**
 
-```
+```php
 Array
 (
     [0] => red
@@ -54,7 +54,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Input array
@@ -73,7 +73,7 @@ print_r(array_unique($arr));
 
 **Output**
 
-```
+```php
 Array
 (
     [a] => MH

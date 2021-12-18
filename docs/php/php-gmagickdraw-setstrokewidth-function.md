@@ -6,7 +6,7 @@ GmagickDraw：：setstrokewidth()函数是 PHP 中的一个内置函数，用于
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::setstrokewidth( $stroke_width ) : GmagickDraw
 ```
 
@@ -18,7 +18,7 @@ GmagickDraw：：setstrokewidth()函数是 PHP 中的一个内置函数，用于
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Gmagick object 
@@ -60,7 +60,7 @@ echo $gmagick ->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create new Gmagick Object 
 $draw = new GmagickDraw ();

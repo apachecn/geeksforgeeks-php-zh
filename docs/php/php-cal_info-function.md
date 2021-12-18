@@ -7,7 +7,7 @@ PHP 中的 cal_info()函数是一个内置函数，用于返回指定日历的�
 
 **语法:**
 
-```
+```php
 cal_info($calendar)
 ```
 
@@ -31,7 +31,7 @@ cal_info($calendar)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // displaying information
@@ -43,7 +43,7 @@ print_r (cal_info(0));
 
 输出:
 
-```
+```php
 Array
 (
     [months] => Array
@@ -88,7 +88,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // displaying information
@@ -100,7 +100,7 @@ print_r (cal_info(2));
 
 输出:
 
-```
+```php
 Array
 (
     [months] => Array

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* png2wbmp( *string* $pngname, 
 *int* $wbmpname, *int* $dest_height, 
 *int* $dest_width, *int* $threshold )
@@ -25,7 +25,7 @@
 下面给出的程序说明了 PHP 中的**png2wbmp()函数**：
 **程序 1：**
 
-```
+```php
 <?php
 // Path to the PNG image which
 // is to be converted
@@ -45,13 +45,13 @@ echo 'PNG converted into WBMP successfully.';
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the WBMP version of PNG in the same folder.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Path to the PNG image which
 // is to be converted

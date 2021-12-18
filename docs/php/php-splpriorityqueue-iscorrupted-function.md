@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool SplPriorityQueue::isCorrupted()
 ```
 
@@ -18,7 +18,7 @@ bool SplPriorityQueue::isCorrupted()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -51,7 +51,7 @@ var_dump($obj->isCorrupted());
 
 **OUTPUT**
 
-```
+```php
 bool(false)
 ```
 

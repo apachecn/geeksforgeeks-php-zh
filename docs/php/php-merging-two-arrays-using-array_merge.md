@@ -8,7 +8,7 @@ ARRAY_MERGE()是 PHP 中的一个内置函数，用于将两个或多个数组�
 
 **语法：**
 
-```
+```php
 *array* array_merge($array1, $array2, ......, $arrayn)
 ```
 
@@ -20,7 +20,7 @@ ARRAY_MERGE()是 PHP 中的一个内置函数，用于将两个或多个数组�
 
 *   **Merging Two Simple Arrays**: When two more arrays are passed to the array_merge() function then the values of one array are appended at the end of the previous array. If two elements have the same string keys then the latter value will be overridden. The integer keys will be renumbered starting from zero. To merge two arrays, the array_merge() function can be executed in the following way:
 
-    ```
+    ```php
     <?php
 
     $my_array1 = array("size" => "big", 2,3 );
@@ -39,7 +39,7 @@ ARRAY_MERGE()是 PHP 中的一个内置函数，用于将两个或多个数组�
 
 *   **传递带整数键的参数**：如果参数传递给 array_merge()函数，并且此数组参数的键是整数，则输出数组中的键将从 0 开始重新编号，并为下一个元素递增 1。下面的程序说明了这一点：
 
-    ```
+    ```php
     <?php
 
     $my_array = array(1 => "Geeks", 3=>"for", 2=>"Geeks");
@@ -52,7 +52,7 @@ ARRAY_MERGE()是 PHP 中的一个内置函数，用于将两个或多个数组�
 
     **输出：**
 
-    ```
+    ```php
     Array
     (
         [0] => Geeks
@@ -61,7 +61,7 @@ ARRAY_MERGE()是 PHP 中的一个内置函数，用于将两个或多个数组�
     )
     ```
 
-    ```
+    ```php
     <?php
 
     $my_array1 = array(0 => 'zero_a', 2 => 'two_a', 3 => 'three_a');
@@ -74,7 +74,7 @@ ARRAY_MERGE()是 PHP 中的一个内置函数，用于将两个或多个数组�
 
     输出：
 
-    ```
+    ```php
     Array
     (
         [0] => zero_a

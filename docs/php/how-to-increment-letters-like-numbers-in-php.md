@@ -8,13 +8,13 @@
 
 *   递增后的数字
 
-    ```
+    ```php
     0 1 2 3...
     ```
 
 *   递增后的字母
 
-    ```
+    ```php
     a b c d...
     ```
 
@@ -22,13 +22,13 @@
 
 *   **数字:**
 
-    ```
+    ```php
     0 1 2 3 ... 9 10 11 12 .. . 99 100 101 ...
     ```
 
 *   **字母:**
 
-    ```
+    ```php
     a b c d ... z aa ab ac ... zz aaa aab ...
     ```
 
@@ -36,7 +36,7 @@
 
 **例 1:** 程序递增各种字母并打印。
 
-```
+```php
 <?php
 $i = 'a';
 print(++$i . " ");
@@ -54,13 +54,13 @@ print(++$l);
 
 **输出:**
 
-```
+```php
 b ab aab aaab
 ```
 
 **例 2:** 打印‘a’到‘y’之间所有字母的程序。
 
-```
+```php
 <?php
 $i = 'a';
 
@@ -71,7 +71,7 @@ for( $i; $i < 'z'; $i++ )
 
 **输出:**本例循环至‘y’，因为如果在达到‘z’之前设置了的限制，则要求的结果是不同的。循环执行，直到遇到“z”
 
-```
+```php
 abcdefghijklmnopqrstuvwxy
 ```
 
@@ -79,7 +79,7 @@ abcdefghijklmnopqrstuvwxy
 
 **程序 3:** 显示减量对字母不起作用的程序。
 
-```
+```php
 <?php
 $i = 'd';
 
@@ -90,6 +90,6 @@ for( $i; $i > 'a'; $i-- )
 
 **输出:**
 
-```
+```php
 The following program produces an infinite loop of letter 'd'
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Gmagick::__construct( *string* $filename )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**此程序在浏览器中显示图像。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -38,7 +38,7 @@ echo $gmagick;  
 
 **程序 2：**此程序显示带边框的图像。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

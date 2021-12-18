@@ -8,13 +8,13 @@ DATE_TIMEZONE_SET()函数是 PHP 中的一个内置函数，用于设置 DateTim
 
 *   **process style:**
 
-    ```
+    ```php
     date_timezone_set( $object, $timezone )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     DateTime::setTimezone( $timezone )
     ```
 
@@ -29,7 +29,7 @@ DATE_TIMEZONE_SET()函数是 PHP 中的一个内置函数，用于设置 DateTim
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -48,7 +48,7 @@ echo date_format($date, 'd-m-Y H:i:sP');
 
 **输出：**
 
-```
+```php
 15-09-2018 00:00:00+05:30
 15-09-2018 02:30:00+08:00
 
@@ -56,7 +56,7 @@ echo date_format($date, 'd-m-Y H:i:sP');
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -75,7 +75,7 @@ echo $date->format('d-m-Y H:i:sP');
 
 **输出：**
 
-```
+```php
 15-09-2018 00:00:00+05:30
 15-09-2018 02:30:00+08:00
 

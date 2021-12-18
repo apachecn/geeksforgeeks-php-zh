@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::resizeImage( *int* $columns, 
 *int* $rows, *int* $filter, *float* $blur, 
 *bool* $best_fit = false, *bool* $legacy = false )
@@ -29,7 +29,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -50,7 +50,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

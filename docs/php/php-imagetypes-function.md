@@ -6,7 +6,7 @@ Imagetypes()函数是 PHP 中的内置函数，用于返回 PHP 内置安装库�
 
 **语法：**
 
-```
+```php
 int imagetypes( void )
 ```
 
@@ -18,7 +18,7 @@ int imagetypes( void )
 
 **程序 1：**
 
-```
+```php
 <?php
 if (imagetypes() & IMG_PNG) {
     echo "PNG Support is enabled";
@@ -33,7 +33,7 @@ else {
 
 **程序 2：**
 
-```
+```php
 <?php
 if (imagetypes() & IMG_JPEG) {
     echo "JPEG Support is enabled";

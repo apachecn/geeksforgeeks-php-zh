@@ -6,7 +6,7 @@ Ds\Collection：：isEmpty()函数是 PHP 中的一个内置函数，用于返�
 
 **语法：**
 
-```
+```php
 Ds\Collection::isEmpty ( void ) : bool
 ```
 
@@ -18,7 +18,7 @@ Ds\Collection::isEmpty ( void ) : bool
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a collection
@@ -45,7 +45,7 @@ var_dump($res);
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a collection

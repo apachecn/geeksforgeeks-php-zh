@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* public Ds\Map::capacity( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // Declare a map 
@@ -39,7 +39,7 @@ var_dump($map->capacity());
 
 **输出：**
 
-```
+```php
 int(8)
 int(8)
 

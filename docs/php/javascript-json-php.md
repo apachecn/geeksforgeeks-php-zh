@@ -4,19 +4,19 @@
 
 JSON 代表**J**ava**S**script**O**object**N**旋转。它用于交换和存储来自网络服务器的数据。JSON 使用 JavaScript 的对象表示法。JavaScript 对象可以转换成 JSON，并将 JSON 格式的文本接收到 JavaScript 对象中。将 JavaScript 对象转换为 JSON 格式是通过给定的函数完成的:
 
-```
+```php
 JSON.stringify(object)
 ```
 
 将 JSON 格式转换成 JavaScript 对象是通过给定的函数完成的:
 
-```
+```php
 JSON.parse(string_format)
 ```
 
 从服务器交换数据，使用 PHP 作为服务器语言。JSON.parse()函数用于从 php 或任何其他服务器获取数据。为了从服务器接收数据，需要一些 AJAX 语句来检查服务器是否准备好响应来自服务器的数据。如果满足这些条件，那么就可以接收到来自 php 文件的数据。用于从服务器发送和接收数据的协议由下式给出:
 
-```
+```php
 XMLHttpRequest()
 ```
 
@@ -25,7 +25,7 @@ XMLHttpRequest()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $myObj = new stdClass();
 $myObj->name = "Geeks";
@@ -43,7 +43,7 @@ echo $myJSON;
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -95,7 +95,7 @@ xmlhttp.send();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arrDay = array(
     "Monday",
@@ -117,7 +117,7 @@ echo $arrJSON;
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -156,7 +156,7 @@ xmlhttp.send();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     $conn = new mysqli("localhost", "root", "", "geeksforgeeks");
 
@@ -175,7 +175,7 @@ xmlhttp.send();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     $conn = new mysqli("localhost", "root", "", "geeksforgeeks");
     $result = $conn->query("select names from geeks");
@@ -194,7 +194,7 @@ xmlhttp.send();
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -230,7 +230,7 @@ xmlhttp.send();
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>
@@ -267,25 +267,25 @@ xmlhttp.send();
 **PHP Method = POST:** 如果上面的话题已经完全理解了，那就再简单不过了。在下面的语法中会发生变化。在 POST 方法中，参数必须通过 send 方法传递，但是在 GET 方法中，参数可以在发送 php 文件的请求时传递。
 T3【GET 法:T5】
 
-```
+```php
 open("GET", file_name?x=argument, asyn, username, password)
 ```
 
 **POST 方法:**
 
-```
+```php
 open("POST", file_name, asyn, username, password)
 ```
 
 参数由 **send(参数)**方法传递，并从 php 发送请求以从服务器访问数据。所以使用函数获取请求如下:
 
-```
+```php
 setRequestHeader("Content-type", "application/x-www-form-urlencoded")
 ```
 
 在 php 文件中，必须添加一个标题:
 
-```
+```php
 header("Content-Type: application/json; charset=UTF-8")
 ```
 
@@ -294,7 +294,7 @@ header("Content-Type: application/json; charset=UTF-8")
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     header("Content-Type: application/json; charset=UTF-8");
     $obj = json_decode($_POST["x"], false);
@@ -314,7 +314,7 @@ header("Content-Type: application/json; charset=UTF-8")
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
     <body>

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertLessThanOrEqual(mixed $expected, mixed $actual
 [, string $message = ''])
 
@@ -24,7 +24,7 @@ assertLessThanOrEqual(mixed $expected, mixed $actual
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -66,7 +66,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

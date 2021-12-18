@@ -18,7 +18,7 @@ Laravel 通过生成一个 **CSRF 令牌**为 **CSRF** 攻击提供保护。这�
 
 *   **语法:**
 
-    ```
+    ```php
     <form method="POST">
       @csrf  // Generate hidden input field
       .....
@@ -28,7 +28,7 @@ Laravel 通过生成一个 **CSRF 令牌**为 **CSRF** 攻击提供保护。这�
 
 *   **例:**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
         <head>
@@ -57,7 +57,7 @@ Laravel 通过生成一个 **CSRF 令牌**为 **CSRF** 攻击提供保护。这�
 
 *   **语法:**
 
-    ```
+    ```php
     <form method="POST"<
 
       // Generate hidden input field
@@ -69,7 +69,7 @@ Laravel 通过生成一个 **CSRF 令牌**为 **CSRF** 攻击提供保护。这�
 
 *   **例:**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
         <head>
@@ -99,7 +99,7 @@ Laravel 通过生成一个 **CSRF 令牌**为 **CSRF** 攻击提供保护。这�
 
 *   **语法:**
 
-    ```
+    ```php
     <form method="POST">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
       .....
@@ -109,7 +109,7 @@ Laravel 通过生成一个 **CSRF 令牌**为 **CSRF** 攻击提供保护。这�
 
 *   **例:**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
         <head>

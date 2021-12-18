@@ -5,7 +5,7 @@
 **Imagick：：setImageUnits()**函数是 PHP 中的内置函数，用于设置特定图像的分辨率单位。
 **语法：**和
 
-```
+```php
 *bool* Imagick::setImageUnits( $units )
 ```
 
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -53,7 +53,7 @@ print_r($units);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 units Before SetUnit = 2
 units After Set = 1
 ```
@@ -62,7 +62,7 @@ units After Set = 1
 
 ## PHP
 
-```
+```php
 <?php
 $i = new Imagick(
 'https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-15.png');
@@ -104,7 +104,7 @@ print_r($u);
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 print previous resolution = Array ( [x] => 37.8 [y] => 37.8 )
 Check units = 2
 resolution after Array ( [x] => 76 [y] => 76 )

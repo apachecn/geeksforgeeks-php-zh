@@ -6,7 +6,7 @@ PHP 中有两个函数可以从数组中获取随机值。shuffle()和 array_ran
 
 **示例:**
 
-```
+```php
 Input : $arr = ("a"=>"21", "b"=>"31", "c"=>"7", "d"=>"20")
 
 // Get one random value
@@ -23,7 +23,7 @@ Output : 21 31
 
 **语法:**
 
-```
+```php
 *bool* shuffle( $array )
 ```
 
@@ -31,7 +31,7 @@ Output : 21 31
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -49,7 +49,7 @@ echo $arr[0];
 
 **Output:** 
 
-```
+```php
 31
 ```
 
@@ -60,7 +60,7 @@ echo $arr[0];
 
 **语法:**
 
-```
+```php
 array_rand( $array, $num )
 ```
 
@@ -70,7 +70,7 @@ array_rand( $array, $num )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -87,7 +87,7 @@ echo $arr[$key];
 
 **Output:** 
 
-```
+```php
 21
 ```
 
@@ -97,7 +97,7 @@ echo $arr[$key];
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -117,6 +117,6 @@ echo $arr[$keys[0]]." ".$arr[$keys[1]];
 
 **Output:** 
 
-```
+```php
 21 7
 ```

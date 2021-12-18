@@ -8,7 +8,7 @@
 
 **示例：**
 
-```
+```php
 Input : subdomain.example.com
 Output : subdomain
 
@@ -21,7 +21,7 @@ Output : contribute
 
 **语法：**
 
-```
+```php
 *array* explode( separator, OriginalString, NoOfElements )
 ```
 
@@ -29,7 +29,7 @@ Output : contribute
 
 **示例 1：**
 
-```
+```php
 <?php
 
 $URL = "subdomain.example.com";
@@ -47,14 +47,14 @@ echo $subdomain;
 
 **Output:**
 
-```
+```php
 subdomain
 
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 
 $URL = "contribute.geeksforgeeks.org";
@@ -71,7 +71,7 @@ echo $subdomain;
 
 **Output:**
 
-```
+```php
 contribute
 
 ```
@@ -80,7 +80,7 @@ contribute
 
 **语法：**
 
-```
+```php
 *array* preg_split( $pattern, $subject, $limit, $flag )
 ```
 
@@ -88,7 +88,7 @@ contribute
 
 **示例 1：**
 
-```
+```php
 <?php
 
 $URL = "contribute.geeksforgeeks.org";
@@ -104,14 +104,14 @@ echo $subdomain;
 
 **Output:**
 
-```
+```php
 contribute
 
 ```
 
 **示例 2：**
 
-```
+```php
 <?php
 
 $URL = "ide.geeksforgeeks.org";
@@ -128,7 +128,7 @@ echo $subdomain;
 
 **Output:**
 
-```
+```php
 ide
 
 ```

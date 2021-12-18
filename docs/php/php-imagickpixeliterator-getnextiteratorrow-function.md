@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickPixelIterator::getNextIteratorRow( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -45,13 +45,13 @@ echo 'The number of rows are ' . $rows;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The number of rows are 10
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

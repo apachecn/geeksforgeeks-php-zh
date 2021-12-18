@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 mysqli_connect("localhost", "gaurav", "", "GeeksForGeeks");
@@ -21,7 +21,7 @@ else
 ?>
 ```
 
-```
+```php
 Database Connection Established Successfully.
 ```
 
@@ -29,7 +29,7 @@ Database Connection Established Successfully.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // We connect to geeksforgeeks.org and port 3307
@@ -46,7 +46,7 @@ mysql_close($link);
 ?>
 ```
 
-```
+```php
 Connected successfully to GFG Database
 ```
 
@@ -56,7 +56,7 @@ Connected successfully to GFG Database
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $con = mysql_pconnect(
       "localhost", "mysql_user", "mysql_pwd");
@@ -70,7 +70,7 @@ else {
 ?>
 ```
 
-```
+```php
 Persistent Connection Established
 ```
 
@@ -78,7 +78,7 @@ Persistent Connection Established
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // We connect to geeksforgeeks.org
@@ -98,7 +98,7 @@ mysql_close($link);
 ?>
 ```
 
-```
+```php
 Connected successfully to GFG Database using Persistent Connection
 ```
 

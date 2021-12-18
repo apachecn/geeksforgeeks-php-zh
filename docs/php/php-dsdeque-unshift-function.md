@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* Ds\Deque::unshift( $values )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a deque 
@@ -36,7 +36,7 @@ print_r($deq);
 
 **输出：**
 
-```
+```php
 Ds\Deque Object
 (
     [0] => 8
@@ -52,7 +52,7 @@ Ds\Deque Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a deque 
@@ -80,7 +80,7 @@ var_dump($deq);
 
 **输出：**
 
-```
+```php
 object(Ds\Deque)#1 (3) {
   [0]=>
   string(13) "GeeksforGeeks"

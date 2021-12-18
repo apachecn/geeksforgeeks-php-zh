@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMDocumentType* DOMImplementation::createDocumentType
 ( *string* $qualifiedName = NULL, *string* $publicId = NULL,
  *string* $systemId = NULL )
@@ -25,7 +25,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**DOMImplementation：：createDocumentType()函数**
 
-```
+```php
 <?php
 
 // Creates an instance of the DOMImplementation class
@@ -42,13 +42,13 @@ echo $dtd->systemId;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Creates an instance of the DOMImplementation class
 $imp = new DOMImplementation();
@@ -63,7 +63,7 @@ echo $dtd->name;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 

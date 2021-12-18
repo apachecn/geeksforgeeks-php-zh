@@ -8,14 +8,14 @@
 
 **语法：**
 
-```
+```php
 string implode (glue ,pieces)
 
 ```
 
 或,
 
-```
+```php
 string implode (pieces)
 
 ```
@@ -29,7 +29,7 @@ string implode (pieces)
 
 下面的程序演示了 PHP 中的 implode()的工作原理：
 
-```
+```php
 <?php
 // PHP code to illustrate the working of implode()
 
@@ -43,7 +43,7 @@ echo(implode($array2));
 
 产出：
 
-```
+```php
 www.geeksforgeeks.org
 HELLO
 
@@ -55,7 +55,7 @@ HELLO
 
 **语法：**
 
-```
+```php
 array explode (delimiter, string, limit)
 
 ```
@@ -70,7 +70,7 @@ array explode (delimiter, string, limit)
 
 下面的程序演示了在 PHP 中 EXPLODE()的工作原理：
 
-```
+```php
 <?php
 // PHP code to illustrate the working of explode()
 
@@ -83,7 +83,7 @@ echo($i.'<br>');
 
 产出：
 
-```
+```php
 1
 2
 3

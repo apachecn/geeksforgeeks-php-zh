@@ -5,7 +5,7 @@
 **ds\Vector：：toArray()**函数是 PHP 中的内置函数，用于将向量转换为数组。 向量的所有元素都被复制到数组中。
 **语法：**和
 
-```
+```php
 *array* public Ds\Vector::toArray( void )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare new Vector
@@ -39,7 +39,7 @@ var_dump($vect->toArray());
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Original vector
 object(Ds\Vector)#1 (6) {
   [0]=>
@@ -77,7 +77,7 @@ array(6) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare new Vector
@@ -99,7 +99,7 @@ var_dump($vect->toArray());
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Original vector
 object(Ds\Vector)#1 (3) {
   [0]=>

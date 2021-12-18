@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```php
 fwrite(file_name, string)
 ```
 
@@ -21,7 +21,7 @@ fwrite(file_name, string)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // Open a file named geeks_data in write mode
 $data = fopen("geeks_data.txt", "w");
@@ -36,7 +36,7 @@ fclose($data);
 
 **输出:**
 
-```
+```php
 27
 ```
 
@@ -44,7 +44,7 @@ fclose($data);
 
 ## PHP
 
-```
+```php
 <?php
 // Open a file named geeks_data in write mode
 $data = fopen("geeks_data.txt", "w");
@@ -60,6 +60,6 @@ fclose($data);
 
 **输出:**
 
-```
+```php
 52
 ```**

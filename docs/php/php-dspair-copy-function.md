@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Pair* Ds\Pair::copy( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new Pair
@@ -40,7 +40,7 @@ print_r($pair); 
 
 **输出：**
 
-```
+```php
 Ds\Pair Object
 (
     [key] => G
@@ -57,7 +57,7 @@ Ds\Pair Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new Pair
@@ -79,7 +79,7 @@ var_dump($pair); 
 
 **输出：**
 
-```
+```php
 object(Ds\Pair)#1 (2) {
   ["key"]=>
   array(2) {

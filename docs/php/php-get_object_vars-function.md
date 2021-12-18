@@ -6,7 +6,7 @@ GET_OBJECT_vars()函数是 PHP 中的一个内置函数，用于获取给定对�
 
 **语法：**
 
-```
+```php
 get_object_vars( $object )
 ```
 
@@ -20,7 +20,7 @@ get_object_vars( $object )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -53,7 +53,7 @@ $example->example();
 
 **Output:** 
 
-```
+```php
 array(2) {
   ["for"]=>
   int(1)
@@ -76,7 +76,7 @@ array(4) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a class
@@ -111,7 +111,7 @@ array(4) {
 
 **Output:** 
 
-```
+```php
 Array
 (
     [x] => 0.1

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Gmagick::cropimage( $width , $height , $x , $y )
 ```
 
@@ -25,7 +25,7 @@
 ![](img/efa5ea8e0258291fa60ad9a32c288072.png)
 **程序 1：**
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php'); 
@@ -51,7 +51,7 @@ echo $image->getImageBlob(); 
 
 **程序 2：**
 
-```
+```php
 <?php
 $string = "Computer Science portal for Geeks!";
 

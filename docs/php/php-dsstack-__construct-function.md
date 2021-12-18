@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Stack::__construct( $values )
 ```
 
@@ -16,7 +16,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new stack 
@@ -32,7 +32,7 @@ print_r($stack); 
 
 **Output:**
 
-```
+```php
 Ds\Stack Object
 (
 )
@@ -48,7 +48,7 @@ Ds\Stack Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new stack 
@@ -64,7 +64,7 @@ var_dump($stack); 
 
 **输出：**
 
-```
+```php
 object(Ds\Stack)#1 (5) {
   [0]=>
   int(8)

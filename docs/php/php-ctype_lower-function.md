@@ -6,7 +6,7 @@ Ctype_lower()函数是 PHP 中的一个内置函数，用于检查字符串中�
 
 **语法：**
 
-```
+```php
 *bool* ctype_lower( *string* $text )
 ```
 
@@ -18,7 +18,7 @@ Ctype_lower()函数是 PHP 中的一个内置函数，用于检查字符串中�
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // PHP program to check the string contains
@@ -38,7 +38,7 @@ foreach ($strings as $testcase) { 
 
 **输出：**
 
-```
+```php
 No
 Yes
 No
@@ -47,7 +47,7 @@ No
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a string
@@ -71,7 +71,7 @@ echo "Totla number of lower case "
 
 **输出：**
 
-```
+```php
 Totla number of lower case character in string: 11
 
 ```

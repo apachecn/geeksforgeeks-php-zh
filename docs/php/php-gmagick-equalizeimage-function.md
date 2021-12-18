@@ -5,7 +5,7 @@
 **Gmagick：：equalizeimage()**函数是 PHP 中的一个内置函数，用于均衡图像的直方图。
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::equalizeimage( void )
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

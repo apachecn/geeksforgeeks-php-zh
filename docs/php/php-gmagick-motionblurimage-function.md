@@ -5,7 +5,7 @@
 **Gmagick：：motionblurimage()**函数是 PHP 中的内置函数，用于模拟运动模糊。 此函数将图像与给定半径和标准差的高斯运算符进行卷积。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::motionblurimage( $radius, $sigma, $angle )
 ```
 
@@ -26,7 +26,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -51,7 +51,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

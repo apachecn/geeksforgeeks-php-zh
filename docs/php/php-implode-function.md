@@ -8,7 +8,7 @@ Implode()是 PHP 中的一个内置函数，用于联接数组的元素。 Implo
 
 **语法**：
 
-```
+```php
 *string* implode(separator,array)
 
 ```
@@ -24,7 +24,7 @@ Implode()是 PHP 中的一个内置函数，用于联接数组的元素。 Implo
 
 示例：
 
-```
+```php
 Input : implode(array('Geeks','for','Geeks')
 Output : GeeksforGeeks
 
@@ -35,7 +35,7 @@ Output : Geeks-for-Geeks
 
 下面的程序演示了 PHP 中的 implode()函数的工作原理：
 
-```
+```php
 <?php
     // PHP Code to implement join function
 

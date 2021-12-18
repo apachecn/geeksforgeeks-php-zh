@@ -6,7 +6,7 @@
 **启动会话:**PHP， **session_start()** 功能用于启动网页中的会话。
 **语法:**** 
 
-```
+```php
 session_start();
 ```
 
@@ -15,13 +15,13 @@ session_start();
 
 *   **创建变量名为“var1”的会话变量，并将值“5”赋给它，可以按如下方式完成:** 
 
-```
+```php
  $_SESSION['var1']=5;
 ```
 
 *   **将变量分配给会话变量可以通过以下方式完成:** 
 
-```
+```php
 $username="John";
 $_SESSION['username']=$username;
 ```
@@ -31,13 +31,13 @@ $_SESSION['username']=$username;
 
 *   **要销毁特定会话，应使用以下命令:** 
 
-```
+```php
 session_unset();
 ```
 
 *   **要销毁整个会话，应使用以下命令:** 
 
-```
+```php
 session_destroy();
 ```
 
@@ -47,7 +47,7 @@ session_destroy();
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 // Session starts

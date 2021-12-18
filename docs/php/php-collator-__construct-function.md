@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *public* Collator::__construct( string $locale )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 $coll = new Collator( 'en_CA' );
 
@@ -28,7 +28,7 @@ var_dump($coll);
 
 **输出:**
 
-```
+```php
 object(Collator)#1 (0) {
 }
 
@@ -36,7 +36,7 @@ object(Collator)#1 (0) {
 
 **程序二:**
 
-```
+```php
 <?php
 $coll = new Collator( 'en_CA' );
 
@@ -53,7 +53,7 @@ var_export( $arr ); 
 
 **输出:**
 
-```
+```php
 array (
   0 => 'geek',
   1 => 'geeK',

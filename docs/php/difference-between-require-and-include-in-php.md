@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <html>
 <body>
   <h1>Welcome to geeks for geeks!</h1>
@@ -21,7 +21,7 @@
 
 ## GFG.php
 
-```
+```php
 <?php
     echo "
 <p>visit Again-" . date("Y") . " geeks for geeks.com</p>
@@ -39,7 +39,7 @@
 
 ## **超文本标记语言**
 
-```
+```php
 <html>
 <body>
   <h1>Welcome to geeks for geeks!</h1>
@@ -54,7 +54,7 @@
 
 ## **GFG.php**
 
-```
+```php
 <?php
    echo "
 <p>Visit Again; " . date("Y") . " Geeks for geeks.com</p>

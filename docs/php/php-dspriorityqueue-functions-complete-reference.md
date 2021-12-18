@@ -8,7 +8,7 @@ PriorityQueue 类似于队列数据结构。 优先级队列的元素被推入�
 
 **安装：**使用 PECL 扩展安装数据结构的最简单方法。
 
-```
+```php
 pecl install ds
 ```
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::blurimage( $radius, $sigma, $channel )
 ```
 
@@ -28,7 +28,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a Gmagick object 
@@ -50,7 +50,7 @@ echo $gmagick; 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 

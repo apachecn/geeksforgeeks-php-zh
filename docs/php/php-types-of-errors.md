@@ -9,7 +9,7 @@ PHP 中有各种类型的错误，但它包含**基本上四种主要类型的�
 1.  **Parse error or Syntax Error:** It is the type of error done by the programmer in the source code of the program. The syntax error is caught by the compiler. After fixing the syntax error the compiler compile the code and execute it. Parse errors can be caused dues to unclosed quotes, missing or Extra parentheses, Unclosed braces, Missing semicolon etc
     **Example:**
 
-    ```
+    ```php
     <?php
     $x = "geeks";
     y = "Computer science";
@@ -20,7 +20,7 @@ PHP 中有各种类型的错误，但它包含**基本上四种主要类型的�
 
     **错误：**
 
-    ```
+    ```php
     PHP Parse error:  syntax error, unexpected '=' 
     in /home/18cb2875ac563160a6120819bab084c8.php on line 3
 
@@ -31,7 +31,7 @@ PHP 中有各种类型的错误，但它包含**基本上四种主要类型的�
 2.  **致命错误：**这是一种错误类型，PHP 编译器可以理解 PHP 代码，但它可以识别未声明的函数。 这意味着在没有定义函数的情况下调用函数。
     **示例：**
 
-```
+```php
 <?php
 
 function add($x, $y)
@@ -49,7 +49,7 @@ diff($x, $y);
 
 **错误：**
 
-```
+```php
 PHP Fatal error:  Uncaught Error: 
 Call to undefined function diff() 
 in /home/36db1ad4634ff7deb7f7347a4ac14d3a.php:12
@@ -65,7 +65,7 @@ Stack trace:
 9.  **Warning Errors :** The main reason of warning errors are including a missing file. This means that the PHP function call the missing file.
     **Example:**
 
-    ```
+    ```php
     <?php 
 
     $x = "GeeksforGeeks";
@@ -78,7 +78,7 @@ Stack trace:
 
     **错误：**
 
-    ```
+    ```php
     PHP Warning:  include(gfg.php): failed to 
     open stream: No such file or directory in 
     /home/aed0ed3b35fece41022f332aba5c9b45.php on line 5
@@ -93,7 +93,7 @@ Stack trace:
 10.  **Notice Error:** It is similar to warning error. It means that the program contains something wrong but it allows the execution of script.
     **Example:**
 
-    ```
+    ```php
     <?php 
 
     $x = "GeeksforGeeks";
@@ -106,7 +106,7 @@ Stack trace:
 
     **错误：**
 
-    ```
+    ```php
     PHP Notice:  Undefined variable: geeks in 
     /home/84c47fe936e1068b69fb834508d59689.php on line 5
 
@@ -114,7 +114,7 @@ Stack trace:
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     GeeksforGeeks
 
     ```

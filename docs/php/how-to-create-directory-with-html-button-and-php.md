@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 mkdir( path, mode, recursive, context )
 ```
 
@@ -14,7 +14,7 @@ mkdir( path, mode, recursive, context )
 
 **示例:**
 
-```
+```php
 <!DOCTYPE html>
 <?php
     function createDirectory() {

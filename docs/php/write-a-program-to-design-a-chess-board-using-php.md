@@ -15,7 +15,7 @@
 
 ## PHP
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 

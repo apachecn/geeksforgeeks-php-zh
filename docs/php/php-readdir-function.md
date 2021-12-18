@@ -8,7 +8,7 @@ PHP 中的 readdir()函数是一个内置函数，用于返回目录中下一个
 
 **语法：**
 
-```
+```php
 readdir(dir_handle)
 ```
 
@@ -27,7 +27,7 @@ readdir(dir_handle)
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // opening a directory
@@ -49,7 +49,7 @@ closedir($dir_handle);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // opening a directory

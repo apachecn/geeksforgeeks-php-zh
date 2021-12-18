@@ -7,7 +7,7 @@ PHP 的这个内置函数用于计算两个或多个数组的交集。该函数�
 
 **语法:**
 
-```
+```php
 *array* array_intersect_key($array1, $array2, $array3, $array4...)
 
 ```
@@ -18,7 +18,7 @@ PHP 的这个内置函数用于计算两个或多个数组的交集。该函数�
 
 示例:
 
-```
+```php
 Input : $array1 = ("1" => "aakash", "2" => "rishav", "3" => "gaurav")
         $array2 = ("1" => "shyam", "2" => "rishi", "5" => "rishav")
         $array3 = ("1" => "aakash", "4" => "raghav", "2" => "ravi")
@@ -33,7 +33,7 @@ Output :
 
 下面的程序说明了 array_intersect_key()函数。在下面的程序中，我们已经使用了 array_intersect_key()来查找数组之间的交集。让我们仔细看看 [array_intersect()](https://www.geeksforgeeks.org/php-array_intersect-function/) 和 [array_intersect_assoc()](https://www.geeksforgeeks.org/php-array_intersect_assoc-function/) 的这个和其他函数的输出，以了解它们的区别。
 
-```
+```php
 <?php
 
 // PHP program to illustrate the use 
@@ -50,7 +50,7 @@ print_r(array_intersect_key($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [1] => aakash

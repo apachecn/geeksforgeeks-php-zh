@@ -6,7 +6,7 @@
 
 **语法：-**
 
-```
+```php
 filter_var(var, filtername, options)
 
 ```
@@ -26,7 +26,7 @@ filter_var(var, filtername, options)
 
     例如：-
 
-    ```
+    ```php
     <?php
 
     $str = "<h1>GeeksforGeeks!</h1>";
@@ -38,7 +38,7 @@ filter_var(var, filtername, options)
 
     输出：-
 
-    ```
+    ```php
     GeeksforGeeks!
 
     ```
@@ -49,7 +49,7 @@ filter_var(var, filtername, options)
 
     例如：-
 
-    ```
+    ```php
     <?php
 
     $int = 200;
@@ -69,7 +69,7 @@ filter_var(var, filtername, options)
 
     输出：-
 
-    ```
+    ```php
     Integer is valid 
 
     ```
@@ -79,7 +79,7 @@ filter_var(var, filtername, options)
 
 例如：-
 
-```
+```php
 <?php
 
 $ip = "129.0.0.1";
@@ -95,7 +95,7 @@ if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
 
 输出：-
 
-```
+```php
 129.0.0.1 is a valid IP address
 
 ```
@@ -105,7 +105,7 @@ if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
 
     例如：-
 
-    ```
+    ```php
     <?php
 
     $email = "gfg@example.com";
@@ -125,7 +125,7 @@ if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
 
     输出：-
 
-    ```
+    ```php
     gfg@example.com is a valid email address 
 
     ```
@@ -135,7 +135,7 @@ if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
 
     例如：-
 
-    ```
+    ```php
     <?php
 
     $url = "https://www.geeksforgeeks.org";
@@ -155,7 +155,7 @@ if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
 
     输出：-
 
-    ```
+    ```php
     https://www.geeksforgeeks.org is a valid URL
 
     ```

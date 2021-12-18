@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::moveToNextAttribute( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div>
         <h1> Foo Bar </h1>
@@ -29,7 +29,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -55,7 +55,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     No, attributes.
     ```
 
@@ -63,7 +63,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div>
         <h1 attrib1="value1"
@@ -76,7 +76,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -109,7 +109,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     Before:
     We are currently at: attrib1
     After:

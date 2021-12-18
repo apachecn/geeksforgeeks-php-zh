@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageAttribute( *string* $key, *string* $value )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a Imagick objects
@@ -40,13 +40,13 @@ echo $attribute;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 my_value
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

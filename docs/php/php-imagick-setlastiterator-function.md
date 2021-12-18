@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setLastIterator( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -51,7 +51,7 @@ echo 'Index after setLastIterator() is '
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

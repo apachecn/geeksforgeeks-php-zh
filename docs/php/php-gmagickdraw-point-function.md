@@ -6,7 +6,7 @@ GmagickDraw：：point()函数是 PHP 中的一个内置函数，用于绘制点
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::point( $x, $y )
 ```
 
@@ -24,7 +24,7 @@ GmagickDraw：：point()函数是 PHP 中的一个内置函数，用于绘制点
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -61,7 +61,7 @@ echo $gmagick->getImageBlob(); 
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 

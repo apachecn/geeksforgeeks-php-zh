@@ -9,7 +9,7 @@ PHP 不支持多重继承，但是通过在 PHP 中使用 Interfaces 或者在 P
 **性状(使用类和性状):**性状是一种能够多重遗传的类。类、案例类、对象和特征都可以扩展不超过一个类，但是可以同时扩展多个特征。
 **语法:**
 
-```
+```php
 class child_class_name extends parent_class_name {
     use trait_name;
     ...
@@ -21,7 +21,7 @@ class child_class_name extends parent_class_name {
 
 **示例:**
 
-```
+```php
 <?php
 
 // Class Geeks
@@ -54,7 +54,7 @@ $test->geeksforgeeks();
 
 **Output:**
 
-```
+```php
 Hello Geeks
 GeeksforGeeks
 
@@ -65,7 +65,7 @@ GeeksforGeeks
 **性状(使用多个性状):**多个性状可以通过在 use 语句中列出来插入到一个类中，用逗号分隔。
 **语法:**
 
-```
+```php
 class child_class_name {
     use trait_name;
     ...
@@ -77,7 +77,7 @@ class child_class_name {
 
 **示例:**
 
-```
+```php
 <?php
 
 // trait Geeks
@@ -111,7 +111,7 @@ $test->geeksforgeeks();
 
 **Output:**
 
-```
+```php
 Hello Geeks
 GeeksforGeeks
 
@@ -122,13 +122,13 @@ GeeksforGeeks
 **接口(使用类和接口):**
 **语法:**
 
-```
+```php
 class child_class_name extends parent_class_name implements interface_name1, ...
 ```
 
 **示例:**
 
-```
+```php
 <?php
 
 class A {
@@ -161,7 +161,7 @@ $geeks->insidemultiple();
 
 **Output:**
 
-```
+```php
 I am in class A
 I am in interface
 I am in inherited class
@@ -174,13 +174,13 @@ I am in inherited class
 
 **语法:**
 
-```
+```php
 class child_class_name implements interface_name1, interface_name2, ...
 ```
 
 **示例:**
 
-```
+```php
 <?php
 
 interface C {
@@ -218,7 +218,7 @@ $geeks->insidemultiple();
 
 **Output:**
 
-```
+```php
 I am in interface C
 I am in interface B
 I am in inherited class

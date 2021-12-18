@@ -6,7 +6,7 @@ DATE_PARSE_FROM_FORMAT()是 PHP 中的一个内置函数，用于获取根据指
 
 **语法：**
 
-```
+```php
 array date_parse_from_format ( $format, $date )
 ```
 
@@ -52,7 +52,7 @@ array date_parse_from_format ( $format, $date )
 
 下面的程序演示了 PHP 中的 date_parse_from_format()函数。
 
-```
+```php
 <?php
 
 // Declare and initialize date variable.
@@ -65,7 +65,7 @@ print_r(date_parse_from_format("j.n.Y H:iP", $date));
 
 **Output:**
 
-```
+```php
 Array
 (
     [year] => 2018
@@ -96,7 +96,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare and initialize date variable.
@@ -109,7 +109,7 @@ print_r(date_parse_from_format("Y.z.n", $date));
 
 **输出：**
 
-```
+```php
 Array
 (
     [year] => 2015

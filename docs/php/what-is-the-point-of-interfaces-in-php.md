@@ -8,7 +8,7 @@
 
 我们有如下三个不同的类:
 
-```
+```php
 class Circle {
     public function draw(){
         //
@@ -34,7 +34,7 @@ class Rectangle {
 
 如上图所示，我们在所有三个类**中都有相同的函数 draw()** 并且在类 Circle 中还有一个函数作为 **setRadius()** 。现在我们已经创建了三个不同的接口，并在我们的类中实现了它们，如下所示:
 
-```
+```php
 interface Shape {
     public function draw();
 }
@@ -84,7 +84,7 @@ class Rectangle implements Shape, Main {
 
 然后第四个类叫做 **DrawShape** 就出现了，因为我们想在所有类中调用 **process()** 函数。 **process()** 函数是调用该类中的所有函数。
 
-```
+```php
 class DrawShape {
     public function newShape(Main $shape) {
         return $shape->process();
@@ -95,7 +95,7 @@ class DrawShape {
 
 **示例:**
 
-```
+```php
 <?php
 
 interface Shape {

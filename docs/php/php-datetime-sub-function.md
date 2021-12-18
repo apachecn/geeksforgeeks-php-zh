@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *DateTime* DateTime::sub( *DateInterval* interval )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *DateTime* date_sub( *DateTime* $object, *DateInterval* $interval )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序 1：**此程序使用 DateTime：：Sub()函数从给定的日期对象中减去 2 天。
 
-```
+```php
 <?php
 
 // PHP program to illustrate DateTime::sub()
@@ -52,14 +52,14 @@ echo $datetime->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-10-01
 
 ```
 
 **程序 2：**此程序使用 DateTime：：Sub()函数从 Date 对象中减去给定的间隔。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTime::sub()
 // function
@@ -82,7 +82,7 @@ echo $datetime->format('Y-m-d H:i:s');
 
 **输出：**
 
-```
+```php
 2017-04-30 23:29:20
 
 ```

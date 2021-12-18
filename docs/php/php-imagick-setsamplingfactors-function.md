@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setSamplingFactors( *array* $factors )
 ```
 
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -40,7 +40,7 @@ print("<pre>".print_r($samplingFactors, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 6
@@ -53,7 +53,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object

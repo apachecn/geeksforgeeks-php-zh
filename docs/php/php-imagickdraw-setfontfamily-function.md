@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setFontFamily( $font_family )
 ```
 
@@ -20,7 +20,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object
@@ -76,7 +76,7 @@ echo $imagick->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an ImagickDraw object

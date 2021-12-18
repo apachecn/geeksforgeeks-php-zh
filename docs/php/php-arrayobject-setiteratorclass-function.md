@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *void* ArrayObject::setIteratorClass( *string* $iterator_class )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::setIteratorClass() function 
@@ -44,7 +44,7 @@ print_r($arrayObjectElement->getIterator());
 
 **输出:**
 
-```
+```php
 iteratorClass Object
 (
     [storage:ArrayIterator:private] => ArrayObject Object
@@ -64,7 +64,7 @@ iteratorClass Object
 
 **程序二:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::setIteratorClass() function 
@@ -95,7 +95,7 @@ print_r($arrayObjectElement->getIterator());
 
 **输出:**
 
-```
+```php
 iteratorClass Object
 (
     [storage:ArrayIterator:private] => ArrayObject Object

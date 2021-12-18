@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Map* public Ds\Map::diff( $map )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the diff() 
 // function of Ds\map 
@@ -40,7 +40,7 @@ print_r($map1 -> diff($map2));
 
 **Output:**
 
-```
+```php
 Difference between two map: 
 Ds\Map Object
 (
@@ -62,7 +62,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the diff() 
 // function of Ds\map 
@@ -88,7 +88,7 @@ print_r($map1 -> diff($map2));
 
 **Output:**
 
-```
+```php
 Difference between two map: 
 Ds\Map Object
 (

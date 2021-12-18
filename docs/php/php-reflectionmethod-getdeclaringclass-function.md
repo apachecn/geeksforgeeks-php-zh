@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
  *ReflectionClass* ReflectionMethod::getDeclaringClass ( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declaring a class
@@ -45,7 +45,7 @@ var_dump($reflectionMethod->getDeclaringClass());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declaring a class

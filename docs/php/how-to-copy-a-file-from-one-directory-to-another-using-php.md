@@ -6,7 +6,7 @@ PHP 中的 [copy()函数](https://www.geeksforgeeks.org/php-copy-function/)用�
 
 **语法:**
 
-```
+```php
 *bool* copy( *string* $source, *string* $destination, *resource* $context )
 ```
 
@@ -20,7 +20,7 @@ PHP 中的 [copy()函数](https://www.geeksforgeeks.org/php-copy-function/)用�
 
 **举例:**
 
-```
+```php
 Input : $source = 'Source_file_location'
         $destination = 'Destination_file_location'
         copy( $source, $destination )
@@ -29,7 +29,7 @@ Output: true
 
 ```
 
-```
+```php
 <?php 
 
 // Copy the file from /user/desktop/geek.txt 
@@ -57,7 +57,7 @@ else { 
 
 **输出:**
 
-```
+```php
 File has been copied!
 ```
 

@@ -10,7 +10,7 @@ Prev()函数是 PHP 中的内置函数。
 
 **语法：**
 
-```
+```php
 prev($array)
 ```
 
@@ -22,7 +22,7 @@ prev($array)
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // input array
@@ -46,7 +46,7 @@ echo prev($arr);
 
 产出：
 
-```
+```php
 Ram
 Shita
 Ram
@@ -55,7 +55,7 @@ Ram
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // input array
@@ -83,7 +83,7 @@ echo prev($arr);
 
 产出：
 
-```
+```php
 a
 2
 z

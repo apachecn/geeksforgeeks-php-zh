@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* IntlChar::isalnum( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP code to illustrate IntlChar::isalnum()
@@ -41,7 +41,7 @@ var_dump(IntlChar::isalnum("*"));
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true) 
 NULL 
 NULL 
@@ -52,7 +52,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::isalnum()
 // function
@@ -71,7 +71,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 bool(true) 
 NULL 
 bool(false) 

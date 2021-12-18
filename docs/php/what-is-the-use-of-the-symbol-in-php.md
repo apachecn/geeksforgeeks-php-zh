@@ -6,7 +6,7 @@
 
 **节目 1:**
 
-```
+```php
 <?php
 
 // File error 
@@ -23,19 +23,19 @@ $value = @$cache[$key];
 
 **运行时错误:**
 
-```
+```php
 PHP Notice:  Undefined variable: errormsg in /home/fe74424b34d1adf15aa38a0746a79bed.php on line 5
 ```
 
 **输出:**
 
-```
+```php
 Failed in opening the file: error: ''
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 
 // Statement 1
@@ -48,7 +48,7 @@ $result= @$hello['123']
 
 它将只执行语句 1 并显示通知消息
 
-```
+```php
 PHP Notice:  Undefined variable: hello.
 ```
 

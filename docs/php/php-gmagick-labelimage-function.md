@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* Gmagick::labelimage( *string* $label )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -42,13 +42,13 @@ echo $label;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Hello World
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

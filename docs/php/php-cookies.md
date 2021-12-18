@@ -8,7 +8,7 @@ PHP 中的 **cookie** 是一个最大大小为 4KB 的小文件，由网络服�
 
 **语法:**
 
-```
+```php
 setcookie(name, value, expire, path, domain, security);
 ```
 
@@ -29,7 +29,7 @@ setcookie(name, value, expire, path, domain, security);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <?php
     setcookie("Auction_Item", "Luxury Car", time() + 2 * 24 * 60 * 60);
@@ -63,7 +63,7 @@ PHP 中的 Cookie 创建
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <?php
     setcookie("Auction_Item", "Luxury Car", time() + 2 * 24 * 60 * 60);
@@ -102,7 +102,7 @@ PHP 中的 Cookie 创建
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <?php
     setcookie("Auction_Item", "Luxury Car", time() + 2 * 24 * 60 * 60);
@@ -134,7 +134,7 @@ PHP 中的 Cookie 创建
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <?php
     setcookie("Auction_Item", "Luxury Car", time() + 2 * 24 * 60 * 60);

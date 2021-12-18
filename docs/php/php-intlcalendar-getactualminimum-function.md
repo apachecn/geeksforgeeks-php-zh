@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *int* IntlCalendar::getActualMinimum( *int* $field )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *int* intlcal_get_actual_minimum( *IntlCalendar* $cal, *int* $field )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime object
@@ -55,7 +55,7 @@ var_dump($calendar->getActualMinimum(IntlCalendar::FIELD_WEEK_OF_MONTH));
 
 **输出：**
 
-```
+```php
 int(1)
 int(-1)
 int(0)

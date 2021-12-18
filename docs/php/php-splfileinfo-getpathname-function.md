@@ -6,7 +6,7 @@ SplFileInfo：：getPathname()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **语法：**
 
-```
+```php
 *string* SplFileInfo::getPathname( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getPathname()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -34,14 +34,14 @@ print_r($info);
 
 **Output:**
 
-```
+```php
 /var/www/html/gfg.php
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check
@@ -69,7 +69,7 @@ foreach ($GFG as &$file_name) {
 
 **Output:**
 
-```
+```php
 /home/rajvir/Desktop/GeeksforGeeks/dummy.php
 /home/rajvir/Desktop/gfg.txt
 /var/www/html/gfg.php

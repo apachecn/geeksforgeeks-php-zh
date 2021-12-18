@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Sequence* abstract public Ds\Sequence::filter ([ callable $callback ] )
 
 ```
@@ -19,7 +19,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -37,7 +37,7 @@ var_dump($seq->filter(function($val) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

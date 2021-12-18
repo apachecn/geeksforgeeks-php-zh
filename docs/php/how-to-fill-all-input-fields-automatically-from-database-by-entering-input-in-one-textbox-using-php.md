@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <html>
 
 <head>
@@ -140,7 +140,7 @@
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```html
+```phphtml
 <?php
 
 // Get the user id 

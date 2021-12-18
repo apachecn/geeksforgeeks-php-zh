@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::removeImage( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -42,7 +42,7 @@ echo 'Number of images after removing: '. $imagick->count();;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

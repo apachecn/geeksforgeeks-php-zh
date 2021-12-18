@@ -6,7 +6,7 @@ Gmp_Random()函数是 PHP 中的一个内置函数，可生成随机数。 随�
 
 **语法：**
 
-```
+```php
  GMP gmp_random ( int $limiter )
 
 ```
@@ -21,7 +21,7 @@ Gmp_Random()函数是 PHP 中的一个内置函数，可生成随机数。 随�
 
 **程序 1：**
 
-```
+```php
 <?php
 // php code implementing gmp_random() function
 
@@ -36,7 +36,7 @@ echo gmp_strval($rand) . "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 // php code implementing gmp_random() function
 

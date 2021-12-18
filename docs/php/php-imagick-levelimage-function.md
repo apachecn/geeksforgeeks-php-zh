@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::levelImage( $blackPoint, $gamma, 
                    $whitePoint, $channel = Imagick::CHANNEL_DEFAULT ) 
 ```
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store the image into variable

@@ -6,14 +6,14 @@ DateTimeImmutable：：setTimezone()函数是 PHP 中的一个内置函数，用
 
 **语法：**
 
-```
+```php
 DateTimeImmutable::setTimezone ( TimeZone )
 
 ```
 
 **参数：**此函数接受一个参数，如下图所示：-
 
-```
+```php
 TimeZone: This parameter is used to set the DateTimeZone object representing the desired time zone.
 
 ```
@@ -24,7 +24,7 @@ TimeZone: This parameter is used to set the DateTimeZone object representing the
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::setTimezone()
 // function
@@ -45,7 +45,7 @@ echo $a->format('d-m-Y H:i:sP'); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 07-10-2019 00:00:00+05:30
 07-10-2019 02:30:00+08:00
 
@@ -53,7 +53,7 @@ echo $a->format('d-m-Y H:i:sP'); 
 
 **程序 2**：
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::setTimezone()
 // function
@@ -74,7 +74,7 @@ echo $a->format('d-m-Y H:i:sP'); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 07-10-2019 00:00:00+00:00
 07-10-2019 08:00:00+08:00
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionFunction::__toString( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined function
@@ -42,7 +42,7 @@ echo $A;
 
 **输出：**
 
-```
+```php
 Function [ <user> function Company ] {
   @@ /home/a39c30763ecfc7f257d02e44de746b22.php 4 - 7
 
@@ -56,7 +56,7 @@ Function [ <user> function Company ] {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined functions
@@ -85,7 +85,7 @@ echo $function->__toString();
 
 **输出：**
 
-```
+```php
 Function [ <user> function Trial2 ] {
   @@ /home/09f598906ca0bfcad4613b5dea41c27b.php 9 - 12
 

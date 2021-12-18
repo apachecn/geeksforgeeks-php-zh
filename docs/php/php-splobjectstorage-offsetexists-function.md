@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplObjectStorage::offsetExists($object)
 ```
 
@@ -18,7 +18,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -35,6 +35,6 @@ var_dump($str->offsetExists($obj));
 
 **Output:** 
 
-```
+```php
 bool(true)
 ```

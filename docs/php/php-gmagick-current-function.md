@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::current( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create two new Gmagick object
@@ -44,7 +44,7 @@ echo $gmagicknew;  
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create two new Gmagick object

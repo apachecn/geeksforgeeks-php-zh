@@ -7,7 +7,7 @@ decbin 代表十进制到二进制。
 
 **语法：**
 
-```
+```php
 *string* decbin(value)
 ```
 
@@ -17,7 +17,7 @@ decbin 代表十进制到二进制。
 
 例如：
 
-```
+```php
 Input : decbin(12)
 Output : 1100
 
@@ -33,7 +33,7 @@ Output : 1111111111111111111111111111111 (31 1's)
 
 *   Passing 12 as a parameter
 
-    ```
+    ```php
     <?php
 
     echo decbin(12);
@@ -43,13 +43,13 @@ Output : 1111111111111111111111111111111 (31 1's)
 
     产出：
 
-    ```
+    ```php
     1100
     ```
 
 *   Passing 26 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo decbin(26);
@@ -59,13 +59,13 @@ Output : 1111111111111111111111111111111 (31 1's)
 
     产出：
 
-    ```
+    ```php
     11010
     ```
 
 *   When the largest signed integer is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo decbin(2147483647);
@@ -75,7 +75,7 @@ Output : 1111111111111111111111111111111 (31 1's)
 
     产出：
 
-    ```
+    ```php
      1111111111111111111111111111111  
     ```
 

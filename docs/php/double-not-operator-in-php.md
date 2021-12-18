@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```php
 <?php
 
 // Declare a variable 
@@ -29,7 +29,7 @@ echo $a;
 
 **例 2:**
 
-```
+```php
 <?php
 
 // PHP program to illustrate

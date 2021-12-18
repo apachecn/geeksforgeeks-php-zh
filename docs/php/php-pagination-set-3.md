@@ -16,7 +16,7 @@
 
 **最终源代码**
 
-```
+```php
 <!DOCTYPE html>
 <html>
   <head>
@@ -137,7 +137,7 @@
 
 这段代码背后的想法非常简单。 我们希望采用中间索引$k，并希望打印相邻页面以创建顺序链接。 在回显序列之前，如果当前页面不是首页，我们将回显上一页和首页链接。 类似地，在回显序列之后，如果当前页面不是最后一页，我们将回显下一页和最后一页链接。 在本例中，我们打算显示形成序列的总共 9 个页面链接。
 
-```
+```php
 // K is assumed to be the middle index.
 $k = (($pn+4>$total_pages)?$total_pages-4:(($pn-4<1)?5:$pn));     
 
@@ -167,7 +167,7 @@ if($pn<$total_pages){
 
 这背后的想法也相当简单，我们将提供一个输入字段，用户可以在其中输入任何数值，之后我们将检查给定值是否有效，然后我们将转到页面。 这不需要太多 PHP，因为可以使用 JS 完成。 PHP 仅用于提供$TOTAL_PAGES Present 等的值。为了开发上述功能，我们首先添加了以下标记，然后添加了处理单击事件的函数。
 
-```
+```php
 <div class="inline">
   <input id="pn" type="number" min="1" max="<?php echo $total_pages?>"
          placeholder="<?php echo $pn."/".$total_pages; ?>" required>
@@ -175,7 +175,7 @@ if($pn<$total_pages){
 </div>
 ```
 
-```
+```php
 function go2Page()
 {
     var pn = document.getElementById("pn").value;

@@ -6,7 +6,7 @@ array_fill_keys()函数是 PHP 中的一个内置函数，用于创建一个新�
 
 **语法**:
 
-```
+```php
 *array* array_fill_keys ( $keys, $value )
 
 ```
@@ -20,7 +20,7 @@ array_fill_keys()函数是 PHP 中的一个内置函数，用于创建一个新�
 
 示例:
 
-```
+```php
 Input : $keys = array('golden', 25, 560, 'age')
         array_fill_keys($keys, 'majestic')
 Output : Array
@@ -49,7 +49,7 @@ Output : Array
 
 **程序 1** :
 
-```
+```php
 <?php
 
 $keys = array('golden', 25, 560, 'age');
@@ -64,7 +64,7 @@ print_r($a);
 
 输出:
 
-```
+```php
 Array
 (
     [golden] => majestic
@@ -77,7 +77,7 @@ Array
 
 **程序 2** :
 
-```
+```php
 <?php
 
 $keys = array('tumult', '25', 560, 'cater');
@@ -92,7 +92,7 @@ print_r($a);
 
 输出:
 
-```
+```php
 Array
 (
     [tumult] => limited
@@ -105,7 +105,7 @@ Array
 
 **程序 3** :
 
-```
+```php
 <?php
 
 $keys = array('tumult', '25', 560, 'cater');
@@ -121,7 +121,7 @@ print_r($a);
 
 输出:
 
-```
+```php
 Array
 (
     [tumult] => Array

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageCompose( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick Object
@@ -35,7 +35,7 @@ echo $compose;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick Object

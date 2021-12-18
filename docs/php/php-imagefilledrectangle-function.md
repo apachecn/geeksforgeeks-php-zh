@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagefilledrectangle( $image, $x1, $y1, $x2, $y2, $color )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an image of given size
@@ -49,7 +49,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an image of given size

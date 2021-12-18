@@ -6,7 +6,7 @@ Gmp_export()函数是 PHP 中的一个内置函数，用于将 GMP 编号([GNU M
 
 **语法：**
 
-```
+```php
 string gmp_export ( GMP $gmpnumber, int $word_size, int $options )
 
 ```
@@ -23,7 +23,7 @@ string gmp_export ( GMP $gmpnumber, int $word_size, int $options )
 
 ## PHP
 
-```
+```php
 <?php
 // PHP code implementing the gmp_export function
 
@@ -38,7 +38,7 @@ echo gmp_export($number) . "\n";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
  AA
 
 ```

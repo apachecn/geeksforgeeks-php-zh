@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionExtension::getConstants( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -38,7 +38,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 array(45) {
   ["XML_ELEMENT_NODE"]=>
   int(1)
@@ -136,7 +136,7 @@ array(45) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -151,7 +151,7 @@ var_dump($extension->getConstants());
 
 **输出：**
 
-```
+```php
 array(27) {
   ["XML_ERROR_NONE"]=>
   int(0)

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* public Ds\Vector::join( $glue )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new vector
@@ -39,7 +39,7 @@ print_r($vector->join());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertFileExists(string $filename[, string $message = ''])
 ```
 
@@ -21,7 +21,7 @@ assertFileExists(string $filename[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -49,7 +49,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

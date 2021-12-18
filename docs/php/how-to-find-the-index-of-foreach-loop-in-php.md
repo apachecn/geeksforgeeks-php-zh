@@ -6,7 +6,7 @@ foreach 构造提供了迭代数组元素的最简单方法。它适用于数组
 
 **语法:**
 
-```
+```php
 foreach( $array as $element ) {
     // PHP Code to be executed
 }
@@ -14,7 +14,7 @@ foreach( $array as $element ) {
 
 或者
 
-```
+```php
 foreach( $array as $key =>> $element) {
     // PHP Code to be executed
 }
@@ -27,7 +27,7 @@ foreach( $array as $key =>> $element) {
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -48,7 +48,7 @@ foreach ($arr as $key => $value) {
 
 **输出:**
 
-```
+```php
 key = 0, value = 1
 key = 1, value = 2
 key = 2, value = 3
@@ -64,7 +64,7 @@ key = 9, value = 10
 
 **程序 2:**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -89,7 +89,7 @@ foreach ($arr as $key => $value) {
 
 **输出:**
 
-```
+```php
 key = a, value = 1
 key = b, value = 2
 key = c, value = 3
@@ -99,7 +99,7 @@ key = d, value = 4
 
 **程序 3:**
 
-```
+```php
 <?php
 
 // Declare a multi-dimensional array
@@ -126,7 +126,7 @@ foreach ($arr as $keyOut => $out) {
 
 **输出:**
 
-```
+```php
 key = (0, 0), value = 1
 key = (0, 1), value = 2
 key = (0, 2), value = 3

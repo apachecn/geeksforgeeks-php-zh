@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 public Memcached::add( $key,  $value,  $expiration = ?): bool
 ```
 
@@ -24,7 +24,7 @@ public Memcached::add( $key,  $value,  $expiration = ?): bool
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "<pre>";
@@ -76,7 +76,7 @@ var_dump($valD);
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "<pre>";

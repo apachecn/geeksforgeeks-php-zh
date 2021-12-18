@@ -5,7 +5,7 @@
 Imagefilledpolygon()函数是 PHP 中的一个内置函数，用于绘制填充多边形。 此函数成功时返回 TRUE，否则返回 FALSE。
 **语法：**
 
-```
+```php
 bool imagefilledpolygon( $image, $points, $num_points, $color )
 ```
 
@@ -22,7 +22,7 @@ bool imagefilledpolygon( $image, $points, $num_points, $color )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the vertices of polygon
@@ -61,7 +61,7 @@ imagepng($image);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Set the vertices of polygon

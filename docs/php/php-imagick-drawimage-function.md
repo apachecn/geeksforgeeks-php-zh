@@ -6,7 +6,7 @@ Imagick：：drawImage()函数是 PHP 中的一个内置函数，用于在 Imagi
 
 **语法：**
 
-```
+```php
 *bool* Imagick::drawImage( ImagickDraw $draw )
 ```
 
@@ -16,7 +16,7 @@ Imagick：：drawImage()函数是 PHP 中的一个内置函数，用于在 Imagi
 
 **程序：**此程序创建一个图像，设置其尺寸和边框属性，然后在屏幕上渲染。
 
-```
+```php
 <?php 
 
 // Declare a string which to be drawn 

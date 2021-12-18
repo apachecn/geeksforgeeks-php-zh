@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *array* IntlCalendar::getAvailableLocales( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *array* intlcal_get_available_locales( *void* )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Use IntlCalendar::getAvailableLocales() function
@@ -38,7 +38,7 @@ var_dump(IntlCalendar::getAvailableLocales());
 
 **输出：**
 
-```
+```php
 array(683) {
   [0]=>
   string(2) "af"
@@ -59,7 +59,7 @@ array(683) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Use intlcal_get_available_locales() function
@@ -71,7 +71,7 @@ var_dump(intlcal_get_available_locales());
 
 **输出：**
 
-```
+```php
 array(683) {
   [0]=>
   string(2) "af"

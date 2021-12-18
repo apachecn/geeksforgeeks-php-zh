@@ -6,7 +6,7 @@ Strtotime()函数是 PHP 中的一个内置函数，用于将英文文本日期�
 
 **语法：**
 
-```
+```php
 strtotime ($EnglishDateTime, $time_now)
 ```
 
@@ -22,7 +22,7 @@ strtotime ($EnglishDateTime, $time_now)
 **程序 1：**下面的程序演示了当英文文本为“NOW”时的 strtotime()
 函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtotime() 
 // function when the english text is "now"
@@ -38,7 +38,7 @@ echo date("Y-m-d", strtotime("now"))."\n";
 
 产出：
 
-```
+```php
 1525378260
 2018-05-03
 
@@ -47,7 +47,7 @@ echo date("Y-m-d", strtotime("now"))."\n";
 **程序 2：**下面的程序演示了英文文本为日期时的 strtotime()
 函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtotime() 
 // function when the english text is a date
@@ -62,7 +62,7 @@ echo date("Y-m-d", strtotime("12th february 2017"))."\n";
 
 产出：
 
-```
+```php
 1486857600
 2017-02-12
 
@@ -71,7 +71,7 @@ echo date("Y-m-d", strtotime("12th february 2017"))."\n";
 **程序 3：**下面的程序演示了当英文文本对应于任何一天时的 strtotime()
 函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the strtotime() 
 // function when the english text corresponds to any 
@@ -87,7 +87,7 @@ echo date("Y-m-d", strtotime("next sunday"))."\n";
 
 产出：
 
-```
+```php
 1525564800
 2018-05-06
 

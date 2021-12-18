@@ -5,7 +5,7 @@
 **ReflectionClass：：hasMethod()函数**是 PHP 中的内置函数，用于检查指定的方法是否存在。
 **语法：**和
 
-```
+```php
 *bool* ReflectionClass::hasMethod( *string* $name )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initialising a user-defined Class Departments
@@ -43,7 +43,7 @@ var_dump($methods);
 
 **Output:** 
 
-```
+```php
 bool(true)
 ```
 
@@ -51,7 +51,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initialising a user-defined Class Company
@@ -74,7 +74,7 @@ var_dump($methods);
 
 **Output:** 
 
-```
+```php
 bool(false)
 ```
 

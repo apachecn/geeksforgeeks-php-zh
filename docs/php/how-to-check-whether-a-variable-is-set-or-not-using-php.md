@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 *bool* isset( *mixed* $var [, *mixed* $... ] )
 
 ```
@@ -17,7 +17,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to check whether 
 // a variable is set or not 
@@ -36,7 +36,7 @@ else { 
 
 **Output**
 
-```
+```php
 Value of variable is set 
 
 ```

@@ -30,7 +30,7 @@ PHP 魔术方法是特殊的方法，当满足某些条件时会自动调用。P
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class MagicMethod {
@@ -47,7 +47,7 @@ $obj = new MagicMethod();
 
 **Output**
 
-```
+```php
 This is the construct magic method
 ```
 
@@ -55,7 +55,7 @@ This is the construct magic method
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 class MagicMethod {
@@ -72,7 +72,7 @@ $obj = new MagicMethod();
 
 **Output**
 
-```
+```php
 This destruct magic method gets called 
 when object destroys
 ```

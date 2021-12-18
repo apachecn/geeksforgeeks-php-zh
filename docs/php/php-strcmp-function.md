@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 strcmp($string1, $string2)
 ```
 
@@ -23,7 +23,7 @@ strcmp($string1, $string2)
 
 在此代码中，我们将尝试了解 strcmp()函数的工作原理：
 
-```
+```php
 <?php
 
 // PHP program to illustrate the working of strcmp()
@@ -47,7 +47,7 @@ print_r(strcmp($string3, $string2))
 
 产出：
 
-```
+```php
 0
 31
 -31

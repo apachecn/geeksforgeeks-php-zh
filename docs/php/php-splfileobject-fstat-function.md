@@ -6,7 +6,7 @@ SplFileObject：：fstat()函数是 PHP 中标准 PHP 库(SPL)的内置函数，
 
 **语法：**
 
-```
+```php
 *array* SplFileObject::fstat( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileObject：：fstat()函数是 PHP 中标准 PHP 库(SPL)的内置函数，
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an SplFile Object 
@@ -35,7 +35,7 @@ print_r($stat);
 
 **程序 2：**提供当前文件信息的 PHP 程序。
 
-```
+```php
 <?php
 
 // Create Spl Object 

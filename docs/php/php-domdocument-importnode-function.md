@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMDocument::importNode( *DOMNode* $importedNode, *bool* $deep = FALSE )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new document
@@ -65,7 +65,7 @@ echo $dom1->saveXML();
 
 **输出：**
 
-```
+```php
 Document before copying the nodes
 <?xml version="1.0"?>
 <root>

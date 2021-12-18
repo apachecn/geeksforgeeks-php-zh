@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplDoublyLinkedList::add( $index, $newval )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -43,7 +43,7 @@ print_r($list); 
 
 **输出：**
 
-```
+```php
 SplDoublyLinkedList Object
 (
     [flags:SplDoublyLinkedList:private] => 0
@@ -61,7 +61,7 @@ SplDoublyLinkedList Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -81,7 +81,7 @@ print_r($list); 
 
 **输出：**
 
-```
+```php
 SplDoublyLinkedList Object
 (
     [flags:SplDoublyLinkedList:private] => 0

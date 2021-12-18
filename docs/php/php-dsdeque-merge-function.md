@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::merge( $values ) : Ds\Deque
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -45,7 +45,7 @@ print_r($deck->merge($deck2));
 
 **输出：**
 
-```
+```php
 Elements of first deque
 Ds\Deque Object
 (
@@ -85,7 +85,7 @@ Ds\Deque Object
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -112,7 +112,7 @@ print_r($deck->merge($deck2));
 
 **输出：**
 
-```
+```php
 Elements of first deque
 Ds\Deque Object
 (

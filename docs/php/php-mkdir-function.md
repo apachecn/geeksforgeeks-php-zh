@@ -7,7 +7,7 @@ Mkdir()创建一个具有指定路径名的新目录。 路径和模式作为参
 
 **语法：**
 
-```
+```php
 mkdir(path, mode, recursive, context)
 ```
 
@@ -44,7 +44,7 @@ PHP 中的 mkdir()函数接受四个参数。
 
 例如：
 
-```
+```php
 Input : mkdir("/documents/gfg/articles/");
 Output : 1
 
@@ -69,7 +69,7 @@ Output : Folders created recursively
 
 **程序 1**
 
-```
+```php
 <?php 
 // making a directory with default mode i.e 0777
 mkdir("/documents/gfg/articles/");
@@ -78,13 +78,13 @@ mkdir("/documents/gfg/articles/");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 // making a directory with the provision of all
 // permissions to the owner and the owner's user group
@@ -94,13 +94,13 @@ mkdir("/documents/gfg/articles/", 0770)
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 3**
 
-```
+```php
 <?php 
 $nest = './node1/node2/node3/';
 // creating a nested structure directory
@@ -117,7 +117,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Folders created recursively
 ```
 

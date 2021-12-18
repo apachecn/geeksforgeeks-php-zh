@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* is_iterable( *mixed* $var )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -51,7 +51,7 @@ else {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a class

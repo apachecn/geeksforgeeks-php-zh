@@ -6,7 +6,7 @@ array_combine()是 PHP 中的一个内置函数，用于组合两个数组，并
 
 **例:**
 
-```
+```php
 Input : $array1 = ("Ram", "Akash", "Rishav"); 
         $array2 = ('24', '30', '45');
 Output :
@@ -31,7 +31,7 @@ Output :
 
 **语法:**
 
-```
+```php
 array_combine( $keys_array, $values_array )
 ```
 
@@ -44,7 +44,7 @@ array_combine( $keys_array, $values_array )
 
 下面的程序说明了 PHP 中的 array_combine()函数:
 
-```
+```php
 <?php
 
 // PHP program to illustrate the working
@@ -63,7 +63,7 @@ print_r(Combine($array1, $array2));
 
 **输出:**
 
-```
+```php
 Array
 (
     [Ram] => 24

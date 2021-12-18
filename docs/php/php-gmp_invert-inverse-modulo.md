@@ -8,7 +8,7 @@ Gmp_invert()是 PHP 中的一个内置函数，用于在另一个 GMP 编号下�
 
 模逆是一个数字 x，使得：
 
-```
+```php
 a x ≡ 1 (mod b) 
 
 ```
@@ -17,7 +17,7 @@ X 的值应为{0，1，2，…。 B-1}，即在模 b 整数环中。
 
 **语法：**
 
-```
+```php
 gmp_invert ( $a, $b )
 ```
 
@@ -27,7 +27,7 @@ gmp_invert ( $a, $b )
 
 例如：
 
-```
+```php
 Input:  $a = 3, $b = 11
 Output: 4
 Since (4*3) mod 11 = 1, 4 is modulo inverse of 3
@@ -45,7 +45,7 @@ Since (10*12) mod 17 = 1, 12 is modulo inverse of 3
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，计算逆模的程序。
 
-```
+```php
 <?php
 // PHP program to calculate inverse modulo
 
@@ -67,7 +67,7 @@ echo $invMod."\n";
 
 产出：
 
-```
+```php
 4
 12
 
@@ -75,7 +75,7 @@ echo $invMod."\n";
 
 **程序 2：**当 GMP 编号作为参数传递时计算逆模的程序。
 
-```
+```php
 <?php
 // PHP program to calculate inverse modulo
 
@@ -98,7 +98,7 @@ echo $invMod."\n";
 
 产出：
 
-```
+```php
 4
 12
 

@@ -5,7 +5,7 @@
 GmagickDraw：：Scale()函数是 PHP 中的一个内置函数，用于设置缩放因子，并将其应用于当前坐标空间的水平和垂直方向。
 **语法：**和
 
-```
+```php
 *public* GmagickDraw::scale( $x, $y ) : GmagickDraw
 ```
 
@@ -21,7 +21,7 @@ GmagickDraw：：Scale()函数是 PHP 中的一个内置函数，用于设置缩
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -77,7 +77,7 @@ echo $image->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

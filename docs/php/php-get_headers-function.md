@@ -6,7 +6,7 @@ PHP 中的**get_headers()函数**用于获取服务器在响应 HTTP 请求时�
 
 **语法：**
 
-```
+```php
 get_headers( $url, $format, $context )
 ```
 
@@ -18,7 +18,7 @@ get_headers( $url, $format, $context )
 
 **示例 1：**在此示例中，未分配可选参数**$format**的值。
 
-```
+```php
 <?php
 
 // Target URL
@@ -34,7 +34,7 @@ print_r($headers);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array (
      [0] => HTTP/1.1 200 OK 
      [1] => Content-Type: text/html; charset=UTF-8 
@@ -56,7 +56,7 @@ Array (
 
 **示例 2：**在本例中，可选参数**$format**的值设置为非零。
 
-```
+```php
 <?php
 
 // Target URL
@@ -72,7 +72,7 @@ print_r($headers);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( 
         [0] => HTTP/1.1 200 OK 
         [Content-Type] => text/html; charset=UTF-8 

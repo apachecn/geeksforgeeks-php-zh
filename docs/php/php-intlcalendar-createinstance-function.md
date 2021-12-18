@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *IntlCalendar* IntlCalendar::createInstance( *mixed* $timeZone = NULL, *string* $locale = "" )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *IntlCalendar* intlcal_create_instance( *mixed* $timeZone = NULL, *string* $locale = "" )
     ```
 
@@ -33,7 +33,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an IntlCalendar instance
@@ -55,7 +55,7 @@ var_dump($calendar2->after($calendar1));
 
 **输出：**
 
-```
+```php
 bool(false)
 bool(true)
 bool(true)
@@ -65,7 +65,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an IntlCalendar from a DateTime object or string
@@ -86,7 +86,7 @@ var_dump($calendar1->equals($calendar2));
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```

@@ -8,7 +8,7 @@
 
 示例：
 
-```
+```php
 Input : array(2, 3, 5, 6, 7)
 Output : 1.5620499351813
 
@@ -27,7 +27,7 @@ Output : 1
 
 以下是计算标准差的 PHP 实现：
 
-```
+```php
 <?php
 
     // function to calculate the standard deviation

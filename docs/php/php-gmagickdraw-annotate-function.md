@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::annotate( *float* $x, *float* $y, *string* $text )
 ```
 
@@ -27,7 +27,7 @@
 
 **程序 1(向图形添加文本)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -65,7 +65,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2(向图像添加文本)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

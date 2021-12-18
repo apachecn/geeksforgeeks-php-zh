@@ -6,7 +6,7 @@ Gmp_sqrtrem()是 PHP 中的一个内置函数，用于计算 GMP 数([GNU Multip
 
 **语法：**
 
-```
+```php
 gmp_sqrtrem ( $num )
 ```
 
@@ -16,7 +16,7 @@ gmp_sqrtrem ( $num )
 
 例如：
 
-```
+```php
 Input : "9"
 Output : 3
 
@@ -29,7 +29,7 @@ Output : 4
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，用 GMP 编号的余数计算平方根的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the square root 
 // of a GMP number
@@ -48,14 +48,14 @@ echo $squareRoot." ".$rem;
 
 产出：
 
-```
+```php
 4 8
 
 ```
 
 **程序 2：**当 GMP 编号作为参数传递时，用 GMP 编号的余数计算平方根的程序。
 
-```
+```php
 <?php
 // PHP program to calculate the square root 
 // of a GMP number
@@ -74,7 +74,7 @@ echo $squareRoot." ".$rem;
 
 产出：
 
-```
+```php
 4 8
 
 ```

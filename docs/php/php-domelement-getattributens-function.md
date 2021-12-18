@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMElement::getAttributeNS( *string* $namespaceURI, 
 *string* $localName )
 ```
@@ -22,7 +22,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -48,7 +48,7 @@ echo $nodeValue;
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

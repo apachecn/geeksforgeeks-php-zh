@@ -14,7 +14,7 @@
 
 *   Linux users can install php using the following command.
 
-    ```
+    ```php
     apt-get install php5-common libapache2-mod-php5 php5-cli
     ```
 
@@ -24,7 +24,7 @@
 
     *   Mac users can install php using the following command.
 
-        ```
+        ```php
         curl -s https://php-osx.liip.ch/install.sh | bash -s 7.3
         ```
 
@@ -36,7 +36,7 @@
         *   转到存在 php 文件的指定文件夹或目录。
         *   Then we can run php code code using the following command:
 
-            ```
+            ```php
             php file_name.php
             ```
 
@@ -44,7 +44,7 @@
 
         *   We can also start server for testing the php code using the command line by the following command:
 
-            ```
+            ```php
             php -S localhost:port -t your_folder/
             ```
 

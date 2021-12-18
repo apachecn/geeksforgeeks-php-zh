@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageCompose( *int* $compose )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick Object
@@ -38,13 +38,13 @@ echo $compose;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 70
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick Object

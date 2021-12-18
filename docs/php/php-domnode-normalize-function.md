@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DOMNode::normalize( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**在本程序中，我们将展示 Normize 如何删除空文本节点。
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -58,7 +58,7 @@ echo count($element->childNodes);
 
 **示例 2：**在本程序中，我们将展示 Normize 如何合并所有相邻文本节点。
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setIteratorIndex( *int* $index )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a new imagick object 
@@ -47,7 +47,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a new imagick object 
@@ -73,7 +73,7 @@ echo $index; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 

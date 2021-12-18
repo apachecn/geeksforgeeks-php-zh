@@ -10,7 +10,7 @@ PHP 中的 fgets()函数是一个内置函数，用于从打开的文件返回�
 
     **语法：**
 
-    ```
+    ```php
     fgets(file, length)
 
     Parameters Used:
@@ -38,7 +38,7 @@ PHP 中的 fgets()函数是一个内置函数，用于从打开的文件返回�
 
     **程序 1**
 
-    ```
+    ```php
     <?php
     // file is opened using fopen() function
     $my_file = fopen("gfg.txt", "rw");
@@ -53,13 +53,13 @@ PHP 中的 fgets()函数是一个内置函数，用于从打开的文件返回�
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     This is the first line.
     ```
 
     **程序 2**
 
-    ```
+    ```php
     <?php
     //file is opened using fopen() function
     $my_file = fopen("gfg.txt", "rw");
@@ -77,7 +77,7 @@ PHP 中的 fgets()函数是一个内置函数，用于从打开的文件返回�
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     This is the first line.
     This is the second line.
     This is the third line.

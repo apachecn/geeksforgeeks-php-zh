@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ImagickKernel* ImagickKernel::fromMatrix( *array* $matrix, *array* $origin )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -52,7 +52,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -77,7 +77,7 @@ print("<pre>".print_r($matrix, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => Array

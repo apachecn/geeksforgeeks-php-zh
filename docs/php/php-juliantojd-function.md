@@ -6,7 +6,7 @@ Juliantojd()函数是 PHP 中的一个内置函数，用于将儒略历日期转
 
 **语法：**
 
-```
+```php
 int juliantojd( $month, $day, $year )
 ```
 
@@ -25,7 +25,7 @@ int juliantojd( $month, $day, $year )
 
 ## PHP
 
-```
+```php
 <?php
 
 // converts Julian calendar Date to
@@ -47,7 +47,7 @@ echo "Julian calendar: " . $julian;
 
 **Output**
 
-```
+```php
 Julian Day count: 2458374
 Julian calendar: 8/30/2018 
 
@@ -57,7 +57,7 @@ Julian calendar: 8/30/2018
 
 ## PHP
 
-```
+```php
 <?php
 
 // convert Julian Calendar Date to Julian Day number.
@@ -76,7 +76,7 @@ echo "Julian Date Count : " . $julian;
 
 **Output**
 
-```
+```php
 Julian calendar 2452260
 Julian Date Count : 12/3/2001 
 

@@ -6,7 +6,7 @@ Gmagick：：setfontsize()函数是 PHP 中的一个内置函数，用于设置�
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::setfontsize( $pointsize ) 
 ```
 
@@ -19,7 +19,7 @@ Gmagick：：setfontsize()函数是 PHP 中的一个内置函数，用于设置�
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 
@@ -52,13 +52,13 @@ print_r($draw->getfontsize());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 72
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a GmagickDraw object 

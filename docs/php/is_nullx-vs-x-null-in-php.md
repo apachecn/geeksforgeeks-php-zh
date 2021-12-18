@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```php
 *bool* is_null( $var )
 ```
 
 **例 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // is_null() function
@@ -34,7 +34,7 @@ var_dump(is_null($y));
 
 **输出:**
 
-```
+```php
 bool(true)
 bool(false)
 

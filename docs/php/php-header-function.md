@@ -6,7 +6,7 @@ Header()函数是 PHP 中的一个内置函数，用于发送原始 HTTP 标头�
 
 **语法：**
 
-```
+```php
 void header( $header, $replace = TRUE, $http_response_code )
 ```
 
@@ -20,7 +20,7 @@ void header( $header, $replace = TRUE, $http_response_code )
 
 **示例 1：**
 
-```
+```php
 <?php
 // PHP program to describes header function
 
@@ -38,7 +38,7 @@ exit;
 
 **示例 2：**
 
-```
+```php
 <?php
 // PHP program to describes header function
 

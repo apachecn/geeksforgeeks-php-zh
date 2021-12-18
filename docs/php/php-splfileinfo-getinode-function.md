@@ -6,7 +6,7 @@ SplFileInfo：：getInode()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **语法：**
 
-```
+```php
 *int* SplFileInfo::getInode( void)
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getInode()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -37,7 +37,7 @@ print_r($file->getInode());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -54,7 +54,7 @@ print_r($file->getInode());
 
 **输出：**
 
-```
+```php
 4365503
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::resetVectorGraphics( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -58,7 +58,7 @@ echo $imagick->getImageBlob();
 ![](img/574a642a0a94c6ff3628e2ada952966b.png)
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -6,7 +6,7 @@ array_diff()是 PHP 中的一个内置函数，用于计算两个或多个数组
 
 **语法:**
 
-```
+```php
 array_diff($array1, $array2, $array3, ...,$arrayn)
 
 ```
@@ -17,7 +17,7 @@ array_diff($array1, $array2, $array3, ...,$arrayn)
 
 示例:
 
-```
+```php
 Input :  $array1 = ('a', 'b', 'c');
          $array2 = ('a', 'd', 'e');
          $array3 = ('a', 'b', 'f');
@@ -40,7 +40,7 @@ Output :
 
 下面的程序说明了 PHP 中 array_diff()的工作方式:
 
-```
+```php
 <?php
 // PHP code to illustrate the working of array_diff()
 function Difference($array1, $array2, $array3){
@@ -57,7 +57,7 @@ print_r(Difference($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [2] => c

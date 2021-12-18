@@ -13,7 +13,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
  class GFG {
     /**
@@ -48,14 +48,14 @@ echo $b->getScore();
 
 **输出:**
 
-```
+```php
 120.5
 100
 ```
 
 但是在此更新之后，使用以下语法指定联合类型
 
-```
+```php
 T1|T2|...
 ```
 
@@ -65,7 +65,7 @@ T1|T2|...
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
     class GFG {
     private int|float $CodingScore;
@@ -92,7 +92,7 @@ echo $a->getScore();
 
 **输出:**
 
-```
+```php
 120.8
 100
 ```

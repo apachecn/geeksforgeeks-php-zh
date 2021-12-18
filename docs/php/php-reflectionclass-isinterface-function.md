@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isInterface( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined interface Departments
@@ -40,14 +40,14 @@ var_dump($instance);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class TestInterface
@@ -66,7 +66,7 @@ var_dump($class->isInterface());
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

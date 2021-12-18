@@ -7,7 +7,7 @@ ine()函数返回一个介于-1 和 1 之间的浮点值，表示作为参数传
 
 **语法：**
 
-```
+```php
 *float* sin($value)
 ```
 
@@ -17,7 +17,7 @@ ine()函数返回一个介于-1 和 1 之间的浮点值，表示作为参数传
 
 例如：
 
-```
+```php
 Input : sin(3) 
 Output : 0.14112000805987
 
@@ -36,7 +36,7 @@ Output : 0
 
 *   Passing 3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (sin(3));
@@ -46,13 +46,13 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     0.14112000805987
     ```
 
 *   Passing -3 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (sin(-3));
@@ -62,13 +62,13 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     -0.14112000805987
     ```
 
 *   When (2*M_PI) is passed as a parameter, M_PI is a constant in PHP whose value is 3.1415926535898:
 
-    ```
+    ```php
     <?php
 
     echo (sin(2*M_PI));
@@ -79,13 +79,13 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     1
     ```
 
 *   Passing 0 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (sin(0));
@@ -95,7 +95,7 @@ Output : 0
 
     产出：
 
-    ```
+    ```php
     0
     ```
 

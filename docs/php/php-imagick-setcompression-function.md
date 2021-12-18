@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setCompression( *int* $compression )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -36,7 +36,7 @@ echo $compression;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

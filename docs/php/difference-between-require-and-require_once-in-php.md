@@ -10,7 +10,7 @@
 
 ## **超文本标记语言**
 
-```
+```php
 <html>
 
 <body>
@@ -27,7 +27,7 @@
 
 ## **requiregfg.php**
 
-```
+```php
 <?php
 
     echo "<p>visit Again-" . date("Y") 
@@ -48,7 +48,7 @@
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
     require_once('demo.php');
     require_once('demo.php');
@@ -59,7 +59,7 @@
 
 ## **demo.php**
 
-```
+```php
 <?php
     echo "Hello from Geeks for Geeks";
 ?>

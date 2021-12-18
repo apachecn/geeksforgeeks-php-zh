@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::union ( Ds\Set $set )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -38,7 +38,7 @@ print_r($a->union($b));
 
 **输出：**
 
-```
+```php
 Union of both set is: 
 Ds\Set Object
 (
@@ -53,7 +53,7 @@ Ds\Set Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new set
@@ -72,7 +72,7 @@ var_dump($a->union($b));
 
 **输出：**
 
-```
+```php
 Union of both set is: 
 object(Ds\Set)#3 (8) {
   [0]=>

@@ -5,7 +5,7 @@
 Jdtojulian()函数是 PHP 中的一个内置函数，用于将儒略日计数转换为儒略历日期。 它将儒略日计数转换为包含*月/日/年*格式的儒略历日期的字符串。
 **语法：**和
 
-```
+```php
 int jdtojulian( $julianday )
 ```
 
@@ -16,7 +16,7 @@ int jdtojulian( $julianday )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Converts a Julian calendar date 
@@ -35,7 +35,7 @@ echo "JDToJulian is : ".jdtojulian($jdate);
 
 **Output:** 
 
-```
+```php
 JulianToJD is : 2450395
 JDToJulian is : 10/25/1996
 ```
@@ -44,7 +44,7 @@ JDToJulian is : 10/25/1996
 
 ## PHP
 
-```
+```php
 <?php
 
 // Converts Julian calendar Date 
@@ -66,7 +66,7 @@ echo "Julian Calendar Date : ".$julian;
 
 **Output:** 
 
-```
+```php
 Julian Day Count : 2450837
 Julian Calendar Date : 1/10/1998
 ```

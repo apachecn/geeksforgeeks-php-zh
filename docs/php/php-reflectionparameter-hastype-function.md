@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionParameter::hasType ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionParameter：：hasType()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -45,14 +45,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -86,7 +86,7 @@ var_dump($C->hasType());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 bool(false)
 bool(true)

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertIsReadable(string $filename[, string $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertIsReadable(string $filename[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -50,7 +50,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

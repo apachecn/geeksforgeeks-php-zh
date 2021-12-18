@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 str_word_count ( $string , $returnVal, $chars )
 ```
 
@@ -26,7 +26,7 @@ str_word_count ( $string , $returnVal, $chars )
 
 1.  **Calculating the number of words in a string**: To Display only the number of words in a string,the str_word_count() function should be executed in the following way:
 
-    ```
+    ```php
     <?php
     $mystring = "Twinkle twinkl4e little star";
     print_r(str_word_count($mystring));
@@ -35,13 +35,13 @@ str_word_count ( $string , $returnVal, $chars )
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     5
     ```
 
 2.  **Find the words in a string**: To return an array containing the words in a string,the str_word_count() function should be executed in the following way:
 
-    ```
+    ```php
     <?php
     $mystring = "Twinkle twinkl4e little star";
     print_r(str_word_count($mystring, 1));
@@ -50,13 +50,13 @@ str_word_count ( $string , $returnVal, $chars )
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     Array ( [0] => Twinkle [1] => twinkl [2] => e [3] => little [4] => star )
     ```
 
 3.  **Find words in a string along with numeric position of the words**: To return an array containing the words in a string along with numeric position of the words,the str_word_count() function should be executed in the following way:
 
-    ```
+    ```php
     <?php
     $mystring = "Twinkle twinkl4e little star";
     print_r(str_word_count($mystring, 2));
@@ -65,13 +65,13 @@ str_word_count ( $string , $returnVal, $chars )
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     Array ( [0] => Twinkle [8] => twinkl [15] => e [17] => little [24] => star )
     ```
 
 4.  **Find words in a string when some special character are considered as word**: To return an array containing the words in a string where a character shall be considered as a word, the str_word_count() function should be executed in the following way:
 
-    ```
+    ```php
     <?php
     $mystring = "Twinkle twinkl4e little star";
     print_r(str_word_count($mystring, 2 ,4));
@@ -80,6 +80,6 @@ str_word_count ( $string , $returnVal, $chars )
 
     发帖主题：Re：Колибри0.7.0
 
-    ```
+    ```php
     Array ( [0] => Twinkle [8] => twinkl4e [17] => little [24] => star )
     ```

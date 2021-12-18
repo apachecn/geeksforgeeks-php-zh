@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* openssl_get_cipher_methods( *bool* $aliases = FALSE )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**在本程序中，我们将列出所有可用的密码。
 
-```
+```php
 <?php
 
 // Get all the ciphers
@@ -31,7 +31,7 @@ print("<pre>".print_r($ciphers, true)."</pre>");
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => aes-128-cbc
@@ -47,7 +47,7 @@ Array
 
 **程序 2：**在本程序中，我们将检查是否支持密码。
 
-```
+```php
 <?php
 
 // Get all the ciphers
@@ -71,7 +71,7 @@ if (!$isSupported2) {
 
 **输出：**
 
-```
+```php
 aes-128-cfb is supported.
 unknown-cipher is not supported.
 ```

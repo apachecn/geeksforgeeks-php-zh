@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionClass::getTraitNames( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a trait class
@@ -47,7 +47,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 array(1) {
   [0]=>
   string(7) "Company"
@@ -56,7 +56,7 @@ array(1) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class Department
@@ -75,7 +75,7 @@ var_dump($obj->getTraitNames());
 
 **输出：**
 
-```
+```php
 array(0) {
 }
 ```

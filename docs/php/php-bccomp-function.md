@@ -6,7 +6,7 @@ PHP 中的 bccomp()函数是一个内置函数，用于比较两个任意精度�
 
 **语法:**
 
-```
+```php
 *int* bccomp ( $num_str1, $num_str2, $scaleVal)
 ```
 
@@ -20,7 +20,7 @@ PHP 中的 bccomp()函数是一个内置函数，用于比较两个任意精度�
 
 示例:
 
-```
+```php
 Input:  $num_str1 = 3.22, $num_str2 = 3
 Output: 0
 Explanation: Since the parameter $scaleVal is not 
@@ -41,7 +41,7 @@ Output: -1
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bccomp() function
 
@@ -61,14 +61,14 @@ echo $res;
 
 输出:
 
-```
+```php
 0
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bccomp() function
 
@@ -91,14 +91,14 @@ echo $res;
 
 输出:
 
-```
+```php
 1
 
 ```
 
 **程序 3:**
 
-```
+```php
 <?php
 // PHP program to illustrate bccomp() function
 
@@ -121,7 +121,7 @@ echo $res;
 
 输出:
 
-```
+```php
 -1
 
 ```

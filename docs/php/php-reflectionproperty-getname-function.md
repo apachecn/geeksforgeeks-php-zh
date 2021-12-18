@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionProperty::getName ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionProperty：：getName()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -43,7 +43,7 @@ var_dump($D);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(19) "SizeOfGeeksforGeeks"
 string(9) "SizeOfGFG"
 
@@ -51,7 +51,7 @@ string(9) "SizeOfGFG"
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -83,7 +83,7 @@ var_dump($C->getName());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(8) "SizeOfHR"
 string(12) "SizeOfCoding"
 string(15) "SizeOfMarketing"

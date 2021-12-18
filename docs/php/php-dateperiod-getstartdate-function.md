@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateTimeInterface* DatePeriod::getStartDate( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initialising a startDate with time
@@ -45,14 +45,14 @@ echo $StartDate->format(DateTime::ISO8601);
 
 **输出：**
 
-```
+```php
 2019-05-16T00:00:00+0000
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initialising a DatePeriod with a date of 2019-09-30,
@@ -70,7 +70,7 @@ echo $StartDate->format(DateTime::ISO8601);
 
 **输出：**
 
-```
+```php
 2019-09-30T10:40:44+0000
 
 ```

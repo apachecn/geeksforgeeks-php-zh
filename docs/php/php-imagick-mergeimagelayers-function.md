@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::mergeImageLayers( *int* $layer_method )
 ```
 
@@ -39,7 +39,7 @@ LAYERMETHOD 常量列表如下：
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -67,7 +67,7 @@ echo $result->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

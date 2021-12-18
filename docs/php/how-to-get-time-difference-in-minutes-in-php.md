@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```php
 date_diff($datetime1, $datetime2);
 ```
 
@@ -23,7 +23,7 @@ date_diff($datetime1, $datetime2);
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php 
 // PHP Program to illustrate
 //date_diff() function
@@ -51,7 +51,7 @@ echo $min.' minutes';
 
 ****输出:****
 
-```
+```php
 Difference in days is: +366 days
 Difference in minutes is: 527040 minutes
 ```
@@ -60,7 +60,7 @@ Difference in minutes is: 527040 minutes
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php 
   // PHP Program to illustrate
   // date_diff() function
@@ -88,7 +88,7 @@ Difference in minutes is: 527040 minutes
 
 ****输出:****
 
-```
+```php
 Difference in days is: +276 days
 Difference in minutes is: 397440 minutes
 ```
@@ -97,7 +97,7 @@ Difference in minutes is: 397440 minutes
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php 
 // PHP program to illustrate 
 // date_diff() function
@@ -125,7 +125,7 @@ echo $minutes.' minutes';
 
 ****输出:****
 
-```
+```php
 Difference in hours is:7
 Difference in minutes is:420 minutes
 ```

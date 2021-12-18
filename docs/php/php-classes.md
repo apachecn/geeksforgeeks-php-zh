@@ -10,7 +10,7 @@
 
 **语法:**我们定义自己的类，从关键字**‘类’**开始，然后是你想给你的新类取的名字。
 
-```
+```php
 <?php 
     class person {
 
@@ -25,7 +25,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 class GeeksforGeeks
 {
@@ -43,13 +43,13 @@ $obj = new GeeksforGeeks;
 
 **输出**:
 
-```
+```php
 The class "GeeksforGeeks" was initiated.
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 class GeeksforGeeks
 {
@@ -67,7 +67,7 @@ $obj = new GeeksforGeeks;
 
 **输出:**
 
-```
+```php
 The class "GeeksforGeeks" was destroyed.
 
 ```

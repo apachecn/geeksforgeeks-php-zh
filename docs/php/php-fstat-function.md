@@ -25,7 +25,7 @@ PHP 中的*fstat()*函数是一个内置函数，用于返回有关打开的文�
 
 **语法：**
 
-```
+```php
 array fstat ( $file )
 ```
 
@@ -45,7 +45,7 @@ array fstat ( $file )
 
 **程序 1：**
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "r");
@@ -62,7 +62,7 @@ fclose($myfile);
 
 **程序 2：**
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "r");

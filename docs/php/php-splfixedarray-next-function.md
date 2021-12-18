@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplFixedArray::next()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -39,14 +39,14 @@ echo $gfg->current() . "\n";
 
 **输出：**
 
-```
+```php
 10
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -73,7 +73,7 @@ while($gfg->valid()) {
 
 **输出：**
 
-```
+```php
 1
 5
 1

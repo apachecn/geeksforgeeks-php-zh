@@ -10,7 +10,7 @@ CanvasJS 是一个 JavaScript 库，用于为网页轻松制作不同类型的�
 
 **示例:**
 
-```
+```php
 <?php
 
 // First array for purchased product

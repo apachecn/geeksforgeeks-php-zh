@@ -6,7 +6,7 @@ is_bool()是 php 中的内置函数。 函数的作用是：确定变量是否�
 
 **语法**：
 
-```
+```php
 boolean is_bool($variable_name)
 $variable_name:the variable we want to check.
 ```
@@ -15,7 +15,7 @@ $variable_name:the variable we want to check.
 
 **示例 1**：
 
-```
+```php
 <?php
 //php code
 $variable_name1 = false;
@@ -39,7 +39,7 @@ echo '32 is not a boolean.';
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Variable is a boolean. 
 32 is not a boolean.
 
@@ -47,7 +47,7 @@ Variable is a boolean.
 
 **示例 2**：
 
-```
+```php
 <?php
 // PHP code
 function square($num)
@@ -63,7 +63,7 @@ echo square(56) ."\n";   // nothing is returned.
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1
 1
 

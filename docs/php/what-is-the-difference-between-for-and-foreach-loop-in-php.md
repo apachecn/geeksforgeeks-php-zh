@@ -10,7 +10,7 @@
 *   ****变量受制于与之比较的条件。****
 *   ****递增/递减循环计数器。****
 
-```
+```php
 ****for(expr1; expr2; expr3) {
     // Perform action
 }****
@@ -20,7 +20,7 @@
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 ****<?php
 
 // Declaring an array
@@ -38,13 +38,13 @@ for($i = 0; $i < 5; $i++) {
 
 ******输出:******
 
-```
+```php
 ****1  2  3  4  5**** 
 ```
 
 ****[**foreach 循环**](https://www.geeksforgeeks.org/php-foreach-loop/)**:***foreach*循环在数组计数结束时工作。这个循环可以处理变量以及[关联数组](https://www.geeksforgeeks.org/associative-arrays-in-php/)。因此，这个循环可以用多种方式实现。 *foreach* 循环比 *for* 循环要好得多，性能也更好。****
 
-```
+```php
 ****foreach ($array as $value) {
     // Perform action
 }****
@@ -54,7 +54,7 @@ for($i = 0; $i < 5; $i++) {
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 ****<?php
 
 // Declaring an array
@@ -72,13 +72,13 @@ foreach($arr as $val){
 
 ******输出:******
 
-```
+```php
 ****1  2  3  4  5**** 
 ```
 
 ****这个循环也可以在键值对的情况下实现，即关联数组。按键及其对应的映射值可以很容易地显示在屏幕上。下面的代码片段说明了循环在[关联数组](https://www.geeksforgeeks.org/associative-arrays-in-php/)上的用法。****
 
-```
+```php
 ****foreach ($array as $key => $value) {
     // Perform action
 }****
@@ -88,7 +88,7 @@ foreach($arr as $val){
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 ****<?php
 
 // Declaring an array
@@ -109,7 +109,7 @@ foreach($arr as $key => $val) {
 
 ******输出:******
 
-```
+```php
 ****Java : Spring Boot
 PHP : CodeIgniter
 Python : Django****

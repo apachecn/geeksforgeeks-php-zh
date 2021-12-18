@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromgdpart( *string* $filename,
          *int* $srcX, *int* $srcY, *int* $width, *int* $height )
 ```
@@ -25,7 +25,7 @@
 
 **程序 1(在浏览器中查看 GD2 文件)：**
 
-```
+```php
 <?php
 
 // Load the GD2 image from local folder GD2 images
@@ -45,7 +45,7 @@ imagedestroy($im);
 
 **程序 2(将 gd2 转换为 jpeg)：**
 
-```
+```php
 <?php
 
 // Load the GD2 image from local folder GD2 images
@@ -61,7 +61,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 It will load the part of image and convert it
 into JPEG and saves it into same folder.
 ```

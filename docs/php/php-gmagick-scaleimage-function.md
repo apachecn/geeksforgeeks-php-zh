@@ -5,7 +5,7 @@
 **gmagick：：scaleimage()**函数是 PHP 中的一个内置函数，用于将图像大小缩放到给定的尺寸。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::scaleimage( $width, $height, $fit = FALSE )
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

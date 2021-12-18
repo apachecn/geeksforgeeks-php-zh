@@ -5,7 +5,7 @@
 **Imagick：：Rise eImage()**函数是 PHP 中的一个内置函数，用于通过闪电和使图像边缘变暗来创建模拟的三维按钮效果。
 **语法：**
 
-```
+```php
 *bool* Imagick::raiseImage( $width, $height, $x, $y, $raise )
 ```
 
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -53,7 +53,7 @@ echo $image;
 
 ## PHP
 
-```
+```php
 <?php
 
 $string = "Computer Science portal for Geeks!";

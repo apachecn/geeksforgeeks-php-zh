@@ -6,7 +6,7 @@ SplPriorityQueue：：Current()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 mixed SplPriorityQueue::current()
 ```
 
@@ -18,7 +18,7 @@ mixed SplPriorityQueue::current()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -50,7 +50,7 @@ print_r($obj->current());
 
 **OUTPUT**
 
-```
+```php
 G
 ```
 

@@ -15,7 +15,7 @@
 
 ## PHP
 
-```
+```php
 <?php
     $names = array("Ramesh", "Suresh", "Ram", "Shyam");
     foreach ($names as $value) {
@@ -26,7 +26,7 @@
 
 **输出:**
 
-```
+```php
 Ramesh
 Suresh
 Ram
@@ -39,7 +39,7 @@ Shyam
 
 ## PHP
 
-```
+```php
 <?php
     $marks = array(45, 78, 93, 69);
     foreach ($marks as $value) {
@@ -50,7 +50,7 @@ Shyam
 
 **输出:**
 
-```
+```php
 45
 78
 93
@@ -65,7 +65,7 @@ Shyam
 
 ## PHP
 
-```
+```php
 <?php
     $markSheet = array("Ramesh"=>45, "Suresh"=>78, "Ram"=>93, "Shyam"=>69);
     foreach ($markSheet as $key => $val) {
@@ -76,7 +76,7 @@ Shyam
 
 **输出:**
 
-```
+```php
 Ramesh - 45
 Suresh - 78
 Ram - 93

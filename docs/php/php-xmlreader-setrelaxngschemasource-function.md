@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::setRelaxNGSchemaSource( *string* $source )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <body>
         <div>
@@ -36,7 +36,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -79,7 +79,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is valid!
     This document is valid!
     This document is valid!
@@ -93,7 +93,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <body>
         <div>
@@ -109,7 +109,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -152,7 +152,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is not valid!
     This document is not valid!
     This document is not valid!

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *float* ImagickDraw::getTextInterwordSpacing( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -32,13 +32,13 @@ echo $textInterwordSpacing;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 // Which is the default value
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -55,13 +55,13 @@ echo $textInterwordSpacing;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 30
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

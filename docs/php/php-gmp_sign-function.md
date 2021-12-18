@@ -6,7 +6,7 @@ Gmp_sign()是 PHP 中的一个内置函数，用于检查给定 GMP 编号的符
 
 **语法：**
 
-```
+```php
 gmp_sign($num)
 ```
 
@@ -20,7 +20,7 @@ gmp_sign($num)
 
 例如：
 
-```
+```php
 Input : $num=9
 Output : 1 
 
@@ -36,7 +36,7 @@ Output : 0
 
 **程序 1：**下面的程序演示了当 GMP 编号作为参数传递时 gmp_sign()函数的工作方式。
 
-```
+```php
 <?php
 // PHP program to check the sign 
 // of a number 
@@ -65,7 +65,7 @@ echo gmp_sign($num3)."\n"; 
 
 产出：
 
-```
+```php
 -1
 1
 0
@@ -74,7 +74,7 @@ echo gmp_sign($num3)."\n"; 
 
 **程序 2：**下面的程序演示了将数字字符串作为参数传递时 gmp_sign()的工作方式。
 
-```
+```php
 <?php
 // PHP program to check the sign 
 // of a number 
@@ -104,7 +104,7 @@ echo gmp_sign($num3)."\n"; 
 
 产出：
 
-```
+```php
 -1
 1
 0

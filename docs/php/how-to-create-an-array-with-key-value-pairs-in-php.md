@@ -6,7 +6,7 @@ PHP 为我们提供了一种特殊类型的数组，称为*关联数组*，它�
 
 **语法 1:** 使用数组()构造函数
 
-```
+```php
 $arrayVariable = array(
     key1  => value1,
     key2 => value2,
@@ -19,7 +19,7 @@ $arrayVariable = array(
 
 **语法 2:** 使用简写符号
 
-```
+```php
 $arrayVariable = [
     key1  => value1,
     key2 => value2,
@@ -39,7 +39,7 @@ $arrayVariable = [
 
 **示例 1:** 使用数组()构造函数
 
-```
+```php
 <?php
 $websites = array(
     "Facebook" => 
@@ -65,7 +65,7 @@ foreach ($websites as $key => $value) {
 
 **示例 2:** 使用速记符号
 
-```
+```php
 <?php
 $websites = [
     "Facebook" => 

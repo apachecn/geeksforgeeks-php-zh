@@ -6,7 +6,7 @@ SetItalic()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于将
 
 **语法：**
 
-```
+```php
 *void* Format::setItalic()
 ```
 
@@ -18,7 +18,7 @@ SetItalic()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于将
 
 ## PHP
 
-```
+```php
 <?php
 // require_once 'Spreadsheet/Excel/Writer.php';
 
@@ -58,7 +58,7 @@ $workbook->close();
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once 'Spreadsheet/Excel/Writer.php';

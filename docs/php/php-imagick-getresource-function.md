@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getResource( *int* $type )
 ```
 
@@ -28,7 +28,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new imagick object

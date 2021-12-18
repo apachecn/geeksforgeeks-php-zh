@@ -6,7 +6,7 @@ Urlencode()函数是 PHP 中的一个内置函数，用于对 url 进行编码�
 
 **语法：**
 
-```
+```php
 *string* urlencode( $input )
 ```
 
@@ -18,7 +18,7 @@ Urlencode()函数是 PHP 中的一个内置函数，用于对 url 进行编码�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate urlencode function
@@ -29,14 +29,14 @@ echo urlencode("https://geeksforgeeks.org/") . "\n";
 
 **输出：**
 
-```
+```php
 https%3A%2F%2Fgeeksforgeeks.org%2F
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate urlencode function
@@ -50,7 +50,7 @@ echo urlencode("https://geeksforgeeks.org/") . "\n";
 
 **输出：**
 
-```
+```php
 https%3A%2F%2Fide.geeksforgeeks.org%2F
 https%3A%2F%2Fwrite.geeksforgeeks.org%2F
 https%3A%2F%2Fpractice.geeksforgeeks.org%2F

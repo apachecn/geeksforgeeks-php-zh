@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::merge ( mixed $values ) 
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new set
@@ -35,7 +35,7 @@ var_dump($set) 
 
 **输出：**
 
-```
+```php
 object(Ds\Set)#2 (7) {
   [0]=>
   int(12)
@@ -67,7 +67,7 @@ object(Ds\Set)#1 (4) {
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new set
@@ -81,7 +81,7 @@ var_dump($set->merge(["G", "E", "E", "k", "S"])); 
 
 **输出：**
 
-```
+```php
 object(Ds\Set)#2 (8) {
   [0]=>
   int(12)

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMDocumentFragment* DOMDocument::createDocumentFragment( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**在本例中，我们将创建带有片段的标题。
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -43,7 +43,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <root><h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3></root>
 ```
@@ -52,7 +52,7 @@ echo $dom->saveXML();
 
 **程序 2：**在本例中，我们将创建彩色线条
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -82,7 +82,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <root>
     <div style="color: red">This is red</div>

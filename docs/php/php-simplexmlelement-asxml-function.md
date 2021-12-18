@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 mixed SimpleXMLElement::asXML( $filename )
 ```
 
@@ -20,7 +20,7 @@ mixed SimpleXMLElement::asXML( $filename )
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -48,7 +48,7 @@ echo $xml->asXML('savexmltofile.xml');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 user123 firstname lastname +91-XXXXXXXXXX I am John Doe. Live in Kolkata, India. 1
 ```
 
@@ -57,7 +57,7 @@ user123 firstname lastname +91-XXXXXXXXXX I am John Doe. Live in Kolkata, India.
 
 **示例 2：**使用**sample.xml**保存 XML 文件名
 
-```
+```php
 <?xml version="1.0"?>
 <user>
     <username> user123 </username>
@@ -71,7 +71,7 @@ user123 firstname lastname +91-XXXXXXXXXX I am John Doe. Live in Kolkata, India.
 
 **index.php**
 
-```
+```php
 <?php
 
 // Loading XML document from sample.xml to
@@ -88,7 +88,7 @@ echo $xml->asXML('savexmltofile.xml');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 user123 firstname lastname +91-9876543210 I am John Doe. Live in Kolkata, India. 1
 ```
 

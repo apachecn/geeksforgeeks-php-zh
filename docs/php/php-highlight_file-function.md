@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 highlight_file( $filename, $return )
 ```
 
@@ -25,7 +25,7 @@ highlight_file( $filename, $return )
 
 **示例 1：**使用名称**server.php**保存给定的代码并运行程序。
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -43,7 +43,7 @@ highlight_file( $filename, $return )
 
 **示例 2：**使用名称**geeks.php**保存给定的代码。
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -72,7 +72,7 @@ foreach($xml->children() as $child) {
 
 在下面的程序中使用上面的文件名来突出显示语法。
 
-```
+```php
 <!DOCTYPE html>
 <html>
 

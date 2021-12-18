@@ -6,7 +6,7 @@
 
 **语法**：
 
-```
+```php
 *string* str_repeat ( $string, $no_of_times )
 
 ```
@@ -20,7 +20,7 @@
 
 例如：
 
-```
+```php
 Input : $str = \'GeeksForGeeks\';
         print_r(str_repeat($str, 2));
 Output :GeeksForGeeksGeeksForGeeks
@@ -34,7 +34,7 @@ Output : Run Run Run Run Run Run Run
 以下程序说明了 PHP 中的 str_repeat()函数：
 **Program-1**：
 
-```
+```php
 <?php
 
 // Input string
@@ -48,14 +48,14 @@ print_r(str_repeat($str, 2));
 
 产出：
 
-```
+```php
 GeeksForGeeksGeeksForGeeks
 
 ```
 
 **程序-2**：
 
-```
+```php
 <?php
 
 // Input string 
@@ -69,7 +69,7 @@ print_r(str_repeat($str, 7));
 
 产出：
 
-```
+```php
  Run Run Run Run Run Run Run
 
 ```

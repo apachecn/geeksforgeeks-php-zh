@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *float* ImagickDraw::getTextKerning( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new ImagickDraw object
 $draw = new ImagickDraw();
@@ -33,13 +33,13 @@ echo $textKerning;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 0 // which is the default text kerning.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -56,13 +56,13 @@ echo $textKerning;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 5
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -6,7 +6,7 @@ Imagick：：Clone()函数是 PHP 中的内置函数，用于创建 Imagick 对�
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::clone( void )
 ```
 
@@ -18,7 +18,7 @@ Imagick：：Clone()函数是 PHP 中的内置函数，用于创建 Imagick 对�
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to search for multiple
@@ -94,7 +94,7 @@ foreach ($res as $var) {
 
 **Output:**
 
-```
+```php
 RollNo: 5
 Name: Gaurav
 Section: A

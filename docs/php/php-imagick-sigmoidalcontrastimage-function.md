@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::sigmoidalContrastImage( *bool* $sharpen, *float* $alpha,
                  *float* $beta, *int* $channel = Imagick::CHANNEL_DEFAULT)
 ```
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -47,7 +47,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

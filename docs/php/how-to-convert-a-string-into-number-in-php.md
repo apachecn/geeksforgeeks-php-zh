@@ -8,7 +8,7 @@ PHP 中的字符串可以非常容易地转换成数字(浮点/ int / double)。
 
 **例:**
 
-```
+```php
 <?php
 
 $num = "1000.314";
@@ -25,7 +25,7 @@ echo number_format($num, 2);
 
 **输出:**
 
-```
+```php
 1,000
 1,000.31
 
@@ -35,7 +35,7 @@ echo number_format($num, 2);
 
 **例:**
 
-```
+```php
 <?php
 
 // Number in string format
@@ -54,7 +54,7 @@ echo (double)$num;
 
 **输出:**
 
-```
+```php
 1000
 1000.314
 1000.314
@@ -65,7 +65,7 @@ echo (double)$num;
 
 **例:**
 
-```
+```php
 <?php
 
 // Number in string format
@@ -83,7 +83,7 @@ echo floatval($num);
 
 **输出:**
 
-```
+```php
 1000
 1000.314
 
@@ -91,7 +91,7 @@ echo floatval($num);
 
 **方法 4** :加 0 或进行数学运算。通过将 0 与字符串相加，也可以将字符串数字转换为整数或浮点数。在 PHP 中，执行数学运算时，字符串被隐式转换为整数或浮点数。
 
-```
+```php
 <?php
 
 // Number into string format
@@ -113,7 +113,7 @@ echo $num + 0.1;
 
 **输出:**
 
-```
+```php
 1000.314
 1000.314
 1000.414

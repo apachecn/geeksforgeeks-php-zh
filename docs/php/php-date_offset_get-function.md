@@ -8,13 +8,13 @@ DATE_OFFSET_GET()函数是 PHP 中的一个内置函数，用于返回时区偏�
 
 *   **process style:**
 
-    ```
+    ```php
     int date_offset_get( $object )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     int DateTime::getOffset( void )
     int DateTimeImmutable::getOffset( void )
     int DateTimeInterface::getOffset( void )
@@ -28,7 +28,7 @@ DATE_OFFSET_GET()函数是 PHP 中的一个内置函数，用于返回时区偏�
 
 **程序 1：**
 
-```
+```php
 <?php
 $date1 = date_create('2018-09-12', timezone_open('Asia/Kolkata'));
 $date2 = date_create('20018-09-18', timezone_open('Asia/Singapore'));
@@ -40,7 +40,7 @@ echo date_offset_get($date2) . "\n";
 
 **输出：**
 
-```
+```php
 19800
 28800
 
@@ -48,7 +48,7 @@ echo date_offset_get($date2) . "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 $date1 = new DateTime('2018-09-12', new DateTimeZone('Asia/Kolkata'));
 $date2 = new DateTimeImmutable('2018-09-18', new DateTimeZone('Asia/Singapore'));
@@ -60,7 +60,7 @@ echo $date2->getOffset() . "\n";
 
 **输出：**
 
-```
+```php
 19800
 28800
 

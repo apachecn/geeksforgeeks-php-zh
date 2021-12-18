@@ -6,7 +6,7 @@ SplFileObject：：ftruncate()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **语法：**
 
-```
+```php
 *bool* SplFileObject::ftruncate( $length )
 ```
 
@@ -18,7 +18,7 @@ SplFileObject：：ftruncate()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a file named "gfg.txt" which
@@ -41,7 +41,7 @@ echo $gfg->fgets();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Array

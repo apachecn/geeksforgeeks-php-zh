@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```php
 apc_clear_cache();
 ```
 
 此命令将删除系统缓存。如果您想为用户清除缓存，那么只需提供“用户”作为参数。
 
-```
+```php
 apc_clear_cache('user');
 ```
 
@@ -22,7 +22,7 @@ apc_clear_cache('user');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 if (in_array(@$_SERVER['REMOTE_ADDR'], 
@@ -44,7 +44,7 @@ else { 
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@ else { 
 
 **“about us . PHP”文件:**
 
-```
+```php
 <?php 
 
 // When form is submited "clear

@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $a1=array("Mumbai","Nashik");
 $a2=array("Nagpur","Pune");
@@ -18,7 +18,7 @@ print_r(array_merge($a1,$a2));
 
 **Output**
 
-```
+```php
 Array
 (
     [0] => Mumbai
@@ -34,7 +34,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $a1=array("a"=>"Mumbai","b"=>"Nashik");
 $a2=array("c"=>"Nagpur","b"=>"Pune");
@@ -44,7 +44,7 @@ print_r(array_merge_recursive($a1,$a2));
 
 **Output**
 
-```
+```php
 Array
 (
     [a] => Mumbai

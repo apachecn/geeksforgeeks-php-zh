@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickPixel* GmagickDraw::getfillcolor( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序-1：**
 
-```
+```php
 <?php 
 // Create a new GmagickDraw object 
 $draw = new GmagickDraw(); 
@@ -37,13 +37,13 @@ echo $color; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(0, 0, 65535)
 ```
 
 **程序-2：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png

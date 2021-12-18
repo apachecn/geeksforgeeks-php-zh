@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMAttr::isId( *void* )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -50,7 +50,7 @@ if($getattr->isId()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 No, this is not an id
 ```
 
@@ -58,7 +58,7 @@ No, this is not an id
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -92,7 +92,7 @@ if($getattr->isId()) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Yes, this is a id
 ```
 

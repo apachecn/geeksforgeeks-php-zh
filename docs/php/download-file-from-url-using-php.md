@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 file_get_contents($path, $include_path, $context, 
                   $start, $max_length)
 ```
@@ -17,7 +17,7 @@ file_get_contents($path, $include_path, $context,
 
 ## PHP
 
-```
+```php
 <?php
 
     // Initialize a file URL to the variable

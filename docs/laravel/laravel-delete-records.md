@@ -6,7 +6,7 @@
 
 *   **Step 1:** Create Controller UserController by executing this command.
 
-    ```
+    ```php
     php artisan make:controller UserController
     ```
 
@@ -16,7 +16,7 @@
 
     **第一种方法:**第一种是使用数据库命令直接删除。在**应用程序中编写以下代码**
 
-    ```
+    ```php
     <?php
     namespace App\Http\Controllers;
     use Illuminate\Http\Request;
@@ -38,7 +38,7 @@
 
     **第二种方法:**第二种方法是使用 Laravel 删除功能和用户模型(简单的一种)进行删除。
 
-    ```
+    ```php
     <?php
     namespace App\Http\Controllers;
     use Illuminate\Http\Request;
@@ -60,7 +60,7 @@
 
 *   **第 3 步:**实现或驱动程序代码，并在 routes/web.php
 
-    ```
+    ```php
     <?php
     Route::get('/user', 'UserController@index')->name('users.index');
     Route::delete('/user/{id}', 'UserController@destroy')
@@ -71,7 +71,7 @@
     中创建用于实现上述代码的网络路由
 *   **第 4 步:**创建一个视图文件，我们在资源/视图目录名称**user.blade.php**中显示我们的用户。编写以下 HTML 代码。
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
 

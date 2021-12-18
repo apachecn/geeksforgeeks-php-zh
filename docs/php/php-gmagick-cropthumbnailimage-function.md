@@ -5,7 +5,7 @@
 **Gmagick：：cropthhumnailimage()**函数是 PHP 中的一个内置函数，用于通过缩小图像，然后从中心裁剪指定区域来创建固定大小的缩略图。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::cropthumbnailimage( $width, $height )
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to show use of enumerations
 
@@ -32,7 +32,7 @@ var_dump($c);
 
 **输出:**
 
-```
+```php
 string(13) "geeksforgeeks"
 int(1)
 array(2) {
@@ -48,7 +48,7 @@ array(2) {
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to show use of enumerations
 
@@ -86,7 +86,7 @@ var_dump($c);
 
 **输出:**
 
-```
+```php
 object(gfg)#1 (1) {
   ["value"]=>
   string(13) "geeksforgeeks"
@@ -111,7 +111,7 @@ object(gfg)#3 (1) {
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to show use of enumerations
 
@@ -167,7 +167,7 @@ var_dump($d);
 
 **输出:**
 
-```
+```php
 IllegalArgumentExceptionobject(gfg)#1 (1) {
   ["value"]=>
   string(13) "geeksforgeeks"

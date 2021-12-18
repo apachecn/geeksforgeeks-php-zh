@@ -8,7 +8,7 @@
 
 ## HTML
 
-```
+```php
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +50,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Check if form was submitted

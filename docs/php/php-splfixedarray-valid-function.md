@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplFixedArray::valid()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -45,7 +45,7 @@ var_dump($gfg->valid());
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 bool(false)
@@ -54,7 +54,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -80,7 +80,7 @@ while($gfg->valid()) {
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

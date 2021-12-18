@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imageopenpolygon( *resource* $image, *array* $points,
 *int* $num_points, *int* $color )
 ```
@@ -24,7 +24,7 @@
 
 **示例 1：**在本例中，我们将在空白图形上绘制多边形。
 
-```
+```php
 <?php
 
 // Create a blank image
@@ -58,7 +58,7 @@ imagedestroy($image);
 
 **示例 2：**在此示例中，在图像上绘制多边形。
 
-```
+```php
 <?php
 
 // Create an image instance

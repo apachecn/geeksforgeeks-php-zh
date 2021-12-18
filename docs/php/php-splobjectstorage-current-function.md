@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *object* SplObjectStorage::current()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare an SplObjectStorage
@@ -44,7 +44,7 @@ var_dump($data);
 
 **输出：**
 
-```
+```php
 object(stdClass)#2 (0) {
 }
 string(13) "GeeksforGeeks"
@@ -53,7 +53,7 @@ string(13) "GeeksforGeeks"
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an SplObjectStorage
@@ -90,7 +90,7 @@ while($str->valid()) {
 
 **输出：**
 
-```
+```php
 bool(false)
 string(13) "GeeksforGeeks"
 bool(false)

@@ -11,7 +11,7 @@ PHP 中数组基本有三种类型:
 
 **顺序数组:**那些以有序的顺序方式(从 0 开始，以 n-1 结束)具有数值索引的数组称为顺序数组或索引数组。在 PHP 中，默认情况下是数组索引数组。
 
-```
+```php
 <?php
 // Example of sequential array
 
@@ -30,7 +30,7 @@ echo $arr[2] . "\n";
 
 **Output:**
 
-```
+```php
 January
 February
 March
@@ -39,7 +39,7 @@ March
 
 **关联数组:**具有字符串类型键而不是索引的数组或存在于('键'，'值')对中的数组称为关联数组。
 
-```
+```php
 <?php
 // Example of associative array
 
@@ -56,7 +56,7 @@ echo $arr1["Month3"] . "\n";
 
 **Output:**
 
-```
+```php
 January
 February
 March

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Gmagick::getcopyright( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // Create a Gmagick object 
@@ -37,7 +37,7 @@ echo $string; 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Copyright (C) 2002-2018 GraphicsMagick Group. 
 Additional copyrights and licenses apply to this software. 
 See http://www.GraphicsMagick.org/www/Copyright.html for details.

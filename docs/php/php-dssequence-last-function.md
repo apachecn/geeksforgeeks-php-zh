@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* abstract public Ds\Sequence::last( void ) 
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -40,7 +40,7 @@ var_dump($seq->last());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

@@ -6,7 +6,7 @@ class_alias()函数是 PHP 中的一个内置函数，用于创建类的别名�
 
 **语法:**
 
-```
+```php
 *bool* class_alias( *string* $original, *string* $alias, *bool* $autoload = TRUE )
 ```
 
@@ -22,7 +22,7 @@ class_alias()函数是 PHP 中的一个内置函数，用于创建类的别名�
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Create a class
@@ -49,14 +49,14 @@ echo $Geek->Geek_name; 
 
 **输出:**
 
-```
+```php
 GeeksforGeeks
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Creating class 
@@ -88,7 +88,7 @@ echo "$obj2->data1  \n$obj2->data2  \n$obj2->data3"; 
 
 **输出:**
 
-```
+```php
 bool(false)
 Geeks  
 for  

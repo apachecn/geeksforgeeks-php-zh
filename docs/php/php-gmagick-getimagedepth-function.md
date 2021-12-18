@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimagedepth( void )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // require_once('vendor/autoload.php');
@@ -41,7 +41,7 @@ print_r($height);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 8
 ```
 
@@ -50,7 +50,7 @@ print_r($height);
 
 **程序 2：**
 
-```
+```php
 <?php 
 $string = "Computer Science portal for Geeks!"; 
 
@@ -84,7 +84,7 @@ print_r($dpth);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 8 
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 $variable_name = data;
 ```
 
@@ -14,7 +14,7 @@ $variable_name = data;
 
 **例 1:**
 
-```
+```php
 <?php
 // Demonstrate how to declare global variable
 
@@ -32,7 +32,7 @@ echo $x.$y.$z;
 
 **输出:**
 
-```
+```php
 GeeksforGeeks
 
 ```

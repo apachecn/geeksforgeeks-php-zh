@@ -9,7 +9,7 @@
 
 **语法：**
 
-```
+```php
 .__line__
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "The Line number is : ". __line__;
@@ -27,7 +27,7 @@ echo "The Line number is : ". __line__;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The Line number is : 3
 ```
 
@@ -35,7 +35,7 @@ The Line number is : 3
 
 **语法：**
 
-```
+```php
 .__file__
 ```
 
@@ -43,7 +43,7 @@ The Line number is : 3
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "The file name is : ". __file__;
@@ -53,7 +53,7 @@ echo "The file name is : ". __file__;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The file name is : /home/3d27a639c57aaed9efa5880e613bc273.php
 ```
 
@@ -61,7 +61,7 @@ The file name is : /home/3d27a639c57aaed9efa5880e613bc273.php
 
 **语法：**
 
-```
+```php
 .__dir__
 ```
 
@@ -69,7 +69,7 @@ The file name is : /home/3d27a639c57aaed9efa5880e613bc273.php
 
 ## PHP
 
-```
+```php
 <?php
 
 echo "The directory is : ". __dir__;
@@ -79,7 +79,7 @@ echo "The directory is : ". __dir__;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The directory is : /home
 ```
 
@@ -87,7 +87,7 @@ The directory is : /home
 
 **语法：**
 
-```
+```php
 .__function__
 ```
 
@@ -95,7 +95,7 @@ The directory is : /home
 
 ## PHP
 
-```
+```php
 <?php
 function Geeks(){
     echo "The function name is : ". __function__;
@@ -106,7 +106,7 @@ Geeks();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The function name is : Geeks
 ```
 
@@ -114,7 +114,7 @@ The function name is : Geeks
 
 **语法：**
 
-```
+```php
 __class__
 ```
 
@@ -122,7 +122,7 @@ __class__
 
 ## PHP
 
-```
+```php
 <?php
 class Geeks
 {
@@ -137,7 +137,7 @@ echo $obj->getClassName();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Geeks 
 ```
 
@@ -145,7 +145,7 @@ Geeks
 
 **语法：**
 
-```
+```php
 __method__
 ```
 
@@ -153,7 +153,7 @@ __method__
 
 ## PHP
 
-```
+```php
 <?php
 class Company
 {
@@ -168,7 +168,7 @@ echo  $obj->GeeksforGeeks();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Company::GeeksforGeeks 
 ```
 
@@ -176,7 +176,7 @@ Company::GeeksforGeeks
 
 **语法：**
 
-```
+```php
 __namespace__
 ```
 
@@ -184,7 +184,7 @@ __namespace__
 
 ## PHP
 
-```
+```php
 <?php
 namespace GeeksforGeeks;
 
@@ -202,7 +202,7 @@ echo  $obj->gfg();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks
 ```
 
@@ -210,7 +210,7 @@ GeeksforGeeks
 
 **语法：**
 
-```
+```php
 __trait__
 ```
 
@@ -218,7 +218,7 @@ __trait__
 
 ## PHP
 
-```
+```php
 <?php
 trait GeeksforGeeks{ 
     function gfg(){ 
@@ -235,7 +235,7 @@ trait GeeksforGeeks{ 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 GeeksforGeeks 
 ```
 
@@ -243,7 +243,7 @@ GeeksforGeeks
 
 **语法：**
 
-```
+```php
 ClassName::class
 ```
 
@@ -251,7 +251,7 @@ ClassName::class
 
 ## PHP
 
-```
+```php
 <?php
 
 namespace Computer_Sciecnec_Portal;
@@ -264,7 +264,7 @@ echo Geeks::class;//Classname::class
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Computer_Sciecnec_Portal\Geeks 
 ```
 

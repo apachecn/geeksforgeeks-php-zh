@@ -22,7 +22,7 @@
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 // 0 == 0 -> true as first type
@@ -70,7 +70,7 @@ case "a": 
 
 ******输出:****** 
 
-```
+```php
 **bool(true)
 bool(true)
 bool(true)
@@ -86,7 +86,7 @@ In first case**
 
 ## ****服务器端编程语言（Professional Hypertext Preprocessor 的缩写）****
 
-```
+```php
 **<?php
 
 // TRUE - same as (bool)1 == TRUE
@@ -107,7 +107,7 @@ var_dump(0 === FALSE);
 
 ******输出:****** 
 
-```
+```php
 **bool(true)
 bool(true)
 bool(false)

@@ -6,7 +6,7 @@ PHP 中使用 echo 命令来打印 HTML 文档的任何值。使用
 
 **语法:**
 
-```
+```php
 echo "This is GeeksforGeeks Tutorial.";
 echo variable_name;
 
@@ -16,7 +16,7 @@ echo variable_name;
 
 **示例 1:** 本示例说明如何使用 echo 关键字显示内容。
 
-```
+```php
 <?php 
 
 // Declare variable and store the string
@@ -30,7 +30,7 @@ echo $var1 . "\n" . $var2 ;
 
 **输出:**
 
-```
+```php
 GeeksforGeeks
 A computer science portal
 ```
@@ -39,7 +39,7 @@ A computer science portal
 
 **示例 2:** 此示例说明如何将字符串打印到控制台中。
 
-```
+```php
 <?php 
 
 // Use echo keyword to display result
@@ -56,7 +56,7 @@ echo '<script>console.log("Welcome to GeeksforGeeks!"); </script>';
 
 **示例 3:** 这个示例说明了如何将 PHP 变量值打印到控制台。
 
-```
+```php
 <?php 
 
 // Declare variable and store the string

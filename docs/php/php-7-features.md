@@ -8,7 +8,7 @@ PHP7 中增加了许多特性。PHP7 发布后，网站性能提升了 25-70%。
 
 **示例:**
 
-```
+```php
 <?php 
 ini_set('display_errors', '1');
 
@@ -24,14 +24,14 @@ test(new User);
 
 **输出:**
 
-```
+```php
 object(User)#1 (0) {
 }
 ```
 
 现在让我们看看如何为 Php7 中可用的标量数据类型进行类型提示
 
-```
+```php
 <?php 
 ini_set('display_errors','1');
 
@@ -47,14 +47,14 @@ echo add(3, '34');
 
 **输出:**
 
-```
+```php
 37
 ```
 
 我们在第二个参数字符串‘34’中传递一个字符串，但是我们在这里得到的输出是 34 和 3 的相加，即 37，因为这里严格模式被禁用。现在，如果您想要限制这一点，您需要在文件的顶部给出一个声明。
 **例:**
 
-```
+```php
 <?php 
 declare(strict_types = 1);
 ini_set('display_errors','1');
@@ -71,7 +71,7 @@ echo add(3, '34');
 
 **输出:**
 
-```
+```php
 Fatal error: Uncaught TypeError: Argument 2 passed to add() must be of the type integer,
 string given, called in /home/cg/root/5012177/main.php on line 11 and defined 
 in /home/cg/root/5012177/main.php:7
@@ -92,7 +92,7 @@ Stack trace:
 现在让我们看看布尔型的例子。下面是布尔数据类型的代码。
 **例:**
 
-```
+```php
 <?php 
 declare(strict_types = 1);
 ini_set('display_errors','1');
@@ -109,14 +109,14 @@ isBoolean(true);
 
 **输出:**
 
-```
+```php
 bool(true)
 ```
 
 **返回类型声明:**在 C 或 C++中，定义将从函数返回的值的数据类型。现在我们将看到如何在 Php7 中做到这一点。
 T3】例:
 
-```
+```php
 <?php 
 
 declare(strict_types = 1);
@@ -132,7 +132,7 @@ var_dump(test());
 
 **输出:**
 
-```
+```php
 array(0) {
 }
 ```
@@ -141,7 +141,7 @@ array(0) {
 
 **空合并运算符:**空合并运算符是？?"。这个运算符基本上取代了三元运算符。之前我们使用了如下的三元运算符…
 
-```
+```php
 <?php 
 declare(strict_types = 1);
 ini_set('display_errors','1');
@@ -153,14 +153,14 @@ var_dump($name);
 
 **输出:**
 
-```
+```php
 string(9) "Not Found"
 ```
 
 现在使用？?'我们可以缩短代码。
 **例:**
 
-```
+```php
 <?php 
 declare(strict_types = 1);
 ini_set('display_errors','1');
@@ -172,14 +172,14 @@ var_dump($name);
 
 **输出:**
 
-```
+```php
 string(9) "Not Found"
 ```
 
 **摸索导入和命名空间:**之前我们要定义多个命名空间和类，使用或者导入一个类从一个命名空间到另一个命名空间的时候使用了‘use’关键字，然后我们要给命名空间加上需要导入的类名。
 T3】例:
 
-```
+```php
 <?php 
 
 namespace Course {
@@ -211,7 +211,7 @@ namespace App {
 
 **输出:**
 
-```
+```php
 object(Course\BTech)#1 (0) {
 }
 object(Course\MTech)#1 (0) {
@@ -221,7 +221,7 @@ object(Course\MTech)#1 (0) {
 在上面的示例中，导入了两个类，但是如果需要从一个命名空间到另一个命名空间使用多个类，该怎么办。它必须编写多行“use”语句来定义每一个类，这会使代码变得冗长。所以在 PHP7 中针对这个问题引入了分组导入。让我们看看上面的例子如何在分组导入和嵌套命名空间的帮助下工作。
 **例:**
 
-```
+```php
 <?php 
 
 namespace Course {
@@ -257,7 +257,7 @@ namespace App {
 
 **输出:**
 
-```
+```php
 object(Course\BTech)#1 (0) {
 }
 object(Course\MTech)#1 (0) {
@@ -272,7 +272,7 @@ object(Course\Branch\CSE)#1 (0) {
 
 **示例:**
 
-```
+```php
 <?php 
 
 $arr = ['welcome' ,'to' , 'geeksforgeeks'];
@@ -288,7 +288,7 @@ var_dump($arr);
 
 **输出:**
 
-```
+```php
 array(3) {
   [0]=>
   string(2) "to"
@@ -305,7 +305,7 @@ array(3) {
 
 **示例:**
 
-```
+```php
 <?php 
 class test {
   function hiGeeks() {
@@ -320,14 +320,14 @@ $sayGeeks->hiGeeks();
 
 **输出:**
 
-```
+```php
 geeksforgeeks
 ```
 
 现在让我们看看如何创建一个匿名类。
 **例:**
 
-```
+```php
 <?php 
 $anonymous = new class {
   private $readme  = "Welcome to geeksforgeeks";
@@ -341,14 +341,14 @@ $anonymous -> printOut();
 
 **输出:**
 
-```
+```php
 Welcome to geeksforgeeks
 ```
 
 这里我们可以为这个类创建一个对象，但是我们可以扩展另一个类。
 **例:**
 
-```
+```php
 <?php 
 class test {
     function hiGeeks() {
@@ -373,14 +373,14 @@ $anonymous -> hiGeeks();
 
 **输出:**
 
-```
+```php
 geeksforgeeks Welcome to geeksforgeeksgeeksforgeeks
 ```
 
 **闭包::call()方法:** PHP7 引入了一个新的方法调用()，这是一种在将对象范围绑定到闭包的同时调用闭包的简写方式。在 JavaScript 中，大多数时候我们使用闭包，也就是匿名函数，在 PHP 5 中，我们也使用闭包，但是在 PHP7 中，我们以不同的方式使用它。
 T3】例:
 
-```
+```php
 <?php 
 
 class User {
@@ -410,7 +410,7 @@ echo $getUserEmail->call($user);
 
 **输出:**
 
-```
+```php
 abc email address is abc@gmail.com  abc email address is abc@gmail.com
 ```
 
@@ -419,7 +419,7 @@ abc email address is abc@gmail.com  abc email address is abc@gmail.com
 **生成器:**用 Php 编程变得更加强大，因为引入了一些新的特性，比如生成器的“返回”和其中的收益。我们将在 PHP7 中看到它的层次是如何工作的。
 T3】例:
 
-```
+```php
 <?php 
 
 function values() {
@@ -441,7 +441,7 @@ echo '<br>'. $control->getReturn();
 
 **输出:**
 
-```
+```php
 
 200
 300
@@ -451,7 +451,7 @@ echo '<br>'. $control->getReturn();
 在上面的例子中，为了得到收益值，我们使用 foreach 循环，为了得到返回值，我们使用 getReturn()。这里我们需要注意秩序，以获得收益和回报的价值。如果我们改变订单，我们会得到一个错误。
 **例:**
 
-```
+```php
 <?php 
 
 function values() {
@@ -473,7 +473,7 @@ foreach ($control as $value) {
 
 **输出:**
 
-```
+```php
 PHP Fatal error:  Uncaught Exception: Cannot get return value of a generator that
 hasn't returned in /home/cg/root/6474693/main.php:14
 Stack trace:
@@ -487,7 +487,7 @@ Stack trace:
 
 **示例:**
 
-```
+```php
 <?php 
 
 function values() {
@@ -529,7 +529,7 @@ echo '<br>'. $control->getReturn();
 
 **输出:**
 
-```
+```php
 
 This is from Gen2
 This is from Gen200
@@ -547,7 +547,7 @@ This is from Gen300
 
 在 PHP7 中，我们可以用一种优雅的方式处理错误，无论何时发生异常，我们都可以抛出异常。Php7 之前的致命错误不会调用错误处理程序并停止脚本，也不能正确关闭资源。让我们看看可投掷界面。
 
-```
+```php
 interface Throwable
 {
     public function getMessage(): string;
@@ -564,7 +564,7 @@ interface Throwable
 
 下面是如何在 try/catch 块中使用 Throwable 的语法。
 
-```
+```php
 try {
   // Code
 }catch(Throwable $e) {
@@ -577,7 +577,7 @@ try {
 
     **示例:**
 
-    ```
+    ```php
     <?php 
 
     class User {
@@ -614,7 +614,7 @@ try {
 
     **输出:**
 
-    ```
+    ```php
     User Construct...
     Error on Line: 16 in /home/cg/root/6474693/main.php
     Call to a member function hello() on null
@@ -629,7 +629,7 @@ try {
 
     **示例:**
 
-    ```
+    ```php
     <?php 
 
     class User {
@@ -663,7 +663,7 @@ try {
 
     **输出:**
 
-    ```
+    ```php
 
     User Construct...
     TypeError on line 15:Argument 1 passed to sum() must be
@@ -678,7 +678,7 @@ try {
 
     **示例:**
 
-    ```
+    ```php
     <?php 
 
     class User {    
@@ -713,7 +713,7 @@ try {
 
     **输出:**
 
-    ```
+    ```php
 
     User Construct...
     Error on line 1:Call to undefined function var_dup()
@@ -724,7 +724,7 @@ try {
 **整数除法函数:** PHP7 引入了 intdiv()函数，该函数取两个参数，一个是被除数，一个是除数。结果将是除法结果为 int。
 T3】例:
 
-```
+```php
 <?php
    $value = intdiv(13,4);
    var_dump($value);
@@ -734,7 +734,7 @@ T3】例:
 
 **输出:**
 
-```
+```php
 int(3)
 3
 ```

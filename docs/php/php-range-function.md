@@ -6,7 +6,7 @@ Range()函数是 PHP 中的一个内置函数，用于在给定范围(从低到�
 
 **语法：**
 
-```
+```php
 *array* range(low, high, step)
 ```
 
@@ -20,7 +20,7 @@ Range()函数是 PHP 中的一个内置函数，用于在给定范围(从低到�
 
 例如：
 
-```
+```php
 Input : range(0, 6)
 Output : 0, 1, 2, 3, 4, 5, 6
 Explanation: Here range() function print 0 to 
@@ -41,7 +41,7 @@ elements starting from 0 to 100 incremented by 10.
 以下程序说明了 PHP 中的 range()函数：
 **程序 1**：
 
-```
+```php
 <?php
 
 // creating array with elements from 0 to 6
@@ -59,13 +59,13 @@ foreach ($arr as $a) {
 
 产出：
 
-```
+```php
 0 1 2 3 4 5 6
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // creating array with elements from 0 to 100
@@ -84,13 +84,13 @@ foreach ($arr as $a) {
 
 产出：
 
-```
+```php
 0 20 40 60 80 100
 ```
 
 **程序 3**：
 
-```
+```php
 <?php
 
 // creating array with elements from a to j
@@ -108,13 +108,13 @@ foreach ($arr as $a) {
 
 产出：
 
-```
+```php
 a b c d e f g h i j
 ```
 
 **程序 4**：
 
-```
+```php
 <?php
 
 // creating array with elements from p to a
@@ -132,7 +132,7 @@ foreach ($arr as $a) {
 
 产出：
 
-```
+```php
 p o n m l k j i h g f e d c b a
 ```
 

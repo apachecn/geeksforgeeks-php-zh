@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagefilledarc ( $image, $cx, $cy, $width, $height, $start, 
 $end, $color, $style )
 ```
@@ -33,7 +33,7 @@ $end, $color, $style )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 define("WIDTH", 300);
@@ -64,7 +64,7 @@ imagepng($img);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create image

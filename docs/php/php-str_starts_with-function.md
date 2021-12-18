@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 str_starts_with($string, $substring) 
 ```
 
@@ -28,7 +28,7 @@ str_starts_with($string, $substring)
 
 ## **PHP**
 
-```
+```php
 <?php
 
     $name = 'Saurabh Singh';
@@ -43,7 +43,7 @@ str_starts_with($string, $substring)
 
 ****输出：****
 
-```
+```php
 The string "Saurabh Singh" is starting with S
 ```
 
@@ -51,7 +51,7 @@ The string "Saurabh Singh" is starting with S
 
 ## **PHP**
 
-```
+```php
 <?php
 
     $sentance = 'The Big Brown Fox';
@@ -71,7 +71,7 @@ The string "Saurabh Singh" is starting with S
 
 ****输出：****
 
-```
+```php
 The string "The Big Brown Fox" begins with "The" 
 ```
 

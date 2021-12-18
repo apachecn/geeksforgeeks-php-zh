@@ -6,7 +6,7 @@ GmagickDraw：：setstrokeopacity()函数是 PHP 中的一个内置函数，用�
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::setstrokeopacity( $stroke_opacity ) : GmagickDraw
 ```
 
@@ -17,7 +17,7 @@ GmagickDraw：：setstrokeopacity()函数是 PHP 中的一个内置函数，用�
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -67,7 +67,7 @@ echo $image->getImageBlob();
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

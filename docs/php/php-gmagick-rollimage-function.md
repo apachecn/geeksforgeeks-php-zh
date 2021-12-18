@@ -5,7 +5,7 @@
 **Gmagick：：Rollimage()**函数是 PHP 中的一个内置函数，用于滚动图像。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::rollimage( $x, $y )
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

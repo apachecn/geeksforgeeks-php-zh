@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionClass* ReflectionClass::getParentClass ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionClass：：getParentClass()**函数
 
-```
+```php
 <?php
 
 // Defining a class named as College
@@ -45,7 +45,7 @@ var_dump($ReflectionClass->getParentClass());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(ReflectionClass)#2 (1) {
   ["name"]=>
   string(7) "College"
@@ -55,7 +55,7 @@ object(ReflectionClass)#2 (1) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a class named as College
@@ -75,7 +75,7 @@ var_dump($ReflectionClass->getParentClass());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 
 ```

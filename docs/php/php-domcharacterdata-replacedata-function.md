@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DOMCharacterData::replaceData( *int* $offset, *int* $count, *string* $data)
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1(从头替换数据)：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -46,7 +46,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <div><![CDATA[My Replaced DOM Characters]]></div>
 ```
@@ -56,7 +56,7 @@ echo $dom->saveXML();
 
 **程序 2(替换中间的数据)：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -78,7 +78,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <div><![CDATA[GeeksForGeeks]]></div>
 ```

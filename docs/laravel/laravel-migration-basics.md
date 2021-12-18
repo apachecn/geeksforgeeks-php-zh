@@ -6,7 +6,7 @@
 
 **创建迁移:**可以使用如下所示的 artisan 命令创建:
 
-```
+```php
 php artisan make:migration create_articles_table
 ```
 
@@ -18,7 +18,7 @@ php artisan make:migration create_articles_table
 
 该文件将使用一些预定义的类和函数创建，如下面的代码所示:
 
-```
+```php
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -44,13 +44,13 @@ class CreateArticlesTable extends Migration
 
 如果您想要指定的表名不同于您指定的文件名，那么您可以使用如下命令选择**–创建**:
 
-```
+```php
 php artisan make:migration create_articles_table --create=gfg
 ```
 
 有了这个命令， **create()** 方法中包含的表名将是 **gfg** 而不是**文章**，这是在文件名中指定的。
 
-```
+```php
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -81,7 +81,7 @@ class CreateArticlesTable extends Migration
 
 **运行迁移:**在运行迁移之前，我们首先要创建一个 **MySQL 数据库**并**将其连接**。完成后，要运行迁移，我们可以使用 Artisan 命令，如下所示:
 
-```
+```php
 php artisan migrate
 ```
 
@@ -92,7 +92,7 @@ php artisan migrate
 
 要回滚上一次完成的迁移，我们可以使用以下 Artisan 命令:
 
-```
+```php
 php artisan migrate:rollback
 ```
 

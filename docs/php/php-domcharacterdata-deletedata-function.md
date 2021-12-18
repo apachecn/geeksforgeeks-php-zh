@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* DOMCharacterData::deleteData( *int* $offset, *int* $count )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -41,7 +41,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <div><![CDATA[]]></div>
 ```
@@ -51,7 +51,7 @@ echo $dom->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -74,7 +74,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <div><![CDATA[New data]]></div>
 ```

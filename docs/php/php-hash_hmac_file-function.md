@@ -6,7 +6,7 @@ Hash_hmac_file()函数是 PHP 中的一个内置函数，用于使用给定文�
 
 **语法：**
 
-```
+```php
 *string* hash_hmac_file( $algo, $file, $key, $raw_opt )
 ```
 
@@ -27,7 +27,7 @@ Hash_hmac_file()函数是 PHP 中的一个内置函数，用于使用给定文�
 以下程序说明 PHP 中的 HASH_HMAC_FILE()函数：
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -44,14 +44,14 @@ echo hash_hmac_file('sha1', 'gfg.txt',
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 a5365a345a41ac0780bf63e4d33576560b86163c
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -73,7 +73,7 @@ echo hash_hmac_file('md5', 'gfg.txt', 'password', false);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 a73af6923445a30fbacd646622b254069f90c2502e63b1025918aa93f2ddca9d
 a7b2b24ac2334070c42a852fb5ef0c92 
 

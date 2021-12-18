@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::map( $callback ) : Ds\Deque
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a Deque
@@ -42,7 +42,7 @@ print_r($deck->map(function($element) {
 
 **输出：**
 
-```
+```php
 Elements of deque
 Ds\Deque Object
 (
@@ -67,7 +67,7 @@ Ds\Deque Object
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a Deque
@@ -91,7 +91,7 @@ print_r($deck->map(function($element) {
 
 **输出：**
 
-```
+```php
 Elements of deque
 Ds\Deque Object
 (

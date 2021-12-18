@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```php
 Input: 2020-04-23
 Output: Thursday
 
@@ -25,7 +25,7 @@ Output: Sunday
 *   一旦我们得到日期，我们将使用 date()方法。
     **语法:**
 
-    ```
+    ```php
     date( $format, $timestamp )
     ```
 
@@ -36,7 +36,7 @@ Output: Sunday
 
 **程序:**
 
-```
+```php
 <?php
 
 // Given a date in string format 
@@ -57,7 +57,7 @@ echo $day;
 
 **Output:**
 
-```
+```php
 Thursday
 
 ```

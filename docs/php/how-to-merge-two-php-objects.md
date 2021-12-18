@@ -10,7 +10,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to merge two objects
 
@@ -38,7 +38,7 @@ print_r($obj_merged);
 
 **Output:** 
 
-```
+```php
 stdClass Object
 (
     [a] => 1
@@ -54,7 +54,7 @@ stdClass Object
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to merge two objects
 
@@ -92,7 +92,7 @@ print_r($obj_merged);
 
 **Output:** 
 
-```
+```php
 Geeks Object
 (
     [a] => 1
@@ -108,7 +108,7 @@ Geeks Object
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to merge two objects
 
@@ -154,7 +154,7 @@ print_r($obj_merged);
 
 **Output:** 
 
-```
+```php
 Geeks Object
 (
     [a] => 1

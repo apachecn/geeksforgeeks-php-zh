@@ -14,7 +14,7 @@
 
 ****语法:****
 
-```
+```php
 file_exists( $path )
 ```
 
@@ -26,7 +26,7 @@ file_exists( $path )
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?PHP
 
 // Checking whether file exists or not
@@ -44,7 +44,7 @@ else {
 
 ****Output**
 
-```
+```php
 The file path does't exists in GeeksforGeeks directory
 ```** 
 
@@ -52,7 +52,7 @@ The file path does't exists in GeeksforGeeks directory
 
 ****语法:****
 
-```
+```php
 is_dir( $file )
 ```
 
@@ -64,7 +64,7 @@ is_dir( $file )
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 
 $gfg_directory = "https://www.geeksforgeeks.org";
@@ -80,7 +80,7 @@ else
 
 ****Output**
 
-```
+```php
 Given https://www.geeksforgeeks.org doesn't exists in GeeksforGeeks Portal
 ```** 
 
@@ -88,7 +88,7 @@ Given https://www.geeksforgeeks.org doesn't exists in GeeksforGeeks Portal
 
 ****语法:****
 
-```
+```php
 mkdir(path, mode, recursive, context)
 ```
 
@@ -110,7 +110,7 @@ mkdir(path, mode, recursive, context)
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?PHP
 
     // Making a directory with the provision
@@ -123,7 +123,7 @@ mkdir(path, mode, recursive, context)
 
     **输出:**
 
-    ```
+    ```php
     1
     ```
 
@@ -131,7 +131,7 @@ mkdir(path, mode, recursive, context)
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
 
     $file_path = '/user01/work/gfg.txt';
@@ -150,6 +150,6 @@ mkdir(path, mode, recursive, context)
 
     **输出:**
 
-    ```
+    ```php
     1
     ```**

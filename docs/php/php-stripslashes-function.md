@@ -5,7 +5,7 @@
 Stripslash()函数是 PHP 中的内置函数。 此函数用于删除字符串中的反斜杠。
 **语法：**
 
-```
+```php
 stripslashes(string)
 ```
 
@@ -17,7 +17,7 @@ stripslashes(string)
 
 例如：
 
-```
+```php
 Input : "Geeks for\ Geeks"
 Output : Geeks for Geeks
 
@@ -30,7 +30,7 @@ Output : A Computer Science Portal
 
 **程序 1：**
 
-```
+```php
 <?php
     //code
     $str = "Geeks for\ Geeks";
@@ -40,13 +40,13 @@ Output : A Computer Science Portal
 
 产出：
 
-```
+```php
 Geeks for Geeks
 ```
 
 **程序 2：**在此程序中，我们将看到 stripslash()函数的数组实现。 Stripslash()不是递归的。 为了将此函数应用于数组，需要使用递归函数。
 
-```
+```php
 <?php
 function stripslashes_arr($value)
 {
@@ -66,7 +66,7 @@ print_r($array);
 
 产出：
 
-```
+```php
 Array
 (
     [0] => Geeks 

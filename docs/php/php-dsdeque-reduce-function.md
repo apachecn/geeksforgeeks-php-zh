@@ -6,7 +6,7 @@ Ds\Deque：：Reduce()函数是 PHP 中的一个内置函数，用于使用回�
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::reduce( $callback, $initial ) : mixed
 ```
 
@@ -21,7 +21,7 @@ Ds\Deque：：Reduce()函数是 PHP 中的一个内置函数，用于使用回�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -47,7 +47,7 @@ var_dump($deck->reduce($func, 5));
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (
@@ -65,7 +65,7 @@ Deque after reduced into single element: int(215)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -91,7 +91,7 @@ var_dump($deck->reduce($func, 10));
 
 **输出：**
 
-```
+```php
 Elements of Deque
 Ds\Deque Object
 (

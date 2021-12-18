@@ -5,7 +5,7 @@
 Imagick：：pingImageFile()函数是 PHP 中的一个内置函数，用于以轻量级方式返回图像属性。 此函数用于查找有关图像的元数据，而无需将整个图像读取到内存。
 **语法：**和
 
-```
+```php
 *bool* Imagick::pingImageFile( $filehandle, $fileName )
 ```
 
@@ -21,7 +21,7 @@ Imagick：：pingImageFile()函数是 PHP 中的一个内置函数，用于以�
 
 ## PHP
 
-```
+```php
 <?php
 
 // Use fopen() function to open file
@@ -47,7 +47,7 @@ echo "The Width of the image is: " . $im->getImageWidth() . "pixel";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 The Height of the image is: 215 pixel
 The Width of the image is: 604 pixel
 ```

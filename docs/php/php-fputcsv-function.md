@@ -6,7 +6,7 @@ PHP 中的*fputcsv()*函数是一个内置函数，用于将行格式化为 CSV(
 
 **语法：**
 
-```
+```php
 *int* fputcsv ( $file, $fields, $separator, $enclosure )
 
 ```
@@ -28,7 +28,7 @@ PHP 中的*fputcsv()*函数是一个内置函数，用于将行格式化为 CSV(
 下面的程序说明了*fputcsv()*函数：
 **程序 1：**
 
-```
+```php
 <?php
 // Sample data for formatting in CSV format
 $employees = array("Raj, Singh, Developer, Mumbai",
@@ -52,7 +52,7 @@ fclose($myfile); 
 
 产出：
 
-```
+```php
 Raj, Singh, Developer, Mumbai
 Sameer, Pandey, Tester, Bangalore
 Raghav, Chauhan, Manager, Delhi
@@ -61,7 +61,7 @@ Raghav, Chauhan, Manager, Delhi
 
 **程序 2：**
 
-```
+```php
 <?php
 // Sample data for formatting in CSV format
 $random_data = array(
@@ -87,7 +87,7 @@ fclose($myfile);
 
 产出：
 
-```
+```php
 abc, efg, jhi, klm
 123, 456, 789
 11aa, 22bb, 33cc, 44dd

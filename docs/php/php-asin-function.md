@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 *float* asin($value)
 ```
 
@@ -18,7 +18,7 @@
 
 示例:
 
-```
+```php
 Input : asin(0)
 Output : 0
 
@@ -37,7 +37,7 @@ Output : NaN
 
 *   Passing 0 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (asin(0));
@@ -47,13 +47,13 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     0
     ```
 
 *   Passing 1 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (asin(1));
@@ -63,13 +63,13 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     1.5707963267949
     ```
 
 *   Passing -1 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (asin(-1));
@@ -79,13 +79,13 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     -1.5707963267949
     ```
 
 *   Passing 2 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (asin(2));
@@ -95,7 +95,7 @@ Output : NaN
 
     输出:
 
-    ```
+    ```php
     NaN
     ```
 

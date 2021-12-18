@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* IntlChar::charName( $codepoint [, $nameChoice = 
 IntlChar::UNICODE_CHAR_NAME] )
 ```
@@ -28,7 +28,7 @@ IntlChar::UNICODE_CHAR_NAME] )
 下面的程序演示了 PHP 中的**IntlChar：：charName()**函数。
 **程序 1：**
 
-```
+```php
 <?php
 // PHP code to illustrate
 // IntlChar::charName ()function
@@ -84,7 +84,7 @@ var_dump(IntlChar::charName("\u{0000}"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(8) "ASTERISK" 
 string(8) "ASTERISK" 
 
@@ -116,7 +116,7 @@ string(0) ""
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate
@@ -136,7 +136,7 @@ foreach ($arr as $val){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(22) "LATIN CAPITAL LETTER G" 
 string(9) "FULL STOP" 
 string(11) "DIGIT EIGHT" 

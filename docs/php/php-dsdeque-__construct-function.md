@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 Ds\Deque::__construct( $values )
 ```
 
@@ -16,7 +16,7 @@ Ds\Deque::__construct( $values )
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a deque 
@@ -38,7 +38,7 @@ var_dump($deq);
 
 **Output:**
 
-```
+```php
 Elements of first deque:
 object(Ds\Deque)#1 (0) {
 }
@@ -63,7 +63,7 @@ object(Ds\Deque)#2 (6) {
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a deque 
@@ -85,7 +85,7 @@ print_r($deq);
 
 **输出：**
 
-```
+```php
 Elements of first deque:
 Ds\Deque Object
 (

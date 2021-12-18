@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateTimeImmutable* DateTimeImmutable::modify( *string* $modify )
 
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**本程序修改给定日期，增量为 5 天。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::modify()
 // function
@@ -41,14 +41,14 @@ echo $newDateTimeImmutable->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-10-07
 
 ```
 
 **程序 2：**本程序修改给定日期，增量为 2 个月。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::modify()
 // function
@@ -67,7 +67,7 @@ echo $newDateTimeImmutable->format('Y-m-d');
 
 **输出：**
 
-```
+```php
 2019-12-02
 
 ```

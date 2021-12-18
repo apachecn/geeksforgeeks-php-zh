@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 Input: str = "\n\nGeeks \n\n\n\tfor Geeks\n\t"
 Output: Geeks for Geeks
 
@@ -18,7 +18,7 @@ Output: Geeks for Geeks
 
 **示例:**
 
-```
+```php
 <?PHP
 // PHP program to remove all non-printable
 // character from string
@@ -38,7 +38,7 @@ echo($str);
 
 **Output:**
 
-```
+```php
 Geeks for Geeks
 
 ```
@@ -47,7 +47,7 @@ Geeks for Geeks
 
 **示例:**
 
-```
+```php
 
 <?PHP
 // PHP program to remove all non-printable
@@ -68,7 +68,7 @@ echo($str);
 
 **Output:**
 
-```
+```php
 Geeks for Geeks
 
 ```

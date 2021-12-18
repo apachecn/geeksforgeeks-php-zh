@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* imageftbbox( *float* $size, *array* $angle,
           *string* $fontfile, *string* $text, *array* $extrainfo )
 ```
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create bounding box with local font file
@@ -38,7 +38,7 @@ print("<pre>".print_r($bbox, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 47
@@ -54,7 +54,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an image

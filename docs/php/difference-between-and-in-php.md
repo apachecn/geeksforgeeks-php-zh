@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 $x !== $y
 ```
 
@@ -16,13 +16,13 @@ $x !== $y
 
 **语法:**
 
-```
+```php
 $x ==! $y
 ```
 
 **示例:**
 
-```
+```php
 Input: $x = true
        $y = false
 Operator: $x !== $y 
@@ -35,7 +35,7 @@ Output: true
 
 **示例 1:** 这个程序使用两个操作数并返回输出。
 
-```
+```php
 <?php
 // PHP program to demonstrate
 // !== and ==! operator
@@ -80,7 +80,7 @@ var_dump($y ==! $z);
 
 **Output:**
 
-```
+```php
 Using !== operator
 bool(true)
 bool(false)
@@ -95,7 +95,7 @@ bool(true)
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to demonstrate
 // !== and ==! operator
@@ -151,7 +151,7 @@ var_dump($y ==! $z);
 
 **Output:**
 
-```
+```php
 Using !== operator
 bool(true)
 bool(true)

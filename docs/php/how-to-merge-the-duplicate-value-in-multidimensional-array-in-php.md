@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $arr = array(
     array('Roll'=>43, 'name'=>'Geeeks', 'subject'=>'Course-011'),
@@ -77,7 +77,7 @@ print_r($myarray);
 
 **输出:**
 
-```
+```php
 Array
 (
     [0] => Array
@@ -112,7 +112,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $arr = array(
@@ -133,7 +133,7 @@ print_r($new_arr);
 
 **输出:**
 
-```
+```php
 Array
 (
     [Course-011] => Array

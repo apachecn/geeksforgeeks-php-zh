@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::blurImage( $radius, $sigma, $channel )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an Imagick object
@@ -44,7 +44,7 @@ echo $image;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

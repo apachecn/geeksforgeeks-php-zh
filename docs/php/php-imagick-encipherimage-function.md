@@ -6,7 +6,7 @@ Imagick：：encipherImage()函数是 PHP 中的内置函数，用于将普通�
 
 **语法：**
 
-```
+```php
 *bool* Imagick::encipherImage( $passphrase )
 ```
 
@@ -18,7 +18,7 @@ Imagick：：encipherImage()函数是 PHP 中的内置函数，用于将普通�
 
 **程序：**
 
-```
+```php
 <?php
 
 // Creating new Imagick object

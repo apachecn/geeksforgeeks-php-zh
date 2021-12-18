@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 openssl_digest( string $data, string $digest_algo, 
                    bool $binary = false): string|false
 ```
@@ -25,7 +25,7 @@ openssl_digest( string $data, string $digest_algo,
 
 ## PHP
 
-```
+```php
 <?php
 
 // Data for which digest is to be created
@@ -50,7 +50,7 @@ print_r($fingerPrint);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Data for which digest is to be created

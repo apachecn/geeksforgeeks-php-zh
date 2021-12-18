@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```php
 <?php
 
 // Function without argument 
@@ -31,7 +31,7 @@ $var1 = "fun";     
 
 **程序:**
 
-```
+```php
 <?php
 
 // Function without argument 
@@ -63,7 +63,7 @@ call_user_func($var1, "fun_function"); 
 
 **输出:**
 
-```
+```php
 hello geek 
 hello fun_function
 

@@ -6,7 +6,7 @@ Count_chars()是 PHP 中的一个内置函数，用于执行几个与字符串�
 
 **语法：**
 
-```
+```php
 count_chars(string,return_mode);
 
 ```
@@ -27,7 +27,7 @@ count_chars(string,return_mode);
 
 示例：
 
-```
+```php
 Input : string = "GeeksforGeeks"  ,  return_mode = 3
 Output : Gefkors
 
@@ -35,7 +35,7 @@ Output : Gefkors
 
 下面是说明 count_chars()函数工作原理的 PHP 程序：
 
-```
+```php
 <?php
     // PHP program to illustrate count_chars() 
 

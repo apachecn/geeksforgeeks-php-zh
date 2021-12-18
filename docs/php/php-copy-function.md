@@ -6,7 +6,7 @@ PHP 中的 copy()函数是一个内置函数，用于复制指定的文件。它
 
 **语法:**
 
-```
+```php
 bool copy ( $source, $dest )
 ```
 
@@ -24,7 +24,7 @@ bool copy ( $source, $dest )
 
 **示例:**
 
-```
+```php
 Input : echo copy("gfg.txt", "geeksforgeeks.txt");
 Output : true
 
@@ -39,7 +39,7 @@ Output : true
 
 **程序 1** :
 
-```
+```php
 <?php
 
 // Copying gfg.txt to geeksforgeeks.txt
@@ -50,13 +50,13 @@ echo copy("gfg.txt", "geeksforgeeks.txt");
 
 输出:
 
-```
+```php
 true
 ```
 
 **程序 2** :
 
-```
+```php
 <?php
 
 // Copying gfg.txt to geeksforgeeks.txt
@@ -75,7 +75,7 @@ else {
 
 输出:
 
-```
+```php
 File has been copied!
 ```
 

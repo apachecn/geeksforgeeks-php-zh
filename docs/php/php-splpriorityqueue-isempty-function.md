@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool SplPriorityQueue::isEmpty()
 ```
 
@@ -18,7 +18,7 @@ bool SplPriorityQueue::isEmpty()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare empty class
@@ -37,7 +37,7 @@ var_dump($obj->isEmpty());
 
 **OUTPUT**
 
-```
+```php
 bool(true)
 ```
 
@@ -45,7 +45,7 @@ bool(true)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -77,7 +77,7 @@ var_dump($obj->isEmpty());
 
 **OUTPUT**
 
-```
+```php
 bool(false)
 ```
 

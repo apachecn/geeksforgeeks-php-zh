@@ -6,7 +6,7 @@ cal_from_jd()函数是 PHP 中的一个内置函数，用于将儒略日计数�
 
 **语法:**
 
-```
+```php
 array cal_from_jd( $jd, $calendar )
 ```
 
@@ -25,7 +25,7 @@ array cal_from_jd( $jd, $calendar )
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // PHP program to implement cal_from_jd()
@@ -38,7 +38,7 @@ print_r(cal_from_jd($input, CAL_GREGORIAN));
 
 **Output:**
 
-```
+```php
 Array
 (
     [date] => 8/16/2016
@@ -56,7 +56,7 @@ Array
 
 **程序二:**
 
-```
+```php
 <?php
 
 // PHP program to implement cal_from_jd() 
@@ -69,7 +69,7 @@ print_r(cal_from_jd($today, CAL_JEWISH));
 
 **输出:**
 
-```
+```php
 Array
 (
     [date] => 11/4/5767

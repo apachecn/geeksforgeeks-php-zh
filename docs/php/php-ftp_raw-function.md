@@ -6,7 +6,7 @@ Ftp_raw()函数是 PHP 中的一个内置函数，用于向远程服务器(即 F
 
 **语法：**
 
-```
+```php
 ftp_raw( $ftp_connection, $command )
 ```
 
@@ -26,7 +26,7 @@ ftp_raw( $ftp_connection, $command )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -56,7 +56,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [0] => 331 Password required for abc ) 
 Connection closed Successfully!
 ```

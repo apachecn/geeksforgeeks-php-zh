@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickPixel::setHSL( *float* $hue, *float* $saturation, *float* $luminosity )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixel = new ImagickPixel();
@@ -40,7 +40,7 @@ print("<pre>".print_r($HSL, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [hue] => 0.40000158942082
@@ -51,7 +51,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagick object
 $imagick = new Imagick(

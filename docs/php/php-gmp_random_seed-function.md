@@ -6,7 +6,7 @@ GMP_RANDOM_SEED()是 PHP 中的一个内置函数，用于设置 RNG 种子([随
 
 **语法：**
 
-```
+```php
 void gmp_random_seed ( mixed $seed )
 
 ```
@@ -19,7 +19,7 @@ void gmp_random_seed ( mixed $seed )
 
 **注：**
 
-```
+```php
 Warning: The function generates an E-Warning and returns False if the seed is not valid.
 
 ```
@@ -28,7 +28,7 @@ Warning: The function generates an E-Warning and returns False if the seed is no
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code implementing the gmp_random_seed function
@@ -45,7 +45,7 @@ var_dump(gmp_strval(gmp_random(1)));
 
 **程序 2：**
 
-```
+```php
 <?php
 //php code implementing the gmp_random_seed() function
 
@@ -61,7 +61,7 @@ var_dump(gmp_strval(gmp_random_bits(10)));
 
 **程序 3：**
 
-```
+```php
 <?php
 //PHP code implementing gmp_random_seed() function 
 

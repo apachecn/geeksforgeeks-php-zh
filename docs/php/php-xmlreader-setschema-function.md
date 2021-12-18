@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::setSchema( *string* $filename )
 ```
 
@@ -22,7 +22,7 @@
 
 *   **data.xml** (XML file to be verified)
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <student>
         <name>Rahul</name>
@@ -32,7 +32,7 @@
 
 *   **rule.xsd** (rules to be followed by XML files)
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <xs:schema xmlns:xs=
           "http://www.w3.org/2001/XMLSchema"
@@ -52,7 +52,7 @@
 
 *   **index.php** (the PHP script to run.
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -80,7 +80,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     This document is valid!
     This document is valid!
     This document is valid!
@@ -90,7 +90,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <div>
         <phoneNo>This should not be text</phoneNo>
@@ -99,7 +99,7 @@
 
 *   **rule.xsd**
 
-    ```
+    ```php
     <?xml version="1.0"?>
     <xs:schema xmlns:xs=
           "http://www.w3.org/2001/XMLSchema"
@@ -117,7 +117,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance

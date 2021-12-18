@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplFixedArray::offsetUnset( $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -42,7 +42,7 @@ var_dump($gfg->offsetGet(2));
 
 **输出：**
 
-```
+```php
 int(10)
 NULL
 
@@ -50,7 +50,7 @@ NULL
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -83,7 +83,7 @@ while($i < 6) {
 
 **输出：**
 
-```
+```php
 int(1)
 NULL
 int(5)

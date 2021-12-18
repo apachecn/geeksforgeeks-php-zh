@@ -6,7 +6,7 @@ Ftp_login()函数是 PHP 中的一个内置函数，用于登录到已建立的 
 
 **语法：**
 
-```
+```php
 ftp_login( $ftp_connection, $ftp_username, $ftp_userpass );
 ```
 
@@ -26,7 +26,7 @@ ftp_login( $ftp_connection, $ftp_username, $ftp_userpass );
 以下程序说明了 PHP 中的 ftp_login()函数：
 **示例 1：**
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -65,7 +65,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Successfully connected to the ftp server!
 Logged in successfully!
 
@@ -73,7 +73,7 @@ Logged in successfully!
 
 **示例 2：**使用端口 21 连接到 ftp 服务器。
 
-```
+```php
 <?php
 
 // Connect to FTP server
@@ -112,7 +112,7 @@ if($ftp_connection) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Successfully connected to the ftp server!
 Logged in successfully!
 

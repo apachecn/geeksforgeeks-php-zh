@@ -6,7 +6,7 @@ SplFileObject fputcsv()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用
 
 **语法：**
 
-```
+```php
 string SplFileObject::fputcsv()
 ```
 
@@ -23,7 +23,7 @@ string SplFileObject::fputcsv()
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Array
@@ -47,7 +47,7 @@ echo "Successfully write data in gfg.csv";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Successfully write data in gfg.csv
 ```
 

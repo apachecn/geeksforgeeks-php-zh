@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 end($array)
 ```
 
@@ -18,7 +18,7 @@ end($array)
 
 请考虑以下示例。
 
-```
+```php
 Input: array('Ram', 'Shita', 'Geeta')
 Output: Geeta
 Explanation: Here, the input array contain many elements
@@ -30,7 +30,7 @@ as the end() function returns the last element of an array.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Input array
@@ -48,7 +48,7 @@ as the end() function returns the last element of an array.
 
 ## PHP
 
-```
+```php
 <?php
 
   // Input array

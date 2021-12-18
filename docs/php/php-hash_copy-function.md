@@ -6,7 +6,7 @@ Hash_copy()函数是 PHP 中的一个内置函数，用于获取散列上下文�
 
 **语法：**
 
-```
+```php
 hash_copy( $context )
 ```
 
@@ -18,7 +18,7 @@ hash_copy( $context )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initialize an incremental
@@ -42,7 +42,7 @@ echo hash_final($cp_context), "\n";
 
 **输出：**
 
-```
+```php
 da39a3ee5e6b4b0d3255bfef95601890afd80709
 adb536466977c49bebb6317891bffb77dc6e5823
 
@@ -50,7 +50,7 @@ adb536466977c49bebb6317891bffb77dc6e5823
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initialize an incremental
@@ -74,7 +74,7 @@ echo hash_final($cp_context), "\n";
 
 **输出：**
 
-```
+```php
 d41d8cd98f00b204e9800998ecf8427e
 eadc14b80cd2f247f467eb6c7f45fa9b
 

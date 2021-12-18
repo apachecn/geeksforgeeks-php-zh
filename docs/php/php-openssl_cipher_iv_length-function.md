@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* openssl_cipher_iv_length( *string* $method )
 ```
 
@@ -20,7 +20,7 @@
 
 **示例 1：**在本程序中，我们将获得 AES-128-GCM 密码算法
 
-```
+```php
 <?php
 
 // The cipher method to get iv length of
@@ -40,7 +40,7 @@ echo $ivl;
 
 示例 2：在本程序中，我们将获得 Camellia-192-CFB8 密码算法
 
-```
+```php
 <?php
 
 // The cipher method to get iv length of

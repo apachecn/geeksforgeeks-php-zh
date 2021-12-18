@@ -8,7 +8,7 @@ PHP 使用标准代码在网页浏览器中显示 pdf 文件。显示 pdf 的过
 
 **示例 1:** 本示例在浏览器上显示 pdf 文件。
 
-```
+```php
 <?php
 
 // Store the file name into variable
@@ -36,7 +36,7 @@ header('Accept-Ranges: bytes');
 **示例 2:**
 这些示例显示了一种格式，并解释了代码的每个部分
 
-```
+```php
 <?php
 
 // The location of the PDF file

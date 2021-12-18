@@ -11,7 +11,7 @@ PHP 中有两种类型的数组，索引数组和关联数组。如果是索引�
 
 **语法:**
 
-```
+```php
 array array_keys( $arr )
 ```
 
@@ -21,7 +21,7 @@ array array_keys( $arr )
 
 **程序:**使用整数索引访问关联数组的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to accessing an associative
 // array by integer index
@@ -57,7 +57,7 @@ for($x = 0; $x < $size; $x++ ) {
 
 **Output:**
 
-```
+```php
 The keys array: Array
 (
     [0] => one

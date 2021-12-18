@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagesetclip( *resource* $im, *int* $x1, *int* $y1, *int* $x2, *int* $y2 )
 ```
 
@@ -22,7 +22,7 @@
 下面给出的程序说明了 PHP
 **程序 1 中的**ImagesetClip()函数**：**
 
-```
+```php
 <?php
 // Load the png image
 $image = imagecreatefrompng(
@@ -39,7 +39,7 @@ print("<pre>".print_r($clip, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 0
@@ -51,7 +51,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 // Load the png image
 $image = imagecreatefrompng(

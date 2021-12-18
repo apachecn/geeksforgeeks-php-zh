@@ -6,7 +6,7 @@ Hash_inal()函数是 PHP 中的一个内置函数，用于完成增量散列并�
 
 **语法：**
 
-```
+```php
 hash_final( $context, $raw_output )
 ```
 
@@ -21,7 +21,7 @@ hash_final( $context, $raw_output )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program too illustrate 
@@ -38,14 +38,14 @@ print(hash_final($gfg));
 
 **输出：**
 
-```
+```php
 a26b1748ffd7e4c9923336a3c8e9a4c3
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program too illustrate 
@@ -62,7 +62,7 @@ print(hash_final($gfg, false));
 
 **输出：**
 
-```
+```php
 a26b1748ffd7e4c9923336a3c8e9a4c3
 
 ```

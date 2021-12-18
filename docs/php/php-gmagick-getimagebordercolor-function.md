@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagickpixel* Gmagick::getimagebordercolor( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,13 +37,13 @@ print("<pre>".print_r($color->getcolor(), true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(57311, 57311, 57311) // which is the default border color.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -60,7 +60,7 @@ print("<pre>".print_r($color->getcolor(), true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 rgb(35980, 32639, 23387)
 ```
 

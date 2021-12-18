@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* Ds\Map::remove( $key, $default )
 ```
 
@@ -23,7 +23,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php 
 
 // Declare new Map 
@@ -50,7 +50,7 @@ var_dump($map->remove(3)); 
 
 **输出：**
 
-```
+```php
 Map Elements
 Ds\Map Object
 (
@@ -87,7 +87,7 @@ string(5) "geeks"
 
 **示例：**
 
-```
+```php
 <?php 
 
 // Declare new Map 
@@ -114,7 +114,7 @@ var_dump($map->remove("c")); 
 
 **输出：**
 
-```
+```php
 Map Elements
 Ds\Map Object
 (

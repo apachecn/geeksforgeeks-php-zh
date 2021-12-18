@@ -10,7 +10,7 @@
 
 ## index.html
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,7 +60,7 @@
 
 ## style.css
 
-```
+```php
 .container {
   border: 1px solid rgb(73, 72, 72);
   border-radius: 10px;
@@ -102,7 +102,7 @@ button:hover {
 
 ## main.js
 
-```
+```php
 $(document).ready(() => {
   // Adding 'click' event listener to button
   $("#btn").click(() => {
@@ -139,7 +139,7 @@ $(document).ready(() => {
 
 ## action.php
 
-```
+```php
 <?php
 // Checking, if post value is 
 // set by user or not 

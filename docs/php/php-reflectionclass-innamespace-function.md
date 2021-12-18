@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::inNamespace( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a namespace and class GFG
@@ -39,14 +39,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass over the inbuilt 
@@ -63,7 +63,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

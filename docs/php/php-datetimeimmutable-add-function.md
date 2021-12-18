@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DateTimeImmutable* DateTimeImmutable::add( *DateInterval* $interval )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**此程序使用 DateTimeImmutable：：Add()函数向 DateTimeImmutable 对象添加 2 天。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::add()
 // function
@@ -40,14 +40,14 @@ echo $datetime->format('Y-m-d H:i:s');
 
 **输出：**
 
-```
+```php
 2019-10-05 10:00:00
 
 ```
 
 **程序 2：**此程序使用 DateTimeImmutable：：Add()函数将‘P2Y5M2DT0H30M40S’DateInterval 添加到 DateTimeImmutable 对象。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::add()
 // function
@@ -69,7 +69,7 @@ echo $datetime->format('Y-m-d H:i:s');
 
 **输出：**
 
-```
+```php
 2022-03-05 10:30:40
 
 ```

@@ -6,7 +6,7 @@ Easter_day()函数是 PHP 中的一个内置函数，它返回 3 月 21 日之�
 
 **语法：**
 
-```
+```php
 easter_days( $year, $method )
 ```
 
@@ -19,7 +19,7 @@ easter_days( $year, $method )
 
 例如：
 
-```
+```php
 Input :  $year = 2018
 Output : 11
 
@@ -35,7 +35,7 @@ Output : 15
 
 **程序 1：**下面的程序解释了未传递参数时 Easter_Days()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // easter_days() function 
@@ -53,7 +53,7 @@ echo easter_days($year);  
 
 **程序 2：**下面的程序解释了传递**$Year**参数
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // easter_days() function 
@@ -75,7 +75,7 @@ echo date("M-d-Y", easter_date($year));     
 
 **程序 3：**下面的程序解释了同时传递两个参数时 Easter_Days()函数的工作原理。
 
-```
+```php
 <?php
 // PHP program to demonstrate the 
 // easter_days() function 

@@ -6,7 +6,7 @@ Imagick：：coalscaleImages()函数是 PHP 中的一个内置函数，用于将
 
 **语法：**
 
-```
+```php
 *Imagick* Imagick::coalesceImages( void )
 ```
 
@@ -18,7 +18,7 @@ Imagick：：coalscaleImages()函数是 PHP 中的一个内置函数，用于将
 
 **程序：**此程序从一组图像生成动画 gif 图像。
 
-```
+```php
 <?php
 
 $images = [

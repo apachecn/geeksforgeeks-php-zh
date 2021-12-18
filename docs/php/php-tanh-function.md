@@ -10,7 +10,7 @@
 
 **语法：**
 
-```
+```php
 *float* tanh($value)
 ```
 
@@ -20,7 +20,7 @@
 
 例如：
 
-```
+```php
 Input : tanh(0.50)  
 Output : 0.46211715726001
 
@@ -39,7 +39,7 @@ Output : 0.65579420263267
 
 *   Passing 0.50 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (tanh(0.50));
@@ -49,13 +49,13 @@ Output : 0.65579420263267
 
     产出：
 
-    ```
+    ```php
     0.46211715726001
     ```
 
 *   Passing -0.50 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (tanh(-0.50));
@@ -65,13 +65,13 @@ Output : 0.65579420263267
 
     产出：
 
-    ```
+    ```php
     -0.46211715726001
     ```
 
 *   Passing 5 as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (tanh(5));
@@ -81,13 +81,13 @@ Output : 0.65579420263267
 
     产出：
 
-    ```
+    ```php
     0.9999092042626
     ```
 
 *   When (M_PI_4) is passed as a parameter, M_PI is a constant in PHP whose value is 0.78539816339744830962 :
 
-    ```
+    ```php
     <?php
 
     echo (tanh(M_PI_4));
@@ -97,7 +97,7 @@ Output : 0.65579420263267
 
     产出：
 
-    ```
+    ```php
     0.65579420263267
     ```
 

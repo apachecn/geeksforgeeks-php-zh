@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 resource imagecreatefromjpeg( string $filename )
 ```
 
@@ -19,7 +19,7 @@ resource imagecreatefromjpeg( string $filename )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load an image from jpeg URL
@@ -38,7 +38,7 @@ imagedestroy($im);
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Load an image from jpeg URL

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickPixel::getHSL( *void* )
 ```
 
@@ -19,7 +19,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickPixel：：getHSL()函数**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagickPixel = new ImagickPixel('#d4a62a');
@@ -32,7 +32,7 @@ print("<pre>".print_r($hsl, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [hue] => 0.12156862745098
@@ -43,7 +43,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new imagickPixel object
 $imagick = new Imagick(
@@ -64,7 +64,7 @@ print("<pre>".print_r($hsl, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [hue] => 0.54583333333333

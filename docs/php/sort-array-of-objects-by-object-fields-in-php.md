@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to show sorting of 
@@ -81,7 +81,7 @@ print_r($school_data);
 
 **Output:**
 
-```
+```php
 Original object array:
 Array
 (

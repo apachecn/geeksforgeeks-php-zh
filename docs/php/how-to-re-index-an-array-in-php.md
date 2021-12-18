@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -50,7 +50,7 @@ foreach( $arr as $key => $value) { 
 
 **Output:**
 
-```
+```php
 Array before re-indexing
 Index: 0 Value: Tony
 Index: 1 Value: Stark
@@ -67,7 +67,7 @@ Index: 6 Value: Man
 
 **示例 2:** 在数组的开头添加一些数据，然后从索引中对数组进行切片。
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -111,7 +111,7 @@ foreach( $arr as $key => $value) { 
 
 **Output:**
 
-```
+```php
 Array before re-indexing
 Index: 0 Value: Tony
 Index: 1 Value: Stark
@@ -133,7 +133,7 @@ Index: 6 Value: Man
 *   **[order()](https://www.geeksforgeeks.org/php-ord-function/)函数:**order()函数是 PHP 中的一个内置函数，返回字符串第一个字符的 ASCII 值。
 *   **[chr()](https://www.geeksforgeeks.org/php-chr-fucntion/) 函数:**chr()函数是 PHP 中的内置函数，用于将 ASCII 值转换为字符。
 
-```
+```php
 <?php
 
 // Declare an associative array
@@ -172,7 +172,7 @@ foreach( $arr as $key => $value) { 
 
 **Output:**
 
-```
+```php
 Array before re-indexing
 Index: a Value: India
 Index: b Value: America

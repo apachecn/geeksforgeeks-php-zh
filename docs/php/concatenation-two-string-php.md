@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : string1:  Hello
         string2 : World! 
 Output : HelloWorld!
@@ -19,7 +19,7 @@ Output : geeksforgeeks
 
 **代码#1:**
 
-```
+```php
 <?php
 
 // First String
@@ -38,14 +38,14 @@ echo " $c \n";
 
 输出:
 
-```
+```php
  HelloWorld!
 
 ```
 
 **代码#2 :**
 
-```
+```php
 <?php
 
 // First String
@@ -64,13 +64,13 @@ echo " $c \n";
 
 输出:
 
-```
+```php
 John Carter!
 ```
 
 **代码#3 :**
 
-```
+```php
 <?php
 
 // First String
@@ -86,7 +86,7 @@ echo " $a \n";
 
 输出:
 
-```
+```php
  HelloWorld!
 
 ```

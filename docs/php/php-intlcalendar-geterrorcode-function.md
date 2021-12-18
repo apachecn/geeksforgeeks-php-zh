@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *int* IntlCalendar::getErrorCode( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *int* intlcal_get_error_code( *IntlCalendar* $calendar )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -58,7 +58,7 @@ var_dump(
 
 **输出：**
 
-```
+```php
 PHP Warning:  IntlCalendar::fieldDifference(): intlcal_field_difference: Call to ICU method has
 failed in /home/d0608573e6cb44f285316ff59fb833b0.php on line 19
 int(0)

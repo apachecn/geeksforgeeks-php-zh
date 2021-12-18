@@ -5,7 +5,7 @@
 **IntlChar：：istitle**函数是 PHP 中的一个内置函数，用于检查输入的字符代码点是否为大小写字母。 在 True 案例中，具有一般类别的字符是“lt”(大写字母)。
 **语法：**和
 
-```
+```php
 *bool* IntlChar::istitle( $codepoint )
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 //use of IntlChar::istitle()
@@ -49,7 +49,7 @@ var_dump(IntlChar::istitle("3"));
 
 **Output:** 
 
-```
+```php
 NULL
 bool(false)
 bool(false)
@@ -63,7 +63,7 @@ bool(false)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::istitle()
@@ -87,7 +87,7 @@ foreach ($arr as $val) {
 
 **Output:** 
 
-```
+```php
 bool(false)
 bool(false)
 bool(false)

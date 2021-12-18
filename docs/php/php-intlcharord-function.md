@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::ord( $character )
 ```
 
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate
 // the use of IntlChar::ord()
@@ -52,7 +52,7 @@ var_dump(IntlChar::ord(" "));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 int(52)
 int(66)
 int(98)
@@ -67,7 +67,7 @@ int(32)
 
 ## PHP
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::ord()
@@ -97,7 +97,7 @@ foreach ($arr as $val) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 int(88)
 int(120)
 int(42)

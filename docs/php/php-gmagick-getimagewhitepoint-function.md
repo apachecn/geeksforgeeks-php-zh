@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Gmagick::getimagewhitepoint( *void* )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new  Gmagick object
@@ -37,7 +37,7 @@ print("<pre>".print_r($res, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [x] => 0.31270000338554
@@ -47,7 +47,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new  Gmagick object
@@ -64,7 +64,7 @@ print("<pre>".print_r($res, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [x] => 5

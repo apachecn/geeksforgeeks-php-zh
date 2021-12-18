@@ -9,7 +9,7 @@ $_SERVER 是一个 PHP [Superglobals](https://www.geeksforgeeks.org/php-superglo
 
 **示例:**此示例获取访问者的 IP。
 
-```
+```php
 <?php
 // PHP code to extract IP 
 
@@ -39,7 +39,7 @@ echo $vis_ip;
 
 **第二步:使用 API 获取访客 IP 的详细信息:**在这里，我们将使用[地理博客](https://www.geoplugin.com/) API 获取访客的详细信息。api 将提供一个 json 对象，它可以转换成一个 PHP 变量。
 
-```
+```php
 <?php
 // PHP code to obtain country, city, 
 // continent, etc using IP Address
@@ -65,7 +65,7 @@ echo 'Timezone: ' . $ipdat->geoplugin_timezone;
 
 **输出:**
 
-```
+```php
 Country Name:    United States
 City Name:       Boardman
 Continent Name:  North America

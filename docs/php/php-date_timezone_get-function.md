@@ -8,13 +8,13 @@ DATE_TIMEZONE_GET()函数是 PHP 中的一个内置函数，用于返回相对�
 
 *   **process style:**
 
-    ```
+    ```php
     date_timezone_get( $object )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     DateTime::getTimezone( void )
     DateTimeImmutable::getTimezone( void )
     DateTimeInterface::getTimezone( void )
@@ -28,7 +28,7 @@ DATE_TIMEZONE_GET()函数是 PHP 中的一个内置函数，用于返回相对�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -44,14 +44,14 @@ echo timezone_name_get($time_zone);
 
 **输出：**
 
-```
+```php
 Asia/Kolkata
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create DateTime object using DateTimeZone
@@ -67,7 +67,7 @@ echo $time_zone->getName();
 
 **输出：**
 
-```
+```php
 Asia/Kolkata
 
 ```

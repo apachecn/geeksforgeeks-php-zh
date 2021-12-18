@@ -16,7 +16,7 @@ IP 地址代表网际协议地址。 IP 地址用于为联网设备提供标识�
 
 ## PHP
 
-```
+```php
 <?php
  $ipaddress = getenv("REMOTE_ADDR") ;
  Echo "Your IP Address is " . $ipaddress;
@@ -25,7 +25,7 @@ IP 地址代表网际协议地址。 IP 地址用于为联网设备提供标识�
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Your IP is 127.1.1.0
 ```
 
@@ -35,7 +35,7 @@ Your IP is 127.1.1.0
 
 ## PHP
 
-```
+```php
 <?php
  $ipaddress = $_SERVER['REMOTE_ADDR']
  Echo "Your IP Address is " . $ipaddress;
@@ -44,6 +44,6 @@ Your IP is 127.1.1.0
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 Your IP is 127.1.1.0
 ```

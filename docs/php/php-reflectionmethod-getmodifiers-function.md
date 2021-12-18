@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* ReflectionMethod::getModifiers( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **Program_1：**中的**ReflectionMethod：：getModifier()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -42,14 +42,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 int(134283776)
 
 ```
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class
@@ -79,7 +79,7 @@ var_dump($B->getModifiers());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 int(134217989)
 int(134283520)
 

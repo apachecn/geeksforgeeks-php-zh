@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplObjectStorage::valid()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -45,14 +45,14 @@ print($str->valid());
 
 **输出：**
 
-```
+```php
 1
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -81,7 +81,7 @@ while($gfg->valid()) {
 
 **输出：**
 
-```
+```php
 string(3) "GFG"
 string(12) "GeeksClasses"
 string(4) "SUDO"

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 Imagick::appendImages( $stack )
 ```
 
@@ -20,7 +20,7 @@ Imagick::appendImages( $stack )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 /* Create new imagick object */
@@ -47,7 +47,7 @@ echo $combined;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 /* Create new imagick object */

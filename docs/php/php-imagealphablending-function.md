@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagealphablending( $image, $blendmode )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an image of given size
@@ -52,7 +52,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an image from png

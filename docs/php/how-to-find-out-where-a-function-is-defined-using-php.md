@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```php
 $details = new ReflectionFunction('function_name');
 ```
 
@@ -19,7 +19,7 @@ $details = new ReflectionFunction('function_name');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 $details = new ReflectionFunction('printing');
 print $details->getFileName() . ':' . $details->getStartLine();
@@ -36,7 +36,7 @@ print $details->getFileName() . ':' . $details->getStartLine();
 
 **输出:**
 
-```
+```php
 C:\wamp64\www\file_name.php : 2 
 ```
 
@@ -45,7 +45,7 @@ C:\wamp64\www\file_name.php : 2
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 function printing()
 {
@@ -61,7 +61,7 @@ echo 'File location : '.$details->getFileName().
 
 **输出:**
 
-```
+```php
 File location : /home/7de5f19b219d214c719df5f3839a7f61.php, 
 Starting line : 2, Parameters passed : 0
 ```
@@ -70,7 +70,7 @@ Starting line : 2, Parameters passed : 0
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 function printing() {
@@ -93,7 +93,7 @@ print 'File location :'.$details->getFileName().
 
 **输出:**
 
-```
+```php
 File location :/home/dd96d70bdf5ff03fea0ea24110bae9ff.php 
 Starting line :7 No. of parameters passed :0
 ```

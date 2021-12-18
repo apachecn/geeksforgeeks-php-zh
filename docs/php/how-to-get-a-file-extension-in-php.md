@@ -4,7 +4,7 @@
 
 在本文中，我们将学习如何在 PHP 中获取当前的文件扩展名。
 
-```
+```php
 Input  : c:/xampp/htdocs/project/home
 Output : ""
 
@@ -21,7 +21,7 @@ $_SERVER 是存储信息的数组，如头、路径和脚本位置。这些条�
 
 **语法:**
 
-```
+```php
  $_SERVER[‘SCRIPT_NAME’]
 ```
 
@@ -31,7 +31,7 @@ $_SERVER 是存储信息的数组，如头、路径和脚本位置。这些条�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 function fileExtension($s) {
   // strrpos() function returns the position
@@ -56,7 +56,7 @@ echo fileExtension($currentPage);
 
 **Output**
 
-```
+```php
 php
 ```
 
@@ -66,7 +66,7 @@ php
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php   
 
 // To Get the Current Filename.
@@ -91,7 +91,7 @@ echo "\n Extension: ", $ext;
 
 **Output**
 
-```
+```php
  Name: 001510d47316b41e63f337e33f4aaea4
  Extension: php
 ```
@@ -102,7 +102,7 @@ echo "\n Extension: ", $ext;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   // This is sample url
   $url =
@@ -130,7 +130,7 @@ echo "\n Extension: ", $ext;
 
 **Output**
 
-```
+```php
  Name: file.index
  Extension: php
 ```

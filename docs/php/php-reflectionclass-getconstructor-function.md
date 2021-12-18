@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionMethod* ReflectionClass::getConstructor( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass over the class named as ReflectionClass
@@ -34,7 +34,7 @@ var_dump($constructor);
 
 **输出：**
 
-```
+```php
 object(ReflectionMethod)#2 (2) {
   ["name"]=>
   string(11) "__construct"
@@ -46,7 +46,7 @@ object(ReflectionMethod)#2 (2) {
 
 **程序 2：**
 
-```
+```php
 
 // Defining a user-defined class Company
 class Company {
@@ -68,7 +68,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 NULL
 
 ```

@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *string* strrev($inpString)
 ```
 
@@ -18,7 +18,7 @@
 
 例如：
 
-```
+```php
 Input : $string = "geeks" 
 Output : skeeg 
 
@@ -32,7 +32,7 @@ Output : 341
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // strrev() function when a string is passed
@@ -46,7 +46,7 @@ echo strrev($str);
 
 产出：
 
-```
+```php
 skeeg
 ```
 
@@ -54,7 +54,7 @@ skeeg
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // strrev() function when a number is passed
@@ -69,7 +69,7 @@ echo strrev($num);
 
 产出：
 
-```
+```php
 431
 ```
 

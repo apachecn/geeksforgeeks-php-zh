@@ -8,7 +8,7 @@
 
 <u>****语法:****</u>
 
-```
+```php
 **count(array)**
 ```
 
@@ -20,7 +20,7 @@
 
 ## <u>**服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**</u>
 
-```
+```php
 **<?php
 
 // Create an associative array 
@@ -41,7 +41,7 @@ echo count( $array1);
 
 <u>****Output**
 
-```
+```php
 5
 ```**</u> 
 
@@ -49,7 +49,7 @@ echo count( $array1);
 
 <u>****语法:****</u>
 
-```
+```php
 **sizeof(array)**
 ```
 
@@ -59,7 +59,7 @@ echo count( $array1);
 
 <u>****示例:****</u>
 
-```
+```php
 **Input: array(10,20,30,50)
 Output: 4
 
@@ -71,7 +71,7 @@ Output: 2**
 
 ## <u>**服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**</u>
 
-```
+```php
 **<?php
 
 // Create an associative array
@@ -92,6 +92,6 @@ echo sizeof( $array1);
 
 <u>****Output**
 
-```
+```php
 5
 ```**</u>

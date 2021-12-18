@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imageline( *resource* $image, *int* $x1, *int* $y1, 
 *int* $x2, *int* $y2, *int* $color )
 ```
@@ -26,7 +26,7 @@
 
 **示例 1：**在此示例中，向图像添加一行。
 
-```
+```php
 <?php
 
 // Create an image instance
@@ -51,7 +51,7 @@ imagedestroy($im);
 
 **示例 2：**在本例中，我们将向图形中添加一条线。
 
-```
+```php
 <?php
 
 // Create an image instance

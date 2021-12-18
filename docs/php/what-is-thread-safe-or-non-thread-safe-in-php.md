@@ -20,21 +20,21 @@
 
 *   在窗口上:
 
-    ```
+    ```php
     php -i|findstr "Thread"
 
     ```
 
 *   On *nix:
 
-    ```
+    ```php
     php -i|grep Thread
 
     ```
 
 *   在这两种情况下都会显示任意一个
 
-    ```
+    ```php
     Thread Safety => enabled
     //or
     Thread Safety => disabled

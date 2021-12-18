@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertNull(mixed $variable[, string $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertNull(mixed $variable[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -50,7 +50,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

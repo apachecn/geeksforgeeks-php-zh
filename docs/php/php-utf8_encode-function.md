@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* utf8_encode( *string* $string )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // String to encode
@@ -34,7 +34,7 @@ echo utf8_encode($string_to_encode);
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Creating an array of 256 elements

@@ -27,7 +27,7 @@
 
 ## <u>服务器端编程语言（Professional Hypertext Preprocessor 的缩写）</u>
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 

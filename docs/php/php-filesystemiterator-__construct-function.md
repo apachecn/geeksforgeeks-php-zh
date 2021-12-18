@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* FilesystemIterator::__construct( *string* $path, *int* $flags )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new file system iterator
@@ -40,7 +40,7 @@ foreach ($fileItr as $file) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new file system iterator

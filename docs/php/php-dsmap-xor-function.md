@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Map* public Ds\Map::xor ( Ds\Map $map )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -38,7 +38,7 @@ print_r($a->xor($b));
 
 **输出：**
 
-```
+```php
 xor of both map is: 
 Ds\Map Object
 (
@@ -60,7 +60,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -81,7 +81,7 @@ print_r($a->xor($b));
 
 **输出：**
 
-```
+```php
 xor of both map is: 
 Ds\Map Object
 (

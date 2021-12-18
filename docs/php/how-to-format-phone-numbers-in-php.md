@@ -10,7 +10,7 @@
 
 ## **PHP**
 
-```
+```php
 <?php
 
 // Create a formatting function
@@ -44,7 +44,7 @@ formatting("+01677942758");
 
 **输出:**
 
-```
+```php
 202-555-0170
 167-794-2758
 ```

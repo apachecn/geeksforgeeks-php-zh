@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : arr1 = [ 1, 2 ]
         arr2 = [ 3, 4 ]
 
@@ -23,7 +23,7 @@ Output : arr1 = [ "Geeks", "g4g", "GeeksforGeeks" ]
 
 **例:**
 
-```
+```php
 <?php
 $arr1 = array("Geeks", "g4g");
 $arr2 = array("GeeksforGeeks", "Computer science portal");
@@ -42,7 +42,7 @@ foreach ($arr1 as $value) {
 
 **输出:**
 
-```
+```php
 arr1 Contents:
 Geeks
 g4g
@@ -54,7 +54,7 @@ Computer science portal
 
 **例:**
 
-```
+```php
 <?php
 $arr1 = array(1, 2);
 $arr2 = array(3, 4);
@@ -73,7 +73,7 @@ echo $value . ' ';
 
 **输出:**
 
-```
+```php
 arr1 = 1 2 3 4
 ```
 

@@ -8,7 +8,7 @@
 
     **语法**:
 
-    ```
+    ```php
     $First & $Second
 
     This will return another number whose bits are 
@@ -18,7 +18,7 @@
 
     示例:
 
-    ```
+    ```php
     Input: $First = 5,  $Second = 3
 
     Output: The bitwise & of both these value will be 1\. 
@@ -34,7 +34,7 @@
 
 **语法**:
 
-```
+```php
 $First | $Second
 
 This will return another number whose bits are 
@@ -44,7 +44,7 @@ set if either the bit of first or second are set.
 
 示例:
 
-```
+```php
 Input: First = 5, Second = 3
 
 Output: The bitwise | of both these value will be 7\. 
@@ -60,7 +60,7 @@ if either first or second have their bit set.)
 
     **语法**:
 
-    ```
+    ```php
     $First ^ $Second
 
     This will return another number whose bits are 
@@ -71,7 +71,7 @@ if either first or second have their bit set.)
 
     示例:
 
-    ```
+    ```php
     Input: First = 5, Second = 3 
 
     Output: The bitwise ^ of both these value will be 6\. 
@@ -88,7 +88,7 @@ if either first or second have their bit set.)
 
     **语法**:
 
-    ```
+    ```php
     ~$number
 
     This will invert all the bits of $number.
@@ -97,7 +97,7 @@ if either first or second have their bit set.)
 
     示例:
 
-    ```
+    ```php
     Input: number = 5
 
     Output: The bitwise '~' of this number will be -6.
@@ -113,7 +113,7 @@ if either first or second have their bit set.)
 
     **语法**:
 
-    ```
+    ```php
     $First << $Second
 
     This will shift the bits of $First towards the 
@@ -124,7 +124,7 @@ if either first or second have their bit set.)
 
     示例:
 
-    ```
+    ```php
     Input: First = 5, Second = 1
 
     Output: The bitwise << of both these value will be 10\. 
@@ -142,7 +142,7 @@ if either first or second have their bit set.)
 
     **语法**:
 
-    ```
+    ```php
     $First >> $Second
 
     This will shift the bits of $First towards the 
@@ -153,7 +153,7 @@ if either first or second have their bit set.)
 
     示例:
 
-    ```
+    ```php
     Input: First = 5, Second = 1 
 
     Output: The bitwise >> of both these value will be 2\. 
@@ -169,7 +169,7 @@ if either first or second have their bit set.)
 
 下面是按位运算符在 PHP 中的实现:
 
-```
+```php
 <?php
     // PHP code to demonstrate Bitwise Operator.
 
@@ -217,7 +217,7 @@ if either first or second have their bit set.)
 
 输出:
 
-```
+```php
 Bitwise & of 5 and 3 is 1
 Bitwise | of 5 and 3 is 7
 Bitwise ^ of 5 and 3 is 6

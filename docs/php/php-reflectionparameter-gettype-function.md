@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionType* ReflectionParameter::getType ( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -45,14 +45,14 @@ echo $B;
 
 **输出：**
 
-```
+```php
 int
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -88,7 +88,7 @@ echo $C->getType();
 
 **输出：**
 
-```
+```php
 float
 Exception
 string

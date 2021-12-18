@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <!DOCTYPE >
 <html>
     <head>
@@ -41,7 +41,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // Here echo command is
@@ -52,7 +52,7 @@ echo "Welcome to GFG!"; 
 
 **输出:**
 
-```
+```php
 Welcome to GFG!
 
 ```

@@ -10,7 +10,7 @@
 
 **语法：**
 
-```
+```php
 *float* log ($arg, $base)
 
 ```
@@ -24,7 +24,7 @@
 
 例如：
 
-```
+```php
 Input :  $arg = M_E * M_E;
 Output : 2
 
@@ -36,7 +36,7 @@ Output : 10
 
 下面的程序演示了 log()在 PHP 中的工作原理：
 
-```
+```php
 <?php
 // PHP code to illustrate the working of log() Function 
 $arg = 81;
@@ -48,7 +48,7 @@ for(;$base<=$arg;$base*=$base)
 
 产出：
 
-```
+```php
 log(81, 3) = 4
 log(81, 9) = 2
 log(81, 81) = 1
@@ -59,7 +59,7 @@ log(81, 81) = 1
 
 **语法：**
 
-```
+```php
 *float* log10 ($arg)
 
 ```
@@ -70,7 +70,7 @@ log(81, 81) = 1
 
 例如：
 
-```
+```php
 Input :  $arg = 100;
 Output : 2
 
@@ -82,7 +82,7 @@ Output : 10
 
 下面的程序演示了 PHP 中 log10()的工作原理：
 
-```
+```php
 <?php
 // PHP code to illustrate the working of log10() Function 
 $arg = 100000;
@@ -93,7 +93,7 @@ for(;$arg>=10;$arg/=10)
 
 产出：
 
-```
+```php
 log10(100000) = 5
 log10(10000) = 4
 log10(1000) = 3

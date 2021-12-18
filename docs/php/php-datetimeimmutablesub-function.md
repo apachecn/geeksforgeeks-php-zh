@@ -6,7 +6,7 @@ DateTimeImmutable：：Sub()函数是 PHP 中的一个内置函数，用于从�
 
 **语法：**
 
-```
+```php
 DateTimeImmutable::sub( interval )
 
 ```
@@ -19,7 +19,7 @@ DateTimeImmutable::sub( interval )
 
 **程序 1**：此程序将天数减少 2 天。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::sub()
 // function
@@ -41,14 +41,14 @@ echo $a->format('Y-m-d');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2019-10-05
 
 ```
 
 **程序 2**：此程序将月份减少 5。
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeImmutable::sub()
 // function
@@ -70,7 +70,7 @@ echo $a->format('Y-m-d');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2019-05-07
 
 ```

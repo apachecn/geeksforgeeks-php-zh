@@ -6,7 +6,7 @@ Imagestring()函数是 PHP 中的一个内置函数，用于水平绘制字符�
 
 **语法：**
 
-```
+```php
 bool imagestring( $image, $font, $x, $y, $string, $color )
 ```
 
@@ -24,7 +24,7 @@ bool imagestring( $image, $font, $x, $y, $string, $color )
 下面的程序演示了 PHP 中的 imagestring()函数。
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create the size of image or blank image
@@ -52,7 +52,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create the size of image or blank image

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 int sizeof(array, mode);
 ```
 
@@ -25,7 +25,7 @@ int sizeof(array, mode);
 
 ## PHP
 
-```
+```php
 <?php
    // input array
    $a=array(1,2,3,4,5,6);
@@ -44,7 +44,7 @@ int sizeof(array, mode);
 
 ## PHP
 
-```
+```php
 <?php
   $array = array('name' => array('Geeks', 'For', 'Geeks'),
                 'article' => array('sizeof', 'function', 'PHP'));

@@ -9,7 +9,7 @@ PHP 中的 password_hash()函数是一个内置函数，用于创建新的密码
 
 **语法:**
 
-```
+```php
 *string* password_hash( $password, $algo, $options )
 ```
 
@@ -30,7 +30,7 @@ password_hash()函数当前支持以下算法:
 
 **示例:**
 
-```
+```php
 Input : echo password_hash("GFG@123", PASSWORD_DEFAULT);
 Output : $2y$10$.vGA19Jh8YrwSJFDodbfoHJIOFH)DfhuofGv3Fykk1a
 
@@ -40,7 +40,7 @@ Output : $2y$10$.vGA19Jh8YrwSJFDodbfoHJIOFH)DfhuofGv3Fykk1a
 
 **程序 1:**
 
-```
+```php
 <?php
 
 echo password_hash("GFG@123", PASSWORD_DEFAULT);
@@ -49,14 +49,14 @@ echo password_hash("GFG@123", PASSWORD_DEFAULT);
 
 **Output:**
 
-```
+```php
 $2y$10$Z166W1fBdsLcXPVQVfPw/uRq1ueWMA6sLt9bmdUFz9AmOGLdM393G
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 
 $options = [
@@ -69,14 +69,14 @@ echo password_hash("GFG@123", PASSWORD_BCRYPT, $options);
 
 **Output:**
 
-```
+```php
 $2y$12$jgzGJmLsUHGNjmDK98MbWe82e3CIJZuflAj6lE1I.dlyhSVfz42oq
 
 ```
 
 **程序 3:**
 
-```
+```php
 <?php
 
 $timeTarget = 0.069; // 69 milliseconds 
@@ -95,14 +95,14 @@ echo "The appropriate cost is: " . $cost;
 
 **Output:**
 
-```
+```php
 The appropriate cost is: 10
 
 ```
 
 **程序 4:**
 
-```
+```php
 <?php
 echo 'Argon2i hash: ' . password_hash('GFG@123', PASSWORD_ARGON2I);
 ?>
@@ -110,7 +110,7 @@ echo 'Argon2i hash: ' . password_hash('GFG@123', PASSWORD_ARGON2I);
 
 **Output:**
 
-```
+```php
 Argon2i hash: $argon2i$v=19$m=1024,t=2,p=2$YUNvTkJBT2dEejQuUVQvRQ$+96jm/eISqZ7+P9n0DrsBf25piwfnLRy2Yy1VYmb9iI
 
 ```

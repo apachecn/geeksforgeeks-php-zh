@@ -11,7 +11,7 @@ PHP 中的一些数学函数示例如下：
 
 **语法：**
 
-```
+```php
 abs(number);
 ```
 
@@ -19,7 +19,7 @@ abs(number);
 
 **示例：**
 
-```
+```php
 <?php
 // PHP code to return absolute value.
 function absolute($degree)
@@ -35,7 +35,7 @@ echo(absolute($number));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 8.4
 
 ```
@@ -45,13 +45,13 @@ echo(absolute($number));
 
 **语法：**
 
-```
+```php
 pi();
 ```
 
 **示例：**
 
-```
+```php
 <?php
 # PHP function to convert degree to radian value.
 echo(pi());
@@ -60,7 +60,7 @@ echo(pi());
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 3.1415926535898
 
 ```
@@ -70,13 +70,13 @@ echo(pi());
 
 **语法：**
 
-```
+```php
 deg2rad(number);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 // PHP code to convert degree to radian value.
 function deg_radian($degree)
@@ -92,7 +92,7 @@ echo(deg_radian($number));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 3.1415926535898
 
 ```
@@ -102,13 +102,13 @@ echo(deg_radian($number));
 
 **语法：**
 
-```
+```php
 rad2deg(number);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 // PHP function to convert degree to radian value.
 echo(rad2deg(pi()));
@@ -117,7 +117,7 @@ echo(rad2deg(pi()));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 180
 
 ```
@@ -127,7 +127,7 @@ echo(rad2deg(pi()));
 
 **语法：**
 
-```
+```php
 fmod(x, y);
 ```
 
@@ -135,7 +135,7 @@ fmod(x, y);
 
 **示例：**
 
-```
+```php
 <?php
 // PHP code to find modulo of x / y
 function result($x, $y)
@@ -152,7 +152,7 @@ echo(result($x, $y));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 0.5
 
 ```
@@ -163,13 +163,13 @@ echo(result($x, $y));
 此函数以数值作为参数，必要时通过四舍五入返回下一个最小的整数值(浮点数)。
 **语法：**
 
-```
+```php
 floor($number);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo(floor(0.60)."\n");
 echo(floor(5)."\n");
@@ -179,7 +179,7 @@ echo(floor(-5.9));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 0
 5
 -6
@@ -191,13 +191,13 @@ echo(floor(-5.9));
 
 **语法：**
 
-```
+```php
 ceil($number);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo(ceil(0.60)."\n");
 echo(ceil(-5.9));
@@ -206,7 +206,7 @@ echo(ceil(-5.9));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1
 -5
 
@@ -217,7 +217,7 @@ echo(ceil(-5.9));
 
 **语法：**
 
-```
+```php
 round(number, precision, mode);
 ```
 
@@ -230,7 +230,7 @@ round(number, precision, mode);
 
 **示例：**
 
-```
+```php
 <?php
 echo(round(1.95583, 2)."\n");
 echo(round(1241757, -3)."\n");
@@ -243,7 +243,7 @@ echo round(9.5, 0, PHP_ROUND_HALF_ODD);
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1.96
 1242000
 10
@@ -259,13 +259,13 @@ echo round(9.5, 0, PHP_ROUND_HALF_ODD);
 
 **语法：**
 
-```
+```php
 is_finite(value);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo is_finite(234)."\n";
 echo is_finite(log(0));
@@ -274,7 +274,7 @@ echo is_finite(log(0));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1
 
 ```
@@ -285,13 +285,13 @@ echo is_finite(log(0));
 
 **语法：**
 
-```
+```php
 is_infinite(value);
 ```
 
 **示例：**
 
-```
+```php
 <?php
 echo is_infinite(234)."\n";
 echo is_infinite(log(0));
@@ -300,6 +300,6 @@ echo is_infinite(log(0));
 
 发帖主题：Re：Kolibrios
 
-```
+```php
 1
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickDraw::getStrokeDashArray( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -32,7 +32,7 @@ print("<pre>".print_r($array, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array // Empty array which is the default value
 (
 )
@@ -40,7 +40,7 @@ Array // Empty array which is the default value
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -57,7 +57,7 @@ print("<pre>".print_r($array, true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 20
@@ -71,7 +71,7 @@ Array
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object

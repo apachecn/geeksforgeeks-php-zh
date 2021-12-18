@@ -6,7 +6,7 @@ Hash_file()函数是 PHP 中的一个内置函数，用于使用给定文件的�
 
 **语法：**
 
-```
+```php
 *string* hash_file( $algo, $file, $raw_opt )
 ```
 
@@ -26,7 +26,7 @@ Hash_file()函数是 PHP 中的一个内置函数，用于使用给定文件的�
 以下程序说明了 PHP 中的 hash_file()函数：
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -42,14 +42,14 @@ echo hash_file('md5', 'gfg.txt') . "</br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 083de2341fd19dce0de9e60f3e9a8e0d
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -71,7 +71,7 @@ echo hash_file('sha1', 'gfg.txt');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 083de2341fd19dce0de9e60f3e9a8e0d
 a287a6ac47afec4140253a10b8a4c9c1e4f7a45e
 

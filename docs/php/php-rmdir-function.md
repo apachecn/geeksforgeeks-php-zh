@@ -7,7 +7,7 @@ PHP 中的 rmdir()函数是一个内置函数，用于删除空目录。 该目�
 
 **语法：**
 
-```
+```php
 rmdir(dirname, context)
 ```
 
@@ -28,7 +28,7 @@ PHP 中的 rmdir()函数接受两个参数。
 
 例如：
 
-```
+```php
 Input : mkdir('gfg');
         $dirname= "gfg";
         rmdir($dirname);
@@ -51,7 +51,7 @@ Output : gfg successfully removed
 
 **程序 1**
 
-```
+```php
 <?php
 // creating a directory named gfg
 mkdir('gfg');
@@ -64,13 +64,13 @@ rmdir($dirname);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
 **程序 2**
 
-```
+```php
 <?php
 // creating a directory named gfg
  $dirname = "gfg";
@@ -89,7 +89,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg successfully removed
 ```
 

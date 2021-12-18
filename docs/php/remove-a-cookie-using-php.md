@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 setcookie(name, value, expire, path, domain, secure, httponly)
 ```
 
@@ -32,7 +32,7 @@ setcookie(name, value, expire, path, domain, secure, httponly)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 
 <?php
@@ -62,7 +62,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 15), "/"); 
 
 *   **输出:**
 
-```
+```php
 Cookie 'gfg' is set!
 Value is: GeeksforGeeks
 ```
@@ -71,7 +71,7 @@ Value is: GeeksforGeeks
 
 *   **语法:**
 
-```
+```php
 setcookie(name, time() - 3600);
 ```
 
@@ -79,7 +79,7 @@ setcookie(name, time() - 3600);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <?php
 
@@ -102,7 +102,7 @@ setcookie("gfg", "", time() - 3600);
 
 *   **输出:**
 
-```
+```php
 Cookie 'gfg' is deleted.
 ```
 

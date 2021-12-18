@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMElement::removeAttribute( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -66,7 +66,7 @@ echo $attribute_value;
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

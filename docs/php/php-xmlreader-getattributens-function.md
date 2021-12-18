@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* XMLReader::getAttributeNs( *string* $localName, 
                                *string* $namespaceURI )
 ```
@@ -24,7 +24,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div xmlns:x="geeksforgeeks">
         <x:h1 x:attrib="value">
@@ -35,7 +35,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -62,7 +62,7 @@
 
 *   **output:**
 
-    ```
+    ```php
      // Empty string because namespace name doesn't match
     ```
 
@@ -70,7 +70,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <div xmlns:x="my_namespace">
         <x:h1 x:attrib="value"> 
@@ -81,7 +81,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -108,7 +108,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     value
     ```
 

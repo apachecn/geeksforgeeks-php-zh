@@ -17,7 +17,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // Anonymous recursive function 
@@ -46,7 +46,7 @@ $func();
 
 **Output:**
 
-```
+```php
 10
 9
 8
@@ -62,7 +62,7 @@ $func();
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // Anonymous recursive function 
@@ -84,7 +84,7 @@ print $factorial( 6 );
 
 **Output:**
 
-```
+```php
 720
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* Gmagick::levelimage( *float* $blackPoint, *float* $gamma,
         *float* $whitePoint, *int* $channel = Gmagick::CHANNEL_DEFAULT )
 ```
@@ -29,7 +29,7 @@
 
 **程序 1(调整图像级别)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -49,7 +49,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2(标高图形)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

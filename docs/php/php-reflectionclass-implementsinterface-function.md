@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::implementsInterface( *string* $interface )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining some interfaces
@@ -45,14 +45,14 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a SuperClass interface Company 
@@ -85,7 +85,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

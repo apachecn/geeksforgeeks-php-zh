@@ -6,7 +6,7 @@ Is_numeric()函数是 PHP 中的一个内置函数，用于检查作为参数传
 
 **语法：**
 
-```
+```php
 bool is_numeric ( $var )
 ```
 
@@ -18,7 +18,7 @@ bool is_numeric ( $var )
 
 **示例：**
 
-```
+```php
 Input : $var = 12
 Output : True
 
@@ -32,7 +32,7 @@ Output : False
 
 ## PHP
 
-```
+```php
 <?php
 
 $num = 12;
@@ -48,7 +48,7 @@ if (is_numeric($num)) {
 
 **Output:** 
 
-```
+```php
 12 is numeric
 ```
 
@@ -56,7 +56,7 @@ if (is_numeric($num)) {
 
 ## PHP
 
-```
+```php
 <?php
 
 $element = "Geeks for Geeks";
@@ -72,7 +72,7 @@ if (is_numeric($element)) {
 
 **Output:** 
 
-```
+```php
 Geeks for Geeks is not numeric
 ```
 
@@ -80,7 +80,7 @@ Geeks for Geeks is not numeric
 
 ## PHP
 
-```
+```php
 <?php
 
 $num = "467291";
@@ -96,7 +96,7 @@ if (is_numeric($num)) {
 
 **Output:** 
 
-```
+```php
 467291 is numeric
 ```
 
@@ -104,7 +104,7 @@ if (is_numeric($num)) {
 
 ## PHP
 
-```
+```php
 <?php
 $array = array(
     "21/06/2018",
@@ -127,7 +127,7 @@ foreach ($array as $i) {
 
 **Output:** 
 
-```
+```php
 21/06/2018 is NOT numeric
 4743 is numeric
 897 is numeric

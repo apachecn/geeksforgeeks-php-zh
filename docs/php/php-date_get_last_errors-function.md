@@ -8,13 +8,13 @@ DATE_GET_LAST_ERROR()函数是 PHP 中的一个内置函数，用于返回警告
 
 *   **process style:**
 
-    ```
+    ```php
     array date_get_last_errors( void )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     array DateTime::getLastErrors( void )
     ```
 
@@ -26,7 +26,7 @@ DATE_GET_LAST_ERROR()函数是 PHP 中的一个内置函数，用于返回警告
 
 **程序 1：**
 
-```
+```php
 <?php
 $date = date_create();
 print_r(date_get_last_errors());
@@ -35,7 +35,7 @@ print_r(date_get_last_errors());
 
 **输出：**
 
-```
+```php
 Array
 (
     [warning_count] => 0
@@ -54,7 +54,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 try {
     $date = new DateTime('vgdgh');
@@ -69,7 +69,7 @@ catch (Exception $e) {
 
 **输出：**
 
-```
+```php
 Array
 (
     [warning_count] => 0

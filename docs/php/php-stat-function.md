@@ -23,7 +23,7 @@ Stat()函数接受文件名作为参数，并在成功时返回包含上述元�
 
 **语法：**
 
-```
+```php
 stat(filename)
 ```
 
@@ -45,7 +45,7 @@ PHP 中的 stat()函数接受一个参数。
 
 **示例：**
 
-```
+```php
 Input : $test = stat('gfg.txt');
         echo 'Access time: ' .$test['atime'];
         echo '
@@ -89,7 +89,7 @@ Output : Access time changed to 5 hours in the past!
 
 **程序 1**
 
-```
+```php
 <?php
 $test = stat('gfg.txt');
 //using stat() along with name index to display access time
@@ -105,7 +105,7 @@ echo '<br />Device number: ' .$test['dev'];
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Access time: 1141666750
 Modification time: 1135897503
 Device number: 0
@@ -114,7 +114,7 @@ Device number: 0
 
 **程序 2**
 
-```
+```php
 <?php
 $test = stat('gfg.txt');
 
@@ -131,7 +131,7 @@ echo '<br />Device number: ' .$test[0];
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Access time: 1141666750
 Modification time: 1135897503
 Device number: 0
@@ -140,7 +140,7 @@ Device number: 0
 
 **程序 3**
 
-```
+```php
 <?php
 $test = stat('gfg.txt');
 
@@ -162,7 +162,7 @@ else 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Access time changed to 5 hours in the past!
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMElement::hasAttributeNS( *string* $namespaceURI, *string* $localName )
 ```
 
@@ -21,7 +21,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -67,7 +67,7 @@ echo "Yes, there are total of $i style 
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

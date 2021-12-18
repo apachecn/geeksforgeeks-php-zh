@@ -7,7 +7,7 @@ PHP 多维数组用于存储与常数值相反的数组。关联数组以键和�
 **创建:**我们可以通过将包含一组键和值对的数组映射到父键来创建多维关联数组。
 下面的程序演示了如何创建多维关联数组:
 
-```
+```php
 <?php
 
 $languages = array();
@@ -42,7 +42,7 @@ print_r($languages);
 
 **Output:**
 
-```
+```php
 Array
 (
     [Python] => Array
@@ -86,7 +86,7 @@ Array
 
     **示例:**
 
-    ```
+    ```php
     <?php
 
     $languages = array();
@@ -110,7 +110,7 @@ Array
 
     **Output:**
 
-    ```
+    ```php
     Array
     (
         [extension] => .py
@@ -124,7 +124,7 @@ Array
 2.  **使用 foreach 循环:**我们可以使用 foreach 循环来检索多维关联数组中关联的每个键的值。
     **例:**
 
-    ```
+    ```php
     <?php
 
     $languages = array();
@@ -164,7 +164,7 @@ Array
 
     **输出:**
 
-    ```
+    ```php
     Python
     first_release = 1991
     latest_release = 3.8.0

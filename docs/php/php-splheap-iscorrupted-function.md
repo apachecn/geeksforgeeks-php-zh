@@ -11,7 +11,7 @@ SplHeap：：isCorrupted()函数是 PHP 中的一个内置函数，用于判断�
 
 **语法：**
 
-```
+```php
 bool SplHeap::isCorrupted()
 ```
 
@@ -25,7 +25,7 @@ bool SplHeap::isCorrupted()
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Mix Heap 
@@ -52,7 +52,7 @@ var_dump($heap->isCorrupted());
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 

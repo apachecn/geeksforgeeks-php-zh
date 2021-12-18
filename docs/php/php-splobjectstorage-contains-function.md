@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplObjectStorage::contains( $value )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 $gfg1 = new StdClass;
 $gfg2 = new StdClass;
@@ -37,7 +37,7 @@ var_dump($str->contains($gfg2));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 
@@ -45,7 +45,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 $gfg1 = new StdClass;
 $gfg2 = new StdClass;
@@ -68,7 +68,7 @@ var_dump($str->contains($gfg1));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 bool(false)

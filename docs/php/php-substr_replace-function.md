@@ -6,7 +6,7 @@ substr_place()函数是 PHP 中的内置函数，用于将一个字符串的一�
 
 **语法：**
 
-```
+```php
 substr_replace($string, $replacement, $start, $length)
 ```
 
@@ -27,7 +27,7 @@ substr_replace($string, $replacement, $start, $length)
 
 例如：
 
-```
+```php
 Input : $string = "Geeks for Geeks", $replacement = "GFG", $start = 0
 Output : GFG
 
@@ -40,7 +40,7 @@ Output : Hello Hello
 
 **程序 1：**在此程序中，我们将使用不带任何$Length 参数的 substr_place()函数。 从$START 到$STRING 结尾的所有字符都将替换为$REPLACE。
 
-```
+```php
 <?php
 
 echo substr_replace("Hello World", "GFG", 6);
@@ -50,13 +50,13 @@ echo substr_replace("Hello World", "GFG", 6);
 
 输出
 
-```
+```php
 Hello GFG
 ```
 
 **程序 2：**在此程序中，我们将使用$length 设置为 0 的 substr_place()函数。 在这种情况下，将发生插入。 不会进行任何替换。
 
-```
+```php
 <?php
 
 echo substr_replace("Contribute GFG", "to ", 11, 0);
@@ -66,13 +66,13 @@ echo substr_replace("Contribute GFG", "to ", 11, 0);
 
 输出
 
-```
+```php
 Contribute to GFG
 ```
 
 **程序 3：**在此程序中，我们将使用 substr_place()函数，并将$length 设置为正值。 在这种情况下，$替换字符串将替换$START 中最多$LENGTH 的$STRING 字符。
 
-```
+```php
 <?php
 
 echo substr_replace("alone", "ph", 0, 2);
@@ -82,13 +82,13 @@ echo substr_replace("alone", "ph", 0, 2);
 
 输出
 
-```
+```php
 phone
 ```
 
 **程序 4：**在此程序中，我们将使用 substr_place()函数，并将$length 设置为负值。 在这种情况下，$替换字符串将替换$STRING 中$START 的字符，并在从字符串末尾开始的$LENGTH 字符数之前停止。
 
-```
+```php
 <?php
 
 echo substr_replace("alone", "ph", 0, -3);
@@ -98,13 +98,13 @@ echo substr_replace("alone", "ph", 0, -3);
 
 输出
 
-```
+```php
 phone
 ```
 
 **程序 5：**在此程序中，我们将使用 substr_place()函数，不带任何$length 参数，并将$start 设置为负值。 替换将从字符串末尾的指定位置开始。
 
-```
+```php
 <?php
 
 echo substr_replace("alpha", "one", -3);
@@ -114,7 +114,7 @@ echo substr_replace("alpha", "one", -3);
 
 输出
 
-```
+```php
 alone
 ```
 

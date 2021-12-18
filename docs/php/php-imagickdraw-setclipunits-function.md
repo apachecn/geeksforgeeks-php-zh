@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setClipUnits( *int* $clip_units )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -42,13 +42,13 @@ echo $draw->getClipUnits();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 2 // which corresponds to one of imagick::RESOLUTION_PIXELSPERCENTIMETER.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

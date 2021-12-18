@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 bool Imagick::magnifyImage( void )
 ```
 
@@ -21,7 +21,7 @@ bool Imagick::magnifyImage( void )
 
 **程序：**
 
-```
+```php
 <?php
 /*require_once('path/vendor/autoload.php');*/
 

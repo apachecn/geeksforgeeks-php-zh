@@ -8,7 +8,7 @@ PHP 的这个内置函数用于获取一个或多个数组之间的差异。该�
 
 **语法:**
 
-```
+```php
 array_diff_assoc($array1, $array2, $array3, ..., $arrayn)
 ```
 
@@ -18,7 +18,7 @@ array_diff_assoc($array1, $array2, $array3, ..., $arrayn)
 
 示例:
 
-```
+```php
 Input : 
 $array1 = ("10"=>"RAM", "20"=>"LAXMAN", "30"=>"RAVI", 
                         "40"=>"KISHAN", "50"=>"RISHI")
@@ -49,7 +49,7 @@ Array
 
 下面的程序说明了数组 _diff_assoc()在 PHP 中的工作原理:
 
-```
+```php
 <?php
 
 // PHP code to illustrate the 
@@ -69,7 +69,7 @@ print_r(array_diff_assoc($array1, $array2, $array3));
 
 输出:
 
-```
+```php
 Array
 (
     [30] => RAVI

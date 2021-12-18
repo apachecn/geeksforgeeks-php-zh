@@ -11,7 +11,7 @@ MAC 是“媒体访问控制”的缩写，是与每台网络设备相关联的 
 
 要获取 MAC 地址，我们使用 exec()函数。
 
-```
+```php
 $macAddr = exec('getmac');
 ```
 
@@ -22,6 +22,6 @@ $macAddr = exec('getmac');
 
 为了获得 IP 地址，我们必须包括**使用照明\ Http \ Request**然后在控制器中添加下面预标签的代码。它会给出网络的接入点地址。
 
-```
+```php
 $ipAddr=\Request::ip();
 ```

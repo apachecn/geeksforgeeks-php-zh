@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *int* xml_get_current_byte_index( *resource* $parser)
 ```
 
@@ -22,7 +22,7 @@
 
 **gfg.xml 文件(不匹配标签)：**
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -34,7 +34,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Invalid XML file
@@ -89,7 +89,7 @@ xml_parser_free($xml_parser);
 
 **输出：**
 
-```
+```php
 ERROR: Mismatched tag
 Error Code: 76
 Line: 7
@@ -100,7 +100,7 @@ Byte Index: 208
 
 **geeks.xml 文件：**
 
-```
+```php
 <?xml version="1.0 encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -112,7 +112,7 @@ Byte Index: 208
 
 **。 ：**
 
-```
+```php
 <?php
 
 // Invalid XML file
@@ -167,7 +167,7 @@ xml_parser_free($xml_parser);
 
 **输出：**
 
-```
+```php
 ERROR: String not closed expecting " or '
 Error Code: 34
 Line: 1

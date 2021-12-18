@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* defined($constant_name);
 ```
 
@@ -22,7 +22,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 define("constant_key", "value for the constant key");
 echo defined("constant_key");
@@ -31,7 +31,7 @@ echo defined("constant_key");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 
 ```
@@ -40,7 +40,7 @@ echo defined("constant_key");
 
 **示例 2：**定义常量后使用 IF 条件进行检查。
 
-```
+```php
 <?php
 define("constant_key", "value for the constant key");
 if(defined("constant_key")){
@@ -53,7 +53,7 @@ if(defined("constant_key")){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 constant_key is defined
 
 ```
@@ -62,7 +62,7 @@ constant_key is defined
 
 **示例 3：**在不定义常量的情况下检查 IF 条件。
 
-```
+```php
 <?php
 //define("constant_key", "value for the constant key");
 if(defined("constant_key")){
@@ -75,7 +75,7 @@ if(defined("constant_key")){
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 constant_key is not defined
 
 ```

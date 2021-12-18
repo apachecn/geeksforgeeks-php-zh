@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* IntlChar::getPropertyName( $property, $nameChoice = 
 IntlChar::LONG_PROPERTY_NAME )
 ```
@@ -32,7 +32,7 @@ IntlChar::LONG_PROPERTY_NAME )
 
 ## PHP
 
-```
+```php
 <?php
 // Program illustrates the IntlChar::getPropertyName() function
 
@@ -52,7 +52,7 @@ var_dump(IntlChar::getPropertyName(IntlChar::PROPERTY_BIDI_MIRRORED,
 
 **Output:** 
 
-```
+```php
 string(13) "Bidi_Mirrored"
 string(6) "Bidi_M"
 string(13) "Bidi_Mirrored"

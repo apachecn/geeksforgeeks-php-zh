@@ -5,7 +5,7 @@
 使用**克隆**关键字(如果可能，调用对象的 __clone()方法)创建对象副本。不能直接调用对象的 __clone()方法。当一个对象被克隆时，PHP 将对该对象的所有属性执行一个浅拷贝。任何引用其他变量的属性都将保持引用状态。
 **语法:**
 
-```
+```php
 $copy_object_name = clone $object_to_be_copied
 ```
 
@@ -13,7 +13,7 @@ $copy_object_name = clone $object_to_be_copied
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Program to create copy of an object
@@ -52,7 +52,7 @@ echo "$copy->data1$copy->data2$copy->data3\n";
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks
 Computer science portal
 ```
@@ -61,7 +61,7 @@ Computer science portal
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Program to create copy of an object
@@ -107,7 +107,7 @@ echo "$obj_ref->data1$obj_ref->data2$obj_ref->data3\n";
 
 **Output:** 
 
-```
+```php
 GeeksforGeeks
 Python for Machine learning
 GeeksforGeeks

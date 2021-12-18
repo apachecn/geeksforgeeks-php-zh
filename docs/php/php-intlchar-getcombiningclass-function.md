@@ -5,7 +5,7 @@
 **IntlChar：：getCombiningClass()**函数是 PHP 中的一个内置函数，用于获取代码点的组合类。
 **语法：**
 
-```
+```php
 *int* IntlChar::getCombiningClass ( $codepoint )
 
 ```
@@ -19,7 +19,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP function to illustrate
@@ -45,7 +45,7 @@ var_dump(IntlChar::getCombiningClass("\u{0358}"));
 
 **Output:** 
 
-```
+```php
 NULL
 int(0)
 int(230)

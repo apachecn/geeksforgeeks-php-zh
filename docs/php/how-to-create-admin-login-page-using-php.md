@@ -45,7 +45,7 @@ adminname 和密码的数据类型是 **varchar** 。尺寸可以根据需要改
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +89,7 @@ adminname 和密码的数据类型是 **varchar** 。尺寸可以根据需要改
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
 $conn = "";
@@ -119,7 +119,7 @@ catch(PDOException $e) {
 
 ## 钢性铸铁
 
-```html
+```phphtml
 body {
     margin: 0;
     padding: 0;
@@ -186,7 +186,7 @@ body {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```phphtml
 <?php
 
 include_once('connection.php');
@@ -229,7 +229,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <h2>Hello Admin</h2>
 ```
 

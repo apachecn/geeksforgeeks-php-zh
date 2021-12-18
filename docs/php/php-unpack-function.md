@@ -6,7 +6,7 @@ Unpack()函数是 PHP 中的一个内置函数，用于将二进制字符串解�
 
 **语法：**
 
-```
+```php
 *array* unpack( $format, $data, $offset )
 ```
 
@@ -44,7 +44,7 @@ Unpack()函数是 PHP 中的一个内置函数，用于将二进制字符串解�
 
 示例 1：此程序使用 C 格式将数据从二进制字符串解包。
 
-```
+```php
 <?php
 
 var_dump( unpack("C*", "GEEKSFORGEEKS"));
@@ -53,7 +53,7 @@ var_dump( unpack("C*", "GEEKSFORGEEKS"));
 
 **输出：**
 
-```
+```php
 array(13) {
   [1]=>
   int(71)
@@ -87,7 +87,7 @@ array(13) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 $binary_data = pack("c2n2", 0x1634, 0x3623, 65, 66);
@@ -97,7 +97,7 @@ var_dump(unpack("c2chars/n2int", $binary_data));
 
 **输出：**
 
-```
+```php
 array(4) {
   ["chars1"]=>
   int(52)
@@ -113,7 +113,7 @@ array(4) {
 
 **示例 3：**此示例使用 I 格式将数据从二进制字符串解包。
 
-```
+```php
 <?php
 
 $binary_data = pack("i3", 56, 49, 54);
@@ -123,7 +123,7 @@ var_dump(unpack("i3", $binary_data));
 
 **输出：**
 
-```
+```php
 array(3) {
   [1]=>
   int(56)

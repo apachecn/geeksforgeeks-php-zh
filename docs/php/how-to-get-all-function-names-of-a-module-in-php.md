@@ -16,7 +16,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $func_names = get_extension_funcs("DOM");
@@ -31,7 +31,7 @@ for($i = 0; $i < $length; $i++) {
 
 **Output**
 
-```
+```php
 dom_import_simplexml
 ```
 
@@ -39,7 +39,7 @@ dom_import_simplexml
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $func_names = get_extension_funcs("XML");
@@ -54,7 +54,7 @@ for($i = 0; $i < $length; $i++) {
 
 **Output**
 
-```
+```php
 xml_parser_create
 xml_parser_create_ns
 xml_set_object
@@ -85,7 +85,7 @@ utf8_decode
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $func_names = get_extension_funcs("JSON");
@@ -100,7 +100,7 @@ for($i = 0; $i < $length; $i++) {
 
 **Output**
 
-```
+```php
 json_encode
 json_decode
 json_last_error

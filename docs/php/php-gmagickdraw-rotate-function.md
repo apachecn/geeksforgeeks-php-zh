@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::rotate( *array* $coordinates_array )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**在本例中，我们将旋转矩形。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -64,7 +64,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2：**在本例中，我们将旋转文本。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

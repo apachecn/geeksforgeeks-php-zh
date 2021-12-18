@@ -16,7 +16,7 @@ PHP 中的字符串可以非常容易地转换为浮点型。在大多数用例�
 
 **语法:**
 
-```
+```php
 $floatvar = floatval($stringvar)
 ```
 
@@ -26,7 +26,7 @@ $floatvar = floatval($stringvar)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // Number in string format
@@ -43,7 +43,7 @@ $floatvar = floatval($stringvar)
 
 **输出:**
 
-```
+```php
 Converted float = 1000.314
 ```
 
@@ -53,7 +53,7 @@ Converted float = 1000.314
 
 **语法:**
 
-```
+```php
 $floatvar = (float)$stringvar
 ```
 
@@ -61,7 +61,7 @@ $floatvar = (float)$stringvar
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Number in string format
@@ -78,7 +78,7 @@ echo "Converted float = ".$floatvar;
 
 **输出:**
 
-```
+```php
 Converted float = 1000.314
 ```
 
@@ -88,7 +88,7 @@ Converted float = 1000.314
 
 **语法:**
 
-```
+```php
 string number_format( $number, $decimals, $decimalpoint, $sep )
 ```
 
@@ -98,7 +98,7 @@ string number_format( $number, $decimals, $decimalpoint, $sep )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Number in string format
@@ -115,6 +115,6 @@ echo "Converted float = ".$floatvar;
 
 **输出:**
 
-```
+```php
 Converted float = 1000.314564
 ```

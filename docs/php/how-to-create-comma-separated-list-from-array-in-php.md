@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```php
 *string* implode( separator, array )
 
 ```
@@ -16,7 +16,7 @@
 
 **示例 1:** 本示例向数组元素添加逗号分隔符。
 
-```
+```php
 <?php
 
 // Declare an array and initialize it
@@ -37,7 +37,7 @@ print_r($List);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => GFG1

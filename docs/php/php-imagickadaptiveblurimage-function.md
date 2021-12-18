@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* adaptiveBlurImage ( $radius, $sigma, $channel )
 ```
 
@@ -38,7 +38,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 // require_once('path/to/vendor/autoload.php'); 
 header('Content-type: image/png');

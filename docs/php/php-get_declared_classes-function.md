@@ -4,7 +4,7 @@
 
 GET_DECLARATED_CLASS()函数是 PHP 中的一个内置函数，用于返回具有已定义类名称的数组。 包含当前脚本中所有系统定义类(例如，PDO、XML 阅读器等)和用户定义类的列表的用户数组。 此函数未指定任何参数。
 
-```
+```php
 <?php
 class gfg {
 
@@ -25,7 +25,7 @@ print_r(get_declared_classes());
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => stdClass
@@ -44,7 +44,7 @@ Array
 
 **对列表进行排序：**在这么大的列表中找到特定的类可能很困难。 但是，如果按字母顺序对列表进行排序，可能会更容易。 可以通过函数`sort()`对其进行排序。
 
-```
+```php
 <?php
 $sorted = get_declared_classes();
 
@@ -56,7 +56,7 @@ print_r($sorted);
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => AppendIterator

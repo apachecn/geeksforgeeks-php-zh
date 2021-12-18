@@ -6,7 +6,7 @@ SplFileInfo：：getOwner()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **语法：**
 
-```
+```php
 *int* SplFileInfo::getOwner( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getOwner()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -37,7 +37,7 @@ print_r(posix_getpwuid($file->getOwner()));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -54,7 +54,7 @@ print_r(posix_getpwuid($file->getOwner()));
 
 **输出：**
 
-```
+```php
 Array
 (
     [name] => www-data

@@ -6,7 +6,7 @@ addcs 睫毛()函数是 PHP 中的内置函数。add 睫毛()函数用于在给�
 
 **语法**:
 
-```
+```php
 string addcslashes($string, $characters)
 
 ```
@@ -21,7 +21,7 @@ string addcslashes($string, $characters)
 
 示例:
 
-```
+```php
 Input: $string = "GeeksforGeeks"  $characters = 'e'
 Output: G\e\eksforG\e\eks
 
@@ -34,7 +34,7 @@ Output: G\e\e\ksnG\e\e\ks
 
 **程序 1** :
 
-```
+```php
 <?php
 // PHP program to illustrate addcslashes()
 // function
@@ -50,14 +50,14 @@ echo $resStr;
 
 输出:
 
-```
+```php
 G\e\eksforG\e\eks
 
 ```
 
 **程序 2** :
 
-```
+```php
 <?php
 // PHP program to illustrate addcslashes()
 // function
@@ -72,7 +72,7 @@ echo $resStr;
 
 输出:
 
-```
+```php
 G\e\e\ksnG\e\e\ks
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 IntlChar::getBidiPairedBracket ( $codepoint )
 ```
 
@@ -18,7 +18,7 @@ IntlChar::getBidiPairedBracket ( $codepoint )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP function to illustrate 
@@ -46,7 +46,7 @@ var_dump(IntlChar::getBidiPairedBracket('A'));
 
 **输出：**
 
-```
+```php
 int(93)
 string(1) "]"
 string(1) "{"
@@ -58,7 +58,7 @@ string(1) "A"
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate the
 // IntlChar::getBidiPairedBracket() function
@@ -77,7 +77,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 string(1) "G"
 string(1) "}"
 string(1) "^"

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::bezier( *array* $coordinate_array )
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1：**简单贝塞尔曲线
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -65,7 +65,7 @@ echo $gmagick->getImageBlob();
 
 **程序 2：**带描边和填充的贝塞尔曲线
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

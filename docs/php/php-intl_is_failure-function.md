@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* intl_is_failure( $error_code )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Function definition
@@ -36,7 +36,7 @@ check( U_ILLEGAL_ARGUMENT_ERROR );
 
 **输出：**
 
-```
+```php
 false
 true
 
@@ -44,7 +44,7 @@ true
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Function definition
@@ -73,7 +73,7 @@ foreach ($arr as $err) { 
 
 **输出：**
 
-```
+```php
 false
 true
 false

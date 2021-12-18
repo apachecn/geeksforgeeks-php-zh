@@ -15,7 +15,7 @@ PHP 中的 [**file_get_contents()函数**](https://www.geeksforgeeks.org/php-fil
 
 **示例:**
 
-```
+```php
 Input:  file_get_contents('https://www.geeksforgeeks.org/');
 Output: A computer science portal for geeks
 
@@ -27,7 +27,7 @@ Output: A computer science portal for geeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Reading contents from the
@@ -46,7 +46,7 @@ echo $homepage;
 
 **输出:**
 
-```
+```php
 It will redirect to GeeksforGeeks Home Page
 ```
 
@@ -54,7 +54,7 @@ It will redirect to GeeksforGeeks Home Page
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Reading 36 bytes starting from
@@ -73,7 +73,7 @@ echo $text;
 
 **输出:**
 
-```
+```php
 It will display the content of gfg.txt file.
 For Example: A computer science portal for geeks
 ```
@@ -87,7 +87,7 @@ PHP 支持一个错误控制操作符:符号(@)。在 PHP 中添加到表达式�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Reading contents from the
@@ -101,7 +101,7 @@ echo $homepage;
 
 **输出:**
 
-```
+```php
 It will redirect to GeeksforGeeks Home Page
 ```
 
@@ -109,7 +109,7 @@ It will redirect to GeeksforGeeks Home Page
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Reading 36 bytes starting from
@@ -123,7 +123,7 @@ echo $text;
 
 **输出:**
 
-```
+```php
 It will display the content of gfg.txt file.
 For Example: A computer science portal for geeks
 ```

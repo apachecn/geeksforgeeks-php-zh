@@ -8,7 +8,7 @@ PHP 中的 *base_convert()* 函数用于将任意基数给定的数字转换为�
 
 **语法:**
 
-```
+```php
 *string* base_convert($inpNumber, $fromBase, $desBase)
 
 ```
@@ -23,7 +23,7 @@ PHP 中的 *base_convert()* 函数用于将任意基数给定的数字转换为�
 
 **示例:**
 
-```
+```php
 Input : base_convert(B296, 16, 8)
 Output : 131226
 
@@ -44,7 +44,7 @@ Output : 33
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $hexadec = "B296";
@@ -55,7 +55,7 @@ echo base_convert($hexadec, 16, 8);
 
 **输出:**
 
-```
+```php
 131226
 
 ```
@@ -64,7 +64,7 @@ echo base_convert($hexadec, 16, 8);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $hexadec = "B296";
@@ -75,7 +75,7 @@ echo base_convert($hexadec, 16, 2);
 
 **输出:**
 
-```
+```php
 1011001010010110
 
 ```
@@ -84,7 +84,7 @@ echo base_convert($hexadec, 16, 2);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $octal = "621";
@@ -95,7 +95,7 @@ echo base_convert($octal, 8, 16);
 
 **输出:**
 
-```
+```php
 191
 
 ```
@@ -104,7 +104,7 @@ echo base_convert($octal, 8, 16);
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $binary = "110011";
@@ -116,7 +116,7 @@ echo base_convert($binary, 2, 16);
 
 **输出:**
 
-```
+```php
 33
 
 ```

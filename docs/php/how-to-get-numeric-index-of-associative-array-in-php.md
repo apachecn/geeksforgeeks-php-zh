@@ -7,13 +7,13 @@
 
 **语法:**
 
-```
+```php
 array array_keys( $input_array, $search_value, $strict )
 ```
 
 **程序 1:** 使用 array_keys()函数获取关联数组的数值索引的程序。
 
-```
+```php
 <?php
 
 // Program to print index of an associative array
@@ -30,7 +30,7 @@ print_r(array_keys($assoc_array));
 
 **示例 2:** 下面的程序使用索引来访问关联数组中的值。
 
-```
+```php
 <?php
 
 // Program to print values using index

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::isAbstract( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a abstract class abstractGFG
@@ -38,14 +38,14 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class Company
@@ -68,7 +68,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

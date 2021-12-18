@@ -7,7 +7,7 @@
 
 **语法：**
 
-```
+```php
 mysqli_close(conn);
 ```
 
@@ -15,7 +15,7 @@ mysqli_close(conn);
 
 下面的程序演示了 mysqli_close()函数
 
-```
+```php
 <?php
 $servername = "localhost";
 $username = "username";
@@ -49,13 +49,13 @@ mysqli_close($conn);
 
 **语法：**
 
-```
+```php
 conn->close();
 ```
 
 **程序：**说明面向对象过程中连接的关闭。
 
-```
+```php
 <?php
 $servername = "localhost";
 $username = "username";
@@ -79,13 +79,13 @@ $conn->close();
 
 **语法：**
 
-```
+```php
 conn=null;
 ```
 
 **程序：**说明 PDO 过程中的连接关闭。
 
-```
+```php
 <?php
 $servername = "localhost";
 $username = "username";

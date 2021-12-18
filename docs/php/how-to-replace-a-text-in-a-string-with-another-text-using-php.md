@@ -6,7 +6,7 @@
 
 **方法 1:使用**[**str _ replace()**](https://www.geeksforgeeks.org/php-str_replace-function/)**方法–****str _ replace()**方法用于将字符串中的文本替换为另一个字符串。但是，该方法会比较上述字符串的大小写。如果没有找到任何匹配的旧字符串，则该字符串保持不变。
 
-```
+```php
 str_replace($oldString, $newString, $string)
 ```
 
@@ -20,7 +20,7 @@ str_replace($oldString, $newString, $string)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring a string variable
@@ -45,7 +45,7 @@ echo($final_str);
 
 **输出:**
 
-```
+```php
 Original String : Hi! This is geeksforgeeks
 Modified String : Hi! That is geeksforgeeks
 ```
@@ -54,7 +54,7 @@ Modified String : Hi! That is geeksforgeeks
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring a string variable
@@ -79,7 +79,7 @@ echo($final_str);
 
 **输出:**
 
-```
+```php
 Original String : Hi! This is geeksforgeeks
 Modified String : Hi!__This__is__geeksforgeeks
 ```
@@ -88,7 +88,7 @@ Modified String : Hi!__This__is__geeksforgeeks
 
 **语法:**
 
-```
+```php
 str_ireplace($oldString, $newString, $string)
 ```
 
@@ -100,7 +100,7 @@ str_ireplace($oldString, $newString, $string)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Declaring a string variable
@@ -126,7 +126,7 @@ echo($final_str);
 
 **输出:**
 
-```
+```php
 Original String : Hi! This is geeksforgeeks
 Modified String : Hi! This is GFG
 ```

@@ -6,11 +6,11 @@
 
 **语法：**
 
-```
+```php
 ROUND(X, D)
 ```
 
-```
+```php
 SELECT ROUND(column1), ... ROUND(column n)
 from TABLE;
 ```
@@ -29,7 +29,7 @@ PHP 是一种服务器端脚本语言，它与 MySQL 通信以管理数据库。
 
 **舍入 Parent_Salary 的 MySQL 查询：**
 
-```
+```php
 SELECT parent_salary, ROUND(parent_salary) FROM student;
 ```
 
@@ -44,7 +44,7 @@ SELECT parent_salary, ROUND(parent_salary) FROM student;
 
 **舍入学生分数的 MySQL 查询：**
 
-```
+```php
 SELECT name, ROUND(percentage) FROM student;
 ```
 
@@ -69,7 +69,7 @@ SELECT name, ROUND(percentage) FROM student;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Store the servername in a variable

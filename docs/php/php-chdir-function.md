@@ -6,7 +6,7 @@ PHP 中的 chdir()函数用于将 PHP 的当前目录更改为新的目录路径
 
 **语法:**
 
-```
+```php
 bool chdir(string $new_directory_path)
 
 ```
@@ -19,7 +19,7 @@ bool chdir(string $new_directory_path)
 
 **示例:**
 
-```
+```php
 Input : CWD: /home/
         chdir("gfg")
 Output : CWD: /home/gfg
@@ -44,7 +44,7 @@ Documents/folder_gfg/inside_folder_gfg'.
 
 **程序 1:**
 
-```
+```php
 <?php
 // To get current working directory
 echo getcwd() . "<br>";
@@ -59,7 +59,7 @@ echo getcwd();
 
 **输出:**
 
-```
+```php
 /var/www/html
 /var/www/html/testing_gfg
 
@@ -68,7 +68,7 @@ echo getcwd();
 最初当前的工作目录是“/var/www/html”。应用 chdir()函数后，当前工作目录改为“/var/www/html/testing_gfg”目录。同样，chdir()函数可以用来改变目录。
 **节目 2:**
 
-```
+```php
 <?php
 // To get current working directory
 echo getcwd() . "<br>";
@@ -83,7 +83,7 @@ echo getcwd();
 
 **输出:**
 
-```
+```php
 /home
 /home/GFG/Geeks
 

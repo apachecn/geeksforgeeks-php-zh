@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* SplObjectStorage::serialize()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new storage class
@@ -34,14 +34,14 @@ echo $str->serialize();
 
 **输出：**
 
-```
+```php
 x:i:1;O:8:"stdClass":0:{}, s:13:"GeeksforGeeks";;m:a:0:{}
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -64,7 +64,7 @@ echo( $gfg2->serialize()."\n");
 
 **输出：**
 
-```
+```php
 x:i:1;O:8:"stdClass":0:{}, s:5:"Geeks";;m:a:0:{}
 x:i:2;O:8:"stdClass":0:{}, s:3:"GFG";;O:8:"stdClass":0:{}, s:12:"GeeksClasses";;m:a:0:{}
 

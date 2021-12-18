@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ReflectionClass::export( *mixed* $argument, *bool* $return = FALSE)
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class Company
@@ -46,7 +46,7 @@ var_dump($A); 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Calling the export function on inbuilt ReflectionClass

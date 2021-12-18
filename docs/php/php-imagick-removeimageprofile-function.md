@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* Imagick::removeImageProfile( *string* $name )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -44,7 +44,7 @@ print("<pre>".print_r($profile, true)."</pre>");
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

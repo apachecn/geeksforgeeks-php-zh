@@ -7,7 +7,7 @@
 
 **语法：**
 
-```
+```php
 bool define(identifier, value, case-insensitivity)
 ```
 
@@ -24,7 +24,7 @@ bool define(identifier, value, case-insensitivity)
 
 ## PHP
 
-```
+```php
 <?php
 
   // case-insensitive constants
@@ -36,7 +36,7 @@ bool define(identifier, value, case-insensitivity)
 
 *   发帖主题：Re：Kolibrios
 
-```
+```php
 Hello Geeks!  // Case Insensitive thus value is echoed
 Hello Geeks!
 ```
@@ -45,7 +45,7 @@ Hello Geeks!
 
 ## PHP
 
-```
+```php
 <?php
 
   // case-sensitive constant
@@ -57,7 +57,7 @@ Hello Geeks!
 
 *   发帖主题：Re：Kolibrios
 
-```
+```php
 constant   // Case Sensitive thus value not echoed
 Hello Geeks! 
 ```

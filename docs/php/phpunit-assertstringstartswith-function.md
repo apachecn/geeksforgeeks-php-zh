@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertStringStartsWith(string $prefix, string $string
 [, string $message = ''])
 
@@ -24,7 +24,7 @@ assertStringStartsWith(string $prefix, string $string
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -56,7 +56,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

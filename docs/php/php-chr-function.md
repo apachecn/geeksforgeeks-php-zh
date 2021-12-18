@@ -11,7 +11,7 @@
 
 **语法**:
 
-```
+```php
 *string* chr( $asciiVal)
 ```
 
@@ -21,7 +21,7 @@
 
 示例:
 
-```
+```php
 Input :  ASCII=35 ASCII=043 ASCII=0x23
 Output : # # # 
 Explanation: The decimal, octal and hex value of '#' is 
@@ -36,7 +36,7 @@ Output : 0
 
 **程序 1:** 当传递不同的 ASCII 码但它们的等价字符相同时，演示 chr()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the chr() function
 
@@ -58,7 +58,7 @@ echo chr($n3); // Hex value
 
 输出:
 
-```
+```php
 The equivalent character for ASCII 35 in decimal is #
 The equivalent character for ASCII 043 in octal is #
 The equivalent character for ASCII 0x23 in hex is #
@@ -67,7 +67,7 @@ The equivalent character for ASCII 0x23 in hex is #
 
 **程序 2:** 用数组演示 chr()函数的程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the chr() function
 // in array 
@@ -85,7 +85,7 @@ foreach($a as $i)
 
 输出:
 
-```
+```php
 The character equivalent of ASCII value of 48 is 0
 The character equivalent of ASCII value of 49 is 1
 The character equivalent of ASCII value of 50 is 2

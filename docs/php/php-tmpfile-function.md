@@ -11,7 +11,7 @@ tmpfile()函数会自动删除使用 tmpfile()函数创建的临时文件。 对
 
 **语法：**
 
-```
+```php
 tmpfile()
 ```
 
@@ -25,7 +25,7 @@ tmpfile()
 
 **示例：**
 
-```
+```php
 Input :  $temp_pointer = tmpfile();
          fwrite($temp_pointer, 'temporary data');
          fclose(temp_pointer);
@@ -45,7 +45,7 @@ Output : Geeksforgeeks
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate tmpfile( ) Function
 
@@ -62,7 +62,7 @@ fclose(temp_pointer);
 
 **输出：**
 
-```
+```php
 1
 ```
 
@@ -70,7 +70,7 @@ fclose(temp_pointer);
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to illustrate tmpfile( ) Function
 
@@ -90,7 +90,7 @@ fclose($temp_pointer);
 
 **输出：**
 
-```
+```php
 GeeksforGeeks
 ```
 

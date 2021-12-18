@@ -6,7 +6,7 @@
 SimpleXMLElement：：getName()函数是 PHP 中的一个内置函数，它返回 XML 元素的名称。
 **语法：**和
 
-```
+```php
 *string* SimpleXMLElement::getName( void )
 ```
 
@@ -19,7 +19,7 @@ SimpleXMLElement：：getName()函数是 PHP 中的一个内置函数，它返�
 
 ## PHP
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -56,7 +56,7 @@ foreach($xml->children() as $child) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Loading XML document to $user

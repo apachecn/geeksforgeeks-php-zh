@@ -39,7 +39,7 @@
 
 **在终端上：**在终端上运行以下命令以安装 PHPSpreadsheet：
 
-```
+```php
 composer require phpoffice/phpspreadsheet
 ```
 
@@ -47,7 +47,7 @@ composer require phpoffice/phpspreadsheet
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('vendor/autoload.php');
@@ -82,7 +82,7 @@ $writer->save('gfg.xlsx');
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -102,7 +102,7 @@ var_dump($data);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(2) { 
     [0]=> int(1) 
     [1]=> array(1) { 

@@ -6,7 +6,7 @@ Imagick：：profileImage()函数是 PHP 中的一个内置函数，用于在图
 **关于 ICC 图像配置文件：**在色彩管理中，ICC 配置文件是根据国际色彩联盟(ICC)发布的标准描述色彩输入或输出设备或色彩空间的一组数据。 颜色空间是指颜色的特定组织。
 **语法：**和
 
-```
+```php
 *bool* Imagick::profileImage( $name, $profile )
 ```
 
@@ -22,7 +22,7 @@ Imagick：：profileImage()函数是 PHP 中的一个内置函数，用于在图
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an Imagick object

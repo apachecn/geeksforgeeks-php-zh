@@ -8,7 +8,7 @@
 
     **示例:**
 
-    ```
+    ```php
     <?php 
 
     // Class definition
@@ -40,7 +40,7 @@
 
     **Output:**
 
-    ```
+    ```php
     2
 
     ```
@@ -51,7 +51,7 @@
 
     **示例:**
 
-    ```
+    ```php
     <?php 
 
     // Class definition
@@ -85,7 +85,7 @@
 
     **Output:**
 
-    ```
+    ```php
     xyz
 
     ```

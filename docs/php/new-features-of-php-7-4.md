@@ -12,20 +12,20 @@
 
 **示例:**这些是添加的新功能及其工作原理的图示。
 
-```
+```php
 $prime = ['2', '5'];
 $all = ['1', '3', ...$prime, '7'];
 ```
 
 **输出:**
 
-```
+```php
 1, 3, 2, 5, 7
 ```
 
 **2。弱引用:**在 PHP 7.4 中，WeakReference 类允许我们保存到对象的链接。它不像 weakerf 扩展的 weakerf 类。由于这个特性，我们可以很容易地实现类似缓存的结构。
 
-```
+```php
 <?php
 class Cache {
 
@@ -66,7 +66,7 @@ class Cache {
 
 **示例:**只是一个伪实现。
 
-```
+```php
 $files = /* An array of files 
     that you want to preload */;
 
@@ -79,7 +79,7 @@ foreach ($files as $file) {
 
 **4。箭头函数:**它消除了之前的复杂性，因为使用匿名函数增加了 PHP 的复杂性。现在，这些特性允许我们使我们的代码更加简洁，并对其进行清理。这只是为了消除复杂性并简化代码。
 
-```
+```php
 // A collection of Post objects
 $posts = [/* … */];
 
@@ -90,7 +90,7 @@ $ids = array_map(function ($post) {
 
 在更新之前，我们必须编写上面提到的代码。
 
-```
+```php
 // A collection of Post objects
 $posts = [/* … */];
 
@@ -105,13 +105,13 @@ $ids = array_map(fn($post) => $post->id, $posts);
 
 **语法:**
 
-```
+```php
 public Exception::__toString( void ) : string
 ```
 
 **返回值:**是异常的字符串表示。
 
-```
+```php
 <?php
 try {
     throw new Exception("error");
@@ -123,7 +123,7 @@ try {
 
 **6。合并赋值运算符:**当我们必须将三元运算符与 **isset()函数**一起使用时，这非常有用。这使您能够返回第一个操作数(如果存在)，否则将返回第二个操作数。PHP 7 中引入了空合并相等运算符，以简化使用三元运算符的 isset()检查。
 
-```
+```php
 // Before the 7.4 release
 $data['username'] = $data['username'] ?? 'guest';
 
@@ -133,7 +133,7 @@ $data['username'] ??= 'guest';
 
 **7。数字文字分隔符:**数字文字可以在数字之间包含下划线。
 
-```
+```php
 6.674_083e-11; // float
 299_792_458;   // decimal
 0xCAFE_F00D;   // hexadecimal

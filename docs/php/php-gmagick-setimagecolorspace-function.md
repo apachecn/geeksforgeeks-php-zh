@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimagecolorspace( *int* $colorspace )
 ```
 
@@ -47,7 +47,7 @@
 
 **程序 1：**使图像灰显。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -67,7 +67,7 @@ echo $gmagick;
 
 **程序 2：**SRGB 色彩空间。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

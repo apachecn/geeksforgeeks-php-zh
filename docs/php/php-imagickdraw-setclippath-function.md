@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setClipPath( *string* $clip_mask )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -36,13 +36,13 @@ echo $draw->getClipPath();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 nameOfClipPath
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

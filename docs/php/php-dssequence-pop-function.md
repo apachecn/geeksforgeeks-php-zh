@@ -6,7 +6,7 @@ Ds\Sequence：：op()函数是 PHP 中的一个内置函数，它从 Sequence �
 
 **语法：**
 
-```
+```php
 *abstract public* Ds\Sequence::pop( void ) : mixed
 ```
 
@@ -18,7 +18,7 @@ Ds\Sequence：：op()函数是 PHP 中的一个内置函数，它从 Sequence �
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -42,7 +42,7 @@ var_dump($seq->pop());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

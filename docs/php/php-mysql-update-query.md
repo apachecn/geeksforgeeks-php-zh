@@ -19,7 +19,7 @@ MySQL**UPDATE**查询用于更新 MySQL 数据库表中的现有记录。
 
     **使用程序方法更新查询：**
 
-    ```
+    ```php
     <?php
     $link = mysqli_connect("localhost", "root", "", "Mydb");
 
@@ -48,7 +48,7 @@ MySQL**UPDATE**查询用于更新 MySQL 数据库表中的现有记录。
 
     **使用面向对象方法更新查询：**
 
-    ```
+    ```php
     <?php
     $mysqli = new mysqli("localhost", "root", "", "Mydb");
 
@@ -77,7 +77,7 @@ MySQL**UPDATE**查询用于更新 MySQL 数据库表中的现有记录。
 
     **使用 PDO 方法更新查询：**
 
-    ```
+    ```php
     <?php
     try{
         $pdo = new PDO("mysql:host=localhost;

@@ -8,7 +8,7 @@
 
 ****语法**:**
 
-```
+```php
 strpos($original_string,$sub_string);
 ```
 
@@ -26,7 +26,7 @@ strpos($original_string,$sub_string);
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 //input string
 $input_string = "sravan kumar author at geeks for geeks ";
@@ -48,7 +48,7 @@ else
 
 ****输出:****
 
-```
+```php
 True
 ```
 
@@ -56,7 +56,7 @@ True
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 //input string
 $input_string = "sravan kumar author at geeks for geeks ";
@@ -78,7 +78,7 @@ else
 
 ****输出:****
 
-```
+```php
 False
 ```
 
@@ -86,7 +86,7 @@ False
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 //input string
 $input_string = "geeks for geeks java python php";
@@ -108,7 +108,7 @@ else
 
 ****输出:****
 
-```
+```php
 True
 ```
 
@@ -116,7 +116,7 @@ True
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```php
 <?php
 //input string
 $input_string = "geeks for geeks java python php";
@@ -138,6 +138,6 @@ else
 
 ****输出:****
 
-```
+```php
 False
 ```

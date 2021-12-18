@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 date( format, timestamp )
 ```
 
@@ -19,7 +19,7 @@ date( format, timestamp )
 
 **程序:**
 
-```
+```php
 <?php 
 // PHP program to get the
 // current year
@@ -38,7 +38,7 @@ echo $year; 
 
 **Output:**
 
-```
+```php
 Current Year is :2019
 
 ```

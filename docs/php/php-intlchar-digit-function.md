@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::digit( $codepoint, $radix )
 ```
 
@@ -31,7 +31,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP code to illustrate IntlChar::digit()
@@ -56,7 +56,7 @@ var_dump(IntlChar::digit("9", 2));
 
 **Output:**
 
-```
+```php
 int(6)
 int(3)
 bool(false)
@@ -67,7 +67,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::digit()
 
@@ -86,7 +86,7 @@ foreach ($arr as $val){
 
 **Output:**
 
-```
+```php
 bool(false)
 NULL
 bool(false)

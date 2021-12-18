@@ -6,7 +6,7 @@ PHP 中的 arsort()用于根据值对数组进行排序。它的排序方式是�
 
 **语法:**
 
-```
+```php
 bool arsort( $array, $sorting_type )
 ```
 
@@ -21,7 +21,7 @@ bool arsort( $array, $sorting_type )
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // arsort() function
@@ -51,7 +51,7 @@ foreach ($arr as $key => $val) {
 
 **输出:**
 
-```
+```php
 [4] = Videos
 [7] = Sudo Placement
 [5] = Report Bug
@@ -65,7 +65,7 @@ foreach ($arr as $key => $val) {
 
 **程序二:**
 
-```
+```php
 <?php
 // PHP program to illustrate
 // arsort() function
@@ -94,7 +94,7 @@ foreach ($arr as $key => $val) {
 
 **输出:**
 
-```
+```php
 [q] = 88
 [p] = 77
 [o] = 55

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplFixedArray::rewind()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -46,7 +46,7 @@ echo $gfg->current(). "\n";
 
 **输出：**
 
-```
+```php
 10
 1
 
@@ -54,7 +54,7 @@ echo $gfg->current(). "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -89,7 +89,7 @@ while($i < 6) {
 
 **输出：**
 
-```
+```php
 1
 1
 1

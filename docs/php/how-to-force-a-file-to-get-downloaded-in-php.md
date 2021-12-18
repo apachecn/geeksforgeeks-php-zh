@@ -8,7 +8,7 @@
 
 *   **脚本:**这个脚本是**downloader.php**负责下载文件。
 
-    ```
+    ```php
     <?php
     if(isset($_REQUEST["file"])){
         // Get parameter and decode URL-encoded string
@@ -49,7 +49,7 @@
 
 *   **index.html****[url encode()功能](https://www.geeksforgeeks.org/php-urlencode-function/)** 作为一种安全措施，对 URL 中的文件路径进行编码。
 
-    ```
+    ```php
     <?php
 
     // Array containing sample pdf file names

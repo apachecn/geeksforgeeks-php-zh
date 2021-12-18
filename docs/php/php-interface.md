@@ -8,7 +8,7 @@
 
 以下是如何使用*interface*关键字定义接口的示例。
 
-```
+```php
 <?php 
 
 interface MyInterfaceName {
@@ -27,7 +27,7 @@ interface MyInterfaceName {
 
 要实现接口，请使用**实现**运算符，如下所示：
 
-```
+```php
 <?php
 
 class MyClassName implements MyInterfaceName{
@@ -46,7 +46,7 @@ class MyClassName implements MyInterfaceName{
 
 **具体类**：实现接口的类称为具体类。 它必须实现接口中定义的所有方法。 由于歧义错误，无法实现同名接口。 与任何类一样，可以使用**扩展**运算符扩展接口，如下所示：
 
-```
+```php
 <?php 
 
 interface MyInterfaceName1{
@@ -65,7 +65,7 @@ interface MyInterfaceName2 extends MyInterfaceName1{
 
 **示例**：
 
-```
+```php
 <?php 
 
 interface MyInterfaceName{
@@ -95,7 +95,7 @@ $obj->method2();
 
 **Output:**
 
-```
+```php
 Method1 Called
 Method2 Called
 

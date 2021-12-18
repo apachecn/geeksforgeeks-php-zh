@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Set::reduce ( callable $callback 
 [, mixed $initial ] )
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare new Set 
@@ -45,7 +45,7 @@ var_dump($set->reduce(function($carry, $element) { 
 
 **输出：**
 
-```
+```php
 Set Elements
 Ds\Set Object
 (
@@ -63,7 +63,7 @@ int(25)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare new Set
@@ -87,7 +87,7 @@ var_dump($set->reduce($func_gfg, 10)); 
 
 **输出：**
 
-```
+```php
 Original set elements
 Ds\Set Object
 (

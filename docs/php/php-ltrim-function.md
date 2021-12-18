@@ -6,7 +6,7 @@ Ltrim()函数是 PHP 中的一个内置函数，用于从字符串左侧删除�
 
 **语法：**
 
-```
+```php
 ltrim( $string, $charlist )
 ```
 
@@ -25,7 +25,7 @@ ltrim( $string, $charlist )
 
 例如：
 
-```
+```php
 Input : $string = "            Geeks for Geeks"
 Output : Geeks for Geeks
 
@@ -38,7 +38,7 @@ Output : Geeks for Geeks
 
 **程序 1：**此程序显示如何使用 ltrim()函数，而不使用任何指定的要删除的字符列表。
 
-```
+```php
 <?php
 
 $string = "            Geeks for Geeks";
@@ -50,13 +50,13 @@ echo "Contribute to ".ltrim($string);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Contribute to Geeks for Geeks
 ```
 
 **程序 2：**此程序显示如何使用 ltrim()函数以及指定的要删除的字符列表。
 
-```
+```php
 <?php
 
 $string = "!!! (( !!)) Geeks for Geeks";
@@ -71,7 +71,7 @@ echo ltrim($string, "! ()");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Geeks for Geeks
 ```
 

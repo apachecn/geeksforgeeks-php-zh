@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 dns_get_record($host, $type, $authoritative, $additional, $raw);
 ```
 
@@ -48,7 +48,7 @@ dns_get_record($host, $type, $authoritative, $additional, $raw);
 
 ## PHP
 
-```
+```php
 <?php
 print_r(dns_get_record("geeksforgeeks.org", DNS_MX));
 ?>
@@ -62,7 +62,7 @@ print_r(dns_get_record("geeksforgeeks.org", DNS_MX));
 
 ## PHP
 
-```
+```php
 <?php
 $res=dns_get_record("geeksforgeeks.org", DNS_MX);
 foreach($res as $ar){
@@ -84,7 +84,7 @@ foreach($res as $ar){
 
 ## PHP
 
-```
+```php
 <?php
 $domain="geeksforgeeks.org";
 single_type_dns_get_record($domain, DNS_A);

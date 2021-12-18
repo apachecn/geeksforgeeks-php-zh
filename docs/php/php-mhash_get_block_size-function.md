@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 int mhash_get_block_size( int $hash )
 ```
 
@@ -20,7 +20,7 @@ int mhash_get_block_size( int $hash )
 
 ## PHP
 
-```
+```php
 <?php
 
 $maxHashCount = mhash_count();

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *string* ArrayObject::serialize( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序:**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // ArrayObject::serialize() function 
@@ -47,7 +47,7 @@ var_dump($serialize2); 
 
 **输出:**
 
-```
+```php
 string(113) "C:11:"ArrayObject":89:{
     x:i:0;a:3:{
         s:1:"a";s:7:"Welcome";

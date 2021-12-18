@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::clear( *void* )
 ```
 
@@ -19,7 +19,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**ImagickDraw：：Clear()函数**
 
-```
+```php
 <?php
 
 //Create a new Imagick object
@@ -64,7 +64,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 //Create a new Imagick object
@@ -99,7 +99,7 @@ echo $imagick->getImageBlob();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will throw ImagickException because $draw is emptied by clear(), thus cannot be drawn.
 ```
 

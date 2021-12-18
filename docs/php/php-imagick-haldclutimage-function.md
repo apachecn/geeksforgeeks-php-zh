@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::haldClutImage( $clut, $channel )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php'); 
@@ -52,7 +52,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // require_once('path/vendor/autoload.php');

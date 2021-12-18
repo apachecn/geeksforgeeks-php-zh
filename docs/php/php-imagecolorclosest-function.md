@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorclosest( $image, $red, $green, $blue )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Start with an image and convert it to a palette-based image
@@ -50,7 +50,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Start with an image and convert it to a palette-based image

@@ -17,7 +17,7 @@ FPDF 是一个 PHP 类，允许使用 PHP 代码生成 PDF 文件。 它是免�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 require('fpdf.php');
@@ -54,7 +54,7 @@ $pdf->Output();
 
 **程序 2：**设置页眉和页脚以及换行符
 
-```
+```php
 <?php
 require('fpdf.php');
 

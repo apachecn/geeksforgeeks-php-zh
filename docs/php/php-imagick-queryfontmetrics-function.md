@@ -6,7 +6,7 @@ Imagick：：queryFontMetrics()函数是 PHP 中的一个内置函数，用于�
 
 **语法：**
 
-```
+```php
 *array* Imagick::queryFontMetrics( $properties, $text, $multiline )
 ```
 
@@ -22,7 +22,7 @@ Imagick：：queryFontMetrics()函数是 PHP 中的一个内置函数，用于�
 
 **Program：**此示例返回文本内容“GeeksForGeek”的字体属性。
 
-```
+```php
 <?php
 /* Create a new Imagick object */
 $im = new Imagick();

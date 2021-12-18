@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLReader::open( *string* $URI, *string* $encoding, *int* $options )
 ```
 
@@ -26,7 +26,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <body>
         <h1 attrib="value"> Hello </h1>
@@ -35,7 +35,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -60,7 +60,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     value
     ```
 
@@ -68,7 +68,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <body>
         <h1> GeeksforGeeks </h1>
@@ -77,7 +77,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -99,7 +99,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     GeeksforGeeks
     ```
 

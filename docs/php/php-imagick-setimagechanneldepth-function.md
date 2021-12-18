@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageChannelDepth( $channel, $depth )
 ```
 
@@ -40,7 +40,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -62,7 +62,7 @@ echo $im->getImageChannelDepth(imagick::CHANNEL_RED) . "</br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before Set Channel depth:
 8
 After Set Channel depth:
@@ -75,7 +75,7 @@ After Set Channel depth:
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 $string = "Computer Science portal for Geeks!"; 
@@ -115,7 +115,7 @@ echo $im->getImageChannelDepth(imagick::CHANNEL_GREEN) . "</br>";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before Set Channel depth:
 16
 After Set Channel depth:

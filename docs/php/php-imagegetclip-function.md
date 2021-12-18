@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickDraw::imagegetclip( *resource* $image )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create an image
@@ -35,7 +35,7 @@ print("<pre>".print_r(imagegetclip($im),
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an image

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```php
 *float* atan2($y, $x)
 ```
 
@@ -20,7 +20,7 @@
 
 示例:
 
-```
+```php
 Input : atan2(0.50, 0.50)
 Output : 0.78539816339745
 
@@ -39,7 +39,7 @@ Output : 0.46364760900081
 
 *   When (0.50, 0.50) is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan2(0.50, 0.50));
@@ -49,13 +49,13 @@ Output : 0.46364760900081
 
     输出:
 
-    ```
+    ```php
     0.78539816339745
     ```
 
 *   When (-0.50, -0.50) is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan2(-0.50, -0.50));
@@ -65,13 +65,13 @@ Output : 0.46364760900081
 
     输出:
 
-    ```
+    ```php
     -2.3561944901923
     ```
 
 *   When (5, 5) is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan2(5, 5));
@@ -81,13 +81,13 @@ Output : 0.46364760900081
 
     输出:
 
-    ```
+    ```php
     0.78539816339745
     ```
 
 *   When (10, 20) is passed as a parameter:
 
-    ```
+    ```php
     <?php
 
     echo (atan2(10, 20));
@@ -97,7 +97,7 @@ Output : 0.46364760900081
 
     输出:
 
-    ```
+    ```php
     0.46364760900081
     ```
 

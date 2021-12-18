@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionClass::getInterfaces( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining some interfaces
@@ -43,7 +43,7 @@ print_r($B);
 
 **输出：**
 
-```
+```php
 Array
 (
     [Colleges] => ReflectionClass Object
@@ -72,7 +72,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Using ReflectionClass 
@@ -88,7 +88,7 @@ var_dump($A);
 
 **输出：**
 
-```
+```php
 array(1) {
   ["Reflector"]=>
   object(ReflectionClass)#2 (1) {

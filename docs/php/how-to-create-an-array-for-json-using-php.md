@@ -16,7 +16,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // Create an array that contains another
@@ -46,7 +46,7 @@
 
 **Output:** 
 
-```
+```php
 [{"name":"Pankaj Singh","age":"20"},
 {"name":"Arun Yadav","age":"21"},
 {"name":"Apeksha Jaiswal","age":"20"}]
@@ -56,7 +56,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // Declare two dimensional associative
@@ -86,7 +86,7 @@
 
 **Output:** 
 
-```
+```php
 {"first":{"id":1,"product_name":"Doorbell","cost":199},
 "second":{"id":2,"product_name":"Bottle","cost":99},
 "third":{"id":3,"product_name":"Washing Machine","cost":7999}}

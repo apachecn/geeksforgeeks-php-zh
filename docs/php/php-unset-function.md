@@ -8,7 +8,7 @@ Unset()函数是 PHP 中的内置函数，用于取消设置指定的变量。 �
 
 **语法**
 
-```
+```php
 unset($variable)
 ```
 
@@ -22,7 +22,7 @@ unset($variable)
 
 **程序 1：**
 
-```
+```php
 <?php
 
       $var = "hello";
@@ -40,14 +40,14 @@ unset($variable)
 
 外部：
 
-```
+```php
 hello
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
       $var = "hello";
@@ -65,14 +65,14 @@ hello
 
 产出：
 
-```
+```php
 No Output
 
 ```
 
 **程序 3：**
 
-```
+```php
 <?php
 
       // user-defined function
@@ -102,7 +102,7 @@ No Output
 
 产出：
 
-```
+```php
 Before unset:1 After unset:5
 Before unset:2 After unset:5
 Before unset:3 After unset:5

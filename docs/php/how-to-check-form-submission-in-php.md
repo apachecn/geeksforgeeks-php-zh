@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 if (!empty($_POST))
 if (isset($_POST['submit']))
 ```
@@ -20,7 +20,7 @@ if (isset($_POST['submit']))
 
 在这一步中，首先制作一个 html 表单，检查它是否被正确提交。所以用*表单*标签做表单只是基础编程。使用 action 属性将请求发送到另一个 PHP 文件。该方法用于获取信息或发布表单中输入的信息。
 
-```
+```php
 <!DOCTYPE html>
 <html>
     <head>
@@ -53,7 +53,7 @@ if (isset($_POST['submit']))
 
 使用 PHP 中的 *isset()* 方法测试表单提交成功与否。在代码中，使用 isset()函数检查 *$_POST['提交']* 方法。记住定义提交按钮的名称来代替提交。点击提交按钮后，此操作将作为开机自检方法。
 
-```
+```php
 <?php
 
 if (isset($_POST['submit'])) {
@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
 
 **示例:**
 
-```
+```php
 <!DOCTYPE html>
 <html>
     <head>

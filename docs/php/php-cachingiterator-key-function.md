@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *scalar* CachingIterator::key( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Declare an array
@@ -39,7 +39,7 @@ foreach($cachIt as $element) {
 
 **输出:**
 
-```
+```php
 0
 1
 2
@@ -50,7 +50,7 @@ foreach($cachIt as $element) {
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Declare an ArrayIterator
@@ -79,7 +79,7 @@ foreach($cachIt as $element) {
 
 **输出:**
 
-```
+```php
 key: a  Value: Geeks
 key: b  Value: for
 key: c  Value: Geeks

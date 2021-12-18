@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 jewishtojd( $month, $day, $year) 
 ```
 
@@ -20,7 +20,7 @@ jewishtojd( $month, $day, $year)
 
     例如：
 
-    ```
+    ```php
     Input : $month=4, $day=8, $year=13
     Output : 352465
 
@@ -33,7 +33,7 @@ jewishtojd( $month, $day, $year)
 
     **程序 1：**下面的程序演示了 jesishtojd()函数的用法。
 
-    ```
+    ```php
     <?php
     // PHP program to demonstrate the
     // use of jewishtojd() function 
@@ -48,13 +48,13 @@ jewishtojd( $month, $day, $year)
 
     产出：
 
-    ```
+    ```php
     352465
     ```
 
     **程序 2：**下面的程序演示了日和月超出范围时的情况。
 
-    ```
+    ```php
     <?php
     // PHP program to demonstrate the
     // use of jewishtojd() function 
@@ -74,7 +74,7 @@ jewishtojd( $month, $day, $year)
 
     产出：
 
-    ```
+    ```php
     0
     0
     ```

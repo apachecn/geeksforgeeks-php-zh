@@ -5,7 +5,7 @@
 **Ds\Deque：：find()**函数是 PHP 中的一个内置函数，用于查找在 Deque 中找到的 Deque if 元素中的元素的索引。
 **语法：**和
 
-```
+```php
 *public* Ds\Deque::find( $value ) : mixed
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -39,7 +39,7 @@ print_r($deck->find(3));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (
@@ -57,7 +57,7 @@ Index of 3 in the deque: 2
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -79,7 +79,7 @@ var_dump($deck->find("ABC"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (

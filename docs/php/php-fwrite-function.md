@@ -6,7 +6,7 @@ PHP 中的 fwrite()函数是一个内置函数，用于写入打开的文件。 
 
 **语法：**
 
-```
+```php
 fwrite(file, string, length)
 ```
 
@@ -25,7 +25,7 @@ fwrite(file, string, length)
 
 **示例：**
 
-```
+```php
 Input : $myfile = fopen("gfg.txt", "w");
         echo fwrite($myfile, "Geeksforgeeks is a portal for geeks!");
         fclose($myfile);
@@ -44,7 +44,7 @@ Output : 23
 
 **程序 1**：
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "w");
@@ -61,7 +61,7 @@ fclose($myfile);
 
 **程序 2**：
 
-```
+```php
 <?php
 // Opening a file
 $myfile = fopen("gfg.txt", "w");

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageClipMask( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create two new imagick objects
@@ -49,7 +49,7 @@ echo $getclipMask->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create two new imagick objects
 $imagick = new Imagick(

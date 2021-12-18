@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::orderedPosterizeImage( $threshold_map, $channel )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序：**
 
-```
+```php
 ?php
 
 // Create an Imagick object

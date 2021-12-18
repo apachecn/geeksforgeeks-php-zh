@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```php
 *string* password_hash(string $password, 
           mixed $algo, [array $options])
 ```
@@ -32,7 +32,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
   // The plain text password to be hashed
@@ -56,7 +56,7 @@
 
 **语法:**
 
-```
+```php
 *bool* password_verify(string $password, string $hash)
 ```
 
@@ -64,7 +64,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
   // Plaintext password entered by the user
@@ -88,7 +88,7 @@
 
 **输出:**
 
-```
+```php
 Password Verified!
 ```
 

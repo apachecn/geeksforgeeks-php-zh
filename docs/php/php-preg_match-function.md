@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 int preg_match( $pattern, $input, $matches, $flags, $offset )
 ```
 
@@ -26,7 +26,7 @@ int preg_match( $pattern, $input, $matches, $flags, $offset )
 
 **示例 1：**此示例接受 PREG_OFFSET_CAPTURE 标志。
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -43,7 +43,7 @@ print_r($matches);
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => Array
@@ -76,7 +76,7 @@ Array
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Declare a variable and initialize it
@@ -93,7 +93,7 @@ else
 
 **输出：**
 
-```
+```php
 Matched!
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 break number_of_nested_loop_to_terminate;
 ```
 
@@ -14,7 +14,7 @@ break number_of_nested_loop_to_terminate;
 
 **示例:**
 
-```
+```php
 break 2; // It terminates second outer loop
 break 3; // It terminates third outer loop
 break $num; // Variable cannot be used as numeric argument since version 5.4.0
@@ -26,7 +26,7 @@ break 0; // 0 is not a valid argument to pass
 
 **程序 1:** PHP 程序，在不终止内部循环的情况下显示数字。
 
-```
+```php
 <?php
 
 // Initialize a number
@@ -56,14 +56,14 @@ for( $i = 0; $i < 10; $i++ ) {
 
 **Output:**
 
-```
+```php
 1 2 3
 
 ```
 
 **程序 2:** PHP 程序，在数组中搜索一个数字，找到后打破外循环。
 
-```
+```php
 <?php
 
 // Create a 2D array
@@ -106,7 +106,7 @@ else
 
 **Output:**
 
-```
+```php
 45 is found in the array
 
 ```
@@ -115,7 +115,7 @@ else
 
 **程序 3:** PHP 程序使用 goto 关键字打破外循环。
 
-```
+```php
 <?php
 
 // Create a 2D array
@@ -162,7 +162,7 @@ else
 
 **Output:**
 
-```
+```php
 45 is found in the array
 
 ```

@@ -6,7 +6,7 @@ Shuffle()函数是 PHP 中的一个内置函数，用于对数组中元素的顺
 
 **语法：**
 
-```
+```php
 *boolean* shuffle($array)
 ```
 
@@ -18,7 +18,7 @@ Shuffle()函数是 PHP 中的一个内置函数，用于对数组中元素的顺
 
 例如：
 
-```
+```php
 Input:- array("a"=>"Ram", 
               "b"=>"Shita", 
               "c"=>"Geeta", 
@@ -37,7 +37,7 @@ Explanation: Here as we can see that input contain elements
 
 ## PHP
 
-```
+```php
 <?php
 
 // input array contain some elements which
@@ -58,7 +58,7 @@ print_r($a);
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => geeksforgeeks
@@ -72,7 +72,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 
 // input array contain some elements
@@ -94,7 +94,7 @@ print_r($a);
 
 **输出：**
 
-```
+```php
 Array
 (
     [0] => red

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageAlphaChannel( *void* )
 ```
 
@@ -31,7 +31,7 @@ ALPHACHANNEL 常量列表如下：
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object with a PNG image
@@ -49,7 +49,7 @@ echo $alphaChannel;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object with a PNG image

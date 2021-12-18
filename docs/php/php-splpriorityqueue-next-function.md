@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 void SplPriorityQueue::next()
 ```
 
@@ -18,7 +18,7 @@ void SplPriorityQueue::next()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -58,7 +58,7 @@ while($obj->valid()){
 
 **OUTPUT**
 
-```
+```php
 G G4G Geeks GFG 
 ```
 

@@ -5,7 +5,7 @@
 SplFileInfo：：getGroup()函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于获取文件组。
 **语法：**和
 
-```
+```php
 *int* SplFileInfo::getGroup( void)
 ```
 
@@ -17,7 +17,7 @@ SplFileInfo：：getGroup()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 ## PHP
 
-```
+```php
 <?php
 // PHP Program to illustrate
 // Splfileinfo getGroup function
@@ -33,7 +33,7 @@ print_r($file->getGroup());
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 0
 ```
 
@@ -41,7 +41,7 @@ print_r($file->getGroup());
 
 ## PHP
 
-```
+```php
 <?php
 
 // PHP program to use array to check multiple files
@@ -67,7 +67,7 @@ foreach ($GFG as $file_name) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1000
 ```
 

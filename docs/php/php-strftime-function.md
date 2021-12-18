@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 strftime( $format, $timestamp ) 
 ```
 
@@ -21,7 +21,7 @@ strftime( $format, $timestamp )
 
 ## PHP
 
-```
+```php
 <?php
 
 // This program prints the current day
@@ -32,7 +32,7 @@ echo strftime("%A");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Thursday
 ```
 
@@ -148,7 +148,7 @@ Thursday
 
 ## PHP
 
-```
+```php
 <?php
 
 // Displays the date
@@ -161,7 +161,7 @@ echo strftime("   %I:%M  %p", strtotime("21:34"));
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 03, January, 2004 09:34 PM
 ```
 
@@ -169,7 +169,7 @@ echo strftime("   %I:%M  %p", strtotime("21:34"));
 
 ## PHP
 
-```
+```php
 <?php
 
 // Setting locale to german
@@ -184,7 +184,7 @@ echo strftime(" and the current english time is %r");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 The current german time is 22:14:20 and the current english time is 10:14:20 PM
 ```
 

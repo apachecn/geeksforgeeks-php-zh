@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::profileimage( *float* $name, *float* $profile )
 ```
 
@@ -26,7 +26,7 @@
 
 **程序 1(添加配置文件)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -42,13 +42,13 @@ echo $gmagick->getimageprofile('my_profile_name'); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 my_profile_value
 ```
 
 **程序 2(删除配置文件)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -70,7 +70,7 @@ try {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 No such profile exists
 ```
 

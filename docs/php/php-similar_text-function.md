@@ -8,7 +8,7 @@ similar_text()函数是 PHP 中的内置函数。 此函数计算两个字符串
 
 **语法：**
 
-```
+```php
 similar_text( $string1, $string2, $percent)
 ```
 
@@ -21,7 +21,7 @@ similar_text( $string1, $string2, $percent)
 
 例如：
 
-```
+```php
 Input : $string1 = "code", $string2 = "coders"
 Output : 4 (80 %)
 
@@ -34,7 +34,7 @@ Output : 5 (58.823529411765 %)
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $sim = similar_text("hackers", "hackathons", $percent);
@@ -50,7 +50,7 @@ echo "Percentage of similar characters : $percent\n";
 
 输出
 
-```
+```php
 Number of similar characters : 5
 Percentage of similar characters : 58.823529411765>
 
@@ -58,7 +58,7 @@ Percentage of similar characters : 58.823529411765>
 
 **程序 2：**此程序将突出显示函数的区分大小写。
 
-```
+```php
 <?php
 
 $output = similar_text("geeks for geeks",
@@ -75,7 +75,7 @@ echo "Percentage of similar characters : $percent\n";
 
 产出：
 
-```
+```php
 Number of similar characters : 13
 Percentage of similar characters : 86.666666666667
 
@@ -83,7 +83,7 @@ Percentage of similar characters : 86.666666666667
 
 **程序 3：**传递字符串的顺序非常重要。 改变变量会产生不同的结果。
 
-```
+```php
 <?php
 
 $output1 = similar_text("with mysql", "php is best");
@@ -101,7 +101,7 @@ echo "Number of similar characters : $output2\n";
 
 产出：
 
-```
+```php
 Number of similar characters : 2
 Number of similar characters : 3
 

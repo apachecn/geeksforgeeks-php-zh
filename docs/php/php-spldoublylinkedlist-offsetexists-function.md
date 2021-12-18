@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplDoublyLinkedList::offsetExists( $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -44,7 +44,7 @@ var_dump($list->offsetExists(10));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 
@@ -52,7 +52,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare an empty SplDoublyLinkedList
@@ -77,7 +77,7 @@ var_dump($list->offsetExists(15));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 

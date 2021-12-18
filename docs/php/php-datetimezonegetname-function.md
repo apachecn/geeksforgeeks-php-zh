@@ -6,7 +6,7 @@ DateTimeZone：：getName()函数是 PHP 中的一个内置函数，用于返回
 
 **语法：**
 
-```
+```php
 DateTimeZone::getName()
 
 ```
@@ -19,7 +19,7 @@ DateTimeZone::getName()
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeZone::getName()
 // function
@@ -38,14 +38,14 @@ print_r($DatetimeZone->getName()); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Asia/Kolkata
 
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 // PHP program to illustrate DateTimeZone::getName()
 // function
@@ -61,7 +61,7 @@ print_r($DatetimeZone->getName()); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Asia/Singapore
 
 ```

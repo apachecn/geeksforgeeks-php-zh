@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::isEmpty( void ) : bool
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -39,7 +39,7 @@ var_dump($deck->isEmpty());
 
 **输出：**
 
-```
+```php
 Original Deque
 Ds\Deque Object
 (
@@ -56,7 +56,7 @@ bool(false)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -79,7 +79,7 @@ var_dump($deck->isEmpty());
 
 **输出：**
 
-```
+```php
 Original Deque
 Ds\Deque Object
 (

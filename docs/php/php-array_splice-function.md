@@ -6,7 +6,7 @@ PHP 的这个内置函数是 [array_slice()](https://www.geeksforgeeks.org/php-a
 
 **语法:**
 
-```
+```php
 *array* array_splice($array1, $start_point, $range, $array2)
 ```
 
@@ -21,7 +21,7 @@ PHP 的这个内置函数是 [array_slice()](https://www.geeksforgeeks.org/php-a
 
 下面的程序说明了 PHP 中的 array_splice()函数:
 
-```
+```php
 <?php
 
 // PHP program to illustrate the use 
@@ -43,7 +43,7 @@ print_r($array1);
 
 输出:
 
-```
+```php
 The returned array: 
 Array
 (

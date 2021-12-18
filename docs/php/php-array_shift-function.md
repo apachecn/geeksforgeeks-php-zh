@@ -6,7 +6,7 @@ PHP 的这个内置函数从数组中移除第一个元素，并返回被移除�
 
 **语法**:
 
-```
+```php
 array_shift($array)
 ```
 
@@ -16,7 +16,7 @@ array_shift($array)
 
 **示例:**
 
-```
+```php
 Input : $array = ("ram"=>2, "aakash"=>4, "saran"=>5, "mohan"=>100)
 Output : 2
 
@@ -27,7 +27,7 @@ Output :45
 
 在这个程序中，我们将看到这个函数在 key_value 对数组中是如何工作的。
 
-```
+```php
 <?php
 // PHP function to illustrate the use of array_shift()
 function Shifting($array)
@@ -43,7 +43,7 @@ Shifting($array);
 
 输出:
 
-```
+```php
 2
 Array
 (
@@ -55,7 +55,7 @@ Array
 
 现在让我们看看函数是如何处理默认键的。
 
-```
+```php
 <?php
 // PHP function to illustrate the use of array_shift()
 function Shifting($array)
@@ -71,7 +71,7 @@ Shifting($array);
 
 输出:
 
-```
+```php
 45
 Array
 (

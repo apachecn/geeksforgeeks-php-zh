@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMElement::removeAttributeNS( *string* $namespaceURI, *string* $localName )
 ```
 
@@ -23,7 +23,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -78,7 +78,7 @@ foreach ($nodes as $node) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

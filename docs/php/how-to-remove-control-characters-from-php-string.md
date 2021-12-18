@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```php
 Input: str = "\0\eGeeks\t\e\tfor\v\vGeeks"
 Output: GeeksforGeeks
 
@@ -30,7 +30,7 @@ Output: GeeksforGeeks
 
 *   **程序:**
 
-    ```
+    ```php
     <?PHP 
 
     // PHP program to remove all control 
@@ -51,7 +51,7 @@ Output: GeeksforGeeks
 
 *   **输出:**
 
-    ```
+    ```php
     GeeksforGeeks
     ```
 
@@ -59,7 +59,7 @@ Output: GeeksforGeeks
 
 *   **程序:**
 
-    ```
+    ```php
     <?PHP 
 
     // PHP program to remove all control 
@@ -80,6 +80,6 @@ Output: GeeksforGeeks
 
 *   **输出:**
 
-    ```
+    ```php
     GeeksforGeeks
     ```

@@ -14,7 +14,7 @@
 *   PHP5 及以上
 *   通过取消对行
 
-    ```
+    ```php
     extension=mbstring
     ```
 
@@ -24,7 +24,7 @@
 
 请下载以下链接并将其保存到您的工作文件夹中，以便在您的 PHP 代码中包含所需的文件或库。PHP 脸书软件开发工具包非常容易实现，允许开发人员访问 Facebook 图形应用编程接口。
 
-```
+```php
 https://github.com/facebookarchive/php-graph-sdk
 ```
 
@@ -45,7 +45,7 @@ https://github.com/facebookarchive/php-graph-sdk
 
 **PHP 代码:**下面的示例代码演示了，如何使用 FaceBook SDK 访问当前用户名并打印出来，以及使用 PHP 的 Graph API。
 
-```
+```php
 <?php
  require_once 'facebook-graph-sdk/src/Facebook/Facebook.php'; 
  require_once 'facebook-graph-sdk/src/Facebook/autoload.php';
@@ -98,7 +98,7 @@ echo 'Logged in as (username) : ' . $me->getName().'<br/>';
 
 **输出:**FaceBook 用户名打印在以下输出文本“用户名”中。
 
-```
+```php
   Logged in as (username) : "User name"
 
 ```

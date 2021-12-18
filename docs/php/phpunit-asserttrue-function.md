@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertTrue(bool $condition[, string $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertTrue(bool $condition[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -52,7 +52,7 @@ S
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

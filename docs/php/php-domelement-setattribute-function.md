@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMAttr* DOMElement::setAttribute( *string* $name, *string* $value )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -45,7 +45,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <p style="color:red">Hello, this is my paragraph.</p>
 ```
@@ -54,7 +54,7 @@ echo $dom->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -91,7 +91,7 @@ echo 'No of attributes => ' . $attributeCount;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before the addition of attributes:
 No of attributes => 1
 After the addition of attributes:

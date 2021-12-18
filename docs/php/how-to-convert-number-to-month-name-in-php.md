@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```php
 int mktime( $hour, $minute, $second, $month, $day, $year, $is_dst)
 ```
 
 **例:**
 
-```
+```php
 <?php
 // PHP program to convert number to month name
 
@@ -33,7 +33,7 @@ echo $month_name."\n";
 
 **输出:**
 
-```
+```php
 December
 
 ```

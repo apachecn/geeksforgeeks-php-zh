@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* DOMCdataSection::__construct( *string* $value )
 ```
 
@@ -16,7 +16,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -38,7 +38,7 @@ echo $dom->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document

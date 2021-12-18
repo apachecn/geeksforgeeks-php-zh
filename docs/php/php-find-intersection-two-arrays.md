@@ -6,7 +6,7 @@
 
 示例：
 
-```
+```php
 Input : array1[] = {3, 5, 2, 7, 9}, 
         array2[] = {4, 3, 2, 7, 8}
 Output : array (
@@ -28,7 +28,7 @@ Output : array (
 
 **注意：**由于 array_intersect()返回具有保留键的数组，因此我们将使用 array_values()，它将对键进行重新排序。
 
-```
+```php
 // find intersect of both array
 $result = array_intersect($array1, $array2);
 
@@ -40,7 +40,7 @@ print_r($result);
 
 ```
 
-```
+```php
 <?php
 // declare arrays
 $array1 = array(2, 5, 7, 6, 9);
@@ -59,7 +59,7 @@ print_r($result);
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => 2

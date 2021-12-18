@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```php
 Input : 21
 Output : Not Prime
 
@@ -22,7 +22,7 @@ Output : Prime
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP code to check whether a number is prime or Not
 // function to check the number is Prime or Not
@@ -48,7 +48,7 @@ else
 
 输出:
 
-```
+```php
 Prime
 ```
 
@@ -62,7 +62,7 @@ Prime
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP code to check whether a number is prime or Not
 // function to check the number is Prime or Not
@@ -89,7 +89,7 @@ else
 
 输出:
 
-```
+```php
 Prime
 ```
 

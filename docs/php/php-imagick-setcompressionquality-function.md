@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setCompressionQuality( *int* $quality )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -37,13 +37,13 @@ echo $compressionQuality;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 25
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

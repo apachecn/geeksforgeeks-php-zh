@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // PHP program to illustrate echo
@@ -22,7 +22,7 @@ echo $x, $y;
 
 **Output:**
 
-```
+```php
 GeeksforGeeks Computer science portal
 
 ```
@@ -30,7 +30,7 @@ GeeksforGeeks Computer science portal
 **打印:**不是实函数。它是一个语言构造，但总是返回值 1。所以可以作为一种表达。与 echo 不同，print 一次只接受一个参数。它不能在 PHP 中用作变量函数。打印只输出字符串。它比回声慢。
 T3】例:
 
-```
+```php
 <?php
 
 // PHP program to illustrate echo
@@ -45,7 +45,7 @@ print $x;
 
 **Output:**
 
-```
+```php
 GeeksforGeeks
 
 ```

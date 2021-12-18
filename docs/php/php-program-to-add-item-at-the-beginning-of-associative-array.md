@@ -8,7 +8,7 @@
 
 **示例：**
 
-```
+```php
 <?php
 
 // Existing array
@@ -25,7 +25,7 @@ print_r($arr);
 
 **Output:**
 
-```
+```php
 Array
 (
     [one] => 1
@@ -42,7 +42,7 @@ Array
 
 **语法：**
 
-```
+```php
 *array* array_merge( $arr1, $arr2 )
 ```
 
@@ -50,13 +50,13 @@ Array
 
 **语法：**
 
-```
+```php
 $arr3 = $arr1 + $arr2
 ```
 
 **程序：**在关联数组开头添加新项的 PHP 程序。
 
-```
+```php
 <?php
 
 // Adding a new element at the beginning of an array
@@ -88,7 +88,7 @@ print_r($arr3);
 
 **Output:**
 
-```
+```php
 Result of array union(+) : Array
 (
     [zero] => 0

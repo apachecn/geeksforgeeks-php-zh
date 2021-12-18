@@ -26,7 +26,7 @@
 
 **HTML 代码:**
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -73,7 +73,7 @@
 
 *   **例:**
 
-    ```html
+    ```phphtml
     <?php
     if (isset($_POST['submit']))
     {

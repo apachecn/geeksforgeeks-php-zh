@@ -8,7 +8,7 @@ PHP 没有任何检测搜索引擎僵尸工具的内置功能。但是，以下�
 
 **示例:**
 
-```
+```php
 <?php
 
 function is_bot($system) {
@@ -39,7 +39,7 @@ echo is_bot('Googlebot');
 
 **输出:**
 
-```
+```php
 1
 ```
 

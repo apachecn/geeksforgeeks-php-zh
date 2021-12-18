@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *SimpleXMLElement* simplexml_import_dom( $node, $class_name = "SimpleXMLElement" )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an instance of DOMDocument
@@ -51,7 +51,7 @@ var_dump($doc->contact[0]->mobile);
 
 **输出：**
 
-```
+```php
 object(SimpleXMLElement)#3 (1) {
   [0]=>
   string(21) "abc@geeksforgeeks.org"

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* FilesystemIterator::next( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new file system iterator
@@ -45,7 +45,7 @@ while ($fileItr->valid()) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new file system iterator

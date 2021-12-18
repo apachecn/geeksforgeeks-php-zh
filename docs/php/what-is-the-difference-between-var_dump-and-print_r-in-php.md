@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 void var_dump ($expression)
 ```
 
@@ -22,7 +22,7 @@ void var_dump ($expression)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Using var_dump function on
@@ -36,7 +36,7 @@ var_dump(var_dump(45, 62.1, TRUE, 
 
 **输出:**
 
-```
+```php
 int(45) float(62.1) bool(true) string(6) "sravan" array(6) 
 { [0]=> int(1) [1]=> int(2) [2]=> int(3) 
   [3]=> int(4) [4]=> int(5) [5]=> int(6) } NULL
@@ -46,7 +46,7 @@ int(45) float(62.1) bool(true) string(6) "sravan" array(6)
 
 **语法:**
 
-```
+```php
 print_r( $variable, $isStore )
 ```
 
@@ -61,7 +61,7 @@ print_r( $variable, $isStore )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // String variable
@@ -86,7 +86,7 @@ print_r( $variable, $isStore )
 
 **输出:**
 
-```
+```php
 Welcome to GeeksforGeeks 
 450
 Array ( [0] => Computer [1] => science [2] => portal )

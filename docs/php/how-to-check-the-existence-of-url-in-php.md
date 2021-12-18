@@ -11,7 +11,7 @@
 
 **示例 1:** 本示例检查响应标题中的状态代码 200。如果状态代码为 200，则表示网址存在，否则不存在。
 
-```
+```php
 <?php
 
 // Initialize an URL to the variable
@@ -36,14 +36,14 @@ echo($status);
 
 **输出:**
 
-```
+```php
 URL Exist
 
 ```
 
 **示例 2:** 该示例检查响应报头中的状态代码 404。如果状态代码为 404，则表明网址不存在，否则网址存在。
 
-```
+```php
 <?php
 
 // Initialize an URL to the variable
@@ -68,14 +68,14 @@ echo($status);
 
 **输出:**
 
-```
+```php
 URL Doesn't Exist
 
 ```
 
 **示例 3:** 本示例使用 curl_init()方法检查 url 的存在。
 
-```
+```php
 <?php
 
 // Initialize an URL to the variable
@@ -112,7 +112,7 @@ else {
 
 **输出:**
 
-```
+```php
 URL Doesn't Exist
 
 ```

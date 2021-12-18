@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefromgif( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**在浏览器中加载第一帧。
 
-```
+```php
 <?php
 
 // Create an image from gif
@@ -37,7 +37,7 @@ imagedestroy($im);
 
 **示例 2：**将第一帧保存为本地文件夹中的 JPG
 
-```
+```php
 <?php
 
 // Create an image from gif
@@ -52,7 +52,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the first frame as firstframe.jpg in the same folder.
 ```
 

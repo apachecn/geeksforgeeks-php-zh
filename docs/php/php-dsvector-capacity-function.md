@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* public Ds\Vector::capacity( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a vector
@@ -44,7 +44,7 @@ var_dump($vector->capacity());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a vector

@@ -8,7 +8,7 @@
 
 连接到数据库通常是在任何 PHP 文件中显示数据所必需的任务，因此重复编写相同的代码不是最佳方法，因此按照惯例，我们将创建一个名为“connection.php”的 PHP 文件，并将编写以下代码。
 
-```
+```php
 <?php
 
 // Define needed credentials.
@@ -32,7 +32,7 @@ $connection = mysql_select_db(DB);  
 到目前为止，我们已经创建了一个 Demo 标记，我们已经创建了 Database 表来保存假数据，我们还连接到了数据库。 现在剩下的就是获取信息行并将其显示在各个页面上。 那么，它背后的一般逻辑是什么呢？ 分页通常会限制页面中的条目数量，还会保持整个页面中所有条目的顺序。 因此，如果我们可以有一个变量来表示页面上可以显示的最大条目数，并给出一个页码，我们就可以准确地找到要显示的条目。 例如，如果当前页码是 5，限制是 10，那么我们可以手动看到，第一页将包含 1-10 个条目，第二页将包含 11-20 个条目，类似地，第五页将包含 41-50 个条目。
 所以我们可以这样写：如果页码用**$pn**表示，而限制用**$limit**表示，那么条目的起始索引可以写成：**(($pn-1)*$Limit)+1**。 因为我们已经计算了关系，所以我们现在需要在“index.php”文件中实现以下内容。 以下是我们最终应该得到的。
 
-```
+```php
 <!DOCTYPE html>
 <html>
   <head>
@@ -127,7 +127,7 @@ $connection = mysql_select_db(DB);  
 
 **从数据库**提取
 
-```
+```php
 // Import the file where we defined the connection to Database.  
 require_once "connection.php";
 
@@ -150,7 +150,7 @@ $rs_result = mysql_query ($sql); 
 
 **显示记录**
 
-```
+```php
 <?php
 while ($row = mysql_fetch_array($rs_result, MYSQL_ASSOC)) { 
 // Display each field of the records. 
@@ -170,7 +170,7 @@ while ($row = mysql_fetch_array($rs_result, MYSQL_ASSOC)) { 
 
 **显示页面导航**
 
-```
+```php
 $sql = "SELECT COUNT(*) FROM table1";  
 $rs_result = mysql_query($sql);  
 $row = mysql_fetch_row($rs_result);  

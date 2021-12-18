@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::readImageBlob( $image, $filename )
 
 ```
@@ -22,7 +22,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Store image in binary string format

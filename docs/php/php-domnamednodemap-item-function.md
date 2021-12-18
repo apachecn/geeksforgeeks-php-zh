@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNamedNodeMap* DOMNamedNodeMap::item( *int* $index )
 ```
 
@@ -17,7 +17,7 @@
 下面给定的程序说明了 PHP：
 **程序 1：**中的**DOMNamedNodeMap：：Item()函数**。在此示例中，我们将使用 index()获取属性的名称
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();
@@ -44,13 +44,13 @@ echo "$attribute1, $attribute2 and $attribute3";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 id, class and attrib
 ```
 
 **程序 2：**在本例中，我们将使用 index()获取属性的值
 
-```
+```php
 <?php
 // Create a new DOMDocument
 $dom = new DOMDocument();
@@ -77,7 +77,7 @@ echo "$attribute1, $attribute2 and $attribute3";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 first, geeksforgeeks and attrib_value
 ```
 

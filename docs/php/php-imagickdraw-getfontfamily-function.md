@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* ImagickDraw::getFontFamily( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new ImagickDraw object
@@ -37,13 +37,13 @@ echo $font;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Palatino
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

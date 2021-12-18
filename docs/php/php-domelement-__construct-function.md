@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* DOMElement::__construct( *string* $name, *string* $value, *string* $namespaceURI )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -44,7 +44,7 @@ echo $dom->saveXML(); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <root><h1 xmlns="http://sample_url">Heading</h1></root>
 ```
@@ -53,7 +53,7 @@ echo $dom->saveXML(); 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -99,7 +99,7 @@ echo $dom->saveXML(); 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <root>
     <mark>Marked</mark><br/>

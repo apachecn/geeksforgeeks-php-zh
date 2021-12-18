@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMText::isWhitespaceInElementContent( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create the DOMText without text
@@ -37,7 +37,7 @@ if($text->isWhitespaceInElementContent()) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a DOMText with text

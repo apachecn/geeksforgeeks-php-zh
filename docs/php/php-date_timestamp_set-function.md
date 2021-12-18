@@ -8,13 +8,13 @@ DATE_TIMESTAMP_SET()函数是 PHP 中的一个内置函数，用于根据 Unix �
 
 *   **process style:**
 
-    ```
+    ```php
     date_timestamp_set( $object, $unixtimestamp )
     ```
 
 *   **object-oriented style:**
 
-    ```
+    ```php
     DateTime::setTimestamp( $unixtimestamp )
     ```
 
@@ -29,7 +29,7 @@ DATE_TIMESTAMP_SET()函数是 PHP 中的一个内置函数，用于根据 Unix �
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -49,7 +49,7 @@ echo date_format($date, 'U = d-m-Y H:i:s');
 
 **输出：**
 
-```
+```php
 1537159667 = 17-09-2018 04:47:47
 1373502124 = 11-07-2013 00:22:04
 
@@ -57,7 +57,7 @@ echo date_format($date, 'U = d-m-Y H:i:s');
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create DateTime object
@@ -77,7 +77,7 @@ echo $date->format('U = d-m-Y H:i:s');
 
 **输出：**
 
-```
+```php
 1537159667 = 17-09-2018 04:47:47
 1171564674 = 15-02-2007 18:37:54
 

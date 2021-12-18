@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertNotTrue(bool $condition[, string $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertNotTrue(bool $condition[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -47,7 +47,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 SPHPUnit 8.5.8 by Sebastian Bergmann and contributors.
 
 F                                                 1 / 1 (100%)
@@ -71,7 +71,7 @@ Tests: 1, Assertions: 1, Failures: 1.
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -97,7 +97,7 @@ S
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 SPHPUnit 8.5.8 by Sebastian Bergmann and contributors.
 
 .                                                 1 / 1 (100%)

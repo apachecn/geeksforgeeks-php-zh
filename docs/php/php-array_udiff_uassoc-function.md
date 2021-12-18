@@ -6,7 +6,7 @@ array _ udiff _ uassoc()函数是 PHP 中的一个内置函数，用于区分两
 
 **语法:**
 
-```
+```php
 array_udiff_uassoc($arr1, $arr2, $arr3........nth array, value_Function, key_Function )
 ```
 
@@ -34,7 +34,7 @@ array_udiff_uassoc($arr1, $arr2, $arr3........nth array, value_Function, key_Fun
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate
 // array_udiff_uassoc() function
@@ -85,7 +85,7 @@ print_r($result);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [n] => Java lab
@@ -98,7 +98,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate
 // array_udiff_uassoc() function
@@ -163,7 +163,7 @@ print_r($result);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [e] => Ruby lab
@@ -174,7 +174,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate
 // array_udiff_uassoc() function
@@ -221,7 +221,7 @@ print_r($result);
 
 **Output:** 
 
-```
+```php
 Array
 (
 )
@@ -231,7 +231,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP program to illustrate
 // array_udiff_uassoc() function
@@ -286,7 +286,7 @@ print_r($result);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [a] => C lab

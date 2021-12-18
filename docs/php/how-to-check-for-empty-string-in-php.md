@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 bool empty(string)
 ```
 
@@ -20,7 +20,7 @@ bool empty(string)
 
 ## PHP
 
-```
+```php
 <?php
 
 // Consider a string which is empty
@@ -39,7 +39,7 @@ else {
 
 **输出**
 
-```
+```php
 Empty string
 ```
 
@@ -47,7 +47,7 @@ Empty string
 
 ## PHP
 
-```
+```php
 <?php
 
 // Consider a string which is not empty
@@ -66,6 +66,6 @@ else {
 
 **输出**
 
-```
+```php
 Not empty
 ```

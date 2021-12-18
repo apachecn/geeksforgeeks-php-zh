@@ -6,7 +6,7 @@ Is_countable()函数是 PHP 中的一个内置函数，用于检查变量的内�
 
 **语法：**
 
-```
+```php
 bool is_countable ( mixed $var )
 ```
 
@@ -20,7 +20,7 @@ bool is_countable ( mixed $var )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a string
@@ -38,7 +38,7 @@ var_dump(is_countable($arr));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a number

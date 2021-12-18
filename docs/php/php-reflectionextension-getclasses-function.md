@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionExtension::getClasses( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 _1：**
 
-```
+```php
 <?php
 
 // Defining an extension
@@ -38,7 +38,7 @@ var_dump($B);
 
 **输出：**
 
-```
+```php
 array(31) {
   ["DOMException"]=>
   object(ReflectionClass)#2 (1) {
@@ -201,7 +201,7 @@ array(31) {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Using ReflectionExtension() over 
@@ -216,7 +216,7 @@ var_dump($extension->getClasses());
 
 **输出：**
 
-```
+```php
 array(0) {
 }
 

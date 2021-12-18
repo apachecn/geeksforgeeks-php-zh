@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::roundRectangle( $x1, $y1, $x2, $y2, $rx, $ry )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 // require_once('vendor/autoload.php');
 

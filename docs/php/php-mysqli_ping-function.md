@@ -10,7 +10,7 @@
 
     **语法：**
 
-    ```
+    ```php
     ping();
     ```
 
@@ -20,7 +20,7 @@
 
     下面的程序以面向对象的方式演示了 ping()函数：
 
-    ```
+    ```php
     <?php
     $servername = "localhost";
     $username = "username";
@@ -50,7 +50,7 @@
 
     **语法：**
 
-    ```
+    ```php
     mysqli_ping($conn);
     ```
 
@@ -60,7 +60,7 @@
 
     下面的程序演示了 Procedure 样式中的 mysqli_ping()：
 
-    ```
+    ```php
     <?php
     $servername = "localhost";
     $username = "username";

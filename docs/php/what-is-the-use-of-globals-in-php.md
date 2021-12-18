@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 $GLOBALS['index']=value;
 ```
 
@@ -17,7 +17,7 @@ $GLOBALS['index']=value;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // Initialize an index A
@@ -40,7 +40,7 @@ echo $B;
 
 **输出:**
 
-```
+```php
 100
 This is Global
 ```
@@ -49,7 +49,7 @@ This is Global
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 // Initialize an A index and set to 100
@@ -79,7 +79,7 @@ echo "\n";
 
 **输出:**
 
-```
+```php
  300
 -100
  20000

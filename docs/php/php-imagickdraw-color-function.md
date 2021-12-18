@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::color( *float* $x, *float* $y, *int* $paintMethod )
 ```
 
@@ -30,7 +30,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 //Create a new Imagick object
@@ -72,7 +72,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 //Create a new Imagick object

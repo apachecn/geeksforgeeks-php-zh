@@ -8,7 +8,7 @@ PHP 中用于检查字符串的每个字符是否可见的 ctype_print()函数�
 
 **语法：**
 
-```
+```php
 ctype_print(string text)
 
 ```
@@ -22,7 +22,7 @@ ctype_print(string text)
 
 例如：
 
-```
+```php
 Input  : Geeks for geeks article
 Output : Geeks for geeks article -->Yes visible
 
@@ -40,7 +40,7 @@ Explanation : '\t' and '\n' are control character .
 
 **程序：1**
 
-```
+```php
 <?php
 // PHP program to illustrate 
 // ctype_print() function 
@@ -63,14 +63,14 @@ if (ctype_print($string)) {
 
 **Output:**
 
-```
+```php
 GFG A Computer Science Portal: Yes visible
 
 ```
 
 **程序：2**驱动 ctype_print()函数的代码，其中输入将是整数，字符串数组中的符号。
 
-```
+```php
 <?php
 // PHP program to illustrate
 // ctype_print() function 
@@ -103,7 +103,7 @@ foreach ($strings as $str) {
 
 **Output:**
 
-```
+```php
 GeeksforGeeks:   (Yes visible)
 GFG2018:   (Yes visible)
 

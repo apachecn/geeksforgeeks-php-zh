@@ -7,7 +7,7 @@
 当调用 mail()函数时，PHP 将尝试立即将邮件发送给收件人，然后在成功传递邮件时返回 TRUE，如果出现错误则返回 FALSE。
 **语法**：](https://www.geeksforgeeks.org/php-sending-mails-using-mail-function/) 
 
-```
+```php
 bool mail( $to, $subject, $message, $headers, $parameters );
 ```
 
@@ -34,7 +34,7 @@ n
 
 ## 超文本标记语言
 
-```
+```php
 <form enctype="multipart/form-data" method="POST" action="">
     <label>Your Name <input type="text" name="sender_name" /> </label>
     <label>Your Email <input type="email" name="sender_email" /> </label>
@@ -49,7 +49,7 @@ n
 
 ## PHP
 
-```
+```php
 if($_POST['button'] && isset($_FILES['attachment']))
 {
 

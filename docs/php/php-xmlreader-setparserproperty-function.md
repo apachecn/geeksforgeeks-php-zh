@@ -5,7 +5,7 @@
 **XMLReader：：setParserProperty()函数**是 PHP 中的内置函数，用于设置解析器选项。 此功能可用于对单据进行验证。
 **语法：**和
 
-```
+```php
 *bool* XMLReader::setParserProperty( *int* $property, *bool* $value )
 ```
 
@@ -26,7 +26,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <div>
     <h1> Sample XML </h1>
@@ -37,7 +37,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a new XMLReader instance

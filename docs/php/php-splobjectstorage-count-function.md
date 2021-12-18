@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* SplObjectStorage::count()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare Empty SplObjectStorage
@@ -39,14 +39,14 @@ var_dump($gfg->count());
 
 **输出：**
 
-```
+```php
 int(3)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare Empty SplObjectStorage
@@ -68,7 +68,7 @@ var_dump(count($gfg));
 
 **输出：**
 
-```
+```php
 int(3)
 
 ```

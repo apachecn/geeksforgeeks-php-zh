@@ -10,7 +10,7 @@
 
 **语法：**
 
-```
+```php
 *bool* is_finite ($value)
 
 ```
@@ -21,7 +21,7 @@
 
 例如：
 
-```
+```php
 Input :  $value = M_PI_4;
 Output : TRUE
 
@@ -34,7 +34,7 @@ Output : FALSE
 
 **语法：**
 
-```
+```php
 *bool* is_infinite ($value)
 
 ```
@@ -45,7 +45,7 @@ Output : FALSE
 
 例如：
 
-```
+```php
 Input :  $value = M_PI_4;
 Output : FALSE
 
@@ -58,7 +58,7 @@ Output : TRUE
 
 **语法：**
 
-```
+```php
 *bool* is_nan ($value)
 
 ```
@@ -69,7 +69,7 @@ Output : TRUE
 
 例如：
 
-```
+```php
 Input :  $value = M_PI_4;
 Output : FALSE
 
@@ -80,7 +80,7 @@ Output : TRUE
 
 下面的程序演示了 PHP 中 is_Finite()、is_INFINITE()、IS_NaN()函数的工作原理：
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working of 
@@ -106,7 +106,7 @@ echo var_dump(is_nan($val1), is_nan($val2), 
 
 产出：
 
-```
+```php
 bool(true) bool(false) bool(false) 
 bool(false) bool(true) bool(false) 
 bool(false) bool(false) bool(true) 

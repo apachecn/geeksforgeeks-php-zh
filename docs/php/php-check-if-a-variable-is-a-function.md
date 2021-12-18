@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```php
     bool is_callable ( $var_name, $syntx_only, $calbl_name )
     ```
 
@@ -22,7 +22,7 @@
 
     **示例:**本示例使用 **is_callable()** 函数验证参数是否为函数。
 
-    ```
+    ```php
     <?php
 
     // Declare a variable and initialize
@@ -59,7 +59,7 @@
 
     **Output:**
 
-    ```
+    ```php
     It is function
     It is not function
 
@@ -69,7 +69,7 @@
 
     **语法:**
 
-    ```
+    ```php
     $f instanceof Class_Name
     ```
 
@@ -82,7 +82,7 @@
 
     **示例:**这个示例使用运算符的**实例来确定一个变量是否是 PHP 中的函数。**
 
-    ```
+    ```php
     <?php
 
     // Declare a variable and initialize
@@ -117,7 +117,7 @@
 
     **Output:**
 
-    ```
+    ```php
     function
     not a function
 
@@ -125,7 +125,7 @@
 
 *   **示例:**本示例使用 [function_exist()](https://www.geeksforgeeks.org/php-function_exists-function/) 和  方法检查参数是否为函数。
 
-    ```
+    ```php
     <?php
 
     // Declare a function
@@ -146,7 +146,7 @@
 
     **输出:**
 
-    ```
+    ```php
     1
 
     ```

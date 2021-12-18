@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 void zip_close ( $zip_file )
 ```
 
@@ -24,7 +24,7 @@ void zip_close ( $zip_file )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Opening zip archive's file
@@ -47,14 +47,14 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Zip Archive File is Successfully Opened.
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Opening zip archive's file
@@ -81,7 +81,7 @@ else
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 File Name: article/content.xlsx
 File Name: article/gfg.pdf
 File Name: article/image.jpeg

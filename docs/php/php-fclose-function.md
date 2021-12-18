@@ -6,7 +6,7 @@ PHP 中的 flose()函数是一个内置函数，用于关闭由打开的文件�
 
 **语法：**
 
-```
+```php
 *bool* fclose( $file )
 ```
 
@@ -21,7 +21,7 @@ PHP 中的 flose()函数是一个内置函数，用于关闭由打开的文件�
 
     **示例：**
 
-    ```
+    ```php
     Input : $check = fopen("gfg.txt", "r");
             fclose($check);
     Output : true
@@ -42,7 +42,7 @@ PHP 中的 flose()函数是一个内置函数，用于关闭由打开的文件�
 
     **程序 1**：
 
-    ```
+    ```php
     <?php
 
     // opening a file using fopen() function
@@ -56,13 +56,13 @@ PHP 中的 flose()函数是一个内置函数，用于关闭由打开的文件�
 
     产出：
 
-    ```
+    ```php
     true
     ```
 
     **程序 2**：在下面的程序中，名为*singleline.txt*的文件只包含一行“该文件只包含一行”。
 
-    ```
+    ```php
     <?php
 
     // a file is opened using fopen() function
@@ -85,7 +85,7 @@ PHP 中的 flose()函数是一个内置函数，用于关闭由打开的文件�
 
     产出：
 
-    ```
+    ```php
     This file consists of only a single line.
 
     ```

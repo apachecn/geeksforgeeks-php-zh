@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::setStrokePatternURL( *string* $stroke_url )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**在本程序中，我们将创建一个具有设计轮廓的矩形。
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -68,7 +68,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**在本程序中，我们将创建一个具有设计轮廓的圆。
 
-```
+```php
 <?php
 
 // Create a new imagick object

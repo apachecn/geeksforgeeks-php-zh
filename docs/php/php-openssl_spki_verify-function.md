@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* openssl_spki_verify( *string* &$spkac )
 ```
 
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 error_reporting(E_ERROR  | E_PARSE);

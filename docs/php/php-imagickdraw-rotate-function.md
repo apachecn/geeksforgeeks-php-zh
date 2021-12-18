@@ -4,7 +4,7 @@
 
 **ImagickDraw：：Rotate()**函数是 PHP 的内置函数，用于将指定的旋转应用于当前坐标空间。
 
-```
+```php
 *bool* ImagickDraw::rotate( $degrees )
 ```
 
@@ -16,7 +16,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -80,7 +80,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

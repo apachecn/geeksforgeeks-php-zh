@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Pair::__construct( $key, $value )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // Ds\Pair::__construct() function
@@ -46,7 +46,7 @@ print_r($pair); 
 
 **输出：**
 
-```
+```php
 Ds\Pair Object
 (
     [key] => 
@@ -74,7 +74,7 @@ Ds\Pair Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 // PHP program to illustrate the 
 // Ds\Pair::__construct() function
@@ -93,7 +93,7 @@ var_dump($pair); 
 
 **输出：**
 
-```
+```php
 object(Ds\Pair)#1 (2) {
   ["key"]=>
   array(3) {

@@ -26,7 +26,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 class GeeksForGeeks
 { 
@@ -62,7 +62,7 @@ $obj->sub() ;
 
 *   **输出:**
 
-```
+```php
 150 50
 ```
 
@@ -70,7 +70,7 @@ $obj->sub() ;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 class GeeksForGeeks
 { 
@@ -108,7 +108,7 @@ $obj->mul();
 
 *   **输出:**
 
-```
+```php
 PHP Fatal error:  Uncaught Error: Call to private method 
 GeeksForGeeks::div() from context '' in /home/cg/root/8030907/
 main.php:22 Stack trace:#0 {main} thrown in /home/cg/root/8030907/
@@ -119,7 +119,7 @@ main.php on line 22
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 class GeeksForGeeks
 {
@@ -164,7 +164,7 @@ $obj->mul();
 
 *   **输出:**
 
-```
+```php
 10
 900
 Fatal error:  Uncaught Error: Call to undefined method 

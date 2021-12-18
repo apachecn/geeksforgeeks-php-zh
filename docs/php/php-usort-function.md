@@ -6,7 +6,7 @@ PHP 附带了许多内置函数，用于以更简单的方式对数组进行排�
 
 **语法：**
 
-```
+```php
 *boolean* usort( $array, "function_name");
 
 ```
@@ -20,7 +20,7 @@ PHP 附带了许多内置函数，用于以更简单的方式对数组进行排�
 
 下面的程序演示了 PHP 中的 usort()函数：
 
-```
+```php
 <?php
 
     // PHP program to illustrate usort() function
@@ -53,7 +53,7 @@ PHP 附带了许多内置函数，用于以更简单的方式对数组进行排�
 
 产出：
 
-```
+```php
 Array
 (
     [0] => 1

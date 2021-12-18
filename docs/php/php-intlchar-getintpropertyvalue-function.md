@@ -5,7 +5,7 @@
 **IntlChar：：getIntPropertyValue()**函数是 PHP 中的内置函数，用于获取代码点的 Unicode 属性值。
 **语法：**和
 
-```
+```php
 *int* IntlChar::getIntPropertyValue( $codepoint, $property )
 ```
 
@@ -27,7 +27,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Input data is alphabet character type
@@ -51,7 +51,7 @@ var_dump(IntlChar::getIntPropertyValue("?",
 
 **Output:** 
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

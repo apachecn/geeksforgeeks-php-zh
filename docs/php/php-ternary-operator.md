@@ -8,7 +8,7 @@ If-Else 和 Switch 用例用于评估条件和决定程序流。 三元运算符
 
 **语法：**
 
-```
+```php
 (Condition) ? (Statement1) : (Statement2);
 ```
 
@@ -18,7 +18,7 @@ If-Else 和 Switch 用例用于评估条件和决定程序流。 三元运算符
 
 此比较的结果也可以使用赋值运算符赋给变量。 语法如下：
 
-```
+```php
 Variable = (Condition) ? (Statement1) : (Statement2);
 ```
 
@@ -35,7 +35,7 @@ Variable = (Condition) ? (Statement1) : (Statement2);
 
 ## php
 
-```
+```php
 <?php
   $a = 10;
   $b = $a > 15 ? 20 : 5;
@@ -49,7 +49,7 @@ Variable = (Condition) ? (Statement1) : (Statement2);
 
 ## php
 
-```
+```php
 <?php
   $age = 20;
   print ($age >= 18) ? "Adult" : "Not Adult";
@@ -66,7 +66,7 @@ Variable = (Condition) ? (Statement1) : (Statement2);
 
 ## php
 
-```
+```php
 <?php
 if(isset($_POST['Name']))
     $name = $_POST['Name'];
@@ -84,7 +84,7 @@ else
 
 ## php
 
-```
+```php
 <?php
 $name = isset($_POST['Name'])?$_POST['Name']:null;
 $age = isset($_POST['Age'])?$_POST['Age']:null;
@@ -95,7 +95,7 @@ $age = isset($_POST['Age'])?$_POST['Age']:null;
 
 ## php
 
-```
+```php
 <?php
 $name = isset($_POST['Name'])?$_POST['Name']:null;
 $age = isset($_POST['Age'])?$_POST['Age']:null;

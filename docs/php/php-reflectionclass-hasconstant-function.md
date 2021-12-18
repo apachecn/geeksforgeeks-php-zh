@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionClass::hasConstant( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Defining a user-defined class Company
@@ -40,14 +40,14 @@ var_dump($const);
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining an empty class
@@ -66,7 +66,7 @@ var_dump($constant->hasConstant("c1"));
 
 **输出：**
 
-```
+```php
 bool(false)
 
 ```

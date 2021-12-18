@@ -57,7 +57,7 @@
 
 ## PHP
 
-```
+```php
 <!-- filename - assets/index.php -->
 
 <!DOCTYPE html>
@@ -77,7 +77,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <!-- filename - assets/css/style.css -->
 
 .content {
@@ -100,7 +100,7 @@
 
 ## PHP
 
-```
+```php
 <?php
   function protectxss($string) {
     $string=iconv(mb_detect_encoding(
@@ -126,7 +126,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 // Filename partials/action.php
 
@@ -211,7 +211,7 @@ if (isset($_POST['sendBtn'])) {
 
 ## PHP
 
-```
+```php
 <?php
 // Filename - partials/dbConnect.php
 
@@ -225,7 +225,7 @@ $conn=mysqli_connect($hostname,$_username,$password,$database);
 
 ## PHP
 
-```
+```php
 <!-- filename - partials/footer.php -->
 
 <footer class="footer">
@@ -239,7 +239,7 @@ $conn=mysqli_connect($hostname,$_username,$password,$database);
 
 ## PHP
 
-```
+```php
 <!-- filename - partials/header.php -->
 
 <!doctype html>
@@ -269,7 +269,7 @@ $conn=mysqli_connect($hostname,$_username,$password,$database);
 
 ## PHP
 
-```
+```php
 <!-- filename - partials/index.php -->
 
 <!DOCTYPE html>
@@ -289,7 +289,7 @@ $conn=mysqli_connect($hostname,$_username,$password,$database);
 
 ## PHP
 
-```
+```php
 <!-- filename - partials/navbar.php -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -353,7 +353,7 @@ $conn=mysqli_connect($hostname,$_username,$password,$database);
 
 ## PHP
 
-```
+```php
 <!-- filename - partials/modals/loginmodal.php -->
 
 <div class="modal fade" id="loginmodal" tabindex="-1"
@@ -435,7 +435,7 @@ $conn=mysqli_connect($hostname,$_username,$password,$database);
 
 ## PHP
 
-```
+```php
 <?php
 session_start();
 

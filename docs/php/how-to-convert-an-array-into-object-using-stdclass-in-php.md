@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Function to convert array into
@@ -72,7 +72,7 @@ print_r($convertedObj);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [1] => Array
@@ -155,7 +155,7 @@ stdClass Object
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Function to convert array into
@@ -192,7 +192,7 @@ print_r($convertedObj);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [0] => 1

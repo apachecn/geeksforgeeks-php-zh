@@ -6,7 +6,7 @@ SplFileInfo：：getFileInfo()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **语法：**
 
-```
+```php
 SplFileInfo::getFileInfo( $class )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo::getFileInfo( $class )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -35,7 +35,7 @@ var_dump( $file->getFileInfo());
 
 **Output:**
 
-```
+```php
 object(SplFileInfo)#2 (2) {
   ["pathName":"SplFileInfo":private]=>
   string(7) "gfg.txt"
@@ -47,7 +47,7 @@ object(SplFileInfo)#2 (2) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check
@@ -73,7 +73,7 @@ foreach ($GFG as $file_name) {
 
 **Output:**
 
-```
+```php
 object(SplFileInfo)#2 (2) {
   ["pathName":"SplFileInfo":private]=>
   string(44) "/home/rajvir/Desktop/GeeksforGeeks/dummy.php"

@@ -6,7 +6,7 @@ SplFileInfo：：getBasename()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **语法：**
 
-```
+```php
 *string* SplFileInfo::getBasename( $suffix )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getBasename()函数是 PHP 中标准 PHP 库(SPL)的内置函�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -34,14 +34,14 @@ var_dump($file->getBasename());
 
 **输出：**
 
-```
+```php
 string(7) "gfg.txt"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check
@@ -67,7 +67,7 @@ foreach ($GFG as &$file) {
 
 **输出：**
 
-```
+```php
 string(9) "dummy.php"
 string(7) "gfg.txt"
 string(7) "gfg.php"

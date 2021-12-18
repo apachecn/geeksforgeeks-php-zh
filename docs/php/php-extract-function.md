@@ -5,7 +5,7 @@
 Extract()函数是 PHP 中的内置函数。 函数的作用是：执行数组到变量的转换。 也就是说，它将数组键转换为变量名，将数组值转换为变量值。 换句话说，我们可以说 Extract()函数将变量从数组导入到[符号表](https://en.wikipedia.org/wiki/Symbol_table)。
 **语法**：
 
-```
+```php
 *int* extract($input_array, $extract_rule, $prefix)
 ```
 
@@ -25,7 +25,7 @@ Extract()函数是 PHP 中的内置函数。 函数的作用是：执行数组�
 **返回值**：Extract()函数的返回值是一个整数，表示从数组中成功提取或导入的变量个数。
 示例：
 
-```
+```php
 Input : array("a" => "one", "b" => "two", "c" => "three")
 Output :$a = "one" , $b = "two" , $c = "three"
 Explanation: The keys in the input array will become the 
@@ -38,7 +38,7 @@ new variables.
 
 ## PHP
 
-```
+```php
 <?php
 
     // input array
@@ -54,7 +54,7 @@ new variables.
 
 **输出：**
 
-```
+```php
 $AS is ASSAM
 $KR is KERELA
 $OR is ORRISA
@@ -64,7 +64,7 @@ $OR is ORRISA
 
 ## PHP
 
-```
+```php
 <?php
 
     $AS="Original";
@@ -81,7 +81,7 @@ $OR is ORRISA
 
 **输出：1**
 
-```
+```php
 $AS is Original
 $KR is KERELA
 $OR is ORRISA 

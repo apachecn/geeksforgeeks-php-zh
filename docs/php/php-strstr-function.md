@@ -6,7 +6,7 @@ Strstr()函数是 PHP 中的内置函数。 它搜索一个字符串在另一个
 
 **语法：↔**
 
-```
+```php
 strstr( $string, $search, $before )
 
 ```
@@ -21,7 +21,7 @@ strstr( $string, $search, $before )
 
 例如：
 
-```
+```php
 Input : $string = "Hello world!", $search = "world"
 Output : world!
 
@@ -36,7 +36,7 @@ Output : ks for Geeks!
 
 ## PHP
 
-```
+```php
 <?php
 echo strstr("Geeks for Geeks!", "k");
 ?>
@@ -44,7 +44,7 @@ echo strstr("Geeks for Geeks!", "k");
 
 **输出：**
 
-```
+```php
 ks for Geeks! 
 
 ```
@@ -53,7 +53,7 @@ ks for Geeks!
 
 ## PHP
 
-```
+```php
 <?php
 echo strstr("Geeks for Geeks!", "k", true);
 ?>
@@ -61,7 +61,7 @@ echo strstr("Geeks for Geeks!", "k", true);
 
 **输出：**
 
-```
+```php
 Gee
 
 ```
@@ -70,7 +70,7 @@ Gee
 
 ## PHP
 
-```
+```php
 <?php
   $string = "Geeks";
   echo strstr($string, 101); // 101 is ASCII value of lowercase e
@@ -79,7 +79,7 @@ Gee
 
 **输出：**
 
-```
+```php
 eeks
 
 ```

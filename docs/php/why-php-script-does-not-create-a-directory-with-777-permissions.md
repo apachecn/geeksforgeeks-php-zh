@@ -8,7 +8,7 @@
 
 *   **例 1:**
 
-```
+```php
 For example, a mask 0022 means that you don't want 
 group and others modify the file.
 
@@ -23,7 +23,7 @@ That means any file from now will have 0644 permissions.
 
 *   **Example 2:** Suppose the permission of new directory created to be 665 OR mkdir(“geeks”, 655); The folder “geeks” will have permission: **drw–wx-wx** 
 
-```
+```php
 The original permission according to 655 is drw-r-xr-x.
 But the result is drw--wx-wx.
 Permission to be applied: 655
@@ -39,19 +39,19 @@ This is obtained by performing subtraction.
 
 *   **步骤 1:** 该行将 **umask** 更改为零，同时将前一个存储到 **$oldmask** 中。
 
-```
+```php
 $oldmask = umask(0)
 ```
 
 *   **步骤 2:** 这一行使目录使用所需的权限和(现在不相关) **umask** 。
 
-```
+```php
 mkdir("Geeks", 777);
 ```
 
 *   **第三步:**这条线将 **umask** 恢复到原来的状态。
 
-```
+```php
 umask($oldmask);
 ```
 

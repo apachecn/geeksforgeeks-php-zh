@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* Ds\Deque::shift( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a deque 
@@ -37,7 +37,7 @@ var_dump($deq -> shift());
 
 **输出：**
 
-```
+```php
 int(10)
 int(20)
 int(30)
@@ -49,7 +49,7 @@ int(60)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a deque 
@@ -73,7 +73,7 @@ var_dump($deq -> shift());
 
 **输出：**
 
-```
+```php
 string(5) "geeks"
 string(3) "for"
 string(5) "geeks"

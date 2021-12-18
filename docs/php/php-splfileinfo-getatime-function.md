@@ -6,7 +6,7 @@ SplFileInfo：：getATime()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **语法：**
 
-```
+```php
 *int* SplFileInfo::getATime( void )
 ```
 
@@ -18,7 +18,7 @@ SplFileInfo：：getATime()函数是 PHP 中标准 PHP 库(SPL)的内置函数�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP Program to illustrate 
@@ -37,7 +37,7 @@ echo (date("F d Y H:i:s.", $file->getATime()));
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // PHP program to use array to check multiple files

@@ -6,7 +6,7 @@ base64_encode()函数是 PHP 中的一个内置函数，用于使用 [MIME base6
 
 **语法:**
 
-```
+```php
 string base64_encode( $data )
 ```
 
@@ -18,7 +18,7 @@ string base64_encode( $data )
 
 **程序 1:**
 
-```
+```php
 <?php
 
 // Program to illustrate base64_encode()
@@ -31,14 +31,14 @@ echo base64_encode($str);
 
 **输出:**
 
-```
+```php
 R2Vla3Nmb3JHZWVrcw==
 
 ```
 
 **程序二:**
 
-```
+```php
 <?php
 
 // Program to illustrate base64_encode()
@@ -59,7 +59,7 @@ echo base64_encode($str). "\n";
 
 **输出:**
 
-```
+```php
 R0ZHLCBBIGNvbXB1dGVyIFNjaWVuY2UgUG9ydGFsIEZvciBHZWVrcw==
 
 MQ==

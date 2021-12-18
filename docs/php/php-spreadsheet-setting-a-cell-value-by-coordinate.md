@@ -8,7 +8,7 @@ SetCellValue()函数是 PHPSpreadsheet 中的内置函数，用于设置电子�
 
 **语法：**
 
-```
+```php
 setCellValue( $coordinate, $value )
 ```
 
@@ -23,7 +23,7 @@ setCellValue( $coordinate, $value )
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');
@@ -61,7 +61,7 @@ $writer->save('gfg1.xlsx');
 
 **语法：**
 
-```
+```php
 $spreadsheet->getActiveSheet()->getCell($coordinate)->setValue($value);
 ```
 
@@ -69,7 +69,7 @@ $spreadsheet->getActiveSheet()->getCell($coordinate)->setValue($value);
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('vendor/autoload.php');

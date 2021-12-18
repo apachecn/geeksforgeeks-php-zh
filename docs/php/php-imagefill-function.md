@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagefill( $image, $x, $y, $color )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an image of given size
@@ -44,7 +44,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // It create the size of image or blank image.

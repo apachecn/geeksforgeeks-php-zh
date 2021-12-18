@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 ReflectionClass::getProperties($filter) : array
 ```
 
@@ -17,7 +17,7 @@ ReflectionClass::getProperties($filter) : array
 以下程序说明 PHP：
 **程序 1：**中的 ReflectionClass：：getProperties()函数
 
-```
+```php
 <?php
 
 // Defining a class named as Departments
@@ -42,7 +42,7 @@ var_dump($A);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(2) {
   [0]=>
   object(ReflectionProperty)#2 (2) {
@@ -64,7 +64,7 @@ array(2) {
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Defining a class named as Company
@@ -88,7 +88,7 @@ var_dump($A);
 
 **Output:**
 
-```
+```php
 array(3) {
   [0]=>
   object(ReflectionProperty)#2 (2) {

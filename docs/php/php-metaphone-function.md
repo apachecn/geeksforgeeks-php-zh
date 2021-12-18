@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 string metaphone ( $str, $key )
 ```
 
@@ -19,7 +19,7 @@ string metaphone ( $str, $key )
 
 例如：
 
-```
+```php
 Input: $str = "Contribute Article on GeeksforGeeks"
 Output: KNTRBTRTKLNJKSFRJKS
 
@@ -31,7 +31,7 @@ Output: KNTRB
 以下程序说明 PHP：
 **程序 1：**中的变音位()函数
 
-```
+```php
 <?php
 $str1 = "Contribute Article on GeeksforGeeks";
 echo metaphone($str1) . "\n";
@@ -43,7 +43,7 @@ echo metaphone($str2);
 
 **Output:**
 
-```
+```php
 KNTRBTRTKLNJKSFRJKS
 AKMPTRSNSPRTL
 
@@ -51,7 +51,7 @@ AKMPTRSNSPRTL
 
 **程序 2：**
 
-```
+```php
 <?php
 $str1 = "Contribute Article on GeeksforGeeks";
 echo metaphone($str1, 6) . "\n";
@@ -63,7 +63,7 @@ echo metaphone($str2, 5);
 
 **Output:**
 
-```
+```php
 KNTRBT
 AKMPT
 

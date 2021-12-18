@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```php
 array_search($value, $array, strict_parameter)
 ```
 
@@ -24,7 +24,7 @@ array_search($value, $array, strict_parameter)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
   // PHP function to illustrate the use of array_search()
@@ -46,7 +46,7 @@ array_search($value, $array, strict_parameter)
 
 **输出** :
 
-```
+```php
 2
 ```
 
@@ -54,7 +54,7 @@ array_search($value, $array, strict_parameter)
 
 ## PHP
 
-```
+```php
 <?php
 
     // PHP function to illustrate the use of array_search()
@@ -71,7 +71,7 @@ array_search($value, $array, strict_parameter)
 
 **输出** :
 
-```
+```php
 5
 ```
 
@@ -79,7 +79,7 @@ array_search($value, $array, strict_parameter)
 
 ## PHP
 
-```
+```php
 <?php
 
     // PHP function to illustrate the use of array_search()
@@ -95,7 +95,7 @@ array_search($value, $array, strict_parameter)
 
 **输出** :
 
-```
+```php
 No Output
 ```
 

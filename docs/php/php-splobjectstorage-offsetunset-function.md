@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::offsetUnset( $object )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -42,7 +42,7 @@ var_dump(count($str));
 
 **输出：**
 
-```
+```php
 int(1)
 int(0)
 
@@ -50,7 +50,7 @@ int(0)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Empty SplObjectStorage
@@ -82,7 +82,7 @@ var_dump(count($str));
 
 **输出：**
 
-```
+```php
 int(4)
 int(0)
 

@@ -8,7 +8,7 @@ PHP 中的 FILE_EXISTS()函数是一个内置函数，用于检查文件或目�
 
 **语法：**
 
-```
+```php
 file_exists($path)
 ```
 
@@ -23,7 +23,7 @@ file_exists($path)
 
 **示例：**
 
-```
+```php
 Input : echo file_exists('/user01/work/gfg.txt');
 Output : 1
 
@@ -42,7 +42,7 @@ Output : 1
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // checking whether file exists or not
@@ -53,13 +53,13 @@ echo file_exists('/user01/work/gfg.txt');
 
 产出：
 
-```
+```php
 1
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // checking whether file exists or not
@@ -80,7 +80,7 @@ else 
 
 产出：
 
-```
+```php
 1
 ```
 

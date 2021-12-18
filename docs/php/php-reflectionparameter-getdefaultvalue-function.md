@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
  *mixed* ReflectionParameter::getDefaultValue ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionParameter：：getDefaultValue()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -44,14 +44,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(13) "GeeksforGeeks"
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -83,7 +83,7 @@ var_dump($C->getDefaultValue());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 string(14) "Human Resource"
 string(10) "Parameter3"
 string(17) "Digital Marketing"

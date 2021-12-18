@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::last( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new vector
@@ -38,7 +38,7 @@ var_dump($vector->last());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ReflectionGenerator::getTrace ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **Program_1：**中的**ReflectionGenerator：：getTrace()**函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -48,7 +48,7 @@ var_dump($C);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(0) {
 }
 
@@ -56,7 +56,7 @@ array(0) {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined function
@@ -95,7 +95,7 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(2) {
   [0]=>
   array(4) {

@@ -6,7 +6,7 @@ Gmp_import()函数是 php 中的一个内置函数，用于从二进制字符串
 
 **语法：**
 
-```
+```php
 GMP gmp_import ( string $data, int $word_size, int $options )
 
 ```
@@ -22,7 +22,7 @@ GMP gmp_import ( string $data, int $word_size, int $options )
 以下程序说明 PHP：
 **程序 1：**中的 gmp_import()函数
 
-```
+```php
 <?php
 // php code implementing gmp_import() 
 // function
@@ -38,14 +38,14 @@ echo gmp_strval($number) . "\n";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
  0
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // php code implementing the
 // gmp_import() function
@@ -61,7 +61,7 @@ echo gmp_strval($number) . "\n";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
  258
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* XMLWriter::setIndent( *bool* $indent )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance
@@ -57,7 +57,7 @@ $writer->endDocument();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new XMLWriter instance

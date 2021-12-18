@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 void header( $header, $replace = TRUE, $http_response_code )
 Or
 header(string, replace, http_response_code)
@@ -25,7 +25,7 @@ header(string, replace, http_response_code)
 
 **示例:**本示例使用 header()函数每 3 秒刷新一次网页。
 
-```
+```php
 <?php
 
 // Demonstrate the use of header() function
@@ -50,7 +50,7 @@ exit;
 
 **示例 2:** 本示例使用 header()函数将网页重定向到另一个页面。
 
-```
+```php
 <?php
 
 // Demonstrate the use of header() function

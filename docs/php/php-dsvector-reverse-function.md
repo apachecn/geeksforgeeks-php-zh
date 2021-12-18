@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Vector::reverse( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new Vector 
@@ -40,7 +40,7 @@ print_r($arr);
 
 **输出：**
 
-```
+```php
 Ds\Vector Object
 (
     [0] => 1
@@ -63,7 +63,7 @@ Ds\Vector Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new Vector 
@@ -86,7 +86,7 @@ print_r($arr);
 
 **输出：**
 
-```
+```php
 Ds\Vector Object
 (
     [0] => Geeks

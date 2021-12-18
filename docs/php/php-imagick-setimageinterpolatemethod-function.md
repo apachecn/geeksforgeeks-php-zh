@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageInterpolateMethod( *int* $method )
 ```
 
@@ -31,7 +31,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -49,13 +49,13 @@ echo $interpolateScheme;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 3 // Which corresponds to imagick::INTERPOLATE_BILINEAR.
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -73,7 +73,7 @@ echo $interpolateScheme;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 7 // Which corresponds to imagick::INTERPOLATE_NEARESTNEIGHBOR.
 ```
 

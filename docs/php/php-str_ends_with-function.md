@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 str_starts_with(string $string, string $substring) 
 ```
 
@@ -27,7 +27,7 @@ str_starts_with(string $string, string $substring)
 
 ## PHP
 
-```
+```php
 <?php
 
     $string = 'GFG is awesome';
@@ -42,7 +42,7 @@ str_starts_with(string $string, string $substring)
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 The string "GFG is awesome" is ending with some
 ```
 
@@ -50,7 +50,7 @@ The string "GFG is awesome" is ending with some
 
 ## PHP
 
-```
+```php
 <?php
 
     $string = 'Checking for Blanks in the string';
@@ -69,7 +69,7 @@ The string "GFG is awesome" is ending with some
 输出
 **输出：**
 
-```
+```php
  Given String ends with an empty string
 ```
 

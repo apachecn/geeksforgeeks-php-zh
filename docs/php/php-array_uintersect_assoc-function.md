@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *array* array_uintersect_assoc( $array1, $array2, $array3... array nth, arr_uintersect_Function)
 ```
 
@@ -23,7 +23,7 @@
 
 **示例:**
 
-```
+```php
 Input :
     $arr1 = array( "a"=>"Website", "b"=>"frontend", "c"=>"programmer" );
     $arr2 = array( "a"=>"Website", "b"=>"backend ", "c"=>"programmer" );
@@ -52,7 +52,7 @@ Explanation: Two values are common in both array = Software, and Testing.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program for array_uintersect_assoc() function
@@ -89,7 +89,7 @@ print_r($result);
 
 **Output:** 
 
-```
+```php
 Array
 (
     [a] => Java
@@ -101,7 +101,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // PHP program for array_uintersect_assoc() function
@@ -145,7 +145,7 @@ print_r($result);
 
 **Output:** 
 
-```
+```php
 Array
 (
 )
@@ -155,7 +155,7 @@ Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $arr1 = array (
@@ -179,7 +179,7 @@ print_r( array_uintersect_assoc($arr1, $arr2, $arr3, "strcasecmp") );
 
 **Output:** 
 
-```
+```php
 Array
 (
     [a] => gfg

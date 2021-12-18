@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagepng( *resource* $image, *int* $to, *int* $quality, *int* $filters)
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load an image from PNG URL
@@ -46,7 +46,7 @@ imagedestroy($im);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Load an image from JPEG URL
@@ -61,7 +61,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the PNG version of image in the same folder where your PHP script is.
 ```
 
@@ -69,7 +69,7 @@ This will save the PNG version of image in the same folder where your PHP script
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an image instance
@@ -88,7 +88,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the image1.png as compressed and image2.png as uncompressed image
 ```
 

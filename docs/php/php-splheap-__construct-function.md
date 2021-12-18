@@ -11,7 +11,7 @@ SplHeap：：__Construction()函数是 PHP 中的一个内置函数，用于创�
 
 **语法：**
 
-```
+```php
 public SplHeap::__construct()
 ```
 
@@ -25,7 +25,7 @@ public SplHeap::__construct()
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Min Heap 
@@ -52,7 +52,7 @@ for ($heap->top(); $heap->valid(); $heap->next()) {
 
 ## PHP
 
-```
+```php
 <?php 
 
 // Create a new empty Max Heap 

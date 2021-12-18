@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```php
 Input : $continents = array(
                       'First' => 'Asia',
                       'Second' => 'Europe',
@@ -47,7 +47,7 @@ Output : Array
 下面是方法
 **代码 1 的实现：**在顶部移动键、值
 
-```
+```php
 <?php
 
         $continents = array(
@@ -71,7 +71,7 @@ function move_to_up(&$continents, $string)
 
 产出：
 
-```
+```php
 Array
 (
     [Third] => North America
@@ -84,7 +84,7 @@ Array
 
 **代码 2：**移动键，值在底部
 
-```
+```php
 <?php
 
         $continents = array(
@@ -108,7 +108,7 @@ Array
 
 产出：
 
-```
+```php
 Array
 (
     [First] => Asia

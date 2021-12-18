@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* IntlCalendar::setFirstDayOfWeek( *int* $dayOfWeek )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_set_first_day_of_week( *IntlCalendar* $cal, *int* $dayOfWeek )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -56,7 +56,7 @@ var_dump($calendar->getFirstDayOfWeek());
 
 **输出：**
 
-```
+```php
 int(2)
 int(1)
 

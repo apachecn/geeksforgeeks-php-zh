@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::paintTransparentImage( $target, $alpha, $fuzz )
 
 ```
@@ -25,7 +25,7 @@
 
 **程序：**
 
-```
+```php
 <?php 
 
 // Create a new Imagick object

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMNode* DOMNode::insertBefore( *DOMNode* $newNode, *DOMNode* $refNode )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -50,7 +50,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <h1>This is the heading element!</h1>
 <p>This is the paragraph element!</p>
@@ -60,7 +60,7 @@ echo $dom->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -88,7 +88,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0"?>
 <p>GeeksforGeeks, paragraph</p>
 <h1>GeeksforGeeks, heading</h1>

@@ -6,7 +6,7 @@ Gregoriantojd()函数是一个内置函数，用于将[公历日期](https://en.
 
 **语法：**
 
-```
+```php
 gregoriantojd( $month, $day, $year) 
 ```
 
@@ -20,7 +20,7 @@ gregoriantojd( $month, $day, $year)
 
     例如：
 
-    ```
+    ```php
     Input : $month=3, $day=31, $year=2018 
     Output : 2458209
 
@@ -33,7 +33,7 @@ gregoriantojd( $month, $day, $year)
 
     **程序 1：**下面的程序演示了 gregoriantojd()函数的用法。
 
-    ```
+    ```php
     <?php
     // PHP program to demonstrate the
     // use of gregoriantojd() function 
@@ -48,13 +48,13 @@ gregoriantojd( $month, $day, $year)
 
     产出：
 
-    ```
+    ```php
      2458236
     ```
 
     **程序 2：**下面的程序演示了日和月超出范围时的情况。
 
-    ```
+    ```php
     <?php
     // PHP program to demonstrate the
     // use of gregoriantojd() function 
@@ -74,7 +74,7 @@ gregoriantojd( $month, $day, $year)
 
     产出：
 
-    ```
+    ```php
     0
     0
     ```

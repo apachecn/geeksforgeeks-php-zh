@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* DOMComment::__construct( *string* $value)
 ```
 
@@ -16,7 +16,7 @@
 
 **程序 1(简单注释)：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -35,7 +35,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <h1><!--This line is a comment--></h1>
 ```
@@ -44,7 +44,7 @@ echo $dom->saveXML();
 
 **程序 2(使用带元素的注释)：**
 
-```
+```php
 <?php
 
 // Create a new DOM Document
@@ -67,7 +67,7 @@ echo $dom->saveXML();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <h1><!--This line is a comment about content-->
 <div>This is the actual content</div></h1>

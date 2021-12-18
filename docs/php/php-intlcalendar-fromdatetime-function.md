@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *IntlCalendar* IntlCalendar::fromDateTime( *mixed* $dateTime )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *IntlCalendar* intlcal_from_date_time( *mixed* $dateTime )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create an IntlCalendar from a DateTime object or string 
@@ -55,7 +55,7 @@ echo IntlDateFormatter::formatObject($calendar); 
 
 **输出：**
 
-```
+```php
 Aug 29, 2024, 9:19:29 AM
 Aug 29, 2034, 9:19:29 AM
 Aug 29, 2034, 7:19:29 PM
@@ -64,7 +64,7 @@ Aug 29, 2034, 7:19:29 PM
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create an IntlCalendar from a DateTime object or string 
@@ -81,7 +81,7 @@ echo IntlDateFormatter::formatObject($calendar);
 
 **输出：**
 
-```
+```php
 Sep 29, 2019, 9:19:29 AM
 
 ```

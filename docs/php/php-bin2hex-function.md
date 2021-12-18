@@ -8,7 +8,7 @@ PHP 中的 **bin2hex()** 函数将字符串转换为十六进制值。转换是�
 
 **语法:**
 
-```
+```php
 bin2hex($string)
 ```
 
@@ -18,7 +18,7 @@ bin2hex($string)
 
 示例:
 
-```
+```php
 Input : string = "geeks"
 Output : 6765656b73
 
@@ -34,7 +34,7 @@ answer would have been F which is not in this case.
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to demonstrate
 // the bin2hex() function 
@@ -48,14 +48,14 @@ echo bin2hex($str);
 
 输出:
 
-```
+```php
 6765656b73
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to demonstrate 
 // the bin2hex() function 
@@ -69,7 +69,7 @@ echo bin2hex($str);
 
 输出:
 
-```
+```php
 31313131 
 
 ```

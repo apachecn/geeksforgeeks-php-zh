@@ -7,7 +7,7 @@
 **strtotime()函数:**strtotime()函数通过解析时间字符串返回时间戳中的结果。
 **语法:**
 
-```
+```php
 strtotime($EnglishDateTime, $time_now)
 ```
 
@@ -19,7 +19,7 @@ strtotime($EnglishDateTime, $time_now)
 **date()函数:**date()函数返回更容易理解和人类可读的日期格式。
 **语法:**
 
-```
+```php
 date( format, timestamp )
 ```
 
@@ -32,7 +32,7 @@ date( format, timestamp )
 
 **程序 1:** 当时间字符串为“本周”时，获取默认的一周第一天。
 
-```
+```php
 <?php
 
 // PHP program to print default first
@@ -51,7 +51,7 @@ echo "First day of this week: ", $firstday;
 
 **Output:**
 
-```
+```php
 First day of this week: Monday - 04/02/2019
 
 ```
@@ -61,7 +61,7 @@ PHP 支持时间字符串中的-ve 索引。因此，为了获得前一周，它
 
 **程序 2:** 获取一周的第一天(周日)。
 
-```
+```php
 <?php
 
 // PHP program to display sunday as first day of a week
@@ -94,7 +94,7 @@ echo "First day of week after next week : ", $firstday;
 
 **Output:**
 
-```
+```php
 First day of this week: Sunday - 03/02/2019
 First day of last week: Sunday - 27/01/2019
 First day of next week: Sunday - 10/02/2019

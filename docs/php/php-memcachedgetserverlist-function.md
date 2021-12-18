@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 public Memcached::getServerList(): array
 ```
 
@@ -20,7 +20,7 @@ public Memcached::getServerList(): array
 
 ## PHP
 
-```
+```php
 <?php
     echo "<pre>";
 
@@ -51,7 +51,7 @@ public Memcached::getServerList(): array
 
 ## PHP
 
-```
+```php
 <?php
   echo "<pre>";
   // Server & port details

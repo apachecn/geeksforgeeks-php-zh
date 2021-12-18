@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Vector::insert( $index, $values )
 
 ```
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare new vector
@@ -47,7 +47,7 @@ print_r($vector);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare new vector

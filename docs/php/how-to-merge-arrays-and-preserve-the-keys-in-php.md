@@ -14,7 +14,7 @@
 
 **程序 1:** 本示例使用 array_replace()函数合并两个数组并保留键。
 
-```
+```php
 <?php
 
 // Create first associative array
@@ -39,7 +39,7 @@ print_r(array_replace($array1, $array2));
 
 **Output:**
 
-```
+```php
 Array
 (
     [1] => Welcome
@@ -53,7 +53,7 @@ Array
 
 **程序 1:** 本例使用 [array_replace_recursive()函数](https://www.geeksforgeeks.org/php-array_replace_recursive-function/)合并两个数组并保留键。
 
-```
+```php
 <?php
 
 // Create first associative array
@@ -78,7 +78,7 @@ print_r(array_replace_recursive($array1, $array2));
 
 **Output:**
 
-```
+```php
 Array
 (
     [1] => Welcome

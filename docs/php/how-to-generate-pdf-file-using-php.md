@@ -8,13 +8,13 @@
 
 *   你需要从 [FPDF 网站](http://www.fpdf.org/)下载 FPDF 类，并将其包含在你的 PHP 脚本中。
 
-```
+```php
 require('fpdf/fpdf.php');
 ```
 
 *   根据您的需要实例化并使用 FPDF 类，如下例所示。
 
-```
+```php
 $pdf=new FPDF();
 ```
 
@@ -22,7 +22,7 @@ $pdf=new FPDF();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 ob_end_clean();
@@ -54,7 +54,7 @@ $pdf->Output();
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 require('fpdf/fpdf.php');

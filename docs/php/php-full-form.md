@@ -11,7 +11,7 @@
 
 ## PHP
 
-```
+```php
 <?php
     echo "Welcome to GeeksforGeeks!";
 ?>

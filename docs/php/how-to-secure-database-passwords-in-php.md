@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```php
 password_hash(Password, PASSWORD_DEFAULT)
 ```
 
@@ -16,7 +16,7 @@ password_hash(Password, PASSWORD_DEFAULT)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
   $db_host = "localhost";
   $db_name = "secure_pass";
@@ -35,7 +35,7 @@ password_hash(Password, PASSWORD_DEFAULT)
 
 ## 超文本标记语言
 
-```
+```php
 <form action="index.php" method="POST">
   <label for="username">Username</label>
   <input type="text" name="username" required><br><br>

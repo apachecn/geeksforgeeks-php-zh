@@ -4,7 +4,7 @@
 
 **协方差:**在 PHP 中，属于子方法的返回类型可以比父方法的返回类型更具体。这是通过协方差实现的。例如，考虑父类“Bank”，将“SB”和“BOI”作为其子类。
 
-```
+```php
 <?php
 
 // Parent class declared
@@ -67,7 +67,7 @@ $b->account();
 
 **输出:**
 
-```
+```php
 Arshit has an SBI account
 Simon has a BOI account
 
@@ -75,7 +75,7 @@ Simon has a BOI account
 
 **对比:**在 PHP 中，与父方法的参数相比，属于子方法的参数可能不太具体。这是通过对比来完成的。
 
-```
+```php
 <?php
 
 // Parent class declared
@@ -152,7 +152,7 @@ $y->acc_no($d);
 
 **输出:**
 
-```
+```php
 Shreyank has account_no
 Shrey has an SBI account_detail
 

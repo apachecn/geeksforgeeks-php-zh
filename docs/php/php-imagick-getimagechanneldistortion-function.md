@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *float* Imagick::getImageChannelDistortion( *Imagick* $reference,
                                   *int* $channel, *int* $metric )
 ```
@@ -32,7 +32,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create two new imagick object
@@ -51,7 +51,7 @@ echo $distortion;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create two new imagick object

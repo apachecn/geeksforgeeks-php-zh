@@ -6,7 +6,7 @@ Mysqli_num_row()函数是 PHP 中的一个内置函数，用于返回结果集�
 
 **语法：**
 
-```
+```php
 mysqli_num_rows ( $result );
 
 ```
@@ -25,7 +25,7 @@ mysqli_num_rows ( $result );
 
 下面的程序演示了 PHP 中的 mysqli_num_row()函数。
 
-```
+```php
 <?php
     // Setting up connection with database Geeks
     $connection = mysqli_connect("localhost", "root", "", 

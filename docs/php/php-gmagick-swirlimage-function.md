@@ -5,7 +5,7 @@
 **Gmagick：：swirlimage()**函数是 PHP 中的一个内置函数，用于围绕图像中心旋转像素。 阶数表示移动每个像素的弧线扫描程度。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::swirlimage( $degrees )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object

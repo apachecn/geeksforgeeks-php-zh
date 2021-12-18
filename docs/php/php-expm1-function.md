@@ -8,7 +8,7 @@
 
 **语法：**
 
-```
+```php
 *float* expm1($power)
 ```
 
@@ -18,7 +18,7 @@
 
 例如：
 
-```
+```php
 Input : $power = 1 
 Output : (e1-1) = 1.718281828459
 
@@ -31,7 +31,7 @@ Output : (e0-1) = 0
 
 **程序 1：**演示 expm1()函数的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to demonstrate the expm1() function 
 
@@ -49,7 +49,7 @@ echo "e^", $n2, "-1 = ", expm1($n2), "\n"; 
 
 产出：
 
-```
+```php
 e^1-1 = 1.718281828459
 e^0-1 = 0
 
@@ -57,7 +57,7 @@ e^0-1 = 0
 
 **程序 2：**使用数组演示 expm1()函数的 PHP 程序。
 
-```
+```php
 <?php
 
 // PHP code to illustrate the working 
@@ -75,7 +75,7 @@ foreach($array as $i)
 
 产出：
 
-```
+```php
 e^2-1 = 6.3890560989307
 e^3-1 = 19.085536923188
 e^1-1 = 1.718281828459

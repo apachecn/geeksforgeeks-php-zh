@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::thumbnailImage( $columns, $rows, $bestfit, $fill, 
 $legacy )
 ```
@@ -25,7 +25,7 @@ $legacy )
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create an Imagick object

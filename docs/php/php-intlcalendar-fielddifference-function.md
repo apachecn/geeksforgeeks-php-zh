@@ -8,13 +8,13 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *int* IntlCalendar::fieldDifference( *float* $when, *int* $field )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *int* intlcal_field_difference( *IntlCalendar* $cal, *float* $when, *int* $field )
     ```
 
@@ -30,7 +30,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the timezone
@@ -71,7 +71,7 @@ echo "Time difference: "
 
 **输出：**
 
-```
+```php
 First Time: Dec 21, 2018, 9:30:25 AM
 Last Time: Aug 29, 2019, 11:20:20 AM
 Time difference: 0-Years 8-Months 8-Days 1-Hours 49-Minutes

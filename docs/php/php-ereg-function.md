@@ -6,7 +6,7 @@ PHP 中的**erg()**函数搜索字符串以匹配模式中给出的正则表达�
 
 **语法：**
 
-```
+```php
 int ereg ( string $pattern , string $str, array &$arr );
 ```
 
@@ -24,7 +24,7 @@ int ereg ( string $pattern , string $str, array &$arr );
 
 ## PHP
 
-```
+```php
 <?php
 
  echo ereg("(\.)(org$)", "www.geeksforgeeks.org");
@@ -34,7 +34,7 @@ int ereg ( string $pattern , string $str, array &$arr );
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
@@ -44,7 +44,7 @@ int ereg ( string $pattern , string $str, array &$arr );
 
 ## PHP
 
-```
+```php
 <?php
 
 echo ereg("g","gfg");  
@@ -54,7 +54,7 @@ echo ereg("g","gfg");  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 1
 ```
 
@@ -64,7 +64,7 @@ echo ereg("g","gfg");  
 
 ## PHP
 
-```
+```php
 <?php
 
 if (ereg ("([0-9]{1,2})-([0-9]{1,2})-([0-9]{4})",
@@ -83,7 +83,7 @@ if (ereg ("([0-9]{1,2})-([0-9]{1,2})-([0-9]{4})",
 
 **输出：**
 
-```
+```php
 1999-12-10
 ```
 

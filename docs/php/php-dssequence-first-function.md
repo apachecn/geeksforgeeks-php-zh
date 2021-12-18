@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* abstract public Ds\Sequence::first ( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -41,7 +41,7 @@ var_dump($seq->first());
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

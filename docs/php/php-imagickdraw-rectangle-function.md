@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ImagickDraw::rectangle( $x1, $y1, $x2, $y2 )
 ```
 
@@ -22,7 +22,7 @@
 以下程序说明 PHP 中的**ImagickDraw Rectangle()函数**：
 **程序：**
 
-```
+```php
 <?php
 // require_once('vendor/autoload.php');
 

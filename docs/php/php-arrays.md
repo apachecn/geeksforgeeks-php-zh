@@ -16,7 +16,7 @@ PHP 中基本上有三种类型的数组:
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // One way to create an indexed array
@@ -46,7 +46,7 @@ echo $name_two[4], "\n";
 
 输出:
 
-```
+```php
 Accessing the 1st array elements directly:
 Ram
 Zack
@@ -63,7 +63,7 @@ RAGHAV
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Creating an indexed array
@@ -91,7 +91,7 @@ for($n = 0; $n < $round; $n++){
 
 输出:
 
-```
+```php
 Looping using foreach: 
 Zack
 Anthony
@@ -116,7 +116,7 @@ RAGHAV
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // One way to create an associative array
@@ -144,7 +144,7 @@ echo $name_one["Raghav"], "\n";
 
 输出:
 
-```
+```php
 Accessing the elements directly:
 zara
 sara
@@ -159,7 +159,7 @@ Ravina
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Creating an associative array
@@ -187,7 +187,7 @@ for($i=0; $i < $round; ++$i) {
 
 输出:
 
-```
+```php
 Looping using foreach: 
 Husband is Zack and Wife is Zara
 Husband is Anthony and Wife is Any
@@ -211,7 +211,7 @@ raghav ravina
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Defining a multidimensional array
@@ -242,7 +242,7 @@ echo "John Flinch mobile number is: " . $favorites[2]["mob"];
 
 输出:
 
-```
+```php
 Dave Punk email-id is: davepunk@gmail.com
 John Flinch mobile number is: 9875147536
 ```
@@ -253,7 +253,7 @@ John Flinch mobile number is: 9875147536
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // Defining a multidimensional array
 $favorites = array(
@@ -286,7 +286,7 @@ for($i = 0; $i < count($favorites); $i++) {
 
 输出:
 
-```
+```php
 Dave Punk
 mob : 2584369721
 email : montysmith@gmail.com

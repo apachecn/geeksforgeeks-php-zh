@@ -5,7 +5,7 @@
 cal_days_in_month()是一个内置函数，它返回指定日历中特定月份的天数。我们必须传递日历类型、月份和年份作为参数，函数将返回日历中指定年份的月份中的天数。
 **语法**
 
-```
+```php
 int cal_days_in_month ( int $calendar, int $month, int $year )
 ```
 
@@ -43,7 +43,7 @@ int cal_days_in_month ( int $calendar, int $month, int $year )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>
@@ -61,7 +61,7 @@ echo "There was $d days in February 2004.";
 
 **输出:**
 
-```
+```php
 There was 28 days in February 1965.
 There was 29 days in February 2004.
 ```

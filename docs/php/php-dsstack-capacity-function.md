@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Ds\Stack::capacity( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare new Stack 
@@ -33,14 +33,14 @@ var_dump($stack->capacity()); 
 
 **输出：**
 
-```
+```php
 int(8)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare new Stack 
@@ -77,7 +77,7 @@ var_dump($stack->capacity()); 
 
 **输出：**
 
-```
+```php
 Current Capacity is: int(8)
 Current Capacity is: int(8)
 Current Capacity is: int(120)

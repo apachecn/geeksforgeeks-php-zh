@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Map* public Ds\Map::merge( $values )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new map
@@ -36,7 +36,7 @@ print_r($map) 
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object
@@ -102,7 +102,7 @@ Ds\Map Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new map
@@ -118,7 +118,7 @@ print_r($map->merge(["a" => "Computer",
 
 **输出：**
 
-```
+```php
 Ds\Map Object
 (
     [0] => Ds\Pair Object

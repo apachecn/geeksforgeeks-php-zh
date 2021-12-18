@@ -13,7 +13,7 @@
 
 **创建数据库连接的 PHP 代码:**首先也是最基本的一步是创建数据库连接。这里使用的 PHP 文件名是**“dbconnect . PHP”**，使用的数据库名是**“极客 forgeeks”**。
 
-```html
+```phphtml
 <?php
 
     $servername = "localhost"; 
@@ -49,7 +49,7 @@
 
 **设计注册表单的 PHP 代码:**现在，当我们成功连接到我们的数据库时，是时候为用户创建注册表单了。下面的 PHP 代码演示了注册表单。使用的 MySql 数据库表名是**“用户”**。
 
-```html
+```phphtml
 <?php
 
 $showAlert = false; 

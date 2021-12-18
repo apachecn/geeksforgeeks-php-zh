@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```php
     *bool* copy($source, $dest)
     ```
 
@@ -18,7 +18,7 @@
 
     **语法:**
 
-    ```
+    ```php
     opendir($path, $context)
     ```
 
@@ -26,7 +26,7 @@
 
     **语法:**
 
-    ```
+    ```php
     is_dir($file)
     ```
 
@@ -34,7 +34,7 @@
 
     **语法:**
 
-    ```
+    ```php
     scandir(directory, sorting_order, context)
     ```
 
@@ -42,13 +42,13 @@
 
     **语法:**
 
-    ```
+    ```php
     readdir(dir_handle)
     ```
 
 **示例 1:** 本示例使用 readdir()函数从源目录读取文件。
 
-```
+```php
 <?php
 
 function custom_copy($src, $dst) { 
@@ -98,7 +98,7 @@ custom_copy($src, $dst);
 
 **示例 2:** 本示例使用 scandir()函数从源目录读取文件。
 
-```
+```php
 <?php
 
 function custom_copy($src, $dst) { 

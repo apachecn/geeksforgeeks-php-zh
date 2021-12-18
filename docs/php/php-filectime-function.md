@@ -8,7 +8,7 @@ PHP 中的 filectime()函数是一个内置函数，用于返回上次更改指�
 
 **语法：**
 
-```
+```php
 filectime($filename)
 ```
 
@@ -23,7 +23,7 @@ filectime($filename)
 
 **示例：**
 
-```
+```php
 Input : echo filectime("gfg.txt");
 Output : 1525159574
 
@@ -37,7 +37,7 @@ Output : Last changed: May 1 2018 07:26:14.
 
 **程序 1**：
 
-```
+```php
 <?php
 
 // checking last time a file was changed
@@ -48,13 +48,13 @@ echo filectime("gfg.txt");
 
 产出：
 
-```
+```php
 1525159574
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 
 // checking last time a file was changed
@@ -69,7 +69,7 @@ echo "Last changed: ".date("F d Y H:i:s.", 
 
 产出：
 
-```
+```php
 1525159574
 Last changed: May 1 2018 07:26:14.
 

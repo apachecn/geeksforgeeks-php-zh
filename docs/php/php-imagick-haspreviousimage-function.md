@@ -5,7 +5,7 @@
 **Imagick：：hasPreviousImage()函数**是 PHP 中的一个内置函数，用于检查 Imagick 对象是否有以前的图像。 如果 Imagick 对象有多个图像，则返回 TRUE，否则返回 FALSE。
 **语法：**和
 
-```
+```php
 *bool* Imagick::hasPreviousImage( void )
 ```
 
@@ -16,7 +16,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // String array containing path of images
@@ -53,7 +53,7 @@ if($image->hasPreviousImage()) {
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 $canvas has Multiple Images !!
 ```
 

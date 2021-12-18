@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* IntlCalendar::isEquivalentTo( *IntlCalendar* $other )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_is_equivalent_to( *IntlCalendar* $cal, *IntlCalendar* $other )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -60,7 +60,7 @@ var_dump($calendar1->isEquivalentTo($calendar2));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 

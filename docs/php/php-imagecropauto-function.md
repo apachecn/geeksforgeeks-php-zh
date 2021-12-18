@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecropauto( *resource* $image, *int* $mode,
                       *float* $threshold, *int* $color )
 ```
@@ -35,7 +35,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Load the png image
@@ -56,7 +56,7 @@ imagepng($cropped);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Load the png image

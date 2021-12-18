@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 gmp_gcd ( $num1, $num2 )
 
 ```
@@ -17,7 +17,7 @@ gmp_gcd ( $num1, $num2 )
 
 例如：
 
-```
+```php
 Input : gmp_gcd("12", "21")
 Output : 3
 
@@ -32,7 +32,7 @@ Output : 15
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $gcd = gmp_gcd("12", "21");
@@ -43,13 +43,13 @@ echo gmp_strval($gcd) . "\n";
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 3
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $gcd = gmp_gcd("15", "30");
@@ -60,7 +60,7 @@ echo gmp_strval($gcd) . "\n";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 15
 ```
 

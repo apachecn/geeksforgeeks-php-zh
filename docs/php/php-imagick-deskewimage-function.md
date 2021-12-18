@@ -6,7 +6,7 @@ Imagick：：deskewImage()函数是 PHP 中的一个内置函数，用于对图�
 
 **语法：**
 
-```
+```php
 *bool* Imagick::deskewImage( $threshold )
 ```
 
@@ -18,7 +18,7 @@ Imagick：：deskewImage()函数是 PHP 中的一个内置函数，用于对图�
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

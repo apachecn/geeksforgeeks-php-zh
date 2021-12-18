@@ -6,7 +6,7 @@ SplDoublyLinkedList：：UnSerialize()函数是 PHP 中的一个内置函数，�
 
 **语法：**
 
-```
+```php
 *void* SplDoublyLinkedList::unserialize( *string* $serialized )
 ```
 
@@ -17,7 +17,7 @@ SplDoublyLinkedList：：UnSerialize()函数是 PHP 中的一个内置函数，�
 以下程序说明 PHP：
 **程序 1：**中的 SplDoublyLinkedList：：UnSerialize()函数
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 
@@ -48,7 +48,7 @@ print_r($unserialze);
 
 **Output:**
 
-```
+```php
 C:19:"SplDoublyLinkedList":29:{i:0;:i:1;:i:2;:i:3;:i:8;:i:5;}
 SplDoublyLinkedList Object
 (
@@ -68,7 +68,7 @@ SplDoublyLinkedList Object
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare an empty SplDoublyLinkedList 

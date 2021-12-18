@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::separateimagechannel( *int* $channel )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1(分隔红色通道)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -43,7 +43,7 @@ echo $gmagick;
 
 **程序 2(分隔绿色通道)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -63,7 +63,7 @@ echo $gmagick;
 
 **程序 3(用于绘图)：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

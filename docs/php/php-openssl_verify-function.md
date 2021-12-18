@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 openssl_verify( $data, $signature, 
     $public_key, $algorithm ): int|false
 ```
@@ -28,7 +28,7 @@ openssl_verify( $data, $signature,
 
 ## PHP
 
-```
+```php
 <?php
 
 // Data you want to sign
@@ -68,7 +68,7 @@ if ($result == 1) {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Data you want to sign

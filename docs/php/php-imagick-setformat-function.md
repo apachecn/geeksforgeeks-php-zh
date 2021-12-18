@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setFormat( *string* $format )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -39,7 +39,7 @@ echo $format;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

@@ -8,14 +8,14 @@
 
 *   Object-oriented style:
 
-    ```
+    ```php
     *string* IntlDateFormatter::formatObject( *object* $object, 
                              *mixed* $format = NULL, *string* $locale = NULL )
     ```
 
 *   Process style:
 
-    ```
+    ```php
     *string* datefmt_format_object( *object* $object,
                              *mixed* $format = NULL, *string* $locale = NULL )
     ```
@@ -32,7 +32,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the timezone and locale
@@ -69,7 +69,7 @@ echo "Date in array format => ",
 
 **输出：**
 
-```
+```php
 Default date format => Oct 5, 2019, 9:19:29 AM
 Date in string format => 05 10 2019
 Date in long format => Saturday, October 5, 2019 at 9:19:29 AM India Standard Time

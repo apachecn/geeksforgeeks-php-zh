@@ -6,7 +6,7 @@ GmagickDraw：：settextDecomment()函数是 PHP 中的一个内置函数，用�
 
 **语法：**
 
-```
+```php
 *public* GmagickDraw::settextdecoration( $decoration ) : GmagickDraw
 ```
 
@@ -24,7 +24,7 @@ GmagickDraw：：settextDecomment()函数是 PHP 中的一个内置函数，用�
 
     **程序 1：**
 
-    ```
+    ```php
     <?php
 
     // Create an GmagickDraw  object
@@ -65,7 +65,7 @@ GmagickDraw：：settextDecomment()函数是 PHP 中的一个内置函数，用�
 
     **程序 2：**
 
-    ```
+    ```php
     <?php
 
     // Create an GmagickDraw object

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* XMLReader::getAttributeNo( *int* $index )
 ```
 
@@ -20,7 +20,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <body>
         <h1> Hello </h1>
@@ -29,7 +29,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -54,7 +54,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     // Empty string because no attributes are there in XML
     ```
 
@@ -62,7 +62,7 @@
 
 *   **data.xml**
 
-    ```
+    ```php
     <?xml version="1.0" encoding="utf-8"?>
     <body>
         <h1 id="geeksforgeeks"> Hello </h1>
@@ -72,7 +72,7 @@
 
 *   **index.php**
 
-    ```
+    ```php
     <?php
 
     // Create a new XMLReader instance
@@ -97,7 +97,7 @@
 
 *   **output:**
 
-    ```
+    ```php
     geeksforgeeks
     my_id
     ```

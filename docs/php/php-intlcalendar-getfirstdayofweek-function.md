@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *int* IntlCalendar::getFirstDayOfWeek( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *int* intlcal_get_first_day_of_week( *IntlCalendar* $cal )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -61,7 +61,7 @@ var_dump($calendar2->get(IntlCalendar::FIELD_IS_LEAP_MONTH)); 
 
 **输出：**
 
-```
+```php
 int(1)
 int(39)
 int(1)

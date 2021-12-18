@@ -7,7 +7,7 @@ Image_type_to_mime_type()函数是 PHP 中的内置函数，用于获取由其�
 
 **语法：**
 
-```
+```php
 *string* image_type_to_mime_type( *int* $imagetype )
 ```
 
@@ -42,7 +42,7 @@ Image_type_to_mime_type()函数是 PHP 中的内置函数，用于获取由其�
 
 **程序 1：**
 
-```
+```php
 <?php
 echo image_type_to_mime_type(IMAGETYPE_PNG);
 ?>
@@ -50,13 +50,13 @@ echo image_type_to_mime_type(IMAGETYPE_PNG);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 image/png
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 echo image_type_to_mime_type(IMAGETYPE_JPEG);
 ?>
@@ -64,7 +64,7 @@ echo image_type_to_mime_type(IMAGETYPE_JPEG);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 image/jpeg
 ```
 

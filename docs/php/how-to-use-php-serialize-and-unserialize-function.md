@@ -10,14 +10,14 @@
 
 *   **语法:**
 
-    ```
+    ```php
     serialize( $values_in_form_of_array )
     ```
 
 *   下面的程序说明了 Serialize()函数。
     **程序:**
 
-    ```
+    ```php
     <?php 
 
     // Complex array 
@@ -39,7 +39,7 @@
 
 *   **输出:**
 
-    ```
+    ```php
     a:4:{i:0;s:5:"hello";i:1;i:42;i:2;a:2:{i:
     0;i:1;i:1;s:3:"two";}i:3;s:5:"apple";}
     ```
@@ -48,14 +48,14 @@
 
 *   **语法:**
 
-    ```
+    ```php
     unserialize( $serialized_array )
     ```
 
 *   下面的程序说明了序列化()和非序列化()函数:
     **程序:**
 
-    ```
+    ```php
     <?php 
 
     // Complex array 
@@ -80,7 +80,7 @@
 
 *   **输出:**
 
-    ```
+    ```php
     Array
     (
         [0] => hello

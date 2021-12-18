@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageOrientation( *int* $orientation )
 ```
 
@@ -30,7 +30,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -50,7 +50,7 @@ echo $orientation;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

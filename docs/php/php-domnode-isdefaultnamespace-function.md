@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMNode::isDefaultNamespace( *string* $namespaceURI )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -42,7 +42,7 @@ if($dom->isDefaultNamespace('my_namespace')) {
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument

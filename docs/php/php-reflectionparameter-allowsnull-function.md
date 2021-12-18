@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* ReflectionParameter::allowsNull ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **程序 1：**中的**ReflectionParameter：：allowsNull()**函数
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company1
@@ -45,14 +45,14 @@ var_dump($B);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(false)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Initializing some user-defined classes
@@ -85,7 +85,7 @@ var_dump($C->allowsNull());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 bool(true)
 bool(false)
 bool(true)

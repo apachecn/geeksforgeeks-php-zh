@@ -19,7 +19,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 1.  Write the below code in the ‘**web.php**’ file.
 
-    ```
+    ```php
     Route::get('/', function () {
         return view('gfg', ['articleName' => 'Article 1']);
     });
@@ -30,7 +30,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 2.  Create and write the below code in the ‘**gfg.blade.php**’ file in ‘**resources/views**’ directory.
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
     <head>
@@ -52,7 +52,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 1.  Write the below code in the ‘**web.php**’ file.
 
-    ```
+    ```php
     Route::get('/', function () {
         return view('gfg', [ 'articles' => 
           ['Article 1','Article 2','Article 3'] ]);
@@ -63,7 +63,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
     我们还可以将数组元素存储在变量中，然后将其传递给视图函数。在下面的代码中，我们已经将所有值存储在一个变量中，并将其作为一个**值**传递到**视图()**函数的第二个参数中。
 
-    ```
+    ```php
     Route::get('/', function () {
        $articles = ['Article 1','Article 2','Article 3'];
        return view('gfg', ['articles' => $articles]);
@@ -73,7 +73,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 2.  Create and write the below code in the ‘**gfg.blade.php**’ file in ‘**resources/views**’ directory.
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
     <head>
@@ -102,7 +102,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 1.  Write the below code in the ‘**web.php**’ file.
 
-    ```
+    ```php
     Route::get('/', function () {
        $articleName = ‘Article 1’;
        return view('gfg')->with('articleName', $articleName)->
@@ -114,7 +114,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 2.  Create and write the below code in the ‘**gfg.blade.php**’ file in ‘**resources/views**’ directory.
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
     <head>
@@ -141,7 +141,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 1.  Write the below code in the ‘**web.php**’ file.
 
-    ```
+    ```php
     Route::get('/', function () {
         $articleName = ['Article 1','Article 2'];
         $articlePublished = 'On GeeksforGeeks';
@@ -154,7 +154,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
 2.  Create and write the below code in the ‘**gfg.blade.php**’ file in ‘**resources/views**’ directory.
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
     <head>
@@ -183,13 +183,13 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
     1.  我们首先必须通过在命令行上运行下面的命令来创建一个控制器类。
 
-        ```
+        ```php
         php artisan make:controller GfGController
         ```
 
     2.  之后，在 **app/Http/Controllers** 目录下打开“**GfGController.php**文件，创建一个名为“**文章**的公共函数。在这个函数中，我们可以指定上面看到的任何数据传递方法。
 
-        ```
+        ```php
         <?php
 
         namespace App\Http\Controllers;
@@ -207,7 +207,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
     3.  Now, write the below code in the ‘**web.php**’ file.
 
-        ```
+        ```php
         Route::get('/', 'GfGController@article');
 
         ```
@@ -216,7 +216,7 @@ Laravel 提供了不同的方法将数据传递给视图。我们可以直接从
 
     4.  Create and write the below code in the ‘**gfg.blade.php**’ file in ‘**resources/views**’ directory.
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
         <head>

@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* public IntlCalendar::inDaylightTime( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_in_daylight_time( *IntlCalendar* $cal )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -65,7 +65,7 @@ var_dump($calendar->inDaylightTime());
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(false)
 bool(true)

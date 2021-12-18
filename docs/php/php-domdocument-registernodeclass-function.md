@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMDocument::registerNodeClass( *string* $baseclass,
                               *string* $extendedclass )
 ```
@@ -22,7 +22,7 @@
 
 **程序 1：**在此程序中，我们将使用类创建具有 CSS 属性的 HTML div 元素。
 
-```
+```php
 <?php
 
 // Create a class myElement
@@ -70,7 +70,7 @@ echo $doc->saveXML();
 
 **程序 2：**在本程序中，我们将使用类获取标记的文本内容。
 
-```
+```php
 <?php
 
 class myElement extends DOMElement {
@@ -102,7 +102,7 @@ echo $element->getData();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This is my heading
 ```
 

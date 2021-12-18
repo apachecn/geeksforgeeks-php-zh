@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* Imagick::getImageGreenPrimary( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -37,7 +37,7 @@ print_r($res);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Imagick object

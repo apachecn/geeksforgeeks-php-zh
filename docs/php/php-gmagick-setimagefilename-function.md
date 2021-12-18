@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Gmagick* Gmagick::setimagefilename( *string* $filename )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -40,13 +40,13 @@ echo $name;  
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 new_name.png
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -63,7 +63,7 @@ echo 'Image saved successfully in the folder';
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the image with new name in the same folder.
 ```
 

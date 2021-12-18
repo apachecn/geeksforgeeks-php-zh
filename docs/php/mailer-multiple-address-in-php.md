@@ -25,7 +25,7 @@ PHPMailer 库用于通过 XAMPP 网络服务器使用 PHP 代码将未知电子�
 
 3.  创建数据库，这样我们就可以手动存储用户的 *email_ID* 。
 
-    ```
+    ```php
     db_name="mailer";
     table_name="users";
 
@@ -43,7 +43,7 @@ PHPMailer 库用于通过 XAMPP 网络服务器使用 PHP 代码将未知电子�
 
     ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-    ```
+    ```php
     <?php
 
     $conn= mysqli_connect("localhost", 

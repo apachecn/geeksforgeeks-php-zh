@@ -6,7 +6,7 @@ Is_a()是 PHP 中的内置函数，用于检查给定对象是否属于给定的
 
 **语法**：
 
-```
+```php
 *boolean* is_a($object, $class)
 
 ```
@@ -22,7 +22,7 @@ Is_a()是 PHP 中的内置函数，用于检查给定对象是否属于给定的
 
 **程序 1**：
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // is_a() function
@@ -48,14 +48,14 @@ if (is_a($geek, 'GeeksforGeeks')) 
 
 产出：
 
-```
+```php
 YES
 
 ```
 
 **程序 2**：
 
-```
+```php
 <?php
 // PHP program to illustrate the 
 // is_a() function
@@ -89,7 +89,7 @@ else
 
 产出：
 
-```
+```php
 YES
 
 ```

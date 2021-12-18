@@ -6,7 +6,7 @@ Md5_file()函数是 PHP 中的一个内置函数，用于生成给定文件的 M
 
 **语法：**
 
-```
+```php
 md5_file( $file, $raw )
 ```
 
@@ -27,7 +27,7 @@ md5_file( $file, $raw )
 
 **程序 1：**
 
-```
+```php
 
 <?php 
 
@@ -42,13 +42,13 @@ echo $gfg;
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
  1d4e50ae1992ad8adf2f7bb6ee4dd0cd 
 ```
 
 **程序 2：**，可选参数$RAW，值 TRUE 和 FALSE 不同。
 
-```
+```php
 
 <?php 
 // PHP  program to illustrate  
@@ -74,7 +74,7 @@ echo md5_file("gfg.txt", TRUE) . "\n"; 
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```php
 1d4e50ae1992ad8adf2f7bb6ee4dd0cd 
 1d4e50ae1992ad8adf2f7bb6ee4dd0cd ????/{??M??
 

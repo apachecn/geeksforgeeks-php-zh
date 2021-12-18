@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```php
 <?php
 
 // Initializing a variable with filename
@@ -35,7 +35,7 @@ echo $x;
 
 **Output:**
 
-```
+```php
 filename
 
 ```
@@ -45,7 +45,7 @@ filename
 **使用 [basename()函数:](https://www.geeksforgeeks.org/php-basename-function/)**base name()函数用于以字符串形式返回路径的尾随名称组件。basename()对输入字符串进行天真的操作，不知道实际的文件系统或路径组件，如“..”
 **语法:**
 
-```
+```php
 basename ( $path, $suffix )
 ```
 
@@ -53,7 +53,7 @@ basename ( $path, $suffix )
 
 **示例:**
 
-```
+```php
 <?php
 
 // Initializing a variable
@@ -72,7 +72,7 @@ echo $x;
 
 **Output:**
 
-```
+```php
 filename
 
 ```
@@ -81,13 +81,13 @@ filename
 
 **语法:**
 
-```
+```php
 substr ( $string, $start, $length )
 ```
 
 **示例:**
 
-```
+```php
 <?php
 
 // Initializing a variable
@@ -105,7 +105,7 @@ echo $x;
 
 **Output:**
 
-```
+```php
 filename
 
 ```

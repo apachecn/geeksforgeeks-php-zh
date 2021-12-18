@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* JsonSerializable::jsonSerialize( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 class vector implements JsonSerializable { 
     public function __construct(array $arr) { 
@@ -43,7 +43,7 @@ echo json_encode(new vector($arr), JSON_PRETTY_PRINT); 
 
 **输出：**
 
-```
+```php
 JSON elements:
 [
     1,
@@ -57,7 +57,7 @@ JSON elements:
 
 **程序 2：**
 
-```
+```php
 <?php 
 class vector implements JsonSerializable { 
     public function __construct(array $arr) { 
@@ -86,7 +86,7 @@ echo json_encode(new vector($arr), JSON_PRETTY_PRINT); 
 
 **输出：**
 
-```
+```php
 Convert the array element into JSON:
 {
     "x": "geeks",

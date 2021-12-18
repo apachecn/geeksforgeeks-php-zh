@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *bool* IntlCalendar::isSet( *int* $field )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *bool* intlcal_is_set( *IntlCalendar* $cal, *int* $field )
     ```
 
@@ -29,7 +29,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -58,7 +58,7 @@ var_dump($calendar->isSet(IntlCalendar::FIELD_YEAR));
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

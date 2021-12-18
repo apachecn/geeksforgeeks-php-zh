@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *ReflectionFunctionAbstract* ReflectionGenerator::getFunction ( *void* )
 ```
 
@@ -17,7 +17,7 @@
 以下程序说明 PHP：
 **Program_1：**中的**ReflectionGenerator：：getFunction()函数**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Company
@@ -48,7 +48,7 @@ var_dump($C);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(ReflectionMethod)#4 (2) {
   ["name"]=>
   string(3) "GFG"
@@ -60,7 +60,7 @@ object(ReflectionMethod)#4 (2) {
 
 **程序 _2：**
 
-```
+```php
 <?php
 
 // Initializing a user-defined class Departments
@@ -105,7 +105,7 @@ var_dump($F->getFunction());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 object(ReflectionMethod)#10 (2) {
   ["name"]=>
   string(17) "Coding_Department"

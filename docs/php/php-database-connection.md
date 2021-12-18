@@ -13,7 +13,7 @@
 
 在 PHP 中，我们可以使用以下路径使用 XAMPP web 服务器连接到数据库。
 
-```
+```php
 "localhost/phpmyadmin"
 ```
 
@@ -28,7 +28,7 @@
 
     ## PHP
 
-    ```
+    ```php
     <?php
 
     // Server name must be localhost

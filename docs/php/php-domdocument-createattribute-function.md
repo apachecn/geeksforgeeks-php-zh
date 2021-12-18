@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMAttr* DOMDocument::createAttribute( *string* $name )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -48,7 +48,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <organization name="GeeksforGeeks">A computer science portal</organization>
 
@@ -56,7 +56,7 @@ echo $domDocument->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -103,7 +103,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <organization name="GeeksforGeeks" address="Noida" email="abc@geeksforgeeks.org">
     GeeksforGeeks

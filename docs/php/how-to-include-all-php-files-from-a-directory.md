@@ -8,7 +8,7 @@
 
 **在文件夹“我的极客”中创建 file1.php:**
 
-```
+```php
 <?php 
 echo "1st File Included Successfully<br>";
 ?>
@@ -16,7 +16,7 @@ echo "1st File Included Successfully<br>";
 
 **在文件夹“我的极客”中创建 file2.php:**
 
-```
+```php
 <?php 
 echo "2nd File Included Successfully<br>";
 ?>
@@ -24,7 +24,7 @@ echo "2nd File Included Successfully<br>";
 
 **在文件夹“我的极客”中创建 file3.php:**
 
-```
+```php
 <?php 
 echo "3rd File Included Successfully<br>";
 ?>
@@ -32,7 +32,7 @@ echo "3rd File Included Successfully<br>";
 
 **在文件夹“我的极客”中创建 file4.php:**
 
-```
+```php
 <?php 
 echo "4th File Included Successfully<br>";
 ?>
@@ -40,7 +40,7 @@ echo "4th File Included Successfully<br>";
 
 **创建 main.php 外文件夹:**
 
-```
+```php
 <?php
 foreach (glob("folder/*.php") as $filename) {
     include $filename;

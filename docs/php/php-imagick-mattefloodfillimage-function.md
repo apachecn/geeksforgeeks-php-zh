@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::matteFloodfillImage(*float* $alpha, *float* $fuzz, 
                                    *mixed* $bordercolor, *int* $x, *int* $y)
 ```
@@ -27,7 +27,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

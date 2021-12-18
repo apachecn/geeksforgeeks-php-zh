@@ -6,7 +6,7 @@ Strpbrk()函数是 PHP 中的一个内置函数，用于在字符串中搜索任
 
 **语法：**
 
-```
+```php
 strpbrk( $string, $charlist)
 ```
 
@@ -19,7 +19,7 @@ strpbrk( $string, $charlist)
 
 例如：
 
-```
+```php
 Input : $string = "Geeks for Geeks!", $charlist = "ef"
 Output : eeks for Geeks!
 Explanation : 'e' is the first occurrence of the specified 
@@ -36,7 +36,7 @@ Output : uter Science portal
 
 **程序 1：**
 
-```
+```php
 <?php
 echo strpbrk("Geeks for Geeks!", "ef"); 
 ?>
@@ -44,13 +44,13 @@ echo strpbrk("Geeks for Geeks!", "ef"); 
 
 产出：
 
-```
+```php
 eeks for Geeks!
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 echo strpbrk("A Computer Science portal", "tue"); 
 ?>
@@ -58,13 +58,13 @@ echo strpbrk("A Computer Science portal", "tue"); 
 
 产出：
 
-```
+```php
 uter Science portal
 ```
 
 **程序 3：**此程序将说明函数的区分大小写。
 
-```
+```php
 <?php
 echo strpbrk("A Computer Science portal", "c"); 
 ?>
@@ -72,7 +72,7 @@ echo strpbrk("A Computer Science portal", "c"); 
 
 产出：
 
-```
+```php
 cience portal
 ```
 

@@ -17,7 +17,7 @@
 
 **示例 1:** 本示例使用['服务器 _ADDR']标识服务器的 IP 地址。
 
-```
+```php
 <?php
 
 // PHP program to obtain IP address of
@@ -35,13 +35,13 @@ echo "Server IP Address is: $ip_server";
 
 **输出:**
 
-```
+```php
 Server IP Address is: ::1
 ```
 
 **示例 2:** 本示例使用['REMOTE_ADDR']标识服务器的 IP 地址。
 
-```
+```php
 <?php
 
 // PHP program to obtain IP address of
@@ -59,7 +59,7 @@ echo "IP Address is: $ip", "<br>";
 
 **输出:**
 
-```
+```php
 Server IP Address is: ::1
 ```
 

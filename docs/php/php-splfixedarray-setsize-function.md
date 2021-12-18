@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplFixedArray::setSize( $size )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create fixed size array
@@ -37,7 +37,7 @@ echo $gfg->getSize() . "\n";
 
 **输出：**
 
-```
+```php
 50
 110
 
@@ -45,7 +45,7 @@ echo $gfg->getSize() . "\n";
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -72,7 +72,7 @@ echo $gfg2->getSize() . "\n";
 
 **输出：**
 
-```
+```php
 0
 9
 100

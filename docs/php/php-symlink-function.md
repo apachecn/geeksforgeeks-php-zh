@@ -7,7 +7,7 @@ PHP 中的 symlink()函数是一个内置函数，用于为已经存在的目标
 symlink()函数不提供 HTML 链接，而是文件系统中的链接。
 **语法：**
 
-```
+```php
 symlink(target, link)
 ```
 
@@ -27,7 +27,7 @@ PHP 中的 symlink()函数接受两个参数。
 
 例如：
 
-```
+```php
 Input : $target_pointer = 'gfg.txt';
         $link_name = 'geeksforgeeks';
         symlink($target_pointer, $link_name);
@@ -53,7 +53,7 @@ Output : Symlink has been created!
 
 ## PHP
 
-```
+```php
 <?php
 // specifying target
 $target_pointer = 'gfg.txt';
@@ -68,7 +68,7 @@ symlink($target_pointer, $link_name);
 
 **输出：**
 
-```
+```php
 1
 ```
 
@@ -76,7 +76,7 @@ symlink($target_pointer, $link_name);
 
 ## PHP
 
-```
+```php
 <?php
 // specifying target
 $target_pointer = "/home/user1/gfg.txt";
@@ -100,7 +100,7 @@ else
 
 **输出：**
 
-```
+```php
 Symlink has been created!
 ```
 

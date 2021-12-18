@@ -8,7 +8,7 @@
 
 例如：
 
-```
+```php
 Input : $arr = array(2, 8, 9, 7, 6, 5);
         $arr = array_diff($arr, array(9));
 Output : Array
@@ -39,7 +39,7 @@ Output : Array
 
 **程序 1：**
 
-```
+```php
 <?php
 
     $arr = array(2, 8, 9, 7, 6, 5);
@@ -55,7 +55,7 @@ Output : Array
 
 产出：
 
-```
+```php
 Array
 (
     [0] => 2
@@ -69,7 +69,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
     $arr = array("Harsh", "Nishant", "Akshay", 
@@ -86,7 +86,7 @@ Array
 
 产出：
 
-```
+```php
 Array
 (
     [0] => Harsh

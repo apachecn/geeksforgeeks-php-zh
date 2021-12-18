@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 strlen(*string* or *variable* name)
 ```
 
@@ -16,7 +16,7 @@ strlen(*string* or *variable* name)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php 
 
 $str = "Hello World!";
@@ -32,7 +32,7 @@ echo "<br>" . strlen("GeeksForGeeks"); 
 
 **输出:**
 
-```
+```php
 12
 13
 ```
@@ -41,7 +41,7 @@ echo "<br>" . strlen("GeeksForGeeks"); 
 
 **语法:**
 
-```
+```php
 strrev(*string or variable name*)
 ```
 
@@ -49,7 +49,7 @@ strrev(*string or variable name*)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $str = "Hello World!";
@@ -60,7 +60,7 @@ echo strrev($str);
 
 **Output**
 
-```
+```php
 !dlroW olleH
 ```
 
@@ -74,7 +74,7 @@ echo strrev($str);
 
 **语法:**
 
-```
+```php
 rtrim(*string*, *charList*)
 ltrim(*string, charList)*
 trim(*string, charList*)
@@ -98,7 +98,7 @@ chop(*string, charList*)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $str = "\nThis is an example for string functions.\n";
@@ -123,7 +123,7 @@ echo ltrim($str);
 
 **Output**
 
-```
+```php
 This is an example for string functions.
 
 This is an example for string functions.<br>This is an example for string functions.<br>
@@ -138,7 +138,7 @@ This is an example for string functions.<br>This is an example for string functi
 
 **语法:**
 
-```
+```php
 strtoupper(*string*)
 strtolower(*string*)
 ```
@@ -147,7 +147,7 @@ strtolower(*string*)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $str = "GeeksForGeeks";
@@ -159,7 +159,7 @@ echo strtolower($str);
 
 **输出:**
 
-```
+```php
 GEEKSFORGEEKS
 geeksforgeeks
 ```
@@ -168,7 +168,7 @@ geeksforgeeks
 
 **语法:**
 
-```
+```php
 str_split(*string*, *length*)
 ```
 
@@ -181,7 +181,7 @@ str_split(*string*, *length*)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $str = "GeeksForGeeks";
@@ -194,7 +194,7 @@ print_r(str_split($str, 3));
 
 **输出:**
 
-```
+```php
 Array ( 
     [0] => G 
     [1] => e 

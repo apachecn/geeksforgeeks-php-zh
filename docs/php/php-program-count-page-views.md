@@ -13,7 +13,7 @@ PHP 会话用于将数据存储在服务器上，而不是用户的计算机上�
 
 下面是存储页数的 PHP 程序：
 
-```
+```php
 <?php 
 
 session_start();
@@ -40,7 +40,7 @@ echo"views = ".$_SESSION['views'];
 
 我们还可以重置会话变量。 下面的程序显示了如何在 PHP 中重置会话：
 
-```
+```php
 <?php
 
 session_start();

@@ -5,7 +5,7 @@
 GMP_ROOT()是 PHP 中的一个内置函数，它返回 GMP 数的 N 次方根的整数部分([GNU Multiple Precision](https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library)：表示大数)。
 **语法：**
 
-```
+```php
 gmp_root( $num, $n )
 
 ```
@@ -18,7 +18,7 @@ gmp_root( $num, $n )
 **返回值：**此函数返回一个正的[gmp](http://php.net/manual/en/class.gmp.php)数，它是$num 的 N 次方根的整数部分。*
 示例：{
 
-```
+```php
 Input : $num = "20" $n = 2
 Output : 4 
 
@@ -32,7 +32,7 @@ Output : 2
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to calculate the
 // integer part of N-th root of 

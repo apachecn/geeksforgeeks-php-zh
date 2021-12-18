@@ -6,7 +6,7 @@ PHP 中的 bcdiv()函数是一个内置函数，用于划分两个任意精度�
 
 **语法:**
 
-```
+```php
 *string* bcdiv ( $num_str1, $num_str2, $scaleVal)
 ```
 
@@ -20,7 +20,7 @@ PHP 中的 bcdiv()函数是一个内置函数，用于划分两个任意精度�
 
 示例:
 
-```
+```php
 Input:  $num_str1 = 11.222, $num_str2 = 3
 Output: 3
 Since the parameter $scaleVal is not specified so
@@ -36,7 +36,7 @@ Output: 3.7406
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcdiv() function
 
@@ -56,14 +56,14 @@ echo $res;
 
 输出:
 
-```
+```php
 3
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcdiv() function
 
@@ -85,7 +85,7 @@ echo $res;
 
 输出:
 
-```
+```php
 3.7406
 
 ```

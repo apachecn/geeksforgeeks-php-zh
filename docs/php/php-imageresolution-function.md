@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* imageresolution( *resource* $image, *int* $res_x, *int* $res_y )
 ```
 
@@ -22,7 +22,7 @@
 
 **示例 1：**在此示例中，我们将获得图像的分辨率。
 
-```
+```php
 <?php
 
 // Load the png image
@@ -39,7 +39,7 @@ print("<pre>".print_r($imageresolution, true)."</pre>");
 
 **示例 2：**在此示例中，我们将设置图像的分辨率
 
-```
+```php
 <?php
 
 // Load the png image

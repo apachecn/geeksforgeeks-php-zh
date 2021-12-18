@@ -6,7 +6,7 @@ Gmp_popcount()是 PHP 中的一个内置函数，用于查找 GMP 编号的人�
 
 **语法：**
 
-```
+```php
 gmp_popcount ( $num )
 ```
 
@@ -16,7 +16,7 @@ gmp_popcount ( $num )
 
 例如：
 
-```
+```php
 Input : "9"
 Output : 2
 
@@ -29,7 +29,7 @@ Output : 3
 
 **程序 1：**当作为 GMP 编号的数字字符串作为参数传递时，计算数字的总体计数的程序。
 
-```
+```php
 <?php
 // PHP program to calculate population count 
 // of a GMP number passed as arguments 
@@ -51,7 +51,7 @@ echo $pcount."\n";
 
 产出：
 
-```
+```php
 2
 3
 
@@ -59,7 +59,7 @@ echo $pcount."\n";
 
 **程序 2：**当 GMP 编号作为参数传递时，计算一个数字的总体计数的程序。
 
-```
+```php
 <?php
 // PHP program to calculate population count 
 // of a GMP number passed as arguments 
@@ -81,7 +81,7 @@ echo $pcount."\n";
 
 产出：
 
-```
+```php
 2
 3
 

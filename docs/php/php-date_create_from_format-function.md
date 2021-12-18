@@ -7,13 +7,13 @@ DATE_CREATE_FROM_FORMAT()是 php 中的一个内置函数，用于根据指定�
 **语法：**
 过程化风格
 
-```
+```php
 date_create_from_format ( $format, $time, $timezone )
 ```
 
 面向对象的样式
 
-```
+```php
 DateTime::createFromFormat ( $format, $time, $timezone )
 ```
 
@@ -60,7 +60,7 @@ DateTime::createFromFormat ( $format, $time, $timezone )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a date in given format
@@ -73,14 +73,14 @@ echo date_format($date, 'y-n-j');
 
 **Output:**
 
-```
+```php
 18-2-5
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a date in given format
@@ -93,7 +93,7 @@ echo $date->format('Y-m-d');
 
 **Output:**
 
-```
+```php
 2018-02-05
 
 ```

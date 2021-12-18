@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 easter_date( $year )
 ```
 
@@ -16,7 +16,7 @@ easter_date( $year )
 
 例如：
 
-```
+```php
 Input : 2018
 Output : Apr-01-2018
 
@@ -29,7 +29,7 @@ Output : Apr-16-2017
 
 **程序 1：**程序演示未传递参数时的函数。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // working of easter_date() function 
@@ -47,14 +47,14 @@ echo date("M-d-Y", easter_date($year));   
 
 产出：
 
-```
+```php
 Apr-01-2018
 Apr-01-2018
 ```
 
 **程序 2：**程序演示参数传递时的功能。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // working of easter_date() function 
@@ -73,7 +73,7 @@ echo date("M-d-Y", easter_date($year)); 
 
 产出：
 
-```
+```php
 Apr-16-2017
 Apr-04-2010
 Apr-23-2000
@@ -81,7 +81,7 @@ Apr-23-2000
 
 **程序 3：**程序演示参数传递超出范围时的功能。
 
-```
+```php
 <?php
 // PHP program to demonstrate the
 // working of easter_date() function 
@@ -96,7 +96,7 @@ echo date("M-d-Y", easter_date($year)), "\n"; 
 
 产出：
 
-```
+```php
 PHP Warning:  easter_date(): This function is only valid 
 for years between 1970 and 2037 inclusive in
 /home/df540ecbab7094243e7668326260e785.php on line 8

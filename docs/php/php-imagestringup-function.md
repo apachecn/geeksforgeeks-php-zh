@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagestringup( $image, $font, $x, $y, $string, $color )
 ```
 
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a 400*300 image
@@ -53,7 +53,7 @@ imagepng($im); 
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a 400*300 image

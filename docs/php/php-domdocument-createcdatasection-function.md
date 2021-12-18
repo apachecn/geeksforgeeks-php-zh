@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *DOMCDATASection* DOMDocument::createCDATASection( *string* $data )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -38,7 +38,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <![CDATA[GeeksforGeeks]]>
 
@@ -46,7 +46,7 @@ echo $domDocument->saveXML();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -70,7 +70,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--Create CDATA file-->
 <![CDATA[GeeksforGeeks]]>

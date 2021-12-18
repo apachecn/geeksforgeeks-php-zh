@@ -11,7 +11,7 @@ PHP Filter 是一个扩展，它通过清理或验证数据来过滤数据。 �
 
 **示例 1：**使用 FILTER_VALIDATE_URL 过滤器验证 URL 的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to validate URL
 
@@ -31,7 +31,7 @@ else {
 
 **示例 2：**使用 FILTER_VALIDATE_EMAIL 过滤器验证电子邮件的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to validate email
 

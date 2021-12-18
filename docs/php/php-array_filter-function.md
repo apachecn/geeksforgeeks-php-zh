@@ -6,7 +6,7 @@ PHP 中的这个内置函数用于使用用户定义的函数(也称为回调函
 
 **语法:**
 
-```
+```php
 *array* array_filter($array, $callback_function, $flag)
 ```
 
@@ -22,7 +22,7 @@ PHP 中的这个内置函数用于使用用户定义的函数(也称为回调函
 
 下面是一个程序，展示了如何使用 array_filter()函数从数组中返回或过滤出偶数元素。
 
-```
+```php
 <?php
 
 // PHP function to check for even elements in an array
@@ -43,7 +43,7 @@ print_r(array_filter($array, "Even"));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => 12
@@ -58,7 +58,7 @@ Array
 
 在这个例子中，我们将不传递回调函数，让我们看看输出。我们会看到没有打印 0 或假元素:
 
-```
+```php
 <?php
 
 // PHP function to check for even elements in an array
@@ -79,7 +79,7 @@ print_r(array_filter($array));
 
 输出:
 
-```
+```php
 Array
 (
     [0] => 12

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 strtotime ($EnglishDateTime, $time_now)
 ```
 
@@ -14,7 +14,7 @@ strtotime ($EnglishDateTime, $time_now)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 // PHP program to convert the date 
 // to timestamp 
 <?php
@@ -38,7 +38,7 @@ echo $timestamp3;
 
 **输出:**
 
-```
+```php
 1600819200
 1600905600
 1557964800

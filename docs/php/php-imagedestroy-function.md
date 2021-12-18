@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* imagedestroy( *resource* $image )
 ```
 
@@ -18,7 +18,7 @@
 
 **示例 1：**使用后销毁图像。
 
-```
+```php
 <?php
 
 // Load the png image
@@ -41,7 +41,7 @@ imagedestroy($cropped);
 
 **示例 2：**检查变量是否已销毁。
 
-```
+```php
 <?php
 
 // Load the png image

@@ -10,7 +10,7 @@
 
 **语法：**
 
-```
+```php
 int rand( $min, $max )
 ```
 
@@ -21,7 +21,7 @@ int rand( $min, $max )
 
 **程序 1：**使用 rand()函数生成随机数的 PHP 程序。
 
-```
+```php
 <?php
 // PHP program to generate random number
 // in given range
@@ -42,7 +42,7 @@ echo "Random number in range (7, 100): ", $num2;
 
 **Output:**
 
-```
+```php
 Random number: 77551982
 Random number in range (7, 100): 37
 
@@ -54,7 +54,7 @@ Random number in range (7, 100): 37
 
 **语法：**
 
-```
+```php
 int random_int( $min, $max )
 ```
 
@@ -65,7 +65,7 @@ int random_int( $min, $max )
 
 **程序 2：**使用 Random_int()函数生成某个范围内的随机数。
 
-```
+```php
 <?php
 // PHP program to generate random number
 // in given range
@@ -86,7 +86,7 @@ echo "Random number in range (10, 30): " . $num2;
 
 **Output:**
 
-```
+```php
 Random number in range (35, 100): 93
 Random number in range (10, 30): 28
 

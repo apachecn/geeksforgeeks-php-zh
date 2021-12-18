@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* public Ds\Vector::pop( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Vector
@@ -44,7 +44,7 @@ print_r($arr1);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new Vector

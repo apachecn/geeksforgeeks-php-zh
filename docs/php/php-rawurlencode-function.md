@@ -6,7 +6,7 @@ Rawurlencode()函数是 PHP 中的一个内置函数，用于根据[RFC(统一�
 
 **语法：**
 
-```
+```php
 string rawurlencode( $str )
 ```
 
@@ -18,7 +18,7 @@ string rawurlencode( $str )
 
 **程序 1：**
 
-```
+```php
 <?php
 echo '<a href="www.geeksforgeeks.org',
   rawurlencode('A computer science portal for geek'), '">';
@@ -27,14 +27,14 @@ echo '<a href="www.geeksforgeeks.org',
 
 **输出：**
 
-```
+```php
 <a href="www.geeksforgeeks.orgA%20computer%20science%20portal%20for%20geek">
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Store the URL string
@@ -47,7 +47,7 @@ echo '<a href="www.geeksforgeeks.org', rawurlencode($str), '">';
 
 **输出：**
 
-```
+```php
 <a href="www.geeksforgeeks.orgA%20computer%20science%20portal%20for%20geek">
 
 ```

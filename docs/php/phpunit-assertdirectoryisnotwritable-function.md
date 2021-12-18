@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 assertDirectoryIsNotWritable(string $directory[, string $message = ''])
 
 ```
@@ -22,7 +22,7 @@ assertDirectoryIsNotWritable(string $directory[, string $message = ''])
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 
@@ -50,7 +50,7 @@ class GeeksPhpunitTestCase extends TestCase 
 
 ## PHP
 
-```
+```php
 <?php 
 use PHPUnit\Framework\TestCase; 
 

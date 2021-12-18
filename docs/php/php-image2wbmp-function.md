@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* image2wbmp( *resource* $image, *int* $filename, *int* $foreground)
 ```
 
@@ -21,7 +21,7 @@
 下面的示例说明 PHP 中的**image2wbmp()函数**：
 **示例 1：**在此示例中，我们将在浏览器中下载图像。
 
-```
+```php
 <?php
 // Load an wbmp image from local folder
 // Image can be converted into wbmp using
@@ -37,7 +37,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will download your image as *download*, 
 further you can rename this file to anything like 
 *geeksforgeeks.wbmp* and use it.
@@ -45,7 +45,7 @@ further you can rename this file to anything like
 
 **示例 2：**在此示例中，我们将 PNG 转换为 WBMP。
 
-```
+```php
 <?php
 // Load an image from PNG URL
 $im = imagecreatefrompng(
@@ -60,7 +60,7 @@ imagedestroy($im);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save the WBMP version of image 
 in the same folder where your PHP script is.
 ```

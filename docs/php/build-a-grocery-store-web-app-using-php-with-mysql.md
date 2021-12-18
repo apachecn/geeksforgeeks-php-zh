@@ -18,7 +18,7 @@
 
 ## connect.php
 
-```html
+```phphtml
 <?php
   $con=mysqli_connect("localhost","root","","grocerydb");
   if(!$con)
@@ -34,7 +34,7 @@
 
 ## add.php
 
-```html
+```phphtml
 <html>
 
 <head>
@@ -134,7 +134,7 @@
 
 ## style.css
 
-```html
+```phphtml
 @import url(
 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5 {
 
 ## index.php
 
-```html
+```phphtml
 <?php
     include("connect.php");
 
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5 {
 
 ## update.php
 
-```html
+```phphtml
 <?php
     include("connect.php");
     if(isset($_POST['btn']))
@@ -405,7 +405,7 @@ value="<?php echo $res['Item_Quantity'];?>" />
 
 ## delete.php
 
-```html
+```phphtml
 <?php
     include("connect.php");
     $id = $_GET['id'];

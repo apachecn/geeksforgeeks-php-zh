@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::writeImages( *string* $filename, *bool* $adjoin )
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create a new imagick object 
@@ -41,7 +41,7 @@ $imagickAnimation->writeImages('myanimation.gif', true);
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create a new imagick object 
@@ -55,7 +55,7 @@ $imagickAnimation->writeImages('myanimation2.gif', false);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 This will save 16 images all from different frames of given animation file with filenames as:
 ```
 

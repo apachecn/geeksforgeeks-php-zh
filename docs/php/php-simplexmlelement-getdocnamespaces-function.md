@@ -8,7 +8,7 @@ SimpleXMLElement：：getDocNamespaces()函数是 PHP 中的一个内置函数�
 
 **语法：**
 
-```
+```php
 *array* SimpleXMLElement::getDocNamespaces( $recursive, $from_root )
 ```
 
@@ -25,7 +25,7 @@ SimpleXMLElement：：getDocNamespaces()函数是 PHP 中的一个内置函数�
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -67,7 +67,7 @@ print_r($result);
 
 **输出：**
 
-```
+```php
 Array
 (
     [user_id] => http://geeksforgeeks.org/user
@@ -77,7 +77,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -126,7 +126,7 @@ print_r($result);
 
 **输出：**
 
-```
+```php
 Array
 (
     [user_id] => http://geeksforgeeks.org/user

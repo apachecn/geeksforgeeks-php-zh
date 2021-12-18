@@ -6,7 +6,7 @@ GET_CLASS_METHOD()函数是 PHP 中的一个内置函数，用于获取类方法
 
 **语法：**
 
-```
+```php
 *array* get_class_methods( *mixed* $class_name )
 ```
 
@@ -18,7 +18,7 @@ GET_CLASS_METHOD()函数是 PHP 中的一个内置函数，用于获取类方法
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a class
@@ -44,7 +44,7 @@ foreach ($getClassMethod as $method) {
 
 **输出：**
 
-```
+```php
 Geeks
 GeeksforGeeks
 
@@ -52,7 +52,7 @@ GeeksforGeeks
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a class
@@ -84,7 +84,7 @@ foreach ($getClassMethod as $method) {
 
 **输出：**
 
-```
+```php
 Geeks
 GeeksforGeeks
 G4G

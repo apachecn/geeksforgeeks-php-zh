@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* DOMXPath::__construct( *DOMDocument* $doc )
 ```
 
@@ -16,7 +16,7 @@
 
 **示例 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance
@@ -53,7 +53,7 @@ echo $entries[0]->nodeValue;
 
 **示例 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument instance

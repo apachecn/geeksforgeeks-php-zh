@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* imageaffinematrixconcat( *array* $m1, *array* $m2 )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // 1st Affine transformation matrix to be concatenate
@@ -41,14 +41,14 @@ print_r($matrix);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [0] => 54 [1] => 0 [2] => 0 [3] => 35 [4] => 648 [5] => 805 )
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // 1st Affine transformation matrix to be concatenate
@@ -65,7 +65,7 @@ print_r($matrix);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array ( [0] => -0.5 [1] => 0.86602540378444 [2] => -2.7218732255326E+15
         [3] => 4.7144227183838E+15 [4] => 0 [5] => 0 )
 

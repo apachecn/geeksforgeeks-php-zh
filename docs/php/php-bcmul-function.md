@@ -6,7 +6,7 @@ PHP 中的 bcmul()函数是一个内置函数，用于乘以两个任意精度�
 
 **语法:**
 
-```
+```php
 *string* bcmul ( $num_str1, $num_str2, $scaleVal)
 ```
 
@@ -20,7 +20,7 @@ PHP 中的 bcmul()函数是一个内置函数，用于乘以两个任意精度�
 
 示例:
 
-```
+```php
 Input:  $num_str1 = 3, $num_str2 = 11.222
 Output: 33
 Explanation: Since the parameter $scaleVal is not 
@@ -36,7 +36,7 @@ Output: 36.6660
 
 **程序 1:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcmul() function
 
@@ -55,14 +55,14 @@ echo $res;
 
 输出:
 
-```
+```php
 33
 
 ```
 
 **程序 2:**
 
-```
+```php
 <?php
 // PHP program to illustrate bcmul() function
 
@@ -84,7 +84,7 @@ echo $res;
 
 输出:
 
-```
+```php
 33.666
 
 ```

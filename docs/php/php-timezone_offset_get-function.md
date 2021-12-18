@@ -6,7 +6,7 @@ TIMEZONE_OFFSET_GET()函数是 PHP 中的一个内置函数，用于从 GMT 返�
 
 **语法：**
 
-```
+```php
 int timezone_offset_get( $object, $datetime )
 ```
 
@@ -23,7 +23,7 @@ int timezone_offset_get( $object, $datetime )
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Open the timezone of America/Chicago
@@ -37,14 +37,14 @@ echo timezone_offset_get($timezone, $datetime_eur);
 
 **输出：**
 
-```
+```php
 -18000
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Open the timezone of America/Chicago and Europe/Amsterdam
@@ -64,7 +64,7 @@ var_dump($Offset);
 
 **输出：**
 
-```
+```php
 int(7200)
 
 ```

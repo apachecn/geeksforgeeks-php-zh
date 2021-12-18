@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```php
 <?php
 
 // Declaring parent class
@@ -38,7 +38,7 @@ Child::func();
 
 **输出:**
 
-```
+```php
 10
 10
 
@@ -50,7 +50,7 @@ Child::func();
 
 **例:**
 
-```
+```php
 <?php
 
 // Declaring parent class
@@ -81,7 +81,7 @@ Child::func();
 
 **输出:**
 
-```
+```php
 10
 20
 

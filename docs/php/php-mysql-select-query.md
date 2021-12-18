@@ -19,7 +19,7 @@ SELECT 子句的基本语法是-
 
 **使用程序方法选择查询：**
 
-```
+```php
 <?php 
 $link = mysqli_connect("localhost", "root", "", "Mydb");
 
@@ -70,7 +70,7 @@ mysqli_close($link);
 
 **使用面向对象方法选择查询：**
 
-```
+```php
 <?php
 $mysqli = new mysqli("localhost", "root", "", "Mydb");
 
@@ -116,7 +116,7 @@ $mysqli->close();
 
 **使用 PDO 方法选择查询：**
 
-```
+```php
 <?php 
 try {
     $pdo = new PDO("mysql:host = localhost;

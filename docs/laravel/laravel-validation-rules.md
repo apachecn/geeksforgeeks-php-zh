@@ -10,7 +10,7 @@
 
 *   **语法 1:** 基本验证规则
 
-    ```
+    ```php
     $request->validate([
       'password' => 'required|min:8|max:255',
     ]);
@@ -19,7 +19,7 @@
 
 *   **语法 2:** 也可以用数组的形式指定规则，如下图所示。
 
-```
+```php
 $request->validate([
   'password' => ['required', 'min:8', 'max:255'],
 ]);
@@ -28,7 +28,7 @@ $request->validate([
 
 *   **语法 3:** 您可以指定多个验证字段。
 
-    ```
+    ```php
     $request->validate([
       'password' => 'required|min:8|max:255',
     ],
@@ -41,7 +41,7 @@ $request->validate([
     *   **示例:**
     1.  Create a view file in ‘**resources/views**’ directory with the name ‘**login.blade.php**’ and write the below code in that file.
 
-        ```
+        ```php
         <!DOCTYPE html>
         <html>
 
@@ -87,7 +87,7 @@ $request->validate([
 
     2.  Create a controller in ‘**app/Http/Controllers**’ directory with the name ‘**LoginController.php**’. Use command ‘**php artisan make:controller LoginController**’ to create this controller. Write the below validation code to validate the data submitted by the form.
 
-        ```
+        ```php
         <?php
 
         namespace App\Http\Controllers;
@@ -112,7 +112,7 @@ $request->validate([
 
     3.  Write the below code in ‘**web.php**’ file in ‘**routes**’ directory.
 
-        ```
+        ```php
         Route::get('login', 'LoginController@getValidate');
         Route::post('login', 'LoginController@postValidate');
 
@@ -131,7 +131,7 @@ $request->validate([
 
     *   **语法:**
 
-        ```
+        ```php
         $validateData = $request->validate([
             ‘password’ => ‘required|min:8|max:255’
         ], [
@@ -145,7 +145,7 @@ $request->validate([
     *   **示例:**
         1.  Create a view file in ‘**resources/views**’ directory with the name ‘**login.blade.php**’ and write the below code in that file.
 
-            ```
+            ```php
             <!DOCTYPE html>
             <html>
 
@@ -191,7 +191,7 @@ $request->validate([
 
         2.  Create a controller in ‘**app/Http/Controllers**’ directory with the name ‘**LoginController.php**’. Use command ‘**php artisan make:controller LoginController**’ to create this controller. Write the below validation code to validate the data submitted by the form.
 
-            ```
+            ```php
             <?php
 
             namespace App\Http\Controllers;
@@ -227,7 +227,7 @@ $request->validate([
 
         3.  Write the below code in ‘**web.php**’ file in ‘**routes**’ directory.
 
-            ```
+            ```php
             Route::get('login', 'LoginController@getValidate');
             Route::post('login', 'LoginController@postValidate');
 

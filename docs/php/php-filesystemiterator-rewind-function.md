@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* FilesystemIterator::rewind( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new file system iterator
@@ -54,7 +54,7 @@ echo $fileItr->key();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new file system iterator

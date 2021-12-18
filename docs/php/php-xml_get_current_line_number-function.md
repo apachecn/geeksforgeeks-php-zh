@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* xml_get_current_line_number( *resource* $xml_parser )
 ```
 
@@ -22,7 +22,7 @@
 
 ## 可扩展标记语言
 
-```
+```php
 <?xml version="1.0" encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -34,7 +34,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // XML file containing mismatch tags
@@ -90,7 +90,7 @@ xml_parser_free($xml_parser);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 ERROR: Mismatched tag
 Error Code: 76
 Line: 7
@@ -102,7 +102,7 @@ Byte Index: 208
 
 ## 可扩展标记语言
 
-```
+```php
 <?xml version="1.0 encoding="utf-8"?>
 <user>
     <username> user123 </username>
@@ -116,7 +116,7 @@ Byte Index: 208
 
 ## PHP
 
-```
+```php
 <?php
 
 // XML file containing mismatch tags
@@ -172,7 +172,7 @@ xml_parser_free($xml_parser);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 ERROR: String not closed expecting " or '
 Error Code: 34
 Line: 1

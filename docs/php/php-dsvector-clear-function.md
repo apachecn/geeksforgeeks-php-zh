@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* public Ds\Vector::clear( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new vector
@@ -45,7 +45,7 @@ print_r($vector);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new vector

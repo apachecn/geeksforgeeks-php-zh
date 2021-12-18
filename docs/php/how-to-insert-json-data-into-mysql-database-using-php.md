@@ -10,7 +10,7 @@
 
 **结构:**
 
-```
+```php
 [{
     "data1": "value1",
     "data2": "value2",
@@ -21,7 +21,7 @@
 
 **示例:**以下为 *student.json* 文件的内容。
 
-```
+```php
 [  
   {  
     "name": "sravan kumar",  
@@ -50,7 +50,7 @@
 
 **语法:**
 
-```
+```php
 INSERT INTO table_name(col1, col2, …, col n) 
     VALUES(value1, value2, …, value n);
 
@@ -62,7 +62,7 @@ INSERT INTO table_name(col1, col2, …, col n)
 
 **语法:**
 
-```
+```php
 json_decode(string, assoc)
 ```
 
@@ -88,7 +88,7 @@ json_decode(string, assoc)
 
 *   创建 JSON 数据并保存为 *xampp-htdocs* 文件夹下的 *college_subjects.json* 。
 
-```
+```php
 [  
   {  
     "name": "sravan kumar",  
@@ -117,7 +117,7 @@ json_decode(string, assoc)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <!DOCTYPE html>
 <html>
 

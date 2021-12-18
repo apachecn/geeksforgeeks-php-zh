@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *public* Ds\Deque::first( void ) : mixed
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -41,7 +41,7 @@ var_dump($deck->first());
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (
@@ -59,7 +59,7 @@ First element in the deque: int(10)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare a deque
@@ -81,7 +81,7 @@ var_dump($deck->first());
 
 **输出：**
 
-```
+```php
 Elements in the Deque
 Ds\Deque Object
 (

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Imagick::getImageDepth( void )
 ```
 
@@ -18,7 +18,7 @@
 **原始图像：**
 ![](img/efa5ea8e0258291fa60ad9a32c288072.png)中的**Imagick：：getImageDepth()**函数
 
-```
+```php
 <?php 
 
 // require_once('vendor/autoload.php');
@@ -38,14 +38,14 @@ print_r($height);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 8
 ```
 
 **程序 2：**
 ![https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2018-10-16-23-23-54-1.png](img/966bc3ab7c1f4bfcbccb58f1729053cf.png)
 
-```
+```php
 <?php 
 $string = "Computer Science portal for Geeks!"; 
 
@@ -79,7 +79,7 @@ print_r($dpth);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 8 
 ```
 

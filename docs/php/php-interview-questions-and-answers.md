@@ -25,7 +25,7 @@
 7.  **What is the correct and the two most common ways to start and finish a PHP block of code ?**
     The PHP code always starts with <?php and ends with ?>. The block of PHP code are:
 
-    ```
+    ```php
     <?php   [ --Content of PHP code-- ]   ?>
     ```
 

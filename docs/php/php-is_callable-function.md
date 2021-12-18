@@ -6,7 +6,7 @@ Is_callable()函数是 PHP 中的一个内置函数，用于验证变量的内�
 
 **语法：**
 
-```
+```php
 bool is_callable ( $variable_name, $syntax_only, $callable_name )
 ```
 
@@ -21,7 +21,7 @@ bool is_callable ( $variable_name, $syntax_only, $callable_name )
 下面的程序说明 PHP 中的 is_callable()函数：
 **程序 1：**简单变量包含一个函数
 
-```
+```php
 <?php
 // To check a variable if it can be called
 // as a function.
@@ -42,7 +42,7 @@ var_dump(is_callable($variable_name));
 
 **Output:**
 
-```
+```php
 bool(true)
 Function_xyz
 bool(true)
@@ -51,7 +51,7 @@ bool(true)
 
 **程序 2：**数组包含一个方法
 
-```
+```php
 <?php
 // To check a variable if it can be called
 // as a function.
@@ -77,7 +77,7 @@ echo $callable_name, "\n";  
 
 **Output:**
 
-```
+```php
 bool(true)
 ClassA::Method_xyz
 

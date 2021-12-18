@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* getservbyport( *int* $port, *string* $protocol)
 ```
 
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Use getservbyport() function to get
@@ -41,7 +41,7 @@ echo $intservname;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an array of port numbers

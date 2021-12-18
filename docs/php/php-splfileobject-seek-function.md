@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplFileObject::seek( $line_num)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序-1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -36,7 +36,7 @@ echo $file->current();
 
 **程序-2：**
 
-```
+```php
 <?php 
 
 // PHP program to use array to check 
@@ -58,7 +58,7 @@ foreach ($GFG as &$file_name) { 
 
 **输出：**
 
-```
+```php
 GeeksforGeeks
 gfg
 contribute

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::settextencoding( *string* $encoding )
 ```
 
@@ -19,7 +19,7 @@
 下面给出的程序说明了 PHP：
 **程序 1：**中的**GmagickDraw：：setttencoding()函数**
 
-```
+```php
 <?php
 // Create a GmagickDraw object
 $draw = new GmagickDraw();
@@ -35,13 +35,13 @@ echo $encoding;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 utf-32
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 // Create a new Gmagick object
 // https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png

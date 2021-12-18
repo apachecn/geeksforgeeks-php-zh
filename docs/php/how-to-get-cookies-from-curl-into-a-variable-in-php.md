@@ -11,7 +11,7 @@
 
 **示例 1:** 本示例说明如何从**www.amazon.com**获取饼干
 
-```
+```php
 <?php
 
 // URL to fetch cookies
@@ -57,7 +57,7 @@ curl_close($curlObj);
 
 **例 2:** 这个例子说明了如何从**www.google.com**获取饼干
 
-```
+```php
 <?php
 
 $url = "https://www.google.com/";

@@ -5,7 +5,7 @@
 **Imagick：：Sphology()函数**是 PHP 中的一个内置函数，用于根据给定的形态学方法将用户提供的内核应用于图像。
 **语法：**
 
-```
+```php
 *bool* Imagick::morphology
 ( $morphologyMethod, $iterations, $ImagickKernel, $channel = Imagick::CHANNEL_DEFAULT)
 ```
@@ -23,7 +23,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -48,7 +48,7 @@ echo $imagick->getImageBlob();
 ![](img/69cf598f40f079af2ae15e800d3454d7.png)
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

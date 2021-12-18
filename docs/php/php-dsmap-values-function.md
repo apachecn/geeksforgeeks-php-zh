@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Sequence* public Ds\Map::values ( void )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -39,7 +39,7 @@ print_r($map->values());
 
 **输出：**
 
-```
+```php
 Ds\Vector Object
 (
     [0] => Geeks
@@ -57,7 +57,7 @@ Ds\Vector Object
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a new map
@@ -76,7 +76,7 @@ var_dump($map->values());
 
 **输出：**
 
-```
+```php
 object(Ds\Vector)#2 (4) {
   [0]=>
   string(8) "computer"

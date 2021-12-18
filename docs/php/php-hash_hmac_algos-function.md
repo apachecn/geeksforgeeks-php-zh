@@ -6,7 +6,7 @@ Hash_hmac_algos()函数是 PHP 中的一个内置函数，用于获取适用于 
 
 **语法：**
 
-```
+```php
 *array* hash_hmac_algos( void )
 ```
 
@@ -18,7 +18,7 @@ Hash_hmac_algos()函数是 PHP 中的一个内置函数，用于获取适用于 
 
 **程序：**
 
-```
+```php
 <?php
 print_r(hash_hmac_algos());
 ?>

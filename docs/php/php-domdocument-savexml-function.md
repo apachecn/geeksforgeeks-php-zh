@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *string* DOMDocument::saveXML( *DOMNode* $node, *int* $options = 0 )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -41,7 +41,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 GeeksforGeeks
 
@@ -49,7 +49,7 @@ GeeksforGeeks
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new DOMDocument
@@ -70,7 +70,7 @@ echo $domDocument->saveXML();
 
 **输出：**
 
-```
+```php
 <?xml version="1.0" encoding="iso-8859-1"?>
 <organization>GeeksforGeeks</organization>
 

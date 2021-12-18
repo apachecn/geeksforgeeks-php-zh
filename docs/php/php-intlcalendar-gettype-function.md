@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *string* IntlCalendar::getType( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *string* intlcal_get_type( *IntlCalendar* $cal )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the date timezone
@@ -56,7 +56,7 @@ var_dump($calendar->getType());
 
 **输出：**
 
-```
+```php
 string(9) "gregorian"
 string(7) "islamic"
 string(9) "gregorian"

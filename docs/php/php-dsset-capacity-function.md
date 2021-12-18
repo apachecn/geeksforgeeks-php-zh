@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* public Ds\Set::capacity( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Declare an empty set 
@@ -42,7 +42,7 @@ var_dump($set->capacity()); 
 
 **输出：**
 
-```
+```php
 Default size of Set: int(8)
 Allocated size of Set: int(64)
 
@@ -50,7 +50,7 @@ Allocated size of Set: int(64)
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Declare a set
@@ -71,7 +71,7 @@ var_dump($set->capacity()); 
 
 **输出：**
 
-```
+```php
 Elements of Set
 object(Ds\Set)#1 (6) {
   [0]=>

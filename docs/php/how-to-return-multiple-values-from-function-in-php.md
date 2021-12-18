@@ -7,7 +7,7 @@ PHP 不支持在一个函数中返回多个值。在函数内部，当执行第�
 
 **示例 1:** 这个示例展示了如何在 PHP 中从一个函数返回多个值。首先，创建一个空数组，将元素推入数组，然后返回数组。
 
-```
+```php
 <?php
 
 // Function to return the array
@@ -48,7 +48,7 @@ foreach( $nFactors as $x ) {
 
 **Output:**
 
-```
+```php
 Factors of 24 are: 
 1
 2
@@ -62,7 +62,7 @@ Factors of 24 are:
 
 **示例 2:** 本示例使用[列表](https://www.geeksforgeeks.org/php-list-function/)功能存储变量的交换值。它用于同时向多个变量分配数组值。可以使用 list()将函数在数组中返回的多个值分配给相应的变量。
 
-```
+```php
 <?php
 
 // Function to swap two numbers
@@ -92,7 +92,7 @@ echo 'a = ' . $a . '<br>' . 'b = ' . $b . '<br>';
 
 **Output:**
 
-```
+```php
 Before swapping the elements 
 a = 10
 b = 20

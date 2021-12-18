@@ -5,7 +5,7 @@
 **SplFileObject：：EOF()**函数是 PHP 中标准 PHP 库(SPL)的内置函数，用于文件末尾。
 **语法：**
 
-```
+```php
 string SplFileObject::eof( void )
 ```
 
@@ -17,7 +17,7 @@ string SplFileObject::eof( void )
 
 **注意：**程序 1 使用了包含以下数据的 gfg.txt 文件。
 
-```
+```php
 GeeksforGeeks
 A Computer Science 
 Portal for Geeks
@@ -25,7 +25,7 @@ Portal for Geeks
 
 **Program 1:**
 
-```
+```php
 <?php
 
 // Creating SplFile Object
@@ -42,14 +42,14 @@ foreach ($file as $gfg => $line) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Yes Reached EOF
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // PHP program to use array to check 
@@ -75,7 +75,7 @@ foreach ($GFG as &$file_name) { 
 
 **Output:**
 
-```
+```php
 Yes Reached EOF
 Yes Reached EOF
 Yes Reached EOF

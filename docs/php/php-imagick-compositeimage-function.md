@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::compositeImage( $composite_object, $composite,
                        $x, $y, $channel = Imagick::CHANNEL_DEFAULT )
 ```
@@ -25,7 +25,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Declare Imagick objects

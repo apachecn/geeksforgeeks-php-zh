@@ -11,7 +11,7 @@ Imagick 函数用于使用 ImageMagick 应用编程接口创建和修改图像�
 *   **安装 apache 服务器:**如果您的系统中没有安装 Apache 服务器，那么首先安装 apache2 服务器。
 *   **Make Superuser:** Open terminal and use following command to make yourself superuser.
 
-    ```
+    ```php
     sudo su
     ```
 
@@ -19,7 +19,7 @@ Imagick 函数用于使用 ImageMagick 应用编程接口创建和修改图像�
 
 *   **Install Required Packages:** Use the following command to Install the required packages of ImageMagick and Imagick PHP extension.
 
-    ```
+    ```php
     $ sudo apt install php php-common gcc
     ```
 
@@ -27,7 +27,7 @@ Imagick 函数用于使用 ImageMagick 应用编程接口创建和修改图像�
 
 *   **Install ImageMagick extension:** Now install the ImageMagick PHP extension by using the following command.
 
-    ```
+    ```php
     $ sudo apt install imagemagick
     ```
 
@@ -35,7 +35,7 @@ Imagick 函数用于使用 ImageMagick 应用编程接口创建和修改图像�
 
 *   **Install Imagick extension:** After completion of ImageMagick package, the Imagick PHP extension will install.
 
-    ```
+    ```php
     $ sudo apt install php-imagick
     ```
 
@@ -43,7 +43,7 @@ Imagick 函数用于使用 ImageMagick 应用编程接口创建和修改图像�
 
 *   **Restart Apache Server:** Restart the apache server by using the following command.
 
-    ```
+    ```php
     $ sudo systemctl restart apache2
     ```
 
@@ -51,7 +51,7 @@ Imagick 函数用于使用 ImageMagick 应用编程接口创建和修改图像�
 
 *   **Verify the Imagick extension:** The Imagick extension can be verified by using the following command.
 
-    ```
+    ```php
     $ php -m | grep imagick
     ```
 

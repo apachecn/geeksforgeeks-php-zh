@@ -6,7 +6,7 @@
 
 此**会话**在存储注册变量及其值的文件夹中创建一个临时文件，这些变量可供整个网站使用。 当用户从站点或浏览器注销时，此**会话**结束。 每个不同的用户都会被赋予唯一的会话 ID，这些 ID 链接到个人的帖子或电子邮件。
 
-```
+```php
 <?php
   session_start();
   echo session_id();
@@ -19,14 +19,14 @@
 
 *   **语法：**
 
-    ```
+    ```php
       unset($_SESSION['variable_name']);
 
     ```
 
 *   **程序 1：**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
 
@@ -79,7 +79,7 @@
 
 *   当我们执行**unset($_SESSION[‘name’])**时，通过取消注释示例程序中所需的行，您将获得以下输出。
 
-    ```
+    ```php
       unset($_SESSION['name']);      
       //echo "Session Name : ".$_SESSION['name'];  
 
@@ -89,19 +89,19 @@
     ![](img/d0f830fbaffb9a0f6cc24d70fe334ef2.png)
 *   如果要销毁所有会话变量，请使用以下 PHP 函数。
 
-    ```
+    ```php
     session_destroy();
     ```
 
 *   如果您想要清除或释放会话变量占用的空间以用于其他用途，可以使用以下 PHP 函数。
 
-    ```
+    ```php
     session_unset();
     ```
 
 *   **程序 2：**
 
-    ```
+    ```php
     <!DOCTYPE html>
     <html>
 

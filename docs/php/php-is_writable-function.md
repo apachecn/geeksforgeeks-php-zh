@@ -7,7 +7,7 @@ PHP 中的 is_Writable()函数用于检查指定的文件是否可写。 文件�
 
 **语法：**
 
-```
+```php
 is_writable(file)
 ```
 
@@ -27,7 +27,7 @@ PHP 中的 is_Writable()函数接受一个参数。
 
 **示例：**
 
-```
+```php
 Input : $myfile = "gfg.txt";
         if(is_writable($myfile)) 
         {
@@ -62,7 +62,7 @@ Output : gfg.txt file is writable and it has the following file permissions : 06
 
 **程序 1**
 
-```
+```php
 <?php 
 $myfile = "gfg.txt";
 
@@ -80,14 +80,14 @@ else 
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
  gfg.txt file is writable!
 
 ```
 
 **程序 2**
 
-```
+```php
 <?php 
 // checking permissions of the file
 $permissions = fileperms("gfg.txt");
@@ -117,7 +117,7 @@ clearstatcache();
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 gfg.txt file is writable and it has the following file permissions : 0664
 
 ```

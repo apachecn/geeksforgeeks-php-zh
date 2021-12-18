@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* gd_info( void )
 ```
 
@@ -31,7 +31,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 var_dump(gd_info());
 ?>
@@ -39,7 +39,7 @@ var_dump(gd_info());
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 array(12) { 
     ["GD Version"]=> string(26) "bundled (2.1.0 compatible)" 
     ["FreeType Support"]=> bool(true) 

@@ -6,7 +6,7 @@ Floatval()函数是 PHP 中的内置函数，它返回变量的浮点值。
 
 **语法：**
 
-```
+```php
 float floatval ( $var )
 
 ```
@@ -21,7 +21,7 @@ float floatval ( $var )
 
 例如：
 
-```
+```php
 Input : $var = '41.68127E3'
 Output : 41681.27
 
@@ -33,7 +33,7 @@ Output : 47.129
 以下程序说明了 PHP：
 **程序 1：**中的 Floatval()函数的用法
 
-```
+```php
 <?php
 $var = '41.68127E3';
 $float_value = floatval($var);
@@ -43,14 +43,14 @@ echo $float_value;
 
 **Output:**
 
-```
+```php
 41681.27
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 $var = '47.129mln';
 $float_value = floatval($var);
@@ -60,7 +60,7 @@ echo $float_value;
 
 **Output:**
 
-```
+```php
 47.129
 
 ```

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *GmagickDraw* GmagickDraw::polygon( *array* $coordinates )
 ```
 
@@ -23,7 +23,7 @@
 
 **示例 1：**在图像上绘制。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -63,7 +63,7 @@ echo $gmagick->getImageBlob();
 
 **示例 2：**从头开始绘图。
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

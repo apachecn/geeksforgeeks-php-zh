@@ -6,7 +6,7 @@ Intdiv 代表整数除法。 此函数返回给定被除数和除数的除法的
 
 **语法：**
 
-```
+```php
 *int* intdiv($dividend, $divisor)
 
 ```
@@ -20,7 +20,7 @@ Intdiv 代表整数除法。 此函数返回给定被除数和除数的除法的
 
 例如：
 
-```
+```php
 Input :  $dividend = 5, $divisor = 2
 Output : 2
 
@@ -36,7 +36,7 @@ Output : -5
 
     下面的程序演示了 intdiv 在 PHP 中的工作方式：
 
-    ```
+    ```php
     <?php
 
     // PHP code to illustrate the working 
@@ -52,20 +52,20 @@ Output : -5
 
     产出：
 
-    ```
+    ```php
     6
 
     ```
 
     到目前为止，很多人可能会认为这个函数等同于
 
-    ```
+    ```php
     floor($dividend/$divisor)
     ```
 
     但这个例子将详细说明不同之处。
 
-    ```
+    ```php
     <?php
 
     // PHP code to differentiate between 
@@ -82,7 +82,7 @@ Output : -5
 
     产出：
 
-    ```
+    ```php
     -6
     -7
 

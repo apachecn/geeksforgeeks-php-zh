@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *array* ImagickKernel::getMatrix( *void* )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**本程序使用 getMatrix()函数从自定义矩阵中获取矩阵。
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -45,7 +45,7 @@ print("<pre>".print_r($matrix, true)."</pre>");
 
 **程序 2(从内置矩阵获取矩阵)：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

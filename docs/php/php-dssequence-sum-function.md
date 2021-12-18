@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *number* abstract public Ds\Sequence::sum( void )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -35,7 +35,7 @@ var_dump($seq->sum());
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```php
 set_time_limit ( int $seconds )
 ```
 
@@ -24,7 +24,7 @@ set_time_limit ( int $seconds )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
     // This will set the time limit to 40 seconds 
@@ -41,7 +41,7 @@ set_time_limit ( int $seconds )
 
 **输出:**
 
-```
+```php
  1, 2, 3, 4,
 ```
 
@@ -49,7 +49,7 @@ set_time_limit ( int $seconds )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
     // This will set the time limit to infinite (maximum) 
@@ -65,7 +65,7 @@ set_time_limit ( int $seconds )
 
 **输出:**
 
-```
+```php
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 
 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```php
 int preg_match($pattern, $string, $pattern_array, $flags, $offset )
 ```
 
@@ -15,7 +15,7 @@ int preg_match($pattern, $string, $pattern_array, $flags, $offset )
 
 **例 1:** 本例取不带 **http://** 的 URL，返回完整的 URL。
 
-```
+```php
 <?php
 
 // Function to add http
@@ -48,7 +48,7 @@ echo addHttp($url);
 
 **Output:**
 
-```
+```php
 geeksforgeeks.org
 http://geeksforgeeks.org
 

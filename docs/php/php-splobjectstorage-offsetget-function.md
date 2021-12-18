@@ -5,7 +5,7 @@
 **SplObjectStorage：：offsetGet()**函数是 PHP 中的一个内置函数，用于获取与对象相关的数据。
 **语法：**和
 
-```
+```php
 *object* SplObjectStorage::offsetGet($obj)
 ```
 
@@ -17,7 +17,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -34,7 +34,7 @@ var_dump($str->offsetGet($obj));
 
 **Output:** 
 
-```
+```php
 string(13) "GeeksforGeeks"
 ```
 
@@ -42,7 +42,7 @@ string(13) "GeeksforGeeks"
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an Empty SplObjectStorage
@@ -70,7 +70,7 @@ var_dump($str->offsetGet($obj3));
 
 **Output:** 
 
-```
+```php
 string(12) "GeksforGeeks"
 string(3) "GFG"
 string(9) "Hello GFG"

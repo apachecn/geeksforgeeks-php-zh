@@ -6,7 +6,7 @@ SetScript()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于设
 
 **语法：**
 
-```
+```php
 *void* Format::setScript( $script )
 ```
 
@@ -16,7 +16,7 @@ SetScript()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于设
 
 **示例 1：**
 
-```
+```php
 <?php
 
 require_once 'Spreadsheet/Excel/Writer.php';
@@ -45,7 +45,7 @@ $workbook->close();
 
 **示例 2：**
 
-```
+```php
 <?php
 
 require_once 'Spreadsheet/Excel/Writer.php';

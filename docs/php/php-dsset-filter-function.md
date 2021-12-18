@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Set* public Ds\Set::filter( $callback )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php 
 
 // Create new set 
@@ -34,7 +34,7 @@ var_dump($set->filter(function($val) { 
 
 **输出：**
 
-```
+```php
 object(Ds\Set)#3 (2) {
   [0]=>
   int(20)
@@ -46,7 +46,7 @@ object(Ds\Set)#3 (2) {
 
 **程序 2：**
 
-```
+```php
 <?php 
 
 // Create new set
@@ -62,7 +62,7 @@ var_dump($set->filter(function($val) { 
 
 **输出：**
 
-```
+```php
 object(Ds\Set)#3 (6) {
   [0]=>
   int(2)

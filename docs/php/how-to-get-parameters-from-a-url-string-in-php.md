@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```php
 parse_url( $url, $component = -1 )
 ```
 
@@ -18,7 +18,7 @@ parse_url( $url, $component = -1 )
 
 **语法:**
 
-```
+```php
 parse_str( $string, $array )
 ```
 
@@ -30,7 +30,7 @@ parse_str( $string, $array )
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initialize URL to the variable
@@ -53,7 +53,7 @@ echo ' Hi '.$params['name'];
 
 **输出:**
 
-```
+```php
 Hi Tonny
 ```
 
@@ -61,7 +61,7 @@ Hi Tonny
 
 ## PHP
 
-```
+```php
 <?php
 
 // Initialize URL to the variable
@@ -84,7 +84,7 @@ echo ' Hi '.$params['name'].' your emailID is '.$params['email'];
 
 **输出:**
 
-```
+```php
 Hi Amit your emailID is amit1998@gmail.com
 ```
 

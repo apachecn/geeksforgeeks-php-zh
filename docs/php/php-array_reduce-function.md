@@ -6,7 +6,7 @@ PHP 的这个内置函数用于将一个数组的元素简化为一个可以是�
 
 **语法**:
 
-```
+```php
 array_reduce($array, own_function, $initial)
 ```
 
@@ -21,7 +21,7 @@ array_reduce($array, own_function, $initial)
 
 示例:
 
-```
+```php
 Input : $array = (15, 120, 45, 78)
         $initial = 25
         own_function() takes two parameters and concatenates 
@@ -39,7 +39,7 @@ Output : 40
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP function to illustrate the use of array_reduce()
 function own_function($element1, $element2)
@@ -54,7 +54,7 @@ print_r(array_reduce($array, "own_function", "Initial"));
 
 **输出:**
 
-```
+```php
 Initial and 15 and 120 and 45 and 78
 ```
 
@@ -62,7 +62,7 @@ Initial and 15 and 120 and 45 and 78
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 // PHP function to illustrate the use of array_reduce()
 function own_function($element1, $element2)
@@ -78,7 +78,7 @@ print_r(array_reduce($array, "own_function", "2"));
 
 **输出:**
 
-```
+```php
 80000
 ```
 

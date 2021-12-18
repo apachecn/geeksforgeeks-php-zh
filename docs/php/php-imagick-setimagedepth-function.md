@@ -5,7 +5,7 @@
 **Imagick：：setImageDepth()**函数是 PHP 中的内置函数，用于设置特定图像的深度。
 **语法：**和
 
-```
+```php
 *bool* Imagick::setImageDepth( $depth )
 ```
 
@@ -21,7 +21,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // require_once('path/vendor/autoload.php');

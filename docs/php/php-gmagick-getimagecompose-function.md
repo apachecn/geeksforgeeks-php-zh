@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* Gmagick::getimagecompose( *void* )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object
@@ -37,7 +37,7 @@ echo $compose;
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Gmagick object

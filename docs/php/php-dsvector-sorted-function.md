@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *Ds\Vector* public Ds\Vector::sorted( $comparator )
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Declare new Vector
@@ -46,7 +46,7 @@ var_dump($res);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Declare new Vector

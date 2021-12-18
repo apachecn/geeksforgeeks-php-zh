@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* SplFixedArray::offsetExists( $index )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a fixed size array
@@ -35,14 +35,14 @@ var_dump($gfg->offsetExists(2));
 
 **输出：**
 
-```
+```php
 bool(true)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create some fixed size array
@@ -70,7 +70,7 @@ while($i < 8) {
 
 **输出：**
 
-```
+```php
 bool(true)
 bool(true)
 bool(true)

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* SplObjectStorage::key()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create an empty SplObjectStorage
@@ -40,14 +40,14 @@ var_dump($index);
 
 **输出：**
 
-```
+```php
 int(0)
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create an Empty SplObjectStorage
@@ -81,7 +81,7 @@ while($str->valid()) {
 
 **输出：**
 
-```
+```php
 int(0)
 string(12) "GeksforGeeks"
 int(1)

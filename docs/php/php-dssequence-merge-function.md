@@ -6,7 +6,7 @@ Ds\Sequence：：Merge()函数是 PHP 中的一个内置函数，它在将所有
 
 **语法：**
 
-```
+```php
 *abstract public* Ds\Sequence::merge( $values ) : Ds\Sequence
 ```
 
@@ -18,7 +18,7 @@ Ds\Sequence：：Merge()函数是 PHP 中的一个内置函数，它在将所有
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new sequence
@@ -36,7 +36,7 @@ var_dump($seq)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create new sequence

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* imagecolorresolvealpha ( $image, $red, $green, $blue, $alpha )
 ```
 
@@ -24,7 +24,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Load an image
@@ -49,7 +49,7 @@ imagedestroy($image);
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Load an image

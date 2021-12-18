@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* SplObjectStorage::removeAll( $obj )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -44,7 +44,7 @@ var_dump(count($gfg2));
 
 **输出：**
 
-```
+```php
 int(2)
 int(1)
 
@@ -52,7 +52,7 @@ int(1)
 
 **程序 2：**
 
-```
+```php
 <?php
 
 $obj1 = new StdClass;
@@ -85,7 +85,7 @@ var_dump(count($gfg2));
 
 **输出：**
 
-```
+```php
 int(2)
 int(1)
 int(0)

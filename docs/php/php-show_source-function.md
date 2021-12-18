@@ -6,7 +6,7 @@ Show_source()函数是 PHP 中的一个内置函数，用于返回突出显示 P
 
 **语法：**
 
-```
+```php
 show_source( $filename, $return )
 ```
 
@@ -27,7 +27,7 @@ show_source( $filename, $return )
 
 **程序 1：**下面的程序使用文件名**show_source e.php**保存文件
 
-```
+```php
 <html>
 <body>
 <?php
@@ -42,7 +42,7 @@ show_source("show_source.php");
 
 **程序 2：**下面的程序使用文件名**source_code.php**保存文件
 
-```
+```php
 <?php
 
 // Loading XML document to $user
@@ -71,7 +71,7 @@ foreach($xml->children() as $child) {
 
 **main.php**
 
-```
+```php
 <!DOCTYPE html>
 <html>
 <body>

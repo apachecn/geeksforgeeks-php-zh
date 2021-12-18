@@ -6,7 +6,7 @@ AddWorksheet()函数是 PHP|Spreadsheet_Excel_Writer 中的内置函数，用于
 
 **语法：**
 
-```
+```php
 Workbook::&addWorksheet( $name='' )
 ```
 
@@ -18,7 +18,7 @@ Workbook::&addWorksheet( $name='' )
 
 ## PHP
 
-```
+```php
 <?php
 
 require_once 'Spreadsheet/Excel/Writer.php';
@@ -61,7 +61,7 @@ $workbook->close();
 
 ## PHP
 
-```
+```php
 <?php
 
 require_once 'Spreadsheet/Excel/Writer.php';

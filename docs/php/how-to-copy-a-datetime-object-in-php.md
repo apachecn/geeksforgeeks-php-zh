@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```php
 $DateTime_copy_object_name = clone $DateTime_object_to_be_copied
 ```
 
@@ -17,7 +17,7 @@ $DateTime_copy_object_name = clone $DateTime_object_to_be_copied
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Program to create copy of DateTime object
@@ -56,7 +56,7 @@ echo "Cloned object: $result\n";
 
 **输出:**
 
-```
+```php
 Printing initial values
 Original object: 2020-04-14 17:14:18
 Cloned object: 2020-04-14 17:14:18
@@ -70,7 +70,7 @@ Cloned object: 2020-04-14 17:14:18
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 // Program to create copy of DateTime object
@@ -117,7 +117,7 @@ echo "Cloned object: $result\n";
 
 **输出:**
 
-```
+```php
 Printing initial values
 Original object: 2020-04-14 17:14:49
 Reference object: 2020-04-14 17:14:49

@@ -5,7 +5,7 @@
 **Imagick：：iquidRescaleImage()函数**是 PHP 中的一个内置函数，用于为一个或多个图像设置动画。 此功能主要是对图像进行重新缩放。 此函数使用液体重新缩放方法缩放图像，该方法实现了一种称为接缝雕刻的技术。
 **语法：**
 
-```
+```php
 *bool* Imagick::liquidRescaleImage( $width, $height, $delta_x, $rigidity )
 ```
 
@@ -22,7 +22,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare an Imagick object

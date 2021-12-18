@@ -6,7 +6,7 @@ Str_pad()函数是 PHP 中的内置函数，用于将字符串填充到给定长
 
 **语法：**
 
-```
+```php
 *string* str_pad($string, $length, $pad_string, $pad_type)
 ```
 
@@ -21,7 +21,7 @@ Str_pad()函数是 PHP 中的内置函数，用于将字符串填充到给定长
 
 例如：
 
-```
+```php
 Input : $string = "Hello World", $length = 20, 
         $pad_string = "."
 Output : Hello World........
@@ -36,7 +36,7 @@ Output : Geeks for geeks)))
 
 **程序 1**：在此程序中，通过将最后一个参数设置为*STR_PAD_BOTHY*，我们将填充到输入字符串的两侧。 如果填充长度不是偶数，则右侧获得额外的填充。
 
-```
+```php
 <?php
    $str = "Geeks for geeks";
    echo str_pad($str, 21, ":-)", STR_PAD_BOTH); 
@@ -45,14 +45,14 @@ Output : Geeks for geeks)))
 
 产出：
 
-```
+```php
 :-)Geeks for geeks:-)
 
 ```
 
 **程序 2**：在此程序中，通过将最后一个参数设置为*STR_PAD_LEFT*，我们将填充到输入字符串的左侧。
 
-```
+```php
 <?php
    $str = "Geeks for geeks";
    echo str_pad($str, 25, "Contribute", STR_PAD_LEFT); 
@@ -61,14 +61,14 @@ Output : Geeks for geeks)))
 
 产出：
 
-```
+```php
 ContributeGeeks for geeks
 
 ```
 
 **程序 3**：在此程序中，通过将最后一个参数设置为*STR_PAD_RIGHT*，我们将填充到输入字符串的右侧。
 
-```
+```php
 <?php
    $str = "Geeks for geeks";
    echo str_pad($str, 26, " Contribute", STR_PAD_RIGHT); 
@@ -77,7 +77,7 @@ ContributeGeeks for geeks
 
 产出：
 
-```
+```php
 Geeks for geeks Contribute
 
 ```

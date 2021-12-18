@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```php
 if (isset($_SERVER['HTTPS']))
 {
  // page is called from https
@@ -33,7 +33,7 @@ else
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   // checking if $_SERVER['HTTPS'] is set or not
   // i.e. if it is set that mean value is '1' or 'on'
@@ -53,7 +53,7 @@ else
 
 **输出:**
 
-```
+```php
 Warning : Connection is not secured,Page is called from HTTP
 ```
 
@@ -61,7 +61,7 @@ Warning : Connection is not secured,Page is called from HTTP
 
 **伪代码:**
 
-```
+```php
 check if $_SERVER['HTTPS'] is set and $_SERVER['HTTPS']
 is set to 'on' then Connection is Secured and through 
 HTTPS request
@@ -79,7 +79,7 @@ Connection is not secured and made through HTTP request
 
 **语法:**
 
-```
+```php
 if ((isset($_SERVER['HTTPS']) && 
         (($_SERVER['HTTPS'] == 'on'))) 
  || (isset($_SERVER['HTTPS']) && 
@@ -103,7 +103,7 @@ if ((isset($_SERVER['HTTPS']) &&
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
   // checking if $_SERVER['HTTPS'] is set and its value is 'on' 
   // or '1' and if server port number is 443 then we can say the 
@@ -131,6 +131,6 @@ else if (isset($_SERVER['HTTPS'])) 
 
 **输出:**
 
-```
+```php
 Connection is not secured and page is called from HTTP
 ```

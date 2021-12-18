@@ -8,7 +8,7 @@ Set 是唯一值的集合。 Ds\set 的实现类似于创建哈希表的 ds\Map�
 
 **安装：**使用 PECL 扩展安装数据结构的最简单方法。
 
-```
+```php
 pecl install ds
 ```
 

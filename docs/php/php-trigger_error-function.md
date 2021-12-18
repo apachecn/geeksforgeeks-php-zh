@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* trigger_error(*string* $message, *int* $error_level);
 ```
 
@@ -16,7 +16,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 function doFunction($var) {
@@ -36,7 +36,7 @@ doFunction($new_var);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 PHP Notice:  variable must be numeric in 
 /home/d87c8897dcede28086b7e4f06f5fafc7.php on line 9\
 ```
@@ -47,7 +47,7 @@ PHP Notice:  variable must be numeric in
 
 ## PHP
 
-```
+```php
 <?php
 
 function divide($first,$second) {

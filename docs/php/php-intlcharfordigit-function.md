@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *int* IntlChar::forDigit( $digit, $radix )
 ```
 
@@ -28,7 +28,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 // PHP function to illustrate 
 // the use of IntlChar::forDigit()
@@ -55,7 +55,7 @@ var_dump(IntlChar::forDigit(20999.1811));
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP function to illustrate the
 // use of IntlChar::forDigit()
@@ -83,7 +83,7 @@ foreach ($arr as $val) {
 
 **程序 3：**下面是函数实现，如果传递参数符号或字符，则会给出错误。
 
-```
+```php
 <?php
 // PHP function to illustrate 
 // the use of IntlChar::forDigit()

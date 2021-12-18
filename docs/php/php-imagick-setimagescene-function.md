@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageScene( *int* $scene )
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -39,13 +39,13 @@ echo $scene;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 500
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

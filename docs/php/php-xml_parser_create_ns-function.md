@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* xml_parser_create_ns( *string* $encoding, *string* $separator )
 ```
 
@@ -35,7 +35,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create an XML parser with
@@ -50,7 +50,7 @@ xml_parser_free($parser);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 (no output)
 ```
 
@@ -58,7 +58,7 @@ xml_parser_free($parser);
 
 ## PHP
 
-```
+```php
 <?php
 
 // Creating an XML parser
@@ -79,7 +79,7 @@ if(!$parser) {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 parser with namespace support has successfully been created
 ```
 

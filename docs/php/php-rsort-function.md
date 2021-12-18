@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 rsort($array, sorting_type)
 
 ```
@@ -26,7 +26,7 @@ rsort($array, sorting_type)
 
 **示例：**
 
-```
+```php
 Input : $array = [3, 4, 1, 2] 
 Output : 
 Array
@@ -55,7 +55,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of rsort() function
 
@@ -71,7 +71,7 @@ print_r($array);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => 4
@@ -86,7 +86,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of rsort() function
 // sorts the string case-sensitively
@@ -102,7 +102,7 @@ print_r($array);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => striver
@@ -118,7 +118,7 @@ Array
 
 ## PHP
 
-```
+```php
 <?php
 // PHP program to demonstrate the use of rsort() function
 // sorts the string case-insensitively
@@ -135,7 +135,7 @@ print_r($array);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Array
 (
     [0] => striver

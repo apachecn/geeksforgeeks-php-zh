@@ -9,7 +9,7 @@ PHPMailer 是一个代码库，用于从 web 服务器通过 PHP 代码安全轻
 *   打开命令提示符，转到要使用 PHPMailer 的项目目录。
 *   运行以下命令:
 
-    ```
+    ```php
     composer require phpmailer/phpmailer
     ```
 
@@ -19,7 +19,7 @@ PHPMailer 是一个代码库，用于从 web 服务器通过 PHP 代码安全轻
 将 PHPMailer 类导入全局命名空间。
 **注意:**确保这些行在脚本顶部，不在任何函数内部。
 
-```
+```php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -27,14 +27,14 @@ use PHPMailer\PHPMailer\Exception;
 
 加载作曲家的自动加载器。
 
-```
+```php
 require 'vendor/autoload.php';
 
 ```
 
 创建一个 PHPMailer 类对象。
 
-```
+```php
 $mail = PHPMailer()
 ```
 
@@ -55,7 +55,7 @@ $mail = PHPMailer()
 *   **SMTPSecure:** 指定加密技术。接受的值为“tls”或“ssl”。
 *   **端口:**指定要连接的 TCP 端口。
 
-```
+```php
 $mail->SMTPDebug = 2;                   // Enable verbose debug output
 $mail->isSMTP();                        // Set mailer to use SMTP
 $mail->Host       = 'smtp.gfg.com;';    // Specify main SMTP server
@@ -69,7 +69,7 @@ $mail->Port       = 587;                // TCP port to connect to
 
 添加邮件的收件人。
 
-```
+```php
 $mail->setFrom('from@gfg.com', 'Name');           // Set sender of the mail
 $mail->addAddress('receiver1@gfg.net');           // Add a recipient
 $mail->addAddress('receiver2@gfg.com', 'Name');   // Name is optional
@@ -78,7 +78,7 @@ $mail->addAddress('receiver2@gfg.com', 'Name');   // Name is optional
 
 添加附件(如果有)。
 
-```
+```php
 $mail->addAttachment('url', 'filename');    // Name is optional
 
 ```
@@ -90,7 +90,7 @@ $mail->addAttachment('url', 'filename');    // Name is optional
 *   **正文:**设置邮件的内容。
 *   **备选正文:**备选正文，以防电子邮件客户端不支持 HTML。
 
-```
+```php
 $mail->isHTML(true);                                  
 $mail->Subject = 'Subject';
 $mail->Body    = 'HTML message body in <b>bold</b>!';
@@ -100,7 +100,7 @@ $mail->AltBody = 'Body in plain text for non-HTML mail clients';
 
 最后，发邮件。
 
-```
+```php
 $mail->send();
 ```
 
@@ -108,7 +108,7 @@ $mail->send();
 
 **程序:**用 PHPMailer 完成发送电子邮件的 PHP 程序。
 
-```
+```php
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;

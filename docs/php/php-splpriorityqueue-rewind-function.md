@@ -6,7 +6,7 @@ SplPriorityQueue：：Rewind()函数是 PHP 中的一个内置函数，用于将
 
 **语法：**
 
-```
+```php
 voidSplPriorityQueue::rewind()
 ```
 
@@ -18,7 +18,7 @@ voidSplPriorityQueue::rewind()
 
 ## PHP
 
-```
+```php
 <?php
 
 // Declare a class
@@ -52,7 +52,7 @@ var_dump($obj->current());
 
 **OUTPUT**
 
-```
+```php
 string(1) "G"
 ```
 

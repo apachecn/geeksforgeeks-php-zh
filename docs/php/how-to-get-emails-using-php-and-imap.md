@@ -37,7 +37,7 @@ IMAP 是一种互联网标准协议，客户端使用它通过具有 SSL 安全�
 
 ## 超文本标记语言
 
-```html
+```phphtml
 <!DOCTYPE html>
 <html>
 
@@ -134,7 +134,7 @@ IMAP 是一种互联网标准协议，客户端使用它通过具有 SSL 安全�
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```phphtml
 body {
    font-family: Arial;
  }

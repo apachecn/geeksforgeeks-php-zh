@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::setImageRenderingIntent( $rend_intent )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create new Imagick object
@@ -45,7 +45,7 @@ echo "After: " . $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before: 2
 After: 17
 
@@ -56,7 +56,7 @@ After: 17
 
 **程序 2：**
 
-```
+```php
 <?php 
 $string = "Computer Science portal for Geeks!"; 
 
@@ -96,7 +96,7 @@ echo "After: " . $res;
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before: 2
 After: 10 
 

@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *bool* Imagick::functionImage( *int* $function, *array* $arguments,
                      *int* $channel = Imagick::CHANNEL_DEFAULT )
 ```
@@ -25,7 +25,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -51,7 +51,7 @@ echo $imagick->getImageBlob();
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object
@@ -77,7 +77,7 @@ echo $imagick->getImageBlob();
 
 **程序 3：**
 
-```
+```php
 <?php
 
 // Create a new Imagick object

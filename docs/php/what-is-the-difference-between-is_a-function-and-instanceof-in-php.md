@@ -8,7 +8,7 @@ The is_a() is a built-in function in PHP which is used to check whether a given 
 
 **语法:**
 
-```
+```php
 bool is_a( $object, $class_name, $allow_string )
 ```
 
@@ -22,7 +22,7 @@ bool is_a( $object, $class_name, $allow_string )
 
 下面的程序说明 is_a()函数:
 
-```
+```php
 <?php 
 // PHP program to illustrate the  
 // is_a() function 
@@ -46,7 +46,7 @@ if (is_a($geek, 'GeeksforGeeks')) { 
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
@@ -57,7 +57,7 @@ The instanceof operator is used in PHP to find out if an object is an instantiat
 
 **语法:**
 
-```
+```php
 $a instanceof MyClass
 ```
 
@@ -70,7 +70,7 @@ $a instanceof MyClass
 
 下面的程序说明了 PHP 中的 instanceof 运算符:
 
-```
+```php
 <?php
 // PHP program to illustrate instanceof
 // operator
@@ -94,7 +94,7 @@ if ($geek instanceof GeeksforGeeks) {
 
 **Output:**
 
-```
+```php
 Yes
 
 ```
@@ -106,7 +106,7 @@ Yes
 *   instanceof 使用的直接类名比 is_a()函数短。
     **例:**
 
-    ```
+    ```php
     // Short syntax (comparatively)
     $a instanceof MyClass
 
@@ -118,7 +118,7 @@ Yes
 
     **is _ a()示例:**
 
-    ```
+    ```php
     // Only way to call it
     is_a( $object, $string );
 
@@ -126,7 +126,7 @@ Yes
 
     **实例示例:**
 
-    ```
+    ```php
     // Object instance      
     $object instanceof $otherObject; 
 

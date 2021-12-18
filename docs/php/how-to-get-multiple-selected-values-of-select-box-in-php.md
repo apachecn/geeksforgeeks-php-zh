@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```
+```php
 <html>
     <body>
         <form method = "post" action = "name.php">
@@ -37,7 +37,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <html>
     <body>
         <!--name.php to be called on form submission-->

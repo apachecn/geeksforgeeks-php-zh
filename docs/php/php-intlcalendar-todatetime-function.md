@@ -8,13 +8,13 @@
 
 *   Object-oriented style
 
-    ```
+    ```php
     *DateTime* IntlCalendar::toDateTime( *void* )
     ```
 
 *   Process style
 
-    ```
+    ```php
     *DateTime* intlcal_to_date_time( *IntlCalendar* $cal )
     ```
 
@@ -26,7 +26,7 @@
 
 **程序：**
 
-```
+```php
 <?php
 
 // Set the DateTime zone
@@ -57,7 +57,7 @@ var_dump($datetime);
 
 **输出：**
 
-```
+```php
 object(DateTime)#3 (3) {
   ["date"]=>
   string(26) "2019-09-25 11:15:33.000000"

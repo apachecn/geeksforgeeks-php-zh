@@ -10,7 +10,7 @@
 
 **PHP 封装程序：**以下程序中的方法或函数是更新密码和检查课程名称。 GFG 类定义了与 GFG 用户相关的所有操作。
 
-```
+```php
 <?php
 
 // PHP program to implements encapsulation
@@ -49,7 +49,7 @@ $obj -> courseName('GFG06');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Function to update password 'geeks54321' for user GFG12
 Function to check course name of user GFG06
 
@@ -59,7 +59,7 @@ Function to check course name of user GFG06
 
 **访问变量**的程序
 
-```
+```php
 <?php
 
 class Student {
@@ -100,7 +100,7 @@ $student->setGender('Female');
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 First name is set to Meena
 Gender is set to Female
 

@@ -5,7 +5,7 @@
 **Gmagick：：rotateImage()**函数是 PHP 中的一个内置函数，用于以指定的度数旋转图像。 背景用背景颜色填充的空三角形。
 **语法：**和
 
-```
+```php
 *Gmagick* Gmagick::rotateimage ( $color, $degrees )
 ```
 
@@ -25,7 +25,7 @@
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a Gmagick object
@@ -50,7 +50,7 @@ echo $gmagick;
 
 ## PHP
 
-```
+```php
 <?php
 
 // Create a GmagickDraw object

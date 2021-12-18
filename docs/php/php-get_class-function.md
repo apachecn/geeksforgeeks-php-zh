@@ -6,7 +6,7 @@ Get_class()函数是 PHP 中的内置函数，用于返回对象的类名。
 
 **语法：**
 
-```
+```php
 *string* get_class( *object* $object )
 ```
 
@@ -18,7 +18,7 @@ Get_class()函数是 PHP 中的内置函数，用于返回对象的类名。
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a class
@@ -39,14 +39,14 @@ $obj->Geeks();
 
 **输出：**
 
-```
+```php
 Class name: GFG
 
 ```
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Creating class 
@@ -71,7 +71,7 @@ else {
 
 **输出：**
 
-```
+```php
 Class name: GFG
 
 ```

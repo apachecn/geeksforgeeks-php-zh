@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *resource* imagecreatefrombmp( *string* $filename )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**在浏览器中查看 BMP 文件。
 
-```
+```php
 <?php
 
 // Load the BMP image
@@ -37,7 +37,7 @@ imagedestroy($im);
 
 **程序 2：**此程序将位图转换为 PNG。
 
-```
+```php
 <?php
 
 // Load the BMP image

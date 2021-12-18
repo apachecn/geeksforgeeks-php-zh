@@ -6,7 +6,7 @@
 
 **示例 1:** 一个简单的程序展示了 *$this* 在 PHP 中的使用。
 
-```
+```php
 <?php
 class simple{
 
@@ -25,7 +25,7 @@ echo $obj->display();
 
 **输出:**
 
-```
+```php
 9
 ```
 
@@ -34,7 +34,7 @@ echo $obj->display();
 
 **示例 2:** 使用 *$this* 关键字更新特定对象的变量值的程序。
 
-```
+```php
 <?php
 class simple {
 
@@ -61,7 +61,7 @@ echo $obj->display();
 
 **输出:**
 
-```
+```php
 value of before update: 9
 value of after update: 8
 
@@ -71,7 +71,7 @@ value of after update: 8
 
 **示例 3:** 在本例中， *$this* 关键字在静态方法的上下文中调用非静态方法时变为“未定义”。
 
-```
+```php
 <?php
 
 class A {
@@ -109,7 +109,7 @@ B::bar();
 
 **输出:**
 
-```
+```php
 $this is defined (A) 
 $this is not defined. 
 $this is not defined. 

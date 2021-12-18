@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *mixed* IntlChar::toupper ( $codepoint )
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // PHP program to illustrate
@@ -43,7 +43,7 @@ var_dump(IntlChar::toupper(ord("I")));
 
 **输出：**
 
-```
+```php
 string(1) "A"
 string(1) "A"
 string(1) "1"
@@ -54,7 +54,7 @@ int(73)
 
 **程序 2：**
 
-```
+```php
 <?php
 // PHP code to illustrate IntlChar::toupper()
 
@@ -72,7 +72,7 @@ foreach ($arr as $val){
 
 **输出：**
 
-```
+```php
 int(65)
 NULL
 string(1) "^"

@@ -6,7 +6,7 @@ Hash_algos()函数是 PHP 中的一个内置函数，用于返回已注册的散
 
 **语法：**
 
-```
+```php
 *array* hash_algos( void )
 ```
 
@@ -17,7 +17,7 @@ Hash_algos()函数是 PHP 中的一个内置函数，用于返回已注册的散
 下面的程序说明了 PHP 中的 hash_algos()函数：
 **程序：**
 
-```
+```php
 <?php
 
 // hash_algos() function
@@ -27,7 +27,7 @@ print_r(hash_algos());
 
 **Output:**
 
-```
+```php
 Array
 (
     [0] => md2

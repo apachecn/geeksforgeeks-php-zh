@@ -6,7 +6,7 @@
 
 **语法：**
 
-```
+```php
 *void* ImagickKernel::scale( *float* $scale, *int* $normalizeFlag )
 ```
 
@@ -21,7 +21,7 @@
 
 **程序 1：**
 
-```
+```php
 <?php
 
 // Create a new imagick object
@@ -50,7 +50,7 @@ print("<pre>".print_r($kernel->getMatrix(), true)."</pre>");
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```php
 Before scaling:
 Array
 (
@@ -105,7 +105,7 @@ Array
 
 **程序 2：**
 
-```
+```php
 <?php
 
 // Create a new imagick object

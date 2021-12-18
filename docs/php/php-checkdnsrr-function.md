@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```php
 *bool* checkdnsrr( *string* $host, *string* $type )
 ```
 
@@ -28,7 +28,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $domain = "geeksforgeks.org";
@@ -43,7 +43,7 @@ if(checkdnsrr($domain, "MX")) {
 
 **输出:**
 
-```
+```php
 Record exists.
 ```
 
@@ -51,7 +51,7 @@ Record exists.
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```php
 <?php
 
 $domain = "geeksforgeks.org";
@@ -77,7 +77,7 @@ foreach( $arr as $element) {
 
 **输出:**
 
-```
+```php
 A:found
 MX:found
 NS:found
