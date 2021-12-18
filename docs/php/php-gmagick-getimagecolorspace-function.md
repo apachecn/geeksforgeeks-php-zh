@@ -1,0 +1,58 @@
+# PHP|Gmagick getimagecolorspace()函数
+
+> Original: [https://www.geeksforgeeks.org/php-gmagick-getimagecolorspace-function/](https://www.geeksforgeeks.org/php-gmagick-getimagecolorspace-function/)
+
+**gmagick：：getimagecolorspace()函数**是 PHP 中的一个内置函数，用于获取图像色彩空间。 颜色空间是一个数学模型，它将颜色范围描述为数字元组，通常为 3 或 4 个值是颜色分量(RGB)。
+
+**语法：**
+
+```
+*int* Gmagick::getimagecolorspace( *void* )
+```
+
+**参数：**此函数不接受任何参数。
+
+**返回值：**此函数返回一个包含颜色空间的整数。
+
+**异常：**此函数在出错时引发 GmagickException。
+
+下面给出的程序演示了 PHP 中的**Gmagick：：getimagecolorspace()函数**：
+
+**程序 1：**
+
+```
+<?php
+
+// Create a new Gmagick object
+// https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png
+$gmagick = new Gmagick('geeksforgeeks.png');
+
+// Get the image colorspace
+$colorspace =  $gmagick->getimagecolorspace();
+echo $colorspace;
+?>
+```
+
+发帖主题：Re：Колибри0.7.8.0
+
+**程序 2：**
+
+```
+<?php
+
+// Create a new Gmagick object
+// https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png
+$gmagick = new Gmagick('geeksforgeeks.png');
+
+// Set the colorspace
+$gmagick->setimagecolorspace(5);
+
+// Get the image colorspace
+$colorspace =  $gmagick->getimagecolorspace();
+echo $colorspace;
+?>
+```
+
+发帖主题：Re：Колибри0.7.8.0
+
+**引用：**[https://www.php.net/manual/en/gmagick.getimagecolorspace.php](https://www.php.net/manual/en/gmagick.getimagecolorspace.php)

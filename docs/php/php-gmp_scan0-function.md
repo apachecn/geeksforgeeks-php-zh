@@ -1,0 +1,81 @@
+# PHP|gmp_scan0()函数
+
+> Original: [https://www.geeksforgeeks.org/php-gmp_scan0-function/](https://www.geeksforgeeks.org/php-gmp_scan0-function/)
+
+Gmp_scan0()是一个内置函数，用于从给定索引开始扫描 GMP 编号中的“0”([GNU Multiple Precision：for Large Number](https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library))，该索引向数字中的最高有效位移动。
+
+**语法：**
+
+```
+gmp_scan0($num, $index)
+```
+
+**参数：**此函数接受两个参数，如下所述：
+
+*   **$num**：该参数为 GMP 号，必须传递。 在 PHP 5.6 版和更高版本中，该参数可以是 GMP 对象，也可以传递数字字符串，前提是可以将该字符串转换为数字。
+*   **$index**：此参数表示我们希望从其开始搜索的数字$num 的按位表示形式中的索引或位置。
+
+**返回值：**此函数返回数字中找到“0”的位置。
+
+例如：
+
+```
+Input : gmp_scan0("101111101", 6)
+Output : 7
+
+Input : gmp_scan0("111001111", 2)
+Output : 4
+
+```
+
+以下程序说明了 PHP 中的 gmp_scan0()函数：
+
+**程序 1：**当作为 GMP 编号的数字串作为参数传递时，查找 GMP 编号中“0”位的位置的程序。
+
+```
+<?php
+
+// PHP program to find position of "0" bit in GMP
+// number passed as arguments
+
+// strings as GMP numbers
+$num = "10110001";
+$pos = 2;
+
+echo gmp_scan0($num, $pos) . "\n";
+
+?>
+```
+
+产出：
+
+```
+6
+
+```
+
+**程序 2**：当 GMP 编号作为参数传递时，查找 GMP 编号中“0”位的位置的程序。
+
+```
+<?php
+// PHP program to find position of "0" bit in GMP
+// number
+
+//creating GMP numbers using gmp_init()
+$num = gmp_init(10001111101);
+$pos = 2;
+
+echo gmp_scan0($num, $pos) . "\n";
+
+?>
+```
+
+产出：
+
+```
+7
+
+```
+
+**引用：**
+[http://php.net/manual/en/function.gmp-scan0.php](http://php.net/manual/en/function.gmp-scan0.php)

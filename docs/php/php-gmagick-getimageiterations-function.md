@@ -1,0 +1,55 @@
+# PHP|Gmagick getimageiterations()函数
+
+> Original: [https://www.geeksforgeeks.org/php-gmagick-getimageiterations-function/](https://www.geeksforgeeks.org/php-gmagick-getimageiterations-function/)
+
+**gmagick：：getimageiterations()函数**是 PHP 中的一个内置函数，用于获取图像迭代。 迭代实际上意味着帧在图像中显示的次数，在静止图像的情况下为 0，在动画的情况下为 1。
+
+**语法：**
+
+```
+*int* Gmagick::getimageiterations( *void* )
+```
+
+**参数：**此函数不接受任何参数。
+
+**返回值：**此函数返回一个包含图像迭代的整数值，对于静止图像，该值为 0，对于动画，该值为 1。
+
+**异常：**此函数在出错时引发 GmagickException。
+
+下面给出的程序演示了 PHP 中的**Gmagick：：getimageiterations()函数**：
+
+**程序 1：**
+
+```
+<?php
+
+// Create a new Gmagick object
+// https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-13.png
+$gmagick = new Gmagick('./geeksforgeeks.png');
+
+// Set the iterations
+$iterations = $gmagick->getimageiterations();
+echo $iterations;
+?>
+```
+
+发帖主题：Re：Колибри0.7.8.0
+
+**程序 2：**
+
+```
+<?php
+
+// Create a new Gmagick object
+// https://media.geeksforgeeks.org/wp-content/uploads/20191117145951/g4gnaimation1.gif
+$gmagickAnimation = new Gmagick('g4gnanimation1.gif');
+
+// Set the iterations
+$iterations = $gmagickAnimation->getimageiterations();
+echo $iterations;
+?>
+```
+
+发帖主题：Re：Колибри0.7.8.0
+
+**引用：**[https://www.php.net/manual/en/gmagick.getimageiterations.php](https://www.php.net/manual/en/gmagick.getimageiterations.php)
